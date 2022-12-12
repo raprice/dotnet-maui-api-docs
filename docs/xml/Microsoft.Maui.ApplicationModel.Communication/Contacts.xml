@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Contacts extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Communication.Contacts" />
   <TypeSignature Language="VB.NET" Value="Public Class Contacts" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Contacts abstract sealed" />
   <TypeSignature Language="F#" Value="type Contacts = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Contacts abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.ApplicationModel.Communication.IContacts Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.Contacts.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As IContacts" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::Communication::IContacts ^ Default { Microsoft::Maui::ApplicationModel::Communication::IContacts ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.ApplicationModel.Communication.IContacts" Usage="Microsoft.Maui.ApplicationModel.Communication.Contacts.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::Communication::IContacts ^ Default { Microsoft::Maui::ApplicationModel::Communication::IContacts ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.ApplicationModel.Communication.Contact&gt; PickContactAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Communication.Contacts.PickContactAsync" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function PickContactAsync () As Task(Of Contact)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::ApplicationModel::Communication::Contact ^&gt; ^ PickContactAsync();" />
       <MemberSignature Language="F#" Value="static member PickContactAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.ApplicationModel.Communication.Contact&gt;" Usage="Microsoft.Maui.ApplicationModel.Communication.Contacts.PickContactAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::ApplicationModel::Communication::Contact ^&gt; ^ PickContactAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

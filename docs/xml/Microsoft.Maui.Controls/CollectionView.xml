@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CollectionView extends Microsoft.Maui.Controls.ReorderableItemsView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.CollectionView" />
   <TypeSignature Language="VB.NET" Value="Public Class CollectionView&#xA;Inherits ReorderableItemsView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CollectionView : Microsoft::Maui::Controls::ReorderableItemsView" />
   <TypeSignature Language="F#" Value="type CollectionView = class&#xA;    inherit ReorderableItemsView" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CollectionView : Microsoft::Maui::Controls::ReorderableItemsView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

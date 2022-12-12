@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ScrollToRequestEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ScrollToRequestEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ScrollToRequestEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ScrollToRequestEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type ScrollToRequestEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ScrollToRequestEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 index, int32 groupIndex, valuetype Microsoft.Maui.Controls.ScrollToPosition scrollToPosition, bool isAnimated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ScrollToRequestEventArgs.#ctor(System.Int32,System.Int32,Microsoft.Maui.Controls.ScrollToPosition,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (index As Integer, groupIndex As Integer, scrollToPosition As ScrollToPosition, isAnimated As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ScrollToRequestEventArgs(int index, int groupIndex, Microsoft::Maui::Controls::ScrollToPosition scrollToPosition, bool isAnimated);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.ScrollToRequestEventArgs : int * int * Microsoft.Maui.Controls.ScrollToPosition * bool -&gt; Microsoft.Maui.Controls.ScrollToRequestEventArgs" Usage="new Microsoft.Maui.Controls.ScrollToRequestEventArgs (index, groupIndex, scrollToPosition, isAnimated)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ScrollToRequestEventArgs(int index, int groupIndex, Microsoft::Maui::Controls::ScrollToPosition scrollToPosition, bool isAnimated);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object item, object group, valuetype Microsoft.Maui.Controls.ScrollToPosition scrollToPosition, bool isAnimated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ScrollToRequestEventArgs.#ctor(System.Object,System.Object,Microsoft.Maui.Controls.ScrollToPosition,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (item As Object, group As Object, scrollToPosition As ScrollToPosition, isAnimated As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ScrollToRequestEventArgs(System::Object ^ item, System::Object ^ group, Microsoft::Maui::Controls::ScrollToPosition scrollToPosition, bool isAnimated);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.ScrollToRequestEventArgs : obj * obj * Microsoft.Maui.Controls.ScrollToPosition * bool -&gt; Microsoft.Maui.Controls.ScrollToRequestEventArgs" Usage="new Microsoft.Maui.Controls.ScrollToRequestEventArgs (item, group, scrollToPosition, isAnimated)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ScrollToRequestEventArgs(System::Object ^ item, System::Object ^ group, Microsoft::Maui::Controls::ScrollToPosition scrollToPosition, bool isAnimated);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -77,8 +77,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Group" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ScrollToRequestEventArgs.Group" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Group As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Group { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Group : obj" Usage="Microsoft.Maui.Controls.ScrollToRequestEventArgs.Group" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Group { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -98,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 GroupIndex" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ScrollToRequestEventArgs.GroupIndex" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GroupIndex As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GroupIndex { int get(); };" />
       <MemberSignature Language="F#" Value="member this.GroupIndex : int" Usage="Microsoft.Maui.Controls.ScrollToRequestEventArgs.GroupIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GroupIndex { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ScrollToRequestEventArgs.Index" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Index : int" Usage="Microsoft.Maui.Controls.ScrollToRequestEventArgs.Index" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -140,8 +140,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsAnimated" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ScrollToRequestEventArgs.IsAnimated" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAnimated As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAnimated { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsAnimated : bool" Usage="Microsoft.Maui.Controls.ScrollToRequestEventArgs.IsAnimated" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAnimated { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -161,8 +161,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Item" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ScrollToRequestEventArgs.Item" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Item As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Item { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Item : obj" Usage="Microsoft.Maui.Controls.ScrollToRequestEventArgs.Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Item { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -182,8 +182,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.ScrollToMode Mode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ScrollToRequestEventArgs.Mode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Mode As ScrollToMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ScrollToMode Mode { Microsoft::Maui::Controls::ScrollToMode get(); };" />
       <MemberSignature Language="F#" Value="member this.Mode : Microsoft.Maui.Controls.ScrollToMode" Usage="Microsoft.Maui.Controls.ScrollToRequestEventArgs.Mode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ScrollToMode Mode { Microsoft::Maui::Controls::ScrollToMode get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -203,8 +203,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.ScrollToPosition ScrollToPosition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ScrollToRequestEventArgs.ScrollToPosition" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollToPosition As ScrollToPosition" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ScrollToPosition ScrollToPosition { Microsoft::Maui::Controls::ScrollToPosition get(); };" />
       <MemberSignature Language="F#" Value="member this.ScrollToPosition : Microsoft.Maui.Controls.ScrollToPosition" Usage="Microsoft.Maui.Controls.ScrollToRequestEventArgs.ScrollToPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ScrollToPosition ScrollToPosition { Microsoft::Maui::Controls::ScrollToPosition get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

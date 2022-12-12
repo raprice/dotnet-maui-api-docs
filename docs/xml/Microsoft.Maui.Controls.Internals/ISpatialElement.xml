@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISpatialElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.ISpatialElement" />
   <TypeSignature Language="VB.NET" Value="Public Interface ISpatialElement" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ISpatialElement" />
   <TypeSignature Language="F#" Value="type ISpatialElement = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ISpatialElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.Region Region" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.ISpatialElement.Region" />
       <MemberSignature Language="VB.NET" Value="Public Property Region As Region" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Region Region { Microsoft::Maui::Controls::Region get(); void set(Microsoft::Maui::Controls::Region value); };" />
       <MemberSignature Language="F#" Value="member this.Region : Microsoft.Maui.Controls.Region with get, set" Usage="Microsoft.Maui.Controls.Internals.ISpatialElement.Region" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Region Region { Microsoft::Maui::Controls::Region get(); void set(Microsoft::Maui::Controls::Region value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AltitudeReferenceSystem extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem" />
   <TypeSignature Language="VB.NET" Value="Public Enum AltitudeReferenceSystem" />
-  <TypeSignature Language="C++ CLI" Value="public enum class AltitudeReferenceSystem" />
   <TypeSignature Language="F#" Value="type AltitudeReferenceSystem = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class AltitudeReferenceSystem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -24,8 +24,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem Ellipsoid = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem.Ellipsoid" />
       <MemberSignature Language="VB.NET" Value="Ellipsoid" />
-      <MemberSignature Language="C++ CLI" Value="Ellipsoid" />
       <MemberSignature Language="F#" Value="Ellipsoid = 2" Usage="Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem.Ellipsoid" />
+      <MemberSignature Language="C++ CLI" Value="Ellipsoid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem Geoid = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem.Geoid" />
       <MemberSignature Language="VB.NET" Value="Geoid" />
-      <MemberSignature Language="C++ CLI" Value="Geoid" />
       <MemberSignature Language="F#" Value="Geoid = 3" Usage="Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem.Geoid" />
+      <MemberSignature Language="C++ CLI" Value="Geoid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -64,8 +64,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem Surface = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem.Surface" />
       <MemberSignature Language="VB.NET" Value="Surface" />
-      <MemberSignature Language="C++ CLI" Value="Surface" />
       <MemberSignature Language="F#" Value="Surface = 4" Usage="Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem.Surface" />
+      <MemberSignature Language="C++ CLI" Value="Surface" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -84,8 +84,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem Terrain = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem.Terrain" />
       <MemberSignature Language="VB.NET" Value="Terrain" />
-      <MemberSignature Language="C++ CLI" Value="Terrain" />
       <MemberSignature Language="F#" Value="Terrain = 1" Usage="Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem.Terrain" />
+      <MemberSignature Language="C++ CLI" Value="Terrain" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -104,8 +104,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem Unspecified = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem.Unspecified" />
       <MemberSignature Language="VB.NET" Value="Unspecified" />
-      <MemberSignature Language="C++ CLI" Value="Unspecified" />
       <MemberSignature Language="F#" Value="Unspecified = 0" Usage="Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem.Unspecified" />
+      <MemberSignature Language="C++ CLI" Value="Unspecified" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

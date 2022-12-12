@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactPhone extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Communication.ContactPhone" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactPhone" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ContactPhone" />
   <TypeSignature Language="F#" Value="type ContactPhone = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactPhone" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string phoneNumber) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Communication.ContactPhone.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (phoneNumber As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactPhone(System::String ^ phoneNumber);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ApplicationModel.Communication.ContactPhone : string -&gt; Microsoft.Maui.ApplicationModel.Communication.ContactPhone" Usage="new Microsoft.Maui.ApplicationModel.Communication.ContactPhone phoneNumber" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactPhone(System::String ^ phoneNumber);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string PhoneNumber" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.ContactPhone.PhoneNumber" />
       <MemberSignature Language="VB.NET" Value="Public Property PhoneNumber As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PhoneNumber { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PhoneNumber : string with get, set" Usage="Microsoft.Maui.ApplicationModel.Communication.ContactPhone.PhoneNumber" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PhoneNumber { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Communication.ContactPhone.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="contactPhone.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

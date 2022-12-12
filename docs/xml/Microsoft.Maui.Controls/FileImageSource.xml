@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FileImageSource extends Microsoft.Maui.Controls.ImageSource implements class Microsoft.Maui.IFileImageSource, class Microsoft.Maui.IImageSource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.FileImageSource" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FileImageSource&#xA;Inherits ImageSource&#xA;Implements IFileImageSource" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FileImageSource sealed : Microsoft::Maui::Controls::ImageSource, Microsoft::Maui::IFileImageSource" />
   <TypeSignature Language="F#" Value="type FileImageSource = class&#xA;    inherit ImageSource&#xA;    interface IFileImageSource&#xA;    interface IImageSource" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FileImageSource sealed : Microsoft::Maui::Controls::ImageSource, Microsoft::Maui::IFileImageSource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -53,8 +53,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; Cancel() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FileImageSource.Cancel" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Cancel () As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Threading::Tasks::Task&lt;bool&gt; ^ Cancel();" />
       <MemberSignature Language="F#" Value="override this.Cancel : unit -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="fileImageSource.Cancel " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Threading::Tasks::Task&lt;bool&gt; ^ Cancel();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string File" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FileImageSource.File" />
       <MemberSignature Language="VB.NET" Value="Public Property File As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ File { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.File : string with get, set" Usage="Microsoft.Maui.Controls.FileImageSource.File" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ File { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -96,8 +96,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FileProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.FileImageSource.FileProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FileProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FileProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FileProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.FileImageSource.FileProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FileProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -116,8 +116,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEmpty" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FileImageSource.IsEmpty" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsEmpty As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsEmpty { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsEmpty : bool" Usage="Microsoft.Maui.Controls.FileImageSource.IsEmpty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsEmpty { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IImageSource.IsEmpty</InterfaceMember>
@@ -164,8 +164,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Implicit(class Microsoft.Maui.Controls.FileImageSource file) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FileImageSource.op_Implicit(Microsoft.Maui.Controls.FileImageSource)~System.String" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (file As FileImageSource) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator System::String ^(Microsoft::Maui::Controls::FileImageSource ^ file);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : Microsoft.Maui.Controls.FileImageSource -&gt; string" Usage="Microsoft.Maui.Controls.FileImageSource.op_Implicit file" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator System::String ^(Microsoft::Maui::Controls::FileImageSource ^ file);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -189,8 +189,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Maui.Controls.FileImageSource op_Implicit(string file) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FileImageSource.op_Implicit(System.String)~Microsoft.Maui.Controls.FileImageSource" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (file As String) As FileImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::FileImageSource ^(System::String ^ file);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Microsoft.Maui.Controls.FileImageSource" Usage="Microsoft.Maui.Controls.FileImageSource.op_Implicit file" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::FileImageSource ^(System::String ^ file);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -214,8 +214,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FileImageSource.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="fileImageSource.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

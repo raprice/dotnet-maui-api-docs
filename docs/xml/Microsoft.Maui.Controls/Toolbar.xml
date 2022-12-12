@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Toolbar extends System.Object implements class Microsoft.Maui.IElement, class Microsoft.Maui.IToolbar, class System.ComponentModel.INotifyPropertyChanged" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Toolbar" />
   <TypeSignature Language="VB.NET" Value="Public Class Toolbar&#xA;Implements INotifyPropertyChanged, IToolbar" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Toolbar : Microsoft::Maui::IToolbar, System::ComponentModel::INotifyPropertyChanged" />
   <TypeSignature Language="F#" Value="type Toolbar = class&#xA;    interface IToolbar&#xA;    interface IElement&#xA;    interface INotifyPropertyChanged" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Toolbar : Microsoft::Maui::IToolbar, System::ComponentModel::INotifyPropertyChanged" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IElement parent) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Toolbar.#ctor(Microsoft.Maui.IElement)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (parent As IElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Toolbar(Microsoft::Maui::IElement ^ parent);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Toolbar : Microsoft.Maui.IElement -&gt; Microsoft.Maui.Controls.Toolbar" Usage="new Microsoft.Maui.Controls.Toolbar parent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Toolbar(Microsoft::Maui::IElement ^ parent);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool BackButtonEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.BackButtonEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property BackButtonEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BackButtonEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.BackButtonEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.Toolbar.BackButtonEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BackButtonEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string BackButtonTitle" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.BackButtonTitle" />
       <MemberSignature Language="VB.NET" Value="Public Property BackButtonTitle As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BackButtonTitle { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BackButtonTitle : string with get, set" Usage="Microsoft.Maui.Controls.Toolbar.BackButtonTitle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BackButtonTitle { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -96,8 +96,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool BackButtonVisible" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.BackButtonVisible" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property BackButtonVisible As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool BackButtonVisible { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.BackButtonVisible : bool with get, set" Usage="Microsoft.Maui.Controls.Toolbar.BackButtonVisible" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool BackButtonVisible { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IToolbar.BackButtonVisible</InterfaceMember>
@@ -120,8 +120,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Brush BarBackground" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.BarBackground" />
       <MemberSignature Language="VB.NET" Value="Public Property BarBackground As Brush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Brush ^ BarBackground { Microsoft::Maui::Controls::Brush ^ get(); void set(Microsoft::Maui::Controls::Brush ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BarBackground : Microsoft.Maui.Controls.Brush with get, set" Usage="Microsoft.Maui.Controls.Toolbar.BarBackground" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Brush ^ BarBackground { Microsoft::Maui::Controls::Brush ^ get(); void set(Microsoft::Maui::Controls::Brush ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -141,8 +141,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; BarHeight" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.BarHeight" />
       <MemberSignature Language="VB.NET" Value="Public Property BarHeight As Nullable(Of Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; BarHeight { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
       <MemberSignature Language="F#" Value="member this.BarHeight : Nullable&lt;double&gt; with get, set" Usage="Microsoft.Maui.Controls.Toolbar.BarHeight" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; BarHeight { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -162,8 +162,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color BarTextColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.BarTextColor" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property BarTextColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::Color ^ BarTextColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BarTextColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.Toolbar.BarTextColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::Color ^ BarTextColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -183,8 +183,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.Controls.Toolbar, class Microsoft.Maui.Handlers.ToolbarHandler&gt; ControlsToolbarMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Toolbar.ControlsToolbarMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ControlsToolbarMapper As IPropertyMapper(Of Toolbar, ToolbarHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::Controls::Toolbar ^, Microsoft::Maui::Handlers::ToolbarHandler ^&gt; ^ ControlsToolbarMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlsToolbarMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.Controls.Toolbar, Microsoft.Maui.Handlers.ToolbarHandler&gt;" Usage="Microsoft.Maui.Controls.Toolbar.ControlsToolbarMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::Controls::Toolbar ^, Microsoft::Maui::Handlers::ToolbarHandler ^&gt; ^ ControlsToolbarMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -203,8 +203,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool DrawerToggleVisible" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.DrawerToggleVisible" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property DrawerToggleVisible As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool DrawerToggleVisible { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.DrawerToggleVisible : bool with get, set" Usage="Microsoft.Maui.Controls.Toolbar.DrawerToggleVisible" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool DrawerToggleVisible { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -224,8 +224,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool DynamicOverflowEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.DynamicOverflowEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property DynamicOverflowEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DynamicOverflowEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.DynamicOverflowEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.Toolbar.DynamicOverflowEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DynamicOverflowEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -245,8 +245,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IElementHandler Handler" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.Handler" />
       <MemberSignature Language="VB.NET" Value="Public Property Handler As IElementHandler" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IElementHandler ^ Handler { Microsoft::Maui::IElementHandler ^ get(); void set(Microsoft::Maui::IElementHandler ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Handler : Microsoft.Maui.IElementHandler with get, set" Usage="Microsoft.Maui.Controls.Toolbar.Handler" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IElementHandler ^ Handler { Microsoft::Maui::IElementHandler ^ get(); void set(Microsoft::Maui::IElementHandler ^ value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IElement.Handler</InterfaceMember>
@@ -269,8 +269,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color IconColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.IconColor" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property IconColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::Color ^ IconColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.IconColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.Toolbar.IconColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::Color ^ IconColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -290,8 +290,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsVisible" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.IsVisible" />
       <MemberSignature Language="VB.NET" Value="Public Property IsVisible As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsVisible : bool with get, set" Usage="Microsoft.Maui.Controls.Toolbar.IsVisible" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IToolbar.IsVisible</InterfaceMember>
@@ -314,8 +314,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IElement Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As IElement" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IElement ^ Parent { Microsoft::Maui::IElement ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Parent : Microsoft.Maui.IElement" Usage="Microsoft.Maui.Controls.Toolbar.Parent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IElement ^ Parent { Microsoft::Maui::IElement ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IElement.Parent</InterfaceMember>
@@ -338,8 +338,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.ComponentModel.PropertyChangedEventHandler PropertyChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Toolbar.PropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event PropertyChanged As PropertyChangedEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::ComponentModel::PropertyChangedEventHandler ^ PropertyChanged;" />
       <MemberSignature Language="F#" Value="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " Usage="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::ComponentModel::PropertyChangedEventHandler ^ PropertyChanged;" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged</InterfaceMember>
@@ -361,8 +361,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.Title" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Title As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Microsoft.Maui.Controls.Toolbar.Title" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -382,8 +382,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource TitleIcon" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.TitleIcon" />
       <MemberSignature Language="VB.NET" Value="Public Property TitleIcon As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ TitleIcon { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberSignature Language="F#" Value="member this.TitleIcon : Microsoft.Maui.Controls.ImageSource with get, set" Usage="Microsoft.Maui.Controls.Toolbar.TitleIcon" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ TitleIcon { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -403,8 +403,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.VisualElement TitleView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.TitleView" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property TitleView As VisualElement" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Controls::VisualElement ^ TitleView { Microsoft::Maui::Controls::VisualElement ^ get(); void set(Microsoft::Maui::Controls::VisualElement ^ value); };" />
       <MemberSignature Language="F#" Value="member this.TitleView : Microsoft.Maui.Controls.VisualElement with get, set" Usage="Microsoft.Maui.Controls.Toolbar.TitleView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Controls::VisualElement ^ TitleView { Microsoft::Maui::Controls::VisualElement ^ get(); void set(Microsoft::Maui::Controls::VisualElement ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -424,8 +424,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.Controls.ToolbarItem&gt; ToolbarItems" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Toolbar.ToolbarItems" />
       <MemberSignature Language="VB.NET" Value="Public Property ToolbarItems As IEnumerable(Of ToolbarItem)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Controls::ToolbarItem ^&gt; ^ ToolbarItems { System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Controls::ToolbarItem ^&gt; ^ get(); void set(System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Controls::ToolbarItem ^&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ToolbarItems : seq&lt;Microsoft.Maui.Controls.ToolbarItem&gt; with get, set" Usage="Microsoft.Maui.Controls.Toolbar.ToolbarItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Controls::ToolbarItem ^&gt; ^ ToolbarItems { System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Controls::ToolbarItem ^&gt; ^ get(); void set(System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Controls::ToolbarItem ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

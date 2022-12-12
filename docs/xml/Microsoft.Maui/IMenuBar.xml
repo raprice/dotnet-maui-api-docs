@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMenuBar implements class Microsoft.Maui.IElement, class System.Collections.Generic.ICollection`1&lt;class Microsoft.Maui.IMenuBarItem&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.IMenuBarItem&gt;, class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.IMenuBarItem&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IMenuBar" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMenuBar&#xA;Implements ICollection(Of IMenuBarItem), IElement, IEnumerable(Of IMenuBarItem), IList(Of IMenuBarItem)" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IMenuBar : Microsoft::Maui::IElement, System::Collections::Generic::ICollection&lt;Microsoft::Maui::IMenuBarItem ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::IMenuBarItem ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::IMenuBarItem ^&gt;" />
   <TypeSignature Language="F#" Value="type IMenuBar = interface&#xA;    interface IList&lt;IMenuBarItem&gt;&#xA;    interface ICollection&lt;IMenuBarItem&gt;&#xA;    interface seq&lt;IMenuBarItem&gt;&#xA;    interface IEnumerable&#xA;    interface IElement" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IMenuBar : Microsoft::Maui::IElement, System::Collections::Generic::ICollection&lt;Microsoft::Maui::IMenuBarItem ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::IMenuBarItem ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::IMenuBarItem ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -45,8 +45,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IMenuBar.IsEnabled" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEnabled { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsEnabled : bool" Usage="Microsoft.Maui.IMenuBar.IsEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEnabled { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

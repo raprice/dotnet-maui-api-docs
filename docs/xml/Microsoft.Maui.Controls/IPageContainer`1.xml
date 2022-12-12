@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPageContainer`1&lt;(class Microsoft.Maui.Controls.Page) + T&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IPageContainer`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPageContainer(Of Out T)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA; where T : Pagepublic interface class IPageContainer" />
   <TypeSignature Language="F#" Value="type IPageContainer&lt;'T (requires 'T :&gt; Page)&gt; = interface" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA; where T : Pagepublic interface class IPageContainer" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

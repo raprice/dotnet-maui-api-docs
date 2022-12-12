@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ScrollView extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.ScrollView" />
   <TypeSignature Language="VB.NET" Value="Public Module ScrollView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ScrollView abstract sealed" />
   <TypeSignature Language="F#" Value="type ScrollView = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ScrollView abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetShouldDelayContentTouches(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.ScrollView.GetShouldDelayContentTouches(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetShouldDelayContentTouches (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetShouldDelayContentTouches(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetShouldDelayContentTouches : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.ScrollView.GetShouldDelayContentTouches element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetShouldDelayContentTouches(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetShouldDelayContentTouches(class Microsoft.Maui.Controls.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.ScrollView.SetShouldDelayContentTouches(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetShouldDelayContentTouches (element As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetShouldDelayContentTouches(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetShouldDelayContentTouches : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.ScrollView.SetShouldDelayContentTouches (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetShouldDelayContentTouches(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -74,8 +74,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.ScrollView&gt; SetShouldDelayContentTouches(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.ScrollView&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.ScrollView.SetShouldDelayContentTouches(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.ScrollView},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetShouldDelayContentTouches (config As IPlatformElementConfiguration(Of iOS, ScrollView), value As Boolean) As IPlatformElementConfiguration(Of iOS, ScrollView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::ScrollView ^&gt; ^ SetShouldDelayContentTouches(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::ScrollView ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetShouldDelayContentTouches : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.ScrollView&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.ScrollView&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.ScrollView.SetShouldDelayContentTouches (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::ScrollView ^&gt; ^ SetShouldDelayContentTouches(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::ScrollView ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -101,8 +101,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ShouldDelayContentTouches(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.ScrollView&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.ScrollView.ShouldDelayContentTouches(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.ScrollView})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShouldDelayContentTouches (config As IPlatformElementConfiguration(Of iOS, ScrollView)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool ShouldDelayContentTouches(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::ScrollView ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member ShouldDelayContentTouches : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.ScrollView&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.ScrollView.ShouldDelayContentTouches config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool ShouldDelayContentTouches(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::ScrollView ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -126,8 +126,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ShouldDelayContentTouchesProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.ScrollView.ShouldDelayContentTouchesProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly ShouldDelayContentTouchesProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ShouldDelayContentTouchesProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ShouldDelayContentTouchesProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.ScrollView.ShouldDelayContentTouchesProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ShouldDelayContentTouchesProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

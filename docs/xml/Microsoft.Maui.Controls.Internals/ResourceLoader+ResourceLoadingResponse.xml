@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit ResourceLoader/ResourceLoadingResponse extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.ResourceLoader.ResourceLoadingResponse" />
   <TypeSignature Language="VB.NET" Value="Public Class ResourceLoader.ResourceLoadingResponse" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class ResourceLoader::ResourceLoadingResponse" />
   <TypeSignature Language="F#" Value="type ResourceLoader.ResourceLoadingResponse = class" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class ResourceLoader::ResourceLoadingResponse" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string ResourceContent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.ResourceLoader.ResourceLoadingResponse.ResourceContent" />
       <MemberSignature Language="VB.NET" Value="Public Property ResourceContent As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ResourceContent { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ResourceContent : string with get, set" Usage="Microsoft.Maui.Controls.Internals.ResourceLoader.ResourceLoadingResponse.ResourceContent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ResourceContent { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool UseDesignProperties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.ResourceLoader.ResourceLoadingResponse.UseDesignProperties" />
       <MemberSignature Language="VB.NET" Value="Public Property UseDesignProperties As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseDesignProperties { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.UseDesignProperties : bool with get, set" Usage="Microsoft.Maui.Controls.Internals.ResourceLoader.ResourceLoadingResponse.UseDesignProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseDesignProperties { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

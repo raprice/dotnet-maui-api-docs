@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactEmail extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Communication.ContactEmail" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactEmail" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ContactEmail" />
   <TypeSignature Language="F#" Value="type ContactEmail = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactEmail" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string emailAddress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Communication.ContactEmail.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (emailAddress As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactEmail(System::String ^ emailAddress);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ApplicationModel.Communication.ContactEmail : string -&gt; Microsoft.Maui.ApplicationModel.Communication.ContactEmail" Usage="new Microsoft.Maui.ApplicationModel.Communication.ContactEmail emailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactEmail(System::String ^ emailAddress);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string EmailAddress" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.ContactEmail.EmailAddress" />
       <MemberSignature Language="VB.NET" Value="Public Property EmailAddress As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EmailAddress { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.EmailAddress : string with get, set" Usage="Microsoft.Maui.ApplicationModel.Communication.ContactEmail.EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EmailAddress { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Communication.ContactEmail.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="contactEmail.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

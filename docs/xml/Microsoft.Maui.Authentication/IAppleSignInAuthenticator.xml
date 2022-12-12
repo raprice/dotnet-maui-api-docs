@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAppleSignInAuthenticator" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Authentication.IAppleSignInAuthenticator" />
   <TypeSignature Language="VB.NET" Value="Public Interface IAppleSignInAuthenticator" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IAppleSignInAuthenticator" />
   <TypeSignature Language="F#" Value="type IAppleSignInAuthenticator = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IAppleSignInAuthenticator" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

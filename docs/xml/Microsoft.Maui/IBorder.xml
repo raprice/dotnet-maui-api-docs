@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBorder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IBorder" />
   <TypeSignature Language="VB.NET" Value="Public Interface IBorder" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IBorder" />
   <TypeSignature Language="F#" Value="type IBorder = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IBorder" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IBorderStroke Border" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IBorder.Border" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Border As IBorderStroke" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IBorderStroke ^ Border { Microsoft::Maui::IBorderStroke ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Border : Microsoft.Maui.IBorderStroke" Usage="Microsoft.Maui.IBorder.Border" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IBorderStroke ^ Border { Microsoft::Maui::IBorderStroke ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

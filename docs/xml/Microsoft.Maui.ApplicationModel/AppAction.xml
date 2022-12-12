@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AppAction extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.AppAction" />
   <TypeSignature Language="VB.NET" Value="Public Class AppAction" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AppAction" />
   <TypeSignature Language="F#" Value="type AppAction = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppAction" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -49,8 +49,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Id" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppAction.Id" />
       <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Id : string with get, set" Usage="Microsoft.Maui.ApplicationModel.AppAction.Id" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -70,8 +70,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Subtitle" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppAction.Subtitle" />
       <MemberSignature Language="VB.NET" Value="Public Property Subtitle As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subtitle { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Subtitle : string with get, set" Usage="Microsoft.Maui.ApplicationModel.AppAction.Subtitle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subtitle { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -91,8 +91,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppAction.Title" />
       <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Microsoft.Maui.ApplicationModel.AppAction.Title" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

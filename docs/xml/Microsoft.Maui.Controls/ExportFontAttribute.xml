@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ExportFontAttribute extends System.Attribute" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ExportFontAttribute" />
   <TypeSignature Language="VB.NET" Value="Public Class ExportFontAttribute&#xA;Inherits Attribute" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ExportFontAttribute : Attribute" />
   <TypeSignature Language="F#" Value="type ExportFontAttribute = class&#xA;    inherit Attribute" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExportFontAttribute : Attribute" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string fontFileName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ExportFontAttribute.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (fontFileName As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExportFontAttribute(System::String ^ fontFileName);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.ExportFontAttribute : string -&gt; Microsoft.Maui.Controls.ExportFontAttribute" Usage="new Microsoft.Maui.Controls.ExportFontAttribute fontFileName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExportFontAttribute(System::String ^ fontFileName);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Alias" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ExportFontAttribute.Alias" />
       <MemberSignature Language="VB.NET" Value="Public Property Alias As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Alias { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Alias : string with get, set" Usage="Microsoft.Maui.Controls.ExportFontAttribute.Alias" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Alias { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string FontFileName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ExportFontAttribute.FontFileName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontFileName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFileName { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.FontFileName : string" Usage="Microsoft.Maui.Controls.ExportFontAttribute.FontFileName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFileName { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

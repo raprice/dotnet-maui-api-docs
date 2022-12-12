@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit StackBase extends Microsoft.Maui.Controls.Layout implements class Microsoft.Maui.IContainer, class Microsoft.Maui.IElement, class Microsoft.Maui.ILayout, class Microsoft.Maui.IPadding, class Microsoft.Maui.ISafeAreaView, class Microsoft.Maui.IStackLayout, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView, class System.Collections.Generic.ICollection`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.StackBase" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class StackBase&#xA;Inherits Layout&#xA;Implements ICollection(Of IView), IEnumerable(Of IView), IList(Of IView), IStackLayout" />
-  <TypeSignature Language="C++ CLI" Value="public ref class StackBase abstract : Microsoft::Maui::Controls::Layout, Microsoft::Maui::IStackLayout, System::Collections::Generic::ICollection&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::IView ^&gt;" />
   <TypeSignature Language="F#" Value="type StackBase = class&#xA;    inherit Layout&#xA;    interface IStackLayout&#xA;    interface ILayout&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IContainer&#xA;    interface IList&lt;IView&gt;&#xA;    interface ICollection&lt;IView&gt;&#xA;    interface seq&lt;IView&gt;&#xA;    interface IEnumerable&#xA;    interface ISafeAreaView&#xA;    interface IPadding" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StackBase abstract : Microsoft::Maui::Controls::Layout, Microsoft::Maui::IStackLayout, System::Collections::Generic::ICollection&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::IView ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -83,8 +83,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Spacing" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.StackBase.Spacing" />
       <MemberSignature Language="VB.NET" Value="Public Property Spacing As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Spacing { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Spacing : double with get, set" Usage="Microsoft.Maui.Controls.StackBase.Spacing" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Spacing { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -104,8 +104,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SpacingProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.StackBase.SpacingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SpacingProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SpacingProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SpacingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.StackBase.SpacingProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SpacingProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

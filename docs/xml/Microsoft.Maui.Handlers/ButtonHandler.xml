@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ButtonHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.IButton, object&gt; implements class Microsoft.Maui.Handlers.IButtonHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.ButtonHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class ButtonHandler&#xA;Inherits ViewHandler(Of IButton, Object)&#xA;Implements IButtonHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ButtonHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IButton ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IButtonHandler" />
   <TypeSignature Language="F#" Value="type ButtonHandler = class&#xA;    inherit ViewHandler&lt;IButton, obj&gt;&#xA;    interface IButtonHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ButtonHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IButton ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IButtonHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -77,8 +77,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ButtonHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ButtonHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.ButtonHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.Handlers.ButtonHandler" Usage="new Microsoft.Maui.Handlers.ButtonHandler (mapper, commandMapper)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ButtonHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IButton, class Microsoft.Maui.Handlers.IButtonHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.ButtonHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IButton, IButtonHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IButton ^, Microsoft::Maui::Handlers::IButtonHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IButton, Microsoft.Maui.Handlers.IButtonHandler&gt;" Usage="Microsoft.Maui.Handlers.ButtonHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IButton ^, Microsoft::Maui::Handlers::IButtonHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -120,8 +120,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ButtonHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="buttonHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -142,8 +142,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IImage, class Microsoft.Maui.Handlers.IButtonHandler&gt; ImageButtonMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.ButtonHandler.ImageButtonMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ImageButtonMapper As IPropertyMapper(Of IImage, IButtonHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IImage ^, Microsoft::Maui::Handlers::IButtonHandler ^&gt; ^ ImageButtonMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ImageButtonMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IImage, Microsoft.Maui.Handlers.IButtonHandler&gt;" Usage="Microsoft.Maui.Handlers.ButtonHandler.ImageButtonMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IImage ^, Microsoft::Maui::Handlers::IButtonHandler ^&gt; ^ ImageButtonMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -162,8 +162,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Platform.ImageSourcePartLoader ImageSourceLoader" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.ButtonHandler.ImageSourceLoader" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ImageSourceLoader As ImageSourcePartLoader" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Platform::ImageSourcePartLoader ^ ImageSourceLoader { Microsoft::Maui::Platform::ImageSourcePartLoader ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ImageSourceLoader : Microsoft.Maui.Platform.ImageSourcePartLoader" Usage="Microsoft.Maui.Handlers.ButtonHandler.ImageSourceLoader" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Platform::ImageSourcePartLoader ^ ImageSourceLoader { Microsoft::Maui::Platform::ImageSourcePartLoader ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IButtonHandler.ImageSourceLoader</InterfaceMember>
@@ -186,8 +186,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCharacterSpacing(class Microsoft.Maui.Handlers.IButtonHandler handler, class Microsoft.Maui.ITextStyle button) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ButtonHandler.MapCharacterSpacing(Microsoft.Maui.Handlers.IButtonHandler,Microsoft.Maui.ITextStyle)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCharacterSpacing (handler As IButtonHandler, button As ITextStyle)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCharacterSpacing(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::ITextStyle ^ button);" />
       <MemberSignature Language="F#" Value="static member MapCharacterSpacing : Microsoft.Maui.Handlers.IButtonHandler * Microsoft.Maui.ITextStyle -&gt; unit" Usage="Microsoft.Maui.Handlers.ButtonHandler.MapCharacterSpacing (handler, button)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCharacterSpacing(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::ITextStyle ^ button);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -212,8 +212,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCornerRadius(class Microsoft.Maui.Handlers.IButtonHandler handler, class Microsoft.Maui.IButtonStroke buttonStroke) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ButtonHandler.MapCornerRadius(Microsoft.Maui.Handlers.IButtonHandler,Microsoft.Maui.IButtonStroke)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCornerRadius (handler As IButtonHandler, buttonStroke As IButtonStroke)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCornerRadius(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::IButtonStroke ^ buttonStroke);" />
       <MemberSignature Language="F#" Value="static member MapCornerRadius : Microsoft.Maui.Handlers.IButtonHandler * Microsoft.Maui.IButtonStroke -&gt; unit" Usage="Microsoft.Maui.Handlers.ButtonHandler.MapCornerRadius (handler, buttonStroke)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCornerRadius(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::IButtonStroke ^ buttonStroke);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -238,8 +238,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapFont(class Microsoft.Maui.Handlers.IButtonHandler handler, class Microsoft.Maui.ITextStyle button) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ButtonHandler.MapFont(Microsoft.Maui.Handlers.IButtonHandler,Microsoft.Maui.ITextStyle)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapFont (handler As IButtonHandler, button As ITextStyle)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFont(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::ITextStyle ^ button);" />
       <MemberSignature Language="F#" Value="static member MapFont : Microsoft.Maui.Handlers.IButtonHandler * Microsoft.Maui.ITextStyle -&gt; unit" Usage="Microsoft.Maui.Handlers.ButtonHandler.MapFont (handler, button)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFont(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::ITextStyle ^ button);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -264,8 +264,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapImageSource(class Microsoft.Maui.Handlers.IButtonHandler handler, class Microsoft.Maui.IImage image) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ButtonHandler.MapImageSource(Microsoft.Maui.Handlers.IButtonHandler,Microsoft.Maui.IImage)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapImageSource (handler As IButtonHandler, image As IImage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapImageSource(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::IImage ^ image);" />
       <MemberSignature Language="F#" Value="static member MapImageSource : Microsoft.Maui.Handlers.IButtonHandler * Microsoft.Maui.IImage -&gt; unit" Usage="Microsoft.Maui.Handlers.ButtonHandler.MapImageSource (handler, image)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapImageSource(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::IImage ^ image);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -290,8 +290,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapPadding(class Microsoft.Maui.Handlers.IButtonHandler handler, class Microsoft.Maui.IButton button) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ButtonHandler.MapPadding(Microsoft.Maui.Handlers.IButtonHandler,Microsoft.Maui.IButton)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapPadding (handler As IButtonHandler, button As IButton)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPadding(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::IButton ^ button);" />
       <MemberSignature Language="F#" Value="static member MapPadding : Microsoft.Maui.Handlers.IButtonHandler * Microsoft.Maui.IButton -&gt; unit" Usage="Microsoft.Maui.Handlers.ButtonHandler.MapPadding (handler, button)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPadding(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::IButton ^ button);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -316,8 +316,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IButton, class Microsoft.Maui.Handlers.IButtonHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.ButtonHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IButton, IButtonHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IButton ^, Microsoft::Maui::Handlers::IButtonHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IButton, Microsoft.Maui.Handlers.IButtonHandler&gt;" Usage="Microsoft.Maui.Handlers.ButtonHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IButton ^, Microsoft::Maui::Handlers::IButtonHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -336,8 +336,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStrokeColor(class Microsoft.Maui.Handlers.IButtonHandler handler, class Microsoft.Maui.IButtonStroke buttonStroke) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ButtonHandler.MapStrokeColor(Microsoft.Maui.Handlers.IButtonHandler,Microsoft.Maui.IButtonStroke)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStrokeColor (handler As IButtonHandler, buttonStroke As IButtonStroke)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeColor(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::IButtonStroke ^ buttonStroke);" />
       <MemberSignature Language="F#" Value="static member MapStrokeColor : Microsoft.Maui.Handlers.IButtonHandler * Microsoft.Maui.IButtonStroke -&gt; unit" Usage="Microsoft.Maui.Handlers.ButtonHandler.MapStrokeColor (handler, buttonStroke)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeColor(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::IButtonStroke ^ buttonStroke);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -362,8 +362,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStrokeThickness(class Microsoft.Maui.Handlers.IButtonHandler handler, class Microsoft.Maui.IButtonStroke buttonStroke) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ButtonHandler.MapStrokeThickness(Microsoft.Maui.Handlers.IButtonHandler,Microsoft.Maui.IButtonStroke)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStrokeThickness (handler As IButtonHandler, buttonStroke As IButtonStroke)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeThickness(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::IButtonStroke ^ buttonStroke);" />
       <MemberSignature Language="F#" Value="static member MapStrokeThickness : Microsoft.Maui.Handlers.IButtonHandler * Microsoft.Maui.IButtonStroke -&gt; unit" Usage="Microsoft.Maui.Handlers.ButtonHandler.MapStrokeThickness (handler, buttonStroke)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeThickness(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::IButtonStroke ^ buttonStroke);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -388,8 +388,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapText(class Microsoft.Maui.Handlers.IButtonHandler handler, class Microsoft.Maui.IText button) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ButtonHandler.MapText(Microsoft.Maui.Handlers.IButtonHandler,Microsoft.Maui.IText)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapText (handler As IButtonHandler, button As IText)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::IText ^ button);" />
       <MemberSignature Language="F#" Value="static member MapText : Microsoft.Maui.Handlers.IButtonHandler * Microsoft.Maui.IText -&gt; unit" Usage="Microsoft.Maui.Handlers.ButtonHandler.MapText (handler, button)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::IText ^ button);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -414,8 +414,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapTextColor(class Microsoft.Maui.Handlers.IButtonHandler handler, class Microsoft.Maui.ITextStyle button) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ButtonHandler.MapTextColor(Microsoft.Maui.Handlers.IButtonHandler,Microsoft.Maui.ITextStyle)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapTextColor (handler As IButtonHandler, button As ITextStyle)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextColor(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::ITextStyle ^ button);" />
       <MemberSignature Language="F#" Value="static member MapTextColor : Microsoft.Maui.Handlers.IButtonHandler * Microsoft.Maui.ITextStyle -&gt; unit" Usage="Microsoft.Maui.Handlers.ButtonHandler.MapTextColor (handler, button)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextColor(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::ITextStyle ^ button);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -440,8 +440,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.IButtonHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.ButtonHandler.Microsoft#Maui#Handlers#IButtonHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IButtonHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IButtonHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IButtonHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.IButtonHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IButtonHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IButtonHandler.PlatformView</InterfaceMember>
@@ -464,8 +464,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IButton Microsoft.Maui.Handlers.IButtonHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.ButtonHandler.Microsoft#Maui#Handlers#IButtonHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IButton Implements IButtonHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IButton ^ Microsoft::Maui::Handlers::IButtonHandler::VirtualView { Microsoft::Maui::IButton ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IButtonHandler.VirtualView : Microsoft.Maui.IButton" Usage="Microsoft.Maui.Handlers.IButtonHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IButton ^ Microsoft::Maui::Handlers::IButtonHandler::VirtualView { Microsoft::Maui::IButton ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IButtonHandler.VirtualView</InterfaceMember>
@@ -488,8 +488,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.ITextButton, class Microsoft.Maui.Handlers.IButtonHandler&gt; TextButtonMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.ButtonHandler.TextButtonMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared TextButtonMapper As IPropertyMapper(Of ITextButton, IButtonHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ITextButton ^, Microsoft::Maui::Handlers::IButtonHandler ^&gt; ^ TextButtonMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable TextButtonMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.ITextButton, Microsoft.Maui.Handlers.IButtonHandler&gt;" Usage="Microsoft.Maui.Handlers.ButtonHandler.TextButtonMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ITextButton ^, Microsoft::Maui::Handlers::IButtonHandler ^&gt; ^ TextButtonMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

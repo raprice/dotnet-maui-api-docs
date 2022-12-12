@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BindingBaseErrorEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class BindingBaseErrorEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BindingBaseErrorEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type BindingBaseErrorEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BindingBaseErrorEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.BindingBase Binding" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs.Binding" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Binding As BindingBase" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindingBase ^ Binding { Microsoft::Maui::Controls::BindingBase ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Binding : Microsoft.Maui.Controls.BindingBase" Usage="Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs.Binding" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindingBase ^ Binding { Microsoft::Maui::Controls::BindingBase ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string ErrorCode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs.ErrorCode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorCode As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorCode { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ErrorCode : string" Usage="Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs.ErrorCode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorCode { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Message" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs.Message" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Message As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Message { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Message : string" Usage="Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs.Message" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Message { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object[] MessageArgs" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs.MessageArgs" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MessageArgs As Object()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Object ^&gt; ^ MessageArgs { cli::array &lt;System::Object ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.MessageArgs : obj[]" Usage="Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs.MessageArgs" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Object ^&gt; ^ MessageArgs { cli::array &lt;System::Object ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.SourceInfo XamlSourceInfo" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs.XamlSourceInfo" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property XamlSourceInfo As SourceInfo" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SourceInfo ^ XamlSourceInfo { Microsoft::Maui::SourceInfo ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.XamlSourceInfo : Microsoft.Maui.SourceInfo" Usage="Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs.XamlSourceInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SourceInfo ^ XamlSourceInfo { Microsoft::Maui::SourceInfo ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

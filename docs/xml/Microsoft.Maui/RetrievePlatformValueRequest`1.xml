@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RetrievePlatformValueRequest`1&lt;T&gt; extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.RetrievePlatformValueRequest`1" />
   <TypeSignature Language="VB.NET" Value="Public Class RetrievePlatformValueRequest(Of T)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class RetrievePlatformValueRequest" />
   <TypeSignature Language="F#" Value="type RetrievePlatformValueRequest&lt;'T&gt; = class" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class RetrievePlatformValueRequest" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance !T Result" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.RetrievePlatformValueRequest`1.Result" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As T" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property T Result { T get(); };" />
       <MemberSignature Language="F#" Value="member this.Result : 'T" Usage="Microsoft.Maui.RetrievePlatformValueRequest&lt;'T&gt;.Result" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property T Result { T get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResult(!T result) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.RetrievePlatformValueRequest`1.SetResult(`0)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetResult (result As T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetResult(T result);" />
       <MemberSignature Language="F#" Value="member this.SetResult : 'T -&gt; unit" Usage="retrievePlatformValueRequest.SetResult result" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetResult(T result);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -96,8 +96,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TrySetResult(!T result) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.RetrievePlatformValueRequest`1.TrySetResult(`0)" />
       <MemberSignature Language="VB.NET" Value="Public Function TrySetResult (result As T) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TrySetResult(T result);" />
       <MemberSignature Language="F#" Value="member this.TrySetResult : 'T -&gt; bool" Usage="retrievePlatformValueRequest.TrySetResult result" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TrySetResult(T result);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

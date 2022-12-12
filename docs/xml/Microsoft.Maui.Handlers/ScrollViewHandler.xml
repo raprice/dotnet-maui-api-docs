@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ScrollViewHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.IScrollView, object&gt; implements class Microsoft.Maui.Handlers.IScrollViewHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.ScrollViewHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class ScrollViewHandler&#xA;Inherits ViewHandler(Of IScrollView, Object)&#xA;Implements IScrollViewHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ScrollViewHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IScrollView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IScrollViewHandler" />
   <TypeSignature Language="F#" Value="type ScrollViewHandler = class&#xA;    inherit ViewHandler&lt;IScrollView, obj&gt;&#xA;    interface IScrollViewHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ScrollViewHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IScrollView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IScrollViewHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -77,8 +77,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ScrollViewHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ScrollViewHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.ScrollViewHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.Handlers.ScrollViewHandler" Usage="new Microsoft.Maui.Handlers.ScrollViewHandler (mapper, commandMapper)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ScrollViewHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IScrollView, class Microsoft.Maui.Handlers.IScrollViewHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.ScrollViewHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IScrollView, IScrollViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IScrollView ^, Microsoft::Maui::Handlers::IScrollViewHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IScrollView, Microsoft.Maui.Handlers.IScrollViewHandler&gt;" Usage="Microsoft.Maui.Handlers.ScrollViewHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IScrollView ^, Microsoft::Maui::Handlers::IScrollViewHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -120,8 +120,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ScrollViewHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="scrollViewHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -142,8 +142,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapContent(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.IScrollView scrollView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ScrollViewHandler.MapContent(Microsoft.Maui.IViewHandler,Microsoft.Maui.IScrollView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapContent (handler As IViewHandler, scrollView As IScrollView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContent(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::IScrollView ^ scrollView);" />
       <MemberSignature Language="F#" Value="static member MapContent : Microsoft.Maui.IViewHandler * Microsoft.Maui.IScrollView -&gt; unit" Usage="Microsoft.Maui.Handlers.ScrollViewHandler.MapContent (handler, scrollView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContent(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::IScrollView ^ scrollView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -168,8 +168,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapContentSize(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.IScrollView scrollView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ScrollViewHandler.MapContentSize(Microsoft.Maui.IViewHandler,Microsoft.Maui.IScrollView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapContentSize (handler As IViewHandler, scrollView As IScrollView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContentSize(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::IScrollView ^ scrollView);" />
       <MemberSignature Language="F#" Value="static member MapContentSize : Microsoft.Maui.IViewHandler * Microsoft.Maui.IScrollView -&gt; unit" Usage="Microsoft.Maui.Handlers.ScrollViewHandler.MapContentSize (handler, scrollView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContentSize(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::IScrollView ^ scrollView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -194,8 +194,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapHorizontalScrollBarVisibility(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.IScrollView scrollView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ScrollViewHandler.MapHorizontalScrollBarVisibility(Microsoft.Maui.IViewHandler,Microsoft.Maui.IScrollView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapHorizontalScrollBarVisibility (handler As IViewHandler, scrollView As IScrollView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHorizontalScrollBarVisibility(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::IScrollView ^ scrollView);" />
       <MemberSignature Language="F#" Value="static member MapHorizontalScrollBarVisibility : Microsoft.Maui.IViewHandler * Microsoft.Maui.IScrollView -&gt; unit" Usage="Microsoft.Maui.Handlers.ScrollViewHandler.MapHorizontalScrollBarVisibility (handler, scrollView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHorizontalScrollBarVisibility(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::IScrollView ^ scrollView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -220,8 +220,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapOrientation(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.IScrollView scrollView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ScrollViewHandler.MapOrientation(Microsoft.Maui.IViewHandler,Microsoft.Maui.IScrollView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapOrientation (handler As IViewHandler, scrollView As IScrollView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapOrientation(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::IScrollView ^ scrollView);" />
       <MemberSignature Language="F#" Value="static member MapOrientation : Microsoft.Maui.IViewHandler * Microsoft.Maui.IScrollView -&gt; unit" Usage="Microsoft.Maui.Handlers.ScrollViewHandler.MapOrientation (handler, scrollView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapOrientation(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::IScrollView ^ scrollView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -246,8 +246,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IScrollView, class Microsoft.Maui.Handlers.IScrollViewHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.ScrollViewHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IScrollView, IScrollViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IScrollView ^, Microsoft::Maui::Handlers::IScrollViewHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IScrollView, Microsoft.Maui.Handlers.IScrollViewHandler&gt;" Usage="Microsoft.Maui.Handlers.ScrollViewHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IScrollView ^, Microsoft::Maui::Handlers::IScrollViewHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -266,8 +266,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapRequestScrollTo(class Microsoft.Maui.Handlers.IScrollViewHandler handler, class Microsoft.Maui.IScrollView scrollView, object args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ScrollViewHandler.MapRequestScrollTo(Microsoft.Maui.Handlers.IScrollViewHandler,Microsoft.Maui.IScrollView,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapRequestScrollTo (handler As IScrollViewHandler, scrollView As IScrollView, args As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapRequestScrollTo(Microsoft::Maui::Handlers::IScrollViewHandler ^ handler, Microsoft::Maui::IScrollView ^ scrollView, System::Object ^ args);" />
       <MemberSignature Language="F#" Value="static member MapRequestScrollTo : Microsoft.Maui.Handlers.IScrollViewHandler * Microsoft.Maui.IScrollView * obj -&gt; unit" Usage="Microsoft.Maui.Handlers.ScrollViewHandler.MapRequestScrollTo (handler, scrollView, args)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapRequestScrollTo(Microsoft::Maui::Handlers::IScrollViewHandler ^ handler, Microsoft::Maui::IScrollView ^ scrollView, System::Object ^ args);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -294,8 +294,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapVerticalScrollBarVisibility(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.IScrollView scrollView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ScrollViewHandler.MapVerticalScrollBarVisibility(Microsoft.Maui.IViewHandler,Microsoft.Maui.IScrollView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapVerticalScrollBarVisibility (handler As IViewHandler, scrollView As IScrollView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapVerticalScrollBarVisibility(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::IScrollView ^ scrollView);" />
       <MemberSignature Language="F#" Value="static member MapVerticalScrollBarVisibility : Microsoft.Maui.IViewHandler * Microsoft.Maui.IScrollView -&gt; unit" Usage="Microsoft.Maui.Handlers.ScrollViewHandler.MapVerticalScrollBarVisibility (handler, scrollView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapVerticalScrollBarVisibility(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::IScrollView ^ scrollView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -320,8 +320,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.IScrollViewHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.ScrollViewHandler.Microsoft#Maui#Handlers#IScrollViewHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IScrollViewHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IScrollViewHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IScrollViewHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.IScrollViewHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IScrollViewHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IScrollViewHandler.PlatformView</InterfaceMember>
@@ -344,8 +344,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IScrollView Microsoft.Maui.Handlers.IScrollViewHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.ScrollViewHandler.Microsoft#Maui#Handlers#IScrollViewHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IScrollView Implements IScrollViewHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IScrollView ^ Microsoft::Maui::Handlers::IScrollViewHandler::VirtualView { Microsoft::Maui::IScrollView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IScrollViewHandler.VirtualView : Microsoft.Maui.IScrollView" Usage="Microsoft.Maui.Handlers.IScrollViewHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IScrollView ^ Microsoft::Maui::Handlers::IScrollViewHandler::VirtualView { Microsoft::Maui::IScrollView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IScrollViewHandler.VirtualView</InterfaceMember>

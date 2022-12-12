@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DependencyService extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.DependencyService" />
   <TypeSignature Language="VB.NET" Value="Public Class DependencyService" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DependencyService abstract sealed" />
   <TypeSignature Language="F#" Value="type DependencyService = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DependencyService abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Register(class System.Reflection.Assembly[] assemblies) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.DependencyService.Register(System.Reflection.Assembly[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Register (assemblies As Assembly())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Register(cli::array &lt;System::Reflection::Assembly ^&gt; ^ assemblies);" />
       <MemberSignature Language="F#" Value="static member Register : System.Reflection.Assembly[] -&gt; unit" Usage="Microsoft.Maui.Controls.DependencyService.Register assemblies" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Register(cli::array &lt;System::Reflection::Assembly ^&gt; ^ assemblies);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -85,8 +85,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Register&lt;class T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.DependencyService.Register``1" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Register(Of T As Class) ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : class static void Register();" />
       <MemberSignature Language="F#" Value="static member Register : unit -&gt; unit (requires 'T : null)" Usage="Microsoft.Maui.Controls.DependencyService.Register " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : class static void Register();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -120,8 +120,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Register&lt;class T, class (!!T) TImpl&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.DependencyService.Register``2" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Register(Of T As Class, TImpl As Class) ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T, typename TImpl&gt;&#xA; where T : class where TImpl : class, T static void Register();" />
       <MemberSignature Language="F#" Value="static member Register : unit -&gt; unit (requires 'T : null)" Usage="Microsoft.Maui.Controls.DependencyService.Register " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T, typename TImpl&gt;&#xA; where T : class where TImpl : class, T static void Register();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -168,8 +168,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterSingleton&lt;class T&gt;(!!T instance) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.DependencyService.RegisterSingleton``1(``0)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub RegisterSingleton(Of T As Class) (instance As T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : class static void RegisterSingleton(T instance);" />
       <MemberSignature Language="F#" Value="static member RegisterSingleton : 'T -&gt; unit (requires 'T : null)" Usage="Microsoft.Maui.Controls.DependencyService.RegisterSingleton instance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : class static void RegisterSingleton(T instance);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

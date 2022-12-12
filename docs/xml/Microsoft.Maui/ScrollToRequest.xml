@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ScrollToRequest extends System.Object implements class System.IEquatable`1&lt;class Microsoft.Maui.ScrollToRequest&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ScrollToRequest" />
   <TypeSignature Language="VB.NET" Value="Public Class ScrollToRequest&#xA;Implements IEquatable(Of ScrollToRequest)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ScrollToRequest : IEquatable&lt;Microsoft::Maui::ScrollToRequest ^&gt;" />
   <TypeSignature Language="F#" Value="type ScrollToRequest = class&#xA;    interface IEquatable&lt;ScrollToRequest&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ScrollToRequest : IEquatable&lt;Microsoft::Maui::ScrollToRequest ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -47,13 +47,13 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 HoriztonalOffset, float64 VerticalOffset, bool Instant) cil managed" FrameworkAlternate="net-maui-6.0" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ScrollToRequest.#ctor(System.Double,System.Double,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (HoriztonalOffset As Double, VerticalOffset As Double, Instant As Boolean)" FrameworkAlternate="net-maui-6.0" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ScrollToRequest(double HoriztonalOffset, double VerticalOffset, bool Instant);" FrameworkAlternate="net-maui-6.0" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ScrollToRequest : double * double * bool -&gt; Microsoft.Maui.ScrollToRequest" Usage="new Microsoft.Maui.ScrollToRequest (HoriztonalOffset, VerticalOffset, Instant)" FrameworkAlternate="net-maui-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ScrollToRequest(double HoriztonalOffset, double VerticalOffset, bool Instant);" FrameworkAlternate="net-maui-6.0" />
       <MemberSignature Language="C#" Value="public ScrollToRequest (double HorizontalOffset, double VerticalOffset, bool Instant);" FrameworkAlternate="net-maui-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 HorizontalOffset, float64 VerticalOffset, bool Instant) cil managed" FrameworkAlternate="net-maui-7.0" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (HorizontalOffset As Double, VerticalOffset As Double, Instant As Boolean)" FrameworkAlternate="net-maui-7.0" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ScrollToRequest(double HorizontalOffset, double VerticalOffset, bool Instant);" FrameworkAlternate="net-maui-7.0" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ScrollToRequest : double * double * bool -&gt; Microsoft.Maui.ScrollToRequest" Usage="new Microsoft.Maui.ScrollToRequest (HorizontalOffset, VerticalOffset, Instant)" FrameworkAlternate="net-maui-7.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ScrollToRequest(double HorizontalOffset, double VerticalOffset, bool Instant);" FrameworkAlternate="net-maui-7.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -133,8 +133,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type EqualityContract" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ScrollToRequest.EqualityContract" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property EqualityContract As Type" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property Type ^ EqualityContract { Type ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.EqualityContract : Type" Usage="Microsoft.Maui.ScrollToRequest.EqualityContract" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property Type ^ EqualityContract { Type ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -226,8 +226,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 HorizontalOffset" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ScrollToRequest.HorizontalOffset" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalOffset As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HorizontalOffset { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.HorizontalOffset : double with get, set" Usage="Microsoft.Maui.ScrollToRequest.HorizontalOffset" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HorizontalOffset { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -247,8 +247,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 HoriztonalOffset" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ScrollToRequest.HoriztonalOffset" />
       <MemberSignature Language="VB.NET" Value="Public Property HoriztonalOffset As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HoriztonalOffset { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.HoriztonalOffset : double with get, set" Usage="Microsoft.Maui.ScrollToRequest.HoriztonalOffset" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HoriztonalOffset { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -268,8 +268,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Instant" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ScrollToRequest.Instant" />
       <MemberSignature Language="VB.NET" Value="Public Property Instant As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Instant { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Instant : bool with get, set" Usage="Microsoft.Maui.ScrollToRequest.Instant" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Instant { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -386,8 +386,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 VerticalOffset" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ScrollToRequest.VerticalOffset" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalOffset As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double VerticalOffset { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.VerticalOffset : double with get, set" Usage="Microsoft.Maui.ScrollToRequest.VerticalOffset" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double VerticalOffset { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

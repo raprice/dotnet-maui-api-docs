@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPaddingElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IPaddingElement" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPaddingElement" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IPaddingElement" />
   <TypeSignature Language="F#" Value="type IPaddingElement = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPaddingElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -26,8 +26,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnPaddingPropertyChanged(valuetype Microsoft.Maui.Thickness oldValue, valuetype Microsoft.Maui.Thickness newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IPaddingElement.OnPaddingPropertyChanged(Microsoft.Maui.Thickness,Microsoft.Maui.Thickness)" />
       <MemberSignature Language="VB.NET" Value="Public Sub OnPaddingPropertyChanged (oldValue As Thickness, newValue As Thickness)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnPaddingPropertyChanged(Microsoft::Maui::Thickness oldValue, Microsoft::Maui::Thickness newValue);" />
       <MemberSignature Language="F#" Value="abstract member OnPaddingPropertyChanged : Microsoft.Maui.Thickness * Microsoft.Maui.Thickness -&gt; unit" Usage="iPaddingElement.OnPaddingPropertyChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnPaddingPropertyChanged(Microsoft::Maui::Thickness oldValue, Microsoft::Maui::Thickness newValue);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -52,8 +52,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Thickness Padding" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IPaddingElement.Padding" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Padding As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Thickness Padding { Microsoft::Maui::Thickness get(); };" />
       <MemberSignature Language="F#" Value="member this.Padding : Microsoft.Maui.Thickness" Usage="Microsoft.Maui.Controls.IPaddingElement.Padding" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Thickness Padding { Microsoft::Maui::Thickness get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Maui.Thickness PaddingDefaultValueCreator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IPaddingElement.PaddingDefaultValueCreator" />
       <MemberSignature Language="VB.NET" Value="Public Function PaddingDefaultValueCreator () As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Thickness PaddingDefaultValueCreator();" />
       <MemberSignature Language="F#" Value="abstract member PaddingDefaultValueCreator : unit -&gt; Microsoft.Maui.Thickness" Usage="iPaddingElement.PaddingDefaultValueCreator " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Thickness PaddingDefaultValueCreator();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

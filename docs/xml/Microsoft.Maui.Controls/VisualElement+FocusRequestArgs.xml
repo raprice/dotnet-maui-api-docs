@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit VisualElement/FocusRequestArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.VisualElement.FocusRequestArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class VisualElement.FocusRequestArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class VisualElement::FocusRequestArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type VisualElement.FocusRequestArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class VisualElement::FocusRequestArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Focus" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.VisualElement.FocusRequestArgs.Focus" />
       <MemberSignature Language="VB.NET" Value="Public Property Focus As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Focus { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Focus : bool with get, set" Usage="Microsoft.Maui.Controls.VisualElement.FocusRequestArgs.Focus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Focus { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Result" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.VisualElement.FocusRequestArgs.Result" />
       <MemberSignature Language="VB.NET" Value="Public Property Result As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Result { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Result : bool with get, set" Usage="Microsoft.Maui.Controls.VisualElement.FocusRequestArgs.Result" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Result { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

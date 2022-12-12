@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VerticalStackLayout extends Microsoft.Maui.Controls.StackBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.VerticalStackLayout" />
   <TypeSignature Language="VB.NET" Value="Public Class VerticalStackLayout&#xA;Inherits StackBase" />
-  <TypeSignature Language="C++ CLI" Value="public ref class VerticalStackLayout : Microsoft::Maui::Controls::StackBase" />
   <TypeSignature Language="F#" Value="type VerticalStackLayout = class&#xA;    inherit StackBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VerticalStackLayout : Microsoft::Maui::Controls::StackBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Microsoft.Maui.Layouts.ILayoutManager CreateLayoutManager() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.VerticalStackLayout.CreateLayoutManager" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateLayoutManager () As ILayoutManager" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Layouts::ILayoutManager ^ CreateLayoutManager();" />
       <MemberSignature Language="F#" Value="override this.CreateLayoutManager : unit -&gt; Microsoft.Maui.Layouts.ILayoutManager" Usage="verticalStackLayout.CreateLayoutManager " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Layouts::ILayoutManager ^ CreateLayoutManager();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

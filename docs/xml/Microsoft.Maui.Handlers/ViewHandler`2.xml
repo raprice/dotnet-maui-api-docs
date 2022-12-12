@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ViewHandler`2&lt;class (class Microsoft.Maui.IView) TVirtualView, class TPlatformView&gt; extends Microsoft.Maui.Handlers.ViewHandler implements class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.ViewHandler`2" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ViewHandler(Of TVirtualView, TPlatformView)&#xA;Inherits ViewHandler" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TVirtualView, typename TPlatformView&gt;&#xA; where TVirtualView : class, IView where TPlatformView : classpublic ref class ViewHandler abstract : Microsoft::Maui::Handlers::ViewHandler" />
   <TypeSignature Language="F#" Value="type ViewHandler&lt;'VirtualView, 'PlatformView (requires 'VirtualView : null and 'VirtualView :&gt; IView and 'PlatformView : null)&gt; = class&#xA;    inherit ViewHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TVirtualView, typename TPlatformView&gt;&#xA; where TVirtualView : class, IView where TPlatformView : classpublic ref class ViewHandler abstract : Microsoft::Maui::Handlers::ViewHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void ConnectHandler(!TPlatformView platformView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ViewHandler`2.ConnectHandler(`1)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub ConnectHandler (platformView As TPlatformView)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void ConnectHandler(TPlatformView platformView);" />
       <MemberSignature Language="F#" Value="abstract member ConnectHandler : 'PlatformView -&gt; unit&#xA;override this.ConnectHandler : 'PlatformView -&gt; unit" Usage="viewHandler.ConnectHandler platformView" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void ConnectHandler(TPlatformView platformView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -91,8 +91,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance !TPlatformView CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ViewHandler`2.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function CreatePlatformView () As TPlatformView" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract TPlatformView CreatePlatformView();" />
       <MemberSignature Language="F#" Value="abstract member CreatePlatformView : unit -&gt; 'PlatformView" Usage="viewHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract TPlatformView CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -113,8 +113,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void DisconnectHandler(!TPlatformView platformView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ViewHandler`2.DisconnectHandler(`1)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub DisconnectHandler (platformView As TPlatformView)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void DisconnectHandler(TPlatformView platformView);" />
       <MemberSignature Language="F#" Value="abstract member DisconnectHandler : 'PlatformView -&gt; unit&#xA;override this.DisconnectHandler : 'PlatformView -&gt; unit" Usage="viewHandler.DisconnectHandler platformView" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void DisconnectHandler(TPlatformView platformView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -137,8 +137,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size GetDesiredSize(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ViewHandler`2.GetDesiredSize(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetDesiredSize (widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::Maui::Graphics::Size GetDesiredSize(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="override this.GetDesiredSize : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="viewHandler.GetDesiredSize (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::Maui::Graphics::Size GetDesiredSize(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IViewHandler.GetDesiredSize(System.Double,System.Double)</InterfaceMember>
@@ -167,8 +167,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.IElementHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.ViewHandler`2.Microsoft#Maui#IElementHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IElementHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::IElementHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IElementHandler.PlatformView : obj" Usage="Microsoft.Maui.IElementHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::IElementHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IElementHandler.PlatformView</InterfaceMember>
@@ -191,8 +191,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IElement Microsoft.Maui.IElementHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.ViewHandler`2.Microsoft#Maui#IElementHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IElement Implements IElementHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IElement ^ Microsoft::Maui::IElementHandler::VirtualView { Microsoft::Maui::IElement ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IElementHandler.VirtualView : Microsoft.Maui.IElement" Usage="Microsoft.Maui.IElementHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IElement ^ Microsoft::Maui::IElementHandler::VirtualView { Microsoft::Maui::IElement ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IElementHandler.VirtualView</InterfaceMember>
@@ -215,8 +215,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Microsoft.Maui.IViewHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.ViewHandler`2.Microsoft#Maui#IViewHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IView Implements IViewHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IViewHandler::VirtualView { Microsoft::Maui::IView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IViewHandler.VirtualView : Microsoft.Maui.IView" Usage="Microsoft.Maui.IViewHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IViewHandler::VirtualView { Microsoft::Maui::IView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IViewHandler.VirtualView</InterfaceMember>
@@ -239,8 +239,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void PlatformArrange(valuetype Microsoft.Maui.Graphics.Rect rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ViewHandler`2.PlatformArrange(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub PlatformArrange (rect As Rect)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void PlatformArrange(Microsoft::Maui::Graphics::Rect rect);" />
       <MemberSignature Language="F#" Value="override this.PlatformArrange : Microsoft.Maui.Graphics.Rect -&gt; unit" Usage="viewHandler.PlatformArrange rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void PlatformArrange(Microsoft::Maui::Graphics::Rect rect);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IViewHandler.PlatformArrange(Microsoft.Maui.Graphics.Rect)</InterfaceMember>
@@ -266,8 +266,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance !TPlatformView PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.ViewHandler`2.PlatformView" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PlatformView As TPlatformView" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TPlatformView PlatformView { TPlatformView get(); };" />
       <MemberSignature Language="F#" Value="member this.PlatformView : 'PlatformView" Usage="Microsoft.Maui.Handlers.ViewHandler&lt;'VirtualView, 'PlatformView (requires 'VirtualView : null and 'VirtualView :&gt; Microsoft.Maui.IView and 'PlatformView : null)&gt;.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TPlatformView PlatformView { TPlatformView get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -287,8 +287,8 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Func`2&lt;class Microsoft.Maui.Handlers.ViewHandler`2&lt;!TVirtualView, !TPlatformView&gt;, !TPlatformView&gt; PlatformViewFactory" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.ViewHandler`2.PlatformViewFactory" />
       <MemberSignature Language="VB.NET" Value="Public Shared Property PlatformViewFactory As Func(Of ViewHandler(Of TVirtualView, TPlatformView), TPlatformView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Func&lt;Microsoft::Maui::Handlers::ViewHandler&lt;TVirtualView, TPlatformView&gt; ^, TPlatformView&gt; ^ PlatformViewFactory { Func&lt;Microsoft::Maui::Handlers::ViewHandler&lt;TVirtualView, TPlatformView&gt; ^, TPlatformView&gt; ^ get(); void set(Func&lt;Microsoft::Maui::Handlers::ViewHandler&lt;TVirtualView, TPlatformView&gt; ^, TPlatformView&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="static member PlatformViewFactory : Func&lt;Microsoft.Maui.Handlers.ViewHandler&lt;'VirtualView, 'PlatformView&gt;, 'PlatformView (requires 'PlatformView : null)&gt; with get, set" Usage="Microsoft.Maui.Handlers.ViewHandler&lt;'VirtualView, 'PlatformView (requires 'VirtualView : null and 'VirtualView :&gt; Microsoft.Maui.IView and 'PlatformView : null)&gt;.PlatformViewFactory" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Func&lt;Microsoft::Maui::Handlers::ViewHandler&lt;TVirtualView, TPlatformView&gt; ^, TPlatformView&gt; ^ PlatformViewFactory { Func&lt;Microsoft::Maui::Handlers::ViewHandler&lt;TVirtualView, TPlatformView&gt; ^, TPlatformView&gt; ^ get(); void set(Func&lt;Microsoft::Maui::Handlers::ViewHandler&lt;TVirtualView, TPlatformView&gt; ^, TPlatformView&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -308,8 +308,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void RemoveContainer() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ViewHandler`2.RemoveContainer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub RemoveContainer ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void RemoveContainer();" />
       <MemberSignature Language="F#" Value="override this.RemoveContainer : unit -&gt; unit" Usage="viewHandler.RemoveContainer " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void RemoveContainer();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -329,8 +329,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void SetupContainer() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ViewHandler`2.SetupContainer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub SetupContainer ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void SetupContainer();" />
       <MemberSignature Language="F#" Value="override this.SetupContainer : unit -&gt; unit" Usage="viewHandler.SetupContainer " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void SetupContainer();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -350,8 +350,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void SetVirtualView(class Microsoft.Maui.IElement view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ViewHandler`2.SetVirtualView(Microsoft.Maui.IElement)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides NotOverridable Sub SetVirtualView (view As IElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SetVirtualView(Microsoft::Maui::IElement ^ view);" />
       <MemberSignature Language="F#" Value="override this.SetVirtualView : Microsoft.Maui.IElement -&gt; unit" Usage="viewHandler.SetVirtualView view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SetVirtualView(Microsoft::Maui::IElement ^ view);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IElementHandler.SetVirtualView(Microsoft.Maui.IElement)</InterfaceMember>
@@ -377,8 +377,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetVirtualView(class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ViewHandler`2.SetVirtualView(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetVirtualView (view As IView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetVirtualView(Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="override this.SetVirtualView : Microsoft.Maui.IView -&gt; unit" Usage="viewHandler.SetVirtualView view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetVirtualView(Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -401,8 +401,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance !TVirtualView VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.ViewHandler`2.VirtualView" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VirtualView As TVirtualView" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TVirtualView VirtualView { TVirtualView get(); };" />
       <MemberSignature Language="F#" Value="member this.VirtualView : 'VirtualView" Usage="Microsoft.Maui.Handlers.ViewHandler&lt;'VirtualView, 'PlatformView (requires 'VirtualView : null and 'VirtualView :&gt; Microsoft.Maui.IView and 'PlatformView : null)&gt;.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TVirtualView VirtualView { TVirtualView get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

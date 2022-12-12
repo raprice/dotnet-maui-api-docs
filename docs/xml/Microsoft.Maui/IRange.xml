@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRange implements class Microsoft.Maui.IElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IRange" />
   <TypeSignature Language="VB.NET" Value="Public Interface IRange&#xA;Implements IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IRange : Microsoft::Maui::IView" />
   <TypeSignature Language="F#" Value="type IRange = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IRange : Microsoft::Maui::IView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -32,8 +32,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Maximum" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IRange.Maximum" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Maximum As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Maximum { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Maximum : double" Usage="Microsoft.Maui.IRange.Maximum" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Maximum { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -55,8 +55,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Minimum" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IRange.Minimum" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Minimum As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Minimum { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Minimum : double" Usage="Microsoft.Maui.IRange.Minimum" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Minimum { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -78,8 +78,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Value" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IRange.Value" />
       <MemberSignature Language="VB.NET" Value="Public Property Value As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Value { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Value : double with get, set" Usage="Microsoft.Maui.IRange.Value" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Value { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

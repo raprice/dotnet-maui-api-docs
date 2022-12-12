@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStackNavigation" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IStackNavigation" />
   <TypeSignature Language="VB.NET" Value="Public Interface IStackNavigation" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IStackNavigation" />
   <TypeSignature Language="F#" Value="type IStackNavigation = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IStackNavigation" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NavigationFinished(class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IView&gt; newStack) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IStackNavigation.NavigationFinished(System.Collections.Generic.IReadOnlyList{Microsoft.Maui.IView})" />
       <MemberSignature Language="VB.NET" Value="Public Sub NavigationFinished (newStack As IReadOnlyList(Of IView))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NavigationFinished(System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IView ^&gt; ^ newStack);" />
       <MemberSignature Language="F#" Value="abstract member NavigationFinished : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IView&gt; -&gt; unit" Usage="iStackNavigation.NavigationFinished newStack" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NavigationFinished(System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IView ^&gt; ^ newStack);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RequestNavigation(class Microsoft.Maui.NavigationRequest eventArgs) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IStackNavigation.RequestNavigation(Microsoft.Maui.NavigationRequest)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RequestNavigation (eventArgs As NavigationRequest)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RequestNavigation(Microsoft::Maui::NavigationRequest ^ eventArgs);" />
       <MemberSignature Language="F#" Value="abstract member RequestNavigation : Microsoft.Maui.NavigationRequest -&gt; unit" Usage="iStackNavigation.RequestNavigation eventArgs" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RequestNavigation(Microsoft::Maui::NavigationRequest ^ eventArgs);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Location extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.Sensors.Location" />
   <TypeSignature Language="VB.NET" Value="Public Class Location" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Location" />
   <TypeSignature Language="F#" Value="type Location = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Location" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Devices.Sensors.Location point) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Location.#ctor(Microsoft.Maui.Devices.Sensors.Location)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (point As Location)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Location(Microsoft::Maui::Devices::Sensors::Location ^ point);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Devices.Sensors.Location : Microsoft.Maui.Devices.Sensors.Location -&gt; Microsoft.Maui.Devices.Sensors.Location" Usage="new Microsoft.Maui.Devices.Sensors.Location point" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Location(Microsoft::Maui::Devices::Sensors::Location ^ point);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 latitude, float64 longitude) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Location.#ctor(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (latitude As Double, longitude As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Location(double latitude, double longitude);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Devices.Sensors.Location : double * double -&gt; Microsoft.Maui.Devices.Sensors.Location" Usage="new Microsoft.Maui.Devices.Sensors.Location (latitude, longitude)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Location(double latitude, double longitude);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -84,8 +84,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 latitude, float64 longitude, valuetype System.DateTimeOffset timestamp) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Location.#ctor(System.Double,System.Double,System.DateTimeOffset)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (latitude As Double, longitude As Double, timestamp As DateTimeOffset)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Location(double latitude, double longitude, DateTimeOffset timestamp);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Devices.Sensors.Location : double * double * DateTimeOffset -&gt; Microsoft.Maui.Devices.Sensors.Location" Usage="new Microsoft.Maui.Devices.Sensors.Location (latitude, longitude, timestamp)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Location(double latitude, double longitude, DateTimeOffset timestamp);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -109,8 +109,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 latitude, float64 longitude, float64 altitude) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Location.#ctor(System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (latitude As Double, longitude As Double, altitude As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Location(double latitude, double longitude, double altitude);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Devices.Sensors.Location : double * double * double -&gt; Microsoft.Maui.Devices.Sensors.Location" Usage="new Microsoft.Maui.Devices.Sensors.Location (latitude, longitude, altitude)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Location(double latitude, double longitude, double altitude);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -134,8 +134,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Accuracy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Location.Accuracy" />
       <MemberSignature Language="VB.NET" Value="Public Property Accuracy As Nullable(Of Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Accuracy { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
       <MemberSignature Language="F#" Value="member this.Accuracy : Nullable&lt;double&gt; with get, set" Usage="Microsoft.Maui.Devices.Sensors.Location.Accuracy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Accuracy { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -155,8 +155,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Altitude" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Location.Altitude" />
       <MemberSignature Language="VB.NET" Value="Public Property Altitude As Nullable(Of Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Altitude { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
       <MemberSignature Language="F#" Value="member this.Altitude : Nullable&lt;double&gt; with get, set" Usage="Microsoft.Maui.Devices.Sensors.Location.Altitude" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Altitude { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -176,8 +176,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem AltitudeReferenceSystem" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Location.AltitudeReferenceSystem" />
       <MemberSignature Language="VB.NET" Value="Public Property AltitudeReferenceSystem As AltitudeReferenceSystem" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::Sensors::AltitudeReferenceSystem AltitudeReferenceSystem { Microsoft::Maui::Devices::Sensors::AltitudeReferenceSystem get(); void set(Microsoft::Maui::Devices::Sensors::AltitudeReferenceSystem value); };" />
       <MemberSignature Language="F#" Value="member this.AltitudeReferenceSystem : Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem with get, set" Usage="Microsoft.Maui.Devices.Sensors.Location.AltitudeReferenceSystem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::Sensors::AltitudeReferenceSystem AltitudeReferenceSystem { Microsoft::Maui::Devices::Sensors::AltitudeReferenceSystem get(); void set(Microsoft::Maui::Devices::Sensors::AltitudeReferenceSystem value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -197,8 +197,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 CalculateDistance(class Microsoft.Maui.Devices.Sensors.Location locationStart, class Microsoft.Maui.Devices.Sensors.Location locationEnd, valuetype Microsoft.Maui.Devices.Sensors.DistanceUnits units) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Location.CalculateDistance(Microsoft.Maui.Devices.Sensors.Location,Microsoft.Maui.Devices.Sensors.Location,Microsoft.Maui.Devices.Sensors.DistanceUnits)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CalculateDistance (locationStart As Location, locationEnd As Location, units As DistanceUnits) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CalculateDistance(Microsoft::Maui::Devices::Sensors::Location ^ locationStart, Microsoft::Maui::Devices::Sensors::Location ^ locationEnd, Microsoft::Maui::Devices::Sensors::DistanceUnits units);" />
       <MemberSignature Language="F#" Value="static member CalculateDistance : Microsoft.Maui.Devices.Sensors.Location * Microsoft.Maui.Devices.Sensors.Location * Microsoft.Maui.Devices.Sensors.DistanceUnits -&gt; double" Usage="Microsoft.Maui.Devices.Sensors.Location.CalculateDistance (locationStart, locationEnd, units)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CalculateDistance(Microsoft::Maui::Devices::Sensors::Location ^ locationStart, Microsoft::Maui::Devices::Sensors::Location ^ locationEnd, Microsoft::Maui::Devices::Sensors::DistanceUnits units);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -226,8 +226,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 CalculateDistance(class Microsoft.Maui.Devices.Sensors.Location locationStart, float64 latitudeEnd, float64 longitudeEnd, valuetype Microsoft.Maui.Devices.Sensors.DistanceUnits units) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Location.CalculateDistance(Microsoft.Maui.Devices.Sensors.Location,System.Double,System.Double,Microsoft.Maui.Devices.Sensors.DistanceUnits)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CalculateDistance (locationStart As Location, latitudeEnd As Double, longitudeEnd As Double, units As DistanceUnits) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CalculateDistance(Microsoft::Maui::Devices::Sensors::Location ^ locationStart, double latitudeEnd, double longitudeEnd, Microsoft::Maui::Devices::Sensors::DistanceUnits units);" />
       <MemberSignature Language="F#" Value="static member CalculateDistance : Microsoft.Maui.Devices.Sensors.Location * double * double * Microsoft.Maui.Devices.Sensors.DistanceUnits -&gt; double" Usage="Microsoft.Maui.Devices.Sensors.Location.CalculateDistance (locationStart, latitudeEnd, longitudeEnd, units)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CalculateDistance(Microsoft::Maui::Devices::Sensors::Location ^ locationStart, double latitudeEnd, double longitudeEnd, Microsoft::Maui::Devices::Sensors::DistanceUnits units);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -257,8 +257,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 CalculateDistance(float64 latitudeStart, float64 longitudeStart, class Microsoft.Maui.Devices.Sensors.Location locationEnd, valuetype Microsoft.Maui.Devices.Sensors.DistanceUnits units) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Location.CalculateDistance(System.Double,System.Double,Microsoft.Maui.Devices.Sensors.Location,Microsoft.Maui.Devices.Sensors.DistanceUnits)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CalculateDistance (latitudeStart As Double, longitudeStart As Double, locationEnd As Location, units As DistanceUnits) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CalculateDistance(double latitudeStart, double longitudeStart, Microsoft::Maui::Devices::Sensors::Location ^ locationEnd, Microsoft::Maui::Devices::Sensors::DistanceUnits units);" />
       <MemberSignature Language="F#" Value="static member CalculateDistance : double * double * Microsoft.Maui.Devices.Sensors.Location * Microsoft.Maui.Devices.Sensors.DistanceUnits -&gt; double" Usage="Microsoft.Maui.Devices.Sensors.Location.CalculateDistance (latitudeStart, longitudeStart, locationEnd, units)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CalculateDistance(double latitudeStart, double longitudeStart, Microsoft::Maui::Devices::Sensors::Location ^ locationEnd, Microsoft::Maui::Devices::Sensors::DistanceUnits units);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -288,8 +288,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 CalculateDistance(float64 latitudeStart, float64 longitudeStart, float64 latitudeEnd, float64 longitudeEnd, valuetype Microsoft.Maui.Devices.Sensors.DistanceUnits units) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Location.CalculateDistance(System.Double,System.Double,System.Double,System.Double,Microsoft.Maui.Devices.Sensors.DistanceUnits)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CalculateDistance (latitudeStart As Double, longitudeStart As Double, latitudeEnd As Double, longitudeEnd As Double, units As DistanceUnits) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CalculateDistance(double latitudeStart, double longitudeStart, double latitudeEnd, double longitudeEnd, Microsoft::Maui::Devices::Sensors::DistanceUnits units);" />
       <MemberSignature Language="F#" Value="static member CalculateDistance : double * double * double * double * Microsoft.Maui.Devices.Sensors.DistanceUnits -&gt; double" Usage="Microsoft.Maui.Devices.Sensors.Location.CalculateDistance (latitudeStart, longitudeStart, latitudeEnd, longitudeEnd, units)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CalculateDistance(double latitudeStart, double longitudeStart, double latitudeEnd, double longitudeEnd, Microsoft::Maui::Devices::Sensors::DistanceUnits units);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -321,8 +321,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Course" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Location.Course" />
       <MemberSignature Language="VB.NET" Value="Public Property Course As Nullable(Of Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Course { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
       <MemberSignature Language="F#" Value="member this.Course : Nullable&lt;double&gt; with get, set" Usage="Microsoft.Maui.Devices.Sensors.Location.Course" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Course { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -346,8 +346,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Location.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="location.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -371,8 +371,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Location.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="location.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -393,8 +393,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsFromMockProvider" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Location.IsFromMockProvider" />
       <MemberSignature Language="VB.NET" Value="Public Property IsFromMockProvider As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFromMockProvider { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsFromMockProvider : bool with get, set" Usage="Microsoft.Maui.Devices.Sensors.Location.IsFromMockProvider" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFromMockProvider { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -414,8 +414,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Latitude" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Location.Latitude" />
       <MemberSignature Language="VB.NET" Value="Public Property Latitude As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Latitude { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Latitude : double with get, set" Usage="Microsoft.Maui.Devices.Sensors.Location.Latitude" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Latitude { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -435,8 +435,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Longitude" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Location.Longitude" />
       <MemberSignature Language="VB.NET" Value="Public Property Longitude As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Longitude { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Longitude : double with get, set" Usage="Microsoft.Maui.Devices.Sensors.Location.Longitude" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Longitude { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -456,8 +456,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class Microsoft.Maui.Devices.Sensors.Location left, class Microsoft.Maui.Devices.Sensors.Location right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Location.op_Equality(Microsoft.Maui.Devices.Sensors.Location,Microsoft.Maui.Devices.Sensors.Location)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As Location, right As Location) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Devices::Sensors::Location ^ left, Microsoft::Maui::Devices::Sensors::Location ^ right);" />
       <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Maui.Devices.Sensors.Location * Microsoft.Maui.Devices.Sensors.Location -&gt; bool" Usage="left = right" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Devices::Sensors::Location ^ left, Microsoft::Maui::Devices::Sensors::Location ^ right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -483,8 +483,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class Microsoft.Maui.Devices.Sensors.Location left, class Microsoft.Maui.Devices.Sensors.Location right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Location.op_Inequality(Microsoft.Maui.Devices.Sensors.Location,Microsoft.Maui.Devices.Sensors.Location)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As Location, right As Location) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Devices::Sensors::Location ^ left, Microsoft::Maui::Devices::Sensors::Location ^ right);" />
       <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Maui.Devices.Sensors.Location * Microsoft.Maui.Devices.Sensors.Location -&gt; bool" Usage="Microsoft.Maui.Devices.Sensors.Location.op_Inequality (left, right)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Devices::Sensors::Location ^ left, Microsoft::Maui::Devices::Sensors::Location ^ right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -510,8 +510,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool ReducedAccuracy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Location.ReducedAccuracy" />
       <MemberSignature Language="VB.NET" Value="Public Property ReducedAccuracy As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReducedAccuracy { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.ReducedAccuracy : bool with get, set" Usage="Microsoft.Maui.Devices.Sensors.Location.ReducedAccuracy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReducedAccuracy { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -531,8 +531,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Speed" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Location.Speed" />
       <MemberSignature Language="VB.NET" Value="Public Property Speed As Nullable(Of Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Speed { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
       <MemberSignature Language="F#" Value="member this.Speed : Nullable&lt;double&gt; with get, set" Usage="Microsoft.Maui.Devices.Sensors.Location.Speed" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Speed { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -552,8 +552,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset Timestamp" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Location.Timestamp" />
       <MemberSignature Language="VB.NET" Value="Public Property Timestamp As DateTimeOffset" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTimeOffset Timestamp { DateTimeOffset get(); void set(DateTimeOffset value); };" />
       <MemberSignature Language="F#" Value="member this.Timestamp : DateTimeOffset with get, set" Usage="Microsoft.Maui.Devices.Sensors.Location.Timestamp" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTimeOffset Timestamp { DateTimeOffset get(); void set(DateTimeOffset value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -573,8 +573,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Location.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="location.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -595,8 +595,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; VerticalAccuracy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Location.VerticalAccuracy" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalAccuracy As Nullable(Of Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; VerticalAccuracy { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
       <MemberSignature Language="F#" Value="member this.VerticalAccuracy : Nullable&lt;double&gt; with get, set" Usage="Microsoft.Maui.Devices.Sensors.Location.VerticalAccuracy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; VerticalAccuracy { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HorizontalStackLayoutManager extends Microsoft.Maui.Layouts.StackLayoutManager" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Layouts.HorizontalStackLayoutManager" />
   <TypeSignature Language="VB.NET" Value="Public Class HorizontalStackLayoutManager&#xA;Inherits StackLayoutManager" />
-  <TypeSignature Language="C++ CLI" Value="public ref class HorizontalStackLayoutManager : Microsoft::Maui::Layouts::StackLayoutManager" />
   <TypeSignature Language="F#" Value="type HorizontalStackLayoutManager = class&#xA;    inherit StackLayoutManager" />
+  <TypeSignature Language="C++ CLI" Value="public ref class HorizontalStackLayoutManager : Microsoft::Maui::Layouts::StackLayoutManager" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IStackLayout layout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.HorizontalStackLayoutManager.#ctor(Microsoft.Maui.IStackLayout)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (layout As IStackLayout)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; HorizontalStackLayoutManager(Microsoft::Maui::IStackLayout ^ layout);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Layouts.HorizontalStackLayoutManager : Microsoft.Maui.IStackLayout -&gt; Microsoft.Maui.Layouts.HorizontalStackLayoutManager" Usage="new Microsoft.Maui.Layouts.HorizontalStackLayoutManager layout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; HorizontalStackLayoutManager(Microsoft::Maui::IStackLayout ^ layout);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size ArrangeChildren(valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.HorizontalStackLayoutManager.ArrangeChildren(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ArrangeChildren (bounds As Rect) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::Maui::Graphics::Size ArrangeChildren(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberSignature Language="F#" Value="override this.ArrangeChildren : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size" Usage="horizontalStackLayoutManager.ArrangeChildren bounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::Maui::Graphics::Size ArrangeChildren(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size Measure(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.HorizontalStackLayoutManager.Measure(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Measure (widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::Maui::Graphics::Size Measure(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="override this.Measure : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="horizontalStackLayoutManager.Measure (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::Maui::Graphics::Size Measure(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

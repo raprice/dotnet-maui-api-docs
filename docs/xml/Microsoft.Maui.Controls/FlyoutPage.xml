@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FlyoutPage extends Microsoft.Maui.Controls.Page implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.FlyoutPage&gt;, class Microsoft.Maui.Controls.IFlyoutPageController, class Microsoft.Maui.IElement, class Microsoft.Maui.IFlyoutView, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.FlyoutPage" />
   <TypeSignature Language="VB.NET" Value="Public Class FlyoutPage&#xA;Inherits Page&#xA;Implements IElementConfiguration(Of FlyoutPage), IFlyoutPageController, IFlyoutView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FlyoutPage : Microsoft::Maui::Controls::Page, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::FlyoutPage ^&gt;, Microsoft::Maui::Controls::IFlyoutPageController, Microsoft::Maui::IFlyoutView" />
   <TypeSignature Language="F#" Value="type FlyoutPage = class&#xA;    inherit Page&#xA;    interface IFlyoutPageController&#xA;    interface IElementConfiguration&lt;FlyoutPage&gt;&#xA;    interface IFlyoutView&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FlyoutPage : Microsoft::Maui::Controls::Page, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::FlyoutPage ^&gt;, Microsoft::Maui::Controls::IFlyoutPageController, Microsoft::Maui::IFlyoutView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.BackButtonPressedEventArgs&gt; BackButtonPressed" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.FlyoutPage.BackButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Public Event BackButtonPressed As EventHandler(Of BackButtonPressedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler&lt;Microsoft::Maui::Controls::BackButtonPressedEventArgs ^&gt; ^ BackButtonPressed;" />
       <MemberSignature Language="F#" Value="member this.BackButtonPressed : EventHandler&lt;Microsoft.Maui.Controls.BackButtonPressedEventArgs&gt; " Usage="member this.BackButtonPressed : System.EventHandler&lt;Microsoft.Maui.Controls.BackButtonPressedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler&lt;Microsoft::Maui::Controls::BackButtonPressedEventArgs ^&gt; ^ BackButtonPressed;" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Maui.Controls.IFlyoutPageController.BackButtonPressed</InterfaceMember>
@@ -94,8 +94,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IFlyoutView, class Microsoft.Maui.Handlers.FlyoutViewHandler&gt; ControlsFlyoutPageMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.FlyoutPage.ControlsFlyoutPageMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ControlsFlyoutPageMapper As IPropertyMapper(Of IFlyoutView, FlyoutViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IFlyoutView ^, Microsoft::Maui::Handlers::FlyoutViewHandler ^&gt; ^ ControlsFlyoutPageMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlsFlyoutPageMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IFlyoutView, Microsoft.Maui.Handlers.FlyoutViewHandler&gt;" Usage="Microsoft.Maui.Controls.FlyoutPage.ControlsFlyoutPageMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IFlyoutView ^, Microsoft::Maui::Handlers::FlyoutViewHandler ^&gt; ^ ControlsFlyoutPageMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -114,8 +114,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Page Detail" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FlyoutPage.Detail" />
       <MemberSignature Language="VB.NET" Value="Public Property Detail As Page" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Page ^ Detail { Microsoft::Maui::Controls::Page ^ get(); void set(Microsoft::Maui::Controls::Page ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Detail : Microsoft.Maui.Controls.Page with get, set" Usage="Microsoft.Maui.Controls.FlyoutPage.Detail" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Page ^ Detail { Microsoft::Maui::Controls::Page ^ get(); void set(Microsoft::Maui::Controls::Page ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -135,8 +135,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Page Flyout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FlyoutPage.Flyout" />
       <MemberSignature Language="VB.NET" Value="Public Property Flyout As Page" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Page ^ Flyout { Microsoft::Maui::Controls::Page ^ get(); void set(Microsoft::Maui::Controls::Page ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Flyout : Microsoft.Maui.Controls.Page with get, set" Usage="Microsoft.Maui.Controls.FlyoutPage.Flyout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Page ^ Flyout { Microsoft::Maui::Controls::Page ^ get(); void set(Microsoft::Maui::Controls::Page ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -156,8 +156,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.FlyoutLayoutBehavior FlyoutLayoutBehavior" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FlyoutPage.FlyoutLayoutBehavior" />
       <MemberSignature Language="VB.NET" Value="Public Property FlyoutLayoutBehavior As FlyoutLayoutBehavior" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FlyoutLayoutBehavior FlyoutLayoutBehavior { Microsoft::Maui::Controls::FlyoutLayoutBehavior get(); void set(Microsoft::Maui::Controls::FlyoutLayoutBehavior value); };" />
       <MemberSignature Language="F#" Value="member this.FlyoutLayoutBehavior : Microsoft.Maui.Controls.FlyoutLayoutBehavior with get, set" Usage="Microsoft.Maui.Controls.FlyoutPage.FlyoutLayoutBehavior" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FlyoutLayoutBehavior FlyoutLayoutBehavior { Microsoft::Maui::Controls::FlyoutLayoutBehavior get(); void set(Microsoft::Maui::Controls::FlyoutLayoutBehavior value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -177,8 +177,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FlyoutLayoutBehaviorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.FlyoutPage.FlyoutLayoutBehaviorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FlyoutLayoutBehaviorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FlyoutLayoutBehaviorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FlyoutLayoutBehaviorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.FlyoutPage.FlyoutLayoutBehaviorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FlyoutLayoutBehaviorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -197,8 +197,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsGestureEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FlyoutPage.IsGestureEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsGestureEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsGestureEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsGestureEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.FlyoutPage.IsGestureEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsGestureEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -218,8 +218,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsGestureEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.FlyoutPage.IsGestureEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsGestureEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsGestureEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsGestureEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.FlyoutPage.IsGestureEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsGestureEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -238,8 +238,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPresented" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FlyoutPage.IsPresented" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPresented As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPresented { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsPresented : bool with get, set" Usage="Microsoft.Maui.Controls.FlyoutPage.IsPresented" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPresented { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IFlyoutView.IsPresented</InterfaceMember>
@@ -262,8 +262,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler IsPresentedChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.FlyoutPage.IsPresentedChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event IsPresentedChanged As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ IsPresentedChanged;" />
       <MemberSignature Language="F#" Value="member this.IsPresentedChanged : EventHandler " Usage="member this.IsPresentedChanged : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ IsPresentedChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -282,8 +282,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsPresentedProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.FlyoutPage.IsPresentedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsPresentedProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsPresentedProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsPresentedProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.FlyoutPage.IsPresentedProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsPresentedProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -302,8 +302,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void LayoutChildren(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FlyoutPage.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub LayoutChildren (x As Double, y As Double, width As Double, height As Double)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void LayoutChildren(double x, double y, double width, double height);" />
       <MemberSignature Language="F#" Value="override this.LayoutChildren : double * double * double * double -&gt; unit" Usage="flyoutPage.LayoutChildren (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void LayoutChildren(double x, double y, double width, double height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -332,8 +332,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.Controls.IFlyoutPageController.CanChangeIsPresented" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FlyoutPage.Microsoft#Maui#Controls#IFlyoutPageController#CanChangeIsPresented" />
       <MemberSignature Language="VB.NET" Value=" Property CanChangeIsPresented As Boolean Implements IFlyoutPageController.CanChangeIsPresented" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IFlyoutPageController::CanChangeIsPresented { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IFlyoutPageController.CanChangeIsPresented : bool with get, set" Usage="Microsoft.Maui.Controls.IFlyoutPageController.CanChangeIsPresented" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IFlyoutPageController::CanChangeIsPresented { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IFlyoutPageController.CanChangeIsPresented</InterfaceMember>
@@ -356,8 +356,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Rect Microsoft.Maui.Controls.IFlyoutPageController.DetailBounds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FlyoutPage.Microsoft#Maui#Controls#IFlyoutPageController#DetailBounds" />
       <MemberSignature Language="VB.NET" Value=" Property DetailBounds As Rect Implements IFlyoutPageController.DetailBounds" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Rect Microsoft::Maui::Controls::IFlyoutPageController::DetailBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IFlyoutPageController.DetailBounds : Microsoft.Maui.Graphics.Rect with get, set" Usage="Microsoft.Maui.Controls.IFlyoutPageController.DetailBounds" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Rect Microsoft::Maui::Controls::IFlyoutPageController::DetailBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IFlyoutPageController.DetailBounds</InterfaceMember>
@@ -380,8 +380,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Rect Microsoft.Maui.Controls.IFlyoutPageController.FlyoutBounds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FlyoutPage.Microsoft#Maui#Controls#IFlyoutPageController#FlyoutBounds" />
       <MemberSignature Language="VB.NET" Value=" Property FlyoutBounds As Rect Implements IFlyoutPageController.FlyoutBounds" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Rect Microsoft::Maui::Controls::IFlyoutPageController::FlyoutBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IFlyoutPageController.FlyoutBounds : Microsoft.Maui.Graphics.Rect with get, set" Usage="Microsoft.Maui.Controls.IFlyoutPageController.FlyoutBounds" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Rect Microsoft::Maui::Controls::IFlyoutPageController::FlyoutBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IFlyoutPageController.FlyoutBounds</InterfaceMember>
@@ -404,8 +404,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.Controls.IFlyoutPageController.ShouldShowSplitMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FlyoutPage.Microsoft#Maui#Controls#IFlyoutPageController#ShouldShowSplitMode" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property ShouldShowSplitMode As Boolean Implements IFlyoutPageController.ShouldShowSplitMode" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IFlyoutPageController::ShouldShowSplitMode { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IFlyoutPageController.ShouldShowSplitMode : bool" Usage="Microsoft.Maui.Controls.IFlyoutPageController.ShouldShowSplitMode" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IFlyoutPageController::ShouldShowSplitMode { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IFlyoutPageController.ShouldShowSplitMode</InterfaceMember>
@@ -428,8 +428,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Microsoft.Maui.IFlyoutView.Detail" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FlyoutPage.Microsoft#Maui#IFlyoutView#Detail" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Detail As IView Implements IFlyoutView.Detail" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IFlyoutView::Detail { Microsoft::Maui::IView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IFlyoutView.Detail : Microsoft.Maui.IView" Usage="Microsoft.Maui.IFlyoutView.Detail" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IFlyoutView::Detail { Microsoft::Maui::IView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IFlyoutView.Detail</InterfaceMember>
@@ -452,8 +452,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Microsoft.Maui.IFlyoutView.Flyout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FlyoutPage.Microsoft#Maui#IFlyoutView#Flyout" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Flyout As IView Implements IFlyoutView.Flyout" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IFlyoutView::Flyout { Microsoft::Maui::IView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IFlyoutView.Flyout : Microsoft.Maui.IView" Usage="Microsoft.Maui.IFlyoutView.Flyout" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IFlyoutView::Flyout { Microsoft::Maui::IView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IFlyoutView.Flyout</InterfaceMember>
@@ -476,8 +476,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.FlyoutBehavior Microsoft.Maui.IFlyoutView.FlyoutBehavior" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FlyoutPage.Microsoft#Maui#IFlyoutView#FlyoutBehavior" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property FlyoutBehavior As FlyoutBehavior Implements IFlyoutView.FlyoutBehavior" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::FlyoutBehavior Microsoft::Maui::IFlyoutView::FlyoutBehavior { Microsoft::Maui::FlyoutBehavior get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IFlyoutView.FlyoutBehavior : Microsoft.Maui.FlyoutBehavior" Usage="Microsoft.Maui.IFlyoutView.FlyoutBehavior" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::FlyoutBehavior Microsoft::Maui::IFlyoutView::FlyoutBehavior { Microsoft::Maui::FlyoutBehavior get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IFlyoutView.FlyoutBehavior</InterfaceMember>
@@ -500,8 +500,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Microsoft.Maui.IFlyoutView.FlyoutWidth" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FlyoutPage.Microsoft#Maui#IFlyoutView#FlyoutWidth" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property FlyoutWidth As Double Implements IFlyoutView.FlyoutWidth" />
-      <MemberSignature Language="C++ CLI" Value="property double Microsoft::Maui::IFlyoutView::FlyoutWidth { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IFlyoutView.FlyoutWidth : double" Usage="Microsoft.Maui.IFlyoutView.FlyoutWidth" />
+      <MemberSignature Language="C++ CLI" Value="property double Microsoft::Maui::IFlyoutView::FlyoutWidth { double get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IFlyoutView.FlyoutWidth</InterfaceMember>
@@ -524,8 +524,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.FlyoutPage&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FlyoutPage.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, FlyoutPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::FlyoutPage ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.FlyoutPage (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="flyoutPage.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::FlyoutPage ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -558,8 +558,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAppearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FlyoutPage.OnAppearing" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAppearing ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnAppearing();" />
       <MemberSignature Language="F#" Value="override this.OnAppearing : unit -&gt; unit" Usage="flyoutPage.OnAppearing " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnAppearing();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -579,8 +579,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool OnBackButtonPressed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FlyoutPage.OnBackButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnBackButtonPressed () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool OnBackButtonPressed();" />
       <MemberSignature Language="F#" Value="override this.OnBackButtonPressed : unit -&gt; bool" Usage="flyoutPage.OnBackButtonPressed " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool OnBackButtonPressed();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -601,8 +601,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnDisappearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FlyoutPage.OnDisappearing" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnDisappearing ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnDisappearing();" />
       <MemberSignature Language="F#" Value="override this.OnDisappearing : unit -&gt; unit" Usage="flyoutPage.OnDisappearing " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnDisappearing();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -622,8 +622,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnParentSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FlyoutPage.OnParentSet" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnParentSet ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnParentSet();" />
       <MemberSignature Language="F#" Value="override this.OnParentSet : unit -&gt; unit" Usage="flyoutPage.OnParentSet " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnParentSet();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -643,8 +643,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool ShouldShowToolbarButton() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FlyoutPage.ShouldShowToolbarButton" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ShouldShowToolbarButton () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool ShouldShowToolbarButton();" />
       <MemberSignature Language="F#" Value="abstract member ShouldShowToolbarButton : unit -&gt; bool&#xA;override this.ShouldShowToolbarButton : unit -&gt; bool" Usage="flyoutPage.ShouldShowToolbarButton " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool ShouldShowToolbarButton();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -665,8 +665,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UpdateFlyoutLayoutBehavior() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FlyoutPage.UpdateFlyoutLayoutBehavior" />
       <MemberSignature Language="VB.NET" Value="Public Sub UpdateFlyoutLayoutBehavior ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void UpdateFlyoutLayoutBehavior();" />
       <MemberSignature Language="F#" Value="abstract member UpdateFlyoutLayoutBehavior : unit -&gt; unit&#xA;override this.UpdateFlyoutLayoutBehavior : unit -&gt; unit" Usage="flyoutPage.UpdateFlyoutLayoutBehavior " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void UpdateFlyoutLayoutBehavior();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IFlyoutPageController.UpdateFlyoutLayoutBehavior</InterfaceMember>

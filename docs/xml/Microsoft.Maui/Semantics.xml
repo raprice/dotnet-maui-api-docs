@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Semantics extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Semantics" />
   <TypeSignature Language="VB.NET" Value="Public Class Semantics" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Semantics" />
   <TypeSignature Language="F#" Value="type Semantics = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Semantics" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Description" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Semantics.Description" />
       <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Description : string with get, set" Usage="Microsoft.Maui.Semantics.Description" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.SemanticHeadingLevel HeadingLevel" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Semantics.HeadingLevel" />
       <MemberSignature Language="VB.NET" Value="Public Property HeadingLevel As SemanticHeadingLevel" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SemanticHeadingLevel HeadingLevel { Microsoft::Maui::SemanticHeadingLevel get(); void set(Microsoft::Maui::SemanticHeadingLevel value); };" />
       <MemberSignature Language="F#" Value="member this.HeadingLevel : Microsoft.Maui.SemanticHeadingLevel with get, set" Usage="Microsoft.Maui.Semantics.HeadingLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SemanticHeadingLevel HeadingLevel { Microsoft::Maui::SemanticHeadingLevel get(); void set(Microsoft::Maui::SemanticHeadingLevel value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Hint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Semantics.Hint" />
       <MemberSignature Language="VB.NET" Value="Public Property Hint As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Hint { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Hint : string with get, set" Usage="Microsoft.Maui.Semantics.Hint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Hint { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsHeading" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Semantics.IsHeading" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsHeading As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsHeading { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsHeading : bool" Usage="Microsoft.Maui.Semantics.IsHeading" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsHeading { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -128,8 +128,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Semantics.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="semantics.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

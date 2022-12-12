@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VisualElement extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement" />
   <TypeSignature Language="VB.NET" Value="Public Module VisualElement" />
-  <TypeSignature Language="C++ CLI" Value="public ref class VisualElement abstract sealed" />
   <TypeSignature Language="F#" Value="type VisualElement = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VisualElement abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty AccessKeyHorizontalOffsetProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.AccessKeyHorizontalOffsetProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly AccessKeyHorizontalOffsetProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AccessKeyHorizontalOffsetProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable AccessKeyHorizontalOffsetProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.AccessKeyHorizontalOffsetProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AccessKeyHorizontalOffsetProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -43,8 +43,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty AccessKeyPlacementProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.AccessKeyPlacementProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly AccessKeyPlacementProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AccessKeyPlacementProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable AccessKeyPlacementProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.AccessKeyPlacementProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AccessKeyPlacementProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -63,8 +63,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty AccessKeyProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.AccessKeyProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly AccessKeyProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AccessKeyProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable AccessKeyProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.AccessKeyProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AccessKeyProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -83,8 +83,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty AccessKeyVerticalOffsetProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.AccessKeyVerticalOffsetProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly AccessKeyVerticalOffsetProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AccessKeyVerticalOffsetProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable AccessKeyVerticalOffsetProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.AccessKeyVerticalOffsetProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AccessKeyVerticalOffsetProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -103,8 +103,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetAccessKey(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKey(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAccessKey (element As BindableObject) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetAccessKey(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetAccessKey : Microsoft.Maui.Controls.BindableObject -&gt; string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKey element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetAccessKey(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -128,8 +128,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetAccessKey(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKey(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.VisualElement})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAccessKey (config As IPlatformElementConfiguration(Of Windows, VisualElement)) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::String ^ GetAccessKey(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetAccessKey : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt; -&gt; string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKey config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::String ^ GetAccessKey(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -153,8 +153,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 GetAccessKeyHorizontalOffset(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKeyHorizontalOffset(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAccessKeyHorizontalOffset (element As BindableObject) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double GetAccessKeyHorizontalOffset(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetAccessKeyHorizontalOffset : Microsoft.Maui.Controls.BindableObject -&gt; double" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKeyHorizontalOffset element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double GetAccessKeyHorizontalOffset(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -178,8 +178,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 GetAccessKeyHorizontalOffset(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKeyHorizontalOffset(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.VisualElement})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAccessKeyHorizontalOffset (config As IPlatformElementConfiguration(Of Windows, VisualElement)) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static double GetAccessKeyHorizontalOffset(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetAccessKeyHorizontalOffset : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt; -&gt; double" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKeyHorizontalOffset config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static double GetAccessKeyHorizontalOffset(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -203,8 +203,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.AccessKeyPlacement GetAccessKeyPlacement(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKeyPlacement(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAccessKeyPlacement (element As BindableObject) As AccessKeyPlacement" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::AccessKeyPlacement GetAccessKeyPlacement(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetAccessKeyPlacement : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.AccessKeyPlacement" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKeyPlacement element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::AccessKeyPlacement GetAccessKeyPlacement(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -228,8 +228,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.AccessKeyPlacement GetAccessKeyPlacement(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKeyPlacement(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.VisualElement})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAccessKeyPlacement (config As IPlatformElementConfiguration(Of Windows, VisualElement)) As AccessKeyPlacement" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::AccessKeyPlacement GetAccessKeyPlacement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetAccessKeyPlacement : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt; -&gt; Microsoft.Maui.Controls.AccessKeyPlacement" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKeyPlacement config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::AccessKeyPlacement GetAccessKeyPlacement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -253,8 +253,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 GetAccessKeyVerticalOffset(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKeyVerticalOffset(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAccessKeyVerticalOffset (element As BindableObject) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double GetAccessKeyVerticalOffset(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetAccessKeyVerticalOffset : Microsoft.Maui.Controls.BindableObject -&gt; double" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKeyVerticalOffset element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double GetAccessKeyVerticalOffset(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -278,8 +278,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 GetAccessKeyVerticalOffset(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKeyVerticalOffset(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.VisualElement})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAccessKeyVerticalOffset (config As IPlatformElementConfiguration(Of Windows, VisualElement)) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static double GetAccessKeyVerticalOffset(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetAccessKeyVerticalOffset : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt; -&gt; double" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetAccessKeyVerticalOffset config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static double GetAccessKeyVerticalOffset(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -303,8 +303,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsLegacyColorModeEnabled(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetIsLegacyColorModeEnabled(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetIsLegacyColorModeEnabled (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsLegacyColorModeEnabled(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetIsLegacyColorModeEnabled : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetIsLegacyColorModeEnabled element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsLegacyColorModeEnabled(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -329,8 +329,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsLegacyColorModeEnabled(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetIsLegacyColorModeEnabled(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.VisualElement})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetIsLegacyColorModeEnabled (config As IPlatformElementConfiguration(Of Windows, VisualElement)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetIsLegacyColorModeEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetIsLegacyColorModeEnabled : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.GetIsLegacyColorModeEnabled config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetIsLegacyColorModeEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -355,8 +355,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsLegacyColorModeEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.IsLegacyColorModeEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly IsLegacyColorModeEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsLegacyColorModeEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsLegacyColorModeEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.IsLegacyColorModeEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsLegacyColorModeEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -375,8 +375,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetAccessKey(class Microsoft.Maui.Controls.BindableObject element, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKey(Microsoft.Maui.Controls.BindableObject,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetAccessKey (element As BindableObject, value As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetAccessKey(Microsoft::Maui::Controls::BindableObject ^ element, System::String ^ value);" />
       <MemberSignature Language="F#" Value="static member SetAccessKey : Microsoft.Maui.Controls.BindableObject * string -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKey (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetAccessKey(Microsoft::Maui::Controls::BindableObject ^ element, System::String ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -401,8 +401,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; SetAccessKey(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; config, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKey(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.VisualElement},System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetAccessKey (config As IPlatformElementConfiguration(Of Windows, VisualElement), value As String) As IPlatformElementConfiguration(Of Windows, VisualElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ SetAccessKey(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config, System::String ^ value);" />
       <MemberSignature Language="F#" Value="static member SetAccessKey : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt; * string -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKey (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ SetAccessKey(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config, System::String ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -428,8 +428,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetAccessKeyHorizontalOffset(class Microsoft.Maui.Controls.BindableObject element, float64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKeyHorizontalOffset(Microsoft.Maui.Controls.BindableObject,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetAccessKeyHorizontalOffset (element As BindableObject, value As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetAccessKeyHorizontalOffset(Microsoft::Maui::Controls::BindableObject ^ element, double value);" />
       <MemberSignature Language="F#" Value="static member SetAccessKeyHorizontalOffset : Microsoft.Maui.Controls.BindableObject * double -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKeyHorizontalOffset (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetAccessKeyHorizontalOffset(Microsoft::Maui::Controls::BindableObject ^ element, double value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -454,8 +454,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; SetAccessKeyHorizontalOffset(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; config, float64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKeyHorizontalOffset(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.VisualElement},System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetAccessKeyHorizontalOffset (config As IPlatformElementConfiguration(Of Windows, VisualElement), value As Double) As IPlatformElementConfiguration(Of Windows, VisualElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ SetAccessKeyHorizontalOffset(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config, double value);" />
       <MemberSignature Language="F#" Value="static member SetAccessKeyHorizontalOffset : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt; * double -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKeyHorizontalOffset (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ SetAccessKeyHorizontalOffset(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config, double value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -481,8 +481,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetAccessKeyPlacement(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.AccessKeyPlacement value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKeyPlacement(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.AccessKeyPlacement)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetAccessKeyPlacement (element As BindableObject, value As AccessKeyPlacement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetAccessKeyPlacement(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::AccessKeyPlacement value);" />
       <MemberSignature Language="F#" Value="static member SetAccessKeyPlacement : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.AccessKeyPlacement -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKeyPlacement (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetAccessKeyPlacement(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::AccessKeyPlacement value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -507,8 +507,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; SetAccessKeyPlacement(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; config, valuetype Microsoft.Maui.Controls.AccessKeyPlacement value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKeyPlacement(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.VisualElement},Microsoft.Maui.Controls.AccessKeyPlacement)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetAccessKeyPlacement (config As IPlatformElementConfiguration(Of Windows, VisualElement), value As AccessKeyPlacement) As IPlatformElementConfiguration(Of Windows, VisualElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ SetAccessKeyPlacement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config, Microsoft::Maui::Controls::AccessKeyPlacement value);" />
       <MemberSignature Language="F#" Value="static member SetAccessKeyPlacement : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt; * Microsoft.Maui.Controls.AccessKeyPlacement -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKeyPlacement (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ SetAccessKeyPlacement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config, Microsoft::Maui::Controls::AccessKeyPlacement value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -534,8 +534,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetAccessKeyVerticalOffset(class Microsoft.Maui.Controls.BindableObject element, float64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKeyVerticalOffset(Microsoft.Maui.Controls.BindableObject,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetAccessKeyVerticalOffset (element As BindableObject, value As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetAccessKeyVerticalOffset(Microsoft::Maui::Controls::BindableObject ^ element, double value);" />
       <MemberSignature Language="F#" Value="static member SetAccessKeyVerticalOffset : Microsoft.Maui.Controls.BindableObject * double -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKeyVerticalOffset (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetAccessKeyVerticalOffset(Microsoft::Maui::Controls::BindableObject ^ element, double value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -560,8 +560,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; SetAccessKeyVerticalOffset(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; config, float64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKeyVerticalOffset(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.VisualElement},System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetAccessKeyVerticalOffset (config As IPlatformElementConfiguration(Of Windows, VisualElement), value As Double) As IPlatformElementConfiguration(Of Windows, VisualElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ SetAccessKeyVerticalOffset(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config, double value);" />
       <MemberSignature Language="F#" Value="static member SetAccessKeyVerticalOffset : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt; * double -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetAccessKeyVerticalOffset (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ SetAccessKeyVerticalOffset(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config, double value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -587,8 +587,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsLegacyColorModeEnabled(class Microsoft.Maui.Controls.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetIsLegacyColorModeEnabled(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetIsLegacyColorModeEnabled (element As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsLegacyColorModeEnabled(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetIsLegacyColorModeEnabled : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetIsLegacyColorModeEnabled (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsLegacyColorModeEnabled(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -614,8 +614,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; SetIsLegacyColorModeEnabled(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.VisualElement&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetIsLegacyColorModeEnabled(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.VisualElement},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetIsLegacyColorModeEnabled (config As IPlatformElementConfiguration(Of Windows, VisualElement), value As Boolean) As IPlatformElementConfiguration(Of Windows, VisualElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ SetIsLegacyColorModeEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetIsLegacyColorModeEnabled : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.VisualElement&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.VisualElement.SetIsLegacyColorModeEnabled (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ SetIsLegacyColorModeEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::VisualElement ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

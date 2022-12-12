@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VersionTracking extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.VersionTracking" />
   <TypeSignature Language="VB.NET" Value="Public Class VersionTracking" />
-  <TypeSignature Language="C++ CLI" Value="public ref class VersionTracking abstract sealed" />
   <TypeSignature Language="F#" Value="type VersionTracking = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VersionTracking abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Collections.Generic.IEnumerable`1&lt;string&gt; BuildHistory" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.VersionTracking.BuildHistory" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BuildHistory As IEnumerable(Of String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ BuildHistory { System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="static member BuildHistory : seq&lt;string&gt;" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.BuildHistory" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ BuildHistory { System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property string CurrentBuild" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.VersionTracking.CurrentBuild" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CurrentBuild As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CurrentBuild { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="static member CurrentBuild : string" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.CurrentBuild" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CurrentBuild { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".property string CurrentVersion" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.VersionTracking.CurrentVersion" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CurrentVersion As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CurrentVersion { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="static member CurrentVersion : string" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.CurrentVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CurrentVersion { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.ApplicationModel.IVersionTracking Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.VersionTracking.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As IVersionTracking" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::IVersionTracking ^ Default { Microsoft::Maui::ApplicationModel::IVersionTracking ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.ApplicationModel.IVersionTracking" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::IVersionTracking ^ Default { Microsoft::Maui::ApplicationModel::IVersionTracking ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".property string FirstInstalledBuild" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.VersionTracking.FirstInstalledBuild" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FirstInstalledBuild As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ FirstInstalledBuild { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="static member FirstInstalledBuild : string" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.FirstInstalledBuild" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ FirstInstalledBuild { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -128,8 +128,8 @@
       <MemberSignature Language="ILAsm" Value=".property string FirstInstalledVersion" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.VersionTracking.FirstInstalledVersion" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FirstInstalledVersion As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ FirstInstalledVersion { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="static member FirstInstalledVersion : string" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.FirstInstalledVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ FirstInstalledVersion { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -149,8 +149,8 @@
       <MemberSignature Language="ILAsm" Value=".property bool IsFirstLaunchEver" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.VersionTracking.IsFirstLaunchEver" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsFirstLaunchEver As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsFirstLaunchEver { bool get(); };" />
       <MemberSignature Language="F#" Value="static member IsFirstLaunchEver : bool" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.IsFirstLaunchEver" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsFirstLaunchEver { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -170,8 +170,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsFirstLaunchForBuild(string build) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.VersionTracking.IsFirstLaunchForBuild(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsFirstLaunchForBuild (build As String) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsFirstLaunchForBuild(System::String ^ build);" />
       <MemberSignature Language="F#" Value="static member IsFirstLaunchForBuild : string -&gt; bool" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.IsFirstLaunchForBuild build" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsFirstLaunchForBuild(System::String ^ build);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -195,8 +195,8 @@
       <MemberSignature Language="ILAsm" Value=".property bool IsFirstLaunchForCurrentBuild" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.VersionTracking.IsFirstLaunchForCurrentBuild" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsFirstLaunchForCurrentBuild As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsFirstLaunchForCurrentBuild { bool get(); };" />
       <MemberSignature Language="F#" Value="static member IsFirstLaunchForCurrentBuild : bool" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.IsFirstLaunchForCurrentBuild" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsFirstLaunchForCurrentBuild { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -216,8 +216,8 @@
       <MemberSignature Language="ILAsm" Value=".property bool IsFirstLaunchForCurrentVersion" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.VersionTracking.IsFirstLaunchForCurrentVersion" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsFirstLaunchForCurrentVersion As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsFirstLaunchForCurrentVersion { bool get(); };" />
       <MemberSignature Language="F#" Value="static member IsFirstLaunchForCurrentVersion : bool" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.IsFirstLaunchForCurrentVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsFirstLaunchForCurrentVersion { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -237,8 +237,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsFirstLaunchForVersion(string version) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.VersionTracking.IsFirstLaunchForVersion(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsFirstLaunchForVersion (version As String) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsFirstLaunchForVersion(System::String ^ version);" />
       <MemberSignature Language="F#" Value="static member IsFirstLaunchForVersion : string -&gt; bool" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.IsFirstLaunchForVersion version" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsFirstLaunchForVersion(System::String ^ version);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -262,8 +262,8 @@
       <MemberSignature Language="ILAsm" Value=".property string PreviousBuild" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.VersionTracking.PreviousBuild" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PreviousBuild As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PreviousBuild { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="static member PreviousBuild : string" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.PreviousBuild" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PreviousBuild { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -283,8 +283,8 @@
       <MemberSignature Language="ILAsm" Value=".property string PreviousVersion" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.VersionTracking.PreviousVersion" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PreviousVersion As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PreviousVersion { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="static member PreviousVersion : string" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.PreviousVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PreviousVersion { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -304,8 +304,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Track() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.VersionTracking.Track" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Track ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Track();" />
       <MemberSignature Language="F#" Value="static member Track : unit -&gt; unit" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.Track " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Track();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -325,8 +325,8 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Collections.Generic.IEnumerable`1&lt;string&gt; VersionHistory" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.VersionTracking.VersionHistory" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property VersionHistory As IEnumerable(Of String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ VersionHistory { System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="static member VersionHistory : seq&lt;string&gt;" Usage="Microsoft.Maui.ApplicationModel.VersionTracking.VersionHistory" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ VersionHistory { System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

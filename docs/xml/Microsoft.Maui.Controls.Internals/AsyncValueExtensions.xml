@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AsyncValueExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.AsyncValueExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module AsyncValueExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AsyncValueExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type AsyncValueExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AsyncValueExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

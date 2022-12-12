@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FontWeight extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight" />
   <TypeSignature Language="VB.NET" Value="Public Class FontWeight" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FontWeight abstract sealed" />
   <TypeSignature Language="F#" Value="type FontWeight = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FontWeight abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Black" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Black" />
       <MemberSignature Language="VB.NET" Value="Public Const Black As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Black;" />
       <MemberSignature Language="F#" Value="val mutable Black : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Black" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Black;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -43,8 +43,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Bold" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Bold" />
       <MemberSignature Language="VB.NET" Value="Public Const Bold As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Bold;" />
       <MemberSignature Language="F#" Value="val mutable Bold : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Bold" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Bold;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -63,8 +63,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Book" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Book" />
       <MemberSignature Language="VB.NET" Value="Public Const Book As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Book;" />
       <MemberSignature Language="F#" Value="val mutable Book : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Book" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Book;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -83,8 +83,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string ExtraBlack" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.ExtraBlack" />
       <MemberSignature Language="VB.NET" Value="Public Const ExtraBlack As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ ExtraBlack;" />
       <MemberSignature Language="F#" Value="val mutable ExtraBlack : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.ExtraBlack" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ ExtraBlack;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -103,8 +103,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Light" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Light" />
       <MemberSignature Language="VB.NET" Value="Public Const Light As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Light;" />
       <MemberSignature Language="F#" Value="val mutable Light : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Light" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Light;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -123,8 +123,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Medium" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Medium" />
       <MemberSignature Language="VB.NET" Value="Public Const Medium As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Medium;" />
       <MemberSignature Language="F#" Value="val mutable Medium : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Medium" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Medium;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -143,8 +143,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string None" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.None" />
       <MemberSignature Language="VB.NET" Value="Public Const None As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ None;" />
       <MemberSignature Language="F#" Value="val mutable None : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.None" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ None;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -163,8 +163,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Normal" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Normal" />
       <MemberSignature Language="VB.NET" Value="Public Const Normal As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Normal;" />
       <MemberSignature Language="F#" Value="val mutable Normal : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Normal" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Normal;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -183,8 +183,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string SemiBold" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.SemiBold" />
       <MemberSignature Language="VB.NET" Value="Public Const SemiBold As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ SemiBold;" />
       <MemberSignature Language="F#" Value="val mutable SemiBold : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.SemiBold" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ SemiBold;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -203,8 +203,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Thin" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Thin" />
       <MemberSignature Language="VB.NET" Value="Public Const Thin As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Thin;" />
       <MemberSignature Language="F#" Value="val mutable Thin : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.Thin" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Thin;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -223,8 +223,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string UltraBold" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.UltraBold" />
       <MemberSignature Language="VB.NET" Value="Public Const UltraBold As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ UltraBold;" />
       <MemberSignature Language="F#" Value="val mutable UltraBold : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.UltraBold" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ UltraBold;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -243,8 +243,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string UltraLight" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.UltraLight" />
       <MemberSignature Language="VB.NET" Value="Public Const UltraLight As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ UltraLight;" />
       <MemberSignature Language="F#" Value="val mutable UltraLight : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.FontWeight.UltraLight" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ UltraLight;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

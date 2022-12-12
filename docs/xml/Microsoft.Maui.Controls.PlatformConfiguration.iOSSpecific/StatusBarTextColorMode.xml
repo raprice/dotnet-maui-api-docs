@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StatusBarTextColorMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum StatusBarTextColorMode" />
-  <TypeSignature Language="C++ CLI" Value="public enum class StatusBarTextColorMode" />
   <TypeSignature Language="F#" Value="type StatusBarTextColorMode = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class StatusBarTextColorMode" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode DoNotAdjust = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode.DoNotAdjust" />
       <MemberSignature Language="VB.NET" Value="DoNotAdjust" />
-      <MemberSignature Language="C++ CLI" Value="DoNotAdjust" />
       <MemberSignature Language="F#" Value="DoNotAdjust = 1" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode.DoNotAdjust" />
+      <MemberSignature Language="C++ CLI" Value="DoNotAdjust" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode MatchNavigationBarTextLuminosity = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode.MatchNavigationBarTextLuminosity" />
       <MemberSignature Language="VB.NET" Value="MatchNavigationBarTextLuminosity" />
-      <MemberSignature Language="C++ CLI" Value="MatchNavigationBarTextLuminosity" />
       <MemberSignature Language="F#" Value="MatchNavigationBarTextLuminosity = 0" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode.MatchNavigationBarTextLuminosity" />
+      <MemberSignature Language="C++ CLI" Value="MatchNavigationBarTextLuminosity" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

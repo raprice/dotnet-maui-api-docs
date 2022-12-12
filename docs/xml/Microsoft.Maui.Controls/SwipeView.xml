@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SwipeView extends Microsoft.Maui.Controls.ContentView implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.SwipeView&gt;, class Microsoft.Maui.Controls.ISwipeViewController, class Microsoft.Maui.IContentView, class Microsoft.Maui.IElement, class Microsoft.Maui.IPadding, class Microsoft.Maui.ISwipeView, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.SwipeView" />
   <TypeSignature Language="VB.NET" Value="Public Class SwipeView&#xA;Inherits ContentView&#xA;Implements IElementConfiguration(Of SwipeView), ISwipeView, ISwipeViewController" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SwipeView : Microsoft::Maui::Controls::ContentView, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::SwipeView ^&gt;, Microsoft::Maui::Controls::ISwipeViewController, Microsoft::Maui::ISwipeView" />
   <TypeSignature Language="F#" Value="type SwipeView = class&#xA;    inherit ContentView&#xA;    interface ISwipeView&#xA;    interface IContentView&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IPadding&#xA;    interface IElementConfiguration&lt;SwipeView&gt;&#xA;    interface ISwipeViewController" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SwipeView : Microsoft::Maui::Controls::ContentView, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::SwipeView ^&gt;, Microsoft::Maui::Controls::ISwipeViewController, Microsoft::Maui::ISwipeView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.SwipeItems BottomItems" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeView.BottomItems" />
       <MemberSignature Language="VB.NET" Value="Public Property BottomItems As SwipeItems" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SwipeItems ^ BottomItems { Microsoft::Maui::Controls::SwipeItems ^ get(); void set(Microsoft::Maui::Controls::SwipeItems ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BottomItems : Microsoft.Maui.Controls.SwipeItems with get, set" Usage="Microsoft.Maui.Controls.SwipeView.BottomItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SwipeItems ^ BottomItems { Microsoft::Maui::Controls::SwipeItems ^ get(); void set(Microsoft::Maui::Controls::SwipeItems ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -92,8 +92,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BottomItemsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SwipeView.BottomItemsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BottomItemsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BottomItemsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BottomItemsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SwipeView.BottomItemsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BottomItemsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -135,8 +135,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.CloseRequestedEventArgs&gt; CloseRequested" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.SwipeView.CloseRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event CloseRequested As EventHandler(Of CloseRequestedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::CloseRequestedEventArgs ^&gt; ^ CloseRequested;" />
       <MemberSignature Language="F#" Value="member this.CloseRequested : EventHandler&lt;Microsoft.Maui.Controls.CloseRequestedEventArgs&gt; " Usage="member this.CloseRequested : System.EventHandler&lt;Microsoft.Maui.Controls.CloseRequestedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::CloseRequestedEventArgs ^&gt; ^ CloseRequested;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -161,8 +161,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.SwipeItems LeftItems" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeView.LeftItems" />
       <MemberSignature Language="VB.NET" Value="Public Property LeftItems As SwipeItems" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SwipeItems ^ LeftItems { Microsoft::Maui::Controls::SwipeItems ^ get(); void set(Microsoft::Maui::Controls::SwipeItems ^ value); };" />
       <MemberSignature Language="F#" Value="member this.LeftItems : Microsoft.Maui.Controls.SwipeItems with get, set" Usage="Microsoft.Maui.Controls.SwipeView.LeftItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SwipeItems ^ LeftItems { Microsoft::Maui::Controls::SwipeItems ^ get(); void set(Microsoft::Maui::Controls::SwipeItems ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -182,8 +182,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty LeftItemsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SwipeView.LeftItemsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LeftItemsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ LeftItemsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable LeftItemsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SwipeView.LeftItemsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ LeftItemsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -202,8 +202,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.Controls.ISwipeViewController.IsOpen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#Controls#ISwipeViewController#IsOpen" />
       <MemberSignature Language="VB.NET" Value=" Property IsOpen As Boolean Implements ISwipeViewController.IsOpen" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::ISwipeViewController::IsOpen { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.ISwipeViewController.IsOpen : bool with get, set" Usage="Microsoft.Maui.Controls.ISwipeViewController.IsOpen" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::ISwipeViewController::IsOpen { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.ISwipeViewController.IsOpen</InterfaceMember>
@@ -226,8 +226,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.ISwipeViewController.SendSwipeChanging(class Microsoft.Maui.Controls.SwipeChangingEventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#Controls#ISwipeViewController#SendSwipeChanging(Microsoft.Maui.Controls.SwipeChangingEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Sub SendSwipeChanging (args As SwipeChangingEventArgs) Implements ISwipeViewController.SendSwipeChanging" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.ISwipeViewController.SendSwipeChanging(Microsoft::Maui::Controls::SwipeChangingEventArgs ^ args) = Microsoft::Maui::Controls::ISwipeViewController::SendSwipeChanging;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.ISwipeViewController.SendSwipeChanging : Microsoft.Maui.Controls.SwipeChangingEventArgs -&gt; unit&#xA;override this.Microsoft.Maui.Controls.ISwipeViewController.SendSwipeChanging : Microsoft.Maui.Controls.SwipeChangingEventArgs -&gt; unit" Usage="swipeView.Microsoft.Maui.Controls.ISwipeViewController.SendSwipeChanging args" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.ISwipeViewController.SendSwipeChanging(Microsoft::Maui::Controls::SwipeChangingEventArgs ^ args) = Microsoft::Maui::Controls::ISwipeViewController::SendSwipeChanging;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.ISwipeViewController.SendSwipeChanging(Microsoft.Maui.Controls.SwipeChangingEventArgs)</InterfaceMember>
@@ -253,8 +253,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.ISwipeViewController.SendSwipeEnded(class Microsoft.Maui.Controls.SwipeEndedEventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#Controls#ISwipeViewController#SendSwipeEnded(Microsoft.Maui.Controls.SwipeEndedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Sub SendSwipeEnded (args As SwipeEndedEventArgs) Implements ISwipeViewController.SendSwipeEnded" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.ISwipeViewController.SendSwipeEnded(Microsoft::Maui::Controls::SwipeEndedEventArgs ^ args) = Microsoft::Maui::Controls::ISwipeViewController::SendSwipeEnded;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.ISwipeViewController.SendSwipeEnded : Microsoft.Maui.Controls.SwipeEndedEventArgs -&gt; unit&#xA;override this.Microsoft.Maui.Controls.ISwipeViewController.SendSwipeEnded : Microsoft.Maui.Controls.SwipeEndedEventArgs -&gt; unit" Usage="swipeView.Microsoft.Maui.Controls.ISwipeViewController.SendSwipeEnded args" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.ISwipeViewController.SendSwipeEnded(Microsoft::Maui::Controls::SwipeEndedEventArgs ^ args) = Microsoft::Maui::Controls::ISwipeViewController::SendSwipeEnded;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.ISwipeViewController.SendSwipeEnded(Microsoft.Maui.Controls.SwipeEndedEventArgs)</InterfaceMember>
@@ -280,8 +280,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.ISwipeViewController.SendSwipeStarted(class Microsoft.Maui.Controls.SwipeStartedEventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#Controls#ISwipeViewController#SendSwipeStarted(Microsoft.Maui.Controls.SwipeStartedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Sub SendSwipeStarted (args As SwipeStartedEventArgs) Implements ISwipeViewController.SendSwipeStarted" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.ISwipeViewController.SendSwipeStarted(Microsoft::Maui::Controls::SwipeStartedEventArgs ^ args) = Microsoft::Maui::Controls::ISwipeViewController::SendSwipeStarted;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.ISwipeViewController.SendSwipeStarted : Microsoft.Maui.Controls.SwipeStartedEventArgs -&gt; unit&#xA;override this.Microsoft.Maui.Controls.ISwipeViewController.SendSwipeStarted : Microsoft.Maui.Controls.SwipeStartedEventArgs -&gt; unit" Usage="swipeView.Microsoft.Maui.Controls.ISwipeViewController.SendSwipeStarted args" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.ISwipeViewController.SendSwipeStarted(Microsoft::Maui::Controls::SwipeStartedEventArgs ^ args) = Microsoft::Maui::Controls::ISwipeViewController::SendSwipeStarted;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.ISwipeViewController.SendSwipeStarted(Microsoft.Maui.Controls.SwipeStartedEventArgs)</InterfaceMember>
@@ -307,8 +307,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.ISwipeItems Microsoft.Maui.ISwipeView.BottomItems" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#ISwipeView#BottomItems" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property BottomItems As ISwipeItems Implements ISwipeView.BottomItems" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ISwipeItems ^ Microsoft::Maui::ISwipeView::BottomItems { Microsoft::Maui::ISwipeItems ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ISwipeView.BottomItems : Microsoft.Maui.ISwipeItems" Usage="Microsoft.Maui.ISwipeView.BottomItems" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ISwipeItems ^ Microsoft::Maui::ISwipeView::BottomItems { Microsoft::Maui::ISwipeItems ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ISwipeView.BottomItems</InterfaceMember>
@@ -331,8 +331,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.ISwipeView.IsOpen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#ISwipeView#IsOpen" />
       <MemberSignature Language="VB.NET" Value=" Property IsOpen As Boolean Implements ISwipeView.IsOpen" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::ISwipeView::IsOpen { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ISwipeView.IsOpen : bool with get, set" Usage="Microsoft.Maui.ISwipeView.IsOpen" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::ISwipeView::IsOpen { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ISwipeView.IsOpen</InterfaceMember>
@@ -355,8 +355,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.ISwipeItems Microsoft.Maui.ISwipeView.LeftItems" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#ISwipeView#LeftItems" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property LeftItems As ISwipeItems Implements ISwipeView.LeftItems" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ISwipeItems ^ Microsoft::Maui::ISwipeView::LeftItems { Microsoft::Maui::ISwipeItems ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ISwipeView.LeftItems : Microsoft.Maui.ISwipeItems" Usage="Microsoft.Maui.ISwipeView.LeftItems" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ISwipeItems ^ Microsoft::Maui::ISwipeView::LeftItems { Microsoft::Maui::ISwipeItems ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ISwipeView.LeftItems</InterfaceMember>
@@ -379,8 +379,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.ISwipeView.RequestClose(class Microsoft.Maui.SwipeViewCloseRequest swipeCloseRequest) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#ISwipeView#RequestClose(Microsoft.Maui.SwipeViewCloseRequest)" />
       <MemberSignature Language="VB.NET" Value="Sub RequestClose (swipeCloseRequest As SwipeViewCloseRequest) Implements ISwipeView.RequestClose" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISwipeView.RequestClose(Microsoft::Maui::SwipeViewCloseRequest ^ swipeCloseRequest) = Microsoft::Maui::ISwipeView::RequestClose;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.ISwipeView.RequestClose : Microsoft.Maui.SwipeViewCloseRequest -&gt; unit&#xA;override this.Microsoft.Maui.ISwipeView.RequestClose : Microsoft.Maui.SwipeViewCloseRequest -&gt; unit" Usage="swipeView.Microsoft.Maui.ISwipeView.RequestClose swipeCloseRequest" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISwipeView.RequestClose(Microsoft::Maui::SwipeViewCloseRequest ^ swipeCloseRequest) = Microsoft::Maui::ISwipeView::RequestClose;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.ISwipeView.RequestClose(Microsoft.Maui.SwipeViewCloseRequest)</InterfaceMember>
@@ -406,8 +406,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.ISwipeView.RequestOpen(class Microsoft.Maui.SwipeViewOpenRequest swipeOpenRequest) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#ISwipeView#RequestOpen(Microsoft.Maui.SwipeViewOpenRequest)" />
       <MemberSignature Language="VB.NET" Value="Sub RequestOpen (swipeOpenRequest As SwipeViewOpenRequest) Implements ISwipeView.RequestOpen" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISwipeView.RequestOpen(Microsoft::Maui::SwipeViewOpenRequest ^ swipeOpenRequest) = Microsoft::Maui::ISwipeView::RequestOpen;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.ISwipeView.RequestOpen : Microsoft.Maui.SwipeViewOpenRequest -&gt; unit&#xA;override this.Microsoft.Maui.ISwipeView.RequestOpen : Microsoft.Maui.SwipeViewOpenRequest -&gt; unit" Usage="swipeView.Microsoft.Maui.ISwipeView.RequestOpen swipeOpenRequest" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISwipeView.RequestOpen(Microsoft::Maui::SwipeViewOpenRequest ^ swipeOpenRequest) = Microsoft::Maui::ISwipeView::RequestOpen;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.ISwipeView.RequestOpen(Microsoft.Maui.SwipeViewOpenRequest)</InterfaceMember>
@@ -433,8 +433,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.ISwipeItems Microsoft.Maui.ISwipeView.RightItems" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#ISwipeView#RightItems" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property RightItems As ISwipeItems Implements ISwipeView.RightItems" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ISwipeItems ^ Microsoft::Maui::ISwipeView::RightItems { Microsoft::Maui::ISwipeItems ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ISwipeView.RightItems : Microsoft.Maui.ISwipeItems" Usage="Microsoft.Maui.ISwipeView.RightItems" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ISwipeItems ^ Microsoft::Maui::ISwipeView::RightItems { Microsoft::Maui::ISwipeItems ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ISwipeView.RightItems</InterfaceMember>
@@ -457,8 +457,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.ISwipeView.SwipeChanging(class Microsoft.Maui.SwipeViewSwipeChanging swipeChanging) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#ISwipeView#SwipeChanging(Microsoft.Maui.SwipeViewSwipeChanging)" />
       <MemberSignature Language="VB.NET" Value="Sub SwipeChanging (swipeChanging As SwipeViewSwipeChanging) Implements ISwipeView.SwipeChanging" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISwipeView.SwipeChanging(Microsoft::Maui::SwipeViewSwipeChanging ^ swipeChanging) = Microsoft::Maui::ISwipeView::SwipeChanging;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.ISwipeView.SwipeChanging : Microsoft.Maui.SwipeViewSwipeChanging -&gt; unit&#xA;override this.Microsoft.Maui.ISwipeView.SwipeChanging : Microsoft.Maui.SwipeViewSwipeChanging -&gt; unit" Usage="swipeView.Microsoft.Maui.ISwipeView.SwipeChanging swipeChanging" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISwipeView.SwipeChanging(Microsoft::Maui::SwipeViewSwipeChanging ^ swipeChanging) = Microsoft::Maui::ISwipeView::SwipeChanging;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.ISwipeView.SwipeChanging(Microsoft.Maui.SwipeViewSwipeChanging)</InterfaceMember>
@@ -484,8 +484,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.ISwipeView.SwipeEnded(class Microsoft.Maui.SwipeViewSwipeEnded swipeEnded) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#ISwipeView#SwipeEnded(Microsoft.Maui.SwipeViewSwipeEnded)" />
       <MemberSignature Language="VB.NET" Value="Sub SwipeEnded (swipeEnded As SwipeViewSwipeEnded) Implements ISwipeView.SwipeEnded" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISwipeView.SwipeEnded(Microsoft::Maui::SwipeViewSwipeEnded ^ swipeEnded) = Microsoft::Maui::ISwipeView::SwipeEnded;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.ISwipeView.SwipeEnded : Microsoft.Maui.SwipeViewSwipeEnded -&gt; unit&#xA;override this.Microsoft.Maui.ISwipeView.SwipeEnded : Microsoft.Maui.SwipeViewSwipeEnded -&gt; unit" Usage="swipeView.Microsoft.Maui.ISwipeView.SwipeEnded swipeEnded" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISwipeView.SwipeEnded(Microsoft::Maui::SwipeViewSwipeEnded ^ swipeEnded) = Microsoft::Maui::ISwipeView::SwipeEnded;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.ISwipeView.SwipeEnded(Microsoft.Maui.SwipeViewSwipeEnded)</InterfaceMember>
@@ -511,8 +511,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.ISwipeView.SwipeStarted(class Microsoft.Maui.SwipeViewSwipeStarted swipeStarted) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#ISwipeView#SwipeStarted(Microsoft.Maui.SwipeViewSwipeStarted)" />
       <MemberSignature Language="VB.NET" Value="Sub SwipeStarted (swipeStarted As SwipeViewSwipeStarted) Implements ISwipeView.SwipeStarted" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISwipeView.SwipeStarted(Microsoft::Maui::SwipeViewSwipeStarted ^ swipeStarted) = Microsoft::Maui::ISwipeView::SwipeStarted;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.ISwipeView.SwipeStarted : Microsoft.Maui.SwipeViewSwipeStarted -&gt; unit&#xA;override this.Microsoft.Maui.ISwipeView.SwipeStarted : Microsoft.Maui.SwipeViewSwipeStarted -&gt; unit" Usage="swipeView.Microsoft.Maui.ISwipeView.SwipeStarted swipeStarted" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISwipeView.SwipeStarted(Microsoft::Maui::SwipeViewSwipeStarted ^ swipeStarted) = Microsoft::Maui::ISwipeView::SwipeStarted;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.ISwipeView.SwipeStarted(Microsoft.Maui.SwipeViewSwipeStarted)</InterfaceMember>
@@ -538,8 +538,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.SwipeTransitionMode Microsoft.Maui.ISwipeView.SwipeTransitionMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#ISwipeView#SwipeTransitionMode" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property SwipeTransitionMode As SwipeTransitionMode Implements ISwipeView.SwipeTransitionMode" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::SwipeTransitionMode Microsoft::Maui::ISwipeView::SwipeTransitionMode { Microsoft::Maui::SwipeTransitionMode get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ISwipeView.SwipeTransitionMode : Microsoft.Maui.SwipeTransitionMode" Usage="Microsoft.Maui.ISwipeView.SwipeTransitionMode" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::SwipeTransitionMode Microsoft::Maui::ISwipeView::SwipeTransitionMode { Microsoft::Maui::SwipeTransitionMode get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ISwipeView.SwipeTransitionMode</InterfaceMember>
@@ -562,8 +562,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.ISwipeItems Microsoft.Maui.ISwipeView.TopItems" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeView.Microsoft#Maui#ISwipeView#TopItems" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property TopItems As ISwipeItems Implements ISwipeView.TopItems" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ISwipeItems ^ Microsoft::Maui::ISwipeView::TopItems { Microsoft::Maui::ISwipeItems ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ISwipeView.TopItems : Microsoft.Maui.ISwipeItems" Usage="Microsoft.Maui.ISwipeView.TopItems" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ISwipeItems ^ Microsoft::Maui::ISwipeView::TopItems { Microsoft::Maui::ISwipeItems ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ISwipeView.TopItems</InterfaceMember>
@@ -586,8 +586,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.SwipeView&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeView.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, SwipeView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::SwipeView ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.SwipeView (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.SwipeView (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="swipeView.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::SwipeView ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -620,8 +620,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeView.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="swipeView.OnBindingContextChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -641,8 +641,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildAdded(class Microsoft.Maui.Controls.Element child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeView.OnChildAdded(Microsoft.Maui.Controls.Element)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnChildAdded (child As Element)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnChildAdded(Microsoft::Maui::Controls::Element ^ child);" />
       <MemberSignature Language="F#" Value="override this.OnChildAdded : Microsoft.Maui.Controls.Element -&gt; unit" Usage="swipeView.OnChildAdded child" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnChildAdded(Microsoft::Maui::Controls::Element ^ child);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -665,8 +665,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildRemoved(class Microsoft.Maui.Controls.Element child, int32 oldLogicalIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeView.OnChildRemoved(Microsoft.Maui.Controls.Element,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnChildRemoved (child As Element, oldLogicalIndex As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnChildRemoved(Microsoft::Maui::Controls::Element ^ child, int oldLogicalIndex);" />
       <MemberSignature Language="F#" Value="override this.OnChildRemoved : Microsoft.Maui.Controls.Element * int -&gt; unit" Usage="swipeView.OnChildRemoved (child, oldLogicalIndex)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnChildRemoved(Microsoft::Maui::Controls::Element ^ child, int oldLogicalIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -716,8 +716,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.OpenRequestedEventArgs&gt; OpenRequested" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.SwipeView.OpenRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event OpenRequested As EventHandler(Of OpenRequestedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::OpenRequestedEventArgs ^&gt; ^ OpenRequested;" />
       <MemberSignature Language="F#" Value="member this.OpenRequested : EventHandler&lt;Microsoft.Maui.Controls.OpenRequestedEventArgs&gt; " Usage="member this.OpenRequested : System.EventHandler&lt;Microsoft.Maui.Controls.OpenRequestedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::OpenRequestedEventArgs ^&gt; ^ OpenRequested;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -742,8 +742,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.SwipeItems RightItems" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeView.RightItems" />
       <MemberSignature Language="VB.NET" Value="Public Property RightItems As SwipeItems" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SwipeItems ^ RightItems { Microsoft::Maui::Controls::SwipeItems ^ get(); void set(Microsoft::Maui::Controls::SwipeItems ^ value); };" />
       <MemberSignature Language="F#" Value="member this.RightItems : Microsoft.Maui.Controls.SwipeItems with get, set" Usage="Microsoft.Maui.Controls.SwipeView.RightItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SwipeItems ^ RightItems { Microsoft::Maui::Controls::SwipeItems ^ get(); void set(Microsoft::Maui::Controls::SwipeItems ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -763,8 +763,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty RightItemsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SwipeView.RightItemsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RightItemsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RightItemsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable RightItemsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SwipeView.RightItemsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RightItemsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -783,8 +783,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.SwipeChangingEventArgs&gt; SwipeChanging" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.SwipeView.SwipeChanging" />
       <MemberSignature Language="VB.NET" Value="Public Event SwipeChanging As EventHandler(Of SwipeChangingEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::SwipeChangingEventArgs ^&gt; ^ SwipeChanging;" />
       <MemberSignature Language="F#" Value="member this.SwipeChanging : EventHandler&lt;Microsoft.Maui.Controls.SwipeChangingEventArgs&gt; " Usage="member this.SwipeChanging : System.EventHandler&lt;Microsoft.Maui.Controls.SwipeChangingEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::SwipeChangingEventArgs ^&gt; ^ SwipeChanging;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -803,8 +803,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.SwipeEndedEventArgs&gt; SwipeEnded" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.SwipeView.SwipeEnded" />
       <MemberSignature Language="VB.NET" Value="Public Event SwipeEnded As EventHandler(Of SwipeEndedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::SwipeEndedEventArgs ^&gt; ^ SwipeEnded;" />
       <MemberSignature Language="F#" Value="member this.SwipeEnded : EventHandler&lt;Microsoft.Maui.Controls.SwipeEndedEventArgs&gt; " Usage="member this.SwipeEnded : System.EventHandler&lt;Microsoft.Maui.Controls.SwipeEndedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::SwipeEndedEventArgs ^&gt; ^ SwipeEnded;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -823,8 +823,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.SwipeStartedEventArgs&gt; SwipeStarted" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.SwipeView.SwipeStarted" />
       <MemberSignature Language="VB.NET" Value="Public Event SwipeStarted As EventHandler(Of SwipeStartedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::SwipeStartedEventArgs ^&gt; ^ SwipeStarted;" />
       <MemberSignature Language="F#" Value="member this.SwipeStarted : EventHandler&lt;Microsoft.Maui.Controls.SwipeStartedEventArgs&gt; " Usage="member this.SwipeStarted : System.EventHandler&lt;Microsoft.Maui.Controls.SwipeStartedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::SwipeStartedEventArgs ^&gt; ^ SwipeStarted;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -843,8 +843,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Threshold" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeView.Threshold" />
       <MemberSignature Language="VB.NET" Value="Public Property Threshold As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Threshold { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Threshold : double with get, set" Usage="Microsoft.Maui.Controls.SwipeView.Threshold" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Threshold { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -864,8 +864,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ThresholdProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SwipeView.ThresholdProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ThresholdProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ThresholdProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ThresholdProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SwipeView.ThresholdProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ThresholdProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -884,8 +884,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.SwipeItems TopItems" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeView.TopItems" />
       <MemberSignature Language="VB.NET" Value="Public Property TopItems As SwipeItems" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SwipeItems ^ TopItems { Microsoft::Maui::Controls::SwipeItems ^ get(); void set(Microsoft::Maui::Controls::SwipeItems ^ value); };" />
       <MemberSignature Language="F#" Value="member this.TopItems : Microsoft.Maui.Controls.SwipeItems with get, set" Usage="Microsoft.Maui.Controls.SwipeView.TopItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SwipeItems ^ TopItems { Microsoft::Maui::Controls::SwipeItems ^ get(); void set(Microsoft::Maui::Controls::SwipeItems ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -905,8 +905,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TopItemsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SwipeView.TopItemsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TopItemsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TopItemsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TopItemsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SwipeView.TopItemsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TopItemsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

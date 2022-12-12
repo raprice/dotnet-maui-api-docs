@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Application extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.Application" />
   <TypeSignature Language="VB.NET" Value="Public Module Application" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Application abstract sealed" />
   <TypeSignature Language="F#" Value="type Application = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Application abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust GetWindowSoftInputModeAdjust(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.Application.GetWindowSoftInputModeAdjust(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetWindowSoftInputModeAdjust (element As BindableObject) As WindowSoftInputModeAdjust" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::WindowSoftInputModeAdjust GetWindowSoftInputModeAdjust(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetWindowSoftInputModeAdjust : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.Application.GetWindowSoftInputModeAdjust element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::WindowSoftInputModeAdjust GetWindowSoftInputModeAdjust(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust GetWindowSoftInputModeAdjust(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.Application&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.Application.GetWindowSoftInputModeAdjust(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Application})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetWindowSoftInputModeAdjust (config As IPlatformElementConfiguration(Of Android, Application)) As WindowSoftInputModeAdjust" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::WindowSoftInputModeAdjust GetWindowSoftInputModeAdjust(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::Application ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetWindowSoftInputModeAdjust : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.Application&gt; -&gt; Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.Application.GetWindowSoftInputModeAdjust config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::WindowSoftInputModeAdjust GetWindowSoftInputModeAdjust(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::Application ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetWindowSoftInputModeAdjust(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.Application.SetWindowSoftInputModeAdjust(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetWindowSoftInputModeAdjust (element As BindableObject, value As WindowSoftInputModeAdjust)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetWindowSoftInputModeAdjust(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::WindowSoftInputModeAdjust value);" />
       <MemberSignature Language="F#" Value="static member SetWindowSoftInputModeAdjust : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.Application.SetWindowSoftInputModeAdjust (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetWindowSoftInputModeAdjust(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::WindowSoftInputModeAdjust value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -99,8 +99,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.Application&gt; UseWindowSoftInputModeAdjust(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.Application&gt; config, valuetype Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.Application.UseWindowSoftInputModeAdjust(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.Application},Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseWindowSoftInputModeAdjust (config As IPlatformElementConfiguration(Of Android, Application), value As WindowSoftInputModeAdjust) As IPlatformElementConfiguration(Of Android, Application)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::Application ^&gt; ^ UseWindowSoftInputModeAdjust(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::Application ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::WindowSoftInputModeAdjust value);" />
       <MemberSignature Language="F#" Value="static member UseWindowSoftInputModeAdjust : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.Application&gt; * Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.Application&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.Application.UseWindowSoftInputModeAdjust (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::Application ^&gt; ^ UseWindowSoftInputModeAdjust(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::Application ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::WindowSoftInputModeAdjust value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -126,8 +126,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty WindowSoftInputModeAdjustProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.Application.WindowSoftInputModeAdjustProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly WindowSoftInputModeAdjustProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ WindowSoftInputModeAdjustProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable WindowSoftInputModeAdjustProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.Application.WindowSoftInputModeAdjustProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ WindowSoftInputModeAdjustProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

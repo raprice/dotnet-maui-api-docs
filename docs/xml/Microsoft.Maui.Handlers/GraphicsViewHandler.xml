@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GraphicsViewHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.IGraphicsView, object&gt; implements class Microsoft.Maui.Handlers.IGraphicsViewHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.GraphicsViewHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class GraphicsViewHandler&#xA;Inherits ViewHandler(Of IGraphicsView, Object)&#xA;Implements IGraphicsViewHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GraphicsViewHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IGraphicsView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IGraphicsViewHandler" />
   <TypeSignature Language="F#" Value="type GraphicsViewHandler = class&#xA;    inherit ViewHandler&lt;IGraphicsView, obj&gt;&#xA;    interface IGraphicsViewHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GraphicsViewHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IGraphicsView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IGraphicsViewHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.GraphicsViewHandler.#ctor(Microsoft.Maui.IPropertyMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; GraphicsViewHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.GraphicsViewHandler : Microsoft.Maui.IPropertyMapper -&gt; Microsoft.Maui.Handlers.GraphicsViewHandler" Usage="new Microsoft.Maui.Handlers.GraphicsViewHandler mapper" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GraphicsViewHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IGraphicsView, class Microsoft.Maui.Handlers.IGraphicsViewHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.GraphicsViewHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IGraphicsView, IGraphicsViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IGraphicsView ^, Microsoft::Maui::Handlers::IGraphicsViewHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IGraphicsView, Microsoft.Maui.Handlers.IGraphicsViewHandler&gt;" Usage="Microsoft.Maui.Handlers.GraphicsViewHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IGraphicsView ^, Microsoft::Maui::Handlers::IGraphicsViewHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -120,8 +120,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void ConnectHandler(object platformView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.GraphicsViewHandler.ConnectHandler(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ConnectHandler (platformView As Object)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ConnectHandler(System::Object ^ platformView);" />
       <MemberSignature Language="F#" Value="override this.ConnectHandler : obj -&gt; unit" Usage="graphicsViewHandler.ConnectHandler platformView" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ConnectHandler(System::Object ^ platformView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -144,8 +144,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.GraphicsViewHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="graphicsViewHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -166,8 +166,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void DisconnectHandler(object platformView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.GraphicsViewHandler.DisconnectHandler(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub DisconnectHandler (platformView As Object)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void DisconnectHandler(System::Object ^ platformView);" />
       <MemberSignature Language="F#" Value="override this.DisconnectHandler : obj -&gt; unit" Usage="graphicsViewHandler.DisconnectHandler platformView" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void DisconnectHandler(System::Object ^ platformView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -190,8 +190,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapDrawable(class Microsoft.Maui.Handlers.IGraphicsViewHandler handler, class Microsoft.Maui.IGraphicsView graphicsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.GraphicsViewHandler.MapDrawable(Microsoft.Maui.Handlers.IGraphicsViewHandler,Microsoft.Maui.IGraphicsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapDrawable (handler As IGraphicsViewHandler, graphicsView As IGraphicsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapDrawable(Microsoft::Maui::Handlers::IGraphicsViewHandler ^ handler, Microsoft::Maui::IGraphicsView ^ graphicsView);" />
       <MemberSignature Language="F#" Value="static member MapDrawable : Microsoft.Maui.Handlers.IGraphicsViewHandler * Microsoft.Maui.IGraphicsView -&gt; unit" Usage="Microsoft.Maui.Handlers.GraphicsViewHandler.MapDrawable (handler, graphicsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapDrawable(Microsoft::Maui::Handlers::IGraphicsViewHandler ^ handler, Microsoft::Maui::IGraphicsView ^ graphicsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -216,8 +216,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapFlowDirection(class Microsoft.Maui.Handlers.IGraphicsViewHandler handler, class Microsoft.Maui.IGraphicsView graphicsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.GraphicsViewHandler.MapFlowDirection(Microsoft.Maui.Handlers.IGraphicsViewHandler,Microsoft.Maui.IGraphicsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapFlowDirection (handler As IGraphicsViewHandler, graphicsView As IGraphicsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFlowDirection(Microsoft::Maui::Handlers::IGraphicsViewHandler ^ handler, Microsoft::Maui::IGraphicsView ^ graphicsView);" />
       <MemberSignature Language="F#" Value="static member MapFlowDirection : Microsoft.Maui.Handlers.IGraphicsViewHandler * Microsoft.Maui.IGraphicsView -&gt; unit" Usage="Microsoft.Maui.Handlers.GraphicsViewHandler.MapFlowDirection (handler, graphicsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFlowDirection(Microsoft::Maui::Handlers::IGraphicsViewHandler ^ handler, Microsoft::Maui::IGraphicsView ^ graphicsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -242,8 +242,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapInvalidate(class Microsoft.Maui.Handlers.IGraphicsViewHandler handler, class Microsoft.Maui.IGraphicsView graphicsView, object arg) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.GraphicsViewHandler.MapInvalidate(Microsoft.Maui.Handlers.IGraphicsViewHandler,Microsoft.Maui.IGraphicsView,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapInvalidate (handler As IGraphicsViewHandler, graphicsView As IGraphicsView, arg As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapInvalidate(Microsoft::Maui::Handlers::IGraphicsViewHandler ^ handler, Microsoft::Maui::IGraphicsView ^ graphicsView, System::Object ^ arg);" />
       <MemberSignature Language="F#" Value="static member MapInvalidate : Microsoft.Maui.Handlers.IGraphicsViewHandler * Microsoft.Maui.IGraphicsView * obj -&gt; unit" Usage="Microsoft.Maui.Handlers.GraphicsViewHandler.MapInvalidate (handler, graphicsView, arg)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapInvalidate(Microsoft::Maui::Handlers::IGraphicsViewHandler ^ handler, Microsoft::Maui::IGraphicsView ^ graphicsView, System::Object ^ arg);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -270,8 +270,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IGraphicsView, class Microsoft.Maui.Handlers.IGraphicsViewHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.GraphicsViewHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IGraphicsView, IGraphicsViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IGraphicsView ^, Microsoft::Maui::Handlers::IGraphicsViewHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IGraphicsView, Microsoft.Maui.Handlers.IGraphicsViewHandler&gt;" Usage="Microsoft.Maui.Handlers.GraphicsViewHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IGraphicsView ^, Microsoft::Maui::Handlers::IGraphicsViewHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -290,8 +290,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.IGraphicsViewHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.GraphicsViewHandler.Microsoft#Maui#Handlers#IGraphicsViewHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IGraphicsViewHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IGraphicsViewHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IGraphicsViewHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.IGraphicsViewHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IGraphicsViewHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IGraphicsViewHandler.PlatformView</InterfaceMember>
@@ -314,8 +314,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IGraphicsView Microsoft.Maui.Handlers.IGraphicsViewHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.GraphicsViewHandler.Microsoft#Maui#Handlers#IGraphicsViewHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IGraphicsView Implements IGraphicsViewHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IGraphicsView ^ Microsoft::Maui::Handlers::IGraphicsViewHandler::VirtualView { Microsoft::Maui::IGraphicsView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IGraphicsViewHandler.VirtualView : Microsoft.Maui.IGraphicsView" Usage="Microsoft.Maui.Handlers.IGraphicsViewHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IGraphicsView ^ Microsoft::Maui::Handlers::IGraphicsViewHandler::VirtualView { Microsoft::Maui::IGraphicsView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IGraphicsViewHandler.VirtualView</InterfaceMember>

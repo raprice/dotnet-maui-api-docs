@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StatusBarHiddenMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum StatusBarHiddenMode" />
-  <TypeSignature Language="C++ CLI" Value="public enum class StatusBarHiddenMode" />
   <TypeSignature Language="F#" Value="type StatusBarHiddenMode = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class StatusBarHiddenMode" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode Default = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode.Default" />
       <MemberSignature Language="VB.NET" Value="Default" />
-      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode.Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode False = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode.False" />
       <MemberSignature Language="VB.NET" Value="False" />
-      <MemberSignature Language="C++ CLI" Value="False" />
       <MemberSignature Language="F#" Value="False = 2" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode.False" />
+      <MemberSignature Language="C++ CLI" Value="False" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode True = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode.True" />
       <MemberSignature Language="VB.NET" Value="True" />
-      <MemberSignature Language="C++ CLI" Value="True" />
       <MemberSignature Language="F#" Value="True = 1" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode.True" />
+      <MemberSignature Language="C++ CLI" Value="True" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

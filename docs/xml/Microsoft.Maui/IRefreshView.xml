@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRefreshView implements class Microsoft.Maui.IElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IRefreshView" />
   <TypeSignature Language="VB.NET" Value="Public Interface IRefreshView&#xA;Implements IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IRefreshView : Microsoft::Maui::IView" />
   <TypeSignature Language="F#" Value="type IRefreshView = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IRefreshView : Microsoft::Maui::IView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -32,8 +32,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Content" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IRefreshView.Content" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Content As IView" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IView ^ Content { Microsoft::Maui::IView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Content : Microsoft.Maui.IView" Usage="Microsoft.Maui.IRefreshView.Content" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IView ^ Content { Microsoft::Maui::IView ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -55,8 +55,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsRefreshing" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IRefreshView.IsRefreshing" />
       <MemberSignature Language="VB.NET" Value="Public Property IsRefreshing As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRefreshing { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsRefreshing : bool with get, set" Usage="Microsoft.Maui.IRefreshView.IsRefreshing" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRefreshing { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -78,8 +78,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Paint RefreshColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IRefreshView.RefreshColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RefreshColor As Paint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Paint ^ RefreshColor { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.RefreshColor : Microsoft.Maui.Graphics.Paint" Usage="Microsoft.Maui.IRefreshView.RefreshColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Paint ^ RefreshColor { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

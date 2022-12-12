@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SwipeItemViewHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.ISwipeItemView, object&gt; implements class Microsoft.Maui.Handlers.ISwipeItemViewHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.SwipeItemViewHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class SwipeItemViewHandler&#xA;Inherits ViewHandler(Of ISwipeItemView, Object)&#xA;Implements ISwipeItemViewHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SwipeItemViewHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::ISwipeItemView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::ISwipeItemViewHandler" />
   <TypeSignature Language="F#" Value="type SwipeItemViewHandler = class&#xA;    inherit ViewHandler&lt;ISwipeItemView, obj&gt;&#xA;    interface ISwipeItemViewHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SwipeItemViewHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::ISwipeItemView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::ISwipeItemViewHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -103,8 +103,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.ISwipeItemView, class Microsoft.Maui.Handlers.ISwipeItemViewHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.SwipeItemViewHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of ISwipeItemView, ISwipeItemViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::ISwipeItemView ^, Microsoft::Maui::Handlers::ISwipeItemViewHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.ISwipeItemView, Microsoft.Maui.Handlers.ISwipeItemViewHandler&gt;" Usage="Microsoft.Maui.Handlers.SwipeItemViewHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::ISwipeItemView ^, Microsoft::Maui::Handlers::ISwipeItemViewHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -123,8 +123,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SwipeItemViewHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="swipeItemViewHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -145,8 +145,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapContent(class Microsoft.Maui.Handlers.ISwipeItemViewHandler handler, class Microsoft.Maui.ISwipeItemView page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SwipeItemViewHandler.MapContent(Microsoft.Maui.Handlers.ISwipeItemViewHandler,Microsoft.Maui.ISwipeItemView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapContent (handler As ISwipeItemViewHandler, page As ISwipeItemView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContent(Microsoft::Maui::Handlers::ISwipeItemViewHandler ^ handler, Microsoft::Maui::ISwipeItemView ^ page);" />
       <MemberSignature Language="F#" Value="static member MapContent : Microsoft.Maui.Handlers.ISwipeItemViewHandler * Microsoft.Maui.ISwipeItemView -&gt; unit" Usage="Microsoft.Maui.Handlers.SwipeItemViewHandler.MapContent (handler, page)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContent(Microsoft::Maui::Handlers::ISwipeItemViewHandler ^ handler, Microsoft::Maui::ISwipeItemView ^ page);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -171,8 +171,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.ISwipeItemView, class Microsoft.Maui.Handlers.ISwipeItemViewHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.SwipeItemViewHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of ISwipeItemView, ISwipeItemViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ISwipeItemView ^, Microsoft::Maui::Handlers::ISwipeItemViewHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.ISwipeItemView, Microsoft.Maui.Handlers.ISwipeItemViewHandler&gt;" Usage="Microsoft.Maui.Handlers.SwipeItemViewHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ISwipeItemView ^, Microsoft::Maui::Handlers::ISwipeItemViewHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -191,8 +191,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapVisibility(class Microsoft.Maui.Handlers.ISwipeItemViewHandler handler, class Microsoft.Maui.ISwipeItemView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SwipeItemViewHandler.MapVisibility(Microsoft.Maui.Handlers.ISwipeItemViewHandler,Microsoft.Maui.ISwipeItemView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapVisibility (handler As ISwipeItemViewHandler, view As ISwipeItemView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapVisibility(Microsoft::Maui::Handlers::ISwipeItemViewHandler ^ handler, Microsoft::Maui::ISwipeItemView ^ view);" />
       <MemberSignature Language="F#" Value="static member MapVisibility : Microsoft.Maui.Handlers.ISwipeItemViewHandler * Microsoft.Maui.ISwipeItemView -&gt; unit" Usage="Microsoft.Maui.Handlers.SwipeItemViewHandler.MapVisibility (handler, view)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapVisibility(Microsoft::Maui::Handlers::ISwipeItemViewHandler ^ handler, Microsoft::Maui::ISwipeItemView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -217,8 +217,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.ISwipeItemViewHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.SwipeItemViewHandler.Microsoft#Maui#Handlers#ISwipeItemViewHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements ISwipeItemViewHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::ISwipeItemViewHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.ISwipeItemViewHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.ISwipeItemViewHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::ISwipeItemViewHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.ISwipeItemViewHandler.PlatformView</InterfaceMember>
@@ -241,8 +241,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.ISwipeItemView Microsoft.Maui.Handlers.ISwipeItemViewHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.SwipeItemViewHandler.Microsoft#Maui#Handlers#ISwipeItemViewHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As ISwipeItemView Implements ISwipeItemViewHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ISwipeItemView ^ Microsoft::Maui::Handlers::ISwipeItemViewHandler::VirtualView { Microsoft::Maui::ISwipeItemView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.ISwipeItemViewHandler.VirtualView : Microsoft.Maui.ISwipeItemView" Usage="Microsoft.Maui.Handlers.ISwipeItemViewHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ISwipeItemView ^ Microsoft::Maui::Handlers::ISwipeItemViewHandler::VirtualView { Microsoft::Maui::ISwipeItemView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.ISwipeItemViewHandler.VirtualView</InterfaceMember>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ListViewCachingStrategy extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ListViewCachingStrategy" />
   <TypeSignature Language="VB.NET" Value="Public Enum ListViewCachingStrategy" />
-  <TypeSignature Language="C++ CLI" Value="public enum class ListViewCachingStrategy" />
   <TypeSignature Language="F#" Value="type ListViewCachingStrategy = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class ListViewCachingStrategy" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.ListViewCachingStrategy RecycleElement = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListViewCachingStrategy.RecycleElement" />
       <MemberSignature Language="VB.NET" Value="RecycleElement" />
-      <MemberSignature Language="C++ CLI" Value="RecycleElement" />
       <MemberSignature Language="F#" Value="RecycleElement = 1" Usage="Microsoft.Maui.Controls.ListViewCachingStrategy.RecycleElement" />
+      <MemberSignature Language="C++ CLI" Value="RecycleElement" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.ListViewCachingStrategy RecycleElementAndDataTemplate = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListViewCachingStrategy.RecycleElementAndDataTemplate" />
       <MemberSignature Language="VB.NET" Value="RecycleElementAndDataTemplate" />
-      <MemberSignature Language="C++ CLI" Value="RecycleElementAndDataTemplate" />
       <MemberSignature Language="F#" Value="RecycleElementAndDataTemplate = 3" Usage="Microsoft.Maui.Controls.ListViewCachingStrategy.RecycleElementAndDataTemplate" />
+      <MemberSignature Language="C++ CLI" Value="RecycleElementAndDataTemplate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -87,8 +87,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.ListViewCachingStrategy RetainElement = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListViewCachingStrategy.RetainElement" />
       <MemberSignature Language="VB.NET" Value="RetainElement" />
-      <MemberSignature Language="C++ CLI" Value="RetainElement" />
       <MemberSignature Language="F#" Value="RetainElement = 0" Usage="Microsoft.Maui.Controls.ListViewCachingStrategy.RetainElement" />
+      <MemberSignature Language="C++ CLI" Value="RetainElement" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

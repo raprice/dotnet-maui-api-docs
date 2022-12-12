@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit StyleSheetExtension extends System.Object implements class Microsoft.Maui.Controls.Xaml.IValueProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.StyleSheetExtension" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class StyleSheetExtension&#xA;Implements IValueProvider" />
-  <TypeSignature Language="C++ CLI" Value="public ref class StyleSheetExtension sealed : Microsoft::Maui::Controls::Xaml::IValueProvider" />
   <TypeSignature Language="F#" Value="type StyleSheetExtension = class&#xA;    interface IValueProvider" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StyleSheetExtension sealed : Microsoft::Maui::Controls::Xaml::IValueProvider" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object Microsoft.Maui.Controls.Xaml.IValueProvider.ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.StyleSheetExtension.Microsoft#Maui#Controls#Xaml#IValueProvider#ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Function ProvideValue (serviceProvider As IServiceProvider) As Object Implements IValueProvider.ProvideValue" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Object ^ Microsoft.Maui.Controls.Xaml.IValueProvider.ProvideValue(IServiceProvider ^ serviceProvider) = Microsoft::Maui::Controls::Xaml::IValueProvider::ProvideValue;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Xaml.IValueProvider.ProvideValue : IServiceProvider -&gt; obj&#xA;override this.Microsoft.Maui.Controls.Xaml.IValueProvider.ProvideValue : IServiceProvider -&gt; obj" Usage="styleSheetExtension.Microsoft.Maui.Controls.Xaml.IValueProvider.ProvideValue serviceProvider" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Object ^ Microsoft.Maui.Controls.Xaml.IValueProvider.ProvideValue(IServiceProvider ^ serviceProvider) = Microsoft::Maui::Controls::Xaml::IValueProvider::ProvideValue;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Xaml.IValueProvider.ProvideValue(System.IServiceProvider)</InterfaceMember>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Source" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.StyleSheetExtension.Source" />
       <MemberSignature Language="VB.NET" Value="Public Property Source As Uri" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Uri ^ Source { Uri ^ get(); void set(Uri ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Source : Uri with get, set" Usage="Microsoft.Maui.Controls.Xaml.StyleSheetExtension.Source" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Uri ^ Source { Uri ^ get(); void set(Uri ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -109,8 +109,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Style" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.StyleSheetExtension.Style" />
       <MemberSignature Language="VB.NET" Value="Public Property Style As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Style { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Style : string with get, set" Usage="Microsoft.Maui.Controls.Xaml.StyleSheetExtension.Style" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Style { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>

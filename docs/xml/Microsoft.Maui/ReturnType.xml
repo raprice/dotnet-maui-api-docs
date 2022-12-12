@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ReturnType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ReturnType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ReturnType" />
-  <TypeSignature Language="C++ CLI" Value="public enum class ReturnType" />
   <TypeSignature Language="F#" Value="type ReturnType = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class ReturnType" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -25,8 +25,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.ReturnType Default = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.ReturnType.Default" />
       <MemberSignature Language="VB.NET" Value="Default" />
-      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.Maui.ReturnType.Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.ReturnType Done = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.ReturnType.Done" />
       <MemberSignature Language="VB.NET" Value="Done" />
-      <MemberSignature Language="C++ CLI" Value="Done" />
       <MemberSignature Language="F#" Value="Done = 1" Usage="Microsoft.Maui.ReturnType.Done" />
+      <MemberSignature Language="C++ CLI" Value="Done" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.ReturnType Go = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.ReturnType.Go" />
       <MemberSignature Language="VB.NET" Value="Go" />
-      <MemberSignature Language="C++ CLI" Value="Go" />
       <MemberSignature Language="F#" Value="Go = 2" Usage="Microsoft.Maui.ReturnType.Go" />
+      <MemberSignature Language="C++ CLI" Value="Go" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -91,8 +91,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.ReturnType Next = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.ReturnType.Next" />
       <MemberSignature Language="VB.NET" Value="Next" />
-      <MemberSignature Language="C++ CLI" Value="Next" />
       <MemberSignature Language="F#" Value="Next = 3" Usage="Microsoft.Maui.ReturnType.Next" />
+      <MemberSignature Language="C++ CLI" Value="Next" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -113,8 +113,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.ReturnType Search = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.ReturnType.Search" />
       <MemberSignature Language="VB.NET" Value="Search" />
-      <MemberSignature Language="C++ CLI" Value="Search" />
       <MemberSignature Language="F#" Value="Search = 4" Usage="Microsoft.Maui.ReturnType.Search" />
+      <MemberSignature Language="C++ CLI" Value="Search" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -135,8 +135,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.ReturnType Send = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.ReturnType.Send" />
       <MemberSignature Language="VB.NET" Value="Send" />
-      <MemberSignature Language="C++ CLI" Value="Send" />
       <MemberSignature Language="F#" Value="Send = 5" Usage="Microsoft.Maui.ReturnType.Send" />
+      <MemberSignature Language="C++ CLI" Value="Send" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

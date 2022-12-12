@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit BindableProperty extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.BindableProperty" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class BindableProperty" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BindableProperty sealed" />
   <TypeSignature Language="F#" Value="type BindableProperty = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BindableProperty sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -233,8 +233,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type DeclaringType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BindableProperty.DeclaringType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeclaringType As Type" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Type ^ DeclaringType { Type ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.DeclaringType : Type" Usage="Microsoft.Maui.Controls.BindableProperty.DeclaringType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Type ^ DeclaringType { Type ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -260,8 +260,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.BindingMode DefaultBindingMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BindableProperty.DefaultBindingMode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DefaultBindingMode As BindingMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindingMode DefaultBindingMode { Microsoft::Maui::Controls::BindingMode get(); };" />
       <MemberSignature Language="F#" Value="member this.DefaultBindingMode : Microsoft.Maui.Controls.BindingMode" Usage="Microsoft.Maui.Controls.BindableProperty.DefaultBindingMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindingMode DefaultBindingMode { Microsoft::Maui::Controls::BindingMode get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -281,8 +281,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object DefaultValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BindableProperty.DefaultValue" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DefaultValue As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DefaultValue { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.DefaultValue : obj" Usage="Microsoft.Maui.Controls.BindableProperty.DefaultValue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DefaultValue { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -302,8 +302,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsReadOnly" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BindableProperty.IsReadOnly" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsReadOnly As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsReadOnly : bool" Usage="Microsoft.Maui.Controls.BindableProperty.IsReadOnly" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -323,8 +323,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string PropertyName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BindableProperty.PropertyName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PropertyName { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.PropertyName : string" Usage="Microsoft.Maui.Controls.BindableProperty.PropertyName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PropertyName { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -344,8 +344,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type ReturnType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BindableProperty.ReturnType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReturnType As Type" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Type ^ ReturnType { Type ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ReturnType : Type" Usage="Microsoft.Maui.Controls.BindableProperty.ReturnType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Type ^ ReturnType { Type ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -365,8 +365,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly object UnsetValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BindableProperty.UnsetValue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly UnsetValue As Object " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Object ^ UnsetValue;" />
       <MemberSignature Language="F#" Value=" staticval mutable UnsetValue : obj" Usage="Microsoft.Maui.Controls.BindableProperty.UnsetValue" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Object ^ UnsetValue;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

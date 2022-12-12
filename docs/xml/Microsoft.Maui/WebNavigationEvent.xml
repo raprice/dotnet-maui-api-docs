@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WebNavigationEvent extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.WebNavigationEvent" />
   <TypeSignature Language="VB.NET" Value="Public Enum WebNavigationEvent" />
-  <TypeSignature Language="C++ CLI" Value="public enum class WebNavigationEvent" />
   <TypeSignature Language="F#" Value="type WebNavigationEvent = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class WebNavigationEvent" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.WebNavigationEvent Back = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.WebNavigationEvent.Back" />
       <MemberSignature Language="VB.NET" Value="Back" />
-      <MemberSignature Language="C++ CLI" Value="Back" />
       <MemberSignature Language="F#" Value="Back = 1" Usage="Microsoft.Maui.WebNavigationEvent.Back" />
+      <MemberSignature Language="C++ CLI" Value="Back" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.WebNavigationEvent Forward = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.WebNavigationEvent.Forward" />
       <MemberSignature Language="VB.NET" Value="Forward" />
-      <MemberSignature Language="C++ CLI" Value="Forward" />
       <MemberSignature Language="F#" Value="Forward = 2" Usage="Microsoft.Maui.WebNavigationEvent.Forward" />
+      <MemberSignature Language="C++ CLI" Value="Forward" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.WebNavigationEvent NewPage = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.WebNavigationEvent.NewPage" />
       <MemberSignature Language="VB.NET" Value="NewPage" />
-      <MemberSignature Language="C++ CLI" Value="NewPage" />
       <MemberSignature Language="F#" Value="NewPage = 3" Usage="Microsoft.Maui.WebNavigationEvent.NewPage" />
+      <MemberSignature Language="C++ CLI" Value="NewPage" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.WebNavigationEvent Refresh = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.WebNavigationEvent.Refresh" />
       <MemberSignature Language="VB.NET" Value="Refresh" />
-      <MemberSignature Language="C++ CLI" Value="Refresh" />
       <MemberSignature Language="F#" Value="Refresh = 4" Usage="Microsoft.Maui.WebNavigationEvent.Refresh" />
+      <MemberSignature Language="C++ CLI" Value="Refresh" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

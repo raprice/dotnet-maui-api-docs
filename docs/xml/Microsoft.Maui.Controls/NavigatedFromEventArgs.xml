@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NavigatedFromEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.NavigatedFromEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NavigatedFromEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class NavigatedFromEventArgs sealed : EventArgs" />
   <TypeSignature Language="F#" Value="type NavigatedFromEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NavigatedFromEventArgs sealed : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

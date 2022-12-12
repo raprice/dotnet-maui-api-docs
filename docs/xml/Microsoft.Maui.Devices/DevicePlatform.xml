@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit DevicePlatform extends System.ValueType implements class System.IEquatable`1&lt;valuetype Microsoft.Maui.Devices.DevicePlatform&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.DevicePlatform" />
   <TypeSignature Language="VB.NET" Value="Public Structure DevicePlatform&#xA;Implements IEquatable(Of DevicePlatform)" />
-  <TypeSignature Language="C++ CLI" Value="public value class DevicePlatform : IEquatable&lt;Microsoft::Maui::Devices::DevicePlatform&gt;" />
   <TypeSignature Language="F#" Value="type DevicePlatform = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class DevicePlatform : IEquatable&lt;Microsoft::Maui::Devices::DevicePlatform&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Devices.DevicePlatform Android" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DevicePlatform.Android" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Android As DevicePlatform" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform Android { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberSignature Language="F#" Value="static member Android : Microsoft.Maui.Devices.DevicePlatform" Usage="Microsoft.Maui.Devices.DevicePlatform.Android" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform Android { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Devices.DevicePlatform Create(string devicePlatform) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DevicePlatform.Create(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Create (devicePlatform As String) As DevicePlatform" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Devices::DevicePlatform Create(System::String ^ devicePlatform);" />
       <MemberSignature Language="F#" Value="static member Create : string -&gt; Microsoft.Maui.Devices.DevicePlatform" Usage="Microsoft.Maui.Devices.DevicePlatform.Create devicePlatform" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Devices::DevicePlatform Create(System::String ^ devicePlatform);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -79,8 +79,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Microsoft.Maui.Devices.DevicePlatform other) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DevicePlatform.Equals(Microsoft.Maui.Devices.DevicePlatform)" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As DevicePlatform) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(Microsoft::Maui::Devices::DevicePlatform other);" />
       <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Maui.Devices.DevicePlatform -&gt; bool" Usage="devicePlatform.Equals other" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(Microsoft::Maui::Devices::DevicePlatform other);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DevicePlatform.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="devicePlatform.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -132,8 +132,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DevicePlatform.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="devicePlatform.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -154,8 +154,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Devices.DevicePlatform iOS" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DevicePlatform.iOS" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property iOS As DevicePlatform" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform iOS { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberSignature Language="F#" Value="static member iOS : Microsoft.Maui.Devices.DevicePlatform" Usage="Microsoft.Maui.Devices.DevicePlatform.iOS" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform iOS { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -175,8 +175,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Devices.DevicePlatform MacCatalyst" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DevicePlatform.MacCatalyst" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MacCatalyst As DevicePlatform" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform MacCatalyst { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberSignature Language="F#" Value="static member MacCatalyst : Microsoft.Maui.Devices.DevicePlatform" Usage="Microsoft.Maui.Devices.DevicePlatform.MacCatalyst" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform MacCatalyst { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -196,8 +196,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Devices.DevicePlatform macOS" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DevicePlatform.macOS" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property macOS As DevicePlatform" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform macOS { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberSignature Language="F#" Value="static member macOS : Microsoft.Maui.Devices.DevicePlatform" Usage="Microsoft.Maui.Devices.DevicePlatform.macOS" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform macOS { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -217,8 +217,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Maui.Devices.DevicePlatform left, valuetype Microsoft.Maui.Devices.DevicePlatform right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DevicePlatform.op_Equality(Microsoft.Maui.Devices.DevicePlatform,Microsoft.Maui.Devices.DevicePlatform)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As DevicePlatform, right As DevicePlatform) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Devices::DevicePlatform left, Microsoft::Maui::Devices::DevicePlatform right);" />
       <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Maui.Devices.DevicePlatform * Microsoft.Maui.Devices.DevicePlatform -&gt; bool" Usage="left = right" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Devices::DevicePlatform left, Microsoft::Maui::Devices::DevicePlatform right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -244,8 +244,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Maui.Devices.DevicePlatform left, valuetype Microsoft.Maui.Devices.DevicePlatform right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DevicePlatform.op_Inequality(Microsoft.Maui.Devices.DevicePlatform,Microsoft.Maui.Devices.DevicePlatform)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As DevicePlatform, right As DevicePlatform) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Devices::DevicePlatform left, Microsoft::Maui::Devices::DevicePlatform right);" />
       <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Maui.Devices.DevicePlatform * Microsoft.Maui.Devices.DevicePlatform -&gt; bool" Usage="Microsoft.Maui.Devices.DevicePlatform.op_Inequality (left, right)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Devices::DevicePlatform left, Microsoft::Maui::Devices::DevicePlatform right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -271,8 +271,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Devices.DevicePlatform Tizen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DevicePlatform.Tizen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Tizen As DevicePlatform" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform Tizen { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberSignature Language="F#" Value="static member Tizen : Microsoft.Maui.Devices.DevicePlatform" Usage="Microsoft.Maui.Devices.DevicePlatform.Tizen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform Tizen { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -292,8 +292,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DevicePlatform.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="devicePlatform.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -314,8 +314,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Devices.DevicePlatform tvOS" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DevicePlatform.tvOS" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property tvOS As DevicePlatform" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform tvOS { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberSignature Language="F#" Value="static member tvOS : Microsoft.Maui.Devices.DevicePlatform" Usage="Microsoft.Maui.Devices.DevicePlatform.tvOS" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform tvOS { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -335,8 +335,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Devices.DevicePlatform Unknown" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DevicePlatform.Unknown" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Unknown As DevicePlatform" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform Unknown { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberSignature Language="F#" Value="static member Unknown : Microsoft.Maui.Devices.DevicePlatform" Usage="Microsoft.Maui.Devices.DevicePlatform.Unknown" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform Unknown { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -356,8 +356,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Devices.DevicePlatform UWP" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DevicePlatform.UWP" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UWP As DevicePlatform" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform UWP { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberSignature Language="F#" Value="static member UWP : Microsoft.Maui.Devices.DevicePlatform" Usage="Microsoft.Maui.Devices.DevicePlatform.UWP" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform UWP { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -383,8 +383,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Devices.DevicePlatform watchOS" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DevicePlatform.watchOS" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property watchOS As DevicePlatform" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform watchOS { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberSignature Language="F#" Value="static member watchOS : Microsoft.Maui.Devices.DevicePlatform" Usage="Microsoft.Maui.Devices.DevicePlatform.watchOS" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform watchOS { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -404,8 +404,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Devices.DevicePlatform WinUI" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DevicePlatform.WinUI" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property WinUI As DevicePlatform" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform WinUI { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberSignature Language="F#" Value="static member WinUI : Microsoft.Maui.Devices.DevicePlatform" Usage="Microsoft.Maui.Devices.DevicePlatform.WinUI" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::DevicePlatform WinUI { Microsoft::Maui::Devices::DevicePlatform get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

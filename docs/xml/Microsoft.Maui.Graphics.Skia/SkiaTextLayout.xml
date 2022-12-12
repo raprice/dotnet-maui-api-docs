@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SkiaTextLayout extends System.Object implements class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.Skia.SkiaTextLayout" />
   <TypeSignature Language="VB.NET" Value="Public Class SkiaTextLayout&#xA;Implements IDisposable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SkiaTextLayout : IDisposable" />
   <TypeSignature Language="F#" Value="type SkiaTextLayout = class&#xA;    interface IDisposable" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SkiaTextLayout : IDisposable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -57,8 +57,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaTextLayout.Dispose" />
       <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="skiaTextLayout.Dispose " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
@@ -81,8 +81,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void LayoutText() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaTextLayout.LayoutText" />
       <MemberSignature Language="VB.NET" Value="Public Sub LayoutText ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void LayoutText();" />
       <MemberSignature Language="F#" Value="member this.LayoutText : unit -&gt; unit" Usage="skiaTextLayout.LayoutText " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void LayoutText();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool WordWrap" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaTextLayout.WordWrap" />
       <MemberSignature Language="VB.NET" Value="Public Property WordWrap As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool WordWrap { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.WordWrap : bool with get, set" Usage="Microsoft.Maui.Graphics.Skia.SkiaTextLayout.WordWrap" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool WordWrap { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>

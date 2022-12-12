@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGestureRecognizers" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IGestureRecognizers" />
   <TypeSignature Language="VB.NET" Value="Public Interface IGestureRecognizers" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IGestureRecognizers" />
   <TypeSignature Language="F#" Value="type IGestureRecognizers = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IGestureRecognizers" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.IGestureRecognizer&gt; GestureRecognizers" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IGestureRecognizers.GestureRecognizers" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GestureRecognizers As IList(Of IGestureRecognizer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ GestureRecognizers { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.GestureRecognizers : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.IGestureRecognizer&gt;" Usage="Microsoft.Maui.Controls.IGestureRecognizers.GestureRecognizers" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ GestureRecognizers { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

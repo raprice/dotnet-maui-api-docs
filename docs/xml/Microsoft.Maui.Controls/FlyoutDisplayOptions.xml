@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FlyoutDisplayOptions extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.FlyoutDisplayOptions" />
   <TypeSignature Language="VB.NET" Value="Public Enum FlyoutDisplayOptions" />
-  <TypeSignature Language="C++ CLI" Value="public enum class FlyoutDisplayOptions" />
   <TypeSignature Language="F#" Value="type FlyoutDisplayOptions = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class FlyoutDisplayOptions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.FlyoutDisplayOptions AsMultipleItems = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.FlyoutDisplayOptions.AsMultipleItems" />
       <MemberSignature Language="VB.NET" Value="AsMultipleItems" />
-      <MemberSignature Language="C++ CLI" Value="AsMultipleItems" />
       <MemberSignature Language="F#" Value="AsMultipleItems = 1" Usage="Microsoft.Maui.Controls.FlyoutDisplayOptions.AsMultipleItems" />
+      <MemberSignature Language="C++ CLI" Value="AsMultipleItems" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.FlyoutDisplayOptions AsSingleItem = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.FlyoutDisplayOptions.AsSingleItem" />
       <MemberSignature Language="VB.NET" Value="AsSingleItem" />
-      <MemberSignature Language="C++ CLI" Value="AsSingleItem" />
       <MemberSignature Language="F#" Value="AsSingleItem = 0" Usage="Microsoft.Maui.Controls.FlyoutDisplayOptions.AsSingleItem" />
+      <MemberSignature Language="C++ CLI" Value="AsSingleItem" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

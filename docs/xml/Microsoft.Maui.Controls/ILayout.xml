@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILayout" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ILayout" />
   <TypeSignature Language="VB.NET" Value="Public Interface ILayout" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ILayout" />
   <TypeSignature Language="F#" Value="type ILayout = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ILayout" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler LayoutChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.ILayout.LayoutChanged" />
       <MemberSignature Language="VB.NET" Value="Event LayoutChanged As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ LayoutChanged;" />
       <MemberSignature Language="F#" Value="member this.LayoutChanged : EventHandler " Usage="member this.LayoutChanged : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ LayoutChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

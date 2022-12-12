@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITimePicker implements class Microsoft.Maui.IElement, class Microsoft.Maui.ITextStyle, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ITimePicker" />
   <TypeSignature Language="VB.NET" Value="Public Interface ITimePicker&#xA;Implements ITextStyle, IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ITimePicker : Microsoft::Maui::ITextStyle, Microsoft::Maui::IView" />
   <TypeSignature Language="F#" Value="type ITimePicker = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface ITextStyle" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ITimePicker : Microsoft::Maui::ITextStyle, Microsoft::Maui::IView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -35,8 +35,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Format" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ITimePicker.Format" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Format As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Format { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Format : string" Usage="Microsoft.Maui.ITimePicker.Format" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Format { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -58,8 +58,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan Time" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ITimePicker.Time" />
       <MemberSignature Language="VB.NET" Value="Public Property Time As TimeSpan" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeSpan Time { TimeSpan get(); void set(TimeSpan value); };" />
       <MemberSignature Language="F#" Value="member this.Time : TimeSpan with get, set" Usage="Microsoft.Maui.ITimePicker.Time" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeSpan Time { TimeSpan get(); void set(TimeSpan value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

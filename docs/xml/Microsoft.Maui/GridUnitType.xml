@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GridUnitType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.GridUnitType" />
   <TypeSignature Language="VB.NET" Value="Public Enum GridUnitType" />
-  <TypeSignature Language="C++ CLI" Value="public enum class GridUnitType" />
   <TypeSignature Language="F#" Value="type GridUnitType = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class GridUnitType" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.GridUnitType Absolute = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.GridUnitType.Absolute" />
       <MemberSignature Language="VB.NET" Value="Absolute" />
-      <MemberSignature Language="C++ CLI" Value="Absolute" />
       <MemberSignature Language="F#" Value="Absolute = 0" Usage="Microsoft.Maui.GridUnitType.Absolute" />
+      <MemberSignature Language="C++ CLI" Value="Absolute" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -43,8 +43,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.GridUnitType Auto = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.GridUnitType.Auto" />
       <MemberSignature Language="VB.NET" Value="Auto" />
-      <MemberSignature Language="C++ CLI" Value="Auto" />
       <MemberSignature Language="F#" Value="Auto = 2" Usage="Microsoft.Maui.GridUnitType.Auto" />
+      <MemberSignature Language="C++ CLI" Value="Auto" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -64,8 +64,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.GridUnitType Star = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.GridUnitType.Star" />
       <MemberSignature Language="VB.NET" Value="Star" />
-      <MemberSignature Language="C++ CLI" Value="Star" />
       <MemberSignature Language="F#" Value="Star = 1" Usage="Microsoft.Maui.GridUnitType.Star" />
+      <MemberSignature Language="C++ CLI" Value="Star" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

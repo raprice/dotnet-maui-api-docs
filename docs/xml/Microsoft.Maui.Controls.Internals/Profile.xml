@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Profile extends System.ValueType implements class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.Profile" />
   <TypeSignature Language="VB.NET" Value="Public Structure Profile&#xA;Implements IDisposable" />
-  <TypeSignature Language="C++ CLI" Value="public value class Profile : IDisposable" />
   <TypeSignature Language="F#" Value="type Profile = struct&#xA;    interface IDisposable" />
+  <TypeSignature Language="C++ CLI" Value="public value class Profile : IDisposable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class System.Collections.Generic.List`1&lt;valuetype Microsoft.Maui.Controls.Internals.Profile/Datum&gt; Data" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Internals.Profile.Data" />
       <MemberSignature Language="VB.NET" Value="Public Shared Data As List(Of Profile.Datum) " />
-      <MemberSignature Language="C++ CLI" Value="public: static System::Collections::Generic::List&lt;Microsoft::Maui::Controls::Internals::Profile::Datum&gt; ^ Data;" />
       <MemberSignature Language="F#" Value=" staticval mutable Data : System.Collections.Generic.List&lt;Microsoft.Maui.Controls.Internals.Profile.Datum&gt;" Usage="Microsoft.Maui.Controls.Internals.Profile.Data" />
+      <MemberSignature Language="C++ CLI" Value="public: static System::Collections::Generic::List&lt;Microsoft::Maui::Controls::Internals::Profile::Datum&gt; ^ Data;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -53,8 +53,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Profile.Dispose" />
       <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="profile.Dispose " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
@@ -77,8 +77,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Enable() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Profile.Enable" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Enable ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Enable();" />
       <MemberSignature Language="F#" Value="static member Enable : unit -&gt; unit" Usage="Microsoft.Maui.Controls.Internals.Profile.Enable " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Enable();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -205,8 +205,8 @@
       <MemberSignature Language="ILAsm" Value=".property bool IsEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.Profile.IsEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsEnabled { bool get(); };" />
       <MemberSignature Language="F#" Value="static member IsEnabled : bool" Usage="Microsoft.Maui.Controls.Internals.Profile.IsEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsEnabled { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -232,8 +232,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Start() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Profile.Start" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Start ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Start();" />
       <MemberSignature Language="F#" Value="static member Start : unit -&gt; unit" Usage="Microsoft.Maui.Controls.Internals.Profile.Start " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Start();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -253,8 +253,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Stop() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Profile.Stop" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Stop ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Stop();" />
       <MemberSignature Language="F#" Value="static member Stop : unit -&gt; unit" Usage="Microsoft.Maui.Controls.Internals.Profile.Stop " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Stop();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

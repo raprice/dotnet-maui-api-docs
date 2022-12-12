@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BindingDiagnostics extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.Diagnostics.BindingDiagnostics" />
   <TypeSignature Language="VB.NET" Value="Public Class BindingDiagnostics" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BindingDiagnostics" />
   <TypeSignature Language="F#" Value="type BindingDiagnostics = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BindingDiagnostics" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs&gt; BindingFailed" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Xaml.Diagnostics.BindingDiagnostics.BindingFailed" />
       <MemberSignature Language="VB.NET" Value="Public Shared Event BindingFailed As EventHandler(Of BindingBaseErrorEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;Microsoft::Maui::Controls::Xaml::Diagnostics::BindingBaseErrorEventArgs ^&gt; ^ BindingFailed;" />
       <MemberSignature Language="F#" Value="member this.BindingFailed : EventHandler&lt;Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs&gt; " Usage="member this.BindingFailed : System.EventHandler&lt;Microsoft.Maui.Controls.Xaml.Diagnostics.BindingBaseErrorEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;Microsoft::Maui::Controls::Xaml::Diagnostics::BindingBaseErrorEventArgs ^&gt; ^ BindingFailed;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

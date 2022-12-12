@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FilterMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.FilterMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum FilterMode" />
-  <TypeSignature Language="C++ CLI" Value="public enum class FilterMode" />
   <TypeSignature Language="F#" Value="type FilterMode = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class FilterMode" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FilterMode Multiply = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FilterMode.Multiply" />
       <MemberSignature Language="VB.NET" Value="Multiply" />
-      <MemberSignature Language="C++ CLI" Value="Multiply" />
       <MemberSignature Language="F#" Value="Multiply = 1" Usage="Microsoft.Maui.FilterMode.Multiply" />
+      <MemberSignature Language="C++ CLI" Value="Multiply" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FilterMode SrcAtop = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FilterMode.SrcAtop" />
       <MemberSignature Language="VB.NET" Value="SrcAtop" />
-      <MemberSignature Language="C++ CLI" Value="SrcAtop" />
       <MemberSignature Language="F#" Value="SrcAtop = 2" Usage="Microsoft.Maui.FilterMode.SrcAtop" />
+      <MemberSignature Language="C++ CLI" Value="SrcAtop" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FilterMode SrcIn = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FilterMode.SrcIn" />
       <MemberSignature Language="VB.NET" Value="SrcIn" />
-      <MemberSignature Language="C++ CLI" Value="SrcIn" />
       <MemberSignature Language="F#" Value="SrcIn = 0" Usage="Microsoft.Maui.FilterMode.SrcIn" />
+      <MemberSignature Language="C++ CLI" Value="SrcIn" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

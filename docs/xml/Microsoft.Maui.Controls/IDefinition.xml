@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDefinition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IDefinition" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDefinition" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IDefinition" />
   <TypeSignature Language="F#" Value="type IDefinition = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IDefinition" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler SizeChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.IDefinition.SizeChanged" />
       <MemberSignature Language="VB.NET" Value="Event SizeChanged As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ SizeChanged;" />
       <MemberSignature Language="F#" Value="member this.SizeChanged : EventHandler " Usage="member this.SizeChanged : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ SizeChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Shape extends Microsoft.Maui.Controls.View implements class Microsoft.Maui.Graphics.IShape, class Microsoft.Maui.IElement, class Microsoft.Maui.IShapeView, class Microsoft.Maui.IStroke, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.Shape" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Shape&#xA;Inherits View&#xA;Implements IShape, IShapeView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Shape abstract : Microsoft::Maui::Controls::View, Microsoft::Maui::Graphics::IShape, Microsoft::Maui::IShapeView" />
   <TypeSignature Language="F#" Value="type Shape = class&#xA;    inherit View&#xA;    interface IShapeView&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IStroke&#xA;    interface IShape" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Shape abstract : Microsoft::Maui::Controls::View, Microsoft::Maui::Graphics::IShape, Microsoft::Maui::IShapeView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -59,8 +59,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.Stretch Aspect" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.Aspect" />
       <MemberSignature Language="VB.NET" Value="Public Property Aspect As Stretch" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Stretch Aspect { Microsoft::Maui::Controls::Stretch get(); void set(Microsoft::Maui::Controls::Stretch value); };" />
       <MemberSignature Language="F#" Value="member this.Aspect : Microsoft.Maui.Controls.Stretch with get, set" Usage="Microsoft.Maui.Controls.Shapes.Shape.Aspect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Stretch Aspect { Microsoft::Maui::Controls::Stretch get(); void set(Microsoft::Maui::Controls::Stretch value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -80,8 +80,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty AspectProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.Shape.AspectProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AspectProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AspectProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable AspectProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.Shape.AspectProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AspectProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IShapeView, class Microsoft.Maui.Handlers.IShapeViewHandler&gt; ControlsShapeViewMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.Shape.ControlsShapeViewMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ControlsShapeViewMapper As IPropertyMapper(Of IShapeView, IShapeViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IShapeView ^, Microsoft::Maui::Handlers::IShapeViewHandler ^&gt; ^ ControlsShapeViewMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlsShapeViewMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IShapeView, Microsoft.Maui.Handlers.IShapeViewHandler&gt;" Usage="Microsoft.Maui.Controls.Shapes.Shape.ControlsShapeViewMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IShapeView ^, Microsoft::Maui::Handlers::IShapeViewHandler ^&gt; ^ ControlsShapeViewMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -120,8 +120,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Brush Fill" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.Fill" />
       <MemberSignature Language="VB.NET" Value="Public Property Fill As Brush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Brush ^ Fill { Microsoft::Maui::Controls::Brush ^ get(); void set(Microsoft::Maui::Controls::Brush ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Fill : Microsoft.Maui.Controls.Brush with get, set" Usage="Microsoft.Maui.Controls.Shapes.Shape.Fill" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Brush ^ Fill { Microsoft::Maui::Controls::Brush ^ get(); void set(Microsoft::Maui::Controls::Brush ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -141,8 +141,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FillProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.Shape.FillProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FillProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FillProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FillProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.Shape.FillProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FillProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -161,8 +161,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Graphics.PathF GetPath() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Shape.GetPath" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetPath () As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract Microsoft::Maui::Graphics::PathF ^ GetPath();" />
       <MemberSignature Language="F#" Value="abstract member GetPath : unit -&gt; Microsoft.Maui.Graphics.PathF" Usage="shape.GetPath " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract Microsoft::Maui::Graphics::PathF ^ GetPath();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -183,8 +183,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStrokeDashArray(class Microsoft.Maui.Handlers.IShapeViewHandler handler, class Microsoft.Maui.IShapeView shapeView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Shape.MapStrokeDashArray(Microsoft.Maui.Handlers.IShapeViewHandler,Microsoft.Maui.IShapeView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStrokeDashArray (handler As IShapeViewHandler, shapeView As IShapeView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeDashArray(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::IShapeView ^ shapeView);" />
       <MemberSignature Language="F#" Value="static member MapStrokeDashArray : Microsoft.Maui.Handlers.IShapeViewHandler * Microsoft.Maui.IShapeView -&gt; unit" Usage="Microsoft.Maui.Controls.Shapes.Shape.MapStrokeDashArray (handler, shapeView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeDashArray(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::IShapeView ^ shapeView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -209,8 +209,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size MeasureOverride(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Shape.MeasureOverride(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function MeasureOverride (widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size MeasureOverride(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="override this.MeasureOverride : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="shape.MeasureOverride (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size MeasureOverride(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -236,8 +236,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Microsoft.Maui.Graphics.PathF Microsoft.Maui.Graphics.IShape.PathForBounds(valuetype Microsoft.Maui.Graphics.Rect viewBounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Shape.Microsoft#Maui#Graphics#IShape#PathForBounds(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Function PathForBounds (viewBounds As Rect) As PathF Implements IShape.PathForBounds" />
-      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Graphics::PathF ^ Microsoft.Maui.Graphics.IShape.PathForBounds(Microsoft::Maui::Graphics::Rect viewBounds) = Microsoft::Maui::Graphics::IShape::PathForBounds;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Graphics.IShape.PathForBounds : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.PathF&#xA;override this.Microsoft.Maui.Graphics.IShape.PathForBounds : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.PathF" Usage="shape.Microsoft.Maui.Graphics.IShape.PathForBounds viewBounds" />
+      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Graphics::PathF ^ Microsoft.Maui.Graphics.IShape.PathForBounds(Microsoft::Maui::Graphics::Rect viewBounds) = Microsoft::Maui::Graphics::IShape::PathForBounds;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Graphics.IShape.PathForBounds(Microsoft.Maui.Graphics.Rect)</InterfaceMember>
@@ -264,8 +264,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.PathAspect Microsoft.Maui.IShapeView.Aspect" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.Microsoft#Maui#IShapeView#Aspect" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Aspect As PathAspect Implements IShapeView.Aspect" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::PathAspect Microsoft::Maui::IShapeView::Aspect { Microsoft::Maui::PathAspect get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IShapeView.Aspect : Microsoft.Maui.PathAspect" Usage="Microsoft.Maui.IShapeView.Aspect" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::PathAspect Microsoft::Maui::IShapeView::Aspect { Microsoft::Maui::PathAspect get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IShapeView.Aspect</InterfaceMember>
@@ -288,8 +288,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Paint Microsoft.Maui.IShapeView.Fill" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.Microsoft#Maui#IShapeView#Fill" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Fill As Paint Implements IShapeView.Fill" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Paint ^ Microsoft::Maui::IShapeView::Fill { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IShapeView.Fill : Microsoft.Maui.Graphics.Paint" Usage="Microsoft.Maui.IShapeView.Fill" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Paint ^ Microsoft::Maui::IShapeView::Fill { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IShapeView.Fill</InterfaceMember>
@@ -312,8 +312,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.IShape Microsoft.Maui.IShapeView.Shape" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.Microsoft#Maui#IShapeView#Shape" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Shape As IShape Implements IShapeView.Shape" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::IShape ^ Microsoft::Maui::IShapeView::Shape { Microsoft::Maui::Graphics::IShape ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IShapeView.Shape : Microsoft.Maui.Graphics.IShape" Usage="Microsoft.Maui.IShapeView.Shape" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::IShape ^ Microsoft::Maui::IShapeView::Shape { Microsoft::Maui::Graphics::IShape ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IShapeView.Shape</InterfaceMember>
@@ -336,8 +336,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Paint Microsoft.Maui.IStroke.Stroke" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.Microsoft#Maui#IStroke#Stroke" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Stroke As Paint Implements IStroke.Stroke" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Paint ^ Microsoft::Maui::IStroke::Stroke { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IStroke.Stroke : Microsoft.Maui.Graphics.Paint" Usage="Microsoft.Maui.IStroke.Stroke" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Paint ^ Microsoft::Maui::IStroke::Stroke { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IStroke.Stroke</InterfaceMember>
@@ -360,8 +360,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 Microsoft.Maui.IStroke.StrokeDashOffset" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.Microsoft#Maui#IStroke#StrokeDashOffset" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property StrokeDashOffset As Single Implements IStroke.StrokeDashOffset" />
-      <MemberSignature Language="C++ CLI" Value="property float Microsoft::Maui::IStroke::StrokeDashOffset { float get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IStroke.StrokeDashOffset : single" Usage="Microsoft.Maui.IStroke.StrokeDashOffset" />
+      <MemberSignature Language="C++ CLI" Value="property float Microsoft::Maui::IStroke::StrokeDashOffset { float get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IStroke.StrokeDashOffset</InterfaceMember>
@@ -384,8 +384,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.LineCap Microsoft.Maui.IStroke.StrokeLineCap" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.Microsoft#Maui#IStroke#StrokeLineCap" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property StrokeLineCap As LineCap Implements IStroke.StrokeLineCap" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::LineCap Microsoft::Maui::IStroke::StrokeLineCap { Microsoft::Maui::Graphics::LineCap get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IStroke.StrokeLineCap : Microsoft.Maui.Graphics.LineCap" Usage="Microsoft.Maui.IStroke.StrokeLineCap" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::LineCap Microsoft::Maui::IStroke::StrokeLineCap { Microsoft::Maui::Graphics::LineCap get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IStroke.StrokeLineCap</InterfaceMember>
@@ -408,8 +408,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.LineJoin Microsoft.Maui.IStroke.StrokeLineJoin" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.Microsoft#Maui#IStroke#StrokeLineJoin" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property StrokeLineJoin As LineJoin Implements IStroke.StrokeLineJoin" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::LineJoin Microsoft::Maui::IStroke::StrokeLineJoin { Microsoft::Maui::Graphics::LineJoin get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IStroke.StrokeLineJoin : Microsoft.Maui.Graphics.LineJoin" Usage="Microsoft.Maui.IStroke.StrokeLineJoin" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::LineJoin Microsoft::Maui::IStroke::StrokeLineJoin { Microsoft::Maui::Graphics::LineJoin get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IStroke.StrokeLineJoin</InterfaceMember>
@@ -432,8 +432,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 Microsoft.Maui.IStroke.StrokeMiterLimit" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.Microsoft#Maui#IStroke#StrokeMiterLimit" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property StrokeMiterLimit As Single Implements IStroke.StrokeMiterLimit" />
-      <MemberSignature Language="C++ CLI" Value="property float Microsoft::Maui::IStroke::StrokeMiterLimit { float get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IStroke.StrokeMiterLimit : single" Usage="Microsoft.Maui.IStroke.StrokeMiterLimit" />
+      <MemberSignature Language="C++ CLI" Value="property float Microsoft::Maui::IStroke::StrokeMiterLimit { float get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IStroke.StrokeMiterLimit</InterfaceMember>
@@ -456,8 +456,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Brush Stroke" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.Stroke" />
       <MemberSignature Language="VB.NET" Value="Public Property Stroke As Brush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Brush ^ Stroke { Microsoft::Maui::Controls::Brush ^ get(); void set(Microsoft::Maui::Controls::Brush ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Stroke : Microsoft.Maui.Controls.Brush with get, set" Usage="Microsoft.Maui.Controls.Shapes.Shape.Stroke" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Brush ^ Stroke { Microsoft::Maui::Controls::Brush ^ get(); void set(Microsoft::Maui::Controls::Brush ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -477,8 +477,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.DoubleCollection StrokeDashArray" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.StrokeDashArray" />
       <MemberSignature Language="VB.NET" Value="Public Property StrokeDashArray As DoubleCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::DoubleCollection ^ StrokeDashArray { Microsoft::Maui::Controls::DoubleCollection ^ get(); void set(Microsoft::Maui::Controls::DoubleCollection ^ value); };" />
       <MemberSignature Language="F#" Value="member this.StrokeDashArray : Microsoft.Maui.Controls.DoubleCollection with get, set" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeDashArray" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::DoubleCollection ^ StrokeDashArray { Microsoft::Maui::Controls::DoubleCollection ^ get(); void set(Microsoft::Maui::Controls::DoubleCollection ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -498,8 +498,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StrokeDashArrayProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.Shape.StrokeDashArrayProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StrokeDashArrayProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeDashArrayProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable StrokeDashArrayProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeDashArrayProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeDashArrayProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -518,8 +518,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 StrokeDashOffset" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.StrokeDashOffset" />
       <MemberSignature Language="VB.NET" Value="Public Property StrokeDashOffset As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double StrokeDashOffset { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.StrokeDashOffset : double with get, set" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeDashOffset" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double StrokeDashOffset { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -539,8 +539,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StrokeDashOffsetProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.Shape.StrokeDashOffsetProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StrokeDashOffsetProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeDashOffsetProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable StrokeDashOffsetProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeDashOffsetProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeDashOffsetProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -559,8 +559,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32[] StrokeDashPattern" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.StrokeDashPattern" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StrokeDashPattern As Single()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;float&gt; ^ StrokeDashPattern { cli::array &lt;float&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.StrokeDashPattern : single[]" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeDashPattern" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;float&gt; ^ StrokeDashPattern { cli::array &lt;float&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IStroke.StrokeDashPattern</InterfaceMember>
@@ -583,8 +583,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.Shapes.PenLineCap StrokeLineCap" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.StrokeLineCap" />
       <MemberSignature Language="VB.NET" Value="Public Property StrokeLineCap As PenLineCap" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Shapes::PenLineCap StrokeLineCap { Microsoft::Maui::Controls::Shapes::PenLineCap get(); void set(Microsoft::Maui::Controls::Shapes::PenLineCap value); };" />
       <MemberSignature Language="F#" Value="member this.StrokeLineCap : Microsoft.Maui.Controls.Shapes.PenLineCap with get, set" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeLineCap" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Shapes::PenLineCap StrokeLineCap { Microsoft::Maui::Controls::Shapes::PenLineCap get(); void set(Microsoft::Maui::Controls::Shapes::PenLineCap value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -604,8 +604,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StrokeLineCapProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.Shape.StrokeLineCapProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StrokeLineCapProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeLineCapProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable StrokeLineCapProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeLineCapProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeLineCapProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -624,8 +624,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.Shapes.PenLineJoin StrokeLineJoin" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.StrokeLineJoin" />
       <MemberSignature Language="VB.NET" Value="Public Property StrokeLineJoin As PenLineJoin" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Shapes::PenLineJoin StrokeLineJoin { Microsoft::Maui::Controls::Shapes::PenLineJoin get(); void set(Microsoft::Maui::Controls::Shapes::PenLineJoin value); };" />
       <MemberSignature Language="F#" Value="member this.StrokeLineJoin : Microsoft.Maui.Controls.Shapes.PenLineJoin with get, set" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeLineJoin" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Shapes::PenLineJoin StrokeLineJoin { Microsoft::Maui::Controls::Shapes::PenLineJoin get(); void set(Microsoft::Maui::Controls::Shapes::PenLineJoin value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -645,8 +645,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StrokeLineJoinProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.Shape.StrokeLineJoinProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StrokeLineJoinProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeLineJoinProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable StrokeLineJoinProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeLineJoinProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeLineJoinProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -665,8 +665,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 StrokeMiterLimit" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.StrokeMiterLimit" />
       <MemberSignature Language="VB.NET" Value="Public Property StrokeMiterLimit As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double StrokeMiterLimit { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.StrokeMiterLimit : double with get, set" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeMiterLimit" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double StrokeMiterLimit { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -686,8 +686,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StrokeMiterLimitProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.Shape.StrokeMiterLimitProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StrokeMiterLimitProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeMiterLimitProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable StrokeMiterLimitProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeMiterLimitProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeMiterLimitProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -706,8 +706,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StrokeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.Shape.StrokeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StrokeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable StrokeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -726,8 +726,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 StrokeThickness" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Shape.StrokeThickness" />
       <MemberSignature Language="VB.NET" Value="Public Property StrokeThickness As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double StrokeThickness { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.StrokeThickness : double with get, set" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeThickness" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double StrokeThickness { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -747,8 +747,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StrokeThicknessProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.Shape.StrokeThicknessProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StrokeThicknessProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeThicknessProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable StrokeThicknessProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.Shape.StrokeThicknessProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StrokeThicknessProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

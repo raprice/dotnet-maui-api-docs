@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MapHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.Maps.IMap, object&gt; implements class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler, class Microsoft.Maui.Maps.Handlers.IMapHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Maps.Handlers.MapHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class MapHandler&#xA;Inherits ViewHandler(Of IMap, Object)&#xA;Implements IMapHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MapHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::Maps::IMap ^, System::Object ^&gt;, Microsoft::Maui::Maps::Handlers::IMapHandler" />
   <TypeSignature Language="F#" Value="type MapHandler = class&#xA;    inherit ViewHandler&lt;IMap, obj&gt;&#xA;    interface IMapHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MapHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::Maps::IMap ^, System::Object ^&gt;, Microsoft::Maui::Maps::Handlers::IMapHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -76,8 +76,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.Maps.IMap, class Microsoft.Maui.Maps.Handlers.IMapHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Maps.Handlers.MapHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IMap, IMapHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::Maps::IMap ^, Microsoft::Maui::Maps::Handlers::IMapHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.Maps.IMap, Microsoft.Maui.Maps.Handlers.IMapHandler&gt;" Usage="Microsoft.Maui.Maps.Handlers.MapHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::Maps::IMap ^, Microsoft::Maui::Maps::Handlers::IMapHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
@@ -96,8 +96,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Maps.Handlers.MapHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="mapHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
@@ -118,8 +118,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapElements(class Microsoft.Maui.Maps.Handlers.IMapHandler handler, class Microsoft.Maui.Maps.IMap map) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Maps.Handlers.MapHandler.MapElements(Microsoft.Maui.Maps.Handlers.IMapHandler,Microsoft.Maui.Maps.IMap)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapElements (handler As IMapHandler, map As IMap)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapElements(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberSignature Language="F#" Value="static member MapElements : Microsoft.Maui.Maps.Handlers.IMapHandler * Microsoft.Maui.Maps.IMap -&gt; unit" Usage="Microsoft.Maui.Maps.Handlers.MapHandler.MapElements (handler, map)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapElements(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
@@ -144,8 +144,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsScrollEnabled(class Microsoft.Maui.Maps.Handlers.IMapHandler handler, class Microsoft.Maui.Maps.IMap map) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Maps.Handlers.MapHandler.MapIsScrollEnabled(Microsoft.Maui.Maps.Handlers.IMapHandler,Microsoft.Maui.Maps.IMap)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsScrollEnabled (handler As IMapHandler, map As IMap)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsScrollEnabled(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberSignature Language="F#" Value="static member MapIsScrollEnabled : Microsoft.Maui.Maps.Handlers.IMapHandler * Microsoft.Maui.Maps.IMap -&gt; unit" Usage="Microsoft.Maui.Maps.Handlers.MapHandler.MapIsScrollEnabled (handler, map)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsScrollEnabled(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
@@ -170,8 +170,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsShowingUser(class Microsoft.Maui.Maps.Handlers.IMapHandler handler, class Microsoft.Maui.Maps.IMap map) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Maps.Handlers.MapHandler.MapIsShowingUser(Microsoft.Maui.Maps.Handlers.IMapHandler,Microsoft.Maui.Maps.IMap)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsShowingUser (handler As IMapHandler, map As IMap)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsShowingUser(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberSignature Language="F#" Value="static member MapIsShowingUser : Microsoft.Maui.Maps.Handlers.IMapHandler * Microsoft.Maui.Maps.IMap -&gt; unit" Usage="Microsoft.Maui.Maps.Handlers.MapHandler.MapIsShowingUser (handler, map)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsShowingUser(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
@@ -196,8 +196,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsTrafficEnabled(class Microsoft.Maui.Maps.Handlers.IMapHandler handler, class Microsoft.Maui.Maps.IMap map) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Maps.Handlers.MapHandler.MapIsTrafficEnabled(Microsoft.Maui.Maps.Handlers.IMapHandler,Microsoft.Maui.Maps.IMap)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsTrafficEnabled (handler As IMapHandler, map As IMap)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsTrafficEnabled(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberSignature Language="F#" Value="static member MapIsTrafficEnabled : Microsoft.Maui.Maps.Handlers.IMapHandler * Microsoft.Maui.Maps.IMap -&gt; unit" Usage="Microsoft.Maui.Maps.Handlers.MapHandler.MapIsTrafficEnabled (handler, map)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsTrafficEnabled(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
@@ -222,8 +222,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsZoomEnabled(class Microsoft.Maui.Maps.Handlers.IMapHandler handler, class Microsoft.Maui.Maps.IMap map) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Maps.Handlers.MapHandler.MapIsZoomEnabled(Microsoft.Maui.Maps.Handlers.IMapHandler,Microsoft.Maui.Maps.IMap)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsZoomEnabled (handler As IMapHandler, map As IMap)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsZoomEnabled(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberSignature Language="F#" Value="static member MapIsZoomEnabled : Microsoft.Maui.Maps.Handlers.IMapHandler * Microsoft.Maui.Maps.IMap -&gt; unit" Usage="Microsoft.Maui.Maps.Handlers.MapHandler.MapIsZoomEnabled (handler, map)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsZoomEnabled(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
@@ -248,8 +248,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapMapType(class Microsoft.Maui.Maps.Handlers.IMapHandler handler, class Microsoft.Maui.Maps.IMap map) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Maps.Handlers.MapHandler.MapMapType(Microsoft.Maui.Maps.Handlers.IMapHandler,Microsoft.Maui.Maps.IMap)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapMapType (handler As IMapHandler, map As IMap)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMapType(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberSignature Language="F#" Value="static member MapMapType : Microsoft.Maui.Maps.Handlers.IMapHandler * Microsoft.Maui.Maps.IMap -&gt; unit" Usage="Microsoft.Maui.Maps.Handlers.MapHandler.MapMapType (handler, map)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMapType(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
@@ -274,8 +274,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapMoveToRegion(class Microsoft.Maui.Maps.Handlers.IMapHandler handler, class Microsoft.Maui.Maps.IMap map, object arg) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Maps.Handlers.MapHandler.MapMoveToRegion(Microsoft.Maui.Maps.Handlers.IMapHandler,Microsoft.Maui.Maps.IMap,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapMoveToRegion (handler As IMapHandler, map As IMap, arg As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMoveToRegion(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map, System::Object ^ arg);" />
       <MemberSignature Language="F#" Value="static member MapMoveToRegion : Microsoft.Maui.Maps.Handlers.IMapHandler * Microsoft.Maui.Maps.IMap * obj -&gt; unit" Usage="Microsoft.Maui.Maps.Handlers.MapHandler.MapMoveToRegion (handler, map, arg)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMoveToRegion(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map, System::Object ^ arg);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
@@ -302,8 +302,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.Maps.IMap, class Microsoft.Maui.Maps.Handlers.IMapHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Maps.Handlers.MapHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IMap, IMapHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::Maps::IMap ^, Microsoft::Maui::Maps::Handlers::IMapHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.Maps.IMap, Microsoft.Maui.Maps.Handlers.IMapHandler&gt;" Usage="Microsoft.Maui.Maps.Handlers.MapHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::Maps::IMap ^, Microsoft::Maui::Maps::Handlers::IMapHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
@@ -322,8 +322,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapPins(class Microsoft.Maui.Maps.Handlers.IMapHandler handler, class Microsoft.Maui.Maps.IMap map) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Maps.Handlers.MapHandler.MapPins(Microsoft.Maui.Maps.Handlers.IMapHandler,Microsoft.Maui.Maps.IMap)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapPins (handler As IMapHandler, map As IMap)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPins(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberSignature Language="F#" Value="static member MapPins : Microsoft.Maui.Maps.Handlers.IMapHandler * Microsoft.Maui.Maps.IMap -&gt; unit" Usage="Microsoft.Maui.Maps.Handlers.MapHandler.MapPins (handler, map)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPins(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
@@ -348,8 +348,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapUpdateMapElement(class Microsoft.Maui.Maps.Handlers.IMapHandler handler, class Microsoft.Maui.Maps.IMap map, object arg) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Maps.Handlers.MapHandler.MapUpdateMapElement(Microsoft.Maui.Maps.Handlers.IMapHandler,Microsoft.Maui.Maps.IMap,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapUpdateMapElement (handler As IMapHandler, map As IMap, arg As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapUpdateMapElement(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map, System::Object ^ arg);" />
       <MemberSignature Language="F#" Value="static member MapUpdateMapElement : Microsoft.Maui.Maps.Handlers.IMapHandler * Microsoft.Maui.Maps.IMap * obj -&gt; unit" Usage="Microsoft.Maui.Maps.Handlers.MapHandler.MapUpdateMapElement (handler, map, arg)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapUpdateMapElement(Microsoft::Maui::Maps::Handlers::IMapHandler ^ handler, Microsoft::Maui::Maps::IMap ^ map, System::Object ^ arg);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
@@ -376,8 +376,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Maps.Handlers.IMapHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Maps.Handlers.MapHandler.Microsoft#Maui#Maps#Handlers#IMapHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IMapHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Maps::Handlers::IMapHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Maps.Handlers.IMapHandler.PlatformView : obj" Usage="Microsoft.Maui.Maps.Handlers.IMapHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Maps::Handlers::IMapHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Maps.Handlers.IMapHandler.PlatformView</InterfaceMember>
@@ -400,8 +400,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Maps.IMap Microsoft.Maui.Maps.Handlers.IMapHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Maps.Handlers.MapHandler.Microsoft#Maui#Maps#Handlers#IMapHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IMap Implements IMapHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Maps::IMap ^ Microsoft::Maui::Maps::Handlers::IMapHandler::VirtualView { Microsoft::Maui::Maps::IMap ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Maps.Handlers.IMapHandler.VirtualView : Microsoft.Maui.Maps.IMap" Usage="Microsoft.Maui.Maps.Handlers.IMapHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Maps::IMap ^ Microsoft::Maui::Maps::Handlers::IMapHandler::VirtualView { Microsoft::Maui::Maps::IMap ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Maps.Handlers.IMapHandler.VirtualView</InterfaceMember>
@@ -424,8 +424,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UpdateMapElement(class Microsoft.Maui.Maps.IMapElement element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Maps.Handlers.MapHandler.UpdateMapElement(Microsoft.Maui.Maps.IMapElement)" />
       <MemberSignature Language="VB.NET" Value="Public Sub UpdateMapElement (element As IMapElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void UpdateMapElement(Microsoft::Maui::Maps::IMapElement ^ element);" />
       <MemberSignature Language="F#" Value="abstract member UpdateMapElement : Microsoft.Maui.Maps.IMapElement -&gt; unit&#xA;override this.UpdateMapElement : Microsoft.Maui.Maps.IMapElement -&gt; unit" Usage="mapHandler.UpdateMapElement element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void UpdateMapElement(Microsoft::Maui::Maps::IMapElement ^ element);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Maps.Handlers.IMapHandler.UpdateMapElement(Microsoft.Maui.Maps.IMapElement)</InterfaceMember>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDecorableTextElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IDecorableTextElement" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDecorableTextElement" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IDecorableTextElement" />
   <TypeSignature Language="F#" Value="type IDecorableTextElement = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IDecorableTextElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextDecorations TextDecorations" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IDecorableTextElement.TextDecorations" />
       <MemberSignature Language="VB.NET" Value="Public Property TextDecorations As TextDecorations" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextDecorations TextDecorations { Microsoft::Maui::TextDecorations get(); void set(Microsoft::Maui::TextDecorations value); };" />
       <MemberSignature Language="F#" Value="member this.TextDecorations : Microsoft.Maui.TextDecorations with get, set" Usage="Microsoft.Maui.Controls.IDecorableTextElement.TextDecorations" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextDecorations TextDecorations { Microsoft::Maui::TextDecorations get(); void set(Microsoft::Maui::TextDecorations value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CloseRequestedEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.CloseRequestedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class CloseRequestedEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CloseRequestedEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type CloseRequestedEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CloseRequestedEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CloseRequestedEventArgs.#ctor(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (animated As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CloseRequestedEventArgs(bool animated);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.CloseRequestedEventArgs : bool -&gt; Microsoft.Maui.Controls.CloseRequestedEventArgs" Usage="new Microsoft.Maui.Controls.CloseRequestedEventArgs animated" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CloseRequestedEventArgs(bool animated);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Animated" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CloseRequestedEventArgs.Animated" />
       <MemberSignature Language="VB.NET" Value="Public Property Animated As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Animated { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Animated : bool with get, set" Usage="Microsoft.Maui.Controls.CloseRequestedEventArgs.Animated" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Animated { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

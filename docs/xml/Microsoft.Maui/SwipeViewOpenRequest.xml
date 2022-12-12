@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SwipeViewOpenRequest extends System.Object implements class System.IEquatable`1&lt;class Microsoft.Maui.SwipeViewOpenRequest&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.SwipeViewOpenRequest" />
   <TypeSignature Language="VB.NET" Value="Public Class SwipeViewOpenRequest&#xA;Implements IEquatable(Of SwipeViewOpenRequest)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SwipeViewOpenRequest : IEquatable&lt;Microsoft::Maui::SwipeViewOpenRequest ^&gt;" />
   <TypeSignature Language="F#" Value="type SwipeViewOpenRequest = class&#xA;    interface IEquatable&lt;SwipeViewOpenRequest&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SwipeViewOpenRequest : IEquatable&lt;Microsoft::Maui::SwipeViewOpenRequest ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.OpenSwipeItem OpenSwipeItem, bool Animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.SwipeViewOpenRequest.#ctor(Microsoft.Maui.OpenSwipeItem,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (OpenSwipeItem As OpenSwipeItem, Animated As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; SwipeViewOpenRequest(Microsoft::Maui::OpenSwipeItem OpenSwipeItem, bool Animated);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.SwipeViewOpenRequest : Microsoft.Maui.OpenSwipeItem * bool -&gt; Microsoft.Maui.SwipeViewOpenRequest" Usage="new Microsoft.Maui.SwipeViewOpenRequest (OpenSwipeItem, Animated)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SwipeViewOpenRequest(Microsoft::Maui::OpenSwipeItem OpenSwipeItem, bool Animated);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -91,8 +91,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Animated" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.SwipeViewOpenRequest.Animated" />
       <MemberSignature Language="VB.NET" Value="Public Property Animated As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Animated { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Animated : bool with get, set" Usage="Microsoft.Maui.SwipeViewOpenRequest.Animated" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Animated { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -137,8 +137,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type EqualityContract" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.SwipeViewOpenRequest.EqualityContract" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property EqualityContract As Type" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property Type ^ EqualityContract { Type ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.EqualityContract : Type" Usage="Microsoft.Maui.SwipeViewOpenRequest.EqualityContract" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property Type ^ EqualityContract { Type ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -282,8 +282,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.OpenSwipeItem OpenSwipeItem" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.SwipeViewOpenRequest.OpenSwipeItem" />
       <MemberSignature Language="VB.NET" Value="Public Property OpenSwipeItem As OpenSwipeItem" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::OpenSwipeItem OpenSwipeItem { Microsoft::Maui::OpenSwipeItem get(); void set(Microsoft::Maui::OpenSwipeItem value); };" />
       <MemberSignature Language="F#" Value="member this.OpenSwipeItem : Microsoft.Maui.OpenSwipeItem with get, set" Usage="Microsoft.Maui.SwipeViewOpenRequest.OpenSwipeItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::OpenSwipeItem OpenSwipeItem { Microsoft::Maui::OpenSwipeItem get(); void set(Microsoft::Maui::OpenSwipeItem value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MauiHandlersCollectionExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module MauiHandlersCollectionExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MauiHandlersCollectionExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type MauiHandlersCollectionExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MauiHandlersCollectionExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.Hosting.IEffectsBuilder AddCompatibilityEffects(class Microsoft.Maui.Controls.Hosting.IEffectsBuilder effectsBuilder, class System.Reflection.Assembly[] assemblies) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityEffects(Microsoft.Maui.Controls.Hosting.IEffectsBuilder,System.Reflection.Assembly[])" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddCompatibilityEffects (effectsBuilder As IEffectsBuilder, ParamArray assemblies As Assembly()) As IEffectsBuilder" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::Hosting::IEffectsBuilder ^ AddCompatibilityEffects(Microsoft::Maui::Controls::Hosting::IEffectsBuilder ^ effectsBuilder, ... cli::array &lt;System::Reflection::Assembly ^&gt; ^ assemblies);" />
       <MemberSignature Language="F#" Value="static member AddCompatibilityEffects : Microsoft.Maui.Controls.Hosting.IEffectsBuilder * System.Reflection.Assembly[] -&gt; Microsoft.Maui.Controls.Hosting.IEffectsBuilder" Usage="Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityEffects (effectsBuilder, assemblies)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::Hosting::IEffectsBuilder ^ AddCompatibilityEffects(Microsoft::Maui::Controls::Hosting::IEffectsBuilder ^ effectsBuilder, ... cli::array &lt;System::Reflection::Assembly ^&gt; ^ assemblies);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>
@@ -57,8 +57,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.IFontCollection AddCompatibilityFonts(class Microsoft.Maui.Hosting.IFontCollection fontCollection, class Microsoft.Maui.IFontRegistrar fontRegistrar, class System.Reflection.Assembly[] assemblies) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityFonts(Microsoft.Maui.Hosting.IFontCollection,Microsoft.Maui.IFontRegistrar,System.Reflection.Assembly[])" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddCompatibilityFonts (fontCollection As IFontCollection, fontRegistrar As IFontRegistrar, ParamArray assemblies As Assembly()) As IFontCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IFontCollection ^ AddCompatibilityFonts(Microsoft::Maui::Hosting::IFontCollection ^ fontCollection, Microsoft::Maui::IFontRegistrar ^ fontRegistrar, ... cli::array &lt;System::Reflection::Assembly ^&gt; ^ assemblies);" />
       <MemberSignature Language="F#" Value="static member AddCompatibilityFonts : Microsoft.Maui.Hosting.IFontCollection * Microsoft.Maui.IFontRegistrar * System.Reflection.Assembly[] -&gt; Microsoft.Maui.Hosting.IFontCollection" Usage="Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityFonts (fontCollection, fontRegistrar, assemblies)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IFontCollection ^ AddCompatibilityFonts(Microsoft::Maui::Hosting::IFontCollection ^ fontCollection, Microsoft::Maui::IFontRegistrar ^ fontRegistrar, ... cli::array &lt;System::Reflection::Assembly ^&gt; ^ assemblies);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.IMauiHandlersCollection AddCompatibilityRenderer(class Microsoft.Maui.Hosting.IMauiHandlersCollection handlersCollection, class System.Type controlType, class System.Type rendererType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityRenderer(Microsoft.Maui.Hosting.IMauiHandlersCollection,System.Type,System.Type)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddCompatibilityRenderer (handlersCollection As IMauiHandlersCollection, controlType As Type, rendererType As Type) As IMauiHandlersCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ AddCompatibilityRenderer(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection, Type ^ controlType, Type ^ rendererType);" />
       <MemberSignature Language="F#" Value="static member AddCompatibilityRenderer : Microsoft.Maui.Hosting.IMauiHandlersCollection * Type * Type -&gt; Microsoft.Maui.Hosting.IMauiHandlersCollection" Usage="Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityRenderer (handlersCollection, controlType, rendererType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ AddCompatibilityRenderer(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection, Type ^ controlType, Type ^ rendererType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>
@@ -122,8 +122,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.IMauiHandlersCollection AddCompatibilityRenderer&lt;(class Microsoft.Maui.IView) TControlType, TRenderer&gt;(class Microsoft.Maui.Hosting.IMauiHandlersCollection handlersCollection) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityRenderer``2(Microsoft.Maui.Hosting.IMauiHandlersCollection)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddCompatibilityRenderer(Of TControlType As IView, TRenderer As IView) (handlersCollection As IMauiHandlersCollection) As IMauiHandlersCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TControlType, typename TRenderer&gt;&#xA; where TControlType : Microsoft::Maui::IView[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ AddCompatibilityRenderer(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection);" />
       <MemberSignature Language="F#" Value="static member AddCompatibilityRenderer : Microsoft.Maui.Hosting.IMauiHandlersCollection -&gt; Microsoft.Maui.Hosting.IMauiHandlersCollection (requires 'ControlType :&gt; Microsoft.Maui.IView)" Usage="Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityRenderer handlersCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TControlType, typename TRenderer&gt;&#xA; where TControlType : Microsoft::Maui::IView[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ AddCompatibilityRenderer(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>
@@ -157,8 +157,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.IMauiHandlersCollection AddCompatibilityRenderer&lt;TControlType, (class Microsoft.Maui.IView) TMauiType, TRenderer&gt;(class Microsoft.Maui.Hosting.IMauiHandlersCollection handlersCollection) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityRenderer``3(Microsoft.Maui.Hosting.IMauiHandlersCollection)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddCompatibilityRenderer(Of TControlType, TMauiType, TRenderer) (handlersCollection As IMauiHandlersCollection) As IMauiHandlersCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TControlType, typename TMauiType, typename TRenderer&gt;&#xA; where TMauiType : Microsoft::Maui::IView[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ AddCompatibilityRenderer(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection);" />
       <MemberSignature Language="F#" Value="static member AddCompatibilityRenderer : Microsoft.Maui.Hosting.IMauiHandlersCollection -&gt; Microsoft.Maui.Hosting.IMauiHandlersCollection (requires 'MauiType :&gt; Microsoft.Maui.IView)" Usage="Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityRenderer handlersCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TControlType, typename TMauiType, typename TRenderer&gt;&#xA; where TMauiType : Microsoft::Maui::IView[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ AddCompatibilityRenderer(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>
@@ -194,8 +194,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.IMauiHandlersCollection AddCompatibilityRenderers(class Microsoft.Maui.Hosting.IMauiHandlersCollection handlersCollection, class System.Reflection.Assembly[] assemblies) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityRenderers(Microsoft.Maui.Hosting.IMauiHandlersCollection,System.Reflection.Assembly[])" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddCompatibilityRenderers (handlersCollection As IMauiHandlersCollection, ParamArray assemblies As Assembly()) As IMauiHandlersCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ AddCompatibilityRenderers(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection, ... cli::array &lt;System::Reflection::Assembly ^&gt; ^ assemblies);" />
       <MemberSignature Language="F#" Value="static member AddCompatibilityRenderers : Microsoft.Maui.Hosting.IMauiHandlersCollection * System.Reflection.Assembly[] -&gt; Microsoft.Maui.Hosting.IMauiHandlersCollection" Usage="Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityRenderers (handlersCollection, assemblies)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ AddCompatibilityRenderers(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection, ... cli::array &lt;System::Reflection::Assembly ^&gt; ^ assemblies);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>
@@ -228,8 +228,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.IImageSourceServiceCollection AddCompatibilityServices(class Microsoft.Maui.Hosting.IImageSourceServiceCollection services, class System.Reflection.Assembly[] assemblies) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityServices(Microsoft.Maui.Hosting.IImageSourceServiceCollection,System.Reflection.Assembly[])" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddCompatibilityServices (services As IImageSourceServiceCollection, ParamArray assemblies As Assembly()) As IImageSourceServiceCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IImageSourceServiceCollection ^ AddCompatibilityServices(Microsoft::Maui::Hosting::IImageSourceServiceCollection ^ services, ... cli::array &lt;System::Reflection::Assembly ^&gt; ^ assemblies);" />
       <MemberSignature Language="F#" Value="static member AddCompatibilityServices : Microsoft.Maui.Hosting.IImageSourceServiceCollection * System.Reflection.Assembly[] -&gt; Microsoft.Maui.Hosting.IImageSourceServiceCollection" Usage="Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.AddCompatibilityServices (services, assemblies)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IImageSourceServiceCollection ^ AddCompatibilityServices(Microsoft::Maui::Hosting::IImageSourceServiceCollection ^ services, ... cli::array &lt;System::Reflection::Assembly ^&gt; ^ assemblies);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>
@@ -262,8 +262,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.IMauiHandlersCollection TryAddCompatibilityRenderer(class Microsoft.Maui.Hosting.IMauiHandlersCollection handlersCollection, class System.Type controlType, class System.Type rendererType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.TryAddCompatibilityRenderer(Microsoft.Maui.Hosting.IMauiHandlersCollection,System.Type,System.Type)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function TryAddCompatibilityRenderer (handlersCollection As IMauiHandlersCollection, controlType As Type, rendererType As Type) As IMauiHandlersCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ TryAddCompatibilityRenderer(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection, Type ^ controlType, Type ^ rendererType);" />
       <MemberSignature Language="F#" Value="static member TryAddCompatibilityRenderer : Microsoft.Maui.Hosting.IMauiHandlersCollection * Type * Type -&gt; Microsoft.Maui.Hosting.IMauiHandlersCollection" Usage="Microsoft.Maui.Controls.Compatibility.Hosting.MauiHandlersCollectionExtensions.TryAddCompatibilityRenderer (handlersCollection, controlType, rendererType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ TryAddCompatibilityRenderer(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection, Type ^ controlType, Type ^ rendererType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>

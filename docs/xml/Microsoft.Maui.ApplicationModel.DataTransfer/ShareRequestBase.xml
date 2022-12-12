@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ShareRequestBase extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.DataTransfer.ShareRequestBase" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ShareRequestBase" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ShareRequestBase abstract" />
   <TypeSignature Language="F#" Value="type ShareRequestBase = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ShareRequestBase abstract" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Rect PresentationSourceBounds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.DataTransfer.ShareRequestBase.PresentationSourceBounds" />
       <MemberSignature Language="VB.NET" Value="Public Property PresentationSourceBounds As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect PresentationSourceBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberSignature Language="F#" Value="member this.PresentationSourceBounds : Microsoft.Maui.Graphics.Rect with get, set" Usage="Microsoft.Maui.ApplicationModel.DataTransfer.ShareRequestBase.PresentationSourceBounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect PresentationSourceBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.DataTransfer.ShareRequestBase.Title" />
       <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Microsoft.Maui.ApplicationModel.DataTransfer.ShareRequestBase.Title" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

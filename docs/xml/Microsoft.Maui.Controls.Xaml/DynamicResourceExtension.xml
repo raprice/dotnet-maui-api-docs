@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DynamicResourceExtension extends System.Object implements class Microsoft.Maui.Controls.Xaml.IMarkupExtension, class Microsoft.Maui.Controls.Xaml.IMarkupExtension`1&lt;class Microsoft.Maui.Controls.Internals.DynamicResource&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.DynamicResourceExtension" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DynamicResourceExtension&#xA;Implements IMarkupExtension(Of DynamicResource)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DynamicResourceExtension sealed : Microsoft::Maui::Controls::Xaml::IMarkupExtension&lt;Microsoft::Maui::Controls::Internals::DynamicResource ^&gt;" />
   <TypeSignature Language="F#" Value="type DynamicResourceExtension = class&#xA;    interface IMarkupExtension&lt;DynamicResource&gt;&#xA;    interface IMarkupExtension" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DynamicResourceExtension sealed : Microsoft::Maui::Controls::Xaml::IMarkupExtension&lt;Microsoft::Maui::Controls::Internals::DynamicResource ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -53,8 +53,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Key" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.DynamicResourceExtension.Key" />
       <MemberSignature Language="VB.NET" Value="Public Property Key As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Key { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Key : string with get, set" Usage="Microsoft.Maui.Controls.Xaml.DynamicResourceExtension.Key" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Key { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -74,8 +74,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Microsoft.Maui.Controls.Internals.DynamicResource Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.Internals.DynamicResource&gt;.ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.DynamicResourceExtension.Microsoft#Maui#Controls#Xaml#IMarkupExtension&lt;Microsoft#Maui#Controls#Internals#DynamicResource&gt;#ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Function ProvideValue (serviceProvider As IServiceProvider) As DynamicResource Implements IMarkupExtension(Of DynamicResource).ProvideValue" />
-      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Controls::Internals::DynamicResource ^ Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.Internals.DynamicResource&gt;.ProvideValue(IServiceProvider ^ serviceProvider) = Microsoft::Maui::Controls::Xaml::IMarkupExtension&lt;Microsoft::Maui::Controls::Internals::DynamicResource ^&gt;::ProvideValue;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.Internals.DynamicResource&gt;.ProvideValue : IServiceProvider -&gt; Microsoft.Maui.Controls.Internals.DynamicResource&#xA;override this.Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.Internals.DynamicResource&gt;.ProvideValue : IServiceProvider -&gt; Microsoft.Maui.Controls.Internals.DynamicResource" Usage="dynamicResourceExtension.Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.Internals.DynamicResource&gt;.ProvideValue serviceProvider" />
+      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Controls::Internals::DynamicResource ^ Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.Internals.DynamicResource&gt;.ProvideValue(IServiceProvider ^ serviceProvider) = Microsoft::Maui::Controls::Xaml::IMarkupExtension&lt;Microsoft::Maui::Controls::Internals::DynamicResource ^&gt;::ProvideValue;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Xaml.IMarkupExtension`1.ProvideValue(System.IServiceProvider)</InterfaceMember>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.DynamicResourceExtension.ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ProvideValue (serviceProvider As IServiceProvider) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ ProvideValue(IServiceProvider ^ serviceProvider);" />
       <MemberSignature Language="F#" Value="abstract member ProvideValue : IServiceProvider -&gt; obj&#xA;override this.ProvideValue : IServiceProvider -&gt; obj" Usage="dynamicResourceExtension.ProvideValue serviceProvider" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ ProvideValue(IServiceProvider ^ serviceProvider);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue(System.IServiceProvider)</InterfaceMember>

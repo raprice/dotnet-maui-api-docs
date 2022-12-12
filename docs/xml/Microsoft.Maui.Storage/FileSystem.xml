@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FileSystem extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Storage.FileSystem" />
   <TypeSignature Language="VB.NET" Value="Public Class FileSystem" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FileSystem abstract sealed" />
   <TypeSignature Language="F#" Value="type FileSystem = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FileSystem abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".property string AppDataDirectory" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Storage.FileSystem.AppDataDirectory" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AppDataDirectory As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ AppDataDirectory { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="static member AppDataDirectory : string" Usage="Microsoft.Maui.Storage.FileSystem.AppDataDirectory" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ AppDataDirectory { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; AppPackageFileExistsAsync(string filename) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Storage.FileSystem.AppPackageFileExistsAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AppPackageFileExistsAsync (filename As String) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ AppPackageFileExistsAsync(System::String ^ filename);" />
       <MemberSignature Language="F#" Value="static member AppPackageFileExistsAsync : string -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.Storage.FileSystem.AppPackageFileExistsAsync filename" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ AppPackageFileExistsAsync(System::String ^ filename);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".property string CacheDirectory" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Storage.FileSystem.CacheDirectory" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CacheDirectory As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CacheDirectory { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="static member CacheDirectory : string" Usage="Microsoft.Maui.Storage.FileSystem.CacheDirectory" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CacheDirectory { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -90,8 +90,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Storage.IFileSystem Current" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Storage.FileSystem.Current" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Current As IFileSystem" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Storage::IFileSystem ^ Current { Microsoft::Maui::Storage::IFileSystem ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Current : Microsoft.Maui.Storage.IFileSystem" Usage="Microsoft.Maui.Storage.FileSystem.Current" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Storage::IFileSystem ^ Current { Microsoft::Maui::Storage::IFileSystem ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -111,8 +111,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt; OpenAppPackageFileAsync(string filename) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Storage.FileSystem.OpenAppPackageFileAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OpenAppPackageFileAsync (filename As String) As Task(Of Stream)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^ OpenAppPackageFileAsync(System::String ^ filename);" />
       <MemberSignature Language="F#" Value="static member OpenAppPackageFileAsync : string -&gt; System.Threading.Tasks.Task&lt;System.IO.Stream&gt;" Usage="Microsoft.Maui.Storage.FileSystem.OpenAppPackageFileAsync filename" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^ OpenAppPackageFileAsync(System::String ^ filename);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

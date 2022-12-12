@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract beforefieldinit Permissions/BasePlatformPermission extends Microsoft.Maui.ApplicationModel.Permissions/BasePermission" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Permissions.BasePlatformPermission" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Permissions.BasePlatformPermission&#xA;Inherits Permissions.BasePermission" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class Permissions::BasePlatformPermission abstract : Microsoft::Maui::ApplicationModel::Permissions::BasePermission" />
   <TypeSignature Language="F#" Value="type Permissions.BasePlatformPermission = class&#xA;    inherit Permissions.BasePermission" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Permissions::BasePlatformPermission abstract : Microsoft::Maui::ApplicationModel::Permissions::BasePermission" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Threading.Tasks.Task`1&lt;valuetype Microsoft.Maui.ApplicationModel.PermissionStatus&gt; CheckStatusAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Permissions.BasePlatformPermission.CheckStatusAsync" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function CheckStatusAsync () As Task(Of PermissionStatus)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Threading::Tasks::Task&lt;Microsoft::Maui::ApplicationModel::PermissionStatus&gt; ^ CheckStatusAsync();" />
       <MemberSignature Language="F#" Value="override this.CheckStatusAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.ApplicationModel.PermissionStatus&gt;" Usage="basePlatformPermission.CheckStatusAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Threading::Tasks::Task&lt;Microsoft::Maui::ApplicationModel::PermissionStatus&gt; ^ CheckStatusAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void EnsureDeclared() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Permissions.BasePlatformPermission.EnsureDeclared" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub EnsureDeclared ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void EnsureDeclared();" />
       <MemberSignature Language="F#" Value="override this.EnsureDeclared : unit -&gt; unit" Usage="basePlatformPermission.EnsureDeclared " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void EnsureDeclared();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -83,8 +83,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Threading.Tasks.Task`1&lt;valuetype Microsoft.Maui.ApplicationModel.PermissionStatus&gt; RequestAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Permissions.BasePlatformPermission.RequestAsync" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function RequestAsync () As Task(Of PermissionStatus)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Threading::Tasks::Task&lt;Microsoft::Maui::ApplicationModel::PermissionStatus&gt; ^ RequestAsync();" />
       <MemberSignature Language="F#" Value="override this.RequestAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.ApplicationModel.PermissionStatus&gt;" Usage="basePlatformPermission.RequestAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Threading::Tasks::Task&lt;Microsoft::Maui::ApplicationModel::PermissionStatus&gt; ^ RequestAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -105,8 +105,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool ShouldShowRationale() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Permissions.BasePlatformPermission.ShouldShowRationale" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ShouldShowRationale () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool ShouldShowRationale();" />
       <MemberSignature Language="F#" Value="override this.ShouldShowRationale : unit -&gt; bool" Usage="basePlatformPermission.ShouldShowRationale " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool ShouldShowRationale();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

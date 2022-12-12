@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PositionChangedEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PositionChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class PositionChangedEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PositionChangedEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type PositionChangedEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PositionChangedEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 CurrentPosition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.PositionChangedEventArgs.CurrentPosition" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentPosition As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CurrentPosition { int get(); };" />
       <MemberSignature Language="F#" Value="member this.CurrentPosition : int" Usage="Microsoft.Maui.Controls.PositionChangedEventArgs.CurrentPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CurrentPosition { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 PreviousPosition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.PositionChangedEventArgs.PreviousPosition" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreviousPosition As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PreviousPosition { int get(); };" />
       <MemberSignature Language="F#" Value="member this.PreviousPosition : int" Usage="Microsoft.Maui.Controls.PositionChangedEventArgs.PreviousPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PreviousPosition { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

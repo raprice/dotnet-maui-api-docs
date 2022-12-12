@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPlatformAppActions" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.IPlatformAppActions" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPlatformAppActions" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IPlatformAppActions" />
   <TypeSignature Language="F#" Value="type IPlatformAppActions = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPlatformAppActions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

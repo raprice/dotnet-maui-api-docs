@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MissingMapperAttribute extends System.Attribute" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.MissingMapperAttribute" />
   <TypeSignature Language="VB.NET" Value="Public Class MissingMapperAttribute&#xA;Inherits Attribute" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MissingMapperAttribute : Attribute" />
   <TypeSignature Language="F#" Value="type MissingMapperAttribute = class&#xA;    inherit Attribute" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MissingMapperAttribute : Attribute" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string description) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.MissingMapperAttribute.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (description As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; MissingMapperAttribute(System::String ^ description);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.MissingMapperAttribute : string -&gt; Microsoft.Maui.MissingMapperAttribute" Usage="new Microsoft.Maui.MissingMapperAttribute description" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MissingMapperAttribute(System::String ^ description);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Description" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.MissingMapperAttribute.Description" />
       <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Description : string with get, set" Usage="Microsoft.Maui.MissingMapperAttribute.Description" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

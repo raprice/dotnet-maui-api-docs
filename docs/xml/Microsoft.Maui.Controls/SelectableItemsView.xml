@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SelectableItemsView extends Microsoft.Maui.Controls.StructuredItemsView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.SelectableItemsView" />
   <TypeSignature Language="VB.NET" Value="Public Class SelectableItemsView&#xA;Inherits StructuredItemsView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SelectableItemsView : Microsoft::Maui::Controls::StructuredItemsView" />
   <TypeSignature Language="F#" Value="type SelectableItemsView = class&#xA;    inherit StructuredItemsView" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SelectableItemsView : Microsoft::Maui::Controls::StructuredItemsView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnSelectionChanged(class Microsoft.Maui.Controls.SelectionChangedEventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SelectableItemsView.OnSelectionChanged(Microsoft.Maui.Controls.SelectionChangedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnSelectionChanged (args As SelectionChangedEventArgs)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnSelectionChanged(Microsoft::Maui::Controls::SelectionChangedEventArgs ^ args);" />
       <MemberSignature Language="F#" Value="abstract member OnSelectionChanged : Microsoft.Maui.Controls.SelectionChangedEventArgs -&gt; unit&#xA;override this.OnSelectionChanged : Microsoft.Maui.Controls.SelectionChangedEventArgs -&gt; unit" Usage="selectableItemsView.OnSelectionChanged args" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnSelectionChanged(Microsoft::Maui::Controls::SelectionChangedEventArgs ^ args);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -64,8 +64,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object SelectedItem" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SelectableItemsView.SelectedItem" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectedItem As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SelectedItem { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SelectedItem : obj with get, set" Usage="Microsoft.Maui.Controls.SelectableItemsView.SelectedItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SelectedItem { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -85,8 +85,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectedItemProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SelectableItemsView.SelectedItemProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectedItemProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectedItemProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectedItemProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SelectableItemsView.SelectedItemProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectedItemProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -105,8 +105,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;object&gt; SelectedItems" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SelectableItemsView.SelectedItems" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectedItems As IList(Of Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::Object ^&gt; ^ SelectedItems { System::Collections::Generic::IList&lt;System::Object ^&gt; ^ get(); void set(System::Collections::Generic::IList&lt;System::Object ^&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SelectedItems : System.Collections.Generic.IList&lt;obj&gt; with get, set" Usage="Microsoft.Maui.Controls.SelectableItemsView.SelectedItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::Object ^&gt; ^ SelectedItems { System::Collections::Generic::IList&lt;System::Object ^&gt; ^ get(); void set(System::Collections::Generic::IList&lt;System::Object ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -126,8 +126,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectedItemsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SelectableItemsView.SelectedItemsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectedItemsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectedItemsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectedItemsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SelectableItemsView.SelectedItemsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectedItemsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -146,8 +146,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.SelectionChangedEventArgs&gt; SelectionChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.SelectableItemsView.SelectionChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event SelectionChanged As EventHandler(Of SelectionChangedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::SelectionChangedEventArgs ^&gt; ^ SelectionChanged;" />
       <MemberSignature Language="F#" Value="member this.SelectionChanged : EventHandler&lt;Microsoft.Maui.Controls.SelectionChangedEventArgs&gt; " Usage="member this.SelectionChanged : System.EventHandler&lt;Microsoft.Maui.Controls.SelectionChangedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::SelectionChangedEventArgs ^&gt; ^ SelectionChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -166,8 +166,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand SelectionChangedCommand" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SelectableItemsView.SelectionChangedCommand" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectionChangedCommand As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ SelectionChangedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SelectionChangedCommand : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.SelectableItemsView.SelectionChangedCommand" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ SelectionChangedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -187,8 +187,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object SelectionChangedCommandParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SelectableItemsView.SelectionChangedCommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectionChangedCommandParameter As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SelectionChangedCommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SelectionChangedCommandParameter : obj with get, set" Usage="Microsoft.Maui.Controls.SelectableItemsView.SelectionChangedCommandParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SelectionChangedCommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -208,8 +208,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectionChangedCommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SelectableItemsView.SelectionChangedCommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectionChangedCommandParameterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionChangedCommandParameterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectionChangedCommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SelectableItemsView.SelectionChangedCommandParameterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionChangedCommandParameterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -228,8 +228,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectionChangedCommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SelectableItemsView.SelectionChangedCommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectionChangedCommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionChangedCommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectionChangedCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SelectableItemsView.SelectionChangedCommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionChangedCommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -248,8 +248,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.SelectionMode SelectionMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SelectableItemsView.SelectionMode" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectionMode As SelectionMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SelectionMode SelectionMode { Microsoft::Maui::Controls::SelectionMode get(); void set(Microsoft::Maui::Controls::SelectionMode value); };" />
       <MemberSignature Language="F#" Value="member this.SelectionMode : Microsoft.Maui.Controls.SelectionMode with get, set" Usage="Microsoft.Maui.Controls.SelectableItemsView.SelectionMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SelectionMode SelectionMode { Microsoft::Maui::Controls::SelectionMode get(); void set(Microsoft::Maui::Controls::SelectionMode value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -269,8 +269,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectionModeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SelectableItemsView.SelectionModeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectionModeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionModeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectionModeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SelectableItemsView.SelectionModeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionModeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -289,8 +289,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UpdateSelectedItems(class System.Collections.Generic.IList`1&lt;object&gt; newSelection) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SelectableItemsView.UpdateSelectedItems(System.Collections.Generic.IList{System.Object})" />
       <MemberSignature Language="VB.NET" Value="Public Sub UpdateSelectedItems (newSelection As IList(Of Object))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UpdateSelectedItems(System::Collections::Generic::IList&lt;System::Object ^&gt; ^ newSelection);" />
       <MemberSignature Language="F#" Value="member this.UpdateSelectedItems : System.Collections.Generic.IList&lt;obj&gt; -&gt; unit" Usage="selectableItemsView.UpdateSelectedItems newSelection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UpdateSelectedItems(System::Collections::Generic::IList&lt;System::Object ^&gt; ^ newSelection);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

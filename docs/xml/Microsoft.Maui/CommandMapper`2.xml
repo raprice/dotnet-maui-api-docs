@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CommandMapper`2&lt;(class Microsoft.Maui.IElement) TVirtualView, (class Microsoft.Maui.IElementHandler) TViewHandler&gt; extends Microsoft.Maui.CommandMapper" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.CommandMapper`2" />
   <TypeSignature Language="VB.NET" Value="Public Class CommandMapper(Of TVirtualView, TViewHandler)&#xA;Inherits CommandMapper" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TVirtualView, typename TViewHandler&gt;&#xA; where TVirtualView : IElement where TViewHandler : IElementHandlerpublic ref class CommandMapper : Microsoft::Maui::CommandMapper" />
   <TypeSignature Language="F#" Value="type CommandMapper&lt;'VirtualView, 'ViewHandler (requires 'VirtualView :&gt; IElement and 'ViewHandler :&gt; IElementHandler)&gt; = class&#xA;    inherit CommandMapper" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TVirtualView, typename TViewHandler&gt;&#xA; where TVirtualView : IElement where TViewHandler : IElementHandlerpublic ref class CommandMapper : Microsoft::Maui::CommandMapper" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.CommandMapper chained) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CommandMapper`2.#ctor(Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (chained As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CommandMapper(Microsoft::Maui::CommandMapper ^ chained);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.CommandMapper&lt;'VirtualView, 'ViewHandler (requires 'VirtualView :&gt; Microsoft.Maui.IElement and 'ViewHandler :&gt; Microsoft.Maui.IElementHandler)&gt; : Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.CommandMapper&lt;'VirtualView, 'ViewHandler (requires 'VirtualView :&gt; Microsoft.Maui.IElement and 'ViewHandler :&gt; Microsoft.Maui.IElementHandler)&gt;" Usage="new Microsoft.Maui.CommandMapper&lt;'VirtualView, 'ViewHandler (requires 'VirtualView :&gt; Microsoft.Maui.IElement and 'ViewHandler :&gt; Microsoft.Maui.IElementHandler)&gt; chained" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CommandMapper(Microsoft::Maui::CommandMapper ^ chained);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(string key, class System.Action`3&lt;!TViewHandler, !TVirtualView, object&gt; action) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CommandMapper`2.Add(System.String,System.Action{`1,`0,System.Object})" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (key As String, action As Action(Of TViewHandler, TVirtualView, Object))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(System::String ^ key, Action&lt;TViewHandler, TVirtualView, System::Object ^&gt; ^ action);" />
       <MemberSignature Language="F#" Value="member this.Add : string * Action&lt;'ViewHandler, 'VirtualView, obj (requires 'ViewHandler :&gt; Microsoft.Maui.IElementHandler and 'VirtualView :&gt; Microsoft.Maui.IElement)&gt; -&gt; unit" Usage="commandMapper.Add (key, action)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(System::String ^ key, Action&lt;TViewHandler, TVirtualView, System::Object ^&gt; ^ action);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -101,8 +101,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(string key, class System.Action`2&lt;!TViewHandler, !TVirtualView&gt; action) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CommandMapper`2.Add(System.String,System.Action{`1,`0})" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (key As String, action As Action(Of TViewHandler, TVirtualView))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(System::String ^ key, Action&lt;TViewHandler, TVirtualView&gt; ^ action);" />
       <MemberSignature Language="F#" Value="member this.Add : string * Action&lt;'ViewHandler, 'VirtualView (requires 'ViewHandler :&gt; Microsoft.Maui.IElementHandler and 'VirtualView :&gt; Microsoft.Maui.IElement)&gt; -&gt; unit" Usage="commandMapper.Add (key, action)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(System::String ^ key, Action&lt;TViewHandler, TVirtualView&gt; ^ action);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -127,8 +127,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Action`3&lt;!TViewHandler, !TVirtualView, object&gt; Item(string)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.CommandMapper`2.Item(System.String)" />
       <MemberSignature Language="VB.NET" Value="Default Public Property Item(key As String) As Action(Of TViewHandler, TVirtualView, Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Action&lt;TViewHandler, TVirtualView, System::Object ^&gt; ^ default[System::String ^] { Action&lt;TViewHandler, TVirtualView, System::Object ^&gt; ^ get(System::String ^ key); void set(System::String ^ key, Action&lt;TViewHandler, TVirtualView, System::Object ^&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Item(string) : Action&lt;'ViewHandler, 'VirtualView, obj (requires 'ViewHandler :&gt; Microsoft.Maui.IElementHandler and 'VirtualView :&gt; Microsoft.Maui.IElement)&gt; with get, set" Usage="Microsoft.Maui.CommandMapper&lt;'VirtualView, 'ViewHandler (requires 'VirtualView :&gt; Microsoft.Maui.IElement and 'ViewHandler :&gt; Microsoft.Maui.IElementHandler)&gt;.Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Action&lt;TViewHandler, TVirtualView, System::Object ^&gt; ^ default[System::String ^] { Action&lt;TViewHandler, TVirtualView, System::Object ^&gt; ^ get(System::String ^ key); void set(System::String ^ key, Action&lt;TViewHandler, TVirtualView, System::Object ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

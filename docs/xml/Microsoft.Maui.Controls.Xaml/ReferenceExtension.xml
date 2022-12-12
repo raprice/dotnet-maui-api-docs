@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ReferenceExtension extends System.Object implements class Microsoft.Maui.Controls.Xaml.IMarkupExtension" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.ReferenceExtension" />
   <TypeSignature Language="VB.NET" Value="Public Class ReferenceExtension&#xA;Implements IMarkupExtension" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ReferenceExtension : Microsoft::Maui::Controls::Xaml::IMarkupExtension" />
   <TypeSignature Language="F#" Value="type ReferenceExtension = class&#xA;    interface IMarkupExtension" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ReferenceExtension : Microsoft::Maui::Controls::Xaml::IMarkupExtension" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.ReferenceExtension.Name" />
       <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Maui.Controls.Xaml.ReferenceExtension.Name" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.ReferenceExtension.ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ProvideValue (serviceProvider As IServiceProvider) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ ProvideValue(IServiceProvider ^ serviceProvider);" />
       <MemberSignature Language="F#" Value="abstract member ProvideValue : IServiceProvider -&gt; obj&#xA;override this.ProvideValue : IServiceProvider -&gt; obj" Usage="referenceExtension.ProvideValue serviceProvider" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ ProvideValue(IServiceProvider ^ serviceProvider);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue(System.IServiceProvider)</InterfaceMember>

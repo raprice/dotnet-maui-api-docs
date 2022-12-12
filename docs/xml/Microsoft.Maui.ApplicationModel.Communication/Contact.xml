@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Contact extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Communication.Contact" />
   <TypeSignature Language="VB.NET" Value="Public Class Contact" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Contact" />
   <TypeSignature Language="F#" Value="type Contact = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Contact" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -68,6 +68,7 @@
         <param name="email">A collection of email addresses for the contact.</param>
         <param name="displayName">The display name of the contact.</param>
         <summary>Constructs a new instance of <see cref="T:Microsoft.Maui.ApplicationModel.Communication.Contact" />.</summary>
+        <summary>Constructs a new instance of <see cref="T:Microsoft.Maui.ApplicationModel.Communication.Contact" /> using the various parameters.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -76,8 +77,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.Contact.DisplayName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.DisplayName : string" Usage="Microsoft.Maui.ApplicationModel.Communication.Contact.DisplayName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -97,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Maui.ApplicationModel.Communication.ContactEmail&gt; Emails" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.Contact.Emails" />
       <MemberSignature Language="VB.NET" Value="Public Property Emails As List(Of ContactEmail)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;Microsoft::Maui::ApplicationModel::Communication::ContactEmail ^&gt; ^ Emails { System::Collections::Generic::List&lt;Microsoft::Maui::ApplicationModel::Communication::ContactEmail ^&gt; ^ get(); void set(System::Collections::Generic::List&lt;Microsoft::Maui::ApplicationModel::Communication::ContactEmail ^&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Emails : System.Collections.Generic.List&lt;Microsoft.Maui.ApplicationModel.Communication.ContactEmail&gt; with get, set" Usage="Microsoft.Maui.ApplicationModel.Communication.Contact.Emails" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;Microsoft::Maui::ApplicationModel::Communication::ContactEmail ^&gt; ^ Emails { System::Collections::Generic::List&lt;Microsoft::Maui::ApplicationModel::Communication::ContactEmail ^&gt; ^ get(); void set(System::Collections::Generic::List&lt;Microsoft::Maui::ApplicationModel::Communication::ContactEmail ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -118,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string FamilyName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.Contact.FamilyName" />
       <MemberSignature Language="VB.NET" Value="Public Property FamilyName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FamilyName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FamilyName : string with get, set" Usage="Microsoft.Maui.ApplicationModel.Communication.Contact.FamilyName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FamilyName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -139,8 +140,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string GivenName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.Contact.GivenName" />
       <MemberSignature Language="VB.NET" Value="Public Property GivenName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GivenName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.GivenName : string with get, set" Usage="Microsoft.Maui.ApplicationModel.Communication.Contact.GivenName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GivenName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -160,8 +161,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Id" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.Contact.Id" />
       <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Id : string with get, set" Usage="Microsoft.Maui.ApplicationModel.Communication.Contact.Id" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -181,8 +182,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string MiddleName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.Contact.MiddleName" />
       <MemberSignature Language="VB.NET" Value="Public Property MiddleName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MiddleName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.MiddleName : string with get, set" Usage="Microsoft.Maui.ApplicationModel.Communication.Contact.MiddleName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MiddleName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -202,8 +203,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string NamePrefix" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.Contact.NamePrefix" />
       <MemberSignature Language="VB.NET" Value="Public Property NamePrefix As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NamePrefix { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.NamePrefix : string with get, set" Usage="Microsoft.Maui.ApplicationModel.Communication.Contact.NamePrefix" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NamePrefix { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -223,8 +224,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string NameSuffix" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.Contact.NameSuffix" />
       <MemberSignature Language="VB.NET" Value="Public Property NameSuffix As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NameSuffix { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.NameSuffix : string with get, set" Usage="Microsoft.Maui.ApplicationModel.Communication.Contact.NameSuffix" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NameSuffix { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -244,8 +245,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Maui.ApplicationModel.Communication.ContactPhone&gt; Phones" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.Contact.Phones" />
       <MemberSignature Language="VB.NET" Value="Public Property Phones As List(Of ContactPhone)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;Microsoft::Maui::ApplicationModel::Communication::ContactPhone ^&gt; ^ Phones { System::Collections::Generic::List&lt;Microsoft::Maui::ApplicationModel::Communication::ContactPhone ^&gt; ^ get(); void set(System::Collections::Generic::List&lt;Microsoft::Maui::ApplicationModel::Communication::ContactPhone ^&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Phones : System.Collections.Generic.List&lt;Microsoft.Maui.ApplicationModel.Communication.ContactPhone&gt; with get, set" Usage="Microsoft.Maui.ApplicationModel.Communication.Contact.Phones" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;Microsoft::Maui::ApplicationModel::Communication::ContactPhone ^&gt; ^ Phones { System::Collections::Generic::List&lt;Microsoft::Maui::ApplicationModel::Communication::ContactPhone ^&gt; ^ get(); void set(System::Collections::Generic::List&lt;Microsoft::Maui::ApplicationModel::Communication::ContactPhone ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -265,8 +266,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Communication.Contact.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="contact.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

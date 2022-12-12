@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICellController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ICellController" />
   <TypeSignature Language="VB.NET" Value="Public Interface ICellController" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ICellController" />
   <TypeSignature Language="F#" Value="type ICellController = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ICellController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler ForceUpdateSizeRequested" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.ICellController.ForceUpdateSizeRequested" />
       <MemberSignature Language="VB.NET" Value="Event ForceUpdateSizeRequested As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ ForceUpdateSizeRequested;" />
       <MemberSignature Language="F#" Value="member this.ForceUpdateSizeRequested : EventHandler " Usage="member this.ForceUpdateSizeRequested : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ ForceUpdateSizeRequested;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendAppearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ICellController.SendAppearing" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendAppearing ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAppearing();" />
       <MemberSignature Language="F#" Value="abstract member SendAppearing : unit -&gt; unit" Usage="iCellController.SendAppearing " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAppearing();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendDisappearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ICellController.SendDisappearing" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendDisappearing ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendDisappearing();" />
       <MemberSignature Language="F#" Value="abstract member SendDisappearing : unit -&gt; unit" Usage="iCellController.SendDisappearing " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendDisappearing();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AppPackagingModel extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.AppPackagingModel" />
   <TypeSignature Language="VB.NET" Value="Public Enum AppPackagingModel" />
-  <TypeSignature Language="C++ CLI" Value="public enum class AppPackagingModel" />
   <TypeSignature Language="F#" Value="type AppPackagingModel = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class AppPackagingModel" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.ApplicationModel.AppPackagingModel Packaged = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.ApplicationModel.AppPackagingModel.Packaged" />
       <MemberSignature Language="VB.NET" Value="Packaged" />
-      <MemberSignature Language="C++ CLI" Value="Packaged" />
       <MemberSignature Language="F#" Value="Packaged = 0" Usage="Microsoft.Maui.ApplicationModel.AppPackagingModel.Packaged" />
+      <MemberSignature Language="C++ CLI" Value="Packaged" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.ApplicationModel.AppPackagingModel Unpackaged = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.ApplicationModel.AppPackagingModel.Unpackaged" />
       <MemberSignature Language="VB.NET" Value="Unpackaged" />
-      <MemberSignature Language="C++ CLI" Value="Unpackaged" />
       <MemberSignature Language="F#" Value="Unpackaged = 1" Usage="Microsoft.Maui.ApplicationModel.AppPackagingModel.Unpackaged" />
+      <MemberSignature Language="C++ CLI" Value="Unpackaged" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

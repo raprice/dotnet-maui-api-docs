@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MutableAttributedText extends Microsoft.Maui.Graphics.Text.AbstractAttributedText" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.Text.MutableAttributedText" />
   <TypeSignature Language="VB.NET" Value="Public Class MutableAttributedText&#xA;Inherits AbstractAttributedText" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MutableAttributedText : Microsoft::Maui::Graphics::Text::AbstractAttributedText" />
   <TypeSignature Language="F#" Value="type MutableAttributedText = class&#xA;    inherit AbstractAttributedText" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MutableAttributedText : Microsoft::Maui::Graphics::Text::AbstractAttributedText" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.MutableAttributedText.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (text As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; MutableAttributedText(System::String ^ text);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Graphics.Text.MutableAttributedText : string -&gt; Microsoft.Maui.Graphics.Text.MutableAttributedText" Usage="new Microsoft.Maui.Graphics.Text.MutableAttributedText text" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MutableAttributedText(System::String ^ text);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddRun(class Microsoft.Maui.Graphics.Text.IAttributedTextRun run) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.MutableAttributedText.AddRun(Microsoft.Maui.Graphics.Text.IAttributedTextRun)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AddRun (run As IAttributedTextRun)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRun(Microsoft::Maui::Graphics::Text::IAttributedTextRun ^ run);" />
       <MemberSignature Language="F#" Value="member this.AddRun : Microsoft.Maui.Graphics.Text.IAttributedTextRun -&gt; unit" Usage="mutableAttributedText.AddRun run" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRun(Microsoft::Maui::Graphics::Text::IAttributedTextRun ^ run);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.Graphics.Text.IAttributedTextRun&gt; Runs" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Text.MutableAttributedText.Runs" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Runs As IReadOnlyList(Of IAttributedTextRun)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Graphics::Text::IAttributedTextRun ^&gt; ^ Runs { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Graphics::Text::IAttributedTextRun ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Runs : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Graphics.Text.IAttributedTextRun&gt;" Usage="Microsoft.Maui.Graphics.Text.MutableAttributedText.Runs" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Graphics::Text::IAttributedTextRun ^&gt; ^ Runs { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Graphics::Text::IAttributedTextRun ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -89,8 +89,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Text" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Text.MutableAttributedText.Text" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Text As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Text { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Text : string" Usage="Microsoft.Maui.Graphics.Text.MutableAttributedText.Text" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Text { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

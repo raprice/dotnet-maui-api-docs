@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ShellNavigatedEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ShellNavigatedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ShellNavigatedEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ShellNavigatedEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type ShellNavigatedEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ShellNavigatedEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Controls.ShellNavigationState previous, class Microsoft.Maui.Controls.ShellNavigationState current, valuetype Microsoft.Maui.Controls.ShellNavigationSource source) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellNavigatedEventArgs.#ctor(Microsoft.Maui.Controls.ShellNavigationState,Microsoft.Maui.Controls.ShellNavigationState,Microsoft.Maui.Controls.ShellNavigationSource)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (previous As ShellNavigationState, current As ShellNavigationState, source As ShellNavigationSource)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShellNavigatedEventArgs(Microsoft::Maui::Controls::ShellNavigationState ^ previous, Microsoft::Maui::Controls::ShellNavigationState ^ current, Microsoft::Maui::Controls::ShellNavigationSource source);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.ShellNavigatedEventArgs : Microsoft.Maui.Controls.ShellNavigationState * Microsoft.Maui.Controls.ShellNavigationState * Microsoft.Maui.Controls.ShellNavigationSource -&gt; Microsoft.Maui.Controls.ShellNavigatedEventArgs" Usage="new Microsoft.Maui.Controls.ShellNavigatedEventArgs (previous, current, source)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShellNavigatedEventArgs(Microsoft::Maui::Controls::ShellNavigationState ^ previous, Microsoft::Maui::Controls::ShellNavigationState ^ current, Microsoft::Maui::Controls::ShellNavigationSource source);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ShellNavigationState Current" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ShellNavigatedEventArgs.Current" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Current As ShellNavigationState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellNavigationState ^ Current { Microsoft::Maui::Controls::ShellNavigationState ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Current : Microsoft.Maui.Controls.ShellNavigationState" Usage="Microsoft.Maui.Controls.ShellNavigatedEventArgs.Current" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellNavigationState ^ Current { Microsoft::Maui::Controls::ShellNavigationState ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ShellNavigationState Previous" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ShellNavigatedEventArgs.Previous" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Previous As ShellNavigationState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellNavigationState ^ Previous { Microsoft::Maui::Controls::ShellNavigationState ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Previous : Microsoft.Maui.Controls.ShellNavigationState" Usage="Microsoft.Maui.Controls.ShellNavigatedEventArgs.Previous" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellNavigationState ^ Previous { Microsoft::Maui::Controls::ShellNavigationState ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -90,8 +90,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.ShellNavigationSource Source" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ShellNavigatedEventArgs.Source" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Source As ShellNavigationSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellNavigationSource Source { Microsoft::Maui::Controls::ShellNavigationSource get(); };" />
       <MemberSignature Language="F#" Value="member this.Source : Microsoft.Maui.Controls.ShellNavigationSource" Usage="Microsoft.Maui.Controls.ShellNavigatedEventArgs.Source" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellNavigationSource Source { Microsoft::Maui::Controls::ShellNavigationSource get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStackNavigationView implements class Microsoft.Maui.IElement, class Microsoft.Maui.IStackNavigation, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IStackNavigationView" />
   <TypeSignature Language="VB.NET" Value="Public Interface IStackNavigationView&#xA;Implements IStackNavigation, IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IStackNavigationView : Microsoft::Maui::IStackNavigation, Microsoft::Maui::IView" />
   <TypeSignature Language="F#" Value="type IStackNavigationView = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IStackNavigation" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IStackNavigationView : Microsoft::Maui::IStackNavigation, Microsoft::Maui::IView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

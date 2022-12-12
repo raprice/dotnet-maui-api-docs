@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Image extends Microsoft.Maui.Controls.View implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.Image&gt;, class Microsoft.Maui.Controls.IElementController, class Microsoft.Maui.Controls.IImageController, class Microsoft.Maui.Controls.IImageElement, class Microsoft.Maui.Controls.IViewController, class Microsoft.Maui.Controls.IVisualElementController, class Microsoft.Maui.IElement, class Microsoft.Maui.IImage, class Microsoft.Maui.IImageSourcePart, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Image" />
   <TypeSignature Language="VB.NET" Value="Public Class Image&#xA;Inherits View&#xA;Implements IElementConfiguration(Of Image), IImage, IImageController, IImageElement" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Image : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Image ^&gt;, Microsoft::Maui::Controls::IImageController, Microsoft::Maui::Controls::IImageElement, Microsoft::Maui::IImage" />
   <TypeSignature Language="F#" Value="type Image = class&#xA;    inherit View&#xA;    interface IImage&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IImageSourcePart&#xA;    interface IImageController&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController&#xA;    interface IElementConfiguration&lt;Image&gt;&#xA;    interface IImageElement" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Image : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Image ^&gt;, Microsoft::Maui::Controls::IImageController, Microsoft::Maui::Controls::IImageElement, Microsoft::Maui::IImage" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -92,8 +92,8 @@ var image = new Image { Source = "picture.png" };]]></code>
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Aspect Aspect" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Image.Aspect" />
       <MemberSignature Language="VB.NET" Value="Public Property Aspect As Aspect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Aspect Aspect { Microsoft::Maui::Aspect get(); void set(Microsoft::Maui::Aspect value); };" />
       <MemberSignature Language="F#" Value="member this.Aspect : Microsoft.Maui.Aspect with get, set" Usage="Microsoft.Maui.Controls.Image.Aspect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Aspect Aspect { Microsoft::Maui::Aspect get(); void set(Microsoft::Maui::Aspect value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -113,8 +113,8 @@ var image = new Image { Source = "picture.png" };]]></code>
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty AspectProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Image.AspectProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AspectProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AspectProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable AspectProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Image.AspectProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AspectProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -133,8 +133,8 @@ var image = new Image { Source = "picture.png" };]]></code>
       <MemberSignature Language="ILAsm" Value=".property instance bool IsAnimationPlaying" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Image.IsAnimationPlaying" />
       <MemberSignature Language="VB.NET" Value="Public Property IsAnimationPlaying As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAnimationPlaying { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsAnimationPlaying : bool with get, set" Usage="Microsoft.Maui.Controls.Image.IsAnimationPlaying" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAnimationPlaying { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -154,8 +154,8 @@ var image = new Image { Source = "picture.png" };]]></code>
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsAnimationPlayingProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Image.IsAnimationPlayingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsAnimationPlayingProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsAnimationPlayingProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsAnimationPlayingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Image.IsAnimationPlayingProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsAnimationPlayingProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -174,8 +174,8 @@ var image = new Image { Source = "picture.png" };]]></code>
       <MemberSignature Language="ILAsm" Value=".property instance bool IsLoading" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Image.IsLoading" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLoading As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLoading { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsLoading : bool" Usage="Microsoft.Maui.Controls.Image.IsLoading" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLoading { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.IsLoading</InterfaceMember>
@@ -216,8 +216,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsLoadingProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Image.IsLoadingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsLoadingProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsLoadingProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsLoadingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Image.IsLoadingProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsLoadingProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -236,8 +236,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".property instance bool IsOpaque" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Image.IsOpaque" />
       <MemberSignature Language="VB.NET" Value="Public Property IsOpaque As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOpaque { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsOpaque : bool with get, set" Usage="Microsoft.Maui.Controls.Image.IsOpaque" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOpaque { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -260,8 +260,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsOpaqueProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Image.IsOpaqueProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsOpaqueProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsOpaqueProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsOpaqueProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Image.IsOpaqueProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsOpaqueProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -280,8 +280,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Image.Microsoft#Maui#Controls#IImageController#GetLoadAsAnimation" />
       <MemberSignature Language="VB.NET" Value="Function GetLoadAsAnimation () As Boolean Implements IImageController.GetLoadAsAnimation" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation() = Microsoft::Maui::Controls::IImageController::GetLoadAsAnimation;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation : unit -&gt; bool" Usage="image.Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation " />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation() = Microsoft::Maui::Controls::IImageController::GetLoadAsAnimation;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation</InterfaceMember>
@@ -305,8 +305,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IImageController.SetIsLoading(bool isLoading) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Image.Microsoft#Maui#Controls#IImageController#SetIsLoading(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Sub SetIsLoading (isLoading As Boolean) Implements IImageController.SetIsLoading" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IImageController.SetIsLoading(bool isLoading) = Microsoft::Maui::Controls::IImageController::SetIsLoading;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IImageController.SetIsLoading : bool -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IImageController.SetIsLoading : bool -&gt; unit" Usage="image.Microsoft.Maui.Controls.IImageController.SetIsLoading isLoading" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IImageController.SetIsLoading(bool isLoading) = Microsoft::Maui::Controls::IImageController::SetIsLoading;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IImageController.SetIsLoading(System.Boolean)</InterfaceMember>
@@ -332,8 +332,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged(object sender, class System.EventArgs e) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Image.Microsoft#Maui#Controls#IImageElement#OnImageSourceSourceChanged(System.Object,System.EventArgs)" />
       <MemberSignature Language="VB.NET" Value="Sub OnImageSourceSourceChanged (sender As Object, e As EventArgs) Implements IImageElement.OnImageSourceSourceChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged(System::Object ^ sender, EventArgs ^ e) = Microsoft::Maui::Controls::IImageElement::OnImageSourceSourceChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged : obj * EventArgs -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged : obj * EventArgs -&gt; unit" Usage="image.Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged (sender, e)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged(System::Object ^ sender, EventArgs ^ e) = Microsoft::Maui::Controls::IImageElement::OnImageSourceSourceChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged(System.Object,System.EventArgs)</InterfaceMember>
@@ -361,8 +361,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Image.Microsoft#Maui#Controls#IImageElement#RaiseImageSourcePropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Sub RaiseImageSourcePropertyChanged () Implements IImageElement.RaiseImageSourcePropertyChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged() = Microsoft::Maui::Controls::IImageElement::RaiseImageSourcePropertyChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged : unit -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged : unit -&gt; unit" Usage="image.Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged() = Microsoft::Maui::Controls::IImageElement::RaiseImageSourcePropertyChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged</InterfaceMember>
@@ -385,8 +385,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IImageSource Microsoft.Maui.IImageSourcePart.Source" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Image.Microsoft#Maui#IImageSourcePart#Source" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Source As IImageSource Implements IImageSourcePart.Source" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IImageSource ^ Microsoft::Maui::IImageSourcePart::Source { Microsoft::Maui::IImageSource ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IImageSourcePart.Source : Microsoft.Maui.IImageSource" Usage="Microsoft.Maui.IImageSourcePart.Source" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IImageSource ^ Microsoft::Maui::IImageSourcePart::Source { Microsoft::Maui::IImageSource ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IImageSourcePart.Source</InterfaceMember>
@@ -409,8 +409,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IImageSourcePart.UpdateIsLoading(bool isLoading) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Image.Microsoft#Maui#IImageSourcePart#UpdateIsLoading(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Sub UpdateIsLoading (isLoading As Boolean) Implements IImageSourcePart.UpdateIsLoading" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IImageSourcePart.UpdateIsLoading(bool isLoading) = Microsoft::Maui::IImageSourcePart::UpdateIsLoading;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IImageSourcePart.UpdateIsLoading : bool -&gt; unit&#xA;override this.Microsoft.Maui.IImageSourcePart.UpdateIsLoading : bool -&gt; unit" Usage="image.Microsoft.Maui.IImageSourcePart.UpdateIsLoading isLoading" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IImageSourcePart.UpdateIsLoading(bool isLoading) = Microsoft::Maui::IImageSourcePart::UpdateIsLoading;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IImageSourcePart.UpdateIsLoading(System.Boolean)</InterfaceMember>
@@ -436,8 +436,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.Image&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Image.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Image)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Image ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Image (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Image (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="image.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Image ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -470,8 +470,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Image.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="image.OnBindingContextChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -491,8 +491,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.Maui.SizeRequest OnMeasure(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Image.OnMeasure(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnMeasure (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::SizeRequest OnMeasure(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="override this.OnMeasure : double * double -&gt; Microsoft.Maui.SizeRequest" Usage="image.OnMeasure (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::SizeRequest OnMeasure(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -518,8 +518,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource Source" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Image.Source" />
       <MemberSignature Language="VB.NET" Value="Public Property Source As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ Source { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Source : Microsoft.Maui.Controls.ImageSource with get, set" Usage="Microsoft.Maui.Controls.Image.Source" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ Source { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -545,8 +545,8 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SourceProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Image.SourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SourceProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SourceProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SourceProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Image.SourceProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SourceProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

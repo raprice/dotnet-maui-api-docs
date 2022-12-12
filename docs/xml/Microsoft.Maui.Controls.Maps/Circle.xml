@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Circle extends Microsoft.Maui.Controls.Maps.MapElement implements class Microsoft.Maui.IElement, class Microsoft.Maui.IStroke, class Microsoft.Maui.Maps.ICircleMapElement, class Microsoft.Maui.Maps.IFilledMapElement, class Microsoft.Maui.Maps.IMapElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Maps.Circle" />
   <TypeSignature Language="VB.NET" Value="Public Class Circle&#xA;Inherits MapElement&#xA;Implements ICircleMapElement, IElement, IStroke" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Circle : Microsoft::Maui::Controls::Maps::MapElement, Microsoft::Maui::IElement, Microsoft::Maui::IStroke, Microsoft::Maui::Maps::ICircleMapElement" />
   <TypeSignature Language="F#" Value="type Circle = class&#xA;    inherit MapElement&#xA;    interface ICircleMapElement&#xA;    interface IMapElement&#xA;    interface IElement&#xA;    interface IStroke&#xA;    interface IFilledMapElement" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Circle : Microsoft::Maui::Controls::Maps::MapElement, Microsoft::Maui::IElement, Microsoft::Maui::IStroke, Microsoft::Maui::Maps::ICircleMapElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Maps</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -56,8 +56,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Devices.Sensors.Location Center" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Maps.Circle.Center" />
       <MemberSignature Language="VB.NET" Value="Public Property Center As Location" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::Sensors::Location ^ Center { Microsoft::Maui::Devices::Sensors::Location ^ get(); void set(Microsoft::Maui::Devices::Sensors::Location ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Center : Microsoft.Maui.Devices.Sensors.Location with get, set" Usage="Microsoft.Maui.Controls.Maps.Circle.Center" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::Sensors::Location ^ Center { Microsoft::Maui::Devices::Sensors::Location ^ get(); void set(Microsoft::Maui::Devices::Sensors::Location ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Maps</AssemblyName>
@@ -77,8 +77,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CenterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Maps.Circle.CenterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CenterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CenterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CenterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Maps.Circle.CenterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CenterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Maps</AssemblyName>
@@ -97,8 +97,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Paint Fill" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Maps.Circle.Fill" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fill As Paint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Paint ^ Fill { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Fill : Microsoft.Maui.Graphics.Paint" Usage="Microsoft.Maui.Controls.Maps.Circle.Fill" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Paint ^ Fill { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Maps.IFilledMapElement.Fill</InterfaceMember>
@@ -121,8 +121,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color FillColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Maps.Circle.FillColor" />
       <MemberSignature Language="VB.NET" Value="Public Property FillColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ FillColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FillColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.Maps.Circle.FillColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ FillColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Maps</AssemblyName>
@@ -142,8 +142,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FillColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Maps.Circle.FillColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FillColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FillColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FillColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Maps.Circle.FillColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FillColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Maps</AssemblyName>
@@ -162,8 +162,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Maps.Distance Radius" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Maps.Circle.Radius" />
       <MemberSignature Language="VB.NET" Value="Public Property Radius As Distance" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Maps::Distance Radius { Microsoft::Maui::Maps::Distance get(); void set(Microsoft::Maui::Maps::Distance value); };" />
       <MemberSignature Language="F#" Value="member this.Radius : Microsoft.Maui.Maps.Distance with get, set" Usage="Microsoft.Maui.Controls.Maps.Circle.Radius" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Maps::Distance Radius { Microsoft::Maui::Maps::Distance get(); void set(Microsoft::Maui::Maps::Distance value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Maps</AssemblyName>
@@ -183,8 +183,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty RadiusProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Maps.Circle.RadiusProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RadiusProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RadiusProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable RadiusProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Maps.Circle.RadiusProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RadiusProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Maps</AssemblyName>

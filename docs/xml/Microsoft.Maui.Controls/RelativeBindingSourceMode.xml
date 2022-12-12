@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RelativeBindingSourceMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.RelativeBindingSourceMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum RelativeBindingSourceMode" />
-  <TypeSignature Language="C++ CLI" Value="public enum class RelativeBindingSourceMode" />
   <TypeSignature Language="F#" Value="type RelativeBindingSourceMode = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class RelativeBindingSourceMode" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.RelativeBindingSourceMode FindAncestor = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.RelativeBindingSourceMode.FindAncestor" />
       <MemberSignature Language="VB.NET" Value="FindAncestor" />
-      <MemberSignature Language="C++ CLI" Value="FindAncestor" />
       <MemberSignature Language="F#" Value="FindAncestor = 3" Usage="Microsoft.Maui.Controls.RelativeBindingSourceMode.FindAncestor" />
+      <MemberSignature Language="C++ CLI" Value="FindAncestor" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.RelativeBindingSourceMode FindAncestorBindingContext = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.RelativeBindingSourceMode.FindAncestorBindingContext" />
       <MemberSignature Language="VB.NET" Value="FindAncestorBindingContext" />
-      <MemberSignature Language="C++ CLI" Value="FindAncestorBindingContext" />
       <MemberSignature Language="F#" Value="FindAncestorBindingContext = 4" Usage="Microsoft.Maui.Controls.RelativeBindingSourceMode.FindAncestorBindingContext" />
+      <MemberSignature Language="C++ CLI" Value="FindAncestorBindingContext" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.RelativeBindingSourceMode Self = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.RelativeBindingSourceMode.Self" />
       <MemberSignature Language="VB.NET" Value="Self" />
-      <MemberSignature Language="C++ CLI" Value="Self" />
       <MemberSignature Language="F#" Value="Self = 2" Usage="Microsoft.Maui.Controls.RelativeBindingSourceMode.Self" />
+      <MemberSignature Language="C++ CLI" Value="Self" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.RelativeBindingSourceMode TemplatedParent = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.RelativeBindingSourceMode.TemplatedParent" />
       <MemberSignature Language="VB.NET" Value="TemplatedParent" />
-      <MemberSignature Language="C++ CLI" Value="TemplatedParent" />
       <MemberSignature Language="F#" Value="TemplatedParent = 1" Usage="Microsoft.Maui.Controls.RelativeBindingSourceMode.TemplatedParent" />
+      <MemberSignature Language="C++ CLI" Value="TemplatedParent" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

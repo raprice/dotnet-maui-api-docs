@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Cell extends Microsoft.Maui.Controls.Element implements class Microsoft.Maui.Controls.ICellController, class Microsoft.Maui.IVisualTreeElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Cell" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Cell&#xA;Inherits Element&#xA;Implements ICellController, IVisualTreeElement" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Cell abstract : Microsoft::Maui::Controls::Element, Microsoft::Maui::Controls::ICellController, Microsoft::Maui::IVisualTreeElement" />
   <TypeSignature Language="F#" Value="type Cell = class&#xA;    inherit Element&#xA;    interface ICellController&#xA;    interface IVisualTreeElement" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Cell abstract : Microsoft::Maui::Controls::Element, Microsoft::Maui::Controls::ICellController, Microsoft::Maui::IVisualTreeElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -139,8 +139,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Appearing" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Cell.Appearing" />
       <MemberSignature Language="VB.NET" Value="Public Event Appearing As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Appearing;" />
       <MemberSignature Language="F#" Value="member this.Appearing : EventHandler " Usage="member this.Appearing : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Appearing;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -159,8 +159,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.MenuItem&gt; ContextActions" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Cell.ContextActions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContextActions As IList(Of MenuItem)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::MenuItem ^&gt; ^ ContextActions { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::MenuItem ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ContextActions : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.MenuItem&gt;" Usage="Microsoft.Maui.Controls.Cell.ContextActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::MenuItem ^&gt; ^ ContextActions { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::MenuItem ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -180,8 +180,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 DefaultCellHeight = (40)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Cell.DefaultCellHeight" />
       <MemberSignature Language="VB.NET" Value="Public Const DefaultCellHeight As Integer  = 40" />
-      <MemberSignature Language="C++ CLI" Value="public: int DefaultCellHeight = 40;" />
       <MemberSignature Language="F#" Value="val mutable DefaultCellHeight : int" Usage="Microsoft.Maui.Controls.Cell.DefaultCellHeight" />
+      <MemberSignature Language="C++ CLI" Value="public: int DefaultCellHeight = 40;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -201,8 +201,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Disappearing" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Cell.Disappearing" />
       <MemberSignature Language="VB.NET" Value="Public Event Disappearing As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Disappearing;" />
       <MemberSignature Language="F#" Value="member this.Disappearing : EventHandler " Usage="member this.Disappearing : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Disappearing;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -221,8 +221,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ForceUpdateSize() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Cell.ForceUpdateSize" />
       <MemberSignature Language="VB.NET" Value="Public Sub ForceUpdateSize ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ForceUpdateSize();" />
       <MemberSignature Language="F#" Value="member this.ForceUpdateSize : unit -&gt; unit" Usage="cell.ForceUpdateSize " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ForceUpdateSize();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -244,8 +244,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler ForceUpdateSizeRequested" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Cell.ForceUpdateSizeRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event ForceUpdateSizeRequested As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler ^ ForceUpdateSizeRequested;" />
       <MemberSignature Language="F#" Value="member this.ForceUpdateSizeRequested : EventHandler " Usage="member this.ForceUpdateSizeRequested : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler ^ ForceUpdateSizeRequested;" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Maui.Controls.ICellController.ForceUpdateSizeRequested</InterfaceMember>
@@ -273,8 +273,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".property instance bool HasContextActions" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Cell.HasContextActions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasContextActions As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasContextActions { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.HasContextActions : bool" Usage="Microsoft.Maui.Controls.Cell.HasContextActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasContextActions { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -294,8 +294,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".property instance float64 Height" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Cell.Height" />
       <MemberSignature Language="VB.NET" Value="Public Property Height As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Height { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Height : double with get, set" Usage="Microsoft.Maui.Controls.Cell.Height" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Height { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -315,8 +315,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".property instance bool IsContextActionsLegacyModeEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Cell.IsContextActionsLegacyModeEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsContextActionsLegacyModeEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsContextActionsLegacyModeEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsContextActionsLegacyModeEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.Cell.IsContextActionsLegacyModeEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsContextActionsLegacyModeEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -336,8 +336,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Cell.IsEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.Cell.IsEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -357,8 +357,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Cell.IsEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Cell.IsEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -377,8 +377,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IVisualTreeElement&gt; Microsoft.Maui.IVisualTreeElement.GetVisualChildren() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Cell.Microsoft#Maui#IVisualTreeElement#GetVisualChildren" />
       <MemberSignature Language="VB.NET" Value="Function GetVisualChildren () As IReadOnlyList(Of IVisualTreeElement) Implements IVisualTreeElement.GetVisualChildren" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ Microsoft.Maui.IVisualTreeElement.GetVisualChildren() = Microsoft::Maui::IVisualTreeElement::GetVisualChildren;" />
       <MemberSignature Language="F#" Value="override this.Microsoft.Maui.IVisualTreeElement.GetVisualChildren : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IVisualTreeElement&gt;" Usage="cell.Microsoft.Maui.IVisualTreeElement.GetVisualChildren " />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ Microsoft.Maui.IVisualTreeElement.GetVisualChildren() = Microsoft::Maui::IVisualTreeElement::GetVisualChildren;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IVisualTreeElement.GetVisualChildren</InterfaceMember>
@@ -402,8 +402,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.Cell&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Cell.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Cell)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Cell ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="member this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Cell (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="cell.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Cell ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -432,8 +432,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnAppearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Cell.OnAppearing" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnAppearing ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnAppearing();" />
       <MemberSignature Language="F#" Value="abstract member OnAppearing : unit -&gt; unit&#xA;override this.OnAppearing : unit -&gt; unit" Usage="cell.OnAppearing " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnAppearing();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -453,8 +453,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Cell.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="cell.OnBindingContextChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -474,8 +474,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnDisappearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Cell.OnDisappearing" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnDisappearing ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDisappearing();" />
       <MemberSignature Language="F#" Value="abstract member OnDisappearing : unit -&gt; unit&#xA;override this.OnDisappearing : unit -&gt; unit" Usage="cell.OnDisappearing " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDisappearing();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -495,8 +495,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnParentSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Cell.OnParentSet" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnParentSet ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnParentSet();" />
       <MemberSignature Language="F#" Value="override this.OnParentSet : unit -&gt; unit" Usage="cell.OnParentSet " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnParentSet();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -539,8 +539,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig newslot virtual instance void OnTapped() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Cell.OnTapped" />
       <MemberSignature Language="VB.NET" Value="Protected Friend Overridable Sub OnTapped ()" />
-      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; virtual void OnTapped();" />
       <MemberSignature Language="F#" Value="abstract member OnTapped : unit -&gt; unit&#xA;override this.OnTapped : unit -&gt; unit" Usage="cell.OnTapped " />
+      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; virtual void OnTapped();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -560,8 +560,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".property instance float64 RenderHeight" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Cell.RenderHeight" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RenderHeight As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double RenderHeight { double get(); };" />
       <MemberSignature Language="F#" Value="member this.RenderHeight : double" Usage="Microsoft.Maui.Controls.Cell.RenderHeight" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double RenderHeight { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -581,8 +581,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendAppearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Cell.SendAppearing" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendAppearing ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendAppearing();" />
       <MemberSignature Language="F#" Value="abstract member SendAppearing : unit -&gt; unit&#xA;override this.SendAppearing : unit -&gt; unit" Usage="cell.SendAppearing " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendAppearing();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.ICellController.SendAppearing</InterfaceMember>
@@ -611,8 +611,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendDisappearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Cell.SendDisappearing" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendDisappearing ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendDisappearing();" />
       <MemberSignature Language="F#" Value="abstract member SendDisappearing : unit -&gt; unit&#xA;override this.SendDisappearing : unit -&gt; unit" Usage="cell.SendDisappearing " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendDisappearing();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.ICellController.SendDisappearing</InterfaceMember>
@@ -641,8 +641,8 @@ Content = new TableView
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Tapped" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Cell.Tapped" />
       <MemberSignature Language="VB.NET" Value="Public Event Tapped As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Tapped;" />
       <MemberSignature Language="F#" Value="member this.Tapped : EventHandler " Usage="member this.Tapped : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Tapped;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

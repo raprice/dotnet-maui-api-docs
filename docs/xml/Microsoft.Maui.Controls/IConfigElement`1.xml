@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IConfigElement`1&lt;(class Microsoft.Maui.Controls.Element) + T&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IConfigElement`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IConfigElement(Of Out T)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA; where T : Elementpublic interface class IConfigElement" />
   <TypeSignature Language="F#" Value="type IConfigElement&lt;'T (requires 'T :&gt; Element)&gt; = interface" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA; where T : Elementpublic interface class IConfigElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SelectableItemsViewHandler`1&lt;(class Microsoft.Maui.Controls.SelectableItemsView) TItemsView&gt; extends Microsoft.Maui.Controls.Handlers.Items.StructuredItemsViewHandler`1&lt;!TItemsView&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler`1" />
   <TypeSignature Language="VB.NET" Value="Public Class SelectableItemsViewHandler(Of TItemsView)&#xA;Inherits StructuredItemsViewHandler(Of TItemsView)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TItemsView&gt;&#xA; where TItemsView : SelectableItemsViewpublic ref class SelectableItemsViewHandler : Microsoft::Maui::Controls::Handlers::Items::StructuredItemsViewHandler&lt;TItemsView&gt;" />
   <TypeSignature Language="F#" Value="type SelectableItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; SelectableItemsView)&gt; = class&#xA;    inherit StructuredItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; SelectableItemsView)&gt;" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TItemsView&gt;&#xA; where TItemsView : SelectableItemsViewpublic ref class SelectableItemsViewHandler : Microsoft::Maui::Controls::Handlers::Items::StructuredItemsViewHandler&lt;TItemsView&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler`1.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="selectableItemsViewHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapSelectedItem(class Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler`1&lt;!TItemsView&gt; handler, class Microsoft.Maui.Controls.SelectableItemsView itemsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler`1.MapSelectedItem(Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler{`0},Microsoft.Maui.Controls.SelectableItemsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapSelectedItem (handler As SelectableItemsViewHandler(Of TItemsView), itemsView As SelectableItemsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapSelectedItem(Microsoft::Maui::Controls::Handlers::Items::SelectableItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::SelectableItemsView ^ itemsView);" />
       <MemberSignature Language="F#" Value="static member MapSelectedItem : Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.SelectableItemsView)&gt; * Microsoft.Maui.Controls.SelectableItemsView -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.SelectableItemsView)&gt;.MapSelectedItem (handler, itemsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapSelectedItem(Microsoft::Maui::Controls::Handlers::Items::SelectableItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::SelectableItemsView ^ itemsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapSelectedItems(class Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler`1&lt;!TItemsView&gt; handler, class Microsoft.Maui.Controls.SelectableItemsView itemsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler`1.MapSelectedItems(Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler{`0},Microsoft.Maui.Controls.SelectableItemsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapSelectedItems (handler As SelectableItemsViewHandler(Of TItemsView), itemsView As SelectableItemsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapSelectedItems(Microsoft::Maui::Controls::Handlers::Items::SelectableItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::SelectableItemsView ^ itemsView);" />
       <MemberSignature Language="F#" Value="static member MapSelectedItems : Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.SelectableItemsView)&gt; * Microsoft.Maui.Controls.SelectableItemsView -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.SelectableItemsView)&gt;.MapSelectedItems (handler, itemsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapSelectedItems(Microsoft::Maui::Controls::Handlers::Items::SelectableItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::SelectableItemsView ^ itemsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -145,8 +145,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapSelectionMode(class Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler`1&lt;!TItemsView&gt; handler, class Microsoft.Maui.Controls.SelectableItemsView itemsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler`1.MapSelectionMode(Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler{`0},Microsoft.Maui.Controls.SelectableItemsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapSelectionMode (handler As SelectableItemsViewHandler(Of TItemsView), itemsView As SelectableItemsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapSelectionMode(Microsoft::Maui::Controls::Handlers::Items::SelectableItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::SelectableItemsView ^ itemsView);" />
       <MemberSignature Language="F#" Value="static member MapSelectionMode : Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.SelectableItemsView)&gt; * Microsoft.Maui.Controls.SelectableItemsView -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.SelectableItemsView)&gt;.MapSelectionMode (handler, itemsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapSelectionMode(Microsoft::Maui::Controls::Handlers::Items::SelectableItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::SelectableItemsView ^ itemsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -171,8 +171,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.PropertyMapper`2&lt;!TItemsView, class Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler`1&lt;!TItemsView&gt;&gt; SelectableItemsViewMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler`1.SelectableItemsViewMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared SelectableItemsViewMapper As PropertyMapper(Of TItemsView, SelectableItemsViewHandler(Of TItemsView)) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::PropertyMapper&lt;TItemsView, Microsoft::Maui::Controls::Handlers::Items::SelectableItemsViewHandler&lt;TItemsView&gt; ^&gt; ^ SelectableItemsViewMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectableItemsViewMapper : Microsoft.Maui.PropertyMapper&lt;'ItemsView, Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler&lt;'ItemsView&gt; (requires 'ItemsView :&gt; Microsoft.Maui.Controls.SelectableItemsView)&gt;" Usage="Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.SelectableItemsView)&gt;.SelectableItemsViewMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::PropertyMapper&lt;TItemsView, Microsoft::Maui::Controls::Handlers::Items::SelectableItemsViewHandler&lt;TItemsView&gt; ^&gt; ^ SelectableItemsViewMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

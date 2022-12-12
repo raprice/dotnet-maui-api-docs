@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TriggerAction extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.TriggerAction" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class TriggerAction" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TriggerAction abstract" />
   <TypeSignature Language="F#" Value="type TriggerAction = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TriggerAction abstract" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type AssociatedType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TriggerAction.AssociatedType" />
       <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property AssociatedType As Type" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; property Type ^ AssociatedType { Type ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.AssociatedType : Type" Usage="Microsoft.Maui.Controls.TriggerAction.AssociatedType" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; property Type ^ AssociatedType { Type ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Invoke(object sender) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TriggerAction.Invoke(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub Invoke (sender As Object)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract void Invoke(System::Object ^ sender);" />
       <MemberSignature Language="F#" Value="abstract member Invoke : obj -&gt; unit" Usage="triggerAction.Invoke sender" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract void Invoke(System::Object ^ sender);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Binding extends Microsoft.Maui.Controls.BindingBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Binding" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Binding&#xA;Inherits BindingBase" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Binding sealed : Microsoft::Maui::Controls::BindingBase" />
   <TypeSignature Language="F#" Value="type Binding = class&#xA;    inherit BindingBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Binding sealed : Microsoft::Maui::Controls::BindingBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -110,8 +110,8 @@ Debug.WriteLine (person.Name); //prints "Foo". ReverseConverter.ConvertBack () i
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.IValueConverter Converter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Binding.Converter" />
       <MemberSignature Language="VB.NET" Value="Public Property Converter As IValueConverter" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IValueConverter ^ Converter { Microsoft::Maui::Controls::IValueConverter ^ get(); void set(Microsoft::Maui::Controls::IValueConverter ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Converter : Microsoft.Maui.Controls.IValueConverter with get, set" Usage="Microsoft.Maui.Controls.Binding.Converter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IValueConverter ^ Converter { Microsoft::Maui::Controls::IValueConverter ^ get(); void set(Microsoft::Maui::Controls::IValueConverter ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -131,8 +131,8 @@ Debug.WriteLine (person.Name); //prints "Foo". ReverseConverter.ConvertBack () i
       <MemberSignature Language="ILAsm" Value=".property instance object ConverterParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Binding.ConverterParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property ConverterParameter As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ConverterParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ConverterParameter : obj with get, set" Usage="Microsoft.Maui.Controls.Binding.ConverterParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ConverterParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -152,8 +152,8 @@ Debug.WriteLine (person.Name); //prints "Foo". ReverseConverter.ConvertBack () i
       <MemberSignature Language="ILAsm" Value=".field public static initonly object DoNothing" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Binding.DoNothing" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DoNothing As Object " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Object ^ DoNothing;" />
       <MemberSignature Language="F#" Value=" staticval mutable DoNothing : obj" Usage="Microsoft.Maui.Controls.Binding.DoNothing" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Object ^ DoNothing;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -172,8 +172,8 @@ Debug.WriteLine (person.Name); //prints "Foo". ReverseConverter.ConvertBack () i
       <MemberSignature Language="ILAsm" Value=".property instance string Path" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Binding.Path" />
       <MemberSignature Language="VB.NET" Value="Public Property Path As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Path { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Path : string with get, set" Usage="Microsoft.Maui.Controls.Binding.Path" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Path { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -193,8 +193,8 @@ Debug.WriteLine (person.Name); //prints "Foo". ReverseConverter.ConvertBack () i
       <MemberSignature Language="ILAsm" Value=".field public static literal string SelfPath" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Binding.SelfPath" />
       <MemberSignature Language="VB.NET" Value="Public Const SelfPath As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ SelfPath;" />
       <MemberSignature Language="F#" Value="val mutable SelfPath : string" Usage="Microsoft.Maui.Controls.Binding.SelfPath" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ SelfPath;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -213,8 +213,8 @@ Debug.WriteLine (person.Name); //prints "Foo". ReverseConverter.ConvertBack () i
       <MemberSignature Language="ILAsm" Value=".property instance object Source" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Binding.Source" />
       <MemberSignature Language="VB.NET" Value="Public Property Source As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Source { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Source : obj with get, set" Usage="Microsoft.Maui.Controls.Binding.Source" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Source { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -234,8 +234,8 @@ Debug.WriteLine (person.Name); //prints "Foo". ReverseConverter.ConvertBack () i
       <MemberSignature Language="ILAsm" Value=".property instance string UpdateSourceEventName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Binding.UpdateSourceEventName" />
       <MemberSignature Language="VB.NET" Value="Public Property UpdateSourceEventName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UpdateSourceEventName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.UpdateSourceEventName : string with get, set" Usage="Microsoft.Maui.Controls.Binding.UpdateSourceEventName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UpdateSourceEventName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

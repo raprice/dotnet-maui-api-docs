@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PinchGestureUpdatedEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class PinchGestureUpdatedEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PinchGestureUpdatedEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type PinchGestureUpdatedEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PinchGestureUpdatedEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.GestureStatus status) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs.#ctor(Microsoft.Maui.GestureStatus)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (status As GestureStatus)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; PinchGestureUpdatedEventArgs(Microsoft::Maui::GestureStatus status);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs : Microsoft.Maui.GestureStatus -&gt; Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs" Usage="new Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs status" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PinchGestureUpdatedEventArgs(Microsoft::Maui::GestureStatus status);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.GestureStatus status, float64 scale, valuetype Microsoft.Maui.Graphics.Point origin) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs.#ctor(Microsoft.Maui.GestureStatus,System.Double,Microsoft.Maui.Graphics.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (status As GestureStatus, scale As Double, origin As Point)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; PinchGestureUpdatedEventArgs(Microsoft::Maui::GestureStatus status, double scale, Microsoft::Maui::Graphics::Point origin);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs : Microsoft.Maui.GestureStatus * double * Microsoft.Maui.Graphics.Point -&gt; Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs" Usage="new Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs (status, scale, origin)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PinchGestureUpdatedEventArgs(Microsoft::Maui::GestureStatus status, double scale, Microsoft::Maui::Graphics::Point origin);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Scale" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs.Scale" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Scale As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Scale { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Scale : double" Usage="Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs.Scale" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Scale { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -94,8 +94,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Point ScaleOrigin" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs.ScaleOrigin" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScaleOrigin As Point" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point ScaleOrigin { Microsoft::Maui::Graphics::Point get(); };" />
       <MemberSignature Language="F#" Value="member this.ScaleOrigin : Microsoft.Maui.Graphics.Point" Usage="Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs.ScaleOrigin" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point ScaleOrigin { Microsoft::Maui::Graphics::Point get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -117,8 +117,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.GestureStatus Status" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs.Status" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As GestureStatus" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::GestureStatus Status { Microsoft::Maui::GestureStatus get(); };" />
       <MemberSignature Language="F#" Value="member this.Status : Microsoft.Maui.GestureStatus" Usage="Microsoft.Maui.Controls.PinchGestureUpdatedEventArgs.Status" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::GestureStatus Status { Microsoft::Maui::GestureStatus get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

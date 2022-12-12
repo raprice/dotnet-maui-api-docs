@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LinearItemsLayout extends Microsoft.Maui.Controls.ItemsLayout" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.LinearItemsLayout" />
   <TypeSignature Language="VB.NET" Value="Public Class LinearItemsLayout&#xA;Inherits ItemsLayout" />
-  <TypeSignature Language="C++ CLI" Value="public ref class LinearItemsLayout : Microsoft::Maui::Controls::ItemsLayout" />
   <TypeSignature Language="F#" Value="type LinearItemsLayout = class&#xA;    inherit ItemsLayout" />
+  <TypeSignature Language="C++ CLI" Value="public ref class LinearItemsLayout : Microsoft::Maui::Controls::ItemsLayout" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.Controls.ItemsLayoutOrientation orientation) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.LinearItemsLayout.#ctor(Microsoft.Maui.Controls.ItemsLayoutOrientation)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (orientation As ItemsLayoutOrientation)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; LinearItemsLayout(Microsoft::Maui::Controls::ItemsLayoutOrientation orientation);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.LinearItemsLayout : Microsoft.Maui.Controls.ItemsLayoutOrientation -&gt; Microsoft.Maui.Controls.LinearItemsLayout" Usage="new Microsoft.Maui.Controls.LinearItemsLayout orientation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; LinearItemsLayout(Microsoft::Maui::Controls::ItemsLayoutOrientation orientation);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.IItemsLayout CarouselVertical" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.LinearItemsLayout.CarouselVertical" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CarouselVertical As IItemsLayout " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::IItemsLayout ^ CarouselVertical;" />
       <MemberSignature Language="F#" Value=" staticval mutable CarouselVertical : Microsoft.Maui.Controls.IItemsLayout" Usage="Microsoft.Maui.Controls.LinearItemsLayout.CarouselVertical" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::IItemsLayout ^ CarouselVertical;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -64,8 +64,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.IItemsLayout Horizontal" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.LinearItemsLayout.Horizontal" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Horizontal As IItemsLayout " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::IItemsLayout ^ Horizontal;" />
       <MemberSignature Language="F#" Value=" staticval mutable Horizontal : Microsoft.Maui.Controls.IItemsLayout" Usage="Microsoft.Maui.Controls.LinearItemsLayout.Horizontal" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::IItemsLayout ^ Horizontal;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -84,8 +84,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 ItemSpacing" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.LinearItemsLayout.ItemSpacing" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemSpacing As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double ItemSpacing { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.ItemSpacing : double with get, set" Usage="Microsoft.Maui.Controls.LinearItemsLayout.ItemSpacing" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double ItemSpacing { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -105,8 +105,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ItemSpacingProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.LinearItemsLayout.ItemSpacingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemSpacingProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemSpacingProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ItemSpacingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.LinearItemsLayout.ItemSpacingProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemSpacingProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -125,8 +125,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.IItemsLayout Vertical" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.LinearItemsLayout.Vertical" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Vertical As IItemsLayout " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::IItemsLayout ^ Vertical;" />
       <MemberSignature Language="F#" Value=" staticval mutable Vertical : Microsoft.Maui.Controls.IItemsLayout" Usage="Microsoft.Maui.Controls.LinearItemsLayout.Vertical" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::IItemsLayout ^ Vertical;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

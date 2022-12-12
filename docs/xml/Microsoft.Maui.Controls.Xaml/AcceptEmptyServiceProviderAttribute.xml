@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AcceptEmptyServiceProviderAttribute extends System.Attribute" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.AcceptEmptyServiceProviderAttribute" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AcceptEmptyServiceProviderAttribute&#xA;Inherits Attribute" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AcceptEmptyServiceProviderAttribute sealed : Attribute" />
   <TypeSignature Language="F#" Value="type AcceptEmptyServiceProviderAttribute = class&#xA;    inherit Attribute" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AcceptEmptyServiceProviderAttribute sealed : Attribute" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

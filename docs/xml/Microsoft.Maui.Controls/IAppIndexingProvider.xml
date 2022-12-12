@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAppIndexingProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IAppIndexingProvider" />
   <TypeSignature Language="VB.NET" Value="Public Interface IAppIndexingProvider" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IAppIndexingProvider" />
   <TypeSignature Language="F#" Value="type IAppIndexingProvider = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IAppIndexingProvider" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.IAppLinks AppLinks" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IAppIndexingProvider.AppLinks" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppLinks As IAppLinks" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IAppLinks ^ AppLinks { Microsoft::Maui::Controls::IAppLinks ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.AppLinks : Microsoft.Maui.Controls.IAppLinks" Usage="Microsoft.Maui.Controls.IAppIndexingProvider.AppLinks" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IAppLinks ^ AppLinks { Microsoft::Maui::Controls::IAppLinks ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

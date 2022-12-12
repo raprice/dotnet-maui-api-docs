@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaPickerOptions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Media.MediaPickerOptions" />
   <TypeSignature Language="VB.NET" Value="Public Class MediaPickerOptions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MediaPickerOptions" />
   <TypeSignature Language="F#" Value="type MediaPickerOptions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MediaPickerOptions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Media.MediaPickerOptions.Title" />
       <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Microsoft.Maui.Media.MediaPickerOptions.Title" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

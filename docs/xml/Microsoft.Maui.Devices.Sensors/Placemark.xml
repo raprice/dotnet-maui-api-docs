@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Placemark extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.Sensors.Placemark" />
   <TypeSignature Language="VB.NET" Value="Public Class Placemark" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Placemark" />
   <TypeSignature Language="F#" Value="type Placemark = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Placemark" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Devices.Sensors.Placemark placemark) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Placemark.#ctor(Microsoft.Maui.Devices.Sensors.Placemark)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (placemark As Placemark)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Placemark(Microsoft::Maui::Devices::Sensors::Placemark ^ placemark);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Devices.Sensors.Placemark : Microsoft.Maui.Devices.Sensors.Placemark -&gt; Microsoft.Maui.Devices.Sensors.Placemark" Usage="new Microsoft.Maui.Devices.Sensors.Placemark placemark" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Placemark(Microsoft::Maui::Devices::Sensors::Placemark ^ placemark);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string AdminArea" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Placemark.AdminArea" />
       <MemberSignature Language="VB.NET" Value="Public Property AdminArea As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AdminArea { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.AdminArea : string with get, set" Usage="Microsoft.Maui.Devices.Sensors.Placemark.AdminArea" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AdminArea { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string CountryCode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Placemark.CountryCode" />
       <MemberSignature Language="VB.NET" Value="Public Property CountryCode As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CountryCode { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.CountryCode : string with get, set" Usage="Microsoft.Maui.Devices.Sensors.Placemark.CountryCode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CountryCode { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -103,8 +103,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string CountryName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Placemark.CountryName" />
       <MemberSignature Language="VB.NET" Value="Public Property CountryName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CountryName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.CountryName : string with get, set" Usage="Microsoft.Maui.Devices.Sensors.Placemark.CountryName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CountryName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -124,8 +124,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string FeatureName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Placemark.FeatureName" />
       <MemberSignature Language="VB.NET" Value="Public Property FeatureName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FeatureName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FeatureName : string with get, set" Usage="Microsoft.Maui.Devices.Sensors.Placemark.FeatureName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FeatureName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -145,8 +145,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Locality" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Placemark.Locality" />
       <MemberSignature Language="VB.NET" Value="Public Property Locality As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Locality { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Locality : string with get, set" Usage="Microsoft.Maui.Devices.Sensors.Placemark.Locality" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Locality { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -166,8 +166,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Devices.Sensors.Location Location" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Placemark.Location" />
       <MemberSignature Language="VB.NET" Value="Public Property Location As Location" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::Sensors::Location ^ Location { Microsoft::Maui::Devices::Sensors::Location ^ get(); void set(Microsoft::Maui::Devices::Sensors::Location ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Location : Microsoft.Maui.Devices.Sensors.Location with get, set" Usage="Microsoft.Maui.Devices.Sensors.Placemark.Location" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::Sensors::Location ^ Location { Microsoft::Maui::Devices::Sensors::Location ^ get(); void set(Microsoft::Maui::Devices::Sensors::Location ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -187,8 +187,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string PostalCode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Placemark.PostalCode" />
       <MemberSignature Language="VB.NET" Value="Public Property PostalCode As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostalCode { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PostalCode : string with get, set" Usage="Microsoft.Maui.Devices.Sensors.Placemark.PostalCode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostalCode { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -208,8 +208,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string SubAdminArea" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Placemark.SubAdminArea" />
       <MemberSignature Language="VB.NET" Value="Public Property SubAdminArea As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubAdminArea { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SubAdminArea : string with get, set" Usage="Microsoft.Maui.Devices.Sensors.Placemark.SubAdminArea" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubAdminArea { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -229,8 +229,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string SubLocality" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Placemark.SubLocality" />
       <MemberSignature Language="VB.NET" Value="Public Property SubLocality As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubLocality { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SubLocality : string with get, set" Usage="Microsoft.Maui.Devices.Sensors.Placemark.SubLocality" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubLocality { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -250,8 +250,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string SubThoroughfare" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Placemark.SubThoroughfare" />
       <MemberSignature Language="VB.NET" Value="Public Property SubThoroughfare As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubThoroughfare { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SubThoroughfare : string with get, set" Usage="Microsoft.Maui.Devices.Sensors.Placemark.SubThoroughfare" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubThoroughfare { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -271,8 +271,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Thoroughfare" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Placemark.Thoroughfare" />
       <MemberSignature Language="VB.NET" Value="Public Property Thoroughfare As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Thoroughfare { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Thoroughfare : string with get, set" Usage="Microsoft.Maui.Devices.Sensors.Placemark.Thoroughfare" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Thoroughfare { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -292,8 +292,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Placemark.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="placemark.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

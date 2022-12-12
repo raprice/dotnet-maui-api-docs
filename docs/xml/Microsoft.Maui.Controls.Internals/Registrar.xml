@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed Registrar extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.Registrar" />
   <TypeSignature Language="VB.NET" Value="Public Class Registrar" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Registrar abstract sealed" />
   <TypeSignature Language="F#" Value="type Registrar = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Registrar abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -29,8 +29,8 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Collections.Generic.IEnumerable`1&lt;class System.Reflection.Assembly&gt; ExtraAssemblies" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.Registrar.ExtraAssemblies" />
       <MemberSignature Language="VB.NET" Value="Public Shared Property ExtraAssemblies As IEnumerable(Of Assembly)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Collections::Generic::IEnumerable&lt;System::Reflection::Assembly ^&gt; ^ ExtraAssemblies { System::Collections::Generic::IEnumerable&lt;System::Reflection::Assembly ^&gt; ^ get(); void set(System::Collections::Generic::IEnumerable&lt;System::Reflection::Assembly ^&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="static member ExtraAssemblies : seq&lt;System.Reflection.Assembly&gt; with get, set" Usage="Microsoft.Maui.Controls.Internals.Registrar.ExtraAssemblies" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Collections::Generic::IEnumerable&lt;System::Reflection::Assembly ^&gt; ^ ExtraAssemblies { System::Collections::Generic::IEnumerable&lt;System::Reflection::Assembly ^&gt; ^ get(); void set(System::Collections::Generic::IEnumerable&lt;System::Reflection::Assembly ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -114,8 +114,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.Internals.Registrar`1&lt;class Microsoft.Maui.Controls.IRegisterable&gt; Registered" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.Registrar.Registered" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Registered As Registrar(Of IRegisterable)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::Internals::Registrar&lt;Microsoft::Maui::Controls::IRegisterable ^&gt; ^ Registered { Microsoft::Maui::Controls::Internals::Registrar&lt;Microsoft::Maui::Controls::IRegisterable ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Registered : Microsoft.Maui.Controls.Internals.Registrar&lt;Microsoft.Maui.Controls.IRegisterable&gt;" Usage="Microsoft.Maui.Controls.Internals.Registrar.Registered" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::Internals::Registrar&lt;Microsoft::Maui::Controls::IRegisterable ^&gt; ^ Registered { Microsoft::Maui::Controls::Internals::Registrar&lt;Microsoft::Maui::Controls::IRegisterable ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -135,8 +135,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterEffect(string resolutionName, string id, class System.Type effectType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar.RegisterEffect(System.String,System.String,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub RegisterEffect (resolutionName As String, id As String, effectType As Type)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterEffect(System::String ^ resolutionName, System::String ^ id, Type ^ effectType);" />
       <MemberSignature Language="F#" Value="static member RegisterEffect : string * string * Type -&gt; unit" Usage="Microsoft.Maui.Controls.Internals.Registrar.RegisterEffect (resolutionName, id, effectType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterEffect(System::String ^ resolutionName, System::String ^ id, Type ^ effectType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -163,8 +163,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterEffects(string resolutionName, class Microsoft.Maui.Controls.ExportEffectAttribute[] effectAttributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar.RegisterEffects(System.String,Microsoft.Maui.Controls.ExportEffectAttribute[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub RegisterEffects (resolutionName As String, effectAttributes As ExportEffectAttribute())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterEffects(System::String ^ resolutionName, cli::array &lt;Microsoft::Maui::Controls::ExportEffectAttribute ^&gt; ^ effectAttributes);" />
       <MemberSignature Language="F#" Value="static member RegisterEffects : string * Microsoft.Maui.Controls.ExportEffectAttribute[] -&gt; unit" Usage="Microsoft.Maui.Controls.Internals.Registrar.RegisterEffects (resolutionName, effectAttributes)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterEffects(System::String ^ resolutionName, cli::array &lt;Microsoft::Maui::Controls::ExportEffectAttribute ^&gt; ^ effectAttributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -189,8 +189,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterRenderers(class Microsoft.Maui.Controls.HandlerAttribute[] attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar.RegisterRenderers(Microsoft.Maui.Controls.HandlerAttribute[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub RegisterRenderers (attributes As HandlerAttribute())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterRenderers(cli::array &lt;Microsoft::Maui::Controls::HandlerAttribute ^&gt; ^ attributes);" />
       <MemberSignature Language="F#" Value="static member RegisterRenderers : Microsoft.Maui.Controls.HandlerAttribute[] -&gt; unit" Usage="Microsoft.Maui.Controls.Internals.Registrar.RegisterRenderers attributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterRenderers(cli::array &lt;Microsoft::Maui::Controls::HandlerAttribute ^&gt; ^ attributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -213,8 +213,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterRendererToHandlerShim(class System.Func`2&lt;object, class Microsoft.Maui.IViewHandler&gt; handlerShim) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar.RegisterRendererToHandlerShim(System.Func{System.Object,Microsoft.Maui.IViewHandler})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub RegisterRendererToHandlerShim (handlerShim As Func(Of Object, IViewHandler))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterRendererToHandlerShim(Func&lt;System::Object ^, Microsoft::Maui::IViewHandler ^&gt; ^ handlerShim);" />
       <MemberSignature Language="F#" Value="static member RegisterRendererToHandlerShim : Func&lt;obj, Microsoft.Maui.IViewHandler&gt; -&gt; unit" Usage="Microsoft.Maui.Controls.Internals.Registrar.RegisterRendererToHandlerShim handlerShim" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterRendererToHandlerShim(Func&lt;System::Object ^, Microsoft::Maui::IViewHandler ^&gt; ^ handlerShim);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -237,8 +237,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterStylesheets(valuetype Microsoft.Maui.Controls.InitializationFlags flags) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar.RegisterStylesheets(Microsoft.Maui.Controls.InitializationFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub RegisterStylesheets (flags As InitializationFlags)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterStylesheets(Microsoft::Maui::Controls::InitializationFlags flags);" />
       <MemberSignature Language="F#" Value="static member RegisterStylesheets : Microsoft.Maui.Controls.InitializationFlags -&gt; unit" Usage="Microsoft.Maui.Controls.Internals.Registrar.RegisterStylesheets flags" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterStylesheets(Microsoft::Maui::Controls::InitializationFlags flags);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

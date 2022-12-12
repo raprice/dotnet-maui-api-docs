@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed BatteryPowerSource extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.BatteryPowerSource" />
   <TypeSignature Language="VB.NET" Value="Public Enum BatteryPowerSource" />
-  <TypeSignature Language="C++ CLI" Value="public enum class BatteryPowerSource" />
   <TypeSignature Language="F#" Value="type BatteryPowerSource = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class BatteryPowerSource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.BatteryPowerSource AC = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.BatteryPowerSource.AC" />
       <MemberSignature Language="VB.NET" Value="AC" />
-      <MemberSignature Language="C++ CLI" Value="AC" />
       <MemberSignature Language="F#" Value="AC = 2" Usage="Microsoft.Maui.Devices.BatteryPowerSource.AC" />
+      <MemberSignature Language="C++ CLI" Value="AC" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.BatteryPowerSource Battery = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.BatteryPowerSource.Battery" />
       <MemberSignature Language="VB.NET" Value="Battery" />
-      <MemberSignature Language="C++ CLI" Value="Battery" />
       <MemberSignature Language="F#" Value="Battery = 1" Usage="Microsoft.Maui.Devices.BatteryPowerSource.Battery" />
+      <MemberSignature Language="C++ CLI" Value="Battery" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.BatteryPowerSource Unknown = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.BatteryPowerSource.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
-      <MemberSignature Language="C++ CLI" Value="Unknown" />
       <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.Maui.Devices.BatteryPowerSource.Unknown" />
+      <MemberSignature Language="C++ CLI" Value="Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.BatteryPowerSource Usb = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.BatteryPowerSource.Usb" />
       <MemberSignature Language="VB.NET" Value="Usb" />
-      <MemberSignature Language="C++ CLI" Value="Usb" />
       <MemberSignature Language="F#" Value="Usb = 3" Usage="Microsoft.Maui.Devices.BatteryPowerSource.Usb" />
+      <MemberSignature Language="C++ CLI" Value="Usb" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.BatteryPowerSource Wireless = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.BatteryPowerSource.Wireless" />
       <MemberSignature Language="VB.NET" Value="Wireless" />
-      <MemberSignature Language="C++ CLI" Value="Wireless" />
       <MemberSignature Language="F#" Value="Wireless = 4" Usage="Microsoft.Maui.Devices.BatteryPowerSource.Wireless" />
+      <MemberSignature Language="C++ CLI" Value="Wireless" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

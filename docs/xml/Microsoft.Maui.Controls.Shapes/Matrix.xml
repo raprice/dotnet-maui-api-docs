@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Matrix extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.Matrix" />
   <TypeSignature Language="VB.NET" Value="Public Structure Matrix" />
-  <TypeSignature Language="C++ CLI" Value="public value class Matrix" />
   <TypeSignature Language="F#" Value="type Matrix = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class Matrix" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -29,8 +29,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 m11, float64 m12, float64 m21, float64 m22, float64 offsetX, float64 offsetY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (m11 As Double, m12 As Double, m21 As Double, m22 As Double, offsetX As Double, offsetY As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Matrix(double m11, double m12, double m21, double m22, double offsetX, double offsetY);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Shapes.Matrix : double * double * double * double * double * double -&gt; Microsoft.Maui.Controls.Shapes.Matrix" Usage="new Microsoft.Maui.Controls.Shapes.Matrix (m11, m12, m21, m22, offsetX, offsetY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Matrix(double m11, double m12, double m21, double m22, double offsetX, double offsetY);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -60,8 +60,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Append(valuetype Microsoft.Maui.Controls.Shapes.Matrix matrix) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.Append(Microsoft.Maui.Controls.Shapes.Matrix)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Append (matrix As Matrix)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Append(Microsoft::Maui::Controls::Shapes::Matrix matrix);" />
       <MemberSignature Language="F#" Value="member this.Append : Microsoft.Maui.Controls.Shapes.Matrix -&gt; unit" Usage="matrix.Append matrix" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Append(Microsoft::Maui::Controls::Shapes::Matrix matrix);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -84,8 +84,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Determinant" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Matrix.Determinant" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Determinant As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Determinant { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Determinant : double" Usage="Microsoft.Maui.Controls.Shapes.Matrix.Determinant" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Determinant { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -105,8 +105,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool HasInverse" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Matrix.HasInverse" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasInverse As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasInverse { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.HasInverse : bool" Usage="Microsoft.Maui.Controls.Shapes.Matrix.HasInverse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasInverse { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -126,8 +126,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Controls.Shapes.Matrix Identity" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Matrix.Identity" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Identity As Matrix" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::Shapes::Matrix Identity { Microsoft::Maui::Controls::Shapes::Matrix get(); };" />
       <MemberSignature Language="F#" Value="static member Identity : Microsoft.Maui.Controls.Shapes.Matrix" Usage="Microsoft.Maui.Controls.Shapes.Matrix.Identity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::Shapes::Matrix Identity { Microsoft::Maui::Controls::Shapes::Matrix get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -147,8 +147,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Invert() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.Invert" />
       <MemberSignature Language="VB.NET" Value="Public Sub Invert ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Invert();" />
       <MemberSignature Language="F#" Value="member this.Invert : unit -&gt; unit" Usage="matrix.Invert " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Invert();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -168,8 +168,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsIdentity" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Matrix.IsIdentity" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsIdentity As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsIdentity { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsIdentity : bool" Usage="Microsoft.Maui.Controls.Shapes.Matrix.IsIdentity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsIdentity { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -189,8 +189,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 M11" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Matrix.M11" />
       <MemberSignature Language="VB.NET" Value="Public Property M11 As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double M11 { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.M11 : double with get, set" Usage="Microsoft.Maui.Controls.Shapes.Matrix.M11" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double M11 { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -210,8 +210,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 M12" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Matrix.M12" />
       <MemberSignature Language="VB.NET" Value="Public Property M12 As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double M12 { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.M12 : double with get, set" Usage="Microsoft.Maui.Controls.Shapes.Matrix.M12" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double M12 { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -231,8 +231,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 M21" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Matrix.M21" />
       <MemberSignature Language="VB.NET" Value="Public Property M21 As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double M21 { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.M21 : double with get, set" Usage="Microsoft.Maui.Controls.Shapes.Matrix.M21" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double M21 { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -252,8 +252,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 M22" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Matrix.M22" />
       <MemberSignature Language="VB.NET" Value="Public Property M22 As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double M22 { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.M22 : double with get, set" Usage="Microsoft.Maui.Controls.Shapes.Matrix.M22" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double M22 { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -273,8 +273,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.Shapes.Matrix Multiply(valuetype Microsoft.Maui.Controls.Shapes.Matrix trans1, valuetype Microsoft.Maui.Controls.Shapes.Matrix trans2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.Multiply(Microsoft.Maui.Controls.Shapes.Matrix,Microsoft.Maui.Controls.Shapes.Matrix)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Multiply (trans1 As Matrix, trans2 As Matrix) As Matrix" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Shapes::Matrix Multiply(Microsoft::Maui::Controls::Shapes::Matrix trans1, Microsoft::Maui::Controls::Shapes::Matrix trans2);" />
       <MemberSignature Language="F#" Value="static member Multiply : Microsoft.Maui.Controls.Shapes.Matrix * Microsoft.Maui.Controls.Shapes.Matrix -&gt; Microsoft.Maui.Controls.Shapes.Matrix" Usage="Microsoft.Maui.Controls.Shapes.Matrix.Multiply (trans1, trans2)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Shapes::Matrix Multiply(Microsoft::Maui::Controls::Shapes::Matrix trans1, Microsoft::Maui::Controls::Shapes::Matrix trans2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -300,8 +300,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 OffsetX" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Matrix.OffsetX" />
       <MemberSignature Language="VB.NET" Value="Public Property OffsetX As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double OffsetX { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.OffsetX : double with get, set" Usage="Microsoft.Maui.Controls.Shapes.Matrix.OffsetX" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double OffsetX { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -321,8 +321,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 OffsetY" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.Matrix.OffsetY" />
       <MemberSignature Language="VB.NET" Value="Public Property OffsetY As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double OffsetY { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.OffsetY : double with get, set" Usage="Microsoft.Maui.Controls.Shapes.Matrix.OffsetY" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double OffsetY { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -342,8 +342,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Maui.Controls.Shapes.Matrix op_Multiply(valuetype Microsoft.Maui.Controls.Shapes.Matrix trans1, valuetype Microsoft.Maui.Controls.Shapes.Matrix trans2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.op_Multiply(Microsoft.Maui.Controls.Shapes.Matrix,Microsoft.Maui.Controls.Shapes.Matrix)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator * (trans1 As Matrix, trans2 As Matrix) As Matrix" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Shapes::Matrix operator *(Microsoft::Maui::Controls::Shapes::Matrix trans1, Microsoft::Maui::Controls::Shapes::Matrix trans2);" />
       <MemberSignature Language="F#" Value="static member ( * ) : Microsoft.Maui.Controls.Shapes.Matrix * Microsoft.Maui.Controls.Shapes.Matrix -&gt; Microsoft.Maui.Controls.Shapes.Matrix" Usage="trans1 * trans2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Shapes::Matrix operator *(Microsoft::Maui::Controls::Shapes::Matrix trans1, Microsoft::Maui::Controls::Shapes::Matrix trans2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -369,8 +369,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Prepend(valuetype Microsoft.Maui.Controls.Shapes.Matrix matrix) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.Prepend(Microsoft.Maui.Controls.Shapes.Matrix)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Prepend (matrix As Matrix)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Prepend(Microsoft::Maui::Controls::Shapes::Matrix matrix);" />
       <MemberSignature Language="F#" Value="member this.Prepend : Microsoft.Maui.Controls.Shapes.Matrix -&gt; unit" Usage="matrix.Prepend matrix" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Prepend(Microsoft::Maui::Controls::Shapes::Matrix matrix);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -393,8 +393,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Rotate(float64 angle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.Rotate(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Rotate (angle As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Rotate(double angle);" />
       <MemberSignature Language="F#" Value="member this.Rotate : double -&gt; unit" Usage="matrix.Rotate angle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Rotate(double angle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -417,8 +417,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RotateAt(float64 angle, float64 centerX, float64 centerY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.RotateAt(System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RotateAt (angle As Double, centerX As Double, centerY As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RotateAt(double angle, double centerX, double centerY);" />
       <MemberSignature Language="F#" Value="member this.RotateAt : double * double * double -&gt; unit" Usage="matrix.RotateAt (angle, centerX, centerY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RotateAt(double angle, double centerX, double centerY);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -445,8 +445,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RotateAtPrepend(float64 angle, float64 centerX, float64 centerY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.RotateAtPrepend(System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RotateAtPrepend (angle As Double, centerX As Double, centerY As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RotateAtPrepend(double angle, double centerX, double centerY);" />
       <MemberSignature Language="F#" Value="member this.RotateAtPrepend : double * double * double -&gt; unit" Usage="matrix.RotateAtPrepend (angle, centerX, centerY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RotateAtPrepend(double angle, double centerX, double centerY);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -473,8 +473,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RotatePrepend(float64 angle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.RotatePrepend(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RotatePrepend (angle As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RotatePrepend(double angle);" />
       <MemberSignature Language="F#" Value="member this.RotatePrepend : double -&gt; unit" Usage="matrix.RotatePrepend angle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RotatePrepend(double angle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -497,8 +497,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Scale(float64 scaleX, float64 scaleY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.Scale(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Scale (scaleX As Double, scaleY As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Scale(double scaleX, double scaleY);" />
       <MemberSignature Language="F#" Value="member this.Scale : double * double -&gt; unit" Usage="matrix.Scale (scaleX, scaleY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Scale(double scaleX, double scaleY);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -523,8 +523,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ScaleAt(float64 scaleX, float64 scaleY, float64 centerX, float64 centerY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.ScaleAt(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ScaleAt (scaleX As Double, scaleY As Double, centerX As Double, centerY As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ScaleAt(double scaleX, double scaleY, double centerX, double centerY);" />
       <MemberSignature Language="F#" Value="member this.ScaleAt : double * double * double * double -&gt; unit" Usage="matrix.ScaleAt (scaleX, scaleY, centerX, centerY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ScaleAt(double scaleX, double scaleY, double centerX, double centerY);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -553,8 +553,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ScaleAtPrepend(float64 scaleX, float64 scaleY, float64 centerX, float64 centerY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.ScaleAtPrepend(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ScaleAtPrepend (scaleX As Double, scaleY As Double, centerX As Double, centerY As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ScaleAtPrepend(double scaleX, double scaleY, double centerX, double centerY);" />
       <MemberSignature Language="F#" Value="member this.ScaleAtPrepend : double * double * double * double -&gt; unit" Usage="matrix.ScaleAtPrepend (scaleX, scaleY, centerX, centerY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ScaleAtPrepend(double scaleX, double scaleY, double centerX, double centerY);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -583,8 +583,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ScalePrepend(float64 scaleX, float64 scaleY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.ScalePrepend(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ScalePrepend (scaleX As Double, scaleY As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ScalePrepend(double scaleX, double scaleY);" />
       <MemberSignature Language="F#" Value="member this.ScalePrepend : double * double -&gt; unit" Usage="matrix.ScalePrepend (scaleX, scaleY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ScalePrepend(double scaleX, double scaleY);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -609,8 +609,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetIdentity() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.SetIdentity" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetIdentity ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetIdentity();" />
       <MemberSignature Language="F#" Value="member this.SetIdentity : unit -&gt; unit" Usage="matrix.SetIdentity " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetIdentity();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -630,8 +630,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Skew(float64 skewX, float64 skewY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.Skew(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Skew (skewX As Double, skewY As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Skew(double skewX, double skewY);" />
       <MemberSignature Language="F#" Value="member this.Skew : double * double -&gt; unit" Usage="matrix.Skew (skewX, skewY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Skew(double skewX, double skewY);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -656,8 +656,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SkewPrepend(float64 skewX, float64 skewY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.SkewPrepend(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SkewPrepend (skewX As Double, skewY As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SkewPrepend(double skewX, double skewY);" />
       <MemberSignature Language="F#" Value="member this.SkewPrepend : double * double -&gt; unit" Usage="matrix.SkewPrepend (skewX, skewY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SkewPrepend(double skewX, double skewY);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -682,8 +682,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Graphics.Point Transform(valuetype Microsoft.Maui.Graphics.Point point) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.Transform(Microsoft.Maui.Graphics.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Function Transform (point As Point) As Point" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Point Transform(Microsoft::Maui::Graphics::Point point);" />
       <MemberSignature Language="F#" Value="member this.Transform : Microsoft.Maui.Graphics.Point -&gt; Microsoft.Maui.Graphics.Point" Usage="matrix.Transform point" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Point Transform(Microsoft::Maui::Graphics::Point point);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -707,8 +707,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Transform(valuetype Microsoft.Maui.Graphics.Point[] points) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.Transform(Microsoft.Maui.Graphics.Point[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub Transform (points As Point())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Transform(cli::array &lt;Microsoft::Maui::Graphics::Point&gt; ^ points);" />
       <MemberSignature Language="F#" Value="member this.Transform : Microsoft.Maui.Graphics.Point[] -&gt; unit" Usage="matrix.Transform points" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Transform(cli::array &lt;Microsoft::Maui::Graphics::Point&gt; ^ points);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -731,8 +731,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Translate(float64 offsetX, float64 offsetY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.Translate(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Translate (offsetX As Double, offsetY As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Translate(double offsetX, double offsetY);" />
       <MemberSignature Language="F#" Value="member this.Translate : double * double -&gt; unit" Usage="matrix.Translate (offsetX, offsetY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Translate(double offsetX, double offsetY);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -757,8 +757,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void TranslatePrepend(float64 offsetX, float64 offsetY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Matrix.TranslatePrepend(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub TranslatePrepend (offsetX As Double, offsetY As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void TranslatePrepend(double offsetX, double offsetY);" />
       <MemberSignature Language="F#" Value="member this.TranslatePrepend : double * double -&gt; unit" Usage="matrix.TranslatePrepend (offsetX, offsetY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void TranslatePrepend(double offsetX, double offsetY);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

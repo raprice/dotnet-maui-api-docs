@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RoundRectangleHandler extends Microsoft.Maui.Handlers.ShapeViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Handlers.RoundRectangleHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class RoundRectangleHandler&#xA;Inherits ShapeViewHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class RoundRectangleHandler : Microsoft::Maui::Handlers::ShapeViewHandler" />
   <TypeSignature Language="F#" Value="type RoundRectangleHandler = class&#xA;    inherit ShapeViewHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RoundRectangleHandler : Microsoft::Maui::Handlers::ShapeViewHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.RoundRectangleHandler.#ctor(Microsoft.Maui.IPropertyMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; RoundRectangleHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Handlers.RoundRectangleHandler : Microsoft.Maui.IPropertyMapper -&gt; Microsoft.Maui.Controls.Handlers.RoundRectangleHandler" Usage="new Microsoft.Maui.Controls.Handlers.RoundRectangleHandler mapper" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RoundRectangleHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCornerRadius(class Microsoft.Maui.Handlers.IShapeViewHandler handler, class Microsoft.Maui.Controls.Shapes.RoundRectangle roundRectangle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.RoundRectangleHandler.MapCornerRadius(Microsoft.Maui.Handlers.IShapeViewHandler,Microsoft.Maui.Controls.Shapes.RoundRectangle)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCornerRadius (handler As IShapeViewHandler, roundRectangle As RoundRectangle)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCornerRadius(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::RoundRectangle ^ roundRectangle);" />
       <MemberSignature Language="F#" Value="static member MapCornerRadius : Microsoft.Maui.Handlers.IShapeViewHandler * Microsoft.Maui.Controls.Shapes.RoundRectangle -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.RoundRectangleHandler.MapCornerRadius (handler, roundRectangle)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCornerRadius(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::RoundRectangle ^ roundRectangle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -87,8 +87,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.Controls.Shapes.RoundRectangle, class Microsoft.Maui.Handlers.IShapeViewHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Handlers.RoundRectangleHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of RoundRectangle, IShapeViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::Controls::Shapes::RoundRectangle ^, Microsoft::Maui::Handlers::IShapeViewHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.Controls.Shapes.RoundRectangle, Microsoft.Maui.Handlers.IShapeViewHandler&gt;" Usage="Microsoft.Maui.Controls.Handlers.RoundRectangleHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::Controls::Shapes::RoundRectangle ^, Microsoft::Maui::Handlers::IShapeViewHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

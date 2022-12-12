@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WebNavigatedEventArgs extends Microsoft.Maui.Controls.WebNavigationEventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.WebNavigatedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class WebNavigatedEventArgs&#xA;Inherits WebNavigationEventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class WebNavigatedEventArgs : Microsoft::Maui::Controls::WebNavigationEventArgs" />
   <TypeSignature Language="F#" Value="type WebNavigatedEventArgs = class&#xA;    inherit WebNavigationEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WebNavigatedEventArgs : Microsoft::Maui::Controls::WebNavigationEventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.WebNavigationEvent navigationEvent, class Microsoft.Maui.Controls.WebViewSource source, string url, valuetype Microsoft.Maui.WebNavigationResult result) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebNavigatedEventArgs.#ctor(Microsoft.Maui.WebNavigationEvent,Microsoft.Maui.Controls.WebViewSource,System.String,Microsoft.Maui.WebNavigationResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (navigationEvent As WebNavigationEvent, source As WebViewSource, url As String, result As WebNavigationResult)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; WebNavigatedEventArgs(Microsoft::Maui::WebNavigationEvent navigationEvent, Microsoft::Maui::Controls::WebViewSource ^ source, System::String ^ url, Microsoft::Maui::WebNavigationResult result);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.WebNavigatedEventArgs : Microsoft.Maui.WebNavigationEvent * Microsoft.Maui.Controls.WebViewSource * string * Microsoft.Maui.WebNavigationResult -&gt; Microsoft.Maui.Controls.WebNavigatedEventArgs" Usage="new Microsoft.Maui.Controls.WebNavigatedEventArgs (navigationEvent, source, url, result)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WebNavigatedEventArgs(Microsoft::Maui::WebNavigationEvent navigationEvent, Microsoft::Maui::Controls::WebViewSource ^ source, System::String ^ url, Microsoft::Maui::WebNavigationResult result);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.WebNavigationResult Result" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.WebNavigatedEventArgs.Result" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As WebNavigationResult" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::WebNavigationResult Result { Microsoft::Maui::WebNavigationResult get(); };" />
       <MemberSignature Language="F#" Value="member this.Result : Microsoft.Maui.WebNavigationResult" Usage="Microsoft.Maui.Controls.WebNavigatedEventArgs.Result" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::WebNavigationResult Result { Microsoft::Maui::WebNavigationResult get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

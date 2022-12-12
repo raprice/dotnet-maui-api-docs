@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FeatureNotEnabledException extends System.InvalidOperationException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.FeatureNotEnabledException" />
   <TypeSignature Language="VB.NET" Value="Public Class FeatureNotEnabledException&#xA;Inherits InvalidOperationException" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FeatureNotEnabledException : InvalidOperationException" />
   <TypeSignature Language="F#" Value="type FeatureNotEnabledException = class&#xA;    inherit InvalidOperationException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FeatureNotEnabledException : InvalidOperationException" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.FeatureNotEnabledException.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; FeatureNotEnabledException(System::String ^ message);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ApplicationModel.FeatureNotEnabledException : string -&gt; Microsoft.Maui.ApplicationModel.FeatureNotEnabledException" Usage="new Microsoft.Maui.ApplicationModel.FeatureNotEnabledException message" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FeatureNotEnabledException(System::String ^ message);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception innerException) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.FeatureNotEnabledException.#ctor(System.String,System.Exception)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, innerException As Exception)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; FeatureNotEnabledException(System::String ^ message, Exception ^ innerException);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ApplicationModel.FeatureNotEnabledException : string * Exception -&gt; Microsoft.Maui.ApplicationModel.FeatureNotEnabledException" Usage="new Microsoft.Maui.ApplicationModel.FeatureNotEnabledException (message, innerException)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FeatureNotEnabledException(System::String ^ message, Exception ^ innerException);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

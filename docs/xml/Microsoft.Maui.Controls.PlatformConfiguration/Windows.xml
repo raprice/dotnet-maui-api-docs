@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Windows extends System.Object implements class Microsoft.Maui.Controls.IConfigPlatform" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.Windows" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Windows&#xA;Implements IConfigPlatform" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Windows sealed : Microsoft::Maui::Controls::IConfigPlatform" />
   <TypeSignature Language="F#" Value="type Windows = class&#xA;    interface IConfigPlatform" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Windows sealed : Microsoft::Maui::Controls::IConfigPlatform" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

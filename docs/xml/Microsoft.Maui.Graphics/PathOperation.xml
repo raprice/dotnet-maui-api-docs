@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PathOperation extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.PathOperation" />
   <TypeSignature Language="VB.NET" Value="Public Enum PathOperation" />
-  <TypeSignature Language="C++ CLI" Value="public enum class PathOperation" />
   <TypeSignature Language="F#" Value="type PathOperation = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class PathOperation" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PathOperation Arc = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PathOperation.Arc" />
       <MemberSignature Language="VB.NET" Value="Arc" />
-      <MemberSignature Language="C++ CLI" Value="Arc" />
       <MemberSignature Language="F#" Value="Arc = 4" Usage="Microsoft.Maui.Graphics.PathOperation.Arc" />
+      <MemberSignature Language="C++ CLI" Value="Arc" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PathOperation Close = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PathOperation.Close" />
       <MemberSignature Language="VB.NET" Value="Close" />
-      <MemberSignature Language="C++ CLI" Value="Close" />
       <MemberSignature Language="F#" Value="Close = 5" Usage="Microsoft.Maui.Graphics.PathOperation.Close" />
+      <MemberSignature Language="C++ CLI" Value="Close" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PathOperation Cubic = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PathOperation.Cubic" />
       <MemberSignature Language="VB.NET" Value="Cubic" />
-      <MemberSignature Language="C++ CLI" Value="Cubic" />
       <MemberSignature Language="F#" Value="Cubic = 3" Usage="Microsoft.Maui.Graphics.PathOperation.Cubic" />
+      <MemberSignature Language="C++ CLI" Value="Cubic" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PathOperation Line = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PathOperation.Line" />
       <MemberSignature Language="VB.NET" Value="Line" />
-      <MemberSignature Language="C++ CLI" Value="Line" />
       <MemberSignature Language="F#" Value="Line = 1" Usage="Microsoft.Maui.Graphics.PathOperation.Line" />
+      <MemberSignature Language="C++ CLI" Value="Line" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PathOperation Move = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PathOperation.Move" />
       <MemberSignature Language="VB.NET" Value="Move" />
-      <MemberSignature Language="C++ CLI" Value="Move" />
       <MemberSignature Language="F#" Value="Move = 0" Usage="Microsoft.Maui.Graphics.PathOperation.Move" />
+      <MemberSignature Language="C++ CLI" Value="Move" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -122,8 +122,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PathOperation Quad = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PathOperation.Quad" />
       <MemberSignature Language="VB.NET" Value="Quad" />
-      <MemberSignature Language="C++ CLI" Value="Quad" />
       <MemberSignature Language="F#" Value="Quad = 2" Usage="Microsoft.Maui.Graphics.PathOperation.Quad" />
+      <MemberSignature Language="C++ CLI" Value="Quad" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

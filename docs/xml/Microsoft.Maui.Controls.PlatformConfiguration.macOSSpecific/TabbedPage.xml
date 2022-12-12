@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TabbedPage extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage" />
   <TypeSignature Language="VB.NET" Value="Public Module TabbedPage" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TabbedPage abstract sealed" />
   <TypeSignature Language="F#" Value="type TabbedPage = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TabbedPage abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.TabsStyle GetTabsStyle(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.GetTabsStyle(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetTabsStyle (element As BindableObject) As TabsStyle" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::TabsStyle GetTabsStyle(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetTabsStyle : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.TabsStyle" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.GetTabsStyle element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::TabsStyle GetTabsStyle(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.TabsStyle GetTabsStyle(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.GetTabsStyle(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.macOS,Microsoft.Maui.Controls.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetTabsStyle (config As IPlatformElementConfiguration(Of macOS, TabbedPage)) As TabsStyle" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::TabsStyle GetTabsStyle(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetTabsStyle : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.TabbedPage&gt; -&gt; Microsoft.Maui.Controls.TabsStyle" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.GetTabsStyle config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::TabsStyle GetTabsStyle(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.TabbedPage&gt; HideTabs(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.HideTabs(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.macOS,Microsoft.Maui.Controls.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function HideTabs (config As IPlatformElementConfiguration(Of macOS, TabbedPage)) As IPlatformElementConfiguration(Of macOS, TabbedPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ HideTabs(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member HideTabs : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.TabbedPage&gt; -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.TabbedPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.HideTabs config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ HideTabs(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -98,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.TabbedPage&gt; SetShowTabs(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.TabbedPage&gt; config, valuetype Microsoft.Maui.Controls.TabsStyle value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.SetShowTabs(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.macOS,Microsoft.Maui.Controls.TabbedPage},Microsoft.Maui.Controls.TabsStyle)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetShowTabs (config As IPlatformElementConfiguration(Of macOS, TabbedPage), value As TabsStyle) As IPlatformElementConfiguration(Of macOS, TabbedPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ SetShowTabs(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config, Microsoft::Maui::Controls::TabsStyle value);" />
       <MemberSignature Language="F#" Value="static member SetShowTabs : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.TabbedPage&gt; * Microsoft.Maui.Controls.TabsStyle -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.TabbedPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.SetShowTabs (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ SetShowTabs(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config, Microsoft::Maui::Controls::TabsStyle value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -125,8 +125,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetTabsStyle(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.TabsStyle value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.SetTabsStyle(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.TabsStyle)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetTabsStyle (element As BindableObject, value As TabsStyle)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetTabsStyle(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::TabsStyle value);" />
       <MemberSignature Language="F#" Value="static member SetTabsStyle : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.TabsStyle -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.SetTabsStyle (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetTabsStyle(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::TabsStyle value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -151,8 +151,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.TabbedPage&gt; ShowTabs(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.ShowTabs(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.macOS,Microsoft.Maui.Controls.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShowTabs (config As IPlatformElementConfiguration(Of macOS, TabbedPage)) As IPlatformElementConfiguration(Of macOS, TabbedPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ ShowTabs(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member ShowTabs : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.TabbedPage&gt; -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.TabbedPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.ShowTabs config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ ShowTabs(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -176,8 +176,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.TabbedPage&gt; ShowTabsOnNavigation(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.ShowTabsOnNavigation(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.macOS,Microsoft.Maui.Controls.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShowTabsOnNavigation (config As IPlatformElementConfiguration(Of macOS, TabbedPage)) As IPlatformElementConfiguration(Of macOS, TabbedPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ ShowTabsOnNavigation(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member ShowTabsOnNavigation : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.TabbedPage&gt; -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.TabbedPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.ShowTabsOnNavigation config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ ShowTabsOnNavigation(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -201,8 +201,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TabsStyleProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.TabsStyleProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly TabsStyleProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TabsStyleProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TabsStyleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.TabbedPage.TabsStyleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TabsStyleProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

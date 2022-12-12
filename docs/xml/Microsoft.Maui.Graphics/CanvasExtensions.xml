@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CanvasExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.CanvasExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module CanvasExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CanvasExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type CanvasExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CanvasExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ClipRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.Rect rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.ClipRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub ClipRectangle (target As ICanvas, rect As Rect)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void ClipRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberSignature Language="F#" Value="static member ClipRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Rect -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.ClipRectangle (target, rect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void ClipRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -76,8 +76,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ClipRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.RectF rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.ClipRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub ClipRectangle (target As ICanvas, rect As RectF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void ClipRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect);" />
       <MemberSignature Language="F#" Value="static member ClipRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.ClipRectangle (target, rect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void ClipRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawArc(class Microsoft.Maui.Graphics.ICanvas canvas, valuetype Microsoft.Maui.Graphics.Rect bounds, float32 startAngle, float32 endAngle, bool clockwise, bool closed) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawArc(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Rect,System.Single,System.Single,System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawArc (canvas As ICanvas, bounds As Rect, startAngle As Single, endAngle As Single, clockwise As Boolean, closed As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawArc(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::Rect bounds, float startAngle, float endAngle, bool clockwise, bool closed);" />
       <MemberSignature Language="F#" Value="static member DrawArc : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Rect * single * single * bool * bool -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawArc (canvas, bounds, startAngle, endAngle, clockwise, closed)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawArc(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::Rect bounds, float startAngle, float endAngle, bool clockwise, bool closed);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -139,8 +139,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawArc(class Microsoft.Maui.Graphics.ICanvas canvas, valuetype Microsoft.Maui.Graphics.RectF bounds, float32 startAngle, float32 endAngle, bool clockwise, bool closed) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawArc(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF,System.Single,System.Single,System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawArc (canvas As ICanvas, bounds As RectF, startAngle As Single, endAngle As Single, clockwise As Boolean, closed As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawArc(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::RectF bounds, float startAngle, float endAngle, bool clockwise, bool closed);" />
       <MemberSignature Language="F#" Value="static member DrawArc : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF * single * single * bool * bool -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawArc (canvas, bounds, startAngle, endAngle, clockwise, closed)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawArc(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::RectF bounds, float startAngle, float endAngle, bool clockwise, bool closed);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -176,8 +176,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawCircle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.Point center, float64 radius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawCircle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Point,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawCircle (target As ICanvas, center As Point, radius As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawCircle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Point center, double radius);" />
       <MemberSignature Language="F#" Value="static member DrawCircle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Point * double -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawCircle (target, center, radius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawCircle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Point center, double radius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -204,8 +204,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawCircle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.PointF center, float32 radius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawCircle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.PointF,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawCircle (target As ICanvas, center As PointF, radius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawCircle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::PointF center, float radius);" />
       <MemberSignature Language="F#" Value="static member DrawCircle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.PointF * single -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawCircle (target, center, radius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawCircle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::PointF center, float radius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -232,8 +232,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawCircle(class Microsoft.Maui.Graphics.ICanvas target, float32 centerX, float32 centerY, float32 radius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawCircle(Microsoft.Maui.Graphics.ICanvas,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawCircle (target As ICanvas, centerX As Single, centerY As Single, radius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawCircle(Microsoft::Maui::Graphics::ICanvas ^ target, float centerX, float centerY, float radius);" />
       <MemberSignature Language="F#" Value="static member DrawCircle : Microsoft.Maui.Graphics.ICanvas * single * single * single -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawCircle (target, centerX, centerY, radius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawCircle(Microsoft::Maui::Graphics::ICanvas ^ target, float centerX, float centerY, float radius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -262,8 +262,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawEllipse(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.Rect rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawEllipse(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawEllipse (target As ICanvas, rect As Rect)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawEllipse(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberSignature Language="F#" Value="static member DrawEllipse : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Rect -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawEllipse (target, rect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawEllipse(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -288,8 +288,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawEllipse(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.RectF rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawEllipse(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawEllipse (target As ICanvas, rect As RectF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawEllipse(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect);" />
       <MemberSignature Language="F#" Value="static member DrawEllipse : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawEllipse (target, rect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawEllipse(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -314,8 +314,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawLine(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.PointF point1, valuetype Microsoft.Maui.Graphics.PointF point2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawLine(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.PointF,Microsoft.Maui.Graphics.PointF)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawLine (target As ICanvas, point1 As PointF, point2 As PointF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawLine(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::PointF point1, Microsoft::Maui::Graphics::PointF point2);" />
       <MemberSignature Language="F#" Value="static member DrawLine : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.PointF * Microsoft.Maui.Graphics.PointF -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawLine (target, point1, point2)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawLine(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::PointF point1, Microsoft::Maui::Graphics::PointF point2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -342,8 +342,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawPath(class Microsoft.Maui.Graphics.ICanvas target, class Microsoft.Maui.Graphics.PathF path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawPath(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.PathF)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawPath (target As ICanvas, path As PathF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawPath(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberSignature Language="F#" Value="static member DrawPath : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.PathF -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawPath (target, path)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawPath(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -368,8 +368,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.Rect rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawRectangle (target As ICanvas, rect As Rect)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberSignature Language="F#" Value="static member DrawRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Rect -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawRectangle (target, rect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -394,8 +394,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.RectF rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawRectangle (target As ICanvas, rect As RectF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect);" />
       <MemberSignature Language="F#" Value="static member DrawRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawRectangle (target, rect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -420,8 +420,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawRoundedRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.Rect rect, float64 cornerRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawRoundedRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Rect,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawRoundedRectangle (target As ICanvas, rect As Rect, cornerRadius As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect, double cornerRadius);" />
       <MemberSignature Language="F#" Value="static member DrawRoundedRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Rect * double -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawRoundedRectangle (target, rect, cornerRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect, double cornerRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -448,8 +448,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawRoundedRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.RectF rect, float32 cornerRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawRoundedRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawRoundedRectangle (target As ICanvas, rect As RectF, cornerRadius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect, float cornerRadius);" />
       <MemberSignature Language="F#" Value="static member DrawRoundedRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF * single -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawRoundedRectangle (target, rect, cornerRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect, float cornerRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -476,8 +476,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawRoundedRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.RectF rect, float32 xRadius, float32 yRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawRoundedRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawRoundedRectangle (target As ICanvas, rect As RectF, xRadius As Single, yRadius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect, float xRadius, float yRadius);" />
       <MemberSignature Language="F#" Value="static member DrawRoundedRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF * single * single -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawRoundedRectangle (target, rect, xRadius, yRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect, float xRadius, float yRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -506,8 +506,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawRoundedRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.Rect rect, float64 topLeftCornerRadius, float64 topRightCornerRadius, float64 bottomLeftCornerRadius, float64 bottomRightCornerRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawRoundedRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Rect,System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawRoundedRectangle (target As ICanvas, rect As Rect, topLeftCornerRadius As Double, topRightCornerRadius As Double, bottomLeftCornerRadius As Double, bottomRightCornerRadius As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect, double topLeftCornerRadius, double topRightCornerRadius, double bottomLeftCornerRadius, double bottomRightCornerRadius);" />
       <MemberSignature Language="F#" Value="static member DrawRoundedRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Rect * double * double * double * double -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawRoundedRectangle (target, rect, topLeftCornerRadius, topRightCornerRadius, bottomLeftCornerRadius, bottomRightCornerRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect, double topLeftCornerRadius, double topRightCornerRadius, double bottomLeftCornerRadius, double bottomRightCornerRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -540,8 +540,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawRoundedRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.RectF rect, float32 topLeftCornerRadius, float32 topRightCornerRadius, float32 bottomLeftCornerRadius, float32 bottomRightCornerRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawRoundedRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawRoundedRectangle (target As ICanvas, rect As RectF, topLeftCornerRadius As Single, topRightCornerRadius As Single, bottomLeftCornerRadius As Single, bottomRightCornerRadius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect, float topLeftCornerRadius, float topRightCornerRadius, float bottomLeftCornerRadius, float bottomRightCornerRadius);" />
       <MemberSignature Language="F#" Value="static member DrawRoundedRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF * single * single * single * single -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawRoundedRectangle (target, rect, topLeftCornerRadius, topRightCornerRadius, bottomLeftCornerRadius, bottomRightCornerRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect, float topLeftCornerRadius, float topRightCornerRadius, float bottomLeftCornerRadius, float bottomRightCornerRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -574,8 +574,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawRoundedRectangle(class Microsoft.Maui.Graphics.ICanvas target, float32 x, float32 y, float32 width, float32 height, float32 topLeftCornerRadius, float32 topRightCornerRadius, float32 bottomLeftCornerRadius, float32 bottomRightCornerRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.DrawRoundedRectangle(Microsoft.Maui.Graphics.ICanvas,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawRoundedRectangle (target As ICanvas, x As Single, y As Single, width As Single, height As Single, topLeftCornerRadius As Single, topRightCornerRadius As Single, bottomLeftCornerRadius As Single, bottomRightCornerRadius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, float x, float y, float width, float height, float topLeftCornerRadius, float topRightCornerRadius, float bottomLeftCornerRadius, float bottomRightCornerRadius);" />
       <MemberSignature Language="F#" Value="static member DrawRoundedRectangle : Microsoft.Maui.Graphics.ICanvas * single * single * single * single * single * single * single * single -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.DrawRoundedRectangle (target, x, y, width, height, topLeftCornerRadius, topRightCornerRadius, bottomLeftCornerRadius, bottomRightCornerRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, float x, float y, float width, float height, float topLeftCornerRadius, float topRightCornerRadius, float bottomLeftCornerRadius, float bottomRightCornerRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -711,8 +711,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillArc(class Microsoft.Maui.Graphics.ICanvas canvas, valuetype Microsoft.Maui.Graphics.Rect bounds, float32 startAngle, float32 endAngle, bool clockwise) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillArc(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Rect,System.Single,System.Single,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillArc (canvas As ICanvas, bounds As Rect, startAngle As Single, endAngle As Single, clockwise As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillArc(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::Rect bounds, float startAngle, float endAngle, bool clockwise);" />
       <MemberSignature Language="F#" Value="static member FillArc : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Rect * single * single * bool -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillArc (canvas, bounds, startAngle, endAngle, clockwise)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillArc(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::Rect bounds, float startAngle, float endAngle, bool clockwise);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -746,8 +746,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillArc(class Microsoft.Maui.Graphics.ICanvas canvas, valuetype Microsoft.Maui.Graphics.RectF bounds, float32 startAngle, float32 endAngle, bool clockwise) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillArc(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF,System.Single,System.Single,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillArc (canvas As ICanvas, bounds As RectF, startAngle As Single, endAngle As Single, clockwise As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillArc(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::RectF bounds, float startAngle, float endAngle, bool clockwise);" />
       <MemberSignature Language="F#" Value="static member FillArc : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF * single * single * bool -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillArc (canvas, bounds, startAngle, endAngle, clockwise)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillArc(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::RectF bounds, float startAngle, float endAngle, bool clockwise);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -781,8 +781,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillArc(class Microsoft.Maui.Graphics.ICanvas canvas, float32 x, float32 y, float32 width, float32 height, float32 startAngle, float32 endAngle, class Microsoft.Maui.Graphics.Paint paint, bool clockwise) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillArc(Microsoft.Maui.Graphics.ICanvas,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,Microsoft.Maui.Graphics.Paint,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillArc (canvas As ICanvas, x As Single, y As Single, width As Single, height As Single, startAngle As Single, endAngle As Single, paint As Paint, clockwise As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillArc(Microsoft::Maui::Graphics::ICanvas ^ canvas, float x, float y, float width, float height, float startAngle, float endAngle, Microsoft::Maui::Graphics::Paint ^ paint, bool clockwise);" />
       <MemberSignature Language="F#" Value="static member FillArc : Microsoft.Maui.Graphics.ICanvas * single * single * single * single * single * single * Microsoft.Maui.Graphics.Paint * bool -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillArc (canvas, x, y, width, height, startAngle, endAngle, paint, clockwise)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillArc(Microsoft::Maui::Graphics::ICanvas ^ canvas, float x, float y, float width, float height, float startAngle, float endAngle, Microsoft::Maui::Graphics::Paint ^ paint, bool clockwise);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -825,8 +825,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillCircle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.Point center, float64 radius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillCircle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Point,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillCircle (target As ICanvas, center As Point, radius As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillCircle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Point center, double radius);" />
       <MemberSignature Language="F#" Value="static member FillCircle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Point * double -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillCircle (target, center, radius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillCircle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Point center, double radius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -853,8 +853,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillCircle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.PointF center, float32 radius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillCircle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.PointF,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillCircle (target As ICanvas, center As PointF, radius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillCircle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::PointF center, float radius);" />
       <MemberSignature Language="F#" Value="static member FillCircle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.PointF * single -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillCircle (target, center, radius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillCircle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::PointF center, float radius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -881,8 +881,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillCircle(class Microsoft.Maui.Graphics.ICanvas target, float32 centerX, float32 centerY, float32 radius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillCircle(Microsoft.Maui.Graphics.ICanvas,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillCircle (target As ICanvas, centerX As Single, centerY As Single, radius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillCircle(Microsoft::Maui::Graphics::ICanvas ^ target, float centerX, float centerY, float radius);" />
       <MemberSignature Language="F#" Value="static member FillCircle : Microsoft.Maui.Graphics.ICanvas * single * single * single -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillCircle (target, centerX, centerY, radius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillCircle(Microsoft::Maui::Graphics::ICanvas ^ target, float centerX, float centerY, float radius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -911,8 +911,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillEllipse(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.Rect rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillEllipse(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillEllipse (target As ICanvas, rect As Rect)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillEllipse(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberSignature Language="F#" Value="static member FillEllipse : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Rect -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillEllipse (target, rect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillEllipse(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -937,8 +937,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillEllipse(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.RectF rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillEllipse(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillEllipse (target As ICanvas, rect As RectF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillEllipse(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect);" />
       <MemberSignature Language="F#" Value="static member FillEllipse : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillEllipse (target, rect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillEllipse(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -963,8 +963,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillPath(class Microsoft.Maui.Graphics.ICanvas target, class Microsoft.Maui.Graphics.PathF path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillPath(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.PathF)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillPath (target As ICanvas, path As PathF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillPath(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberSignature Language="F#" Value="static member FillPath : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.PathF -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillPath (target, path)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillPath(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -989,8 +989,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillPath(class Microsoft.Maui.Graphics.ICanvas target, class Microsoft.Maui.Graphics.PathF path, valuetype Microsoft.Maui.Graphics.WindingMode windingMode) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillPath(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.PathF,Microsoft.Maui.Graphics.WindingMode)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillPath (target As ICanvas, path As PathF, windingMode As WindingMode)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillPath(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::PathF ^ path, Microsoft::Maui::Graphics::WindingMode windingMode);" />
       <MemberSignature Language="F#" Value="static member FillPath : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.PathF * Microsoft.Maui.Graphics.WindingMode -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillPath (target, path, windingMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillPath(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::PathF ^ path, Microsoft::Maui::Graphics::WindingMode windingMode);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1017,8 +1017,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.Rect rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillRectangle (target As ICanvas, rect As Rect)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberSignature Language="F#" Value="static member FillRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Rect -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillRectangle (target, rect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1043,8 +1043,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.RectF rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillRectangle (target As ICanvas, rect As RectF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect);" />
       <MemberSignature Language="F#" Value="static member FillRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillRectangle (target, rect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1069,8 +1069,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillRoundedRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.Rect rect, float64 cornerRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillRoundedRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Rect,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillRoundedRectangle (target As ICanvas, rect As Rect, cornerRadius As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect, double cornerRadius);" />
       <MemberSignature Language="F#" Value="static member FillRoundedRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Rect * double -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillRoundedRectangle (target, rect, cornerRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect, double cornerRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1097,8 +1097,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillRoundedRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.RectF rect, float32 cornerRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillRoundedRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillRoundedRectangle (target As ICanvas, rect As RectF, cornerRadius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect, float cornerRadius);" />
       <MemberSignature Language="F#" Value="static member FillRoundedRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF * single -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillRoundedRectangle (target, rect, cornerRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect, float cornerRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1125,8 +1125,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillRoundedRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.RectF rect, float32 xRadius, float32 yRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillRoundedRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillRoundedRectangle (target As ICanvas, rect As RectF, xRadius As Single, yRadius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect, float xRadius, float yRadius);" />
       <MemberSignature Language="F#" Value="static member FillRoundedRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF * single * single -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillRoundedRectangle (target, rect, xRadius, yRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect, float xRadius, float yRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1155,8 +1155,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillRoundedRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.Rect rect, float64 topLeftCornerRadius, float64 topRightCornerRadius, float64 bottomLeftCornerRadius, float64 bottomRightCornerRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillRoundedRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Rect,System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillRoundedRectangle (target As ICanvas, rect As Rect, topLeftCornerRadius As Double, topRightCornerRadius As Double, bottomLeftCornerRadius As Double, bottomRightCornerRadius As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect, double topLeftCornerRadius, double topRightCornerRadius, double bottomLeftCornerRadius, double bottomRightCornerRadius);" />
       <MemberSignature Language="F#" Value="static member FillRoundedRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Rect * double * double * double * double -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillRoundedRectangle (target, rect, topLeftCornerRadius, topRightCornerRadius, bottomLeftCornerRadius, bottomRightCornerRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect, double topLeftCornerRadius, double topRightCornerRadius, double bottomLeftCornerRadius, double bottomRightCornerRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1189,8 +1189,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillRoundedRectangle(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.RectF rect, float32 topLeftCornerRadius, float32 topRightCornerRadius, float32 bottomLeftCornerRadius, float32 bottomRightCornerRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillRoundedRectangle(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillRoundedRectangle (target As ICanvas, rect As RectF, topLeftCornerRadius As Single, topRightCornerRadius As Single, bottomLeftCornerRadius As Single, bottomRightCornerRadius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect, float topLeftCornerRadius, float topRightCornerRadius, float bottomLeftCornerRadius, float bottomRightCornerRadius);" />
       <MemberSignature Language="F#" Value="static member FillRoundedRectangle : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF * single * single * single * single -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillRoundedRectangle (target, rect, topLeftCornerRadius, topRightCornerRadius, bottomLeftCornerRadius, bottomRightCornerRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect, float topLeftCornerRadius, float topRightCornerRadius, float bottomLeftCornerRadius, float bottomRightCornerRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1223,8 +1223,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FillRoundedRectangle(class Microsoft.Maui.Graphics.ICanvas target, float32 x, float32 y, float32 width, float32 height, float32 topLeftCornerRadius, float32 topRightCornerRadius, float32 bottomLeftCornerRadius, float32 bottomRightCornerRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.FillRoundedRectangle(Microsoft.Maui.Graphics.ICanvas,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub FillRoundedRectangle (target As ICanvas, x As Single, y As Single, width As Single, height As Single, topLeftCornerRadius As Single, topRightCornerRadius As Single, bottomLeftCornerRadius As Single, bottomRightCornerRadius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, float x, float y, float width, float height, float topLeftCornerRadius, float topRightCornerRadius, float bottomLeftCornerRadius, float bottomRightCornerRadius);" />
       <MemberSignature Language="F#" Value="static member FillRoundedRectangle : Microsoft.Maui.Graphics.ICanvas * single * single * single * single * single * single * single * single -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.FillRoundedRectangle (target, x, y, width, height, topLeftCornerRadius, topRightCornerRadius, bottomLeftCornerRadius, bottomRightCornerRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void FillRoundedRectangle(Microsoft::Maui::Graphics::ICanvas ^ target, float x, float y, float width, float height, float topLeftCornerRadius, float topRightCornerRadius, float bottomLeftCornerRadius, float bottomRightCornerRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1263,8 +1263,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ResetStroke(class Microsoft.Maui.Graphics.ICanvas canvas) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.ResetStroke(Microsoft.Maui.Graphics.ICanvas)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub ResetStroke (canvas As ICanvas)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void ResetStroke(Microsoft::Maui::Graphics::ICanvas ^ canvas);" />
       <MemberSignature Language="F#" Value="static member ResetStroke : Microsoft.Maui.Graphics.ICanvas -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.ResetStroke canvas" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void ResetStroke(Microsoft::Maui::Graphics::ICanvas ^ canvas);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1296,8 +1296,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetFillPaint(class Microsoft.Maui.Graphics.ICanvas target, class Microsoft.Maui.Graphics.Paint paint, valuetype Microsoft.Maui.Graphics.Rect rectangle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.SetFillPaint(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Paint,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetFillPaint (target As ICanvas, paint As Paint, rectangle As Rect)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillPaint(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Paint ^ paint, Microsoft::Maui::Graphics::Rect rectangle);" />
       <MemberSignature Language="F#" Value="static member SetFillPaint : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Paint * Microsoft.Maui.Graphics.Rect -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.SetFillPaint (target, paint, rectangle)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillPaint(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Paint ^ paint, Microsoft::Maui::Graphics::Rect rectangle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1324,8 +1324,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetFillPaint(class Microsoft.Maui.Graphics.ICanvas target, class Microsoft.Maui.Graphics.Paint paint, valuetype Microsoft.Maui.Graphics.RectF rectangle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.SetFillPaint(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Paint,Microsoft.Maui.Graphics.RectF)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetFillPaint (target As ICanvas, paint As Paint, rectangle As RectF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillPaint(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Paint ^ paint, Microsoft::Maui::Graphics::RectF rectangle);" />
       <MemberSignature Language="F#" Value="static member SetFillPaint : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Paint * Microsoft.Maui.Graphics.RectF -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.SetFillPaint (target, paint, rectangle)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillPaint(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Paint ^ paint, Microsoft::Maui::Graphics::RectF rectangle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1352,8 +1352,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetFillPaint(class Microsoft.Maui.Graphics.ICanvas target, class Microsoft.Maui.Graphics.Paint paint, valuetype Microsoft.Maui.Graphics.Point point1, valuetype Microsoft.Maui.Graphics.Point point2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.SetFillPaint(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Paint,Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Point)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetFillPaint (target As ICanvas, paint As Paint, point1 As Point, point2 As Point)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillPaint(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Paint ^ paint, Microsoft::Maui::Graphics::Point point1, Microsoft::Maui::Graphics::Point point2);" />
       <MemberSignature Language="F#" Value="static member SetFillPaint : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Paint * Microsoft.Maui.Graphics.Point * Microsoft.Maui.Graphics.Point -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.SetFillPaint (target, paint, point1, point2)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillPaint(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Paint ^ paint, Microsoft::Maui::Graphics::Point point1, Microsoft::Maui::Graphics::Point point2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1382,8 +1382,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetFillPaint(class Microsoft.Maui.Graphics.ICanvas target, class Microsoft.Maui.Graphics.Paint paint, valuetype Microsoft.Maui.Graphics.PointF point1, valuetype Microsoft.Maui.Graphics.PointF point2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.SetFillPaint(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Paint,Microsoft.Maui.Graphics.PointF,Microsoft.Maui.Graphics.PointF)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetFillPaint (target As ICanvas, paint As Paint, point1 As PointF, point2 As PointF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillPaint(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Paint ^ paint, Microsoft::Maui::Graphics::PointF point1, Microsoft::Maui::Graphics::PointF point2);" />
       <MemberSignature Language="F#" Value="static member SetFillPaint : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Paint * Microsoft.Maui.Graphics.PointF * Microsoft.Maui.Graphics.PointF -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.SetFillPaint (target, paint, point1, point2)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillPaint(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Paint ^ paint, Microsoft::Maui::Graphics::PointF point1, Microsoft::Maui::Graphics::PointF point2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1412,8 +1412,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetFillPattern(class Microsoft.Maui.Graphics.ICanvas target, class Microsoft.Maui.Graphics.IPattern pattern) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.SetFillPattern(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.IPattern)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetFillPattern (target As ICanvas, pattern As IPattern)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillPattern(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::IPattern ^ pattern);" />
       <MemberSignature Language="F#" Value="static member SetFillPattern : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.IPattern -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.SetFillPattern (target, pattern)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillPattern(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::IPattern ^ pattern);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1438,8 +1438,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetFillPattern(class Microsoft.Maui.Graphics.ICanvas target, class Microsoft.Maui.Graphics.IPattern pattern, class Microsoft.Maui.Graphics.Color foregroundColor) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.SetFillPattern(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.IPattern,Microsoft.Maui.Graphics.Color)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetFillPattern (target As ICanvas, pattern As IPattern, foregroundColor As Color)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillPattern(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::IPattern ^ pattern, Microsoft::Maui::Graphics::Color ^ foregroundColor);" />
       <MemberSignature Language="F#" Value="static member SetFillPattern : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.IPattern * Microsoft.Maui.Graphics.Color -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.SetFillPattern (target, pattern, foregroundColor)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillPattern(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::IPattern ^ pattern, Microsoft::Maui::Graphics::Color ^ foregroundColor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1466,8 +1466,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SubtractFromClip(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.Rect rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.SubtractFromClip(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SubtractFromClip (target As ICanvas, rect As Rect)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SubtractFromClip(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberSignature Language="F#" Value="static member SubtractFromClip : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.Rect -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.SubtractFromClip (target, rect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SubtractFromClip(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1492,8 +1492,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SubtractFromClip(class Microsoft.Maui.Graphics.ICanvas target, valuetype Microsoft.Maui.Graphics.RectF rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.CanvasExtensions.SubtractFromClip(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SubtractFromClip (target As ICanvas, rect As RectF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SubtractFromClip(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect);" />
       <MemberSignature Language="F#" Value="static member SubtractFromClip : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF -&gt; unit" Usage="Microsoft.Maui.Graphics.CanvasExtensions.SubtractFromClip (target, rect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SubtractFromClip(Microsoft::Maui::Graphics::ICanvas ^ target, Microsoft::Maui::Graphics::RectF rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

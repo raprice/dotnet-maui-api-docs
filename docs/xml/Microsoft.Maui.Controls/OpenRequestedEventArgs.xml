@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OpenRequestedEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.OpenRequestedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class OpenRequestedEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class OpenRequestedEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type OpenRequestedEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OpenRequestedEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.OpenSwipeItem openSwipeItem, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.OpenRequestedEventArgs.#ctor(Microsoft.Maui.OpenSwipeItem,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (openSwipeItem As OpenSwipeItem, animated As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; OpenRequestedEventArgs(Microsoft::Maui::OpenSwipeItem openSwipeItem, bool animated);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.OpenRequestedEventArgs : Microsoft.Maui.OpenSwipeItem * bool -&gt; Microsoft.Maui.Controls.OpenRequestedEventArgs" Usage="new Microsoft.Maui.Controls.OpenRequestedEventArgs (openSwipeItem, animated)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OpenRequestedEventArgs(Microsoft::Maui::OpenSwipeItem openSwipeItem, bool animated);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Animated" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.OpenRequestedEventArgs.Animated" />
       <MemberSignature Language="VB.NET" Value="Public Property Animated As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Animated { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Animated : bool with get, set" Usage="Microsoft.Maui.Controls.OpenRequestedEventArgs.Animated" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Animated { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.OpenSwipeItem OpenSwipeItem" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.OpenRequestedEventArgs.OpenSwipeItem" />
       <MemberSignature Language="VB.NET" Value="Public Property OpenSwipeItem As OpenSwipeItem" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::OpenSwipeItem OpenSwipeItem { Microsoft::Maui::OpenSwipeItem get(); void set(Microsoft::Maui::OpenSwipeItem value); };" />
       <MemberSignature Language="F#" Value="member this.OpenSwipeItem : Microsoft.Maui.OpenSwipeItem with get, set" Usage="Microsoft.Maui.Controls.OpenRequestedEventArgs.OpenSwipeItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::OpenSwipeItem OpenSwipeItem { Microsoft::Maui::OpenSwipeItem get(); void set(Microsoft::Maui::OpenSwipeItem value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

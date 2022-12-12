@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit LayoutExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Layouts.LayoutExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module LayoutExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class LayoutExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type LayoutExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class LayoutExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.Size AdjustForFill(valuetype Microsoft.Maui.Graphics.Size size, valuetype Microsoft.Maui.Graphics.Rect bounds, class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.LayoutExtensions.AdjustForFill(Microsoft.Maui.Graphics.Size,Microsoft.Maui.Graphics.Rect,Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AdjustForFill (size As Size, bounds As Rect, view As IView) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Size AdjustForFill(Microsoft::Maui::Graphics::Size size, Microsoft::Maui::Graphics::Rect bounds, Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="static member AdjustForFill : Microsoft.Maui.Graphics.Size * Microsoft.Maui.Graphics.Rect * Microsoft.Maui.IView -&gt; Microsoft.Maui.Graphics.Size" Usage="Microsoft.Maui.Layouts.LayoutExtensions.AdjustForFill (size, bounds, view)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Size AdjustForFill(Microsoft::Maui::Graphics::Size size, Microsoft::Maui::Graphics::Rect bounds, Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -52,8 +52,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ArrangeContent(class Microsoft.Maui.IContentView contentView, valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.LayoutExtensions.ArrangeContent(Microsoft.Maui.IContentView,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub ArrangeContent (contentView As IContentView, bounds As Rect)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void ArrangeContent(Microsoft::Maui::IContentView ^ contentView, Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberSignature Language="F#" Value="static member ArrangeContent : Microsoft.Maui.IContentView * Microsoft.Maui.Graphics.Rect -&gt; unit" Usage="Microsoft.Maui.Layouts.LayoutExtensions.ArrangeContent (contentView, bounds)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void ArrangeContent(Microsoft::Maui::IContentView ^ contentView, Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -78,8 +78,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.Size ComputeDesiredSize(class Microsoft.Maui.IView view, float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.LayoutExtensions.ComputeDesiredSize(Microsoft.Maui.IView,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ComputeDesiredSize (view As IView, widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Size ComputeDesiredSize(Microsoft::Maui::IView ^ view, double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="static member ComputeDesiredSize : Microsoft.Maui.IView * double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="Microsoft.Maui.Layouts.LayoutExtensions.ComputeDesiredSize (view, widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Size ComputeDesiredSize(Microsoft::Maui::IView ^ view, double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.Rect ComputeFrame(class Microsoft.Maui.IView view, valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.LayoutExtensions.ComputeFrame(Microsoft.Maui.IView,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ComputeFrame (view As IView, bounds As Rect) As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Rect ComputeFrame(Microsoft::Maui::IView ^ view, Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberSignature Language="F#" Value="static member ComputeFrame : Microsoft.Maui.IView * Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Rect" Usage="Microsoft.Maui.Layouts.LayoutExtensions.ComputeFrame (view, bounds)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Rect ComputeFrame(Microsoft::Maui::IView ^ view, Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -134,8 +134,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.Size MeasureContent(class Microsoft.Maui.IContentView contentView, float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.LayoutExtensions.MeasureContent(Microsoft.Maui.IContentView,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function MeasureContent (contentView As IContentView, widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Size MeasureContent(Microsoft::Maui::IContentView ^ contentView, double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="static member MeasureContent : Microsoft.Maui.IContentView * double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="Microsoft.Maui.Layouts.LayoutExtensions.MeasureContent (contentView, widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Size MeasureContent(Microsoft::Maui::IContentView ^ contentView, double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -163,8 +163,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.Size MeasureContent(class Microsoft.Maui.IContentView contentView, valuetype Microsoft.Maui.Thickness inset, float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.LayoutExtensions.MeasureContent(Microsoft.Maui.IContentView,Microsoft.Maui.Thickness,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function MeasureContent (contentView As IContentView, inset As Thickness, widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Size MeasureContent(Microsoft::Maui::IContentView ^ contentView, Microsoft::Maui::Thickness inset, double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="static member MeasureContent : Microsoft.Maui.IContentView * Microsoft.Maui.Thickness * double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="Microsoft.Maui.Layouts.LayoutExtensions.MeasureContent (contentView, inset, widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Size MeasureContent(Microsoft::Maui::IContentView ^ contentView, Microsoft::Maui::Thickness inset, double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -194,8 +194,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ShouldArrangeLeftToRight(class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.LayoutExtensions.ShouldArrangeLeftToRight(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShouldArrangeLeftToRight (view As IView) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool ShouldArrangeLeftToRight(Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="static member ShouldArrangeLeftToRight : Microsoft.Maui.IView -&gt; bool" Usage="Microsoft.Maui.Layouts.LayoutExtensions.ShouldArrangeLeftToRight view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool ShouldArrangeLeftToRight(Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

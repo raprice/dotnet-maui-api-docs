@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ModalEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ModalEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ModalEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ModalEventArgs abstract : EventArgs" />
   <TypeSignature Language="F#" Value="type ModalEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ModalEventArgs abstract : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Controls.Page modal) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ModalEventArgs.#ctor(Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (modal As Page)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; ModalEventArgs(Microsoft::Maui::Controls::Page ^ modal);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.ModalEventArgs : Microsoft.Maui.Controls.Page -&gt; Microsoft.Maui.Controls.ModalEventArgs" Usage="new Microsoft.Maui.Controls.ModalEventArgs modal" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; ModalEventArgs(Microsoft::Maui::Controls::Page ^ modal);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Page Modal" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ModalEventArgs.Modal" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Modal As Page" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Page ^ Modal { Microsoft::Maui::Controls::Page ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Modal : Microsoft.Maui.Controls.Page" Usage="Microsoft.Maui.Controls.ModalEventArgs.Modal" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Page ^ Modal { Microsoft::Maui::Controls::Page ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

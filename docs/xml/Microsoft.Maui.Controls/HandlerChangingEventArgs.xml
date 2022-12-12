@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HandlerChangingEventArgs extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.HandlerChangingEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class HandlerChangingEventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class HandlerChangingEventArgs" />
   <TypeSignature Language="F#" Value="type HandlerChangingEventArgs = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class HandlerChangingEventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IElementHandler oldHandler, class Microsoft.Maui.IElementHandler newHandler) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.HandlerChangingEventArgs.#ctor(Microsoft.Maui.IElementHandler,Microsoft.Maui.IElementHandler)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (oldHandler As IElementHandler, newHandler As IElementHandler)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; HandlerChangingEventArgs(Microsoft::Maui::IElementHandler ^ oldHandler, Microsoft::Maui::IElementHandler ^ newHandler);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.HandlerChangingEventArgs : Microsoft.Maui.IElementHandler * Microsoft.Maui.IElementHandler -&gt; Microsoft.Maui.Controls.HandlerChangingEventArgs" Usage="new Microsoft.Maui.Controls.HandlerChangingEventArgs (oldHandler, newHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; HandlerChangingEventArgs(Microsoft::Maui::IElementHandler ^ oldHandler, Microsoft::Maui::IElementHandler ^ newHandler);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IElementHandler NewHandler" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.HandlerChangingEventArgs.NewHandler" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewHandler As IElementHandler" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IElementHandler ^ NewHandler { Microsoft::Maui::IElementHandler ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.NewHandler : Microsoft.Maui.IElementHandler" Usage="Microsoft.Maui.Controls.HandlerChangingEventArgs.NewHandler" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IElementHandler ^ NewHandler { Microsoft::Maui::IElementHandler ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IElementHandler OldHandler" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.HandlerChangingEventArgs.OldHandler" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldHandler As IElementHandler" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IElementHandler ^ OldHandler { Microsoft::Maui::IElementHandler ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.OldHandler : Microsoft.Maui.IElementHandler" Usage="Microsoft.Maui.Controls.HandlerChangingEventArgs.OldHandler" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IElementHandler ^ OldHandler { Microsoft::Maui::IElementHandler ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

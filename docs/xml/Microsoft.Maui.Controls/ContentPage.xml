@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContentPage extends Microsoft.Maui.Controls.TemplatedPage implements class Microsoft.Maui.HotReload.IHotReloadableView, class Microsoft.Maui.IContentView, class Microsoft.Maui.IElement, class Microsoft.Maui.IPadding, class Microsoft.Maui.IReplaceableView, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ContentPage" />
   <TypeSignature Language="VB.NET" Value="Public Class ContentPage&#xA;Inherits TemplatedPage&#xA;Implements IContentView, IHotReloadableView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ContentPage : Microsoft::Maui::Controls::TemplatedPage, Microsoft::Maui::HotReload::IHotReloadableView, Microsoft::Maui::IContentView" />
   <TypeSignature Language="F#" Value="type ContentPage = class&#xA;    inherit TemplatedPage&#xA;    interface IContentView&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IPadding&#xA;    interface IHotReloadableView&#xA;    interface IReplaceableView" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContentPage : Microsoft::Maui::Controls::TemplatedPage, Microsoft::Maui::HotReload::IHotReloadableView, Microsoft::Maui::IContentView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -100,8 +100,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size ArrangeOverride(valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ContentPage.ArrangeOverride(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function ArrangeOverride (bounds As Rect) As Size" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size ArrangeOverride(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberSignature Language="F#" Value="override this.ArrangeOverride : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size" Usage="contentPage.ArrangeOverride bounds" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size ArrangeOverride(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -125,8 +125,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.View Content" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ContentPage.Content" />
       <MemberSignature Language="VB.NET" Value="Public Property Content As View" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::View ^ Content { Microsoft::Maui::Controls::View ^ get(); void set(Microsoft::Maui::Controls::View ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Content : Microsoft.Maui.Controls.View with get, set" Usage="Microsoft.Maui.Controls.ContentPage.Content" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::View ^ Content { Microsoft::Maui::Controls::View ^ get(); void set(Microsoft::Maui::Controls::View ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -146,8 +146,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ContentProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ContentPage.ContentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContentProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ContentProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ContentProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ContentPage.ContentProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ContentProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -166,8 +166,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void InvalidateMeasureOverride() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ContentPage.InvalidateMeasureOverride" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub InvalidateMeasureOverride ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void InvalidateMeasureOverride();" />
       <MemberSignature Language="F#" Value="override this.InvalidateMeasureOverride : unit -&gt; unit" Usage="contentPage.InvalidateMeasureOverride " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void InvalidateMeasureOverride();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -187,8 +187,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size MeasureOverride(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ContentPage.MeasureOverride(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function MeasureOverride (widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size MeasureOverride(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="override this.MeasureOverride : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="contentPage.MeasureOverride (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size MeasureOverride(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -214,8 +214,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.HotReload.IHotReloadableView.Reload() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ContentPage.Microsoft#Maui#HotReload#IHotReloadableView#Reload" />
       <MemberSignature Language="VB.NET" Value="Sub Reload () Implements IHotReloadableView.Reload" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.HotReload.IHotReloadableView.Reload() = Microsoft::Maui::HotReload::IHotReloadableView::Reload;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.HotReload.IHotReloadableView.Reload : unit -&gt; unit&#xA;override this.Microsoft.Maui.HotReload.IHotReloadableView.Reload : unit -&gt; unit" Usage="contentPage.Microsoft.Maui.HotReload.IHotReloadableView.Reload " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.HotReload.IHotReloadableView.Reload() = Microsoft::Maui::HotReload::IHotReloadableView::Reload;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.HotReload.IHotReloadableView.Reload</InterfaceMember>
@@ -238,8 +238,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.HotReload.IReloadHandler Microsoft.Maui.HotReload.IHotReloadableView.ReloadHandler" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ContentPage.Microsoft#Maui#HotReload#IHotReloadableView#ReloadHandler" />
       <MemberSignature Language="VB.NET" Value=" Property ReloadHandler As IReloadHandler Implements IHotReloadableView.ReloadHandler" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::HotReload::IReloadHandler ^ Microsoft::Maui::HotReload::IHotReloadableView::ReloadHandler { Microsoft::Maui::HotReload::IReloadHandler ^ get(); void set(Microsoft::Maui::HotReload::IReloadHandler ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.HotReload.IHotReloadableView.ReloadHandler : Microsoft.Maui.HotReload.IReloadHandler with get, set" Usage="Microsoft.Maui.HotReload.IHotReloadableView.ReloadHandler" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::HotReload::IReloadHandler ^ Microsoft::Maui::HotReload::IHotReloadableView::ReloadHandler { Microsoft::Maui::HotReload::IReloadHandler ^ get(); void set(Microsoft::Maui::HotReload::IReloadHandler ^ value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.HotReload.IHotReloadableView.ReloadHandler</InterfaceMember>
@@ -262,8 +262,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.HotReload.IHotReloadableView.TransferState(class Microsoft.Maui.IView newView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ContentPage.Microsoft#Maui#HotReload#IHotReloadableView#TransferState(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Sub TransferState (newView As IView) Implements IHotReloadableView.TransferState" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.HotReload.IHotReloadableView.TransferState(Microsoft::Maui::IView ^ newView) = Microsoft::Maui::HotReload::IHotReloadableView::TransferState;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.HotReload.IHotReloadableView.TransferState : Microsoft.Maui.IView -&gt; unit&#xA;override this.Microsoft.Maui.HotReload.IHotReloadableView.TransferState : Microsoft.Maui.IView -&gt; unit" Usage="contentPage.Microsoft.Maui.HotReload.IHotReloadableView.TransferState newView" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.HotReload.IHotReloadableView.TransferState(Microsoft::Maui::IView ^ newView) = Microsoft::Maui::HotReload::IHotReloadableView::TransferState;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.HotReload.IHotReloadableView.TransferState(Microsoft.Maui.IView)</InterfaceMember>
@@ -289,8 +289,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.IContentView.Content" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ContentPage.Microsoft#Maui#IContentView#Content" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Content As Object Implements IContentView.Content" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::IContentView::Content { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IContentView.Content : obj" Usage="Microsoft.Maui.IContentView.Content" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::IContentView::Content { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IContentView.Content</InterfaceMember>
@@ -313,8 +313,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance valuetype Microsoft.Maui.Graphics.Size Microsoft.Maui.IContentView.CrossPlatformArrange(valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ContentPage.Microsoft#Maui#IContentView#CrossPlatformArrange(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Function CrossPlatformArrange (bounds As Rect) As Size Implements IContentView.CrossPlatformArrange" />
-      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Graphics::Size Microsoft.Maui.IContentView.CrossPlatformArrange(Microsoft::Maui::Graphics::Rect bounds) = Microsoft::Maui::IContentView::CrossPlatformArrange;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IContentView.CrossPlatformArrange : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size&#xA;override this.Microsoft.Maui.IContentView.CrossPlatformArrange : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size" Usage="contentPage.Microsoft.Maui.IContentView.CrossPlatformArrange bounds" />
+      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Graphics::Size Microsoft.Maui.IContentView.CrossPlatformArrange(Microsoft::Maui::Graphics::Rect bounds) = Microsoft::Maui::IContentView::CrossPlatformArrange;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IContentView.CrossPlatformArrange(Microsoft.Maui.Graphics.Rect)</InterfaceMember>
@@ -341,8 +341,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance valuetype Microsoft.Maui.Graphics.Size Microsoft.Maui.IContentView.CrossPlatformMeasure(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ContentPage.Microsoft#Maui#IContentView#CrossPlatformMeasure(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Function CrossPlatformMeasure (widthConstraint As Double, heightConstraint As Double) As Size Implements IContentView.CrossPlatformMeasure" />
-      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Graphics::Size Microsoft.Maui.IContentView.CrossPlatformMeasure(double widthConstraint, double heightConstraint) = Microsoft::Maui::IContentView::CrossPlatformMeasure;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IContentView.CrossPlatformMeasure : double * double -&gt; Microsoft.Maui.Graphics.Size&#xA;override this.Microsoft.Maui.IContentView.CrossPlatformMeasure : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="contentPage.Microsoft.Maui.IContentView.CrossPlatformMeasure (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Graphics::Size Microsoft.Maui.IContentView.CrossPlatformMeasure(double widthConstraint, double heightConstraint) = Microsoft::Maui::IContentView::CrossPlatformMeasure;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IContentView.CrossPlatformMeasure(System.Double,System.Double)</InterfaceMember>
@@ -371,8 +371,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Microsoft.Maui.IContentView.PresentedContent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ContentPage.Microsoft#Maui#IContentView#PresentedContent" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PresentedContent As IView Implements IContentView.PresentedContent" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IContentView::PresentedContent { Microsoft::Maui::IView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IContentView.PresentedContent : Microsoft.Maui.IView" Usage="Microsoft.Maui.IContentView.PresentedContent" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IContentView::PresentedContent { Microsoft::Maui::IView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IContentView.PresentedContent</InterfaceMember>
@@ -395,8 +395,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Microsoft.Maui.IReplaceableView.ReplacedView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ContentPage.Microsoft#Maui#IReplaceableView#ReplacedView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property ReplacedView As IView Implements IReplaceableView.ReplacedView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IReplaceableView::ReplacedView { Microsoft::Maui::IView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IReplaceableView.ReplacedView : Microsoft.Maui.IView" Usage="Microsoft.Maui.IReplaceableView.ReplacedView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IReplaceableView::ReplacedView { Microsoft::Maui::IView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IReplaceableView.ReplacedView</InterfaceMember>
@@ -419,8 +419,8 @@ namespace ContentPageExample
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ContentPage.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="contentPage.OnBindingContextChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

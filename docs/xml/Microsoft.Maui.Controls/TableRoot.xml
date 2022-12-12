@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TableRoot extends Microsoft.Maui.Controls.TableSectionBase`1&lt;class Microsoft.Maui.Controls.TableSection&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.TableRoot" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TableRoot&#xA;Inherits TableSectionBase(Of TableSection)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TableRoot sealed : Microsoft::Maui::Controls::TableSectionBase&lt;Microsoft::Maui::Controls::TableSection ^&gt;" />
   <TypeSignature Language="F#" Value="type TableRoot = class&#xA;    inherit TableSectionBase&lt;TableSection&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TableRoot sealed : Microsoft::Maui::Controls::TableSectionBase&lt;Microsoft::Maui::Controls::TableSection ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -43,8 +43,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string title) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TableRoot.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (title As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; TableRoot(System::String ^ title);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.TableRoot : string -&gt; Microsoft.Maui.Controls.TableRoot" Usage="new Microsoft.Maui.Controls.TableRoot title" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TableRoot(System::String ^ title);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

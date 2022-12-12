@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XmlLineInfo extends System.Object implements class System.Xml.IXmlLineInfo" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.XmlLineInfo" />
   <TypeSignature Language="VB.NET" Value="Public Class XmlLineInfo&#xA;Implements IXmlLineInfo" />
-  <TypeSignature Language="C++ CLI" Value="public ref class XmlLineInfo : System::Xml::IXmlLineInfo" />
   <TypeSignature Language="F#" Value="type XmlLineInfo = class&#xA;    interface IXmlLineInfo" />
+  <TypeSignature Language="C++ CLI" Value="public ref class XmlLineInfo : System::Xml::IXmlLineInfo" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 linenumber, int32 lineposition) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.XmlLineInfo.#ctor(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (linenumber As Integer, lineposition As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; XmlLineInfo(int linenumber, int lineposition);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Xaml.XmlLineInfo : int * int -&gt; Microsoft.Maui.Controls.Xaml.XmlLineInfo" Usage="new Microsoft.Maui.Controls.Xaml.XmlLineInfo (linenumber, lineposition)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; XmlLineInfo(int linenumber, int lineposition);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool HasLineInfo() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.XmlLineInfo.HasLineInfo" />
       <MemberSignature Language="VB.NET" Value="Public Function HasLineInfo () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool HasLineInfo();" />
       <MemberSignature Language="F#" Value="abstract member HasLineInfo : unit -&gt; bool&#xA;override this.HasLineInfo : unit -&gt; bool" Usage="xmlLineInfo.HasLineInfo " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool HasLineInfo();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Xml.IXmlLineInfo.HasLineInfo</InterfaceMember>
@@ -92,8 +92,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 LineNumber" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.XmlLineInfo.LineNumber" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LineNumber As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LineNumber { int get(); };" />
       <MemberSignature Language="F#" Value="member this.LineNumber : int" Usage="Microsoft.Maui.Controls.Xaml.XmlLineInfo.LineNumber" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LineNumber { int get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Xml.IXmlLineInfo.LineNumber</InterfaceMember>
@@ -116,8 +116,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 LinePosition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.XmlLineInfo.LinePosition" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LinePosition As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LinePosition { int get(); };" />
       <MemberSignature Language="F#" Value="member this.LinePosition : int" Usage="Microsoft.Maui.Controls.Xaml.XmlLineInfo.LinePosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LinePosition { int get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Xml.IXmlLineInfo.LinePosition</InterfaceMember>

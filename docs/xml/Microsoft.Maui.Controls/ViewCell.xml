@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ViewCell extends Microsoft.Maui.Controls.Cell" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ViewCell" />
   <TypeSignature Language="VB.NET" Value="Public Class ViewCell&#xA;Inherits Cell" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ViewCell : Microsoft::Maui::Controls::Cell" />
   <TypeSignature Language="F#" Value="type ViewCell = class&#xA;    inherit Cell" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ViewCell : Microsoft::Maui::Controls::Cell" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.View View" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ViewCell.View" />
       <MemberSignature Language="VB.NET" Value="Public Property View As View" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::View ^ View { Microsoft::Maui::Controls::View ^ get(); void set(Microsoft::Maui::Controls::View ^ value); };" />
       <MemberSignature Language="F#" Value="member this.View : Microsoft.Maui.Controls.View with get, set" Usage="Microsoft.Maui.Controls.ViewCell.View" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::View ^ View { Microsoft::Maui::Controls::View ^ get(); void set(Microsoft::Maui::Controls::View ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FlyoutItem extends Microsoft.Maui.Controls.ShellItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.FlyoutItem" />
   <TypeSignature Language="VB.NET" Value="Public Class FlyoutItem&#xA;Inherits ShellItem" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FlyoutItem : Microsoft::Maui::Controls::ShellItem" />
   <TypeSignature Language="F#" Value="type FlyoutItem = class&#xA;    inherit ShellItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FlyoutItem : Microsoft::Maui::Controls::ShellItem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsVisible(class Microsoft.Maui.Controls.BindableObject obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FlyoutItem.GetIsVisible(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetIsVisible (obj As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsVisible(Microsoft::Maui::Controls::BindableObject ^ obj);" />
       <MemberSignature Language="F#" Value="static member GetIsVisible : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.FlyoutItem.GetIsVisible obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsVisible(Microsoft::Maui::Controls::BindableObject ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string ImageStyle" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.FlyoutItem.ImageStyle" />
       <MemberSignature Language="VB.NET" Value="Public Const ImageStyle As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ ImageStyle;" />
       <MemberSignature Language="F#" Value="val mutable ImageStyle : string" Usage="Microsoft.Maui.Controls.FlyoutItem.ImageStyle" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ ImageStyle;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -91,8 +91,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsVisibleProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.FlyoutItem.IsVisibleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsVisibleProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsVisibleProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsVisibleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.FlyoutItem.IsVisibleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsVisibleProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -111,8 +111,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string LabelStyle" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.FlyoutItem.LabelStyle" />
       <MemberSignature Language="VB.NET" Value="Public Const LabelStyle As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ LabelStyle;" />
       <MemberSignature Language="F#" Value="val mutable LabelStyle : string" Usage="Microsoft.Maui.Controls.FlyoutItem.LabelStyle" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ LabelStyle;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -131,8 +131,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string LayoutStyle" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.FlyoutItem.LayoutStyle" />
       <MemberSignature Language="VB.NET" Value="Public Const LayoutStyle As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ LayoutStyle;" />
       <MemberSignature Language="F#" Value="val mutable LayoutStyle : string" Usage="Microsoft.Maui.Controls.FlyoutItem.LayoutStyle" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ LayoutStyle;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -151,8 +151,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsVisible(class Microsoft.Maui.Controls.BindableObject obj, bool isVisible) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FlyoutItem.SetIsVisible(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetIsVisible (obj As BindableObject, isVisible As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsVisible(Microsoft::Maui::Controls::BindableObject ^ obj, bool isVisible);" />
       <MemberSignature Language="F#" Value="static member SetIsVisible : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.FlyoutItem.SetIsVisible (obj, isVisible)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsVisible(Microsoft::Maui::Controls::BindableObject ^ obj, bool isVisible);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

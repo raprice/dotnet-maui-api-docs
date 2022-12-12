@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PolyBezierSegment extends Microsoft.Maui.Controls.Shapes.PathSegment" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.PolyBezierSegment" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PolyBezierSegment&#xA;Inherits PathSegment" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PolyBezierSegment sealed : Microsoft::Maui::Controls::Shapes::PathSegment" />
   <TypeSignature Language="F#" Value="type PolyBezierSegment = class&#xA;    inherit PathSegment" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PolyBezierSegment sealed : Microsoft::Maui::Controls::Shapes::PathSegment" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Controls.PointCollection points) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.PolyBezierSegment.#ctor(Microsoft.Maui.Controls.PointCollection)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (points As PointCollection)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; PolyBezierSegment(Microsoft::Maui::Controls::PointCollection ^ points);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Shapes.PolyBezierSegment : Microsoft.Maui.Controls.PointCollection -&gt; Microsoft.Maui.Controls.Shapes.PolyBezierSegment" Usage="new Microsoft.Maui.Controls.Shapes.PolyBezierSegment points" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PolyBezierSegment(Microsoft::Maui::Controls::PointCollection ^ points);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.PointCollection Points" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.PolyBezierSegment.Points" />
       <MemberSignature Language="VB.NET" Value="Public Property Points As PointCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::PointCollection ^ Points { Microsoft::Maui::Controls::PointCollection ^ get(); void set(Microsoft::Maui::Controls::PointCollection ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Points : Microsoft.Maui.Controls.PointCollection with get, set" Usage="Microsoft.Maui.Controls.Shapes.PolyBezierSegment.Points" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::PointCollection ^ Points { Microsoft::Maui::Controls::PointCollection ^ get(); void set(Microsoft::Maui::Controls::PointCollection ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PointsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.PolyBezierSegment.PointsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PointsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PointsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.PolyBezierSegment.PointsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

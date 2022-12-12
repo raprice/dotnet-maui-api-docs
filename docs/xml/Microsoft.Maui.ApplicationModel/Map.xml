@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Map extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Map" />
   <TypeSignature Language="VB.NET" Value="Public Class Map" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Map abstract sealed" />
   <TypeSignature Language="F#" Value="type Map = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Map abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.ApplicationModel.IMap Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Map.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As IMap" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::IMap ^ Default { Microsoft::Maui::ApplicationModel::IMap ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.ApplicationModel.IMap" Usage="Microsoft.Maui.ApplicationModel.Map.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::IMap ^ Default { Microsoft::Maui::ApplicationModel::IMap ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task OpenAsync(class Microsoft.Maui.Devices.Sensors.Location location) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Map.OpenAsync(Microsoft.Maui.Devices.Sensors.Location)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OpenAsync (location As Location) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ OpenAsync(Microsoft::Maui::Devices::Sensors::Location ^ location);" />
       <MemberSignature Language="F#" Value="static member OpenAsync : Microsoft.Maui.Devices.Sensors.Location -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.Map.OpenAsync location" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ OpenAsync(Microsoft::Maui::Devices::Sensors::Location ^ location);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task OpenAsync(class Microsoft.Maui.Devices.Sensors.Placemark placemark) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Map.OpenAsync(Microsoft.Maui.Devices.Sensors.Placemark)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OpenAsync (placemark As Placemark) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ OpenAsync(Microsoft::Maui::Devices::Sensors::Placemark ^ placemark);" />
       <MemberSignature Language="F#" Value="static member OpenAsync : Microsoft.Maui.Devices.Sensors.Placemark -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.Map.OpenAsync placemark" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ OpenAsync(Microsoft::Maui::Devices::Sensors::Placemark ^ placemark);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -94,8 +94,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task OpenAsync(class Microsoft.Maui.Devices.Sensors.Location location, class Microsoft.Maui.ApplicationModel.MapLaunchOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Map.OpenAsync(Microsoft.Maui.Devices.Sensors.Location,Microsoft.Maui.ApplicationModel.MapLaunchOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OpenAsync (location As Location, options As MapLaunchOptions) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ OpenAsync(Microsoft::Maui::Devices::Sensors::Location ^ location, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberSignature Language="F#" Value="static member OpenAsync : Microsoft.Maui.Devices.Sensors.Location * Microsoft.Maui.ApplicationModel.MapLaunchOptions -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.Map.OpenAsync (location, options)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ OpenAsync(Microsoft::Maui::Devices::Sensors::Location ^ location, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -121,8 +121,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task OpenAsync(class Microsoft.Maui.Devices.Sensors.Placemark placemark, class Microsoft.Maui.ApplicationModel.MapLaunchOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Map.OpenAsync(Microsoft.Maui.Devices.Sensors.Placemark,Microsoft.Maui.ApplicationModel.MapLaunchOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OpenAsync (placemark As Placemark, options As MapLaunchOptions) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ OpenAsync(Microsoft::Maui::Devices::Sensors::Placemark ^ placemark, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberSignature Language="F#" Value="static member OpenAsync : Microsoft.Maui.Devices.Sensors.Placemark * Microsoft.Maui.ApplicationModel.MapLaunchOptions -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.Map.OpenAsync (placemark, options)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ OpenAsync(Microsoft::Maui::Devices::Sensors::Placemark ^ placemark, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -148,8 +148,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task OpenAsync(float64 latitude, float64 longitude) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Map.OpenAsync(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OpenAsync (latitude As Double, longitude As Double) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ OpenAsync(double latitude, double longitude);" />
       <MemberSignature Language="F#" Value="static member OpenAsync : double * double -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.Map.OpenAsync (latitude, longitude)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ OpenAsync(double latitude, double longitude);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -175,8 +175,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task OpenAsync(float64 latitude, float64 longitude, class Microsoft.Maui.ApplicationModel.MapLaunchOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Map.OpenAsync(System.Double,System.Double,Microsoft.Maui.ApplicationModel.MapLaunchOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OpenAsync (latitude As Double, longitude As Double, options As MapLaunchOptions) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ OpenAsync(double latitude, double longitude, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberSignature Language="F#" Value="static member OpenAsync : double * double * Microsoft.Maui.ApplicationModel.MapLaunchOptions -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.Map.OpenAsync (latitude, longitude, options)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ OpenAsync(double latitude, double longitude, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -204,8 +204,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; TryOpenAsync(class Microsoft.Maui.Devices.Sensors.Location location) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Map.TryOpenAsync(Microsoft.Maui.Devices.Sensors.Location)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryOpenAsync (location As Location) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(Microsoft::Maui::Devices::Sensors::Location ^ location);" />
       <MemberSignature Language="F#" Value="static member TryOpenAsync : Microsoft.Maui.Devices.Sensors.Location -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.ApplicationModel.Map.TryOpenAsync location" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(Microsoft::Maui::Devices::Sensors::Location ^ location);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -229,8 +229,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; TryOpenAsync(class Microsoft.Maui.Devices.Sensors.Placemark placemark) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Map.TryOpenAsync(Microsoft.Maui.Devices.Sensors.Placemark)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryOpenAsync (placemark As Placemark) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(Microsoft::Maui::Devices::Sensors::Placemark ^ placemark);" />
       <MemberSignature Language="F#" Value="static member TryOpenAsync : Microsoft.Maui.Devices.Sensors.Placemark -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.ApplicationModel.Map.TryOpenAsync placemark" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(Microsoft::Maui::Devices::Sensors::Placemark ^ placemark);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -254,8 +254,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; TryOpenAsync(class Microsoft.Maui.Devices.Sensors.Location location, class Microsoft.Maui.ApplicationModel.MapLaunchOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Map.TryOpenAsync(Microsoft.Maui.Devices.Sensors.Location,Microsoft.Maui.ApplicationModel.MapLaunchOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryOpenAsync (location As Location, options As MapLaunchOptions) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(Microsoft::Maui::Devices::Sensors::Location ^ location, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberSignature Language="F#" Value="static member TryOpenAsync : Microsoft.Maui.Devices.Sensors.Location * Microsoft.Maui.ApplicationModel.MapLaunchOptions -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.ApplicationModel.Map.TryOpenAsync (location, options)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(Microsoft::Maui::Devices::Sensors::Location ^ location, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -281,8 +281,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; TryOpenAsync(class Microsoft.Maui.Devices.Sensors.Placemark placemark, class Microsoft.Maui.ApplicationModel.MapLaunchOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Map.TryOpenAsync(Microsoft.Maui.Devices.Sensors.Placemark,Microsoft.Maui.ApplicationModel.MapLaunchOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryOpenAsync (placemark As Placemark, options As MapLaunchOptions) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(Microsoft::Maui::Devices::Sensors::Placemark ^ placemark, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberSignature Language="F#" Value="static member TryOpenAsync : Microsoft.Maui.Devices.Sensors.Placemark * Microsoft.Maui.ApplicationModel.MapLaunchOptions -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.ApplicationModel.Map.TryOpenAsync (placemark, options)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(Microsoft::Maui::Devices::Sensors::Placemark ^ placemark, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -308,8 +308,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; TryOpenAsync(float64 latitude, float64 longitude) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Map.TryOpenAsync(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryOpenAsync (latitude As Double, longitude As Double) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(double latitude, double longitude);" />
       <MemberSignature Language="F#" Value="static member TryOpenAsync : double * double -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.ApplicationModel.Map.TryOpenAsync (latitude, longitude)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(double latitude, double longitude);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -335,8 +335,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; TryOpenAsync(float64 latitude, float64 longitude, class Microsoft.Maui.ApplicationModel.MapLaunchOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Map.TryOpenAsync(System.Double,System.Double,Microsoft.Maui.ApplicationModel.MapLaunchOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryOpenAsync (latitude As Double, longitude As Double, options As MapLaunchOptions) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(double latitude, double longitude, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberSignature Language="F#" Value="static member TryOpenAsync : double * double * Microsoft.Maui.ApplicationModel.MapLaunchOptions -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.ApplicationModel.Map.TryOpenAsync (latitude, longitude, options)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(double latitude, double longitude, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IEditorHandler implements class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.IEditorHandler" />
   <TypeSignature Language="VB.NET" Value="Public Interface IEditorHandler&#xA;Implements IViewHandler" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IEditorHandler : Microsoft::Maui::IViewHandler" />
   <TypeSignature Language="F#" Value="type IEditorHandler = interface&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IEditorHandler : Microsoft::Maui::IViewHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -27,8 +27,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.IEditorHandler.PlatformView" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PlatformView As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.PlatformView : obj" Usage="Microsoft.Maui.Handlers.IEditorHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IElementHandler.PlatformView</InterfaceMember>
@@ -51,8 +51,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IEditor VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.IEditorHandler.VirtualView" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VirtualView As IEditor" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IEditor ^ VirtualView { Microsoft::Maui::IEditor ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.VirtualView : Microsoft.Maui.IEditor" Usage="Microsoft.Maui.Handlers.IEditorHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IEditor ^ VirtualView { Microsoft::Maui::IEditor ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

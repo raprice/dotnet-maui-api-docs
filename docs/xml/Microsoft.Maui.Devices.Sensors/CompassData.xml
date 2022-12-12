@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit CompassData extends System.ValueType implements class System.IEquatable`1&lt;valuetype Microsoft.Maui.Devices.Sensors.CompassData&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.Sensors.CompassData" />
   <TypeSignature Language="VB.NET" Value="Public Structure CompassData&#xA;Implements IEquatable(Of CompassData)" />
-  <TypeSignature Language="C++ CLI" Value="public value class CompassData : IEquatable&lt;Microsoft::Maui::Devices::Sensors::CompassData&gt;" />
   <TypeSignature Language="F#" Value="type CompassData = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class CompassData : IEquatable&lt;Microsoft::Maui::Devices::Sensors::CompassData&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -35,8 +35,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 headingMagneticNorth) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.CompassData.#ctor(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (headingMagneticNorth As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompassData(double headingMagneticNorth);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Devices.Sensors.CompassData : double -&gt; Microsoft.Maui.Devices.Sensors.CompassData" Usage="new Microsoft.Maui.Devices.Sensors.CompassData headingMagneticNorth" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompassData(double headingMagneticNorth);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -56,8 +56,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Microsoft.Maui.Devices.Sensors.CompassData other) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.CompassData.Equals(Microsoft.Maui.Devices.Sensors.CompassData)" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As CompassData) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(Microsoft::Maui::Devices::Sensors::CompassData other);" />
       <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Maui.Devices.Sensors.CompassData -&gt; bool" Usage="compassData.Equals other" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(Microsoft::Maui::Devices::Sensors::CompassData other);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
@@ -84,8 +84,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.CompassData.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="compassData.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -109,8 +109,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.CompassData.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="compassData.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -131,8 +131,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 HeadingMagneticNorth" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.CompassData.HeadingMagneticNorth" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HeadingMagneticNorth As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HeadingMagneticNorth { double get(); };" />
       <MemberSignature Language="F#" Value="member this.HeadingMagneticNorth : double" Usage="Microsoft.Maui.Devices.Sensors.CompassData.HeadingMagneticNorth" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HeadingMagneticNorth { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -152,8 +152,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Maui.Devices.Sensors.CompassData left, valuetype Microsoft.Maui.Devices.Sensors.CompassData right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.CompassData.op_Equality(Microsoft.Maui.Devices.Sensors.CompassData,Microsoft.Maui.Devices.Sensors.CompassData)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As CompassData, right As CompassData) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Devices::Sensors::CompassData left, Microsoft::Maui::Devices::Sensors::CompassData right);" />
       <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Maui.Devices.Sensors.CompassData * Microsoft.Maui.Devices.Sensors.CompassData -&gt; bool" Usage="left = right" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Devices::Sensors::CompassData left, Microsoft::Maui::Devices::Sensors::CompassData right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -179,8 +179,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Maui.Devices.Sensors.CompassData left, valuetype Microsoft.Maui.Devices.Sensors.CompassData right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.CompassData.op_Inequality(Microsoft.Maui.Devices.Sensors.CompassData,Microsoft.Maui.Devices.Sensors.CompassData)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As CompassData, right As CompassData) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Devices::Sensors::CompassData left, Microsoft::Maui::Devices::Sensors::CompassData right);" />
       <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Maui.Devices.Sensors.CompassData * Microsoft.Maui.Devices.Sensors.CompassData -&gt; bool" Usage="Microsoft.Maui.Devices.Sensors.CompassData.op_Inequality (left, right)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Devices::Sensors::CompassData left, Microsoft::Maui::Devices::Sensors::CompassData right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -206,8 +206,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.CompassData.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="compassData.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

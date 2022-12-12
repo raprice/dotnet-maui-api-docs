@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TransformGroup extends Microsoft.Maui.Controls.Shapes.Transform" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.TransformGroup" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TransformGroup&#xA;Inherits Transform" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TransformGroup sealed : Microsoft::Maui::Controls::Shapes::Transform" />
   <TypeSignature Language="F#" Value="type TransformGroup = class&#xA;    inherit Transform" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TransformGroup sealed : Microsoft::Maui::Controls::Shapes::Transform" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Shapes.TransformCollection Children" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.TransformGroup.Children" />
       <MemberSignature Language="VB.NET" Value="Public Property Children As TransformCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Shapes::TransformCollection ^ Children { Microsoft::Maui::Controls::Shapes::TransformCollection ^ get(); void set(Microsoft::Maui::Controls::Shapes::TransformCollection ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Children : Microsoft.Maui.Controls.Shapes.TransformCollection with get, set" Usage="Microsoft.Maui.Controls.Shapes.TransformGroup.Children" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Shapes::TransformCollection ^ Children { Microsoft::Maui::Controls::Shapes::TransformCollection ^ get(); void set(Microsoft::Maui::Controls::Shapes::TransformCollection ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ChildrenProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.TransformGroup.ChildrenProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ChildrenProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ChildrenProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ChildrenProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.TransformGroup.ChildrenProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ChildrenProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

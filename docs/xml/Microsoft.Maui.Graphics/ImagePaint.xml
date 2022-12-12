@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ImagePaint extends Microsoft.Maui.Graphics.Paint" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.ImagePaint" />
   <TypeSignature Language="VB.NET" Value="Public Class ImagePaint&#xA;Inherits Paint" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ImagePaint : Microsoft::Maui::Graphics::Paint" />
   <TypeSignature Language="F#" Value="type ImagePaint = class&#xA;    inherit Paint" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImagePaint : Microsoft::Maui::Graphics::Paint" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.IImage Image" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.ImagePaint.Image" />
       <MemberSignature Language="VB.NET" Value="Public Property Image As IImage" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IImage ^ Image { Microsoft::Maui::Graphics::IImage ^ get(); void set(Microsoft::Maui::Graphics::IImage ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Image : Microsoft.Maui.Graphics.IImage with get, set" Usage="Microsoft.Maui.Graphics.ImagePaint.Image" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IImage ^ Image { Microsoft::Maui::Graphics::IImage ^ get(); void set(Microsoft::Maui::Graphics::IImage ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsTransparent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.ImagePaint.IsTransparent" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsTransparent As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsTransparent { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsTransparent : bool" Usage="Microsoft.Maui.Graphics.ImagePaint.IsTransparent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsTransparent { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TwoPaneViewPriority extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Foldable.TwoPaneViewPriority" />
   <TypeSignature Language="VB.NET" Value="Public Enum TwoPaneViewPriority" />
-  <TypeSignature Language="C++ CLI" Value="public enum class TwoPaneViewPriority" />
   <TypeSignature Language="F#" Value="type TwoPaneViewPriority = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class TwoPaneViewPriority" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -25,8 +25,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.Foldable.TwoPaneViewPriority Pane1 = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneViewPriority.Pane1" />
       <MemberSignature Language="VB.NET" Value="Pane1" />
-      <MemberSignature Language="C++ CLI" Value="Pane1" />
       <MemberSignature Language="F#" Value="Pane1 = 0" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneViewPriority.Pane1" />
+      <MemberSignature Language="C++ CLI" Value="Pane1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.Foldable.TwoPaneViewPriority Pane2 = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneViewPriority.Pane2" />
       <MemberSignature Language="VB.NET" Value="Pane2" />
-      <MemberSignature Language="C++ CLI" Value="Pane2" />
       <MemberSignature Language="F#" Value="Pane2 = 1" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneViewPriority.Pane2" />
+      <MemberSignature Language="C++ CLI" Value="Pane2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>

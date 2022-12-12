@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPageController implements class Microsoft.Maui.Controls.IElementController, class Microsoft.Maui.Controls.IVisualElementController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IPageController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPageController&#xA;Implements IVisualElementController" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IPageController : Microsoft::Maui::Controls::IVisualElementController" />
   <TypeSignature Language="F#" Value="type IPageController = interface&#xA;    interface IVisualElementController&#xA;    interface IElementController" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPageController : Microsoft::Maui::Controls::IVisualElementController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -27,8 +27,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Rect ContainerArea" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IPageController.ContainerArea" />
       <MemberSignature Language="VB.NET" Value="Public Property ContainerArea As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect ContainerArea { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberSignature Language="F#" Value="member this.ContainerArea : Microsoft.Maui.Graphics.Rect with get, set" Usage="Microsoft.Maui.Controls.IPageController.ContainerArea" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect ContainerArea { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IgnoresContainerArea" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IPageController.IgnoresContainerArea" />
       <MemberSignature Language="VB.NET" Value="Public Property IgnoresContainerArea As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IgnoresContainerArea { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IgnoresContainerArea : bool with get, set" Usage="Microsoft.Maui.Controls.IPageController.IgnoresContainerArea" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IgnoresContainerArea { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ObservableCollection`1&lt;class Microsoft.Maui.Controls.Element&gt; InternalChildren" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IPageController.InternalChildren" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternalChildren As ObservableCollection(Of Element)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::ObservableCollection&lt;Microsoft::Maui::Controls::Element ^&gt; ^ InternalChildren { System::Collections::ObjectModel::ObservableCollection&lt;Microsoft::Maui::Controls::Element ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.InternalChildren : System.Collections.ObjectModel.ObservableCollection&lt;Microsoft.Maui.Controls.Element&gt;" Usage="Microsoft.Maui.Controls.IPageController.InternalChildren" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::ObservableCollection&lt;Microsoft::Maui::Controls::Element ^&gt; ^ InternalChildren { System::Collections::ObjectModel::ObservableCollection&lt;Microsoft::Maui::Controls::Element ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -90,8 +90,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendAppearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IPageController.SendAppearing" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendAppearing ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAppearing();" />
       <MemberSignature Language="F#" Value="abstract member SendAppearing : unit -&gt; unit" Usage="iPageController.SendAppearing " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAppearing();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -111,8 +111,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendDisappearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IPageController.SendDisappearing" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendDisappearing ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendDisappearing();" />
       <MemberSignature Language="F#" Value="abstract member SendDisappearing : unit -&gt; unit" Usage="iPageController.SendDisappearing " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendDisappearing();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

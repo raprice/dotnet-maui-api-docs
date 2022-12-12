@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FoldEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Foldable.FoldEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class FoldEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FoldEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type FoldEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FoldEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Rect FoldingFeatureBounds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Foldable.FoldEventArgs.FoldingFeatureBounds" />
       <MemberSignature Language="VB.NET" Value="Public Property FoldingFeatureBounds As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect FoldingFeatureBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberSignature Language="F#" Value="member this.FoldingFeatureBounds : Microsoft.Maui.Graphics.Rect with get, set" Usage="Microsoft.Maui.Foldable.FoldEventArgs.FoldingFeatureBounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect FoldingFeatureBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool isSeparating" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Foldable.FoldEventArgs.isSeparating" />
       <MemberSignature Language="VB.NET" Value="Public Property isSeparating As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool isSeparating { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.isSeparating : bool with get, set" Usage="Microsoft.Maui.Foldable.FoldEventArgs.isSeparating" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool isSeparating { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Foldable.FoldEventArgs.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="foldEventArgs.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -104,8 +104,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Rect WindowBounds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Foldable.FoldEventArgs.WindowBounds" />
       <MemberSignature Language="VB.NET" Value="Public Property WindowBounds As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect WindowBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberSignature Language="F#" Value="member this.WindowBounds : Microsoft.Maui.Graphics.Rect with get, set" Usage="Microsoft.Maui.Foldable.FoldEventArgs.WindowBounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect WindowBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

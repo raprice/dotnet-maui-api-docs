@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ImageSourcesMauiAppBuilderExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Hosting.ImageSourcesMauiAppBuilderExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module ImageSourcesMauiAppBuilderExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ImageSourcesMauiAppBuilderExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type ImageSourcesMauiAppBuilderExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImageSourcesMauiAppBuilderExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.MauiAppBuilder ConfigureImageSources(class Microsoft.Maui.Hosting.MauiAppBuilder builder) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Hosting.ImageSourcesMauiAppBuilderExtensions.ConfigureImageSources(Microsoft.Maui.Hosting.MauiAppBuilder)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ConfigureImageSources (builder As MauiAppBuilder) As MauiAppBuilder" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ ConfigureImageSources(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder);" />
       <MemberSignature Language="F#" Value="static member ConfigureImageSources : Microsoft.Maui.Hosting.MauiAppBuilder -&gt; Microsoft.Maui.Hosting.MauiAppBuilder" Usage="Microsoft.Maui.Hosting.ImageSourcesMauiAppBuilderExtensions.ConfigureImageSources builder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ ConfigureImageSources(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.MauiAppBuilder ConfigureImageSources(class Microsoft.Maui.Hosting.MauiAppBuilder builder, class System.Action`1&lt;class Microsoft.Maui.Hosting.IImageSourceServiceCollection&gt; configureDelegate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Hosting.ImageSourcesMauiAppBuilderExtensions.ConfigureImageSources(Microsoft.Maui.Hosting.MauiAppBuilder,System.Action{Microsoft.Maui.Hosting.IImageSourceServiceCollection})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ConfigureImageSources (builder As MauiAppBuilder, configureDelegate As Action(Of IImageSourceServiceCollection)) As MauiAppBuilder" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ ConfigureImageSources(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder, Action&lt;Microsoft::Maui::Hosting::IImageSourceServiceCollection ^&gt; ^ configureDelegate);" />
       <MemberSignature Language="F#" Value="static member ConfigureImageSources : Microsoft.Maui.Hosting.MauiAppBuilder * Action&lt;Microsoft.Maui.Hosting.IImageSourceServiceCollection&gt; -&gt; Microsoft.Maui.Hosting.MauiAppBuilder" Usage="Microsoft.Maui.Hosting.ImageSourcesMauiAppBuilderExtensions.ConfigureImageSources (builder, configureDelegate)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ ConfigureImageSources(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder, Action&lt;Microsoft::Maui::Hosting::IImageSourceServiceCollection ^&gt; ^ configureDelegate);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

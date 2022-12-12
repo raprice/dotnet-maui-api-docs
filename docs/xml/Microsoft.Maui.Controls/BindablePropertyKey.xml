@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit BindablePropertyKey extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.BindablePropertyKey" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class BindablePropertyKey" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BindablePropertyKey sealed" />
   <TypeSignature Language="F#" Value="type BindablePropertyKey = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BindablePropertyKey sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -41,8 +41,8 @@ class Bindable : BindableObject
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.BindableProperty BindableProperty" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BindablePropertyKey.BindableProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BindableProperty As BindableProperty" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindableProperty ^ BindableProperty { Microsoft::Maui::Controls::BindableProperty ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.BindableProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BindablePropertyKey.BindableProperty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindableProperty ^ BindableProperty { Microsoft::Maui::Controls::BindableProperty ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

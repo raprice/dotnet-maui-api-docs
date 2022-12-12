@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SensorSpeed extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.Sensors.SensorSpeed" />
   <TypeSignature Language="VB.NET" Value="Public Enum SensorSpeed" />
-  <TypeSignature Language="C++ CLI" Value="public enum class SensorSpeed" />
   <TypeSignature Language="F#" Value="type SensorSpeed = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class SensorSpeed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.Sensors.SensorSpeed Default = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.Sensors.SensorSpeed.Default" />
       <MemberSignature Language="VB.NET" Value="Default" />
-      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.Maui.Devices.Sensors.SensorSpeed.Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.Sensors.SensorSpeed Fastest = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.Sensors.SensorSpeed.Fastest" />
       <MemberSignature Language="VB.NET" Value="Fastest" />
-      <MemberSignature Language="C++ CLI" Value="Fastest" />
       <MemberSignature Language="F#" Value="Fastest = 3" Usage="Microsoft.Maui.Devices.Sensors.SensorSpeed.Fastest" />
+      <MemberSignature Language="C++ CLI" Value="Fastest" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.Sensors.SensorSpeed Game = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.Sensors.SensorSpeed.Game" />
       <MemberSignature Language="VB.NET" Value="Game" />
-      <MemberSignature Language="C++ CLI" Value="Game" />
       <MemberSignature Language="F#" Value="Game = 2" Usage="Microsoft.Maui.Devices.Sensors.SensorSpeed.Game" />
+      <MemberSignature Language="C++ CLI" Value="Game" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.Sensors.SensorSpeed UI = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.Sensors.SensorSpeed.UI" />
       <MemberSignature Language="VB.NET" Value="UI" />
-      <MemberSignature Language="C++ CLI" Value="UI" />
       <MemberSignature Language="F#" Value="UI = 1" Usage="Microsoft.Maui.Devices.Sensors.SensorSpeed.UI" />
+      <MemberSignature Language="C++ CLI" Value="UI" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

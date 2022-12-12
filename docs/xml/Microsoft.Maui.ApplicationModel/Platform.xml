@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Platform extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Platform" />
   <TypeSignature Language="VB.NET" Value="Public Class Platform" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Platform abstract sealed" />
   <TypeSignature Language="F#" Value="type Platform = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Platform abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

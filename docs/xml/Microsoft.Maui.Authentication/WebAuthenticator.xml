@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit WebAuthenticator extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Authentication.WebAuthenticator" />
   <TypeSignature Language="VB.NET" Value="Public Class WebAuthenticator" />
-  <TypeSignature Language="C++ CLI" Value="public ref class WebAuthenticator abstract sealed" />
   <TypeSignature Language="F#" Value="type WebAuthenticator = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WebAuthenticator abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Authentication.WebAuthenticatorResult&gt; AuthenticateAsync(class Microsoft.Maui.Authentication.WebAuthenticatorOptions webAuthenticatorOptions) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Authentication.WebAuthenticator.AuthenticateAsync(Microsoft.Maui.Authentication.WebAuthenticatorOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AuthenticateAsync (webAuthenticatorOptions As WebAuthenticatorOptions) As Task(Of WebAuthenticatorResult)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::Authentication::WebAuthenticatorResult ^&gt; ^ AuthenticateAsync(Microsoft::Maui::Authentication::WebAuthenticatorOptions ^ webAuthenticatorOptions);" />
       <MemberSignature Language="F#" Value="static member AuthenticateAsync : Microsoft.Maui.Authentication.WebAuthenticatorOptions -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Authentication.WebAuthenticatorResult&gt;" Usage="Microsoft.Maui.Authentication.WebAuthenticator.AuthenticateAsync webAuthenticatorOptions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::Authentication::WebAuthenticatorResult ^&gt; ^ AuthenticateAsync(Microsoft::Maui::Authentication::WebAuthenticatorOptions ^ webAuthenticatorOptions);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Authentication.WebAuthenticatorResult&gt; AuthenticateAsync(class System.Uri url, class System.Uri callbackUrl) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Authentication.WebAuthenticator.AuthenticateAsync(System.Uri,System.Uri)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AuthenticateAsync (url As Uri, callbackUrl As Uri) As Task(Of WebAuthenticatorResult)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::Authentication::WebAuthenticatorResult ^&gt; ^ AuthenticateAsync(Uri ^ url, Uri ^ callbackUrl);" />
       <MemberSignature Language="F#" Value="static member AuthenticateAsync : Uri * Uri -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Authentication.WebAuthenticatorResult&gt;" Usage="Microsoft.Maui.Authentication.WebAuthenticator.AuthenticateAsync (url, callbackUrl)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::Authentication::WebAuthenticatorResult ^&gt; ^ AuthenticateAsync(Uri ^ url, Uri ^ callbackUrl);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Authentication.IWebAuthenticator Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Authentication.WebAuthenticator.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As IWebAuthenticator" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Authentication::IWebAuthenticator ^ Default { Microsoft::Maui::Authentication::IWebAuthenticator ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.Authentication.IWebAuthenticator" Usage="Microsoft.Maui.Authentication.WebAuthenticator.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Authentication::IWebAuthenticator ^ Default { Microsoft::Maui::Authentication::IWebAuthenticator ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

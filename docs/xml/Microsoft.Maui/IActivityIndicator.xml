@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IActivityIndicator implements class Microsoft.Maui.IElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IActivityIndicator" />
   <TypeSignature Language="VB.NET" Value="Public Interface IActivityIndicator&#xA;Implements IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IActivityIndicator : Microsoft::Maui::IView" />
   <TypeSignature Language="F#" Value="type IActivityIndicator = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IActivityIndicator : Microsoft::Maui::IView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color Color" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IActivityIndicator.Color" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Color As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ Color { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Color : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.IActivityIndicator.Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ Color { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -56,8 +56,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsRunning" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IActivityIndicator.IsRunning" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsRunning As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRunning { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsRunning : bool" Usage="Microsoft.Maui.IActivityIndicator.IsRunning" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRunning { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

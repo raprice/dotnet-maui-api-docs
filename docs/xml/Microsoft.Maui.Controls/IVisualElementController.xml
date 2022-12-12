@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IVisualElementController implements class Microsoft.Maui.Controls.IElementController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IVisualElementController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IVisualElementController&#xA;Implements IElementController" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IVisualElementController : Microsoft::Maui::Controls::IElementController" />
   <TypeSignature Language="F#" Value="type IVisualElementController = interface&#xA;    interface IElementController" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IVisualElementController : Microsoft::Maui::Controls::IElementController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -24,8 +24,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.Internals.EventArg`1&lt;class Microsoft.Maui.Controls.VisualElement&gt;&gt; BatchCommitted" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.IVisualElementController.BatchCommitted" />
       <MemberSignature Language="VB.NET" Value="Event BatchCommitted As EventHandler(Of EventArg(Of VisualElement)) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::Internals::EventArg&lt;Microsoft::Maui::Controls::VisualElement ^&gt; ^&gt; ^ BatchCommitted;" />
       <MemberSignature Language="F#" Value="member this.BatchCommitted : EventHandler&lt;Microsoft.Maui.Controls.Internals.EventArg&lt;Microsoft.Maui.Controls.VisualElement&gt;&gt; " Usage="member this.BatchCommitted : System.EventHandler&lt;Microsoft.Maui.Controls.Internals.EventArg&lt;Microsoft.Maui.Controls.VisualElement&gt;&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::Internals::EventArg&lt;Microsoft::Maui::Controls::VisualElement ^&gt; ^&gt; ^ BatchCommitted;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Batched" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IVisualElementController.Batched" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Batched As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Batched { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.Batched : bool" Usage="Microsoft.Maui.Controls.IVisualElementController.Batched" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Batched { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool DisableLayout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IVisualElementController.DisableLayout" />
       <MemberSignature Language="VB.NET" Value="Public Property DisableLayout As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisableLayout { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.DisableLayout : bool with get, set" Usage="Microsoft.Maui.Controls.IVisualElementController.DisableLayout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisableLayout { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.EffectiveFlowDirection EffectiveFlowDirection" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IVisualElementController.EffectiveFlowDirection" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EffectiveFlowDirection As EffectiveFlowDirection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::EffectiveFlowDirection EffectiveFlowDirection { Microsoft::Maui::Controls::EffectiveFlowDirection get(); };" />
       <MemberSignature Language="F#" Value="member this.EffectiveFlowDirection : Microsoft.Maui.Controls.EffectiveFlowDirection" Usage="Microsoft.Maui.Controls.IVisualElementController.EffectiveFlowDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::EffectiveFlowDirection EffectiveFlowDirection { Microsoft::Maui::Controls::EffectiveFlowDirection get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.VisualElement/FocusRequestArgs&gt; FocusChangeRequested" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.IVisualElementController.FocusChangeRequested" />
       <MemberSignature Language="VB.NET" Value="Event FocusChangeRequested As EventHandler(Of VisualElement.FocusRequestArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::VisualElement::FocusRequestArgs ^&gt; ^ FocusChangeRequested;" />
       <MemberSignature Language="F#" Value="member this.FocusChangeRequested : EventHandler&lt;Microsoft.Maui.Controls.VisualElement.FocusRequestArgs&gt; " Usage="member this.FocusChangeRequested : System.EventHandler&lt;Microsoft.Maui.Controls.VisualElement.FocusRequestArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::VisualElement::FocusRequestArgs ^&gt; ^ FocusChangeRequested;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -127,8 +127,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InvalidateMeasure(valuetype Microsoft.Maui.Controls.Internals.InvalidationTrigger trigger) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IVisualElementController.InvalidateMeasure(Microsoft.Maui.Controls.Internals.InvalidationTrigger)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InvalidateMeasure (trigger As InvalidationTrigger)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InvalidateMeasure(Microsoft::Maui::Controls::Internals::InvalidationTrigger trigger);" />
       <MemberSignature Language="F#" Value="abstract member InvalidateMeasure : Microsoft.Maui.Controls.Internals.InvalidationTrigger -&gt; unit" Usage="iVisualElementController.InvalidateMeasure trigger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InvalidateMeasure(Microsoft::Maui::Controls::Internals::InvalidationTrigger trigger);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -151,8 +151,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsInPlatformLayout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IVisualElementController.IsInPlatformLayout" />
       <MemberSignature Language="VB.NET" Value="Public Property IsInPlatformLayout As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInPlatformLayout { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsInPlatformLayout : bool with get, set" Usage="Microsoft.Maui.Controls.IVisualElementController.IsInPlatformLayout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInPlatformLayout { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -172,8 +172,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPlatformEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IVisualElementController.IsPlatformEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPlatformEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPlatformEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsPlatformEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.IVisualElementController.IsPlatformEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPlatformEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -193,8 +193,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPlatformStateConsistent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IVisualElementController.IsPlatformStateConsistent" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPlatformStateConsistent As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPlatformStateConsistent { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsPlatformStateConsistent : bool with get, set" Usage="Microsoft.Maui.Controls.IVisualElementController.IsPlatformStateConsistent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPlatformStateConsistent { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -214,8 +214,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Internals.NavigationProxy NavigationProxy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IVisualElementController.NavigationProxy" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NavigationProxy As NavigationProxy" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Internals::NavigationProxy ^ NavigationProxy { Microsoft::Maui::Controls::Internals::NavigationProxy ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.NavigationProxy : Microsoft.Maui.Controls.Internals.NavigationProxy" Usage="Microsoft.Maui.Controls.IVisualElementController.NavigationProxy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Internals::NavigationProxy ^ NavigationProxy { Microsoft::Maui::Controls::Internals::NavigationProxy ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -235,8 +235,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PlatformSizeChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IVisualElementController.PlatformSizeChanged" />
       <MemberSignature Language="VB.NET" Value="Public Sub PlatformSizeChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PlatformSizeChanged();" />
       <MemberSignature Language="F#" Value="abstract member PlatformSizeChanged : unit -&gt; unit" Usage="iVisualElementController.PlatformSizeChanged " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PlatformSizeChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

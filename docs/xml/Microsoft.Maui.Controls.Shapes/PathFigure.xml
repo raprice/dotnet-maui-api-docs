@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PathFigure extends Microsoft.Maui.Controls.BindableObject implements class Microsoft.Maui.Controls.IAnimatable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.PathFigure" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PathFigure&#xA;Inherits BindableObject&#xA;Implements IAnimatable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PathFigure sealed : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::IAnimatable" />
   <TypeSignature Language="F#" Value="type PathFigure = class&#xA;    inherit BindableObject&#xA;    interface IAnimatable" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PathFigure sealed : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::IAnimatable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BatchBegin() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.PathFigure.BatchBegin" />
       <MemberSignature Language="VB.NET" Value="Public Sub BatchBegin ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void BatchBegin();" />
       <MemberSignature Language="F#" Value="abstract member BatchBegin : unit -&gt; unit&#xA;override this.BatchBegin : unit -&gt; unit" Usage="pathFigure.BatchBegin " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void BatchBegin();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IAnimatable.BatchBegin</InterfaceMember>
@@ -74,8 +74,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BatchCommit() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.PathFigure.BatchCommit" />
       <MemberSignature Language="VB.NET" Value="Public Sub BatchCommit ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void BatchCommit();" />
       <MemberSignature Language="F#" Value="abstract member BatchCommit : unit -&gt; unit&#xA;override this.BatchCommit : unit -&gt; unit" Usage="pathFigure.BatchCommit " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void BatchCommit();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IAnimatable.BatchCommit</InterfaceMember>
@@ -98,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsClosed" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.PathFigure.IsClosed" />
       <MemberSignature Language="VB.NET" Value="Public Property IsClosed As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsClosed { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsClosed : bool with get, set" Usage="Microsoft.Maui.Controls.Shapes.PathFigure.IsClosed" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsClosed { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsClosedProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.PathFigure.IsClosedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsClosedProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsClosedProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsClosedProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.PathFigure.IsClosedProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsClosedProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -139,8 +139,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsFilled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.PathFigure.IsFilled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsFilled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFilled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsFilled : bool with get, set" Usage="Microsoft.Maui.Controls.Shapes.PathFigure.IsFilled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFilled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -160,8 +160,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsFilledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.PathFigure.IsFilledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsFilledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsFilledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsFilledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.PathFigure.IsFilledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsFilledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -180,8 +180,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Shapes.PathSegmentCollection Segments" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.PathFigure.Segments" />
       <MemberSignature Language="VB.NET" Value="Public Property Segments As PathSegmentCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Shapes::PathSegmentCollection ^ Segments { Microsoft::Maui::Controls::Shapes::PathSegmentCollection ^ get(); void set(Microsoft::Maui::Controls::Shapes::PathSegmentCollection ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Segments : Microsoft.Maui.Controls.Shapes.PathSegmentCollection with get, set" Usage="Microsoft.Maui.Controls.Shapes.PathFigure.Segments" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Shapes::PathSegmentCollection ^ Segments { Microsoft::Maui::Controls::Shapes::PathSegmentCollection ^ get(); void set(Microsoft::Maui::Controls::Shapes::PathSegmentCollection ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -201,8 +201,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SegmentsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.PathFigure.SegmentsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SegmentsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SegmentsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SegmentsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.PathFigure.SegmentsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SegmentsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -221,8 +221,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Point StartPoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.PathFigure.StartPoint" />
       <MemberSignature Language="VB.NET" Value="Public Property StartPoint As Point" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point StartPoint { Microsoft::Maui::Graphics::Point get(); void set(Microsoft::Maui::Graphics::Point value); };" />
       <MemberSignature Language="F#" Value="member this.StartPoint : Microsoft.Maui.Graphics.Point with get, set" Usage="Microsoft.Maui.Controls.Shapes.PathFigure.StartPoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point StartPoint { Microsoft::Maui::Graphics::Point get(); void set(Microsoft::Maui::Graphics::Point value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -242,8 +242,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StartPointProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.PathFigure.StartPointProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StartPointProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StartPointProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable StartPointProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.PathFigure.StartPointProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StartPointProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

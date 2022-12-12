@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILayoutHandler implements class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ILayoutHandler" />
   <TypeSignature Language="VB.NET" Value="Public Interface ILayoutHandler&#xA;Implements IViewHandler" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ILayoutHandler : Microsoft::Maui::IViewHandler" />
   <TypeSignature Language="F#" Value="type ILayoutHandler = interface&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ILayoutHandler : Microsoft::Maui::IViewHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -27,8 +27,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ILayoutHandler.Add(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (view As IView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="abstract member Add : Microsoft.Maui.IView -&gt; unit" Usage="iLayoutHandler.Add view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -51,8 +51,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ILayoutHandler.Clear" />
       <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
       <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit" Usage="iLayoutHandler.Clear " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -72,8 +72,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Insert(int32 index, class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ILayoutHandler.Insert(System.Int32,Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Insert (index As Integer, view As IView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Insert(int index, Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="abstract member Insert : int * Microsoft.Maui.IView -&gt; unit" Usage="iLayoutHandler.Insert (index, view)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Insert(int index, Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -98,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ILayoutHandler.PlatformView" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PlatformView As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.PlatformView : obj" Usage="Microsoft.Maui.ILayoutHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IElementHandler.PlatformView</InterfaceMember>
@@ -122,8 +122,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove(class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ILayoutHandler.Remove(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Remove (view As IView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="abstract member Remove : Microsoft.Maui.IView -&gt; unit" Usage="iLayoutHandler.Remove view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -146,8 +146,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Update(int32 index, class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ILayoutHandler.Update(System.Int32,Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Update (index As Integer, view As IView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(int index, Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="abstract member Update : int * Microsoft.Maui.IView -&gt; unit" Usage="iLayoutHandler.Update (index, view)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(int index, Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -172,8 +172,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UpdateZIndex(class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ILayoutHandler.UpdateZIndex(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Sub UpdateZIndex (view As IView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UpdateZIndex(Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="abstract member UpdateZIndex : Microsoft.Maui.IView -&gt; unit" Usage="iLayoutHandler.UpdateZIndex view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UpdateZIndex(Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -196,8 +196,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.ILayout VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ILayoutHandler.VirtualView" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VirtualView As ILayout" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ILayout ^ VirtualView { Microsoft::Maui::ILayout ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.VirtualView : Microsoft.Maui.ILayout" Usage="Microsoft.Maui.ILayoutHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ILayout ^ VirtualView { Microsoft::Maui::ILayout ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

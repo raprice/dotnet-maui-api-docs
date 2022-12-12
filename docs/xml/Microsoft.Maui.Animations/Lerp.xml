@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Lerp extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Animations.Lerp" />
   <TypeSignature Language="VB.NET" Value="Public Class Lerp" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Lerp" />
   <TypeSignature Language="F#" Value="type Lerp = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Lerp" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Animations.Lerp/LerpDelegate Calculate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Animations.Lerp.Calculate" />
       <MemberSignature Language="VB.NET" Value="Public Property Calculate As Lerp.LerpDelegate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Animations::Lerp::LerpDelegate ^ Calculate { Microsoft::Maui::Animations::Lerp::LerpDelegate ^ get(); void set(Microsoft::Maui::Animations::Lerp::LerpDelegate ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Calculate : Microsoft.Maui.Animations.Lerp.LerpDelegate with get, set" Usage="Microsoft.Maui.Animations.Lerp.Calculate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Animations::Lerp::LerpDelegate ^ Calculate { Microsoft::Maui::Animations::Lerp::LerpDelegate ^ get(); void set(Microsoft::Maui::Animations::Lerp::LerpDelegate ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Animations.Lerp GetLerp(class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.Lerp.GetLerp(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetLerp (type As Type) As Lerp" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Animations::Lerp ^ GetLerp(Type ^ type);" />
       <MemberSignature Language="F#" Value="static member GetLerp : Type -&gt; Microsoft.Maui.Animations.Lerp" Usage="Microsoft.Maui.Animations.Lerp.GetLerp type" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Animations::Lerp ^ GetLerp(Type ^ type);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Collections.Generic.Dictionary`2&lt;class System.Type, class Microsoft.Maui.Animations.Lerp&gt; Lerps" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Animations.Lerp.Lerps" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Lerps As Dictionary(Of Type, Lerp) " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Collections::Generic::Dictionary&lt;Type ^, Microsoft::Maui::Animations::Lerp ^&gt; ^ Lerps;" />
       <MemberSignature Language="F#" Value=" staticval mutable Lerps : System.Collections.Generic.Dictionary&lt;Type, Microsoft.Maui.Animations.Lerp&gt;" Usage="Microsoft.Maui.Animations.Lerp.Lerps" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Collections::Generic::Dictionary&lt;Type ^, Microsoft::Maui::Animations::Lerp ^&gt; ^ Lerps;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

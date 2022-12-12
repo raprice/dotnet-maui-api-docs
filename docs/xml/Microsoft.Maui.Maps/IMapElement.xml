@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMapElement implements class Microsoft.Maui.IElement, class Microsoft.Maui.IStroke" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Maps.IMapElement" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMapElement&#xA;Implements IElement, IStroke" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IMapElement : Microsoft::Maui::IElement, Microsoft::Maui::IStroke" />
   <TypeSignature Language="F#" Value="type IMapElement = interface&#xA;    interface IElement&#xA;    interface IStroke" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IMapElement : Microsoft::Maui::IElement, Microsoft::Maui::IStroke" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -27,8 +27,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object MapElementId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Maps.IMapElement.MapElementId" />
       <MemberSignature Language="VB.NET" Value="Public Property MapElementId As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MapElementId { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.MapElementId : obj with get, set" Usage="Microsoft.Maui.Maps.IMapElement.MapElementId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MapElementId { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>

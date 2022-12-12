@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FontWeight extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.FontWeight" />
   <TypeSignature Language="VB.NET" Value="Public Enum FontWeight" />
-  <TypeSignature Language="C++ CLI" Value="public enum class FontWeight" />
   <TypeSignature Language="F#" Value="type FontWeight = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class FontWeight" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FontWeight Black = int32(900)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FontWeight.Black" />
       <MemberSignature Language="VB.NET" Value="Black" />
-      <MemberSignature Language="C++ CLI" Value="Black" />
       <MemberSignature Language="F#" Value="Black = 900" Usage="Microsoft.Maui.FontWeight.Black" />
+      <MemberSignature Language="C++ CLI" Value="Black" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FontWeight Bold = int32(700)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FontWeight.Bold" />
       <MemberSignature Language="VB.NET" Value="Bold" />
-      <MemberSignature Language="C++ CLI" Value="Bold" />
       <MemberSignature Language="F#" Value="Bold = 700" Usage="Microsoft.Maui.FontWeight.Bold" />
+      <MemberSignature Language="C++ CLI" Value="Bold" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FontWeight Heavy = int32(800)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FontWeight.Heavy" />
       <MemberSignature Language="VB.NET" Value="Heavy" />
-      <MemberSignature Language="C++ CLI" Value="Heavy" />
       <MemberSignature Language="F#" Value="Heavy = 800" Usage="Microsoft.Maui.FontWeight.Heavy" />
+      <MemberSignature Language="C++ CLI" Value="Heavy" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FontWeight Light = int32(300)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FontWeight.Light" />
       <MemberSignature Language="VB.NET" Value="Light" />
-      <MemberSignature Language="C++ CLI" Value="Light" />
       <MemberSignature Language="F#" Value="Light = 300" Usage="Microsoft.Maui.FontWeight.Light" />
+      <MemberSignature Language="C++ CLI" Value="Light" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FontWeight Medium = int32(500)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FontWeight.Medium" />
       <MemberSignature Language="VB.NET" Value="Medium" />
-      <MemberSignature Language="C++ CLI" Value="Medium" />
       <MemberSignature Language="F#" Value="Medium = 500" Usage="Microsoft.Maui.FontWeight.Medium" />
+      <MemberSignature Language="C++ CLI" Value="Medium" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -122,8 +122,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FontWeight Regular = int32(400)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FontWeight.Regular" />
       <MemberSignature Language="VB.NET" Value="Regular" />
-      <MemberSignature Language="C++ CLI" Value="Regular" />
       <MemberSignature Language="F#" Value="Regular = 400" Usage="Microsoft.Maui.FontWeight.Regular" />
+      <MemberSignature Language="C++ CLI" Value="Regular" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -142,8 +142,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FontWeight Semibold = int32(600)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FontWeight.Semibold" />
       <MemberSignature Language="VB.NET" Value="Semibold" />
-      <MemberSignature Language="C++ CLI" Value="Semibold" />
       <MemberSignature Language="F#" Value="Semibold = 600" Usage="Microsoft.Maui.FontWeight.Semibold" />
+      <MemberSignature Language="C++ CLI" Value="Semibold" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -162,8 +162,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FontWeight Thin = int32(100)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FontWeight.Thin" />
       <MemberSignature Language="VB.NET" Value="Thin" />
-      <MemberSignature Language="C++ CLI" Value="Thin" />
       <MemberSignature Language="F#" Value="Thin = 100" Usage="Microsoft.Maui.FontWeight.Thin" />
+      <MemberSignature Language="C++ CLI" Value="Thin" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -182,8 +182,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FontWeight Ultralight = int32(200)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FontWeight.Ultralight" />
       <MemberSignature Language="VB.NET" Value="Ultralight" />
-      <MemberSignature Language="C++ CLI" Value="Ultralight" />
       <MemberSignature Language="F#" Value="Ultralight = 200" Usage="Microsoft.Maui.FontWeight.Ultralight" />
+      <MemberSignature Language="C++ CLI" Value="Ultralight" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

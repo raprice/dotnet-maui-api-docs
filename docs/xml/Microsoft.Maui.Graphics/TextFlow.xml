@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TextFlow extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.TextFlow" />
   <TypeSignature Language="VB.NET" Value="Public Enum TextFlow" />
-  <TypeSignature Language="C++ CLI" Value="public enum class TextFlow" />
   <TypeSignature Language="F#" Value="type TextFlow = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class TextFlow" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.TextFlow ClipBounds = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.TextFlow.ClipBounds" />
       <MemberSignature Language="VB.NET" Value="ClipBounds" />
-      <MemberSignature Language="C++ CLI" Value="ClipBounds" />
       <MemberSignature Language="F#" Value="ClipBounds = 0" Usage="Microsoft.Maui.Graphics.TextFlow.ClipBounds" />
+      <MemberSignature Language="C++ CLI" Value="ClipBounds" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.TextFlow OverflowBounds = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.TextFlow.OverflowBounds" />
       <MemberSignature Language="VB.NET" Value="OverflowBounds" />
-      <MemberSignature Language="C++ CLI" Value="OverflowBounds" />
       <MemberSignature Language="F#" Value="OverflowBounds = 1" Usage="Microsoft.Maui.Graphics.TextFlow.OverflowBounds" />
+      <MemberSignature Language="C++ CLI" Value="OverflowBounds" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

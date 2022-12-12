@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MainThread extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.MainThread" />
   <TypeSignature Language="VB.NET" Value="Public Class MainThread" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MainThread abstract sealed" />
   <TypeSignature Language="F#" Value="type MainThread = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MainThread abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginInvokeOnMainThread(class System.Action action) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.MainThread.BeginInvokeOnMainThread(System.Action)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub BeginInvokeOnMainThread (action As Action)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void BeginInvokeOnMainThread(Action ^ action);" />
       <MemberSignature Language="F#" Value="static member BeginInvokeOnMainThread : Action -&gt; unit" Usage="Microsoft.Maui.ApplicationModel.MainThread.BeginInvokeOnMainThread action" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void BeginInvokeOnMainThread(Action ^ action);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Threading.SynchronizationContext&gt; GetMainThreadSynchronizationContextAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.MainThread.GetMainThreadSynchronizationContextAsync" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetMainThreadSynchronizationContextAsync () As Task(Of SynchronizationContext)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;System::Threading::SynchronizationContext ^&gt; ^ GetMainThreadSynchronizationContextAsync();" />
       <MemberSignature Language="F#" Value="static member GetMainThreadSynchronizationContextAsync : unit -&gt; System.Threading.Tasks.Task&lt;System.Threading.SynchronizationContext&gt;" Usage="Microsoft.Maui.ApplicationModel.MainThread.GetMainThreadSynchronizationContextAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;System::Threading::SynchronizationContext ^&gt; ^ GetMainThreadSynchronizationContextAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task InvokeOnMainThreadAsync(class System.Action action) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.MainThread.InvokeOnMainThreadAsync(System.Action)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function InvokeOnMainThreadAsync (action As Action) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ InvokeOnMainThreadAsync(Action ^ action);" />
       <MemberSignature Language="F#" Value="static member InvokeOnMainThreadAsync : Action -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.MainThread.InvokeOnMainThreadAsync action" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ InvokeOnMainThreadAsync(Action ^ action);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -94,8 +94,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task InvokeOnMainThreadAsync(class System.Func`1&lt;class System.Threading.Tasks.Task&gt; funcTask) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.MainThread.InvokeOnMainThreadAsync(System.Func{System.Threading.Tasks.Task})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function InvokeOnMainThreadAsync (funcTask As Func(Of Task)) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ InvokeOnMainThreadAsync(Func&lt;System::Threading::Tasks::Task ^&gt; ^ funcTask);" />
       <MemberSignature Language="F#" Value="static member InvokeOnMainThreadAsync : Func&lt;System.Threading.Tasks.Task&gt; -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.MainThread.InvokeOnMainThreadAsync funcTask" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ InvokeOnMainThreadAsync(Func&lt;System::Threading::Tasks::Task ^&gt; ^ funcTask);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!T&gt; InvokeOnMainThreadAsync&lt;T&gt;(class System.Func`1&lt;class System.Threading.Tasks.Task`1&lt;!!T&gt;&gt; funcTask) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.MainThread.InvokeOnMainThreadAsync``1(System.Func{System.Threading.Tasks.Task{``0}})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function InvokeOnMainThreadAsync(Of T) (funcTask As Func(Of Task(Of T))) As Task(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Threading::Tasks::Task&lt;T&gt; ^ InvokeOnMainThreadAsync(Func&lt;System::Threading::Tasks::Task&lt;T&gt; ^&gt; ^ funcTask);" />
       <MemberSignature Language="F#" Value="static member InvokeOnMainThreadAsync : Func&lt;System.Threading.Tasks.Task&lt;'T&gt;&gt; -&gt; System.Threading.Tasks.Task&lt;'T&gt;" Usage="Microsoft.Maui.ApplicationModel.MainThread.InvokeOnMainThreadAsync funcTask" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Threading::Tasks::Task&lt;T&gt; ^ InvokeOnMainThreadAsync(Func&lt;System::Threading::Tasks::Task&lt;T&gt; ^&gt; ^ funcTask);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -148,8 +148,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!T&gt; InvokeOnMainThreadAsync&lt;T&gt;(class System.Func`1&lt;!!T&gt; func) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.MainThread.InvokeOnMainThreadAsync``1(System.Func{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function InvokeOnMainThreadAsync(Of T) (func As Func(Of T)) As Task(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Threading::Tasks::Task&lt;T&gt; ^ InvokeOnMainThreadAsync(Func&lt;T&gt; ^ func);" />
       <MemberSignature Language="F#" Value="static member InvokeOnMainThreadAsync : Func&lt;'T&gt; -&gt; System.Threading.Tasks.Task&lt;'T&gt;" Usage="Microsoft.Maui.ApplicationModel.MainThread.InvokeOnMainThreadAsync func" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Threading::Tasks::Task&lt;T&gt; ^ InvokeOnMainThreadAsync(Func&lt;T&gt; ^ func);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -177,8 +177,8 @@
       <MemberSignature Language="ILAsm" Value=".property bool IsMainThread" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.MainThread.IsMainThread" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsMainThread As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsMainThread { bool get(); };" />
       <MemberSignature Language="F#" Value="static member IsMainThread : bool" Usage="Microsoft.Maui.ApplicationModel.MainThread.IsMainThread" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsMainThread { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

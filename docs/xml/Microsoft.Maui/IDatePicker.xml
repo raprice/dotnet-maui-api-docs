@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDatePicker implements class Microsoft.Maui.IElement, class Microsoft.Maui.ITextStyle, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IDatePicker" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDatePicker&#xA;Implements ITextStyle, IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IDatePicker : Microsoft::Maui::ITextStyle, Microsoft::Maui::IView" />
   <TypeSignature Language="F#" Value="type IDatePicker = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface ITextStyle" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IDatePicker : Microsoft::Maui::ITextStyle, Microsoft::Maui::IView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -35,8 +35,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Date" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IDatePicker.Date" />
       <MemberSignature Language="VB.NET" Value="Public Property Date As DateTime" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Date { DateTime get(); void set(DateTime value); };" />
       <MemberSignature Language="F#" Value="member this.Date : DateTime with get, set" Usage="Microsoft.Maui.IDatePicker.Date" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Date { DateTime get(); void set(DateTime value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -58,8 +58,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Format" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IDatePicker.Format" />
       <MemberSignature Language="VB.NET" Value="Public Property Format As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Format { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Format : string with get, set" Usage="Microsoft.Maui.IDatePicker.Format" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Format { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -81,8 +81,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime MaximumDate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IDatePicker.MaximumDate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaximumDate As DateTime" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime MaximumDate { DateTime get(); };" />
       <MemberSignature Language="F#" Value="member this.MaximumDate : DateTime" Usage="Microsoft.Maui.IDatePicker.MaximumDate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime MaximumDate { DateTime get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -104,8 +104,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime MinimumDate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IDatePicker.MinimumDate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinimumDate As DateTime" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime MinimumDate { DateTime get(); };" />
       <MemberSignature Language="F#" Value="member this.MinimumDate : DateTime" Usage="Microsoft.Maui.IDatePicker.MinimumDate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime MinimumDate { DateTime get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

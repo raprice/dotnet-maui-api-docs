@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SearchBar extends Microsoft.Maui.Controls.InputView implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.SearchBar&gt;, class Microsoft.Maui.Controls.Internals.IFontElement, class Microsoft.Maui.Controls.ISearchBarController, class Microsoft.Maui.IElement, class Microsoft.Maui.IPlaceholder, class Microsoft.Maui.ISearchBar, class Microsoft.Maui.IText, class Microsoft.Maui.ITextAlignment, class Microsoft.Maui.ITextInput, class Microsoft.Maui.ITextStyle, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.SearchBar" />
   <TypeSignature Language="VB.NET" Value="Public Class SearchBar&#xA;Inherits InputView&#xA;Implements IElementConfiguration(Of SearchBar), IFontElement, ISearchBar, ISearchBarController" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SearchBar : Microsoft::Maui::Controls::InputView, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::SearchBar ^&gt;, Microsoft::Maui::Controls::Internals::IFontElement, Microsoft::Maui::Controls::ISearchBarController, Microsoft::Maui::ISearchBar" />
   <TypeSignature Language="F#" Value="type SearchBar = class&#xA;    inherit InputView&#xA;    interface ISearchBar&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface ITextInput&#xA;    interface IText&#xA;    interface ITextStyle&#xA;    interface IPlaceholder&#xA;    interface ITextAlignment&#xA;    interface IFontElement&#xA;    interface ISearchBarController&#xA;    interface IElementConfiguration&lt;SearchBar&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchBar : Microsoft::Maui::Controls::InputView, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::SearchBar ^&gt;, Microsoft::Maui::Controls::Internals::IFontElement, Microsoft::Maui::Controls::ISearchBarController, Microsoft::Maui::ISearchBar" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -126,8 +126,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color CancelButtonColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.CancelButtonColor" />
       <MemberSignature Language="VB.NET" Value="Public Property CancelButtonColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ CancelButtonColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.CancelButtonColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.SearchBar.CancelButtonColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ CancelButtonColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -147,8 +147,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CancelButtonColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.CancelButtonColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CancelButtonColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CancelButtonColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CancelButtonColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.CancelButtonColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CancelButtonColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -167,8 +167,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CharacterSpacingProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.CharacterSpacingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CharacterSpacingProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CharacterSpacingProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CharacterSpacingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.CharacterSpacingProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CharacterSpacingProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -187,8 +187,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.ISearchBar, class Microsoft.Maui.Handlers.SearchBarHandler&gt; ControlsSearchBarMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.ControlsSearchBarMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ControlsSearchBarMapper As IPropertyMapper(Of ISearchBar, SearchBarHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ISearchBar ^, Microsoft::Maui::Handlers::SearchBarHandler ^&gt; ^ ControlsSearchBarMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlsSearchBarMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.ISearchBar, Microsoft.Maui.Handlers.SearchBarHandler&gt;" Usage="Microsoft.Maui.Controls.SearchBar.ControlsSearchBarMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ISearchBar ^, Microsoft::Maui::Handlers::SearchBarHandler ^&gt; ^ ControlsSearchBarMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -207,8 +207,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance int32 CursorPosition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.CursorPosition" />
       <MemberSignature Language="VB.NET" Value="Public Property CursorPosition As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CursorPosition { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.CursorPosition : int with get, set" Usage="Microsoft.Maui.Controls.SearchBar.CursorPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CursorPosition { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITextInput.CursorPosition</InterfaceMember>
@@ -231,8 +231,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CursorPositionProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.CursorPositionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CursorPositionProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CursorPositionProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CursorPositionProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.CursorPositionProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CursorPositionProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -251,8 +251,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.FontAttributes FontAttributes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.FontAttributes" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAttributes As FontAttributes" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); void set(Microsoft::Maui::Controls::FontAttributes value); };" />
       <MemberSignature Language="F#" Value="member this.FontAttributes : Microsoft.Maui.Controls.FontAttributes with get, set" Usage="Microsoft.Maui.Controls.SearchBar.FontAttributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); void set(Microsoft::Maui::Controls::FontAttributes value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -272,8 +272,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAttributesProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.FontAttributesProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAttributesProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAttributesProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontAttributesProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.FontAttributesProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAttributesProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -292,8 +292,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance bool FontAutoScalingEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.FontAutoScalingEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAutoScalingEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.FontAutoScalingEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.SearchBar.FontAutoScalingEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -313,8 +313,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAutoScalingEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.FontAutoScalingEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAutoScalingEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAutoScalingEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontAutoScalingEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.FontAutoScalingEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAutoScalingEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -333,8 +333,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance string FontFamily" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.FontFamily" />
       <MemberSignature Language="VB.NET" Value="Public Property FontFamily As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FontFamily : string with get, set" Usage="Microsoft.Maui.Controls.SearchBar.FontFamily" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -354,8 +354,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontFamilyProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.FontFamilyProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontFamilyProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontFamilyProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontFamilyProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.FontFamilyProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontFamilyProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -374,8 +374,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance float64 FontSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.FontSize" />
       <MemberSignature Language="VB.NET" Value="Public Property FontSize As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.FontSize : double with get, set" Usage="Microsoft.Maui.Controls.SearchBar.FontSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -401,8 +401,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontSizeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.FontSizeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontSizeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontSizeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontSizeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.FontSizeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontSizeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -421,8 +421,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextAlignment HorizontalTextAlignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.HorizontalTextAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalTextAlignment As TextAlignment" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment HorizontalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberSignature Language="F#" Value="member this.HorizontalTextAlignment : Microsoft.Maui.TextAlignment with get, set" Usage="Microsoft.Maui.Controls.SearchBar.HorizontalTextAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment HorizontalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -442,8 +442,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HorizontalTextAlignmentProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.HorizontalTextAlignmentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HorizontalTextAlignmentProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HorizontalTextAlignmentProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HorizontalTextAlignmentProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.HorizontalTextAlignmentProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HorizontalTextAlignmentProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -462,8 +462,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance bool IsTextPredictionEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.IsTextPredictionEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsTextPredictionEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTextPredictionEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsTextPredictionEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.SearchBar.IsTextPredictionEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTextPredictionEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -483,8 +483,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsTextPredictionEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.IsTextPredictionEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsTextPredictionEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsTextPredictionEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsTextPredictionEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.IsTextPredictionEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsTextPredictionEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -503,8 +503,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapText(class Microsoft.Maui.Handlers.ISearchBarHandler handler, class Microsoft.Maui.Controls.SearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SearchBar.MapText(Microsoft.Maui.Handlers.ISearchBarHandler,Microsoft.Maui.Controls.SearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapText (handler As ISearchBarHandler, searchBar As SearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::ISearchBarHandler ^ handler, Microsoft::Maui::Controls::SearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapText : Microsoft.Maui.Handlers.ISearchBarHandler * Microsoft.Maui.Controls.SearchBar -&gt; unit" Usage="Microsoft.Maui.Controls.SearchBar.MapText (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::ISearchBarHandler ^ handler, Microsoft::Maui::Controls::SearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -529,8 +529,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapText(class Microsoft.Maui.Handlers.SearchBarHandler handler, class Microsoft.Maui.Controls.SearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SearchBar.MapText(Microsoft.Maui.Handlers.SearchBarHandler,Microsoft.Maui.Controls.SearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapText (handler As SearchBarHandler, searchBar As SearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::SearchBarHandler ^ handler, Microsoft::Maui::Controls::SearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapText : Microsoft.Maui.Handlers.SearchBarHandler * Microsoft.Maui.Controls.SearchBar -&gt; unit" Usage="Microsoft.Maui.Controls.SearchBar.MapText (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::SearchBarHandler ^ handler, Microsoft::Maui::Controls::SearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -555,8 +555,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance float64 Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SearchBar.Microsoft#Maui#Controls#Internals#IFontElement#FontSizeDefaultValueCreator" />
       <MemberSignature Language="VB.NET" Value="Function FontSizeDefaultValueCreator () As Double Implements IFontElement.FontSizeDefaultValueCreator" />
-      <MemberSignature Language="C++ CLI" Value=" virtual double Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() = Microsoft::Maui::Controls::Internals::IFontElement::FontSizeDefaultValueCreator;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double" Usage="searchBar.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator " />
+      <MemberSignature Language="C++ CLI" Value=" virtual double Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() = Microsoft::Maui::Controls::Internals::IFontElement::FontSizeDefaultValueCreator;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator</InterfaceMember>
@@ -580,8 +580,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(valuetype Microsoft.Maui.Controls.FontAttributes oldValue, valuetype Microsoft.Maui.Controls.FontAttributes newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SearchBar.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAttributesChanged (oldValue As FontAttributes, newValue As FontAttributes) Implements IFontElement.OnFontAttributesChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAttributesChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit" Usage="searchBar.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAttributesChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)</InterfaceMember>
@@ -609,8 +609,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SearchBar.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAutoScalingEnabledChanged (oldValue As Boolean, newValue As Boolean) Implements IFontElement.OnFontAutoScalingEnabledChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAutoScalingEnabledChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit" Usage="searchBar.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAutoScalingEnabledChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)</InterfaceMember>
@@ -638,8 +638,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(string oldValue, string newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SearchBar.Microsoft#Maui#Controls#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontFamilyChanged (oldValue As String, newValue As String) Implements IFontElement.OnFontFamilyChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontFamilyChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit" Usage="searchBar.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontFamilyChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System.String,System.String)</InterfaceMember>
@@ -667,8 +667,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(float64 oldValue, float64 newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SearchBar.Microsoft#Maui#Controls#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontSizeChanged (oldValue As Double, newValue As Double) Implements IFontElement.OnFontSizeChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(double oldValue, double newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontSizeChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit" Usage="searchBar.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(double oldValue, double newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontSizeChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(System.Double,System.Double)</InterfaceMember>
@@ -696,8 +696,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.ISearchBar.SearchButtonPressed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SearchBar.Microsoft#Maui#ISearchBar#SearchButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Sub SearchButtonPressed () Implements ISearchBar.SearchButtonPressed" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISearchBar.SearchButtonPressed() = Microsoft::Maui::ISearchBar::SearchButtonPressed;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.ISearchBar.SearchButtonPressed : unit -&gt; unit&#xA;override this.Microsoft.Maui.ISearchBar.SearchButtonPressed : unit -&gt; unit" Usage="searchBar.Microsoft.Maui.ISearchBar.SearchButtonPressed " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISearchBar.SearchButtonPressed() = Microsoft::Maui::ISearchBar::SearchButtonPressed;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.ISearchBar.SearchButtonPressed</InterfaceMember>
@@ -720,8 +720,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.ITextInput.IsTextPredictionEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.Microsoft#Maui#ITextInput#IsTextPredictionEnabled" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsTextPredictionEnabled As Boolean Implements ITextInput.IsTextPredictionEnabled" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::ITextInput::IsTextPredictionEnabled { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ITextInput.IsTextPredictionEnabled : bool" Usage="Microsoft.Maui.ITextInput.IsTextPredictionEnabled" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::ITextInput::IsTextPredictionEnabled { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITextInput.IsTextPredictionEnabled</InterfaceMember>
@@ -744,8 +744,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Font Microsoft.Maui.ITextStyle.Font" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.Microsoft#Maui#ITextStyle#Font" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Font As Font Implements ITextStyle.Font" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Font Microsoft::Maui::ITextStyle::Font { Microsoft::Maui::Font get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ITextStyle.Font : Microsoft.Maui.Font" Usage="Microsoft.Maui.ITextStyle.Font" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Font Microsoft::Maui::ITextStyle::Font { Microsoft::Maui::Font get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITextStyle.Font</InterfaceMember>
@@ -768,8 +768,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.SearchBar&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SearchBar.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, SearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::SearchBar ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.SearchBar (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.SearchBar (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="searchBar.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::SearchBar ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -802,8 +802,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnSearchButtonPressed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SearchBar.OnSearchButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Public Sub OnSearchButtonPressed ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void OnSearchButtonPressed();" />
       <MemberSignature Language="F#" Value="abstract member OnSearchButtonPressed : unit -&gt; unit&#xA;override this.OnSearchButtonPressed : unit -&gt; unit" Usage="searchBar.OnSearchButtonPressed " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void OnSearchButtonPressed();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.ISearchBarController.OnSearchButtonPressed</InterfaceMember>
@@ -832,8 +832,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PlaceholderColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.PlaceholderColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PlaceholderColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PlaceholderColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PlaceholderColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.PlaceholderColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PlaceholderColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -852,8 +852,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PlaceholderProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.PlaceholderProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PlaceholderProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PlaceholderProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PlaceholderProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.PlaceholderProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PlaceholderProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -872,8 +872,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler SearchButtonPressed" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.SearchBar.SearchButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Public Event SearchButtonPressed As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ SearchButtonPressed;" />
       <MemberSignature Language="F#" Value="member this.SearchButtonPressed : EventHandler " Usage="member this.SearchButtonPressed : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ SearchButtonPressed;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -892,8 +892,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand SearchCommand" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.SearchCommand" />
       <MemberSignature Language="VB.NET" Value="Public Property SearchCommand As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ SearchCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SearchCommand : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.SearchBar.SearchCommand" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ SearchCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -913,8 +913,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance object SearchCommandParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.SearchCommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property SearchCommandParameter As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SearchCommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SearchCommandParameter : obj with get, set" Usage="Microsoft.Maui.Controls.SearchBar.SearchCommandParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SearchCommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -934,8 +934,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SearchCommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.SearchCommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchCommandParameterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SearchCommandParameterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SearchCommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.SearchCommandParameterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SearchCommandParameterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -954,8 +954,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SearchCommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.SearchCommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchCommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SearchCommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SearchCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.SearchCommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SearchCommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -974,8 +974,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance int32 SelectionLength" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.SelectionLength" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectionLength As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectionLength { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.SelectionLength : int with get, set" Usage="Microsoft.Maui.Controls.SearchBar.SelectionLength" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectionLength { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITextInput.SelectionLength</InterfaceMember>
@@ -998,8 +998,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectionLengthProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.SelectionLengthProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectionLengthProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionLengthProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectionLengthProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.SelectionLengthProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionLengthProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1018,8 +1018,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.TextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TextColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.TextColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1038,8 +1038,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.TextProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TextProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.TextProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1058,8 +1058,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextAlignment VerticalTextAlignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SearchBar.VerticalTextAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalTextAlignment As TextAlignment" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment VerticalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberSignature Language="F#" Value="member this.VerticalTextAlignment : Microsoft.Maui.TextAlignment with get, set" Usage="Microsoft.Maui.Controls.SearchBar.VerticalTextAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment VerticalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1079,8 +1079,8 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty VerticalTextAlignmentProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBar.VerticalTextAlignmentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly VerticalTextAlignmentProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VerticalTextAlignmentProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable VerticalTextAlignmentProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SearchBar.VerticalTextAlignmentProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VerticalTextAlignmentProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

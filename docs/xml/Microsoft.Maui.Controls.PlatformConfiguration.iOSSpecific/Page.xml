@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Page extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page" />
   <TypeSignature Language="VB.NET" Value="Public Module Page" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Page abstract sealed" />
   <TypeSignature Language="F#" Value="type Page = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Page abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode GetLargeTitleDisplay(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetLargeTitleDisplay(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetLargeTitleDisplay (element As BindableObject) As LargeTitleDisplayMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::LargeTitleDisplayMode GetLargeTitleDisplay(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetLargeTitleDisplay : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetLargeTitleDisplay element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::LargeTitleDisplayMode GetLargeTitleDisplay(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle GetModalPresentationStyle(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetModalPresentationStyle(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetModalPresentationStyle (element As BindableObject) As UIModalPresentationStyle" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIModalPresentationStyle GetModalPresentationStyle(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetModalPresentationStyle : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetModalPresentationStyle element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIModalPresentationStyle GetModalPresentationStyle(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation GetPreferredStatusBarUpdateAnimation(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetPreferredStatusBarUpdateAnimation(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPreferredStatusBarUpdateAnimation (element As BindableObject) As UIStatusBarAnimation" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIStatusBarAnimation GetPreferredStatusBarUpdateAnimation(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetPreferredStatusBarUpdateAnimation : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetPreferredStatusBarUpdateAnimation element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIStatusBarAnimation GetPreferredStatusBarUpdateAnimation(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -98,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetPrefersHomeIndicatorAutoHidden(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetPrefersHomeIndicatorAutoHidden(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPrefersHomeIndicatorAutoHidden (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetPrefersHomeIndicatorAutoHidden(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetPrefersHomeIndicatorAutoHidden : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetPrefersHomeIndicatorAutoHidden element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetPrefersHomeIndicatorAutoHidden(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -123,8 +123,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode GetPrefersStatusBarHidden(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetPrefersStatusBarHidden(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPrefersStatusBarHidden (element As BindableObject) As StatusBarHiddenMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarHiddenMode GetPrefersStatusBarHidden(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetPrefersStatusBarHidden : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetPrefersStatusBarHidden element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarHiddenMode GetPrefersStatusBarHidden(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -148,8 +148,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Thickness GetSafeAreaInsets(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetSafeAreaInsets(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetSafeAreaInsets (element As BindableObject) As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Thickness GetSafeAreaInsets(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetSafeAreaInsets : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Thickness" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetSafeAreaInsets element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Thickness GetSafeAreaInsets(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -173,8 +173,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetUseSafeArea(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetUseSafeArea(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetUseSafeArea (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetUseSafeArea(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetUseSafeArea : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.GetUseSafeArea element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetUseSafeArea(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -198,8 +198,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode LargeTitleDisplay(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.LargeTitleDisplay(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LargeTitleDisplay (config As IPlatformElementConfiguration(Of iOS, Page)) As LargeTitleDisplayMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::LargeTitleDisplayMode LargeTitleDisplay(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member LargeTitleDisplay : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; -&gt; Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.LargeTitleDisplay config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::LargeTitleDisplayMode LargeTitleDisplay(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -223,8 +223,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty LargeTitleDisplayProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.LargeTitleDisplayProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly LargeTitleDisplayProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ LargeTitleDisplayProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable LargeTitleDisplayProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.LargeTitleDisplayProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ LargeTitleDisplayProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -243,8 +243,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle ModalPresentationStyle(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.ModalPresentationStyle(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ModalPresentationStyle (config As IPlatformElementConfiguration(Of iOS, Page)) As UIModalPresentationStyle" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIModalPresentationStyle ModalPresentationStyle(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member ModalPresentationStyle : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; -&gt; Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.ModalPresentationStyle config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIModalPresentationStyle ModalPresentationStyle(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -270,8 +270,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ModalPresentationStyleProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.ModalPresentationStyleProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly ModalPresentationStyleProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ModalPresentationStyleProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ModalPresentationStyleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.ModalPresentationStyleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ModalPresentationStyleProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -290,8 +290,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation PreferredStatusBarUpdateAnimation(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.PreferredStatusBarUpdateAnimation(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PreferredStatusBarUpdateAnimation (config As IPlatformElementConfiguration(Of iOS, Page)) As UIStatusBarAnimation" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIStatusBarAnimation PreferredStatusBarUpdateAnimation(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member PreferredStatusBarUpdateAnimation : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; -&gt; Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.PreferredStatusBarUpdateAnimation config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIStatusBarAnimation PreferredStatusBarUpdateAnimation(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -315,8 +315,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PreferredStatusBarUpdateAnimationProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.PreferredStatusBarUpdateAnimationProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly PreferredStatusBarUpdateAnimationProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PreferredStatusBarUpdateAnimationProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PreferredStatusBarUpdateAnimationProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.PreferredStatusBarUpdateAnimationProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PreferredStatusBarUpdateAnimationProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -335,8 +335,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool PrefersHomeIndicatorAutoHidden(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.PrefersHomeIndicatorAutoHidden(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PrefersHomeIndicatorAutoHidden (config As IPlatformElementConfiguration(Of iOS, Page)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool PrefersHomeIndicatorAutoHidden(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member PrefersHomeIndicatorAutoHidden : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.PrefersHomeIndicatorAutoHidden config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool PrefersHomeIndicatorAutoHidden(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -360,8 +360,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PrefersHomeIndicatorAutoHiddenProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.PrefersHomeIndicatorAutoHiddenProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly PrefersHomeIndicatorAutoHiddenProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PrefersHomeIndicatorAutoHiddenProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PrefersHomeIndicatorAutoHiddenProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.PrefersHomeIndicatorAutoHiddenProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PrefersHomeIndicatorAutoHiddenProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -380,8 +380,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode PrefersStatusBarHidden(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.PrefersStatusBarHidden(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PrefersStatusBarHidden (config As IPlatformElementConfiguration(Of iOS, Page)) As StatusBarHiddenMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarHiddenMode PrefersStatusBarHidden(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member PrefersStatusBarHidden : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; -&gt; Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.PrefersStatusBarHidden config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarHiddenMode PrefersStatusBarHidden(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -405,8 +405,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PrefersStatusBarHiddenProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.PrefersStatusBarHiddenProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly PrefersStatusBarHiddenProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PrefersStatusBarHiddenProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PrefersStatusBarHiddenProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.PrefersStatusBarHiddenProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PrefersStatusBarHiddenProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -425,8 +425,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Thickness SafeAreaInsets(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SafeAreaInsets(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SafeAreaInsets (config As IPlatformElementConfiguration(Of iOS, Page)) As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Thickness SafeAreaInsets(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member SafeAreaInsets : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; -&gt; Microsoft.Maui.Thickness" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SafeAreaInsets config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Thickness SafeAreaInsets(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -450,8 +450,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SafeAreaInsetsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SafeAreaInsetsProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly SafeAreaInsetsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SafeAreaInsetsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SafeAreaInsetsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SafeAreaInsetsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SafeAreaInsetsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -470,8 +470,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetLargeTitleDisplay(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetLargeTitleDisplay(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetLargeTitleDisplay (element As BindableObject, value As LargeTitleDisplayMode)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetLargeTitleDisplay(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::LargeTitleDisplayMode value);" />
       <MemberSignature Language="F#" Value="static member SetLargeTitleDisplay : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetLargeTitleDisplay (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetLargeTitleDisplay(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::LargeTitleDisplayMode value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -496,8 +496,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; SetLargeTitleDisplay(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config, valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetLargeTitleDisplay(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page},Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetLargeTitleDisplay (config As IPlatformElementConfiguration(Of iOS, Page), value As LargeTitleDisplayMode) As IPlatformElementConfiguration(Of iOS, Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetLargeTitleDisplay(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::LargeTitleDisplayMode value);" />
       <MemberSignature Language="F#" Value="static member SetLargeTitleDisplay : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; * Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetLargeTitleDisplay (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetLargeTitleDisplay(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::LargeTitleDisplayMode value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -523,8 +523,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; SetModalPresentationStyle(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config, valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetModalPresentationStyle(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page},Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetModalPresentationStyle (config As IPlatformElementConfiguration(Of iOS, Page), value As UIModalPresentationStyle) As IPlatformElementConfiguration(Of iOS, Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetModalPresentationStyle(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIModalPresentationStyle value);" />
       <MemberSignature Language="F#" Value="static member SetModalPresentationStyle : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; * Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetModalPresentationStyle (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetModalPresentationStyle(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIModalPresentationStyle value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -552,8 +552,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetPreferredStatusBarUpdateAnimation(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetPreferredStatusBarUpdateAnimation(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetPreferredStatusBarUpdateAnimation (element As BindableObject, value As UIStatusBarAnimation)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetPreferredStatusBarUpdateAnimation(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIStatusBarAnimation value);" />
       <MemberSignature Language="F#" Value="static member SetPreferredStatusBarUpdateAnimation : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetPreferredStatusBarUpdateAnimation (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetPreferredStatusBarUpdateAnimation(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIStatusBarAnimation value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -578,8 +578,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; SetPreferredStatusBarUpdateAnimation(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config, valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetPreferredStatusBarUpdateAnimation(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page},Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetPreferredStatusBarUpdateAnimation (config As IPlatformElementConfiguration(Of iOS, Page), value As UIStatusBarAnimation) As IPlatformElementConfiguration(Of iOS, Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetPreferredStatusBarUpdateAnimation(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIStatusBarAnimation value);" />
       <MemberSignature Language="F#" Value="static member SetPreferredStatusBarUpdateAnimation : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; * Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetPreferredStatusBarUpdateAnimation (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetPreferredStatusBarUpdateAnimation(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::UIStatusBarAnimation value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -605,8 +605,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetPrefersHomeIndicatorAutoHidden(class Microsoft.Maui.Controls.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetPrefersHomeIndicatorAutoHidden(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetPrefersHomeIndicatorAutoHidden (element As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetPrefersHomeIndicatorAutoHidden(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetPrefersHomeIndicatorAutoHidden : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetPrefersHomeIndicatorAutoHidden (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetPrefersHomeIndicatorAutoHidden(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -631,8 +631,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; SetPrefersHomeIndicatorAutoHidden(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetPrefersHomeIndicatorAutoHidden(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetPrefersHomeIndicatorAutoHidden (config As IPlatformElementConfiguration(Of iOS, Page), value As Boolean) As IPlatformElementConfiguration(Of iOS, Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetPrefersHomeIndicatorAutoHidden(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetPrefersHomeIndicatorAutoHidden : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetPrefersHomeIndicatorAutoHidden (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetPrefersHomeIndicatorAutoHidden(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -658,8 +658,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetPrefersStatusBarHidden(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetPrefersStatusBarHidden(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetPrefersStatusBarHidden (element As BindableObject, value As StatusBarHiddenMode)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetPrefersStatusBarHidden(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarHiddenMode value);" />
       <MemberSignature Language="F#" Value="static member SetPrefersStatusBarHidden : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetPrefersStatusBarHidden (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetPrefersStatusBarHidden(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarHiddenMode value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -684,8 +684,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; SetPrefersStatusBarHidden(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config, valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetPrefersStatusBarHidden(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page},Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetPrefersStatusBarHidden (config As IPlatformElementConfiguration(Of iOS, Page), value As StatusBarHiddenMode) As IPlatformElementConfiguration(Of iOS, Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetPrefersStatusBarHidden(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarHiddenMode value);" />
       <MemberSignature Language="F#" Value="static member SetPrefersStatusBarHidden : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; * Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetPrefersStatusBarHidden (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetPrefersStatusBarHidden(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarHiddenMode value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -711,8 +711,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; SetSafeAreaInsets(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config, valuetype Microsoft.Maui.Thickness value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetSafeAreaInsets(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page},Microsoft.Maui.Thickness)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetSafeAreaInsets (config As IPlatformElementConfiguration(Of iOS, Page), value As Thickness) As IPlatformElementConfiguration(Of iOS, Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetSafeAreaInsets(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, Microsoft::Maui::Thickness value);" />
       <MemberSignature Language="F#" Value="static member SetSafeAreaInsets : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; * Microsoft.Maui.Thickness -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetSafeAreaInsets (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetSafeAreaInsets(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, Microsoft::Maui::Thickness value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -744,8 +744,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetUseSafeArea(class Microsoft.Maui.Controls.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetUseSafeArea (element As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetUseSafeArea(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetUseSafeArea : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetUseSafeArea(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -770,8 +770,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; SetUseSafeArea(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetUseSafeArea (config As IPlatformElementConfiguration(Of iOS, Page), value As Boolean) As IPlatformElementConfiguration(Of iOS, Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetUseSafeArea(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetUseSafeArea : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetUseSafeArea(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -797,8 +797,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty UseSafeAreaProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.UseSafeAreaProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly UseSafeAreaProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ UseSafeAreaProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable UseSafeAreaProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.UseSafeAreaProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ UseSafeAreaProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -817,8 +817,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool UsingSafeArea(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Page&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.UsingSafeArea(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Page})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UsingSafeArea (config As IPlatformElementConfiguration(Of iOS, Page)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool UsingSafeArea(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member UsingSafeArea : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Page&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Page.UsingSafeArea config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool UsingSafeArea(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RelativeSourceExtension extends System.Object implements class Microsoft.Maui.Controls.Xaml.IMarkupExtension, class Microsoft.Maui.Controls.Xaml.IMarkupExtension`1&lt;class Microsoft.Maui.Controls.RelativeBindingSource&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.RelativeSourceExtension" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RelativeSourceExtension&#xA;Implements IMarkupExtension(Of RelativeBindingSource)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class RelativeSourceExtension sealed : Microsoft::Maui::Controls::Xaml::IMarkupExtension&lt;Microsoft::Maui::Controls::RelativeBindingSource ^&gt;" />
   <TypeSignature Language="F#" Value="type RelativeSourceExtension = class&#xA;    interface IMarkupExtension&lt;RelativeBindingSource&gt;&#xA;    interface IMarkupExtension" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RelativeSourceExtension sealed : Microsoft::Maui::Controls::Xaml::IMarkupExtension&lt;Microsoft::Maui::Controls::RelativeBindingSource ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -57,8 +57,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 AncestorLevel" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.RelativeSourceExtension.AncestorLevel" />
       <MemberSignature Language="VB.NET" Value="Public Property AncestorLevel As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AncestorLevel { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.AncestorLevel : int with get, set" Usage="Microsoft.Maui.Controls.Xaml.RelativeSourceExtension.AncestorLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AncestorLevel { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -78,8 +78,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type AncestorType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.RelativeSourceExtension.AncestorType" />
       <MemberSignature Language="VB.NET" Value="Public Property AncestorType As Type" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Type ^ AncestorType { Type ^ get(); void set(Type ^ value); };" />
       <MemberSignature Language="F#" Value="member this.AncestorType : Type with get, set" Usage="Microsoft.Maui.Controls.Xaml.RelativeSourceExtension.AncestorType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Type ^ AncestorType { Type ^ get(); void set(Type ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -99,8 +99,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Microsoft.Maui.Controls.RelativeBindingSource Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.RelativeBindingSource&gt;.ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.RelativeSourceExtension.Microsoft#Maui#Controls#Xaml#IMarkupExtension&lt;Microsoft#Maui#Controls#RelativeBindingSource&gt;#ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Function ProvideValue (serviceProvider As IServiceProvider) As RelativeBindingSource Implements IMarkupExtension(Of RelativeBindingSource).ProvideValue" />
-      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Controls::RelativeBindingSource ^ Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.RelativeBindingSource&gt;.ProvideValue(IServiceProvider ^ serviceProvider) = Microsoft::Maui::Controls::Xaml::IMarkupExtension&lt;Microsoft::Maui::Controls::RelativeBindingSource ^&gt;::ProvideValue;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.RelativeBindingSource&gt;.ProvideValue : IServiceProvider -&gt; Microsoft.Maui.Controls.RelativeBindingSource&#xA;override this.Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.RelativeBindingSource&gt;.ProvideValue : IServiceProvider -&gt; Microsoft.Maui.Controls.RelativeBindingSource" Usage="relativeSourceExtension.Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.RelativeBindingSource&gt;.ProvideValue serviceProvider" />
+      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Controls::RelativeBindingSource ^ Microsoft.Maui.Controls.Xaml.IMarkupExtension&lt;Microsoft.Maui.Controls.RelativeBindingSource&gt;.ProvideValue(IServiceProvider ^ serviceProvider) = Microsoft::Maui::Controls::Xaml::IMarkupExtension&lt;Microsoft::Maui::Controls::RelativeBindingSource ^&gt;::ProvideValue;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Xaml.IMarkupExtension`1.ProvideValue(System.IServiceProvider)</InterfaceMember>
@@ -127,8 +127,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.RelativeBindingSourceMode Mode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.RelativeSourceExtension.Mode" />
       <MemberSignature Language="VB.NET" Value="Public Property Mode As RelativeBindingSourceMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::RelativeBindingSourceMode Mode { Microsoft::Maui::Controls::RelativeBindingSourceMode get(); void set(Microsoft::Maui::Controls::RelativeBindingSourceMode value); };" />
       <MemberSignature Language="F#" Value="member this.Mode : Microsoft.Maui.Controls.RelativeBindingSourceMode with get, set" Usage="Microsoft.Maui.Controls.Xaml.RelativeSourceExtension.Mode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::RelativeBindingSourceMode Mode { Microsoft::Maui::Controls::RelativeBindingSourceMode get(); void set(Microsoft::Maui::Controls::RelativeBindingSourceMode value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -148,8 +148,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.RelativeSourceExtension.ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ProvideValue (serviceProvider As IServiceProvider) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ ProvideValue(IServiceProvider ^ serviceProvider);" />
       <MemberSignature Language="F#" Value="abstract member ProvideValue : IServiceProvider -&gt; obj&#xA;override this.ProvideValue : IServiceProvider -&gt; obj" Usage="relativeSourceExtension.ProvideValue serviceProvider" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ ProvideValue(IServiceProvider ^ serviceProvider);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue(System.IServiceProvider)</InterfaceMember>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RotateTransform extends Microsoft.Maui.Controls.Shapes.Transform" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.RotateTransform" />
   <TypeSignature Language="VB.NET" Value="Public Class RotateTransform&#xA;Inherits Transform" />
-  <TypeSignature Language="C++ CLI" Value="public ref class RotateTransform : Microsoft::Maui::Controls::Shapes::Transform" />
   <TypeSignature Language="F#" Value="type RotateTransform = class&#xA;    inherit Transform" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RotateTransform : Microsoft::Maui::Controls::Shapes::Transform" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 angle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.RotateTransform.#ctor(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (angle As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; RotateTransform(double angle);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Shapes.RotateTransform : double -&gt; Microsoft.Maui.Controls.Shapes.RotateTransform" Usage="new Microsoft.Maui.Controls.Shapes.RotateTransform angle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RotateTransform(double angle);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 angle, float64 centerX, float64 centerY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.RotateTransform.#ctor(System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (angle As Double, centerX As Double, centerY As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; RotateTransform(double angle, double centerX, double centerY);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Shapes.RotateTransform : double * double * double -&gt; Microsoft.Maui.Controls.Shapes.RotateTransform" Usage="new Microsoft.Maui.Controls.Shapes.RotateTransform (angle, centerX, centerY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RotateTransform(double angle, double centerX, double centerY);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Angle" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.RotateTransform.Angle" />
       <MemberSignature Language="VB.NET" Value="Public Property Angle As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Angle { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Angle : double with get, set" Usage="Microsoft.Maui.Controls.Shapes.RotateTransform.Angle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Angle { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty AngleProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.RotateTransform.AngleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AngleProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AngleProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable AngleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.RotateTransform.AngleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AngleProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -127,8 +127,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 CenterX" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.RotateTransform.CenterX" />
       <MemberSignature Language="VB.NET" Value="Public Property CenterX As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double CenterX { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.CenterX : double with get, set" Usage="Microsoft.Maui.Controls.Shapes.RotateTransform.CenterX" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double CenterX { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -148,8 +148,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CenterXProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.RotateTransform.CenterXProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CenterXProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CenterXProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CenterXProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.RotateTransform.CenterXProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CenterXProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -168,8 +168,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 CenterY" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.RotateTransform.CenterY" />
       <MemberSignature Language="VB.NET" Value="Public Property CenterY As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double CenterY { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.CenterY : double with get, set" Usage="Microsoft.Maui.Controls.Shapes.RotateTransform.CenterY" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double CenterY { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -189,8 +189,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CenterYProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.RotateTransform.CenterYProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CenterYProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CenterYProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CenterYProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.RotateTransform.CenterYProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CenterYProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

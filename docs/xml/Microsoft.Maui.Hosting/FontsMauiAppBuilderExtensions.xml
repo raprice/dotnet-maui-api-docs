@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FontsMauiAppBuilderExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Hosting.FontsMauiAppBuilderExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module FontsMauiAppBuilderExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FontsMauiAppBuilderExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type FontsMauiAppBuilderExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FontsMauiAppBuilderExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.MauiAppBuilder ConfigureFonts(class Microsoft.Maui.Hosting.MauiAppBuilder builder) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Hosting.FontsMauiAppBuilderExtensions.ConfigureFonts(Microsoft.Maui.Hosting.MauiAppBuilder)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ConfigureFonts (builder As MauiAppBuilder) As MauiAppBuilder" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ ConfigureFonts(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder);" />
       <MemberSignature Language="F#" Value="static member ConfigureFonts : Microsoft.Maui.Hosting.MauiAppBuilder -&gt; Microsoft.Maui.Hosting.MauiAppBuilder" Usage="Microsoft.Maui.Hosting.FontsMauiAppBuilderExtensions.ConfigureFonts builder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ ConfigureFonts(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.MauiAppBuilder ConfigureFonts(class Microsoft.Maui.Hosting.MauiAppBuilder builder, class System.Action`1&lt;class Microsoft.Maui.Hosting.IFontCollection&gt; configureDelegate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Hosting.FontsMauiAppBuilderExtensions.ConfigureFonts(Microsoft.Maui.Hosting.MauiAppBuilder,System.Action{Microsoft.Maui.Hosting.IFontCollection})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ConfigureFonts (builder As MauiAppBuilder, configureDelegate As Action(Of IFontCollection)) As MauiAppBuilder" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ ConfigureFonts(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder, Action&lt;Microsoft::Maui::Hosting::IFontCollection ^&gt; ^ configureDelegate);" />
       <MemberSignature Language="F#" Value="static member ConfigureFonts : Microsoft.Maui.Hosting.MauiAppBuilder * Action&lt;Microsoft.Maui.Hosting.IFontCollection&gt; -&gt; Microsoft.Maui.Hosting.MauiAppBuilder" Usage="Microsoft.Maui.Hosting.FontsMauiAppBuilderExtensions.ConfigureFonts (builder, configureDelegate)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ ConfigureFonts(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder, Action&lt;Microsoft::Maui::Hosting::IFontCollection ^&gt; ^ configureDelegate);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

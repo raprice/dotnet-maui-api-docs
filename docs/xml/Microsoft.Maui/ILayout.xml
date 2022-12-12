@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILayout implements class Microsoft.Maui.IContainer, class Microsoft.Maui.IElement, class Microsoft.Maui.IPadding, class Microsoft.Maui.ISafeAreaView, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView, class System.Collections.Generic.ICollection`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ILayout" />
   <TypeSignature Language="VB.NET" Value="Public Interface ILayout&#xA;Implements ICollection(Of IView), IContainer, IEnumerable(Of IView), IList(Of IView), IPadding, ISafeAreaView, IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ILayout : Microsoft::Maui::IContainer, Microsoft::Maui::IPadding, Microsoft::Maui::ISafeAreaView, Microsoft::Maui::IView, System::Collections::Generic::ICollection&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::IView ^&gt;" />
   <TypeSignature Language="F#" Value="type ILayout = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IContainer&#xA;    interface IList&lt;IView&gt;&#xA;    interface ICollection&lt;IView&gt;&#xA;    interface seq&lt;IView&gt;&#xA;    interface IEnumerable&#xA;    interface ISafeAreaView&#xA;    interface IPadding" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ILayout : Microsoft::Maui::IContainer, Microsoft::Maui::IPadding, Microsoft::Maui::ISafeAreaView, Microsoft::Maui::IView, System::Collections::Generic::ICollection&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::IView ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -60,8 +60,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool ClipsToBounds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ILayout.ClipsToBounds" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClipsToBounds As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ClipsToBounds { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.ClipsToBounds : bool" Usage="Microsoft.Maui.ILayout.ClipsToBounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ClipsToBounds { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -83,8 +83,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Maui.Graphics.Size CrossPlatformArrange(valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ILayout.CrossPlatformArrange(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Function CrossPlatformArrange (bounds As Rect) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Size CrossPlatformArrange(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberSignature Language="F#" Value="abstract member CrossPlatformArrange : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size" Usage="iLayout.CrossPlatformArrange bounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Size CrossPlatformArrange(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -110,8 +110,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Maui.Graphics.Size CrossPlatformMeasure(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ILayout.CrossPlatformMeasure(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function CrossPlatformMeasure (widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Size CrossPlatformMeasure(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="abstract member CrossPlatformMeasure : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="iLayout.CrossPlatformMeasure (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Size CrossPlatformMeasure(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

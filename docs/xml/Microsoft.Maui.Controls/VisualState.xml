@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit VisualState extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.VisualState" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class VisualState" />
-  <TypeSignature Language="C++ CLI" Value="public ref class VisualState sealed" />
   <TypeSignature Language="F#" Value="type VisualState = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VisualState sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.VisualState.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="visualState.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.VisualState.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="visualState.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -89,8 +89,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.VisualState.Name" />
       <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Maui.Controls.VisualState.Name" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -110,8 +110,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.Setter&gt; Setters" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.VisualState.Setters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Setters As IList(Of Setter)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Setter ^&gt; ^ Setters { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Setter ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Setters : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.Setter&gt;" Usage="Microsoft.Maui.Controls.VisualState.Setters" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Setter ^&gt; ^ Setters { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Setter ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -131,8 +131,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.StateTriggerBase&gt; StateTriggers" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.VisualState.StateTriggers" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StateTriggers As IList(Of StateTriggerBase)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::StateTriggerBase ^&gt; ^ StateTriggers { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::StateTriggerBase ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.StateTriggers : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.StateTriggerBase&gt;" Usage="Microsoft.Maui.Controls.VisualState.StateTriggers" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::StateTriggerBase ^&gt; ^ StateTriggers { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::StateTriggerBase ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -152,8 +152,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type TargetType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.VisualState.TargetType" />
       <MemberSignature Language="VB.NET" Value="Public Property TargetType As Type" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Type ^ TargetType { Type ^ get(); void set(Type ^ value); };" />
       <MemberSignature Language="F#" Value="member this.TargetType : Type with get, set" Usage="Microsoft.Maui.Controls.VisualState.TargetType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Type ^ TargetType { Type ^ get(); void set(Type ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IEditor implements class Microsoft.Maui.IElement, class Microsoft.Maui.IPlaceholder, class Microsoft.Maui.IText, class Microsoft.Maui.ITextAlignment, class Microsoft.Maui.ITextInput, class Microsoft.Maui.ITextStyle, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IEditor" />
   <TypeSignature Language="VB.NET" Value="Public Interface IEditor&#xA;Implements ITextAlignment, ITextInput, IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IEditor : Microsoft::Maui::ITextAlignment, Microsoft::Maui::ITextInput, Microsoft::Maui::IView" />
   <TypeSignature Language="F#" Value="type IEditor = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface ITextInput&#xA;    interface IText&#xA;    interface ITextStyle&#xA;    interface IPlaceholder&#xA;    interface ITextAlignment" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IEditor : Microsoft::Maui::ITextAlignment, Microsoft::Maui::ITextInput, Microsoft::Maui::IView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Completed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IEditor.Completed" />
       <MemberSignature Language="VB.NET" Value="Public Sub Completed ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Completed();" />
       <MemberSignature Language="F#" Value="abstract member Completed : unit -&gt; unit" Usage="iEditor.Completed " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Completed();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

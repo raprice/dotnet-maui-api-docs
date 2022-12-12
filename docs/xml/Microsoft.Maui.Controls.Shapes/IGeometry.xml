@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGeometry implements class Microsoft.Maui.Graphics.IShape" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.IGeometry" />
   <TypeSignature Language="VB.NET" Value="Public Interface IGeometry&#xA;Implements IShape" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IGeometry : Microsoft::Maui::Graphics::IShape" />
   <TypeSignature Language="F#" Value="type IGeometry = interface&#xA;    interface IShape" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IGeometry : Microsoft::Maui::Graphics::IShape" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPinchGestureController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IPinchGestureController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPinchGestureController" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IPinchGestureController" />
   <TypeSignature Language="F#" Value="type IPinchGestureController = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPinchGestureController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPinching" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IPinchGestureController.IsPinching" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPinching As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPinching { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsPinching : bool with get, set" Usage="Microsoft.Maui.Controls.IPinchGestureController.IsPinching" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPinching { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -41,8 +41,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPinch(class Microsoft.Maui.Controls.Element sender, float64 scale, valuetype Microsoft.Maui.Graphics.Point currentScalePoint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IPinchGestureController.SendPinch(Microsoft.Maui.Controls.Element,System.Double,Microsoft.Maui.Graphics.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPinch (sender As Element, scale As Double, currentScalePoint As Point)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPinch(Microsoft::Maui::Controls::Element ^ sender, double scale, Microsoft::Maui::Graphics::Point currentScalePoint);" />
       <MemberSignature Language="F#" Value="abstract member SendPinch : Microsoft.Maui.Controls.Element * double * Microsoft.Maui.Graphics.Point -&gt; unit" Usage="iPinchGestureController.SendPinch (sender, scale, currentScalePoint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPinch(Microsoft::Maui::Controls::Element ^ sender, double scale, Microsoft::Maui::Graphics::Point currentScalePoint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPinchCanceled(class Microsoft.Maui.Controls.Element sender) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IPinchGestureController.SendPinchCanceled(Microsoft.Maui.Controls.Element)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPinchCanceled (sender As Element)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPinchCanceled(Microsoft::Maui::Controls::Element ^ sender);" />
       <MemberSignature Language="F#" Value="abstract member SendPinchCanceled : Microsoft.Maui.Controls.Element -&gt; unit" Usage="iPinchGestureController.SendPinchCanceled sender" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPinchCanceled(Microsoft::Maui::Controls::Element ^ sender);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPinchEnded(class Microsoft.Maui.Controls.Element sender) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IPinchGestureController.SendPinchEnded(Microsoft.Maui.Controls.Element)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPinchEnded (sender As Element)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPinchEnded(Microsoft::Maui::Controls::Element ^ sender);" />
       <MemberSignature Language="F#" Value="abstract member SendPinchEnded : Microsoft.Maui.Controls.Element -&gt; unit" Usage="iPinchGestureController.SendPinchEnded sender" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPinchEnded(Microsoft::Maui::Controls::Element ^ sender);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -117,8 +117,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPinchStarted(class Microsoft.Maui.Controls.Element sender, valuetype Microsoft.Maui.Graphics.Point intialScalePoint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IPinchGestureController.SendPinchStarted(Microsoft.Maui.Controls.Element,Microsoft.Maui.Graphics.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPinchStarted (sender As Element, intialScalePoint As Point)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPinchStarted(Microsoft::Maui::Controls::Element ^ sender, Microsoft::Maui::Graphics::Point intialScalePoint);" />
       <MemberSignature Language="F#" Value="abstract member SendPinchStarted : Microsoft.Maui.Controls.Element * Microsoft.Maui.Graphics.Point -&gt; unit" Usage="iPinchGestureController.SendPinchStarted (sender, intialScalePoint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPinchStarted(Microsoft::Maui::Controls::Element ^ sender, Microsoft::Maui::Graphics::Point intialScalePoint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

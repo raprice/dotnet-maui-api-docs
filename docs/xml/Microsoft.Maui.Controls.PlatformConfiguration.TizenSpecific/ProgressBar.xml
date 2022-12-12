@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ProgressBar extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBar" />
   <TypeSignature Language="VB.NET" Value="Public Module ProgressBar" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ProgressBar abstract sealed" />
   <TypeSignature Language="F#" Value="type ProgressBar = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ProgressBar abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetPulsingStatus(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBar.GetPulsingStatus(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPulsingStatus (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetPulsingStatus(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetPulsingStatus : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBar.GetPulsingStatus element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetPulsingStatus(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -49,8 +49,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetPulsingStatus(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Tizen, class Microsoft.Maui.Controls.ProgressBar&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBar.GetPulsingStatus(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Tizen,Microsoft.Maui.Controls.ProgressBar})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetPulsingStatus (config As IPlatformElementConfiguration(Of Tizen, ProgressBar)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetPulsingStatus(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::ProgressBar ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetPulsingStatus : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Tizen, Microsoft.Maui.Controls.ProgressBar&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBar.GetPulsingStatus config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetPulsingStatus(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::ProgressBar ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ProgressBarPulsingStatusProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBar.ProgressBarPulsingStatusProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly ProgressBarPulsingStatusProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ProgressBarPulsingStatusProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ProgressBarPulsingStatusProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBar.ProgressBarPulsingStatusProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ProgressBarPulsingStatusProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -95,8 +95,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetPulsingStatus(class Microsoft.Maui.Controls.BindableObject element, bool isPulsing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBar.SetPulsingStatus(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetPulsingStatus (element As BindableObject, isPulsing As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetPulsingStatus(Microsoft::Maui::Controls::BindableObject ^ element, bool isPulsing);" />
       <MemberSignature Language="F#" Value="static member SetPulsingStatus : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBar.SetPulsingStatus (element, isPulsing)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetPulsingStatus(Microsoft::Maui::Controls::BindableObject ^ element, bool isPulsing);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -122,8 +122,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Tizen, class Microsoft.Maui.Controls.ProgressBar&gt; SetPulsingStatus(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Tizen, class Microsoft.Maui.Controls.ProgressBar&gt; config, bool isPulsing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBar.SetPulsingStatus(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Tizen,Microsoft.Maui.Controls.ProgressBar},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetPulsingStatus (config As IPlatformElementConfiguration(Of Tizen, ProgressBar), isPulsing As Boolean) As IPlatformElementConfiguration(Of Tizen, ProgressBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::ProgressBar ^&gt; ^ SetPulsingStatus(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::ProgressBar ^&gt; ^ config, bool isPulsing);" />
       <MemberSignature Language="F#" Value="static member SetPulsingStatus : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Tizen, Microsoft.Maui.Controls.ProgressBar&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Tizen, Microsoft.Maui.Controls.ProgressBar&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBar.SetPulsingStatus (config, isPulsing)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::ProgressBar ^&gt; ^ SetPulsingStatus(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::ProgressBar ^&gt; ^ config, bool isPulsing);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

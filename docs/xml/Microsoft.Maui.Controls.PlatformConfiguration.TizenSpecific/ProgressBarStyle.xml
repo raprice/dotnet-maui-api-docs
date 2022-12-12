@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ProgressBarStyle extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBarStyle" />
   <TypeSignature Language="VB.NET" Value="Public Class ProgressBarStyle" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ProgressBarStyle abstract sealed" />
   <TypeSignature Language="F#" Value="type ProgressBarStyle = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ProgressBarStyle abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Default" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBarStyle.Default" />
       <MemberSignature Language="VB.NET" Value="Public Const Default As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Default;" />
       <MemberSignature Language="F#" Value="val mutable Default : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBarStyle.Default" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Default;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -43,8 +43,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Pending" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBarStyle.Pending" />
       <MemberSignature Language="VB.NET" Value="Public Const Pending As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Pending;" />
       <MemberSignature Language="F#" Value="val mutable Pending : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ProgressBarStyle.Pending" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Pending;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FlexPosition extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Layouts.FlexPosition" />
   <TypeSignature Language="VB.NET" Value="Public Enum FlexPosition" />
-  <TypeSignature Language="C++ CLI" Value="public enum class FlexPosition" />
   <TypeSignature Language="F#" Value="type FlexPosition = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class FlexPosition" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Layouts.FlexPosition Absolute = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.FlexPosition.Absolute" />
       <MemberSignature Language="VB.NET" Value="Absolute" />
-      <MemberSignature Language="C++ CLI" Value="Absolute" />
       <MemberSignature Language="F#" Value="Absolute = 1" Usage="Microsoft.Maui.Layouts.FlexPosition.Absolute" />
+      <MemberSignature Language="C++ CLI" Value="Absolute" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Layouts.FlexPosition Relative = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.FlexPosition.Relative" />
       <MemberSignature Language="VB.NET" Value="Relative" />
-      <MemberSignature Language="C++ CLI" Value="Relative" />
       <MemberSignature Language="F#" Value="Relative = 0" Usage="Microsoft.Maui.Layouts.FlexPosition.Relative" />
+      <MemberSignature Language="C++ CLI" Value="Relative" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

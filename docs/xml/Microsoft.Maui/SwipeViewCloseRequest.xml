@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SwipeViewCloseRequest extends System.Object implements class System.IEquatable`1&lt;class Microsoft.Maui.SwipeViewCloseRequest&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.SwipeViewCloseRequest" />
   <TypeSignature Language="VB.NET" Value="Public Class SwipeViewCloseRequest&#xA;Implements IEquatable(Of SwipeViewCloseRequest)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SwipeViewCloseRequest : IEquatable&lt;Microsoft::Maui::SwipeViewCloseRequest ^&gt;" />
   <TypeSignature Language="F#" Value="type SwipeViewCloseRequest = class&#xA;    interface IEquatable&lt;SwipeViewCloseRequest&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SwipeViewCloseRequest : IEquatable&lt;Microsoft::Maui::SwipeViewCloseRequest ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool Animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.SwipeViewCloseRequest.#ctor(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (Animated As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; SwipeViewCloseRequest(bool Animated);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.SwipeViewCloseRequest : bool -&gt; Microsoft.Maui.SwipeViewCloseRequest" Usage="new Microsoft.Maui.SwipeViewCloseRequest Animated" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SwipeViewCloseRequest(bool Animated);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -89,8 +89,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Animated" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.SwipeViewCloseRequest.Animated" />
       <MemberSignature Language="VB.NET" Value="Public Property Animated As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Animated { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Animated : bool with get, set" Usage="Microsoft.Maui.SwipeViewCloseRequest.Animated" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Animated { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -133,8 +133,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type EqualityContract" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.SwipeViewCloseRequest.EqualityContract" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property EqualityContract As Type" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property Type ^ EqualityContract { Type ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.EqualityContract : Type" Usage="Microsoft.Maui.SwipeViewCloseRequest.EqualityContract" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property Type ^ EqualityContract { Type ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

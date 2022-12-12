@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VisualTreeElementExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.VisualTreeElementExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module VisualTreeElementExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class VisualTreeElementExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type VisualTreeElementExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VisualTreeElementExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.IWindow GetVisualElementWindow(class Microsoft.Maui.IVisualTreeElement element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualTreeElementExtensions.GetVisualElementWindow(Microsoft.Maui.IVisualTreeElement)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVisualElementWindow (element As IVisualTreeElement) As IWindow" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::IWindow ^ GetVisualElementWindow(Microsoft::Maui::IVisualTreeElement ^ element);" />
       <MemberSignature Language="F#" Value="static member GetVisualElementWindow : Microsoft.Maui.IVisualTreeElement -&gt; Microsoft.Maui.IWindow" Usage="Microsoft.Maui.VisualTreeElementExtensions.GetVisualElementWindow element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::IWindow ^ GetVisualElementWindow(Microsoft::Maui::IVisualTreeElement ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -52,8 +52,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IVisualTreeElement&gt; GetVisualTreeDescendants(class Microsoft.Maui.IVisualTreeElement visualElement) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualTreeElementExtensions.GetVisualTreeDescendants(Microsoft.Maui.IVisualTreeElement)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVisualTreeDescendants (visualElement As IVisualTreeElement) As IReadOnlyList(Of IVisualTreeElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ GetVisualTreeDescendants(Microsoft::Maui::IVisualTreeElement ^ visualElement);" />
       <MemberSignature Language="F#" Value="static member GetVisualTreeDescendants : Microsoft.Maui.IVisualTreeElement -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IVisualTreeElement&gt;" Usage="Microsoft.Maui.VisualTreeElementExtensions.GetVisualTreeDescendants visualElement" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ GetVisualTreeDescendants(Microsoft::Maui::IVisualTreeElement ^ visualElement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -80,8 +80,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IVisualTreeElement&gt; GetVisualTreeElements(class Microsoft.Maui.IVisualTreeElement visualElement, valuetype Microsoft.Maui.Graphics.Point point) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualTreeElementExtensions.GetVisualTreeElements(Microsoft.Maui.IVisualTreeElement,Microsoft.Maui.Graphics.Point)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVisualTreeElements (visualElement As IVisualTreeElement, point As Point) As IReadOnlyList(Of IVisualTreeElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ GetVisualTreeElements(Microsoft::Maui::IVisualTreeElement ^ visualElement, Microsoft::Maui::Graphics::Point point);" />
       <MemberSignature Language="F#" Value="static member GetVisualTreeElements : Microsoft.Maui.IVisualTreeElement * Microsoft.Maui.Graphics.Point -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IVisualTreeElement&gt;" Usage="Microsoft.Maui.VisualTreeElementExtensions.GetVisualTreeElements (visualElement, point)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ GetVisualTreeElements(Microsoft::Maui::IVisualTreeElement ^ visualElement, Microsoft::Maui::Graphics::Point point);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -111,8 +111,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IVisualTreeElement&gt; GetVisualTreeElements(class Microsoft.Maui.IVisualTreeElement visualElement, valuetype Microsoft.Maui.Graphics.Rect rectangle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualTreeElementExtensions.GetVisualTreeElements(Microsoft.Maui.IVisualTreeElement,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVisualTreeElements (visualElement As IVisualTreeElement, rectangle As Rect) As IReadOnlyList(Of IVisualTreeElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ GetVisualTreeElements(Microsoft::Maui::IVisualTreeElement ^ visualElement, Microsoft::Maui::Graphics::Rect rectangle);" />
       <MemberSignature Language="F#" Value="static member GetVisualTreeElements : Microsoft.Maui.IVisualTreeElement * Microsoft.Maui.Graphics.Rect -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IVisualTreeElement&gt;" Usage="Microsoft.Maui.VisualTreeElementExtensions.GetVisualTreeElements (visualElement, rectangle)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ GetVisualTreeElements(Microsoft::Maui::IVisualTreeElement ^ visualElement, Microsoft::Maui::Graphics::Rect rectangle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -141,8 +141,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IVisualTreeElement&gt; GetVisualTreeElements(class Microsoft.Maui.IVisualTreeElement visualElement, float64 x, float64 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualTreeElementExtensions.GetVisualTreeElements(Microsoft.Maui.IVisualTreeElement,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVisualTreeElements (visualElement As IVisualTreeElement, x As Double, y As Double) As IReadOnlyList(Of IVisualTreeElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ GetVisualTreeElements(Microsoft::Maui::IVisualTreeElement ^ visualElement, double x, double y);" />
       <MemberSignature Language="F#" Value="static member GetVisualTreeElements : Microsoft.Maui.IVisualTreeElement * double * double -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IVisualTreeElement&gt;" Usage="Microsoft.Maui.VisualTreeElementExtensions.GetVisualTreeElements (visualElement, x, y)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ GetVisualTreeElements(Microsoft::Maui::IVisualTreeElement ^ visualElement, double x, double y);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -173,8 +173,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IVisualTreeElement&gt; GetVisualTreeElements(class Microsoft.Maui.IVisualTreeElement visualElement, float64 x1, float64 y1, float64 x2, float64 y2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualTreeElementExtensions.GetVisualTreeElements(Microsoft.Maui.IVisualTreeElement,System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVisualTreeElements (visualElement As IVisualTreeElement, x1 As Double, y1 As Double, x2 As Double, y2 As Double) As IReadOnlyList(Of IVisualTreeElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ GetVisualTreeElements(Microsoft::Maui::IVisualTreeElement ^ visualElement, double x1, double y1, double x2, double y2);" />
       <MemberSignature Language="F#" Value="static member GetVisualTreeElements : Microsoft.Maui.IVisualTreeElement * double * double * double * double -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IVisualTreeElement&gt;" Usage="Microsoft.Maui.VisualTreeElementExtensions.GetVisualTreeElements (visualElement, x1, y1, x2, y2)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ GetVisualTreeElements(Microsoft::Maui::IVisualTreeElement ^ visualElement, double x1, double y1, double x2, double y2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

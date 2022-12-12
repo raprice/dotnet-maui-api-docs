@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICircleMapElement implements class Microsoft.Maui.IElement, class Microsoft.Maui.IStroke, class Microsoft.Maui.Maps.IFilledMapElement, class Microsoft.Maui.Maps.IMapElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Maps.ICircleMapElement" />
   <TypeSignature Language="VB.NET" Value="Public Interface ICircleMapElement&#xA;Implements IElement, IFilledMapElement, IStroke" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ICircleMapElement : Microsoft::Maui::IElement, Microsoft::Maui::IStroke, Microsoft::Maui::Maps::IFilledMapElement" />
   <TypeSignature Language="F#" Value="type ICircleMapElement = interface&#xA;    interface IMapElement&#xA;    interface IElement&#xA;    interface IStroke&#xA;    interface IFilledMapElement" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ICircleMapElement : Microsoft::Maui::IElement, Microsoft::Maui::IStroke, Microsoft::Maui::Maps::IFilledMapElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Devices.Sensors.Location Center" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Maps.ICircleMapElement.Center" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Center As Location" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::Sensors::Location ^ Center { Microsoft::Maui::Devices::Sensors::Location ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Center : Microsoft.Maui.Devices.Sensors.Location" Usage="Microsoft.Maui.Maps.ICircleMapElement.Center" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::Sensors::Location ^ Center { Microsoft::Maui::Devices::Sensors::Location ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Maps.Distance Radius" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Maps.ICircleMapElement.Radius" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Radius As Distance" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Maps::Distance Radius { Microsoft::Maui::Maps::Distance get(); };" />
       <MemberSignature Language="F#" Value="member this.Radius : Microsoft.Maui.Maps.Distance" Usage="Microsoft.Maui.Maps.ICircleMapElement.Radius" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Maps::Distance Radius { Microsoft::Maui::Maps::Distance get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Maps</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MediaPicker extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Media.MediaPicker" />
   <TypeSignature Language="VB.NET" Value="Public Class MediaPicker" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MediaPicker abstract sealed" />
   <TypeSignature Language="F#" Value="type MediaPicker = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MediaPicker abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Media.IMediaPicker Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Media.MediaPicker.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As IMediaPicker" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Media::IMediaPicker ^ Default { Microsoft::Maui::Media::IMediaPicker ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.Media.IMediaPicker" Usage="Microsoft.Maui.Media.MediaPicker.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Media::IMediaPicker ^ Default { Microsoft::Maui::Media::IMediaPicker ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -92,8 +92,8 @@
       <MemberSignature Language="ILAsm" Value=".property bool IsCaptureSupported" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Media.MediaPicker.IsCaptureSupported" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsCaptureSupported As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsCaptureSupported { bool get(); };" />
       <MemberSignature Language="F#" Value="static member IsCaptureSupported : bool" Usage="Microsoft.Maui.Media.MediaPicker.IsCaptureSupported" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsCaptureSupported { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

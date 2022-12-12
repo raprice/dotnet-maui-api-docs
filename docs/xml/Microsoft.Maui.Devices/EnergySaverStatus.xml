@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EnergySaverStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.EnergySaverStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum EnergySaverStatus" />
-  <TypeSignature Language="C++ CLI" Value="public enum class EnergySaverStatus" />
   <TypeSignature Language="F#" Value="type EnergySaverStatus = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class EnergySaverStatus" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.EnergySaverStatus Off = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.EnergySaverStatus.Off" />
       <MemberSignature Language="VB.NET" Value="Off" />
-      <MemberSignature Language="C++ CLI" Value="Off" />
       <MemberSignature Language="F#" Value="Off = 2" Usage="Microsoft.Maui.Devices.EnergySaverStatus.Off" />
+      <MemberSignature Language="C++ CLI" Value="Off" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.EnergySaverStatus On = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.EnergySaverStatus.On" />
       <MemberSignature Language="VB.NET" Value="On" />
-      <MemberSignature Language="C++ CLI" Value="On" />
       <MemberSignature Language="F#" Value="On = 1" Usage="Microsoft.Maui.Devices.EnergySaverStatus.On" />
+      <MemberSignature Language="C++ CLI" Value="On" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.EnergySaverStatus Unknown = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.EnergySaverStatus.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
-      <MemberSignature Language="C++ CLI" Value="Unknown" />
       <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.Maui.Devices.EnergySaverStatus.Unknown" />
+      <MemberSignature Language="C++ CLI" Value="Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

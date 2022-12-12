@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISms" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Communication.ISms" />
   <TypeSignature Language="VB.NET" Value="Public Interface ISms" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ISms" />
   <TypeSignature Language="F#" Value="type ISms = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ISms" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task ComposeAsync(class Microsoft.Maui.ApplicationModel.Communication.SmsMessage message) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Communication.ISms.ComposeAsync(Microsoft.Maui.ApplicationModel.Communication.SmsMessage)" />
       <MemberSignature Language="VB.NET" Value="Public Function ComposeAsync (message As SmsMessage) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ ComposeAsync(Microsoft::Maui::ApplicationModel::Communication::SmsMessage ^ message);" />
       <MemberSignature Language="F#" Value="abstract member ComposeAsync : Microsoft.Maui.ApplicationModel.Communication.SmsMessage -&gt; System.Threading.Tasks.Task" Usage="iSms.ComposeAsync message" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ ComposeAsync(Microsoft::Maui::ApplicationModel::Communication::SmsMessage ^ message);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -45,8 +45,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsComposeSupported" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.ISms.IsComposeSupported" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsComposeSupported As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsComposeSupported { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsComposeSupported : bool" Usage="Microsoft.Maui.ApplicationModel.Communication.ISms.IsComposeSupported" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsComposeSupported { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

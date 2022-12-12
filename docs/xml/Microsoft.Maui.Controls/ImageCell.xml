@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ImageCell extends Microsoft.Maui.Controls.TextCell" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ImageCell" />
   <TypeSignature Language="VB.NET" Value="Public Class ImageCell&#xA;Inherits TextCell" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ImageCell : Microsoft::Maui::Controls::TextCell" />
   <TypeSignature Language="F#" Value="type ImageCell = class&#xA;    inherit TextCell" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImageCell : Microsoft::Maui::Controls::TextCell" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -101,8 +101,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource ImageSource" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ImageCell.ImageSource" />
       <MemberSignature Language="VB.NET" Value="Public Property ImageSource As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ ImageSource { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ImageSource : Microsoft.Maui.Controls.ImageSource with get, set" Usage="Microsoft.Maui.Controls.ImageCell.ImageSource" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ ImageSource { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -128,8 +128,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ImageSourceProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ImageCell.ImageSourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImageSourceProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ImageSourceProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ImageSourceProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ImageCell.ImageSourceProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ImageSourceProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -148,8 +148,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ImageCell.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="imageCell.OnBindingContextChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

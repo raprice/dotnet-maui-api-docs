@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ImageSourceExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ImageSourceExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module ImageSourceExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ImageSourceExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type ImageSourceExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImageSourceExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.IImageSourceServiceResult`1&lt;object&gt;&gt; GetPlatformImageAsync(class Microsoft.Maui.IImageSource imageSource, class Microsoft.Maui.IMauiContext mauiContext) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ImageSourceExtensions.GetPlatformImageAsync(Microsoft.Maui.IImageSource,Microsoft.Maui.IMauiContext)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetPlatformImageAsync (imageSource As IImageSource, mauiContext As IMauiContext) As Task(Of IImageSourceServiceResult(Of Object))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::IImageSourceServiceResult&lt;System::Object ^&gt; ^&gt; ^ GetPlatformImageAsync(Microsoft::Maui::IImageSource ^ imageSource, Microsoft::Maui::IMauiContext ^ mauiContext);" />
       <MemberSignature Language="F#" Value="static member GetPlatformImageAsync : Microsoft.Maui.IImageSource * Microsoft.Maui.IMauiContext -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.IImageSourceServiceResult&lt;obj&gt;&gt;" Usage="Microsoft.Maui.ImageSourceExtensions.GetPlatformImageAsync (imageSource, mauiContext)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::IImageSourceServiceResult&lt;System::Object ^&gt; ^&gt; ^ GetPlatformImageAsync(Microsoft::Maui::IImageSource ^ imageSource, Microsoft::Maui::IMauiContext ^ mauiContext);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.IImageSourceServiceResult`1&lt;object&gt;&gt; GetPlatformImageAsync(class Microsoft.Maui.IImageSourceService imageSourceService, class Microsoft.Maui.IImageSource imageSource, class Microsoft.Maui.IMauiContext mauiContext) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ImageSourceExtensions.GetPlatformImageAsync(Microsoft.Maui.IImageSourceService,Microsoft.Maui.IImageSource,Microsoft.Maui.IMauiContext)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetPlatformImageAsync (imageSourceService As IImageSourceService, imageSource As IImageSource, mauiContext As IMauiContext) As Task(Of IImageSourceServiceResult(Of Object))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::IImageSourceServiceResult&lt;System::Object ^&gt; ^&gt; ^ GetPlatformImageAsync(Microsoft::Maui::IImageSourceService ^ imageSourceService, Microsoft::Maui::IImageSource ^ imageSource, Microsoft::Maui::IMauiContext ^ mauiContext);" />
       <MemberSignature Language="F#" Value="static member GetPlatformImageAsync : Microsoft.Maui.IImageSourceService * Microsoft.Maui.IImageSource * Microsoft.Maui.IMauiContext -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.IImageSourceServiceResult&lt;obj&gt;&gt;" Usage="Microsoft.Maui.ImageSourceExtensions.GetPlatformImageAsync (imageSourceService, imageSource, mauiContext)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::IImageSourceServiceResult&lt;System::Object ^&gt; ^&gt; ^ GetPlatformImageAsync(Microsoft::Maui::IImageSourceService ^ imageSourceService, Microsoft::Maui::IImageSource ^ imageSource, Microsoft::Maui::IMauiContext ^ mauiContext);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

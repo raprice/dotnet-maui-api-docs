@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICanvasStateService`1&lt;(class Microsoft.Maui.Graphics.CanvasState) TState&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.ICanvasStateService`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface ICanvasStateService(Of TState)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TState&gt;&#xA; where TState : CanvasStatepublic interface class ICanvasStateService" />
   <TypeSignature Language="F#" Value="type ICanvasStateService&lt;'State (requires 'State :&gt; CanvasState)&gt; = interface" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TState&gt;&#xA; where TState : CanvasStatepublic interface class ICanvasStateService" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -28,8 +28,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TState CreateCopy(!TState prototype) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.ICanvasStateService`1.CreateCopy(`0)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateCopy (prototype As TState) As TState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; TState CreateCopy(TState prototype);" />
       <MemberSignature Language="F#" Value="abstract member CreateCopy : 'State -&gt; 'State" Usage="iCanvasStateService.CreateCopy prototype" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TState CreateCopy(TState prototype);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -53,8 +53,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TState CreateNew(object context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.ICanvasStateService`1.CreateNew(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateNew (context As Object) As TState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; TState CreateNew(System::Object ^ context);" />
       <MemberSignature Language="F#" Value="abstract member CreateNew : obj -&gt; 'State" Usage="iCanvasStateService.CreateNew context" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TState CreateNew(System::Object ^ context);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

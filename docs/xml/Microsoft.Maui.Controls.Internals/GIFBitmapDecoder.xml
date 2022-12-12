@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GIFBitmapDecoder extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.GIFBitmapDecoder" />
   <TypeSignature Language="VB.NET" Value="Public Class GIFBitmapDecoder" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GIFBitmapDecoder" />
   <TypeSignature Language="F#" Value="type GIFBitmapDecoder = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GIFBitmapDecoder" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Compose(class Microsoft.Maui.Controls.Internals.GIFHeader header, class Microsoft.Maui.Controls.Internals.GIFBitmap currentBitmap, class Microsoft.Maui.Controls.Internals.GIFBitmap previousBitmap) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.GIFBitmapDecoder.Compose(Microsoft.Maui.Controls.Internals.GIFHeader,Microsoft.Maui.Controls.Internals.GIFBitmap,Microsoft.Maui.Controls.Internals.GIFBitmap)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Compose (header As GIFHeader, currentBitmap As GIFBitmap, previousBitmap As GIFBitmap)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Compose(Microsoft::Maui::Controls::Internals::GIFHeader ^ header, Microsoft::Maui::Controls::Internals::GIFBitmap ^ currentBitmap, Microsoft::Maui::Controls::Internals::GIFBitmap ^ previousBitmap);" />
       <MemberSignature Language="F#" Value="member this.Compose : Microsoft.Maui.Controls.Internals.GIFHeader * Microsoft.Maui.Controls.Internals.GIFBitmap * Microsoft.Maui.Controls.Internals.GIFBitmap -&gt; unit" Usage="gIFBitmapDecoder.Compose (header, currentBitmap, previousBitmap)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Compose(Microsoft::Maui::Controls::Internals::GIFHeader ^ header, Microsoft::Maui::Controls::Internals::GIFBitmap ^ currentBitmap, Microsoft::Maui::Controls::Internals::GIFBitmap ^ previousBitmap);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task DecodeAsync(class Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader stream, int32 width, int32 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.GIFBitmapDecoder.DecodeAsync(Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function DecodeAsync (stream As GIFDecoderStreamReader, width As Integer, height As Integer) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ DecodeAsync(Microsoft::Maui::Controls::Internals::GIFDecoderStreamReader ^ stream, int width, int height);" />
       <MemberSignature Language="F#" Value="member this.DecodeAsync : Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader * int * int -&gt; System.Threading.Tasks.Task" Usage="gIFBitmapDecoder.DecodeAsync (stream, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ DecodeAsync(Microsoft::Maui::Controls::Internals::GIFDecoderStreamReader ^ stream, int width, int height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

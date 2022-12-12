@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FontWeights extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.FontWeights" />
   <TypeSignature Language="VB.NET" Value="Public Class FontWeights" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FontWeights abstract sealed" />
   <TypeSignature Language="F#" Value="type FontWeights = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FontWeights abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 Black = (900)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.Black" />
       <MemberSignature Language="VB.NET" Value="Public Const Black As Integer  = 900" />
-      <MemberSignature Language="C++ CLI" Value="public: int Black = 900;" />
       <MemberSignature Language="F#" Value="val mutable Black : int" Usage="Microsoft.Maui.Graphics.FontWeights.Black" />
+      <MemberSignature Language="C++ CLI" Value="public: int Black = 900;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 Bold = (700)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.Bold" />
       <MemberSignature Language="VB.NET" Value="Public Const Bold As Integer  = 700" />
-      <MemberSignature Language="C++ CLI" Value="public: int Bold = 700;" />
       <MemberSignature Language="F#" Value="val mutable Bold : int" Usage="Microsoft.Maui.Graphics.FontWeights.Bold" />
+      <MemberSignature Language="C++ CLI" Value="public: int Bold = 700;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 Default = (-1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.Default" />
       <MemberSignature Language="VB.NET" Value="Public Const Default As Integer  = -1" />
-      <MemberSignature Language="C++ CLI" Value="public: int Default = -1;" />
       <MemberSignature Language="F#" Value="val mutable Default : int" Usage="Microsoft.Maui.Graphics.FontWeights.Default" />
+      <MemberSignature Language="C++ CLI" Value="public: int Default = -1;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 DemiBold = (600)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.DemiBold" />
       <MemberSignature Language="VB.NET" Value="Public Const DemiBold As Integer  = 600" />
-      <MemberSignature Language="C++ CLI" Value="public: int DemiBold = 600;" />
       <MemberSignature Language="F#" Value="val mutable DemiBold : int" Usage="Microsoft.Maui.Graphics.FontWeights.DemiBold" />
+      <MemberSignature Language="C++ CLI" Value="public: int DemiBold = 600;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 ExtraBlack = (950)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.ExtraBlack" />
       <MemberSignature Language="VB.NET" Value="Public Const ExtraBlack As Integer  = 950" />
-      <MemberSignature Language="C++ CLI" Value="public: int ExtraBlack = 950;" />
       <MemberSignature Language="F#" Value="val mutable ExtraBlack : int" Usage="Microsoft.Maui.Graphics.FontWeights.ExtraBlack" />
+      <MemberSignature Language="C++ CLI" Value="public: int ExtraBlack = 950;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -128,8 +128,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 ExtraBold = (800)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.ExtraBold" />
       <MemberSignature Language="VB.NET" Value="Public Const ExtraBold As Integer  = 800" />
-      <MemberSignature Language="C++ CLI" Value="public: int ExtraBold = 800;" />
       <MemberSignature Language="F#" Value="val mutable ExtraBold : int" Usage="Microsoft.Maui.Graphics.FontWeights.ExtraBold" />
+      <MemberSignature Language="C++ CLI" Value="public: int ExtraBold = 800;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -149,8 +149,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 ExtraLight = (200)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.ExtraLight" />
       <MemberSignature Language="VB.NET" Value="Public Const ExtraLight As Integer  = 200" />
-      <MemberSignature Language="C++ CLI" Value="public: int ExtraLight = 200;" />
       <MemberSignature Language="F#" Value="val mutable ExtraLight : int" Usage="Microsoft.Maui.Graphics.FontWeights.ExtraLight" />
+      <MemberSignature Language="C++ CLI" Value="public: int ExtraLight = 200;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -170,8 +170,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 Heavy = (900)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.Heavy" />
       <MemberSignature Language="VB.NET" Value="Public Const Heavy As Integer  = 900" />
-      <MemberSignature Language="C++ CLI" Value="public: int Heavy = 900;" />
       <MemberSignature Language="F#" Value="val mutable Heavy : int" Usage="Microsoft.Maui.Graphics.FontWeights.Heavy" />
+      <MemberSignature Language="C++ CLI" Value="public: int Heavy = 900;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -191,8 +191,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 Light = (300)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.Light" />
       <MemberSignature Language="VB.NET" Value="Public Const Light As Integer  = 300" />
-      <MemberSignature Language="C++ CLI" Value="public: int Light = 300;" />
       <MemberSignature Language="F#" Value="val mutable Light : int" Usage="Microsoft.Maui.Graphics.FontWeights.Light" />
+      <MemberSignature Language="C++ CLI" Value="public: int Light = 300;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -212,8 +212,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 Medium = (500)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.Medium" />
       <MemberSignature Language="VB.NET" Value="Public Const Medium As Integer  = 500" />
-      <MemberSignature Language="C++ CLI" Value="public: int Medium = 500;" />
       <MemberSignature Language="F#" Value="val mutable Medium : int" Usage="Microsoft.Maui.Graphics.FontWeights.Medium" />
+      <MemberSignature Language="C++ CLI" Value="public: int Medium = 500;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -233,8 +233,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 Normal = (400)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.Normal" />
       <MemberSignature Language="VB.NET" Value="Public Const Normal As Integer  = 400" />
-      <MemberSignature Language="C++ CLI" Value="public: int Normal = 400;" />
       <MemberSignature Language="F#" Value="val mutable Normal : int" Usage="Microsoft.Maui.Graphics.FontWeights.Normal" />
+      <MemberSignature Language="C++ CLI" Value="public: int Normal = 400;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -254,8 +254,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 Regular = (400)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.Regular" />
       <MemberSignature Language="VB.NET" Value="Public Const Regular As Integer  = 400" />
-      <MemberSignature Language="C++ CLI" Value="public: int Regular = 400;" />
       <MemberSignature Language="F#" Value="val mutable Regular : int" Usage="Microsoft.Maui.Graphics.FontWeights.Regular" />
+      <MemberSignature Language="C++ CLI" Value="public: int Regular = 400;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -275,8 +275,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 SemiBold = (600)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.SemiBold" />
       <MemberSignature Language="VB.NET" Value="Public Const SemiBold As Integer  = 600" />
-      <MemberSignature Language="C++ CLI" Value="public: int SemiBold = 600;" />
       <MemberSignature Language="F#" Value="val mutable SemiBold : int" Usage="Microsoft.Maui.Graphics.FontWeights.SemiBold" />
+      <MemberSignature Language="C++ CLI" Value="public: int SemiBold = 600;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -296,8 +296,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 SemiLight = (400)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.SemiLight" />
       <MemberSignature Language="VB.NET" Value="Public Const SemiLight As Integer  = 400" />
-      <MemberSignature Language="C++ CLI" Value="public: int SemiLight = 400;" />
       <MemberSignature Language="F#" Value="val mutable SemiLight : int" Usage="Microsoft.Maui.Graphics.FontWeights.SemiLight" />
+      <MemberSignature Language="C++ CLI" Value="public: int SemiLight = 400;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -317,8 +317,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 Thin = (100)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.Thin" />
       <MemberSignature Language="VB.NET" Value="Public Const Thin As Integer  = 100" />
-      <MemberSignature Language="C++ CLI" Value="public: int Thin = 100;" />
       <MemberSignature Language="F#" Value="val mutable Thin : int" Usage="Microsoft.Maui.Graphics.FontWeights.Thin" />
+      <MemberSignature Language="C++ CLI" Value="public: int Thin = 100;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -338,8 +338,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 UltraBlack = (950)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.UltraBlack" />
       <MemberSignature Language="VB.NET" Value="Public Const UltraBlack As Integer  = 950" />
-      <MemberSignature Language="C++ CLI" Value="public: int UltraBlack = 950;" />
       <MemberSignature Language="F#" Value="val mutable UltraBlack : int" Usage="Microsoft.Maui.Graphics.FontWeights.UltraBlack" />
+      <MemberSignature Language="C++ CLI" Value="public: int UltraBlack = 950;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -359,8 +359,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 UltraBold = (800)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.UltraBold" />
       <MemberSignature Language="VB.NET" Value="Public Const UltraBold As Integer  = 800" />
-      <MemberSignature Language="C++ CLI" Value="public: int UltraBold = 800;" />
       <MemberSignature Language="F#" Value="val mutable UltraBold : int" Usage="Microsoft.Maui.Graphics.FontWeights.UltraBold" />
+      <MemberSignature Language="C++ CLI" Value="public: int UltraBold = 800;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -380,8 +380,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 UltraLight = (200)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontWeights.UltraLight" />
       <MemberSignature Language="VB.NET" Value="Public Const UltraLight As Integer  = 200" />
-      <MemberSignature Language="C++ CLI" Value="public: int UltraLight = 200;" />
       <MemberSignature Language="F#" Value="val mutable UltraLight : int" Usage="Microsoft.Maui.Graphics.FontWeights.UltraLight" />
+      <MemberSignature Language="C++ CLI" Value="public: int UltraLight = 200;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

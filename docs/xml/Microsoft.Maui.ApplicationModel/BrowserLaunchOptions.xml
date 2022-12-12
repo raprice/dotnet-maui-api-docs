@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BrowserLaunchOptions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.BrowserLaunchOptions" />
   <TypeSignature Language="VB.NET" Value="Public Class BrowserLaunchOptions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BrowserLaunchOptions" />
   <TypeSignature Language="F#" Value="type BrowserLaunchOptions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BrowserLaunchOptions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.ApplicationModel.BrowserLaunchFlags Flags" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.BrowserLaunchOptions.Flags" />
       <MemberSignature Language="VB.NET" Value="Public Property Flags As BrowserLaunchFlags" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::BrowserLaunchFlags Flags { Microsoft::Maui::ApplicationModel::BrowserLaunchFlags get(); void set(Microsoft::Maui::ApplicationModel::BrowserLaunchFlags value); };" />
       <MemberSignature Language="F#" Value="member this.Flags : Microsoft.Maui.ApplicationModel.BrowserLaunchFlags with get, set" Usage="Microsoft.Maui.ApplicationModel.BrowserLaunchOptions.Flags" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::BrowserLaunchFlags Flags { Microsoft::Maui::ApplicationModel::BrowserLaunchFlags get(); void set(Microsoft::Maui::ApplicationModel::BrowserLaunchFlags value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.ApplicationModel.BrowserLaunchMode LaunchMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.BrowserLaunchOptions.LaunchMode" />
       <MemberSignature Language="VB.NET" Value="Public Property LaunchMode As BrowserLaunchMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::BrowserLaunchMode LaunchMode { Microsoft::Maui::ApplicationModel::BrowserLaunchMode get(); void set(Microsoft::Maui::ApplicationModel::BrowserLaunchMode value); };" />
       <MemberSignature Language="F#" Value="member this.LaunchMode : Microsoft.Maui.ApplicationModel.BrowserLaunchMode with get, set" Usage="Microsoft.Maui.ApplicationModel.BrowserLaunchOptions.LaunchMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::BrowserLaunchMode LaunchMode { Microsoft::Maui::ApplicationModel::BrowserLaunchMode get(); void set(Microsoft::Maui::ApplicationModel::BrowserLaunchMode value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color PreferredControlColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.BrowserLaunchOptions.PreferredControlColor" />
       <MemberSignature Language="VB.NET" Value="Public Property PreferredControlColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ PreferredControlColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PreferredControlColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.ApplicationModel.BrowserLaunchOptions.PreferredControlColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ PreferredControlColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -103,8 +103,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color PreferredToolbarColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.BrowserLaunchOptions.PreferredToolbarColor" />
       <MemberSignature Language="VB.NET" Value="Public Property PreferredToolbarColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ PreferredToolbarColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PreferredToolbarColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.ApplicationModel.BrowserLaunchOptions.PreferredToolbarColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ PreferredToolbarColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -124,8 +124,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.ApplicationModel.BrowserTitleMode TitleMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.BrowserLaunchOptions.TitleMode" />
       <MemberSignature Language="VB.NET" Value="Public Property TitleMode As BrowserTitleMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::BrowserTitleMode TitleMode { Microsoft::Maui::ApplicationModel::BrowserTitleMode get(); void set(Microsoft::Maui::ApplicationModel::BrowserTitleMode value); };" />
       <MemberSignature Language="F#" Value="member this.TitleMode : Microsoft.Maui.ApplicationModel.BrowserTitleMode with get, set" Usage="Microsoft.Maui.ApplicationModel.BrowserLaunchOptions.TitleMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::BrowserTitleMode TitleMode { Microsoft::Maui::ApplicationModel::BrowserTitleMode get(); void set(Microsoft::Maui::ApplicationModel::BrowserTitleMode value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

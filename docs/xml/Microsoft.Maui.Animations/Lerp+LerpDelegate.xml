@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed Lerp/LerpDelegate extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Animations.Lerp.LerpDelegate" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Function Lerp.LerpDelegate(start As Object, end As Object, progress As Double) As Object " />
-  <TypeSignature Language="C++ CLI" Value="public: delegate System::Object ^ Lerp::LerpDelegate(System::Object ^ start, System::Object ^ end, double progress);" />
   <TypeSignature Language="F#" Value="type Lerp.LerpDelegate = delegate of obj * obj * double -&gt; obj" />
+  <TypeSignature Language="C++ CLI" Value="public: delegate System::Object ^ Lerp::LerpDelegate(System::Object ^ start, System::Object ^ end, double progress);" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

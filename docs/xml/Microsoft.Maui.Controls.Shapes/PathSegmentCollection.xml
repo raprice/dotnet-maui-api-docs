@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PathSegmentCollection extends System.Collections.ObjectModel.ObservableCollection`1&lt;class Microsoft.Maui.Controls.Shapes.PathSegment&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.PathSegmentCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PathSegmentCollection&#xA;Inherits ObservableCollection(Of PathSegment)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PathSegmentCollection sealed : System::Collections::ObjectModel::ObservableCollection&lt;Microsoft::Maui::Controls::Shapes::PathSegment ^&gt;" />
   <TypeSignature Language="F#" Value="type PathSegmentCollection = class&#xA;    inherit ObservableCollection&lt;PathSegment&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PathSegmentCollection sealed : System::Collections::ObjectModel::ObservableCollection&lt;Microsoft::Maui::Controls::Shapes::PathSegment ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

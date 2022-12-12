@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPlatformSizeService" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.IPlatformSizeService" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPlatformSizeService" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IPlatformSizeService" />
   <TypeSignature Language="F#" Value="type IPlatformSizeService = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPlatformSizeService" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Maui.SizeRequest GetPlatformSize(class Microsoft.Maui.Controls.VisualElement view, float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.IPlatformSizeService.GetPlatformSize(Microsoft.Maui.Controls.VisualElement,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPlatformSize (view As VisualElement, widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::SizeRequest GetPlatformSize(Microsoft::Maui::Controls::VisualElement ^ view, double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="abstract member GetPlatformSize : Microsoft.Maui.Controls.VisualElement * double * double -&gt; Microsoft.Maui.SizeRequest" Usage="iPlatformSizeService.GetPlatformSize (view, widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::SizeRequest GetPlatformSize(Microsoft::Maui::Controls::VisualElement ^ view, double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGestureController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.IGestureController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IGestureController" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IGestureController" />
   <TypeSignature Language="F#" Value="type IGestureController = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IGestureController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.IGestureRecognizer&gt; CompositeGestureRecognizers" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.IGestureController.CompositeGestureRecognizers" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CompositeGestureRecognizers As IList(Of IGestureRecognizer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ CompositeGestureRecognizers { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.CompositeGestureRecognizers : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.IGestureRecognizer&gt;" Usage="Microsoft.Maui.Controls.Internals.IGestureController.CompositeGestureRecognizers" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ CompositeGestureRecognizers { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -41,8 +41,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.GestureElement&gt; GetChildElements(valuetype Microsoft.Maui.Graphics.Point point) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.IGestureController.GetChildElements(Microsoft.Maui.Graphics.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetChildElements (point As Point) As IList(Of GestureElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::GestureElement ^&gt; ^ GetChildElements(Microsoft::Maui::Graphics::Point point);" />
       <MemberSignature Language="F#" Value="abstract member GetChildElements : Microsoft.Maui.Graphics.Point -&gt; System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.GestureElement&gt;" Usage="iGestureController.GetChildElements point" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::GestureElement ^&gt; ^ GetChildElements(Microsoft::Maui::Graphics::Point point);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITextToSpeech" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Media.ITextToSpeech" />
   <TypeSignature Language="VB.NET" Value="Public Interface ITextToSpeech" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ITextToSpeech" />
   <TypeSignature Language="F#" Value="type ITextToSpeech = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ITextToSpeech" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.Media.Locale&gt;&gt; GetLocalesAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.ITextToSpeech.GetLocalesAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function GetLocalesAsync () As Task(Of IEnumerable(Of Locale))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Media::Locale ^&gt; ^&gt; ^ GetLocalesAsync();" />
       <MemberSignature Language="F#" Value="abstract member GetLocalesAsync : unit -&gt; System.Threading.Tasks.Task&lt;seq&lt;Microsoft.Maui.Media.Locale&gt;&gt;" Usage="iTextToSpeech.GetLocalesAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Media::Locale ^&gt; ^&gt; ^ GetLocalesAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

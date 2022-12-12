@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FontSlant extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.FontSlant" />
   <TypeSignature Language="VB.NET" Value="Public Enum FontSlant" />
-  <TypeSignature Language="C++ CLI" Value="public enum class FontSlant" />
   <TypeSignature Language="F#" Value="type FontSlant = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class FontSlant" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FontSlant Default = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FontSlant.Default" />
       <MemberSignature Language="VB.NET" Value="Default" />
-      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.Maui.FontSlant.Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FontSlant Italic = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FontSlant.Italic" />
       <MemberSignature Language="VB.NET" Value="Italic" />
-      <MemberSignature Language="C++ CLI" Value="Italic" />
       <MemberSignature Language="F#" Value="Italic = 1" Usage="Microsoft.Maui.FontSlant.Italic" />
+      <MemberSignature Language="C++ CLI" Value="Italic" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FontSlant Oblique = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FontSlant.Oblique" />
       <MemberSignature Language="VB.NET" Value="Oblique" />
-      <MemberSignature Language="C++ CLI" Value="Oblique" />
       <MemberSignature Language="F#" Value="Oblique = 2" Usage="Microsoft.Maui.FontSlant.Oblique" />
+      <MemberSignature Language="C++ CLI" Value="Oblique" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

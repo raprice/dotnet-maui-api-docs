@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AppInfo extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.AppInfo" />
   <TypeSignature Language="VB.NET" Value="Public Class AppInfo" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AppInfo abstract sealed" />
   <TypeSignature Language="F#" Value="type AppInfo = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppInfo abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".property string BuildString" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppInfo.BuildString" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BuildString As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BuildString { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="static member BuildString : string" Usage="Microsoft.Maui.ApplicationModel.AppInfo.BuildString" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BuildString { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.ApplicationModel.IAppInfo Current" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppInfo.Current" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Current As IAppInfo" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::IAppInfo ^ Current { Microsoft::Maui::ApplicationModel::IAppInfo ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Current : Microsoft.Maui.ApplicationModel.IAppInfo" Usage="Microsoft.Maui.ApplicationModel.AppInfo.Current" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::IAppInfo ^ Current { Microsoft::Maui::ApplicationModel::IAppInfo ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".property string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppInfo.Name" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Name As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ Name { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Name : string" Usage="Microsoft.Maui.ApplicationModel.AppInfo.Name" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ Name { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".property string PackageName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppInfo.PackageName" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PackageName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PackageName { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="static member PackageName : string" Usage="Microsoft.Maui.ApplicationModel.AppInfo.PackageName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PackageName { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.ApplicationModel.AppPackagingModel PackagingModel" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppInfo.PackagingModel" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PackagingModel As AppPackagingModel" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::AppPackagingModel PackagingModel { Microsoft::Maui::ApplicationModel::AppPackagingModel get(); };" />
       <MemberSignature Language="F#" Value="static member PackagingModel : Microsoft.Maui.ApplicationModel.AppPackagingModel" Usage="Microsoft.Maui.ApplicationModel.AppInfo.PackagingModel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::AppPackagingModel PackagingModel { Microsoft::Maui::ApplicationModel::AppPackagingModel get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -128,8 +128,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.ApplicationModel.LayoutDirection RequestedLayoutDirection" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppInfo.RequestedLayoutDirection" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RequestedLayoutDirection As LayoutDirection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::LayoutDirection RequestedLayoutDirection { Microsoft::Maui::ApplicationModel::LayoutDirection get(); };" />
       <MemberSignature Language="F#" Value="static member RequestedLayoutDirection : Microsoft.Maui.ApplicationModel.LayoutDirection" Usage="Microsoft.Maui.ApplicationModel.AppInfo.RequestedLayoutDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::LayoutDirection RequestedLayoutDirection { Microsoft::Maui::ApplicationModel::LayoutDirection get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -149,8 +149,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.ApplicationModel.AppTheme RequestedTheme" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppInfo.RequestedTheme" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RequestedTheme As AppTheme" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::AppTheme RequestedTheme { Microsoft::Maui::ApplicationModel::AppTheme get(); };" />
       <MemberSignature Language="F#" Value="static member RequestedTheme : Microsoft.Maui.ApplicationModel.AppTheme" Usage="Microsoft.Maui.ApplicationModel.AppInfo.RequestedTheme" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::AppTheme RequestedTheme { Microsoft::Maui::ApplicationModel::AppTheme get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -170,8 +170,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ShowSettingsUI() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.AppInfo.ShowSettingsUI" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub ShowSettingsUI ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void ShowSettingsUI();" />
       <MemberSignature Language="F#" Value="static member ShowSettingsUI : unit -&gt; unit" Usage="Microsoft.Maui.ApplicationModel.AppInfo.ShowSettingsUI " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void ShowSettingsUI();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -191,8 +191,8 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Version Version" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppInfo.Version" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Version As Version" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Version ^ Version { Version ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Version : Version" Usage="Microsoft.Maui.ApplicationModel.AppInfo.Version" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Version ^ Version { Version ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -212,8 +212,8 @@
       <MemberSignature Language="ILAsm" Value=".property string VersionString" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppInfo.VersionString" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property VersionString As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ VersionString { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="static member VersionString : string" Usage="Microsoft.Maui.ApplicationModel.AppInfo.VersionString" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ VersionString { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

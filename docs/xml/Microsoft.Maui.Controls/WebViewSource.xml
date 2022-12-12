@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit WebViewSource extends Microsoft.Maui.Controls.BindableObject implements class Microsoft.Maui.IWebViewSource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.WebViewSource" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class WebViewSource&#xA;Inherits BindableObject&#xA;Implements IWebViewSource" />
-  <TypeSignature Language="C++ CLI" Value="public ref class WebViewSource abstract : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::IWebViewSource" />
   <TypeSignature Language="F#" Value="type WebViewSource = class&#xA;    inherit BindableObject&#xA;    interface IWebViewSource" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WebViewSource abstract : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::IWebViewSource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Load(class Microsoft.Maui.IWebViewDelegate renderer) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebViewSource.Load(Microsoft.Maui.IWebViewDelegate)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Sub Load (renderer As IWebViewDelegate)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract void Load(Microsoft::Maui::IWebViewDelegate ^ renderer);" />
       <MemberSignature Language="F#" Value="abstract member Load : Microsoft.Maui.IWebViewDelegate -&gt; unit" Usage="webViewSource.Load renderer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract void Load(Microsoft::Maui::IWebViewDelegate ^ renderer);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IWebViewSource.Load(Microsoft.Maui.IWebViewDelegate)</InterfaceMember>
@@ -77,8 +77,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void OnSourceChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebViewSource.OnSourceChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Sub OnSourceChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void OnSourceChanged();" />
       <MemberSignature Language="F#" Value="member this.OnSourceChanged : unit -&gt; unit" Usage="webViewSource.OnSourceChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void OnSourceChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -98,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Maui.Controls.WebViewSource op_Implicit(string url) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebViewSource.op_Implicit(System.String)~Microsoft.Maui.Controls.WebViewSource" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (url As String) As WebViewSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::WebViewSource ^(System::String ^ url);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Microsoft.Maui.Controls.WebViewSource" Usage="Microsoft.Maui.Controls.WebViewSource.op_Implicit url" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::WebViewSource ^(System::String ^ url);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -123,8 +123,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Maui.Controls.WebViewSource op_Implicit(class System.Uri url) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebViewSource.op_Implicit(System.Uri)~Microsoft.Maui.Controls.WebViewSource" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (url As Uri) As WebViewSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::WebViewSource ^(Uri ^ url);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : Uri -&gt; Microsoft.Maui.Controls.WebViewSource" Usage="Microsoft.Maui.Controls.WebViewSource.op_Implicit url" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::WebViewSource ^(Uri ^ url);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

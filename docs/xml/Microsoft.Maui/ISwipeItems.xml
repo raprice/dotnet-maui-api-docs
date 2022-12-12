@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISwipeItems implements class System.Collections.Generic.ICollection`1&lt;class Microsoft.Maui.ISwipeItem&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.ISwipeItem&gt;, class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.ISwipeItem&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ISwipeItems" />
   <TypeSignature Language="VB.NET" Value="Public Interface ISwipeItems&#xA;Implements ICollection(Of ISwipeItem), IEnumerable(Of ISwipeItem), IList(Of ISwipeItem)" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ISwipeItems : System::Collections::Generic::ICollection&lt;Microsoft::Maui::ISwipeItem ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::ISwipeItem ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::ISwipeItem ^&gt;" />
   <TypeSignature Language="F#" Value="type ISwipeItems = interface&#xA;    interface IList&lt;ISwipeItem&gt;&#xA;    interface ICollection&lt;ISwipeItem&gt;&#xA;    interface seq&lt;ISwipeItem&gt;&#xA;    interface IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ISwipeItems : System::Collections::Generic::ICollection&lt;Microsoft::Maui::ISwipeItem ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::ISwipeItem ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::ISwipeItem ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -41,8 +41,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.SwipeMode Mode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ISwipeItems.Mode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Mode As SwipeMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SwipeMode Mode { Microsoft::Maui::SwipeMode get(); };" />
       <MemberSignature Language="F#" Value="member this.Mode : Microsoft.Maui.SwipeMode" Usage="Microsoft.Maui.ISwipeItems.Mode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SwipeMode Mode { Microsoft::Maui::SwipeMode get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -64,8 +64,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.SwipeBehaviorOnInvoked SwipeBehaviorOnInvoked" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ISwipeItems.SwipeBehaviorOnInvoked" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SwipeBehaviorOnInvoked As SwipeBehaviorOnInvoked" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SwipeBehaviorOnInvoked SwipeBehaviorOnInvoked { Microsoft::Maui::SwipeBehaviorOnInvoked get(); };" />
       <MemberSignature Language="F#" Value="member this.SwipeBehaviorOnInvoked : Microsoft.Maui.SwipeBehaviorOnInvoked" Usage="Microsoft.Maui.ISwipeItems.SwipeBehaviorOnInvoked" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SwipeBehaviorOnInvoked SwipeBehaviorOnInvoked { Microsoft::Maui::SwipeBehaviorOnInvoked get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

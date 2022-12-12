@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Stretch extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Stretch" />
   <TypeSignature Language="VB.NET" Value="Public Enum Stretch" />
-  <TypeSignature Language="C++ CLI" Value="public enum class Stretch" />
   <TypeSignature Language="F#" Value="type Stretch = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class Stretch" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.Stretch Fill = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Stretch.Fill" />
       <MemberSignature Language="VB.NET" Value="Fill" />
-      <MemberSignature Language="C++ CLI" Value="Fill" />
       <MemberSignature Language="F#" Value="Fill = 1" Usage="Microsoft.Maui.Controls.Stretch.Fill" />
+      <MemberSignature Language="C++ CLI" Value="Fill" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.Stretch None = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Stretch.None" />
       <MemberSignature Language="VB.NET" Value="None" />
-      <MemberSignature Language="C++ CLI" Value="None" />
       <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Maui.Controls.Stretch.None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.Stretch Uniform = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Stretch.Uniform" />
       <MemberSignature Language="VB.NET" Value="Uniform" />
-      <MemberSignature Language="C++ CLI" Value="Uniform" />
       <MemberSignature Language="F#" Value="Uniform = 2" Usage="Microsoft.Maui.Controls.Stretch.Uniform" />
+      <MemberSignature Language="C++ CLI" Value="Uniform" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.Stretch UniformToFill = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Stretch.UniformToFill" />
       <MemberSignature Language="VB.NET" Value="UniformToFill" />
-      <MemberSignature Language="C++ CLI" Value="UniformToFill" />
       <MemberSignature Language="F#" Value="UniformToFill = 3" Usage="Microsoft.Maui.Controls.Stretch.UniformToFill" />
+      <MemberSignature Language="C++ CLI" Value="UniformToFill" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

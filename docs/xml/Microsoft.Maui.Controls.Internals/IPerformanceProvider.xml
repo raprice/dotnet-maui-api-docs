@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPerformanceProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.IPerformanceProvider" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPerformanceProvider" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IPerformanceProvider" />
   <TypeSignature Language="F#" Value="type IPerformanceProvider = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPerformanceProvider" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -26,8 +26,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Start(string reference, string tag, string path, string member) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.IPerformanceProvider.Start(System.String,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Start (reference As String, tag As String, path As String, member As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Start(System::String ^ reference, System::String ^ tag, System::String ^ path, System::String ^ member);" />
       <MemberSignature Language="F#" Value="abstract member Start : string * string * string * string -&gt; unit" Usage="iPerformanceProvider.Start (reference, tag, path, member)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Start(System::String ^ reference, System::String ^ tag, System::String ^ path, System::String ^ member);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -56,8 +56,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Stop(string reference, string tag, string path, string member) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.IPerformanceProvider.Stop(System.String,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Stop (reference As String, tag As String, path As String, member As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Stop(System::String ^ reference, System::String ^ tag, System::String ^ path, System::String ^ member);" />
       <MemberSignature Language="F#" Value="abstract member Stop : string * string * string * string -&gt; unit" Usage="iPerformanceProvider.Stop (reference, tag, path, member)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Stop(System::String ^ reference, System::String ^ tag, System::String ^ path, System::String ^ member);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

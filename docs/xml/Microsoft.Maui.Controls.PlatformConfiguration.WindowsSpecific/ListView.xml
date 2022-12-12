@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ListView extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListView" />
   <TypeSignature Language="VB.NET" Value="Public Module ListView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ListView abstract sealed" />
   <TypeSignature Language="F#" Value="type ListView = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ListView abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode GetSelectionMode(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListView.GetSelectionMode(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetSelectionMode (element As BindableObject) As ListViewSelectionMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ListViewSelectionMode GetSelectionMode(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetSelectionMode : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListView.GetSelectionMode element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ListViewSelectionMode GetSelectionMode(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode GetSelectionMode(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.ListView&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListView.GetSelectionMode(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.ListView})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSelectionMode (config As IPlatformElementConfiguration(Of Windows, ListView)) As ListViewSelectionMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ListViewSelectionMode GetSelectionMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::ListView ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetSelectionMode : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.ListView&gt; -&gt; Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListView.GetSelectionMode config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ListViewSelectionMode GetSelectionMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::ListView ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectionModeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListView.SelectionModeProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly SelectionModeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionModeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectionModeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListView.SelectionModeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionModeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetSelectionMode(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListView.SetSelectionMode(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetSelectionMode (element As BindableObject, value As ListViewSelectionMode)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetSelectionMode(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ListViewSelectionMode value);" />
       <MemberSignature Language="F#" Value="static member SetSelectionMode : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListView.SetSelectionMode (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetSelectionMode(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ListViewSelectionMode value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.ListView&gt; SetSelectionMode(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.ListView&gt; config, valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListView.SetSelectionMode(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.ListView},Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetSelectionMode (config As IPlatformElementConfiguration(Of Windows, ListView), value As ListViewSelectionMode) As IPlatformElementConfiguration(Of Windows, ListView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::ListView ^&gt; ^ SetSelectionMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::ListView ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ListViewSelectionMode value);" />
       <MemberSignature Language="F#" Value="static member SetSelectionMode : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.ListView&gt; * Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.ListView&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListView.SetSelectionMode (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::ListView ^&gt; ^ SetSelectionMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::ListView ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ListViewSelectionMode value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

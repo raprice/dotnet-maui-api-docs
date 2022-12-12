@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IItemsLayout implements class System.ComponentModel.INotifyPropertyChanged" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IItemsLayout" />
   <TypeSignature Language="VB.NET" Value="Public Interface IItemsLayout&#xA;Implements INotifyPropertyChanged" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IItemsLayout : System::ComponentModel::INotifyPropertyChanged" />
   <TypeSignature Language="F#" Value="type IItemsLayout = interface&#xA;    interface INotifyPropertyChanged" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IItemsLayout : System::ComponentModel::INotifyPropertyChanged" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

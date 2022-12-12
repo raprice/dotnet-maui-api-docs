@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TextTransformUtilites extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.TextTransformUtilites" />
   <TypeSignature Language="VB.NET" Value="Public Class TextTransformUtilites" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TextTransformUtilites abstract sealed" />
   <TypeSignature Language="F#" Value="type TextTransformUtilites = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TextTransformUtilites abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -31,8 +31,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetTransformedText(string source, valuetype Microsoft.Maui.TextTransform textTransform) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.TextTransformUtilites.GetTransformedText(System.String,Microsoft.Maui.TextTransform)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetTransformedText (source As String, textTransform As TextTransform) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetTransformedText(System::String ^ source, Microsoft::Maui::TextTransform textTransform);" />
       <MemberSignature Language="F#" Value="static member GetTransformedText : string * Microsoft.Maui.TextTransform -&gt; string" Usage="Microsoft.Maui.Controls.Internals.TextTransformUtilites.GetTransformedText (source, textTransform)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetTransformedText(System::String ^ source, Microsoft::Maui::TextTransform textTransform);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -66,8 +66,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetPlainText(class Microsoft.Maui.Controls.InputView inputView, string platformText) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.TextTransformUtilites.SetPlainText(Microsoft.Maui.Controls.InputView,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetPlainText (inputView As InputView, platformText As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetPlainText(Microsoft::Maui::Controls::InputView ^ inputView, System::String ^ platformText);" />
       <MemberSignature Language="F#" Value="static member SetPlainText : Microsoft.Maui.Controls.InputView * string -&gt; unit" Usage="Microsoft.Maui.Controls.Internals.TextTransformUtilites.SetPlainText (inputView, platformText)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetPlainText(Microsoft::Maui::Controls::InputView ^ inputView, System::String ^ platformText);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

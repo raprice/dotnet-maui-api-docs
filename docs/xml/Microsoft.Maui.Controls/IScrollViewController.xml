@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IScrollViewController implements class Microsoft.Maui.Controls.ILayoutController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IScrollViewController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IScrollViewController&#xA;Implements ILayoutController" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IScrollViewController : Microsoft::Maui::Controls::ILayoutController" />
   <TypeSignature Language="F#" Value="type IScrollViewController = interface&#xA;    interface ILayoutController" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IScrollViewController : Microsoft::Maui::Controls::ILayoutController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -24,8 +24,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Maui.Graphics.Point GetScrollPositionForElement(class Microsoft.Maui.Controls.VisualElement item, valuetype Microsoft.Maui.Controls.ScrollToPosition position) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IScrollViewController.GetScrollPositionForElement(Microsoft.Maui.Controls.VisualElement,Microsoft.Maui.Controls.ScrollToPosition)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetScrollPositionForElement (item As VisualElement, position As ScrollToPosition) As Point" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Point GetScrollPositionForElement(Microsoft::Maui::Controls::VisualElement ^ item, Microsoft::Maui::Controls::ScrollToPosition position);" />
       <MemberSignature Language="F#" Value="abstract member GetScrollPositionForElement : Microsoft.Maui.Controls.VisualElement * Microsoft.Maui.Controls.ScrollToPosition -&gt; Microsoft.Maui.Graphics.Point" Usage="iScrollViewController.GetScrollPositionForElement (item, position)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Point GetScrollPositionForElement(Microsoft::Maui::Controls::VisualElement ^ item, Microsoft::Maui::Controls::ScrollToPosition position);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -51,8 +51,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Rect LayoutAreaOverride" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IScrollViewController.LayoutAreaOverride" />
       <MemberSignature Language="VB.NET" Value="Public Property LayoutAreaOverride As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect LayoutAreaOverride { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberSignature Language="F#" Value="member this.LayoutAreaOverride : Microsoft.Maui.Graphics.Rect with get, set" Usage="Microsoft.Maui.Controls.IScrollViewController.LayoutAreaOverride" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect LayoutAreaOverride { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -72,8 +72,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.ScrollToRequestedEventArgs&gt; ScrollToRequested" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.IScrollViewController.ScrollToRequested" />
       <MemberSignature Language="VB.NET" Value="Event ScrollToRequested As EventHandler(Of ScrollToRequestedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ScrollToRequestedEventArgs ^&gt; ^ ScrollToRequested;" />
       <MemberSignature Language="F#" Value="member this.ScrollToRequested : EventHandler&lt;Microsoft.Maui.Controls.ScrollToRequestedEventArgs&gt; " Usage="member this.ScrollToRequested : System.EventHandler&lt;Microsoft.Maui.Controls.ScrollToRequestedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ScrollToRequestedEventArgs ^&gt; ^ ScrollToRequested;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -92,8 +92,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendScrollFinished() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IScrollViewController.SendScrollFinished" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendScrollFinished ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendScrollFinished();" />
       <MemberSignature Language="F#" Value="abstract member SendScrollFinished : unit -&gt; unit" Usage="iScrollViewController.SendScrollFinished " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendScrollFinished();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -113,8 +113,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetScrolledPosition(float64 x, float64 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IScrollViewController.SetScrolledPosition(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetScrolledPosition (x As Double, y As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetScrolledPosition(double x, double y);" />
       <MemberSignature Language="F#" Value="abstract member SetScrolledPosition : double * double -&gt; unit" Usage="iScrollViewController.SetScrolledPosition (x, y)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetScrolledPosition(double x, double y);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

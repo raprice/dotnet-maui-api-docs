@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WebView extends Microsoft.Maui.Controls.View implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.WebView&gt;, class Microsoft.Maui.Controls.IElementController, class Microsoft.Maui.Controls.IViewController, class Microsoft.Maui.Controls.IVisualElementController, class Microsoft.Maui.Controls.IWebViewController, class Microsoft.Maui.IElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView, class Microsoft.Maui.IWebView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.WebView" />
   <TypeSignature Language="VB.NET" Value="Public Class WebView&#xA;Inherits View&#xA;Implements IElementConfiguration(Of WebView), IWebView, IWebViewController" />
-  <TypeSignature Language="C++ CLI" Value="public ref class WebView : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::WebView ^&gt;, Microsoft::Maui::Controls::IWebViewController, Microsoft::Maui::IWebView" />
   <TypeSignature Language="F#" Value="type WebView = class&#xA;    inherit View&#xA;    interface IWebView&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IWebViewController&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController&#xA;    interface IElementConfiguration&lt;WebView&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WebView : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::WebView ^&gt;, Microsoft::Maui::Controls::IWebViewController, Microsoft::Maui::IWebView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -115,8 +115,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool CanGoBack" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.WebView.CanGoBack" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanGoBack As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanGoBack { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.CanGoBack : bool" Usage="Microsoft.Maui.Controls.WebView.CanGoBack" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanGoBack { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -136,8 +136,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CanGoBackProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.WebView.CanGoBackProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CanGoBackProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CanGoBackProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CanGoBackProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.WebView.CanGoBackProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CanGoBackProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -156,8 +156,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool CanGoForward" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.WebView.CanGoForward" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanGoForward As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanGoForward { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.CanGoForward : bool" Usage="Microsoft.Maui.Controls.WebView.CanGoForward" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanGoForward { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -177,8 +177,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CanGoForwardProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.WebView.CanGoForwardProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CanGoForwardProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CanGoForwardProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CanGoForwardProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.WebView.CanGoForwardProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CanGoForwardProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -197,8 +197,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IWebView, class Microsoft.Maui.Handlers.WebViewHandler&gt; ControlsWebViewMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.WebView.ControlsWebViewMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ControlsWebViewMapper As IPropertyMapper(Of IWebView, WebViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IWebView ^, Microsoft::Maui::Handlers::WebViewHandler ^&gt; ^ ControlsWebViewMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlsWebViewMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IWebView, Microsoft.Maui.Handlers.WebViewHandler&gt;" Usage="Microsoft.Maui.Controls.WebView.ControlsWebViewMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IWebView ^, Microsoft::Maui::Handlers::WebViewHandler ^&gt; ^ ControlsWebViewMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -217,8 +217,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.CookieContainer Cookies" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.WebView.Cookies" />
       <MemberSignature Language="VB.NET" Value="Public Property Cookies As CookieContainer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Net::CookieContainer ^ Cookies { System::Net::CookieContainer ^ get(); void set(System::Net::CookieContainer ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Cookies : System.Net.CookieContainer with get, set" Usage="Microsoft.Maui.Controls.WebView.Cookies" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Net::CookieContainer ^ Cookies { System::Net::CookieContainer ^ get(); void set(System::Net::CookieContainer ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -238,8 +238,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CookiesProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.WebView.CookiesProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CookiesProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CookiesProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CookiesProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.WebView.CookiesProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CookiesProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -258,8 +258,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Eval(string script) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebView.Eval(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Eval (script As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Eval(System::String ^ script);" />
       <MemberSignature Language="F#" Value="abstract member Eval : string -&gt; unit&#xA;override this.Eval : string -&gt; unit" Usage="webView.Eval script" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Eval(System::String ^ script);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IWebView.Eval(System.String)</InterfaceMember>
@@ -285,8 +285,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; EvaluateJavaScriptAsync(string script) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebView.EvaluateJavaScriptAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function EvaluateJavaScriptAsync (script As String) As Task(Of String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task&lt;System::String ^&gt; ^ EvaluateJavaScriptAsync(System::String ^ script);" />
       <MemberSignature Language="F#" Value="abstract member EvaluateJavaScriptAsync : string -&gt; System.Threading.Tasks.Task&lt;string&gt;&#xA;override this.EvaluateJavaScriptAsync : string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="webView.EvaluateJavaScriptAsync script" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task&lt;System::String ^&gt; ^ EvaluateJavaScriptAsync(System::String ^ script);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IWebView.EvaluateJavaScriptAsync(System.String)</InterfaceMember>
@@ -313,8 +313,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GoBack() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebView.GoBack" />
       <MemberSignature Language="VB.NET" Value="Public Sub GoBack ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void GoBack();" />
       <MemberSignature Language="F#" Value="abstract member GoBack : unit -&gt; unit&#xA;override this.GoBack : unit -&gt; unit" Usage="webView.GoBack " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void GoBack();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IWebView.GoBack</InterfaceMember>
@@ -337,8 +337,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GoForward() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebView.GoForward" />
       <MemberSignature Language="VB.NET" Value="Public Sub GoForward ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void GoForward();" />
       <MemberSignature Language="F#" Value="abstract member GoForward : unit -&gt; unit&#xA;override this.GoForward : unit -&gt; unit" Usage="webView.GoForward " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void GoForward();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IWebView.GoForward</InterfaceMember>
@@ -361,8 +361,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.Controls.IWebViewController.CanGoBack" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.WebView.Microsoft#Maui#Controls#IWebViewController#CanGoBack" />
       <MemberSignature Language="VB.NET" Value=" Property CanGoBack As Boolean Implements IWebViewController.CanGoBack" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IWebViewController::CanGoBack { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IWebViewController.CanGoBack : bool with get, set" Usage="Microsoft.Maui.Controls.IWebViewController.CanGoBack" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IWebViewController::CanGoBack { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IWebViewController.CanGoBack</InterfaceMember>
@@ -391,8 +391,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.Controls.IWebViewController.CanGoForward" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.WebView.Microsoft#Maui#Controls#IWebViewController#CanGoForward" />
       <MemberSignature Language="VB.NET" Value=" Property CanGoForward As Boolean Implements IWebViewController.CanGoForward" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IWebViewController::CanGoForward { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IWebViewController.CanGoForward : bool with get, set" Usage="Microsoft.Maui.Controls.IWebViewController.CanGoForward" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IWebViewController::CanGoForward { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IWebViewController.CanGoForward</InterfaceMember>
@@ -531,8 +531,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IWebViewController.SendNavigated(class Microsoft.Maui.Controls.WebNavigatedEventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebView.Microsoft#Maui#Controls#IWebViewController#SendNavigated(Microsoft.Maui.Controls.WebNavigatedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Sub SendNavigated (args As WebNavigatedEventArgs) Implements IWebViewController.SendNavigated" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IWebViewController.SendNavigated(Microsoft::Maui::Controls::WebNavigatedEventArgs ^ args) = Microsoft::Maui::Controls::IWebViewController::SendNavigated;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IWebViewController.SendNavigated : Microsoft.Maui.Controls.WebNavigatedEventArgs -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IWebViewController.SendNavigated : Microsoft.Maui.Controls.WebNavigatedEventArgs -&gt; unit" Usage="webView.Microsoft.Maui.Controls.IWebViewController.SendNavigated args" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IWebViewController.SendNavigated(Microsoft::Maui::Controls::WebNavigatedEventArgs ^ args) = Microsoft::Maui::Controls::IWebViewController::SendNavigated;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IWebViewController.SendNavigated(Microsoft.Maui.Controls.WebNavigatedEventArgs)</InterfaceMember>
@@ -558,8 +558,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IWebViewController.SendNavigating(class Microsoft.Maui.Controls.WebNavigatingEventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebView.Microsoft#Maui#Controls#IWebViewController#SendNavigating(Microsoft.Maui.Controls.WebNavigatingEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Sub SendNavigating (args As WebNavigatingEventArgs) Implements IWebViewController.SendNavigating" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IWebViewController.SendNavigating(Microsoft::Maui::Controls::WebNavigatingEventArgs ^ args) = Microsoft::Maui::Controls::IWebViewController::SendNavigating;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IWebViewController.SendNavigating : Microsoft.Maui.Controls.WebNavigatingEventArgs -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IWebViewController.SendNavigating : Microsoft.Maui.Controls.WebNavigatingEventArgs -&gt; unit" Usage="webView.Microsoft.Maui.Controls.IWebViewController.SendNavigating args" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IWebViewController.SendNavigating(Microsoft::Maui::Controls::WebNavigatingEventArgs ^ args) = Microsoft::Maui::Controls::IWebViewController::SendNavigating;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IWebViewController.SendNavigating(Microsoft.Maui.Controls.WebNavigatingEventArgs)</InterfaceMember>
@@ -585,8 +585,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.IWebView.CanGoBack" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.WebView.Microsoft#Maui#IWebView#CanGoBack" />
       <MemberSignature Language="VB.NET" Value=" Property CanGoBack As Boolean Implements IWebView.CanGoBack" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::IWebView::CanGoBack { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IWebView.CanGoBack : bool with get, set" Usage="Microsoft.Maui.IWebView.CanGoBack" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::IWebView::CanGoBack { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IWebView.CanGoBack</InterfaceMember>
@@ -609,8 +609,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.IWebView.CanGoForward" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.WebView.Microsoft#Maui#IWebView#CanGoForward" />
       <MemberSignature Language="VB.NET" Value=" Property CanGoForward As Boolean Implements IWebView.CanGoForward" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::IWebView::CanGoForward { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IWebView.CanGoForward : bool with get, set" Usage="Microsoft.Maui.IWebView.CanGoForward" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::IWebView::CanGoForward { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IWebView.CanGoForward</InterfaceMember>
@@ -633,8 +633,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IWebView.Navigated(valuetype Microsoft.Maui.WebNavigationEvent evnt, string url, valuetype Microsoft.Maui.WebNavigationResult result) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebView.Microsoft#Maui#IWebView#Navigated(Microsoft.Maui.WebNavigationEvent,System.String,Microsoft.Maui.WebNavigationResult)" />
       <MemberSignature Language="VB.NET" Value="Sub Navigated (evnt As WebNavigationEvent, url As String, result As WebNavigationResult) Implements IWebView.Navigated" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IWebView.Navigated(Microsoft::Maui::WebNavigationEvent evnt, System::String ^ url, Microsoft::Maui::WebNavigationResult result) = Microsoft::Maui::IWebView::Navigated;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IWebView.Navigated : Microsoft.Maui.WebNavigationEvent * string * Microsoft.Maui.WebNavigationResult -&gt; unit&#xA;override this.Microsoft.Maui.IWebView.Navigated : Microsoft.Maui.WebNavigationEvent * string * Microsoft.Maui.WebNavigationResult -&gt; unit" Usage="webView.Microsoft.Maui.IWebView.Navigated (evnt, url, result)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IWebView.Navigated(Microsoft::Maui::WebNavigationEvent evnt, System::String ^ url, Microsoft::Maui::WebNavigationResult result) = Microsoft::Maui::IWebView::Navigated;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IWebView.Navigated(Microsoft.Maui.WebNavigationEvent,System.String,Microsoft.Maui.WebNavigationResult)</InterfaceMember>
@@ -664,8 +664,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.IWebView.Navigating(valuetype Microsoft.Maui.WebNavigationEvent evnt, string url) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebView.Microsoft#Maui#IWebView#Navigating(Microsoft.Maui.WebNavigationEvent,System.String)" />
       <MemberSignature Language="VB.NET" Value="Function Navigating (evnt As WebNavigationEvent, url As String) As Boolean Implements IWebView.Navigating" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.IWebView.Navigating(Microsoft::Maui::WebNavigationEvent evnt, System::String ^ url) = Microsoft::Maui::IWebView::Navigating;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IWebView.Navigating : Microsoft.Maui.WebNavigationEvent * string -&gt; bool&#xA;override this.Microsoft.Maui.IWebView.Navigating : Microsoft.Maui.WebNavigationEvent * string -&gt; bool" Usage="webView.Microsoft.Maui.IWebView.Navigating (evnt, url)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.IWebView.Navigating(Microsoft::Maui::WebNavigationEvent evnt, System::String ^ url) = Microsoft::Maui::IWebView::Navigating;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IWebView.Navigating(Microsoft.Maui.WebNavigationEvent,System.String)</InterfaceMember>
@@ -694,8 +694,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IWebViewSource Microsoft.Maui.IWebView.Source" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.WebView.Microsoft#Maui#IWebView#Source" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Source As IWebViewSource Implements IWebView.Source" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IWebViewSource ^ Microsoft::Maui::IWebView::Source { Microsoft::Maui::IWebViewSource ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IWebView.Source : Microsoft.Maui.IWebViewSource" Usage="Microsoft.Maui.IWebView.Source" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IWebViewSource ^ Microsoft::Maui::IWebView::Source { Microsoft::Maui::IWebViewSource ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IWebView.Source</InterfaceMember>
@@ -718,8 +718,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.WebNavigatedEventArgs&gt; Navigated" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.WebView.Navigated" />
       <MemberSignature Language="VB.NET" Value="Public Event Navigated As EventHandler(Of WebNavigatedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::WebNavigatedEventArgs ^&gt; ^ Navigated;" />
       <MemberSignature Language="F#" Value="member this.Navigated : EventHandler&lt;Microsoft.Maui.Controls.WebNavigatedEventArgs&gt; " Usage="member this.Navigated : System.EventHandler&lt;Microsoft.Maui.Controls.WebNavigatedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::WebNavigatedEventArgs ^&gt; ^ Navigated;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -738,8 +738,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.WebNavigatingEventArgs&gt; Navigating" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.WebView.Navigating" />
       <MemberSignature Language="VB.NET" Value="Public Event Navigating As EventHandler(Of WebNavigatingEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::WebNavigatingEventArgs ^&gt; ^ Navigating;" />
       <MemberSignature Language="F#" Value="member this.Navigating : EventHandler&lt;Microsoft.Maui.Controls.WebNavigatingEventArgs&gt; " Usage="member this.Navigating : System.EventHandler&lt;Microsoft.Maui.Controls.WebNavigatingEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::WebNavigatingEventArgs ^&gt; ^ Navigating;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -758,8 +758,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.WebView&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebView.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, WebView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::WebView ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.WebView (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.WebView (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="webView.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::WebView ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -792,8 +792,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebView.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="webView.OnBindingContextChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -813,8 +813,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPropertyChanged(string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebView.OnPropertyChanged(System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPropertyChanged (propertyName As String)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPropertyChanged(System::String ^ propertyName);" />
       <MemberSignature Language="F#" Value="override this.OnPropertyChanged : string -&gt; unit" Usage="webView.OnPropertyChanged propertyName" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPropertyChanged(System::String ^ propertyName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -837,8 +837,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void OnSourceChanged(object sender, class System.EventArgs e) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebView.OnSourceChanged(System.Object,System.EventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub OnSourceChanged (sender As Object, e As EventArgs)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void OnSourceChanged(System::Object ^ sender, EventArgs ^ e);" />
       <MemberSignature Language="F#" Value="member this.OnSourceChanged : obj * EventArgs -&gt; unit" Usage="webView.OnSourceChanged (sender, e)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void OnSourceChanged(System::Object ^ sender, EventArgs ^ e);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -863,8 +863,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reload() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebView.Reload" />
       <MemberSignature Language="VB.NET" Value="Public Sub Reload ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Reload();" />
       <MemberSignature Language="F#" Value="abstract member Reload : unit -&gt; unit&#xA;override this.Reload : unit -&gt; unit" Usage="webView.Reload " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Reload();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IWebView.Reload</InterfaceMember>
@@ -887,8 +887,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.WebViewSource Source" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.WebView.Source" />
       <MemberSignature Language="VB.NET" Value="Public Property Source As WebViewSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::WebViewSource ^ Source { Microsoft::Maui::Controls::WebViewSource ^ get(); void set(Microsoft::Maui::Controls::WebViewSource ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Source : Microsoft.Maui.Controls.WebViewSource with get, set" Usage="Microsoft.Maui.Controls.WebView.Source" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::WebViewSource ^ Source { Microsoft::Maui::Controls::WebViewSource ^ get(); void set(Microsoft::Maui::Controls::WebViewSource ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -914,8 +914,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SourceProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.WebView.SourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SourceProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SourceProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SourceProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.WebView.SourceProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SourceProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

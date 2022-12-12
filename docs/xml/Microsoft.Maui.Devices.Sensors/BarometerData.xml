@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit BarometerData extends System.ValueType implements class System.IEquatable`1&lt;valuetype Microsoft.Maui.Devices.Sensors.BarometerData&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.Sensors.BarometerData" />
   <TypeSignature Language="VB.NET" Value="Public Structure BarometerData&#xA;Implements IEquatable(Of BarometerData)" />
-  <TypeSignature Language="C++ CLI" Value="public value class BarometerData : IEquatable&lt;Microsoft::Maui::Devices::Sensors::BarometerData&gt;" />
   <TypeSignature Language="F#" Value="type BarometerData = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class BarometerData : IEquatable&lt;Microsoft::Maui::Devices::Sensors::BarometerData&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -35,8 +35,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 pressure) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.BarometerData.#ctor(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (pressure As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; BarometerData(double pressure);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Devices.Sensors.BarometerData : double -&gt; Microsoft.Maui.Devices.Sensors.BarometerData" Usage="new Microsoft.Maui.Devices.Sensors.BarometerData pressure" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; BarometerData(double pressure);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -56,8 +56,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Microsoft.Maui.Devices.Sensors.BarometerData other) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.BarometerData.Equals(Microsoft.Maui.Devices.Sensors.BarometerData)" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As BarometerData) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(Microsoft::Maui::Devices::Sensors::BarometerData other);" />
       <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Maui.Devices.Sensors.BarometerData -&gt; bool" Usage="barometerData.Equals other" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(Microsoft::Maui::Devices::Sensors::BarometerData other);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
@@ -84,8 +84,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.BarometerData.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="barometerData.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -109,8 +109,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.BarometerData.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="barometerData.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -131,8 +131,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Maui.Devices.Sensors.BarometerData left, valuetype Microsoft.Maui.Devices.Sensors.BarometerData right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.BarometerData.op_Equality(Microsoft.Maui.Devices.Sensors.BarometerData,Microsoft.Maui.Devices.Sensors.BarometerData)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As BarometerData, right As BarometerData) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Devices::Sensors::BarometerData left, Microsoft::Maui::Devices::Sensors::BarometerData right);" />
       <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Maui.Devices.Sensors.BarometerData * Microsoft.Maui.Devices.Sensors.BarometerData -&gt; bool" Usage="left = right" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Devices::Sensors::BarometerData left, Microsoft::Maui::Devices::Sensors::BarometerData right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -158,8 +158,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Maui.Devices.Sensors.BarometerData left, valuetype Microsoft.Maui.Devices.Sensors.BarometerData right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.BarometerData.op_Inequality(Microsoft.Maui.Devices.Sensors.BarometerData,Microsoft.Maui.Devices.Sensors.BarometerData)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As BarometerData, right As BarometerData) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Devices::Sensors::BarometerData left, Microsoft::Maui::Devices::Sensors::BarometerData right);" />
       <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Maui.Devices.Sensors.BarometerData * Microsoft.Maui.Devices.Sensors.BarometerData -&gt; bool" Usage="Microsoft.Maui.Devices.Sensors.BarometerData.op_Inequality (left, right)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Devices::Sensors::BarometerData left, Microsoft::Maui::Devices::Sensors::BarometerData right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -185,8 +185,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 PressureInHectopascals" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.BarometerData.PressureInHectopascals" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PressureInHectopascals As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double PressureInHectopascals { double get(); };" />
       <MemberSignature Language="F#" Value="member this.PressureInHectopascals : double" Usage="Microsoft.Maui.Devices.Sensors.BarometerData.PressureInHectopascals" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double PressureInHectopascals { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -206,8 +206,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.BarometerData.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="barometerData.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Slider extends Microsoft.Maui.Controls.View implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.Slider&gt;, class Microsoft.Maui.Controls.ISliderController, class Microsoft.Maui.IElement, class Microsoft.Maui.IRange, class Microsoft.Maui.ISlider, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Slider" />
   <TypeSignature Language="VB.NET" Value="Public Class Slider&#xA;Inherits View&#xA;Implements IElementConfiguration(Of Slider), ISlider, ISliderController" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Slider : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Slider ^&gt;, Microsoft::Maui::Controls::ISliderController, Microsoft::Maui::ISlider" />
   <TypeSignature Language="F#" Value="type Slider = class&#xA;    inherit View&#xA;    interface ISlider&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IRange&#xA;    interface ISliderController&#xA;    interface IElementConfiguration&lt;Slider&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Slider : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Slider ^&gt;, Microsoft::Maui::Controls::ISliderController, Microsoft::Maui::ISlider" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -125,8 +125,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 min, float64 max, float64 val) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Slider.#ctor(System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (min As Double, max As Double, val As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Slider(double min, double max, double val);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Slider : double * double * double -&gt; Microsoft.Maui.Controls.Slider" Usage="new Microsoft.Maui.Controls.Slider (min, max, val)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Slider(double min, double max, double val);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -150,8 +150,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler DragCompleted" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Slider.DragCompleted" />
       <MemberSignature Language="VB.NET" Value="Public Event DragCompleted As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ DragCompleted;" />
       <MemberSignature Language="F#" Value="member this.DragCompleted : EventHandler " Usage="member this.DragCompleted : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ DragCompleted;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -170,8 +170,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand DragCompletedCommand" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Slider.DragCompletedCommand" />
       <MemberSignature Language="VB.NET" Value="Public Property DragCompletedCommand As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ DragCompletedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.DragCompletedCommand : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.Slider.DragCompletedCommand" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ DragCompletedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -191,8 +191,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DragCompletedCommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Slider.DragCompletedCommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DragCompletedCommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ DragCompletedCommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable DragCompletedCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Slider.DragCompletedCommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ DragCompletedCommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -211,8 +211,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler DragStarted" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Slider.DragStarted" />
       <MemberSignature Language="VB.NET" Value="Public Event DragStarted As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ DragStarted;" />
       <MemberSignature Language="F#" Value="member this.DragStarted : EventHandler " Usage="member this.DragStarted : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ DragStarted;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -231,8 +231,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand DragStartedCommand" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Slider.DragStartedCommand" />
       <MemberSignature Language="VB.NET" Value="Public Property DragStartedCommand As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ DragStartedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.DragStartedCommand : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.Slider.DragStartedCommand" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ DragStartedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -252,8 +252,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DragStartedCommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Slider.DragStartedCommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DragStartedCommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ DragStartedCommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable DragStartedCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Slider.DragStartedCommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ DragStartedCommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -272,8 +272,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance float64 Maximum" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Slider.Maximum" />
       <MemberSignature Language="VB.NET" Value="Public Property Maximum As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Maximum { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Maximum : double with get, set" Usage="Microsoft.Maui.Controls.Slider.Maximum" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Maximum { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -293,8 +293,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MaximumProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Slider.MaximumProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaximumProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MaximumProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable MaximumProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Slider.MaximumProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MaximumProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -313,8 +313,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color MaximumTrackColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Slider.MaximumTrackColor" />
       <MemberSignature Language="VB.NET" Value="Public Property MaximumTrackColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ MaximumTrackColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.MaximumTrackColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.Slider.MaximumTrackColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ MaximumTrackColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -334,8 +334,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MaximumTrackColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Slider.MaximumTrackColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaximumTrackColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MaximumTrackColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable MaximumTrackColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Slider.MaximumTrackColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MaximumTrackColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -354,8 +354,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.ISliderController.SendDragCompleted() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Slider.Microsoft#Maui#Controls#ISliderController#SendDragCompleted" />
       <MemberSignature Language="VB.NET" Value="Sub SendDragCompleted () Implements ISliderController.SendDragCompleted" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.ISliderController.SendDragCompleted() = Microsoft::Maui::Controls::ISliderController::SendDragCompleted;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.ISliderController.SendDragCompleted : unit -&gt; unit&#xA;override this.Microsoft.Maui.Controls.ISliderController.SendDragCompleted : unit -&gt; unit" Usage="slider.Microsoft.Maui.Controls.ISliderController.SendDragCompleted " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.ISliderController.SendDragCompleted() = Microsoft::Maui::Controls::ISliderController::SendDragCompleted;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.ISliderController.SendDragCompleted</InterfaceMember>
@@ -378,8 +378,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.ISliderController.SendDragStarted() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Slider.Microsoft#Maui#Controls#ISliderController#SendDragStarted" />
       <MemberSignature Language="VB.NET" Value="Sub SendDragStarted () Implements ISliderController.SendDragStarted" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.ISliderController.SendDragStarted() = Microsoft::Maui::Controls::ISliderController::SendDragStarted;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.ISliderController.SendDragStarted : unit -&gt; unit&#xA;override this.Microsoft.Maui.Controls.ISliderController.SendDragStarted : unit -&gt; unit" Usage="slider.Microsoft.Maui.Controls.ISliderController.SendDragStarted " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.ISliderController.SendDragStarted() = Microsoft::Maui::Controls::ISliderController::SendDragStarted;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.ISliderController.SendDragStarted</InterfaceMember>
@@ -402,8 +402,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.ISlider.DragCompleted() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Slider.Microsoft#Maui#ISlider#DragCompleted" />
       <MemberSignature Language="VB.NET" Value="Sub DragCompleted () Implements ISlider.DragCompleted" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISlider.DragCompleted() = Microsoft::Maui::ISlider::DragCompleted;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.ISlider.DragCompleted : unit -&gt; unit&#xA;override this.Microsoft.Maui.ISlider.DragCompleted : unit -&gt; unit" Usage="slider.Microsoft.Maui.ISlider.DragCompleted " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISlider.DragCompleted() = Microsoft::Maui::ISlider::DragCompleted;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.ISlider.DragCompleted</InterfaceMember>
@@ -426,8 +426,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.ISlider.DragStarted() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Slider.Microsoft#Maui#ISlider#DragStarted" />
       <MemberSignature Language="VB.NET" Value="Sub DragStarted () Implements ISlider.DragStarted" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISlider.DragStarted() = Microsoft::Maui::ISlider::DragStarted;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.ISlider.DragStarted : unit -&gt; unit&#xA;override this.Microsoft.Maui.ISlider.DragStarted : unit -&gt; unit" Usage="slider.Microsoft.Maui.ISlider.DragStarted " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISlider.DragStarted() = Microsoft::Maui::ISlider::DragStarted;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.ISlider.DragStarted</InterfaceMember>
@@ -450,8 +450,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IImageSource Microsoft.Maui.ISlider.ThumbImageSource" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Slider.Microsoft#Maui#ISlider#ThumbImageSource" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property ThumbImageSource As IImageSource Implements ISlider.ThumbImageSource" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IImageSource ^ Microsoft::Maui::ISlider::ThumbImageSource { Microsoft::Maui::IImageSource ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ISlider.ThumbImageSource : Microsoft.Maui.IImageSource" Usage="Microsoft.Maui.ISlider.ThumbImageSource" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IImageSource ^ Microsoft::Maui::ISlider::ThumbImageSource { Microsoft::Maui::IImageSource ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ISlider.ThumbImageSource</InterfaceMember>
@@ -474,8 +474,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance float64 Minimum" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Slider.Minimum" />
       <MemberSignature Language="VB.NET" Value="Public Property Minimum As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Minimum { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Minimum : double with get, set" Usage="Microsoft.Maui.Controls.Slider.Minimum" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Minimum { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -495,8 +495,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MinimumProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Slider.MinimumProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinimumProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MinimumProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable MinimumProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Slider.MinimumProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MinimumProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -515,8 +515,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color MinimumTrackColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Slider.MinimumTrackColor" />
       <MemberSignature Language="VB.NET" Value="Public Property MinimumTrackColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ MinimumTrackColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.MinimumTrackColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.Slider.MinimumTrackColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ MinimumTrackColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -536,8 +536,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MinimumTrackColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Slider.MinimumTrackColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinimumTrackColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MinimumTrackColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable MinimumTrackColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Slider.MinimumTrackColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MinimumTrackColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -556,8 +556,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.Slider&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Slider.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Slider)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Slider ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Slider (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Slider (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="slider.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Slider ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -590,8 +590,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color ThumbColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Slider.ThumbColor" />
       <MemberSignature Language="VB.NET" Value="Public Property ThumbColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ ThumbColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ThumbColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.Slider.ThumbColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ ThumbColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -611,8 +611,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ThumbColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Slider.ThumbColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ThumbColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ThumbColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ThumbColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Slider.ThumbColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ThumbColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -631,8 +631,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource ThumbImageSource" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Slider.ThumbImageSource" />
       <MemberSignature Language="VB.NET" Value="Public Property ThumbImageSource As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ ThumbImageSource { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ThumbImageSource : Microsoft.Maui.Controls.ImageSource with get, set" Usage="Microsoft.Maui.Controls.Slider.ThumbImageSource" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ ThumbImageSource { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -652,8 +652,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ThumbImageSourceProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Slider.ThumbImageSourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ThumbImageSourceProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ThumbImageSourceProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ThumbImageSourceProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Slider.ThumbImageSourceProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ThumbImageSourceProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -672,8 +672,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance float64 Value" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Slider.Value" />
       <MemberSignature Language="VB.NET" Value="Public Property Value As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Value { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Value : double with get, set" Usage="Microsoft.Maui.Controls.Slider.Value" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Value { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IRange.Value</InterfaceMember>
@@ -696,8 +696,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.ValueChangedEventArgs&gt; ValueChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Slider.ValueChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event ValueChanged As EventHandler(Of ValueChangedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ValueChangedEventArgs ^&gt; ^ ValueChanged;" />
       <MemberSignature Language="F#" Value="member this.ValueChanged : EventHandler&lt;Microsoft.Maui.Controls.ValueChangedEventArgs&gt; " Usage="member this.ValueChanged : System.EventHandler&lt;Microsoft.Maui.Controls.ValueChangedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ValueChangedEventArgs ^&gt; ^ ValueChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -716,8 +716,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ValueProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Slider.ValueProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ValueProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ValueProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ValueProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Slider.ValueProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ValueProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

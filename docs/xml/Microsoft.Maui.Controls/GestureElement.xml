@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GestureElement extends Microsoft.Maui.Controls.Element implements class Microsoft.Maui.Controls.IGestureRecognizers, class Microsoft.Maui.Controls.Internals.ISpatialElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.GestureElement" />
   <TypeSignature Language="VB.NET" Value="Public Class GestureElement&#xA;Inherits Element&#xA;Implements IGestureRecognizers, ISpatialElement" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GestureElement : Microsoft::Maui::Controls::Element, Microsoft::Maui::Controls::IGestureRecognizers, Microsoft::Maui::Controls::Internals::ISpatialElement" />
   <TypeSignature Language="F#" Value="type GestureElement = class&#xA;    inherit Element&#xA;    interface ISpatialElement&#xA;    interface IGestureRecognizers" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GestureElement : Microsoft::Maui::Controls::Element, Microsoft::Maui::Controls::IGestureRecognizers, Microsoft::Maui::Controls::Internals::ISpatialElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.IGestureRecognizer&gt; GestureRecognizers" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.GestureElement.GestureRecognizers" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GestureRecognizers As IList(Of IGestureRecognizer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ GestureRecognizers { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.GestureRecognizers : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.IGestureRecognizer&gt;" Usage="Microsoft.Maui.Controls.GestureElement.GestureRecognizers" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ GestureRecognizers { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IGestureRecognizers.GestureRecognizers</InterfaceMember>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.Region Microsoft.Maui.Controls.Internals.ISpatialElement.Region" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.GestureElement.Microsoft#Maui#Controls#Internals#ISpatialElement#Region" />
       <MemberSignature Language="VB.NET" Value=" Property Region As Region Implements ISpatialElement.Region" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Controls::Region Microsoft::Maui::Controls::Internals::ISpatialElement::Region { Microsoft::Maui::Controls::Region get(); void set(Microsoft::Maui::Controls::Region value); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.Internals.ISpatialElement.Region : Microsoft.Maui.Controls.Region with get, set" Usage="Microsoft.Maui.Controls.Internals.ISpatialElement.Region" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Controls::Region Microsoft::Maui::Controls::Internals::ISpatialElement::Region { Microsoft::Maui::Controls::Region get(); void set(Microsoft::Maui::Controls::Region value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.Internals.ISpatialElement.Region</InterfaceMember>

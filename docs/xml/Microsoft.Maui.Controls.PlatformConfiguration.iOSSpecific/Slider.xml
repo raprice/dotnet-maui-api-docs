@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Slider extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Slider" />
   <TypeSignature Language="VB.NET" Value="Public Module Slider" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Slider abstract sealed" />
   <TypeSignature Language="F#" Value="type Slider = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Slider abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetUpdateOnTap(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Slider.GetUpdateOnTap(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetUpdateOnTap (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetUpdateOnTap(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetUpdateOnTap : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Slider.GetUpdateOnTap element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetUpdateOnTap(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -49,8 +49,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetUpdateOnTap(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Slider&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Slider.GetUpdateOnTap(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Slider})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetUpdateOnTap (config As IPlatformElementConfiguration(Of iOS, Slider)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetUpdateOnTap(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Slider ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetUpdateOnTap : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Slider&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Slider.GetUpdateOnTap config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetUpdateOnTap(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Slider ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetUpdateOnTap(class Microsoft.Maui.Controls.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Slider.SetUpdateOnTap(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetUpdateOnTap (element As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetUpdateOnTap(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetUpdateOnTap : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Slider.SetUpdateOnTap (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetUpdateOnTap(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Slider&gt; SetUpdateOnTap(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.Slider&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Slider.SetUpdateOnTap(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.Slider},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetUpdateOnTap (config As IPlatformElementConfiguration(Of iOS, Slider), value As Boolean) As IPlatformElementConfiguration(Of iOS, Slider)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Slider ^&gt; ^ SetUpdateOnTap(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Slider ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetUpdateOnTap : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Slider&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.Slider&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Slider.SetUpdateOnTap (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Slider ^&gt; ^ SetUpdateOnTap(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::Slider ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -130,8 +130,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty UpdateOnTapProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Slider.UpdateOnTapProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly UpdateOnTapProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ UpdateOnTapProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable UpdateOnTapProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.Slider.UpdateOnTapProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ UpdateOnTapProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

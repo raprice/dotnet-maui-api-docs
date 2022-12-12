@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ChildGestureRecognizer extends System.Object implements class Microsoft.Maui.Controls.IGestureRecognizer, class System.ComponentModel.INotifyPropertyChanged" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ChildGestureRecognizer" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ChildGestureRecognizer&#xA;Implements IGestureRecognizer, INotifyPropertyChanged" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ChildGestureRecognizer sealed : Microsoft::Maui::Controls::IGestureRecognizer, System::ComponentModel::INotifyPropertyChanged" />
   <TypeSignature Language="F#" Value="type ChildGestureRecognizer = class&#xA;    interface IGestureRecognizer&#xA;    interface INotifyPropertyChanged" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ChildGestureRecognizer sealed : Microsoft::Maui::Controls::IGestureRecognizer, System::ComponentModel::INotifyPropertyChanged" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.IGestureRecognizer GestureRecognizer" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ChildGestureRecognizer.GestureRecognizer" />
       <MemberSignature Language="VB.NET" Value="Public Property GestureRecognizer As IGestureRecognizer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IGestureRecognizer ^ GestureRecognizer { Microsoft::Maui::Controls::IGestureRecognizer ^ get(); void set(Microsoft::Maui::Controls::IGestureRecognizer ^ value); };" />
       <MemberSignature Language="F#" Value="member this.GestureRecognizer : Microsoft.Maui.Controls.IGestureRecognizer with get, set" Usage="Microsoft.Maui.Controls.ChildGestureRecognizer.GestureRecognizer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IGestureRecognizer ^ GestureRecognizer { Microsoft::Maui::Controls::IGestureRecognizer ^ get(); void set(Microsoft::Maui::Controls::IGestureRecognizer ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -98,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.ComponentModel.PropertyChangedEventHandler PropertyChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.ChildGestureRecognizer.PropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event PropertyChanged As PropertyChangedEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::ComponentModel::PropertyChangedEventHandler ^ PropertyChanged;" />
       <MemberSignature Language="F#" Value="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " Usage="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::ComponentModel::PropertyChangedEventHandler ^ PropertyChanged;" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged</InterfaceMember>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit LayoutDirectionExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.LayoutDirectionExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module LayoutDirectionExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class LayoutDirectionExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type LayoutDirectionExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class LayoutDirectionExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.FlowDirection ToFlowDirection(valuetype Microsoft.Maui.ApplicationModel.LayoutDirection layoutDirection) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.LayoutDirectionExtensions.ToFlowDirection(Microsoft.Maui.ApplicationModel.LayoutDirection)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToFlowDirection (layoutDirection As LayoutDirection) As FlowDirection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::FlowDirection ToFlowDirection(Microsoft::Maui::ApplicationModel::LayoutDirection layoutDirection);" />
       <MemberSignature Language="F#" Value="static member ToFlowDirection : Microsoft.Maui.ApplicationModel.LayoutDirection -&gt; Microsoft.Maui.FlowDirection" Usage="Microsoft.Maui.Controls.LayoutDirectionExtensions.ToFlowDirection layoutDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::FlowDirection ToFlowDirection(Microsoft::Maui::ApplicationModel::LayoutDirection layoutDirection);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

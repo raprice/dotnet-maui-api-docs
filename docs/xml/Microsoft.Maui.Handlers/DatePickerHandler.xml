@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DatePickerHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.IDatePicker, object&gt; implements class Microsoft.Maui.Handlers.IDatePickerHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.DatePickerHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class DatePickerHandler&#xA;Inherits ViewHandler(Of IDatePicker, Object)&#xA;Implements IDatePickerHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DatePickerHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IDatePicker ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IDatePickerHandler" />
   <TypeSignature Language="F#" Value="type DatePickerHandler = class&#xA;    inherit ViewHandler&lt;IDatePicker, obj&gt;&#xA;    interface IDatePickerHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DatePickerHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IDatePicker ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IDatePickerHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.DatePickerHandler.#ctor(Microsoft.Maui.IPropertyMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DatePickerHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.DatePickerHandler : Microsoft.Maui.IPropertyMapper -&gt; Microsoft.Maui.Handlers.DatePickerHandler" Usage="new Microsoft.Maui.Handlers.DatePickerHandler mapper" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DatePickerHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="C#" Value="public DatePickerHandler (Microsoft.Maui.IPropertyMapper? mapper);" FrameworkAlternate="net-maui-7.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -76,8 +76,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.DatePickerHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DatePickerHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.DatePickerHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.Handlers.DatePickerHandler" Usage="new Microsoft.Maui.Handlers.DatePickerHandler (mapper, commandMapper)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DatePickerHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -99,8 +99,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IPicker, class Microsoft.Maui.Handlers.IDatePickerHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.DatePickerHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IPicker, IDatePickerHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IPicker ^, Microsoft::Maui::Handlers::IDatePickerHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IPicker, Microsoft.Maui.Handlers.IDatePickerHandler&gt;" Usage="Microsoft.Maui.Handlers.DatePickerHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IPicker ^, Microsoft::Maui::Handlers::IDatePickerHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.DatePickerHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="datePickerHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -141,8 +141,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCharacterSpacing(class Microsoft.Maui.Handlers.IDatePickerHandler handler, class Microsoft.Maui.IDatePicker datePicker) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.DatePickerHandler.MapCharacterSpacing(Microsoft.Maui.Handlers.IDatePickerHandler,Microsoft.Maui.IDatePicker)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCharacterSpacing (handler As IDatePickerHandler, datePicker As IDatePicker)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCharacterSpacing(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberSignature Language="F#" Value="static member MapCharacterSpacing : Microsoft.Maui.Handlers.IDatePickerHandler * Microsoft.Maui.IDatePicker -&gt; unit" Usage="Microsoft.Maui.Handlers.DatePickerHandler.MapCharacterSpacing (handler, datePicker)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCharacterSpacing(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -167,8 +167,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapDate(class Microsoft.Maui.Handlers.IDatePickerHandler handler, class Microsoft.Maui.IDatePicker datePicker) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.DatePickerHandler.MapDate(Microsoft.Maui.Handlers.IDatePickerHandler,Microsoft.Maui.IDatePicker)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapDate (handler As IDatePickerHandler, datePicker As IDatePicker)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapDate(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberSignature Language="F#" Value="static member MapDate : Microsoft.Maui.Handlers.IDatePickerHandler * Microsoft.Maui.IDatePicker -&gt; unit" Usage="Microsoft.Maui.Handlers.DatePickerHandler.MapDate (handler, datePicker)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapDate(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -193,8 +193,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapFont(class Microsoft.Maui.Handlers.IDatePickerHandler handler, class Microsoft.Maui.IDatePicker datePicker) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.DatePickerHandler.MapFont(Microsoft.Maui.Handlers.IDatePickerHandler,Microsoft.Maui.IDatePicker)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapFont (handler As IDatePickerHandler, datePicker As IDatePicker)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFont(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberSignature Language="F#" Value="static member MapFont : Microsoft.Maui.Handlers.IDatePickerHandler * Microsoft.Maui.IDatePicker -&gt; unit" Usage="Microsoft.Maui.Handlers.DatePickerHandler.MapFont (handler, datePicker)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFont(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -219,8 +219,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapFormat(class Microsoft.Maui.Handlers.IDatePickerHandler handler, class Microsoft.Maui.IDatePicker datePicker) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.DatePickerHandler.MapFormat(Microsoft.Maui.Handlers.IDatePickerHandler,Microsoft.Maui.IDatePicker)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapFormat (handler As IDatePickerHandler, datePicker As IDatePicker)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFormat(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberSignature Language="F#" Value="static member MapFormat : Microsoft.Maui.Handlers.IDatePickerHandler * Microsoft.Maui.IDatePicker -&gt; unit" Usage="Microsoft.Maui.Handlers.DatePickerHandler.MapFormat (handler, datePicker)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFormat(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -245,8 +245,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapMaximumDate(class Microsoft.Maui.Handlers.IDatePickerHandler handler, class Microsoft.Maui.IDatePicker datePicker) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.DatePickerHandler.MapMaximumDate(Microsoft.Maui.Handlers.IDatePickerHandler,Microsoft.Maui.IDatePicker)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapMaximumDate (handler As IDatePickerHandler, datePicker As IDatePicker)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMaximumDate(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberSignature Language="F#" Value="static member MapMaximumDate : Microsoft.Maui.Handlers.IDatePickerHandler * Microsoft.Maui.IDatePicker -&gt; unit" Usage="Microsoft.Maui.Handlers.DatePickerHandler.MapMaximumDate (handler, datePicker)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMaximumDate(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -271,8 +271,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapMinimumDate(class Microsoft.Maui.Handlers.IDatePickerHandler handler, class Microsoft.Maui.IDatePicker datePicker) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.DatePickerHandler.MapMinimumDate(Microsoft.Maui.Handlers.IDatePickerHandler,Microsoft.Maui.IDatePicker)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapMinimumDate (handler As IDatePickerHandler, datePicker As IDatePicker)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMinimumDate(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberSignature Language="F#" Value="static member MapMinimumDate : Microsoft.Maui.Handlers.IDatePickerHandler * Microsoft.Maui.IDatePicker -&gt; unit" Usage="Microsoft.Maui.Handlers.DatePickerHandler.MapMinimumDate (handler, datePicker)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMinimumDate(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -297,8 +297,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IDatePicker, class Microsoft.Maui.Handlers.IDatePickerHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.DatePickerHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IDatePicker, IDatePickerHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IDatePicker ^, Microsoft::Maui::Handlers::IDatePickerHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IDatePicker, Microsoft.Maui.Handlers.IDatePickerHandler&gt;" Usage="Microsoft.Maui.Handlers.DatePickerHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IDatePicker ^, Microsoft::Maui::Handlers::IDatePickerHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -317,8 +317,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapTextColor(class Microsoft.Maui.Handlers.IDatePickerHandler handler, class Microsoft.Maui.IDatePicker datePicker) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.DatePickerHandler.MapTextColor(Microsoft.Maui.Handlers.IDatePickerHandler,Microsoft.Maui.IDatePicker)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapTextColor (handler As IDatePickerHandler, datePicker As IDatePicker)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextColor(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberSignature Language="F#" Value="static member MapTextColor : Microsoft.Maui.Handlers.IDatePickerHandler * Microsoft.Maui.IDatePicker -&gt; unit" Usage="Microsoft.Maui.Handlers.DatePickerHandler.MapTextColor (handler, datePicker)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextColor(Microsoft::Maui::Handlers::IDatePickerHandler ^ handler, Microsoft::Maui::IDatePicker ^ datePicker);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -343,8 +343,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.IDatePickerHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.DatePickerHandler.Microsoft#Maui#Handlers#IDatePickerHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IDatePickerHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IDatePickerHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IDatePickerHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.IDatePickerHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IDatePickerHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IDatePickerHandler.PlatformView</InterfaceMember>
@@ -367,8 +367,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IDatePicker Microsoft.Maui.Handlers.IDatePickerHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.DatePickerHandler.Microsoft#Maui#Handlers#IDatePickerHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IDatePicker Implements IDatePickerHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IDatePicker ^ Microsoft::Maui::Handlers::IDatePickerHandler::VirtualView { Microsoft::Maui::IDatePicker ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IDatePickerHandler.VirtualView : Microsoft.Maui.IDatePicker" Usage="Microsoft.Maui.Handlers.IDatePickerHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IDatePicker ^ Microsoft::Maui::Handlers::IDatePickerHandler::VirtualView { Microsoft::Maui::IDatePicker ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IDatePickerHandler.VirtualView</InterfaceMember>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit IndicatorViewHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.IIndicatorView, object&gt; implements class Microsoft.Maui.Handlers.IIndicatorViewHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.IndicatorViewHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class IndicatorViewHandler&#xA;Inherits ViewHandler(Of IIndicatorView, Object)&#xA;Implements IIndicatorViewHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class IndicatorViewHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IIndicatorView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IIndicatorViewHandler" />
   <TypeSignature Language="F#" Value="type IndicatorViewHandler = class&#xA;    inherit ViewHandler&lt;IIndicatorView, obj&gt;&#xA;    interface IIndicatorViewHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class IndicatorViewHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IIndicatorView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IIndicatorViewHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.IndicatorViewHandler.#ctor(Microsoft.Maui.IPropertyMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; IndicatorViewHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.IndicatorViewHandler : Microsoft.Maui.IPropertyMapper -&gt; Microsoft.Maui.Handlers.IndicatorViewHandler" Usage="new Microsoft.Maui.Handlers.IndicatorViewHandler mapper" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IndicatorViewHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="C#" Value="public IndicatorViewHandler (Microsoft.Maui.IPropertyMapper? mapper);" FrameworkAlternate="net-maui-7.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -76,8 +76,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.IndicatorViewHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; IndicatorViewHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.IndicatorViewHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.Handlers.IndicatorViewHandler" Usage="new Microsoft.Maui.Handlers.IndicatorViewHandler (mapper, commandMapper)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IndicatorViewHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -99,8 +99,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IIndicatorView, class Microsoft.Maui.Handlers.IIndicatorViewHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.IndicatorViewHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IIndicatorView, IIndicatorViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IIndicatorView ^, Microsoft::Maui::Handlers::IIndicatorViewHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IIndicatorView, Microsoft.Maui.Handlers.IIndicatorViewHandler&gt;" Usage="Microsoft.Maui.Handlers.IndicatorViewHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IIndicatorView ^, Microsoft::Maui::Handlers::IIndicatorViewHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.IndicatorViewHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="indicatorViewHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -141,8 +141,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCount(class Microsoft.Maui.Handlers.IIndicatorViewHandler handler, class Microsoft.Maui.IIndicatorView indicator) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.IndicatorViewHandler.MapCount(Microsoft.Maui.Handlers.IIndicatorViewHandler,Microsoft.Maui.IIndicatorView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCount (handler As IIndicatorViewHandler, indicator As IIndicatorView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCount(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberSignature Language="F#" Value="static member MapCount : Microsoft.Maui.Handlers.IIndicatorViewHandler * Microsoft.Maui.IIndicatorView -&gt; unit" Usage="Microsoft.Maui.Handlers.IndicatorViewHandler.MapCount (handler, indicator)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCount(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -167,8 +167,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapHideSingle(class Microsoft.Maui.Handlers.IIndicatorViewHandler handler, class Microsoft.Maui.IIndicatorView indicator) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.IndicatorViewHandler.MapHideSingle(Microsoft.Maui.Handlers.IIndicatorViewHandler,Microsoft.Maui.IIndicatorView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapHideSingle (handler As IIndicatorViewHandler, indicator As IIndicatorView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHideSingle(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberSignature Language="F#" Value="static member MapHideSingle : Microsoft.Maui.Handlers.IIndicatorViewHandler * Microsoft.Maui.IIndicatorView -&gt; unit" Usage="Microsoft.Maui.Handlers.IndicatorViewHandler.MapHideSingle (handler, indicator)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHideSingle(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -193,8 +193,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIndicatorColor(class Microsoft.Maui.Handlers.IIndicatorViewHandler handler, class Microsoft.Maui.IIndicatorView indicator) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.IndicatorViewHandler.MapIndicatorColor(Microsoft.Maui.Handlers.IIndicatorViewHandler,Microsoft.Maui.IIndicatorView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIndicatorColor (handler As IIndicatorViewHandler, indicator As IIndicatorView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIndicatorColor(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberSignature Language="F#" Value="static member MapIndicatorColor : Microsoft.Maui.Handlers.IIndicatorViewHandler * Microsoft.Maui.IIndicatorView -&gt; unit" Usage="Microsoft.Maui.Handlers.IndicatorViewHandler.MapIndicatorColor (handler, indicator)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIndicatorColor(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -219,8 +219,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIndicatorShape(class Microsoft.Maui.Handlers.IIndicatorViewHandler handler, class Microsoft.Maui.IIndicatorView indicator) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.IndicatorViewHandler.MapIndicatorShape(Microsoft.Maui.Handlers.IIndicatorViewHandler,Microsoft.Maui.IIndicatorView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIndicatorShape (handler As IIndicatorViewHandler, indicator As IIndicatorView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIndicatorShape(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberSignature Language="F#" Value="static member MapIndicatorShape : Microsoft.Maui.Handlers.IIndicatorViewHandler * Microsoft.Maui.IIndicatorView -&gt; unit" Usage="Microsoft.Maui.Handlers.IndicatorViewHandler.MapIndicatorShape (handler, indicator)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIndicatorShape(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -245,8 +245,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIndicatorSize(class Microsoft.Maui.Handlers.IIndicatorViewHandler handler, class Microsoft.Maui.IIndicatorView indicator) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.IndicatorViewHandler.MapIndicatorSize(Microsoft.Maui.Handlers.IIndicatorViewHandler,Microsoft.Maui.IIndicatorView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIndicatorSize (handler As IIndicatorViewHandler, indicator As IIndicatorView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIndicatorSize(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberSignature Language="F#" Value="static member MapIndicatorSize : Microsoft.Maui.Handlers.IIndicatorViewHandler * Microsoft.Maui.IIndicatorView -&gt; unit" Usage="Microsoft.Maui.Handlers.IndicatorViewHandler.MapIndicatorSize (handler, indicator)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIndicatorSize(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -271,8 +271,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapMaximumVisible(class Microsoft.Maui.Handlers.IIndicatorViewHandler handler, class Microsoft.Maui.IIndicatorView indicator) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.IndicatorViewHandler.MapMaximumVisible(Microsoft.Maui.Handlers.IIndicatorViewHandler,Microsoft.Maui.IIndicatorView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapMaximumVisible (handler As IIndicatorViewHandler, indicator As IIndicatorView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMaximumVisible(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberSignature Language="F#" Value="static member MapMaximumVisible : Microsoft.Maui.Handlers.IIndicatorViewHandler * Microsoft.Maui.IIndicatorView -&gt; unit" Usage="Microsoft.Maui.Handlers.IndicatorViewHandler.MapMaximumVisible (handler, indicator)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMaximumVisible(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -297,8 +297,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IIndicatorView, class Microsoft.Maui.Handlers.IIndicatorViewHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.IndicatorViewHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IIndicatorView, IIndicatorViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IIndicatorView ^, Microsoft::Maui::Handlers::IIndicatorViewHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IIndicatorView, Microsoft.Maui.Handlers.IIndicatorViewHandler&gt;" Usage="Microsoft.Maui.Handlers.IndicatorViewHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IIndicatorView ^, Microsoft::Maui::Handlers::IIndicatorViewHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -317,8 +317,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapPosition(class Microsoft.Maui.Handlers.IIndicatorViewHandler handler, class Microsoft.Maui.IIndicatorView indicator) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.IndicatorViewHandler.MapPosition(Microsoft.Maui.Handlers.IIndicatorViewHandler,Microsoft.Maui.IIndicatorView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapPosition (handler As IIndicatorViewHandler, indicator As IIndicatorView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPosition(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberSignature Language="F#" Value="static member MapPosition : Microsoft.Maui.Handlers.IIndicatorViewHandler * Microsoft.Maui.IIndicatorView -&gt; unit" Usage="Microsoft.Maui.Handlers.IndicatorViewHandler.MapPosition (handler, indicator)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPosition(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -343,8 +343,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapSelectedIndicatorColor(class Microsoft.Maui.Handlers.IIndicatorViewHandler handler, class Microsoft.Maui.IIndicatorView indicator) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.IndicatorViewHandler.MapSelectedIndicatorColor(Microsoft.Maui.Handlers.IIndicatorViewHandler,Microsoft.Maui.IIndicatorView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapSelectedIndicatorColor (handler As IIndicatorViewHandler, indicator As IIndicatorView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapSelectedIndicatorColor(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberSignature Language="F#" Value="static member MapSelectedIndicatorColor : Microsoft.Maui.Handlers.IIndicatorViewHandler * Microsoft.Maui.IIndicatorView -&gt; unit" Usage="Microsoft.Maui.Handlers.IndicatorViewHandler.MapSelectedIndicatorColor (handler, indicator)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapSelectedIndicatorColor(Microsoft::Maui::Handlers::IIndicatorViewHandler ^ handler, Microsoft::Maui::IIndicatorView ^ indicator);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -369,8 +369,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.IIndicatorViewHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.IndicatorViewHandler.Microsoft#Maui#Handlers#IIndicatorViewHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IIndicatorViewHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IIndicatorViewHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IIndicatorViewHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.IIndicatorViewHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IIndicatorViewHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IIndicatorViewHandler.PlatformView</InterfaceMember>
@@ -393,8 +393,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IIndicatorView Microsoft.Maui.Handlers.IIndicatorViewHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.IndicatorViewHandler.Microsoft#Maui#Handlers#IIndicatorViewHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IIndicatorView Implements IIndicatorViewHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IIndicatorView ^ Microsoft::Maui::Handlers::IIndicatorViewHandler::VirtualView { Microsoft::Maui::IIndicatorView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IIndicatorViewHandler.VirtualView : Microsoft.Maui.IIndicatorView" Usage="Microsoft.Maui.Handlers.IIndicatorViewHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IIndicatorView ^ Microsoft::Maui::Handlers::IIndicatorViewHandler::VirtualView { Microsoft::Maui::IIndicatorView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IIndicatorViewHandler.VirtualView</InterfaceMember>

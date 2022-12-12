@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RectangleGeometry extends Microsoft.Maui.Controls.Shapes.Geometry" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.RectangleGeometry" />
   <TypeSignature Language="VB.NET" Value="Public Class RectangleGeometry&#xA;Inherits Geometry" />
-  <TypeSignature Language="C++ CLI" Value="public ref class RectangleGeometry : Microsoft::Maui::Controls::Shapes::Geometry" />
   <TypeSignature Language="F#" Value="type RectangleGeometry = class&#xA;    inherit Geometry" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RectangleGeometry : Microsoft::Maui::Controls::Shapes::Geometry" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.Graphics.Rect rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.RectangleGeometry.#ctor(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (rect As Rect)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; RectangleGeometry(Microsoft::Maui::Graphics::Rect rect);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Shapes.RectangleGeometry : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Controls.Shapes.RectangleGeometry" Usage="new Microsoft.Maui.Controls.Shapes.RectangleGeometry rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RectangleGeometry(Microsoft::Maui::Graphics::Rect rect);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void AppendPath(class Microsoft.Maui.Graphics.PathF path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.RectangleGeometry.AppendPath(Microsoft.Maui.Graphics.PathF)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub AppendPath (path As PathF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void AppendPath(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberSignature Language="F#" Value="override this.AppendPath : Microsoft.Maui.Graphics.PathF -&gt; unit" Usage="rectangleGeometry.AppendPath path" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void AppendPath(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -85,8 +85,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Rect Rect" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.RectangleGeometry.Rect" />
       <MemberSignature Language="VB.NET" Value="Public Property Rect As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect Rect { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberSignature Language="F#" Value="member this.Rect : Microsoft.Maui.Graphics.Rect with get, set" Usage="Microsoft.Maui.Controls.Shapes.RectangleGeometry.Rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect Rect { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -106,8 +106,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty RectProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.RectangleGeometry.RectProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RectProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RectProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable RectProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.RectangleGeometry.RectProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RectProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

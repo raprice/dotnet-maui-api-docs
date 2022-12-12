@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IReferenceProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.IReferenceProvider" />
   <TypeSignature Language="VB.NET" Value="Public Interface IReferenceProvider" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IReferenceProvider" />
   <TypeSignature Language="F#" Value="type IReferenceProvider = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IReferenceProvider" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object FindByName(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.IReferenceProvider.FindByName(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function FindByName (name As String) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ FindByName(System::String ^ name);" />
       <MemberSignature Language="F#" Value="abstract member FindByName : string -&gt; obj" Usage="iReferenceProvider.FindByName name" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ FindByName(System::String ^ name);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

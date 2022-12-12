@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Region extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Region" />
   <TypeSignature Language="VB.NET" Value="Public Structure Region" />
-  <TypeSignature Language="C++ CLI" Value="public value class Region" />
   <TypeSignature Language="F#" Value="type Region = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class Region" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -25,8 +25,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(valuetype Microsoft.Maui.Graphics.Point pt) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Region.Contains(Microsoft.Maui.Graphics.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Function Contains (pt As Point) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(Microsoft::Maui::Graphics::Point pt);" />
       <MemberSignature Language="F#" Value="member this.Contains : Microsoft.Maui.Graphics.Point -&gt; bool" Usage="region.Contains pt" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(Microsoft::Maui::Graphics::Point pt);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -51,8 +51,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(float64 x, float64 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Region.Contains(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function Contains (x As Double, y As Double) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(double x, double y);" />
       <MemberSignature Language="F#" Value="member this.Contains : double * double -&gt; bool" Usage="region.Contains (x, y)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(double x, double y);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -79,8 +79,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Controls.Region Deflate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Region.Deflate" />
       <MemberSignature Language="VB.NET" Value="Public Function Deflate () As Region" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Controls::Region Deflate();" />
       <MemberSignature Language="F#" Value="member this.Deflate : unit -&gt; Microsoft.Maui.Controls.Region" Usage="region.Deflate " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Controls::Region Deflate();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -101,8 +101,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.Region FromLines(float64[] lineHeights, float64 maxWidth, float64 startX, float64 endX, float64 startY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Region.FromLines(System.Double[],System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromLines (lineHeights As Double(), maxWidth As Double, startX As Double, endX As Double, startY As Double) As Region" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Region FromLines(cli::array &lt;double&gt; ^ lineHeights, double maxWidth, double startX, double endX, double startY);" />
       <MemberSignature Language="F#" Value="static member FromLines : double[] * double * double * double * double -&gt; Microsoft.Maui.Controls.Region" Usage="Microsoft.Maui.Controls.Region.FromLines (lineHeights, maxWidth, startX, endX, startY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Region FromLines(cli::array &lt;double&gt; ^ lineHeights, double maxWidth, double startX, double endX, double startY);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -134,8 +134,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Controls.Region Inflate(float64 size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Region.Inflate(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function Inflate (size As Double) As Region" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Controls::Region Inflate(double size);" />
       <MemberSignature Language="F#" Value="member this.Inflate : double -&gt; Microsoft.Maui.Controls.Region" Usage="region.Inflate size" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Controls::Region Inflate(double size);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -159,8 +159,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Controls.Region Inflate(float64 left, float64 top, float64 right, float64 bottom) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Region.Inflate(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function Inflate (left As Double, top As Double, right As Double, bottom As Double) As Region" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Controls::Region Inflate(double left, double top, double right, double bottom);" />
       <MemberSignature Language="F#" Value="member this.Inflate : double * double * double * double -&gt; Microsoft.Maui.Controls.Region" Usage="region.Inflate (left, top, right, bottom)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Controls::Region Inflate(double left, double top, double right, double bottom);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

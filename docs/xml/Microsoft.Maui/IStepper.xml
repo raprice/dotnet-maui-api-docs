@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStepper implements class Microsoft.Maui.IElement, class Microsoft.Maui.IRange, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IStepper" />
   <TypeSignature Language="VB.NET" Value="Public Interface IStepper&#xA;Implements IRange" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IStepper : Microsoft::Maui::IRange" />
   <TypeSignature Language="F#" Value="type IStepper = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IRange" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IStepper : Microsoft::Maui::IRange" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -36,8 +36,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Interval" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IStepper.Interval" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Interval As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Interval { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Interval : double" Usage="Microsoft.Maui.IStepper.Interval" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Interval { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

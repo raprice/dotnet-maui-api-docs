@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFontRegistrar" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IFontRegistrar" />
   <TypeSignature Language="VB.NET" Value="Public Interface IFontRegistrar" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IFontRegistrar" />
   <TypeSignature Language="F#" Value="type IFontRegistrar = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IFontRegistrar" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetFont(string font) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IFontRegistrar.GetFont(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetFont (font As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetFont(System::String ^ font);" />
       <MemberSignature Language="F#" Value="abstract member GetFont : string -&gt; string" Usage="iFontRegistrar.GetFont font" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetFont(System::String ^ font);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -49,8 +49,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Register(string filename, string alias) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IFontRegistrar.Register(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Register (filename As String, alias As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Register(System::String ^ filename, System::String ^ alias);" />
       <MemberSignature Language="F#" Value="abstract member Register : string * string -&gt; unit" Usage="iFontRegistrar.Register (filename, alias)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Register(System::String ^ filename, System::String ^ alias);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -77,8 +77,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Register(string filename, string alias, class System.Reflection.Assembly assembly) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IFontRegistrar.Register(System.String,System.String,System.Reflection.Assembly)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Register (filename As String, alias As String, assembly As Assembly)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Register(System::String ^ filename, System::String ^ alias, System::Reflection::Assembly ^ assembly);" />
       <MemberSignature Language="F#" Value="abstract member Register : string * string * System.Reflection.Assembly -&gt; unit" Usage="iFontRegistrar.Register (filename, alias, assembly)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Register(System::String ^ filename, System::String ^ alias, System::Reflection::Assembly ^ assembly);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

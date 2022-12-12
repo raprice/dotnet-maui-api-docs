@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ApplicationHandler extends Microsoft.Maui.Handlers.ElementHandler`2&lt;class Microsoft.Maui.IApplication, object&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.ApplicationHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class ApplicationHandler&#xA;Inherits ElementHandler(Of IApplication, Object)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ApplicationHandler : Microsoft::Maui::Handlers::ElementHandler&lt;Microsoft::Maui::IApplication ^, System::Object ^&gt;" />
   <TypeSignature Language="F#" Value="type ApplicationHandler = class&#xA;    inherit ElementHandler&lt;IApplication, obj&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ApplicationHandler : Microsoft::Maui::Handlers::ElementHandler&lt;Microsoft::Maui::IApplication ^, System::Object ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ApplicationHandler.#ctor(Microsoft.Maui.IPropertyMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ApplicationHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.ApplicationHandler : Microsoft.Maui.IPropertyMapper -&gt; Microsoft.Maui.Handlers.ApplicationHandler" Usage="new Microsoft.Maui.Handlers.ApplicationHandler mapper" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ApplicationHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ApplicationHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ApplicationHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.ApplicationHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.Handlers.ApplicationHandler" Usage="new Microsoft.Maui.Handlers.ApplicationHandler (mapper, commandMapper)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ApplicationHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -88,8 +88,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IApplication, class Microsoft.Maui.Handlers.ApplicationHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.ApplicationHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IApplication, ApplicationHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IApplication ^, Microsoft::Maui::Handlers::ApplicationHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IApplication, Microsoft.Maui.Handlers.ApplicationHandler&gt;" Usage="Microsoft.Maui.Handlers.ApplicationHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IApplication ^, Microsoft::Maui::Handlers::ApplicationHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -108,8 +108,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformElement() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ApplicationHandler.CreatePlatformElement" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformElement () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformElement();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformElement : unit -&gt; obj" Usage="applicationHandler.CreatePlatformElement " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformElement();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -130,8 +130,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCloseWindow(class Microsoft.Maui.Handlers.ApplicationHandler handler, class Microsoft.Maui.IApplication application, object args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ApplicationHandler.MapCloseWindow(Microsoft.Maui.Handlers.ApplicationHandler,Microsoft.Maui.IApplication,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCloseWindow (handler As ApplicationHandler, application As IApplication, args As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCloseWindow(Microsoft::Maui::Handlers::ApplicationHandler ^ handler, Microsoft::Maui::IApplication ^ application, System::Object ^ args);" />
       <MemberSignature Language="F#" Value="static member MapCloseWindow : Microsoft.Maui.Handlers.ApplicationHandler * Microsoft.Maui.IApplication * obj -&gt; unit" Usage="Microsoft.Maui.Handlers.ApplicationHandler.MapCloseWindow (handler, application, args)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCloseWindow(Microsoft::Maui::Handlers::ApplicationHandler ^ handler, Microsoft::Maui::IApplication ^ application, System::Object ^ args);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -158,8 +158,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapOpenWindow(class Microsoft.Maui.Handlers.ApplicationHandler handler, class Microsoft.Maui.IApplication application, object args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ApplicationHandler.MapOpenWindow(Microsoft.Maui.Handlers.ApplicationHandler,Microsoft.Maui.IApplication,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapOpenWindow (handler As ApplicationHandler, application As IApplication, args As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapOpenWindow(Microsoft::Maui::Handlers::ApplicationHandler ^ handler, Microsoft::Maui::IApplication ^ application, System::Object ^ args);" />
       <MemberSignature Language="F#" Value="static member MapOpenWindow : Microsoft.Maui.Handlers.ApplicationHandler * Microsoft.Maui.IApplication * obj -&gt; unit" Usage="Microsoft.Maui.Handlers.ApplicationHandler.MapOpenWindow (handler, application, args)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapOpenWindow(Microsoft::Maui::Handlers::ApplicationHandler ^ handler, Microsoft::Maui::IApplication ^ application, System::Object ^ args);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -186,8 +186,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IApplication, class Microsoft.Maui.Handlers.ApplicationHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.ApplicationHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IApplication, ApplicationHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IApplication ^, Microsoft::Maui::Handlers::ApplicationHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IApplication, Microsoft.Maui.Handlers.ApplicationHandler&gt;" Usage="Microsoft.Maui.Handlers.ApplicationHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IApplication ^, Microsoft::Maui::Handlers::ApplicationHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -206,8 +206,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapTerminate(class Microsoft.Maui.Handlers.ApplicationHandler handler, class Microsoft.Maui.IApplication application, object args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ApplicationHandler.MapTerminate(Microsoft.Maui.Handlers.ApplicationHandler,Microsoft.Maui.IApplication,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapTerminate (handler As ApplicationHandler, application As IApplication, args As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTerminate(Microsoft::Maui::Handlers::ApplicationHandler ^ handler, Microsoft::Maui::IApplication ^ application, System::Object ^ args);" />
       <MemberSignature Language="F#" Value="static member MapTerminate : Microsoft.Maui.Handlers.ApplicationHandler * Microsoft.Maui.IApplication * obj -&gt; unit" Usage="Microsoft.Maui.Handlers.ApplicationHandler.MapTerminate (handler, application, args)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTerminate(Microsoft::Maui::Handlers::ApplicationHandler ^ handler, Microsoft::Maui::IApplication ^ application, System::Object ^ args);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

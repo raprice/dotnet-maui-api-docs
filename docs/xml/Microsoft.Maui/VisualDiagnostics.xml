@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VisualDiagnostics extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.VisualDiagnostics" />
   <TypeSignature Language="VB.NET" Value="Public Class VisualDiagnostics" />
-  <TypeSignature Language="C++ CLI" Value="public ref class VisualDiagnostics abstract sealed" />
   <TypeSignature Language="F#" Value="type VisualDiagnostics = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VisualDiagnostics abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;unsigned int8[]&gt; CaptureAsPngAsync(class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnostics.CaptureAsPngAsync(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CaptureAsPngAsync (view As IView) As Task(Of Byte())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;cli::array &lt;System::Byte&gt; ^&gt; ^ CaptureAsPngAsync(Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="static member CaptureAsPngAsync : Microsoft.Maui.IView -&gt; System.Threading.Tasks.Task&lt;byte[]&gt;" Usage="Microsoft.Maui.VisualDiagnostics.CaptureAsPngAsync view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;cli::array &lt;System::Byte&gt; ^&gt; ^ CaptureAsPngAsync(Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;unsigned int8[]&gt; CaptureAsPngAsync(class Microsoft.Maui.IWindow window) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnostics.CaptureAsPngAsync(Microsoft.Maui.IWindow)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CaptureAsPngAsync (window As IWindow) As Task(Of Byte())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;cli::array &lt;System::Byte&gt; ^&gt; ^ CaptureAsPngAsync(Microsoft::Maui::IWindow ^ window);" />
       <MemberSignature Language="F#" Value="static member CaptureAsPngAsync : Microsoft.Maui.IWindow -&gt; System.Threading.Tasks.Task&lt;byte[]&gt;" Usage="Microsoft.Maui.VisualDiagnostics.CaptureAsPngAsync window" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;cli::array &lt;System::Byte&gt; ^&gt; ^ CaptureAsPngAsync(Microsoft::Maui::IWindow ^ window);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -125,8 +125,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.SourceInfo GetSourceInfo(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnostics.GetSourceInfo(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetSourceInfo (obj As Object) As SourceInfo" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::SourceInfo ^ GetSourceInfo(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="static member GetSourceInfo : obj -&gt; Microsoft.Maui.SourceInfo" Usage="Microsoft.Maui.VisualDiagnostics.GetSourceInfo obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::SourceInfo ^ GetSourceInfo(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -156,8 +156,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void OnChildAdded(class Microsoft.Maui.IVisualTreeElement parent, class Microsoft.Maui.IVisualTreeElement child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnostics.OnChildAdded(Microsoft.Maui.IVisualTreeElement,Microsoft.Maui.IVisualTreeElement)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub OnChildAdded (parent As IVisualTreeElement, child As IVisualTreeElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void OnChildAdded(Microsoft::Maui::IVisualTreeElement ^ parent, Microsoft::Maui::IVisualTreeElement ^ child);" />
       <MemberSignature Language="F#" Value="static member OnChildAdded : Microsoft.Maui.IVisualTreeElement * Microsoft.Maui.IVisualTreeElement -&gt; unit" Usage="Microsoft.Maui.VisualDiagnostics.OnChildAdded (parent, child)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void OnChildAdded(Microsoft::Maui::IVisualTreeElement ^ parent, Microsoft::Maui::IVisualTreeElement ^ child);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -182,8 +182,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void OnChildAdded(class Microsoft.Maui.IVisualTreeElement parent, class Microsoft.Maui.IVisualTreeElement child, int32 newLogicalIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnostics.OnChildAdded(Microsoft.Maui.IVisualTreeElement,Microsoft.Maui.IVisualTreeElement,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub OnChildAdded (parent As IVisualTreeElement, child As IVisualTreeElement, newLogicalIndex As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void OnChildAdded(Microsoft::Maui::IVisualTreeElement ^ parent, Microsoft::Maui::IVisualTreeElement ^ child, int newLogicalIndex);" />
       <MemberSignature Language="F#" Value="static member OnChildAdded : Microsoft.Maui.IVisualTreeElement * Microsoft.Maui.IVisualTreeElement * int -&gt; unit" Usage="Microsoft.Maui.VisualDiagnostics.OnChildAdded (parent, child, newLogicalIndex)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void OnChildAdded(Microsoft::Maui::IVisualTreeElement ^ parent, Microsoft::Maui::IVisualTreeElement ^ child, int newLogicalIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -210,8 +210,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void OnChildRemoved(class Microsoft.Maui.IVisualTreeElement parent, class Microsoft.Maui.IVisualTreeElement child, int32 oldLogicalIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnostics.OnChildRemoved(Microsoft.Maui.IVisualTreeElement,Microsoft.Maui.IVisualTreeElement,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub OnChildRemoved (parent As IVisualTreeElement, child As IVisualTreeElement, oldLogicalIndex As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void OnChildRemoved(Microsoft::Maui::IVisualTreeElement ^ parent, Microsoft::Maui::IVisualTreeElement ^ child, int oldLogicalIndex);" />
       <MemberSignature Language="F#" Value="static member OnChildRemoved : Microsoft.Maui.IVisualTreeElement * Microsoft.Maui.IVisualTreeElement * int -&gt; unit" Usage="Microsoft.Maui.VisualDiagnostics.OnChildRemoved (parent, child, oldLogicalIndex)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void OnChildRemoved(Microsoft::Maui::IVisualTreeElement ^ parent, Microsoft::Maui::IVisualTreeElement ^ child, int oldLogicalIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -238,8 +238,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterSourceInfo(object target, class System.Uri uri, int32 lineNumber, int32 linePosition) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnostics.RegisterSourceInfo(System.Object,System.Uri,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub RegisterSourceInfo (target As Object, uri As Uri, lineNumber As Integer, linePosition As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterSourceInfo(System::Object ^ target, Uri ^ uri, int lineNumber, int linePosition);" />
       <MemberSignature Language="F#" Value="static member RegisterSourceInfo : obj * Uri * int * int -&gt; unit" Usage="Microsoft.Maui.VisualDiagnostics.RegisterSourceInfo (target, uri, lineNumber, linePosition)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterSourceInfo(System::Object ^ target, Uri ^ uri, int lineNumber, int linePosition);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -274,8 +274,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.VisualTreeChangeEventArgs&gt; VisualTreeChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.VisualDiagnostics.VisualTreeChanged" />
       <MemberSignature Language="VB.NET" Value="Public Shared Event VisualTreeChanged As EventHandler(Of VisualTreeChangeEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;Microsoft::Maui::VisualTreeChangeEventArgs ^&gt; ^ VisualTreeChanged;" />
       <MemberSignature Language="F#" Value="member this.VisualTreeChanged : EventHandler&lt;Microsoft.Maui.VisualTreeChangeEventArgs&gt; " Usage="member this.VisualTreeChanged : System.EventHandler&lt;Microsoft.Maui.VisualTreeChangeEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;Microsoft::Maui::VisualTreeChangeEventArgs ^&gt; ^ VisualTreeChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

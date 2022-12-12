@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Command extends System.Object implements class System.Windows.Input.ICommand" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Command" />
   <TypeSignature Language="VB.NET" Value="Public Class Command&#xA;Implements ICommand" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Command : System::Windows::Input::ICommand" />
   <TypeSignature Language="F#" Value="type Command = class&#xA;    interface ICommand" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Command : System::Windows::Input::ICommand" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -53,8 +53,8 @@ var button = new Button {
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action execute) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Command.#ctor(System.Action)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (execute As Action)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Command(Action ^ execute);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Command : Action -&gt; Microsoft.Maui.Controls.Command" Usage="new Microsoft.Maui.Controls.Command execute" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Command(Action ^ execute);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -74,8 +74,8 @@ var button = new Button {
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action`1&lt;object&gt; execute) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Command.#ctor(System.Action{System.Object})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (execute As Action(Of Object))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Command(Action&lt;System::Object ^&gt; ^ execute);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Command : Action&lt;obj&gt; -&gt; Microsoft.Maui.Controls.Command" Usage="new Microsoft.Maui.Controls.Command execute" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Command(Action&lt;System::Object ^&gt; ^ execute);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -95,8 +95,8 @@ var button = new Button {
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action execute, class System.Func`1&lt;bool&gt; canExecute) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Command.#ctor(System.Action,System.Func{System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (execute As Action, canExecute As Func(Of Boolean))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Command(Action ^ execute, Func&lt;bool&gt; ^ canExecute);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Command : Action * Func&lt;bool&gt; -&gt; Microsoft.Maui.Controls.Command" Usage="new Microsoft.Maui.Controls.Command (execute, canExecute)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Command(Action ^ execute, Func&lt;bool&gt; ^ canExecute);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -118,8 +118,8 @@ var button = new Button {
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action`1&lt;object&gt; execute, class System.Func`2&lt;object, bool&gt; canExecute) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Command.#ctor(System.Action{System.Object},System.Func{System.Object,System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (execute As Action(Of Object), canExecute As Func(Of Object, Boolean))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Command(Action&lt;System::Object ^&gt; ^ execute, Func&lt;System::Object ^, bool&gt; ^ canExecute);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Command : Action&lt;obj&gt; * Func&lt;obj, bool&gt; -&gt; Microsoft.Maui.Controls.Command" Usage="new Microsoft.Maui.Controls.Command (execute, canExecute)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Command(Action&lt;System::Object ^&gt; ^ execute, Func&lt;System::Object ^, bool&gt; ^ canExecute);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -141,8 +141,8 @@ var button = new Button {
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool CanExecute(object parameter) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Command.CanExecute(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function CanExecute (parameter As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool CanExecute(System::Object ^ parameter);" />
       <MemberSignature Language="F#" Value="abstract member CanExecute : obj -&gt; bool&#xA;override this.CanExecute : obj -&gt; bool" Usage="command.CanExecute parameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool CanExecute(System::Object ^ parameter);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Windows.Input.ICommand.CanExecute(System.Object)</InterfaceMember>
@@ -173,8 +173,8 @@ var button = new Button {
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler CanExecuteChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Command.CanExecuteChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event CanExecuteChanged As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler ^ CanExecuteChanged;" />
       <MemberSignature Language="F#" Value="member this.CanExecuteChanged : EventHandler " Usage="member this.CanExecuteChanged : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler ^ CanExecuteChanged;" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:System.Windows.Input.ICommand.CanExecuteChanged</InterfaceMember>
@@ -196,8 +196,8 @@ var button = new Button {
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ChangeCanExecute() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Command.ChangeCanExecute" />
       <MemberSignature Language="VB.NET" Value="Public Sub ChangeCanExecute ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ChangeCanExecute();" />
       <MemberSignature Language="F#" Value="member this.ChangeCanExecute : unit -&gt; unit" Usage="command.ChangeCanExecute " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ChangeCanExecute();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -217,8 +217,8 @@ var button = new Button {
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Execute(object parameter) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Command.Execute(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Execute (parameter As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Execute(System::Object ^ parameter);" />
       <MemberSignature Language="F#" Value="abstract member Execute : obj -&gt; unit&#xA;override this.Execute : obj -&gt; unit" Usage="command.Execute parameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Execute(System::Object ^ parameter);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Windows.Input.ICommand.Execute(System.Object)</InterfaceMember>

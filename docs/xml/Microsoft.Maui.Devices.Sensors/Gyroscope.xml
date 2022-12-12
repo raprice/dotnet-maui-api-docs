@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Gyroscope extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.Sensors.Gyroscope" />
   <TypeSignature Language="VB.NET" Value="Public Class Gyroscope" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Gyroscope abstract sealed" />
   <TypeSignature Language="F#" Value="type Gyroscope = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Gyroscope abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Devices.Sensors.IGyroscope Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Gyroscope.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As IGyroscope" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::Sensors::IGyroscope ^ Default { Microsoft::Maui::Devices::Sensors::IGyroscope ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.Devices.Sensors.IGyroscope" Usage="Microsoft.Maui.Devices.Sensors.Gyroscope.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::Sensors::IGyroscope ^ Default { Microsoft::Maui::Devices::Sensors::IGyroscope ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property bool IsMonitoring" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Gyroscope.IsMonitoring" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsMonitoring As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsMonitoring { bool get(); };" />
       <MemberSignature Language="F#" Value="static member IsMonitoring : bool" Usage="Microsoft.Maui.Devices.Sensors.Gyroscope.IsMonitoring" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsMonitoring { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".property bool IsSupported" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.Gyroscope.IsSupported" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsSupported As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsSupported { bool get(); };" />
       <MemberSignature Language="F#" Value="static member IsSupported : bool" Usage="Microsoft.Maui.Devices.Sensors.Gyroscope.IsSupported" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsSupported { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Devices.Sensors.GyroscopeChangedEventArgs&gt; ReadingChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Devices.Sensors.Gyroscope.ReadingChanged" />
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event ReadingChanged As EventHandler(Of GyroscopeChangedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;Microsoft::Maui::Devices::Sensors::GyroscopeChangedEventArgs ^&gt; ^ ReadingChanged;" />
       <MemberSignature Language="F#" Value="member this.ReadingChanged : EventHandler&lt;Microsoft.Maui.Devices.Sensors.GyroscopeChangedEventArgs&gt; " Usage="member this.ReadingChanged : System.EventHandler&lt;Microsoft.Maui.Devices.Sensors.GyroscopeChangedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;Microsoft::Maui::Devices::Sensors::GyroscopeChangedEventArgs ^&gt; ^ ReadingChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -106,8 +106,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Start(valuetype Microsoft.Maui.Devices.Sensors.SensorSpeed sensorSpeed) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Gyroscope.Start(Microsoft.Maui.Devices.Sensors.SensorSpeed)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Start (sensorSpeed As SensorSpeed)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Start(Microsoft::Maui::Devices::Sensors::SensorSpeed sensorSpeed);" />
       <MemberSignature Language="F#" Value="static member Start : Microsoft.Maui.Devices.Sensors.SensorSpeed -&gt; unit" Usage="Microsoft.Maui.Devices.Sensors.Gyroscope.Start sensorSpeed" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Start(Microsoft::Maui::Devices::Sensors::SensorSpeed sensorSpeed);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -130,8 +130,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Stop() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.Gyroscope.Stop" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Stop ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Stop();" />
       <MemberSignature Language="F#" Value="static member Stop : unit -&gt; unit" Usage="Microsoft.Maui.Devices.Sensors.Gyroscope.Stop " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Stop();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

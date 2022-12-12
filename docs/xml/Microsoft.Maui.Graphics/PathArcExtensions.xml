@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PathArcExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.PathArcExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module PathArcExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PathArcExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type PathArcExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PathArcExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DrawArc(class Microsoft.Maui.Graphics.PathF aPath, float32 x, float32 y, float32 startAngle, float32 arc, float32 radius, float32 yRadius, float32 xAxisRotation) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathArcExtensions.DrawArc(Microsoft.Maui.Graphics.PathF,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DrawArc (aPath As PathF, x As Single, y As Single, startAngle As Single, arc As Single, radius As Single, yRadius As Single, xAxisRotation As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawArc(Microsoft::Maui::Graphics::PathF ^ aPath, float x, float y, float startAngle, float arc, float radius, float yRadius, float xAxisRotation);" />
       <MemberSignature Language="F#" Value="static member DrawArc : Microsoft.Maui.Graphics.PathF * single * single * single * single * single * single * single -&gt; unit" Usage="Microsoft.Maui.Graphics.PathArcExtensions.DrawArc (aPath, x, y, startAngle, arc, radius, yRadius, xAxisRotation)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DrawArc(Microsoft::Maui::Graphics::PathF ^ aPath, float x, float y, float startAngle, float arc, float radius, float yRadius, float xAxisRotation);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SVGArcTo(class Microsoft.Maui.Graphics.PathF aTarget, float32 rx, float32 ry, float32 angle, bool largeArcFlag, bool sweepFlag, float32 x, float32 y, float32 lastPointX, float32 lastPointY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathArcExtensions.SVGArcTo(Microsoft.Maui.Graphics.PathF,System.Single,System.Single,System.Single,System.Boolean,System.Boolean,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SVGArcTo (aTarget As PathF, rx As Single, ry As Single, angle As Single, largeArcFlag As Boolean, sweepFlag As Boolean, x As Single, y As Single, lastPointX As Single, lastPointY As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SVGArcTo(Microsoft::Maui::Graphics::PathF ^ aTarget, float rx, float ry, float angle, bool largeArcFlag, bool sweepFlag, float x, float y, float lastPointX, float lastPointY);" />
       <MemberSignature Language="F#" Value="static member SVGArcTo : Microsoft.Maui.Graphics.PathF * single * single * single * bool * bool * single * single * single * single -&gt; unit" Usage="Microsoft.Maui.Graphics.PathArcExtensions.SVGArcTo (aTarget, rx, ry, angle, largeArcFlag, sweepFlag, x, y, lastPointX, lastPointY)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SVGArcTo(Microsoft::Maui::Graphics::PathF ^ aTarget, float rx, float ry, float angle, bool largeArcFlag, bool sweepFlag, float x, float y, float lastPointX, float lastPointY);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

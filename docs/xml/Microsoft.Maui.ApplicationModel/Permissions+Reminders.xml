@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit Permissions/Reminders extends Microsoft.Maui.ApplicationModel.Permissions/BasePlatformPermission" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Permissions.Reminders" />
   <TypeSignature Language="VB.NET" Value="Public Class Permissions.Reminders&#xA;Inherits Permissions.BasePlatformPermission" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class Permissions::Reminders : Microsoft::Maui::ApplicationModel::Permissions::BasePlatformPermission" />
   <TypeSignature Language="F#" Value="type Permissions.Reminders = class&#xA;    inherit Permissions.BasePlatformPermission" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Permissions::Reminders : Microsoft::Maui::ApplicationModel::Permissions::BasePlatformPermission" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

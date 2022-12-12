@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFontNamedSizeService" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.IFontNamedSizeService" />
   <TypeSignature Language="VB.NET" Value="Public Interface IFontNamedSizeService" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IFontNamedSizeService" />
   <TypeSignature Language="F#" Value="type IFontNamedSizeService = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IFontNamedSizeService" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -26,8 +26,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float64 GetNamedSize(valuetype Microsoft.Maui.Controls.NamedSize size, class System.Type targetElementType, bool useOldSizes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.IFontNamedSizeService.GetNamedSize(Microsoft.Maui.Controls.NamedSize,System.Type,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetNamedSize (size As NamedSize, targetElementType As Type, useOldSizes As Boolean) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; double GetNamedSize(Microsoft::Maui::Controls::NamedSize size, Type ^ targetElementType, bool useOldSizes);" />
       <MemberSignature Language="F#" Value="abstract member GetNamedSize : Microsoft.Maui.Controls.NamedSize * Type * bool -&gt; double" Usage="iFontNamedSizeService.GetNamedSize (size, targetElementType, useOldSizes)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; double GetNamedSize(Microsoft::Maui::Controls::NamedSize size, Type ^ targetElementType, bool useOldSizes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

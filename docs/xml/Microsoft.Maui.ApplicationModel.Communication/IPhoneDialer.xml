@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPhoneDialer" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Communication.IPhoneDialer" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPhoneDialer" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IPhoneDialer" />
   <TypeSignature Language="F#" Value="type IPhoneDialer = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPhoneDialer" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsSupported" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.IPhoneDialer.IsSupported" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSupported As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSupported { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsSupported : bool" Usage="Microsoft.Maui.ApplicationModel.Communication.IPhoneDialer.IsSupported" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSupported { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -41,8 +41,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Open(string number) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Communication.IPhoneDialer.Open(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Open (number As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Open(System::String ^ number);" />
       <MemberSignature Language="F#" Value="abstract member Open : string -&gt; unit" Usage="iPhoneDialer.Open number" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Open(System::String ^ number);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

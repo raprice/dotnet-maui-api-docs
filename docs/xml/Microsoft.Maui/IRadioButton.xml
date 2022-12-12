@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRadioButton implements class Microsoft.Maui.IButtonStroke, class Microsoft.Maui.IContentView, class Microsoft.Maui.IElement, class Microsoft.Maui.IPadding, class Microsoft.Maui.ITextStyle, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IRadioButton" />
   <TypeSignature Language="VB.NET" Value="Public Interface IRadioButton&#xA;Implements IButtonStroke, IContentView, ITextStyle" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IRadioButton : Microsoft::Maui::IButtonStroke, Microsoft::Maui::IContentView, Microsoft::Maui::ITextStyle" />
   <TypeSignature Language="F#" Value="type IRadioButton = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface ITextStyle&#xA;    interface IContentView&#xA;    interface IPadding&#xA;    interface IButtonStroke" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IRadioButton : Microsoft::Maui::IButtonStroke, Microsoft::Maui::IContentView, Microsoft::Maui::ITextStyle" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsChecked" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IRadioButton.IsChecked" />
       <MemberSignature Language="VB.NET" Value="Public Property IsChecked As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsChecked { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsChecked : bool with get, set" Usage="Microsoft.Maui.IRadioButton.IsChecked" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsChecked { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

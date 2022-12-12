@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILayoutController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ILayoutController" />
   <TypeSignature Language="VB.NET" Value="Public Interface ILayoutController" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ILayoutController" />
   <TypeSignature Language="F#" Value="type ILayoutController = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ILayoutController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.Controls.Element&gt; Children" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ILayoutController.Children" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Children As IReadOnlyList(Of Element)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Element ^&gt; ^ Children { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Element ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Children : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Controls.Element&gt;" Usage="Microsoft.Maui.Controls.ILayoutController.Children" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Element ^&gt; ^ Children { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Element ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IShellItemController implements class Microsoft.Maui.Controls.IElementController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IShellItemController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IShellItemController&#xA;Implements IElementController" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IShellItemController : Microsoft::Maui::Controls::IElementController" />
   <TypeSignature Language="F#" Value="type IShellItemController = interface&#xA;    interface IElementController" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IShellItemController : Microsoft::Maui::Controls::IElementController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -24,8 +24,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.Maui.Controls.ShellSection&gt; GetItems() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IShellItemController.GetItems" />
       <MemberSignature Language="VB.NET" Value="Public Function GetItems () As ReadOnlyCollection(Of ShellSection)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::ObjectModel::ReadOnlyCollection&lt;Microsoft::Maui::Controls::ShellSection ^&gt; ^ GetItems();" />
       <MemberSignature Language="F#" Value="abstract member GetItems : unit -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Maui.Controls.ShellSection&gt;" Usage="iShellItemController.GetItems " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::ObjectModel::ReadOnlyCollection&lt;Microsoft::Maui::Controls::ShellSection ^&gt; ^ GetItems();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.Collections.Specialized.NotifyCollectionChangedEventHandler ItemsCollectionChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.IShellItemController.ItemsCollectionChanged" />
       <MemberSignature Language="VB.NET" Value="Event ItemsCollectionChanged As NotifyCollectionChangedEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Collections::Specialized::NotifyCollectionChangedEventHandler ^ ItemsCollectionChanged;" />
       <MemberSignature Language="F#" Value="member this.ItemsCollectionChanged : System.Collections.Specialized.NotifyCollectionChangedEventHandler " Usage="member this.ItemsCollectionChanged : System.Collections.Specialized.NotifyCollectionChangedEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Collections::Specialized::NotifyCollectionChangedEventHandler ^ ItemsCollectionChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -92,8 +92,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool ShowTabs" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IShellItemController.ShowTabs" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShowTabs As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowTabs { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.ShowTabs : bool" Usage="Microsoft.Maui.Controls.IShellItemController.ShowTabs" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowTabs { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

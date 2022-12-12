@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMenuBarElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IMenuBarElement" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMenuBarElement" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IMenuBarElement" />
   <TypeSignature Language="F#" Value="type IMenuBarElement = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IMenuBarElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IMenuBar MenuBar" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IMenuBarElement.MenuBar" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuBar As IMenuBar" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IMenuBar ^ MenuBar { Microsoft::Maui::IMenuBar ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.MenuBar : Microsoft.Maui.IMenuBar" Usage="Microsoft.Maui.IMenuBarElement.MenuBar" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IMenuBar ^ MenuBar { Microsoft::Maui::IMenuBar ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

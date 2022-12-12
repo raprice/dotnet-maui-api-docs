@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DataTemplateSelector extends Microsoft.Maui.Controls.DataTemplate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.DataTemplateSelector" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class DataTemplateSelector&#xA;Inherits DataTemplate" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DataTemplateSelector abstract : Microsoft::Maui::Controls::DataTemplate" />
   <TypeSignature Language="F#" Value="type DataTemplateSelector = class&#xA;    inherit DataTemplate" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DataTemplateSelector abstract : Microsoft::Maui::Controls::DataTemplate" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Microsoft.Maui.Controls.DataTemplate OnSelectTemplate(object item, class Microsoft.Maui.Controls.BindableObject container) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.DataTemplateSelector.OnSelectTemplate(System.Object,Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function OnSelectTemplate (item As Object, container As BindableObject) As DataTemplate" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract Microsoft::Maui::Controls::DataTemplate ^ OnSelectTemplate(System::Object ^ item, Microsoft::Maui::Controls::BindableObject ^ container);" />
       <MemberSignature Language="F#" Value="abstract member OnSelectTemplate : obj * Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.DataTemplate" Usage="dataTemplateSelector.OnSelectTemplate (item, container)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract Microsoft::Maui::Controls::DataTemplate ^ OnSelectTemplate(System::Object ^ item, Microsoft::Maui::Controls::BindableObject ^ container);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -89,8 +89,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Controls.DataTemplate SelectTemplate(object item, class Microsoft.Maui.Controls.BindableObject container) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.DataTemplateSelector.SelectTemplate(System.Object,Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function SelectTemplate (item As Object, container As BindableObject) As DataTemplate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Controls::DataTemplate ^ SelectTemplate(System::Object ^ item, Microsoft::Maui::Controls::BindableObject ^ container);" />
       <MemberSignature Language="F#" Value="member this.SelectTemplate : obj * Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.DataTemplate" Usage="dataTemplateSelector.SelectTemplate (item, container)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Controls::DataTemplate ^ SelectTemplate(System::Object ^ item, Microsoft::Maui::Controls::BindableObject ^ container);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

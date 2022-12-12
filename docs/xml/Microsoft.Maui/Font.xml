@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Font extends System.ValueType implements class System.IEquatable`1&lt;valuetype Microsoft.Maui.Font&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Font" />
   <TypeSignature Language="VB.NET" Value="Public Structure Font&#xA;Implements IEquatable(Of Font)" />
-  <TypeSignature Language="C++ CLI" Value="public value class Font : IEquatable&lt;Microsoft::Maui::Font&gt;" />
   <TypeSignature Language="F#" Value="type Font = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class Font : IEquatable&lt;Microsoft::Maui::Font&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool AutoScalingEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Font.AutoScalingEnabled" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoScalingEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoScalingEnabled { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.AutoScalingEnabled : bool" Usage="Microsoft.Maui.Font.AutoScalingEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoScalingEnabled { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Font Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Font.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As Font" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Font Default { Microsoft::Maui::Font get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.Font" Usage="Microsoft.Maui.Font.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Font Default { Microsoft::Maui::Font get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Font.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="font.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -101,8 +101,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Family" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Font.Family" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Family As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Family { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Family : string" Usage="Microsoft.Maui.Font.Family" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Family { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -122,8 +122,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Font.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="font.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -144,8 +144,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsDefault" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Font.IsDefault" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDefault As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDefault { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsDefault : bool" Usage="Microsoft.Maui.Font.IsDefault" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDefault { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -197,8 +197,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Maui.Font left, valuetype Microsoft.Maui.Font right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Font.op_Equality(Microsoft.Maui.Font,Microsoft.Maui.Font)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As Font, right As Font) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Font left, Microsoft::Maui::Font right);" />
       <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Maui.Font * Microsoft.Maui.Font -&gt; bool" Usage="left = right" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Font left, Microsoft::Maui::Font right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -224,8 +224,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Maui.Font left, valuetype Microsoft.Maui.Font right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Font.op_Inequality(Microsoft.Maui.Font,Microsoft.Maui.Font)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As Font, right As Font) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Font left, Microsoft::Maui::Font right);" />
       <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Maui.Font * Microsoft.Maui.Font -&gt; bool" Usage="Microsoft.Maui.Font.op_Inequality (left, right)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Font left, Microsoft::Maui::Font right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -251,8 +251,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Size" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Font.Size" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Size { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Size : double" Usage="Microsoft.Maui.Font.Size" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Size { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -272,8 +272,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.FontSlant Slant" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Font.Slant" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Slant As FontSlant" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::FontSlant Slant { Microsoft::Maui::FontSlant get(); };" />
       <MemberSignature Language="F#" Value="member this.Slant : Microsoft.Maui.FontSlant" Usage="Microsoft.Maui.Font.Slant" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::FontSlant Slant { Microsoft::Maui::FontSlant get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -293,8 +293,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool System.IEquatable&lt;Microsoft.Maui.Font&gt;.Equals(valuetype Microsoft.Maui.Font other) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Font.System#IEquatable&lt;Microsoft#Maui#Font&gt;#Equals(Microsoft.Maui.Font)" />
       <MemberSignature Language="VB.NET" Value="Function Equals (other As Font) As Boolean Implements IEquatable(Of Font).Equals" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool System.IEquatable&lt;Microsoft.Maui.Font&gt;.Equals(Microsoft::Maui::Font other) = IEquatable&lt;Microsoft::Maui::Font&gt;::Equals;" />
       <MemberSignature Language="F#" Value="abstract member System.IEquatable&lt;Microsoft.Maui.Font&gt;.Equals : Microsoft.Maui.Font -&gt; bool&#xA;override this.System.IEquatable&lt;Microsoft.Maui.Font&gt;.Equals : Microsoft.Maui.Font -&gt; bool" Usage="font.System.IEquatable&lt;Microsoft.Maui.Font&gt;.Equals other" />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool System.IEquatable&lt;Microsoft.Maui.Font&gt;.Equals(Microsoft::Maui::Font other) = IEquatable&lt;Microsoft::Maui::Font&gt;::Equals;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
@@ -379,8 +379,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Font.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="font.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -401,8 +401,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.FontWeight Weight" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Font.Weight" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Weight As FontWeight" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::FontWeight Weight { Microsoft::Maui::FontWeight get(); };" />
       <MemberSignature Language="F#" Value="member this.Weight : Microsoft.Maui.FontWeight" Usage="Microsoft.Maui.Font.Weight" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::FontWeight Weight { Microsoft::Maui::FontWeight get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -422,8 +422,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Font WithAutoScaling(bool enabled) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Font.WithAutoScaling(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithAutoScaling (enabled As Boolean) As Font" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Font WithAutoScaling(bool enabled);" />
       <MemberSignature Language="F#" Value="member this.WithAutoScaling : bool -&gt; Microsoft.Maui.Font" Usage="font.WithAutoScaling enabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Font WithAutoScaling(bool enabled);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -447,8 +447,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Font WithSize(float64 size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Font.WithSize(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithSize (size As Double) As Font" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Font WithSize(double size);" />
       <MemberSignature Language="F#" Value="member this.WithSize : double -&gt; Microsoft.Maui.Font" Usage="font.WithSize size" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Font WithSize(double size);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -472,8 +472,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Font WithSlant(valuetype Microsoft.Maui.FontSlant fontSlant) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Font.WithSlant(Microsoft.Maui.FontSlant)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithSlant (fontSlant As FontSlant) As Font" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Font WithSlant(Microsoft::Maui::FontSlant fontSlant);" />
       <MemberSignature Language="F#" Value="member this.WithSlant : Microsoft.Maui.FontSlant -&gt; Microsoft.Maui.Font" Usage="font.WithSlant fontSlant" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Font WithSlant(Microsoft::Maui::FontSlant fontSlant);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -497,8 +497,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Font WithWeight(valuetype Microsoft.Maui.FontWeight weight) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Font.WithWeight(Microsoft.Maui.FontWeight)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithWeight (weight As FontWeight) As Font" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Font WithWeight(Microsoft::Maui::FontWeight weight);" />
       <MemberSignature Language="F#" Value="member this.WithWeight : Microsoft.Maui.FontWeight -&gt; Microsoft.Maui.Font" Usage="font.WithWeight weight" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Font WithWeight(Microsoft::Maui::FontWeight weight);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -522,8 +522,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Font WithWeight(valuetype Microsoft.Maui.FontWeight weight, valuetype Microsoft.Maui.FontSlant fontSlant) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Font.WithWeight(Microsoft.Maui.FontWeight,Microsoft.Maui.FontSlant)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithWeight (weight As FontWeight, fontSlant As FontSlant) As Font" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Font WithWeight(Microsoft::Maui::FontWeight weight, Microsoft::Maui::FontSlant fontSlant);" />
       <MemberSignature Language="F#" Value="member this.WithWeight : Microsoft.Maui.FontWeight * Microsoft.Maui.FontSlant -&gt; Microsoft.Maui.Font" Usage="font.WithWeight (weight, fontSlant)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Font WithWeight(Microsoft::Maui::FontWeight weight, Microsoft::Maui::FontSlant fontSlant);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

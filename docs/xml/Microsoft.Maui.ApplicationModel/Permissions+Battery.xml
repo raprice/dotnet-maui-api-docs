@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit Permissions/Battery extends Microsoft.Maui.ApplicationModel.Permissions/BasePlatformPermission" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Permissions.Battery" />
   <TypeSignature Language="VB.NET" Value="Public Class Permissions.Battery&#xA;Inherits Permissions.BasePlatformPermission" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class Permissions::Battery : Microsoft::Maui::ApplicationModel::Permissions::BasePlatformPermission" />
   <TypeSignature Language="F#" Value="type Permissions.Battery = class&#xA;    inherit Permissions.BasePlatformPermission" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Permissions::Battery : Microsoft::Maui::ApplicationModel::Permissions::BasePlatformPermission" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

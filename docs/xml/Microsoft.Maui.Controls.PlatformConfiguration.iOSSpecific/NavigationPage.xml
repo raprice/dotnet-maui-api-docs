@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit NavigationPage extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage" />
   <TypeSignature Language="VB.NET" Value="Public Module NavigationPage" />
-  <TypeSignature Language="C++ CLI" Value="public ref class NavigationPage abstract sealed" />
   <TypeSignature Language="F#" Value="type NavigationPage = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NavigationPage abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; DisableTranslucentNavigationBar(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.DisableTranslucentNavigationBar(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.NavigationPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DisableTranslucentNavigationBar (config As IPlatformElementConfiguration(Of iOS, NavigationPage)) As IPlatformElementConfiguration(Of iOS, NavigationPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ DisableTranslucentNavigationBar(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member DisableTranslucentNavigationBar : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt; -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.DisableTranslucentNavigationBar config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ DisableTranslucentNavigationBar(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; EnableTranslucentNavigationBar(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.EnableTranslucentNavigationBar(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.NavigationPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EnableTranslucentNavigationBar (config As IPlatformElementConfiguration(Of iOS, NavigationPage)) As IPlatformElementConfiguration(Of iOS, NavigationPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ EnableTranslucentNavigationBar(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member EnableTranslucentNavigationBar : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt; -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.EnableTranslucentNavigationBar config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ EnableTranslucentNavigationBar(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetHideNavigationBarSeparator(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.GetHideNavigationBarSeparator(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetHideNavigationBarSeparator (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetHideNavigationBarSeparator(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetHideNavigationBarSeparator : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.GetHideNavigationBarSeparator element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetHideNavigationBarSeparator(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -98,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsNavigationBarTranslucent(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.GetIsNavigationBarTranslucent(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetIsNavigationBarTranslucent (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsNavigationBarTranslucent(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetIsNavigationBarTranslucent : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.GetIsNavigationBarTranslucent element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsNavigationBarTranslucent(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -123,8 +123,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetPrefersLargeTitles(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.GetPrefersLargeTitles(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPrefersLargeTitles (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetPrefersLargeTitles(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetPrefersLargeTitles : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.GetPrefersLargeTitles element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetPrefersLargeTitles(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -148,8 +148,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode GetStatusBarTextColorMode(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.GetStatusBarTextColorMode(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetStatusBarTextColorMode (element As BindableObject) As StatusBarTextColorMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarTextColorMode GetStatusBarTextColorMode(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetStatusBarTextColorMode : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.GetStatusBarTextColorMode element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarTextColorMode GetStatusBarTextColorMode(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -173,8 +173,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode GetStatusBarTextColorMode(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.GetStatusBarTextColorMode(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.NavigationPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetStatusBarTextColorMode (config As IPlatformElementConfiguration(Of iOS, NavigationPage)) As StatusBarTextColorMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarTextColorMode GetStatusBarTextColorMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetStatusBarTextColorMode : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt; -&gt; Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.GetStatusBarTextColorMode config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarTextColorMode GetStatusBarTextColorMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -198,8 +198,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool HideNavigationBarSeparator(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.HideNavigationBarSeparator(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.NavigationPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function HideNavigationBarSeparator (config As IPlatformElementConfiguration(Of iOS, NavigationPage)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool HideNavigationBarSeparator(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member HideNavigationBarSeparator : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.HideNavigationBarSeparator config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool HideNavigationBarSeparator(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -224,8 +224,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HideNavigationBarSeparatorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.HideNavigationBarSeparatorProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly HideNavigationBarSeparatorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HideNavigationBarSeparatorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HideNavigationBarSeparatorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.HideNavigationBarSeparatorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HideNavigationBarSeparatorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -244,8 +244,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsNavigationBarTranslucent(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.IsNavigationBarTranslucent(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.NavigationPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsNavigationBarTranslucent (config As IPlatformElementConfiguration(Of iOS, NavigationPage)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsNavigationBarTranslucent(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member IsNavigationBarTranslucent : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.IsNavigationBarTranslucent config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsNavigationBarTranslucent(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -269,8 +269,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsNavigationBarTranslucentProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.IsNavigationBarTranslucentProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly IsNavigationBarTranslucentProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsNavigationBarTranslucentProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsNavigationBarTranslucentProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.IsNavigationBarTranslucentProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsNavigationBarTranslucentProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -289,8 +289,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool PrefersLargeTitles(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.PrefersLargeTitles(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.NavigationPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PrefersLargeTitles (config As IPlatformElementConfiguration(Of iOS, NavigationPage)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool PrefersLargeTitles(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member PrefersLargeTitles : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.PrefersLargeTitles config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool PrefersLargeTitles(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -314,8 +314,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PrefersLargeTitlesProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.PrefersLargeTitlesProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly PrefersLargeTitlesProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PrefersLargeTitlesProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PrefersLargeTitlesProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.PrefersLargeTitlesProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PrefersLargeTitlesProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -334,8 +334,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetHideNavigationBarSeparator(class Microsoft.Maui.Controls.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetHideNavigationBarSeparator(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetHideNavigationBarSeparator (element As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHideNavigationBarSeparator(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetHideNavigationBarSeparator : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetHideNavigationBarSeparator (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHideNavigationBarSeparator(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -361,8 +361,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; SetHideNavigationBarSeparator(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetHideNavigationBarSeparator(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.NavigationPage},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetHideNavigationBarSeparator (config As IPlatformElementConfiguration(Of iOS, NavigationPage), value As Boolean) As IPlatformElementConfiguration(Of iOS, NavigationPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ SetHideNavigationBarSeparator(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetHideNavigationBarSeparator : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetHideNavigationBarSeparator (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ SetHideNavigationBarSeparator(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -389,8 +389,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsNavigationBarTranslucent(class Microsoft.Maui.Controls.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetIsNavigationBarTranslucent(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetIsNavigationBarTranslucent (element As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsNavigationBarTranslucent(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetIsNavigationBarTranslucent : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetIsNavigationBarTranslucent (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsNavigationBarTranslucent(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -415,8 +415,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; SetIsNavigationBarTranslucent(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetIsNavigationBarTranslucent(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.NavigationPage},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetIsNavigationBarTranslucent (config As IPlatformElementConfiguration(Of iOS, NavigationPage), value As Boolean) As IPlatformElementConfiguration(Of iOS, NavigationPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ SetIsNavigationBarTranslucent(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetIsNavigationBarTranslucent : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetIsNavigationBarTranslucent (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ SetIsNavigationBarTranslucent(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -442,8 +442,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetPrefersLargeTitles(class Microsoft.Maui.Controls.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetPrefersLargeTitles(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetPrefersLargeTitles (element As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetPrefersLargeTitles(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetPrefersLargeTitles : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetPrefersLargeTitles (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetPrefersLargeTitles(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -468,8 +468,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; SetPrefersLargeTitles(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetPrefersLargeTitles(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.NavigationPage},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetPrefersLargeTitles (config As IPlatformElementConfiguration(Of iOS, NavigationPage), value As Boolean) As IPlatformElementConfiguration(Of iOS, NavigationPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ SetPrefersLargeTitles(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetPrefersLargeTitles : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetPrefersLargeTitles (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ SetPrefersLargeTitles(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -495,8 +495,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetStatusBarTextColorMode(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetStatusBarTextColorMode(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetStatusBarTextColorMode (element As BindableObject, value As StatusBarTextColorMode)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetStatusBarTextColorMode(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarTextColorMode value);" />
       <MemberSignature Language="F#" Value="static member SetStatusBarTextColorMode : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetStatusBarTextColorMode (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetStatusBarTextColorMode(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarTextColorMode value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -521,8 +521,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; SetStatusBarTextColorMode(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.NavigationPage&gt; config, valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetStatusBarTextColorMode(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.NavigationPage},Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetStatusBarTextColorMode (config As IPlatformElementConfiguration(Of iOS, NavigationPage), value As StatusBarTextColorMode) As IPlatformElementConfiguration(Of iOS, NavigationPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ SetStatusBarTextColorMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarTextColorMode value);" />
       <MemberSignature Language="F#" Value="static member SetStatusBarTextColorMode : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt; * Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.NavigationPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.SetStatusBarTextColorMode (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ SetStatusBarTextColorMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::iOSSpecific::StatusBarTextColorMode value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -548,8 +548,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StatusBarTextColorModeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.StatusBarTextColorModeProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly StatusBarTextColorModeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StatusBarTextColorModeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable StatusBarTextColorModeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.NavigationPage.StatusBarTextColorModeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StatusBarTextColorModeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

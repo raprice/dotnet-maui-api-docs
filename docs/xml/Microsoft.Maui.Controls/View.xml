@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit View extends Microsoft.Maui.Controls.VisualElement implements class Microsoft.Maui.Controls.IElementController, class Microsoft.Maui.Controls.IGestureRecognizers, class Microsoft.Maui.Controls.Internals.IGestureController, class Microsoft.Maui.Controls.IViewController, class Microsoft.Maui.Controls.IVisualElementController, class Microsoft.Maui.HotReload.IHotReloadableView, class Microsoft.Maui.IElement, class Microsoft.Maui.IPropertyMapperView, class Microsoft.Maui.IReplaceableView, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.View" />
   <TypeSignature Language="VB.NET" Value="Public Class View&#xA;Inherits VisualElement&#xA;Implements IGestureController, IGestureRecognizers, IHotReloadableView, IPropertyMapperView, IViewController" />
-  <TypeSignature Language="C++ CLI" Value="public ref class View : Microsoft::Maui::Controls::VisualElement, Microsoft::Maui::Controls::IGestureRecognizers, Microsoft::Maui::Controls::Internals::IGestureController, Microsoft::Maui::Controls::IViewController, Microsoft::Maui::HotReload::IHotReloadableView, Microsoft::Maui::IPropertyMapperView" />
   <TypeSignature Language="F#" Value="type View = class&#xA;    inherit VisualElement&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IPropertyMapperView&#xA;    interface IHotReloadableView&#xA;    interface IReplaceableView&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController&#xA;    interface IGestureController&#xA;    interface IGestureRecognizers" />
+  <TypeSignature Language="C++ CLI" Value="public ref class View : Microsoft::Maui::Controls::VisualElement, Microsoft::Maui::Controls::IGestureRecognizers, Microsoft::Maui::Controls::Internals::IGestureController, Microsoft::Maui::Controls::IViewController, Microsoft::Maui::HotReload::IHotReloadableView, Microsoft::Maui::IPropertyMapperView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -76,8 +76,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Internals.IGestureController GestureController" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.View.GestureController" />
       <MemberSignature Language="VB.NET" Value="Protected Friend ReadOnly Property GestureController As IGestureController" />
-      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; property Microsoft::Maui::Controls::Internals::IGestureController ^ GestureController { Microsoft::Maui::Controls::Internals::IGestureController ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.GestureController : Microsoft.Maui.Controls.Internals.IGestureController" Usage="Microsoft.Maui.Controls.View.GestureController" />
+      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; property Microsoft::Maui::Controls::Internals::IGestureController ^ GestureController { Microsoft::Maui::Controls::Internals::IGestureController ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -97,8 +97,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.IGestureRecognizer&gt; GestureRecognizers" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.View.GestureRecognizers" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GestureRecognizers As IList(Of IGestureRecognizer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ GestureRecognizers { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.GestureRecognizers : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.IGestureRecognizer&gt;" Usage="Microsoft.Maui.Controls.View.GestureRecognizers" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ GestureRecognizers { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IGestureRecognizers.GestureRecognizers</InterfaceMember>
@@ -138,8 +138,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.GestureElement&gt; GetChildElements(valuetype Microsoft.Maui.Graphics.Point point) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.View.GetChildElements(Microsoft.Maui.Graphics.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetChildElements (point As Point) As IList(Of GestureElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::GestureElement ^&gt; ^ GetChildElements(Microsoft::Maui::Graphics::Point point);" />
       <MemberSignature Language="F#" Value="abstract member GetChildElements : Microsoft.Maui.Graphics.Point -&gt; System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.GestureElement&gt;&#xA;override this.GetChildElements : Microsoft.Maui.Graphics.Point -&gt; System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.GestureElement&gt;" Usage="view.GetChildElements point" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::GestureElement ^&gt; ^ GetChildElements(Microsoft::Maui::Graphics::Point point);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IGestureController.GetChildElements(Microsoft.Maui.Graphics.Point)</InterfaceMember>
@@ -166,8 +166,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class Microsoft.Maui.PropertyMapper`1&lt;!!T&gt; GetRendererOverrides&lt;(class Microsoft.Maui.IView) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.View.GetRendererOverrides``1" />
       <MemberSignature Language="VB.NET" Value="Protected Function GetRendererOverrides(Of T As IView) () As PropertyMapper(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::IView Microsoft::Maui::PropertyMapper&lt;T&gt; ^ GetRendererOverrides();" />
       <MemberSignature Language="F#" Value="member this.GetRendererOverrides : unit -&gt; Microsoft.Maui.PropertyMapper&lt;'T (requires 'T :&gt; Microsoft.Maui.IView)&gt; (requires 'T :&gt; Microsoft.Maui.IView)" Usage="view.GetRendererOverrides " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::IView Microsoft::Maui::PropertyMapper&lt;T&gt; ^ GetRendererOverrides();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -196,8 +196,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.LayoutOptions HorizontalOptions" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.View.HorizontalOptions" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalOptions As LayoutOptions" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::LayoutOptions HorizontalOptions { Microsoft::Maui::Controls::LayoutOptions get(); void set(Microsoft::Maui::Controls::LayoutOptions value); };" />
       <MemberSignature Language="F#" Value="member this.HorizontalOptions : Microsoft.Maui.Controls.LayoutOptions with get, set" Usage="Microsoft.Maui.Controls.View.HorizontalOptions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::LayoutOptions HorizontalOptions { Microsoft::Maui::Controls::LayoutOptions get(); void set(Microsoft::Maui::Controls::LayoutOptions value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -246,8 +246,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HorizontalOptionsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.View.HorizontalOptionsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HorizontalOptionsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HorizontalOptionsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HorizontalOptionsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.View.HorizontalOptionsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HorizontalOptionsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -266,8 +266,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Thickness Margin" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.View.Margin" />
       <MemberSignature Language="VB.NET" Value="Public Property Margin As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Thickness Margin { Microsoft::Maui::Thickness get(); void set(Microsoft::Maui::Thickness value); };" />
       <MemberSignature Language="F#" Value="member this.Margin : Microsoft.Maui.Thickness with get, set" Usage="Microsoft.Maui.Controls.View.Margin" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Thickness Margin { Microsoft::Maui::Thickness get(); void set(Microsoft::Maui::Thickness value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -287,8 +287,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MarginProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.View.MarginProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MarginProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MarginProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable MarginProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.View.MarginProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MarginProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -307,8 +307,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.IGestureRecognizer&gt; Microsoft.Maui.Controls.Internals.IGestureController.CompositeGestureRecognizers" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.View.Microsoft#Maui#Controls#Internals#IGestureController#CompositeGestureRecognizers" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property CompositeGestureRecognizers As IList(Of IGestureRecognizer) Implements IGestureController.CompositeGestureRecognizers" />
-      <MemberSignature Language="C++ CLI" Value="property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ Microsoft::Maui::Controls::Internals::IGestureController::CompositeGestureRecognizers { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.Internals.IGestureController.CompositeGestureRecognizers : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.IGestureRecognizer&gt;" Usage="Microsoft.Maui.Controls.Internals.IGestureController.CompositeGestureRecognizers" />
+      <MemberSignature Language="C++ CLI" Value="property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ Microsoft::Maui::Controls::Internals::IGestureController::CompositeGestureRecognizers { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::IGestureRecognizer ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.Internals.IGestureController.CompositeGestureRecognizers</InterfaceMember>
@@ -331,8 +331,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.HotReload.IHotReloadableView.Reload() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.View.Microsoft#Maui#HotReload#IHotReloadableView#Reload" />
       <MemberSignature Language="VB.NET" Value="Sub Reload () Implements IHotReloadableView.Reload" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.HotReload.IHotReloadableView.Reload() = Microsoft::Maui::HotReload::IHotReloadableView::Reload;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.HotReload.IHotReloadableView.Reload : unit -&gt; unit&#xA;override this.Microsoft.Maui.HotReload.IHotReloadableView.Reload : unit -&gt; unit" Usage="view.Microsoft.Maui.HotReload.IHotReloadableView.Reload " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.HotReload.IHotReloadableView.Reload() = Microsoft::Maui::HotReload::IHotReloadableView::Reload;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.HotReload.IHotReloadableView.Reload</InterfaceMember>
@@ -355,8 +355,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.HotReload.IReloadHandler Microsoft.Maui.HotReload.IHotReloadableView.ReloadHandler" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.View.Microsoft#Maui#HotReload#IHotReloadableView#ReloadHandler" />
       <MemberSignature Language="VB.NET" Value=" Property ReloadHandler As IReloadHandler Implements IHotReloadableView.ReloadHandler" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::HotReload::IReloadHandler ^ Microsoft::Maui::HotReload::IHotReloadableView::ReloadHandler { Microsoft::Maui::HotReload::IReloadHandler ^ get(); void set(Microsoft::Maui::HotReload::IReloadHandler ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.HotReload.IHotReloadableView.ReloadHandler : Microsoft.Maui.HotReload.IReloadHandler with get, set" Usage="Microsoft.Maui.HotReload.IHotReloadableView.ReloadHandler" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::HotReload::IReloadHandler ^ Microsoft::Maui::HotReload::IHotReloadableView::ReloadHandler { Microsoft::Maui::HotReload::IReloadHandler ^ get(); void set(Microsoft::Maui::HotReload::IReloadHandler ^ value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.HotReload.IHotReloadableView.ReloadHandler</InterfaceMember>
@@ -379,8 +379,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.HotReload.IHotReloadableView.TransferState(class Microsoft.Maui.IView newView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.View.Microsoft#Maui#HotReload#IHotReloadableView#TransferState(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Sub TransferState (newView As IView) Implements IHotReloadableView.TransferState" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.HotReload.IHotReloadableView.TransferState(Microsoft::Maui::IView ^ newView) = Microsoft::Maui::HotReload::IHotReloadableView::TransferState;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.HotReload.IHotReloadableView.TransferState : Microsoft.Maui.IView -&gt; unit&#xA;override this.Microsoft.Maui.HotReload.IHotReloadableView.TransferState : Microsoft.Maui.IView -&gt; unit" Usage="view.Microsoft.Maui.HotReload.IHotReloadableView.TransferState newView" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.HotReload.IHotReloadableView.TransferState(Microsoft::Maui::IView ^ newView) = Microsoft::Maui::HotReload::IHotReloadableView::TransferState;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.HotReload.IHotReloadableView.TransferState(Microsoft.Maui.IView)</InterfaceMember>
@@ -406,8 +406,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Microsoft.Maui.PropertyMapper Microsoft.Maui.IPropertyMapperView.GetPropertyMapperOverrides() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.View.Microsoft#Maui#IPropertyMapperView#GetPropertyMapperOverrides" />
       <MemberSignature Language="VB.NET" Value="Function GetPropertyMapperOverrides () As PropertyMapper Implements IPropertyMapperView.GetPropertyMapperOverrides" />
-      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::PropertyMapper ^ Microsoft.Maui.IPropertyMapperView.GetPropertyMapperOverrides() = Microsoft::Maui::IPropertyMapperView::GetPropertyMapperOverrides;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IPropertyMapperView.GetPropertyMapperOverrides : unit -&gt; Microsoft.Maui.PropertyMapper&#xA;override this.Microsoft.Maui.IPropertyMapperView.GetPropertyMapperOverrides : unit -&gt; Microsoft.Maui.PropertyMapper" Usage="view.Microsoft.Maui.IPropertyMapperView.GetPropertyMapperOverrides " />
+      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::PropertyMapper ^ Microsoft.Maui.IPropertyMapperView.GetPropertyMapperOverrides() = Microsoft::Maui::IPropertyMapperView::GetPropertyMapperOverrides;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IPropertyMapperView.GetPropertyMapperOverrides</InterfaceMember>
@@ -431,8 +431,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Microsoft.Maui.IReplaceableView.ReplacedView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.View.Microsoft#Maui#IReplaceableView#ReplacedView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property ReplacedView As IView Implements IReplaceableView.ReplacedView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IReplaceableView::ReplacedView { Microsoft::Maui::IView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IReplaceableView.ReplacedView : Microsoft.Maui.IView" Usage="Microsoft.Maui.IReplaceableView.ReplacedView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IReplaceableView::ReplacedView { Microsoft::Maui::IView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IReplaceableView.ReplacedView</InterfaceMember>
@@ -455,8 +455,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Primitives.LayoutAlignment Microsoft.Maui.IView.HorizontalLayoutAlignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.View.Microsoft#Maui#IView#HorizontalLayoutAlignment" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property HorizontalLayoutAlignment As LayoutAlignment Implements IView.HorizontalLayoutAlignment" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Primitives::LayoutAlignment Microsoft::Maui::IView::HorizontalLayoutAlignment { Microsoft::Maui::Primitives::LayoutAlignment get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IView.HorizontalLayoutAlignment : Microsoft.Maui.Primitives.LayoutAlignment" Usage="Microsoft.Maui.IView.HorizontalLayoutAlignment" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Primitives::LayoutAlignment Microsoft::Maui::IView::HorizontalLayoutAlignment { Microsoft::Maui::Primitives::LayoutAlignment get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IView.HorizontalLayoutAlignment</InterfaceMember>
@@ -479,8 +479,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Thickness Microsoft.Maui.IView.Margin" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.View.Microsoft#Maui#IView#Margin" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Margin As Thickness Implements IView.Margin" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Thickness Microsoft::Maui::IView::Margin { Microsoft::Maui::Thickness get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IView.Margin : Microsoft.Maui.Thickness" Usage="Microsoft.Maui.IView.Margin" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Thickness Microsoft::Maui::IView::Margin { Microsoft::Maui::Thickness get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IView.Margin</InterfaceMember>
@@ -503,8 +503,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Primitives.LayoutAlignment Microsoft.Maui.IView.VerticalLayoutAlignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.View.Microsoft#Maui#IView#VerticalLayoutAlignment" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VerticalLayoutAlignment As LayoutAlignment Implements IView.VerticalLayoutAlignment" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Primitives::LayoutAlignment Microsoft::Maui::IView::VerticalLayoutAlignment { Microsoft::Maui::Primitives::LayoutAlignment get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IView.VerticalLayoutAlignment : Microsoft.Maui.Primitives.LayoutAlignment" Usage="Microsoft.Maui.IView.VerticalLayoutAlignment" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Primitives::LayoutAlignment Microsoft::Maui::IView::VerticalLayoutAlignment { Microsoft::Maui::Primitives::LayoutAlignment get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IView.VerticalLayoutAlignment</InterfaceMember>
@@ -527,8 +527,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.View.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="view.OnBindingContextChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -548,8 +548,8 @@
       <MemberSignature Language="ILAsm" Value=".field family class Microsoft.Maui.PropertyMapper propertyMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.View.propertyMapper" />
       <MemberSignature Language="VB.NET" Value="Protected propertyMapper As PropertyMapper " />
-      <MemberSignature Language="C++ CLI" Value="protected: Microsoft::Maui::PropertyMapper ^ propertyMapper;" />
       <MemberSignature Language="F#" Value="val mutable propertyMapper : Microsoft.Maui.PropertyMapper" Usage="Microsoft.Maui.Controls.View.propertyMapper" />
+      <MemberSignature Language="C++ CLI" Value="protected: Microsoft::Maui::PropertyMapper ^ propertyMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -568,8 +568,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.LayoutOptions VerticalOptions" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.View.VerticalOptions" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalOptions As LayoutOptions" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::LayoutOptions VerticalOptions { Microsoft::Maui::Controls::LayoutOptions get(); void set(Microsoft::Maui::Controls::LayoutOptions value); };" />
       <MemberSignature Language="F#" Value="member this.VerticalOptions : Microsoft.Maui.Controls.LayoutOptions with get, set" Usage="Microsoft.Maui.Controls.View.VerticalOptions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::LayoutOptions VerticalOptions { Microsoft::Maui::Controls::LayoutOptions get(); void set(Microsoft::Maui::Controls::LayoutOptions value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -619,8 +619,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty VerticalOptionsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.View.VerticalOptionsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly VerticalOptionsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VerticalOptionsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable VerticalOptionsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.View.VerticalOptionsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VerticalOptionsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

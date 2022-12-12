@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAnimatable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IAnimatable" />
   <TypeSignature Language="VB.NET" Value="Public Interface IAnimatable" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IAnimatable" />
   <TypeSignature Language="F#" Value="type IAnimatable = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IAnimatable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BatchBegin() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IAnimatable.BatchBegin" />
       <MemberSignature Language="VB.NET" Value="Public Sub BatchBegin ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BatchBegin();" />
       <MemberSignature Language="F#" Value="abstract member BatchBegin : unit -&gt; unit" Usage="iAnimatable.BatchBegin " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BatchBegin();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -41,8 +41,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BatchCommit() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IAnimatable.BatchCommit" />
       <MemberSignature Language="VB.NET" Value="Public Sub BatchCommit ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BatchCommit();" />
       <MemberSignature Language="F#" Value="abstract member BatchCommit : unit -&gt; unit" Usage="iAnimatable.BatchCommit " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BatchCommit();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

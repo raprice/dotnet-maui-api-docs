@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBindableLayout" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IBindableLayout" />
   <TypeSignature Language="VB.NET" Value="Public Interface IBindableLayout" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IBindableLayout" />
   <TypeSignature Language="F#" Value="type IBindableLayout = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IBindableLayout" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.IList Children" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IBindableLayout.Children" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Children As IList" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::IList ^ Children { System::Collections::IList ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Children : System.Collections.IList" Usage="Microsoft.Maui.Controls.IBindableLayout.Children" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::IList ^ Children { System::Collections::IList ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FormattedString extends Microsoft.Maui.Controls.Element" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.FormattedString" />
   <TypeSignature Language="VB.NET" Value="Public Class FormattedString&#xA;Inherits Element" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FormattedString : Microsoft::Maui::Controls::Element" />
   <TypeSignature Language="F#" Value="type FormattedString = class&#xA;    inherit Element" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FormattedString : Microsoft::Maui::Controls::Element" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FormattedString.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="formattedString.OnBindingContextChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Explicit(class Microsoft.Maui.Controls.FormattedString formatted) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FormattedString.op_Explicit(Microsoft.Maui.Controls.FormattedString)~System.String" />
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (formatted As FormattedString) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator System::String ^(Microsoft::Maui::Controls::FormattedString ^ formatted);" />
       <MemberSignature Language="F#" Value="static member op_Explicit : Microsoft.Maui.Controls.FormattedString -&gt; string" Usage="Microsoft.Maui.Controls.FormattedString.op_Explicit formatted" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator System::String ^(Microsoft::Maui::Controls::FormattedString ^ formatted);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -92,8 +92,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Maui.Controls.FormattedString op_Implicit(string text) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FormattedString.op_Implicit(System.String)~Microsoft.Maui.Controls.FormattedString" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (text As String) As FormattedString" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::FormattedString ^(System::String ^ text);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Microsoft.Maui.Controls.FormattedString" Usage="Microsoft.Maui.Controls.FormattedString.op_Implicit text" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::FormattedString ^(System::String ^ text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -117,8 +117,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.Span&gt; Spans" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.FormattedString.Spans" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Spans As IList(Of Span)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Span ^&gt; ^ Spans { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Span ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Spans : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.Span&gt;" Usage="Microsoft.Maui.Controls.FormattedString.Spans" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Span ^&gt; ^ Spans { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Span ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -138,8 +138,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FormattedString.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="formattedString.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

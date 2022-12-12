@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ButtonStyle extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ButtonStyle" />
   <TypeSignature Language="VB.NET" Value="Public Class ButtonStyle" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ButtonStyle abstract sealed" />
   <TypeSignature Language="F#" Value="type ButtonStyle = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ButtonStyle abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Bottom" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ButtonStyle.Bottom" />
       <MemberSignature Language="VB.NET" Value="Public Const Bottom As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Bottom;" />
       <MemberSignature Language="F#" Value="val mutable Bottom : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ButtonStyle.Bottom" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Bottom;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -43,8 +43,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Circle" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ButtonStyle.Circle" />
       <MemberSignature Language="VB.NET" Value="Public Const Circle As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Circle;" />
       <MemberSignature Language="F#" Value="val mutable Circle : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ButtonStyle.Circle" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Circle;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -63,8 +63,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Default" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ButtonStyle.Default" />
       <MemberSignature Language="VB.NET" Value="Public Const Default As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Default;" />
       <MemberSignature Language="F#" Value="val mutable Default : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ButtonStyle.Default" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Default;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -83,8 +83,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string SelectMode" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ButtonStyle.SelectMode" />
       <MemberSignature Language="VB.NET" Value="Public Const SelectMode As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ SelectMode;" />
       <MemberSignature Language="F#" Value="val mutable SelectMode : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ButtonStyle.SelectMode" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ SelectMode;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -103,8 +103,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Text" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ButtonStyle.Text" />
       <MemberSignature Language="VB.NET" Value="Public Const Text As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Text;" />
       <MemberSignature Language="F#" Value="val mutable Text : string" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.ButtonStyle.Text" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Text;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

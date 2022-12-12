@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit LocationExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.Sensors.LocationExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module LocationExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class LocationExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type LocationExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class LocationExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 CalculateDistance(class Microsoft.Maui.Devices.Sensors.Location locationStart, class Microsoft.Maui.Devices.Sensors.Location locationEnd, valuetype Microsoft.Maui.Devices.Sensors.DistanceUnits units) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.LocationExtensions.CalculateDistance(Microsoft.Maui.Devices.Sensors.Location,Microsoft.Maui.Devices.Sensors.Location,Microsoft.Maui.Devices.Sensors.DistanceUnits)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CalculateDistance (locationStart As Location, locationEnd As Location, units As DistanceUnits) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static double CalculateDistance(Microsoft::Maui::Devices::Sensors::Location ^ locationStart, Microsoft::Maui::Devices::Sensors::Location ^ locationEnd, Microsoft::Maui::Devices::Sensors::DistanceUnits units);" />
       <MemberSignature Language="F#" Value="static member CalculateDistance : Microsoft.Maui.Devices.Sensors.Location * Microsoft.Maui.Devices.Sensors.Location * Microsoft.Maui.Devices.Sensors.DistanceUnits -&gt; double" Usage="Microsoft.Maui.Devices.Sensors.LocationExtensions.CalculateDistance (locationStart, locationEnd, units)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static double CalculateDistance(Microsoft::Maui::Devices::Sensors::Location ^ locationStart, Microsoft::Maui::Devices::Sensors::Location ^ locationEnd, Microsoft::Maui::Devices::Sensors::DistanceUnits units);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -52,8 +52,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 CalculateDistance(class Microsoft.Maui.Devices.Sensors.Location locationStart, float64 latitudeEnd, float64 longitudeEnd, valuetype Microsoft.Maui.Devices.Sensors.DistanceUnits units) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.LocationExtensions.CalculateDistance(Microsoft.Maui.Devices.Sensors.Location,System.Double,System.Double,Microsoft.Maui.Devices.Sensors.DistanceUnits)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CalculateDistance (locationStart As Location, latitudeEnd As Double, longitudeEnd As Double, units As DistanceUnits) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static double CalculateDistance(Microsoft::Maui::Devices::Sensors::Location ^ locationStart, double latitudeEnd, double longitudeEnd, Microsoft::Maui::Devices::Sensors::DistanceUnits units);" />
       <MemberSignature Language="F#" Value="static member CalculateDistance : Microsoft.Maui.Devices.Sensors.Location * double * double * Microsoft.Maui.Devices.Sensors.DistanceUnits -&gt; double" Usage="Microsoft.Maui.Devices.Sensors.LocationExtensions.CalculateDistance (locationStart, latitudeEnd, longitudeEnd, units)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static double CalculateDistance(Microsoft::Maui::Devices::Sensors::Location ^ locationStart, double latitudeEnd, double longitudeEnd, Microsoft::Maui::Devices::Sensors::DistanceUnits units);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -83,8 +83,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task OpenMapsAsync(class Microsoft.Maui.Devices.Sensors.Location location) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.LocationExtensions.OpenMapsAsync(Microsoft.Maui.Devices.Sensors.Location)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function OpenMapsAsync (location As Location) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task ^ OpenMapsAsync(Microsoft::Maui::Devices::Sensors::Location ^ location);" />
       <MemberSignature Language="F#" Value="static member OpenMapsAsync : Microsoft.Maui.Devices.Sensors.Location -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.Devices.Sensors.LocationExtensions.OpenMapsAsync location" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task ^ OpenMapsAsync(Microsoft::Maui::Devices::Sensors::Location ^ location);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -108,8 +108,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task OpenMapsAsync(class Microsoft.Maui.Devices.Sensors.Location location, class Microsoft.Maui.ApplicationModel.MapLaunchOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.LocationExtensions.OpenMapsAsync(Microsoft.Maui.Devices.Sensors.Location,Microsoft.Maui.ApplicationModel.MapLaunchOptions)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function OpenMapsAsync (location As Location, options As MapLaunchOptions) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task ^ OpenMapsAsync(Microsoft::Maui::Devices::Sensors::Location ^ location, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberSignature Language="F#" Value="static member OpenMapsAsync : Microsoft.Maui.Devices.Sensors.Location * Microsoft.Maui.ApplicationModel.MapLaunchOptions -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.Devices.Sensors.LocationExtensions.OpenMapsAsync (location, options)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task ^ OpenMapsAsync(Microsoft::Maui::Devices::Sensors::Location ^ location, Microsoft::Maui::ApplicationModel::MapLaunchOptions ^ options);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

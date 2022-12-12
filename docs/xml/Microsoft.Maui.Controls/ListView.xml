@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ListView extends Microsoft.Maui.Controls.ItemsView`1&lt;class Microsoft.Maui.Controls.Cell&gt; implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.ListView&gt;, class Microsoft.Maui.Controls.IElementController, class Microsoft.Maui.Controls.IListViewController, class Microsoft.Maui.Controls.IViewController, class Microsoft.Maui.Controls.IVisualElementController, class Microsoft.Maui.IVisualTreeElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ListView" />
   <TypeSignature Language="VB.NET" Value="Public Class ListView&#xA;Inherits ItemsView(Of Cell)&#xA;Implements IElementConfiguration(Of ListView), IListViewController, IVisualTreeElement" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ListView : Microsoft::Maui::Controls::ItemsView&lt;Microsoft::Maui::Controls::Cell ^&gt;, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::ListView ^&gt;, Microsoft::Maui::Controls::IListViewController, Microsoft::Maui::IVisualTreeElement" />
   <TypeSignature Language="F#" Value="type ListView = class&#xA;    inherit ItemsView&lt;Cell&gt;&#xA;    interface IListViewController&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController&#xA;    interface IElementConfiguration&lt;ListView&gt;&#xA;    interface IVisualTreeElement" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ListView : Microsoft::Maui::Controls::ItemsView&lt;Microsoft::Maui::Controls::Cell ^&gt;, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::ListView ^&gt;, Microsoft::Maui::Controls::IListViewController, Microsoft::Maui::IVisualTreeElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -179,8 +179,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.Controls.ListViewCachingStrategy cachingStrategy) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.#ctor(Microsoft.Maui.Controls.ListViewCachingStrategy)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (cachingStrategy As ListViewCachingStrategy)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ListView(Microsoft::Maui::Controls::ListViewCachingStrategy cachingStrategy);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.ListView : Microsoft.Maui.Controls.ListViewCachingStrategy -&gt; Microsoft.Maui.Controls.ListView" Usage="new Microsoft.Maui.Controls.ListView cachingStrategy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ListView(Microsoft::Maui::Controls::ListViewCachingStrategy cachingStrategy);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -192,6 +192,7 @@ class ListViewDemoPage : ContentPage
       <Docs>
         <param name="cachingStrategy">A value that indicates how the List View should manage memory when displaying data items using a data template.</param>
         <summary>Creates and initializes a new instance of the <see cref="T:Microsoft.Maui.Controls.ListView" /> class.</summary>
+        <summary>Creates and initializes a new instance of the <see cref="T:Microsoft.Maui.Controls.ListView" /> class, with the specified caching strategy.</summary>
         <remarks>To be added.</remarks>
         <remarks>
           <para>For memory and performance reasons, application developers should strongly prefer <see cref="F:Microsoft.Maui.Controls.ListViewCachingStrategy.RecycleElement" />, when possible. See <see cref="T:Microsoft.Maui.Controls.ListViewCachingStrategy" /> for more details.</para>
@@ -206,8 +207,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BeginRefresh() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.BeginRefresh" />
       <MemberSignature Language="VB.NET" Value="Public Sub BeginRefresh ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BeginRefresh();" />
       <MemberSignature Language="F#" Value="member this.BeginRefresh : unit -&gt; unit" Usage="listView.BeginRefresh " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BeginRefresh();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -227,8 +228,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.ListViewCachingStrategy CachingStrategy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.CachingStrategy" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CachingStrategy As ListViewCachingStrategy" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ListViewCachingStrategy CachingStrategy { Microsoft::Maui::Controls::ListViewCachingStrategy get(); };" />
       <MemberSignature Language="F#" Value="member this.CachingStrategy : Microsoft.Maui.Controls.ListViewCachingStrategy" Usage="Microsoft.Maui.Controls.ListView.CachingStrategy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ListViewCachingStrategy CachingStrategy { Microsoft::Maui::Controls::ListViewCachingStrategy get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IListViewController.CachingStrategy</InterfaceMember>
@@ -251,8 +252,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Microsoft.Maui.Controls.Cell CreateDefault(object item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.CreateDefault(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateDefault (item As Object) As Cell" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Controls::Cell ^ CreateDefault(System::Object ^ item);" />
       <MemberSignature Language="F#" Value="override this.CreateDefault : obj -&gt; Microsoft.Maui.Controls.Cell" Usage="listView.CreateDefault item" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Controls::Cell ^ CreateDefault(System::Object ^ item);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -276,8 +277,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.Cell CreateDefaultCell(object item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.CreateDefaultCell(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateDefaultCell (item As Object) As Cell" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Maui::Controls::Cell ^ CreateDefaultCell(System::Object ^ item);" />
       <MemberSignature Language="F#" Value="abstract member CreateDefaultCell : obj -&gt; Microsoft.Maui.Controls.Cell&#xA;override this.CreateDefaultCell : obj -&gt; Microsoft.Maui.Controls.Cell" Usage="listView.CreateDefaultCell item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Maui::Controls::Cell ^ CreateDefaultCell(System::Object ^ item);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IListViewController.CreateDefaultCell(System.Object)</InterfaceMember>
@@ -310,8 +311,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndRefresh() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.EndRefresh" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndRefresh ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndRefresh();" />
       <MemberSignature Language="F#" Value="member this.EndRefresh : unit -&gt; unit" Usage="listView.EndRefresh " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndRefresh();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -331,8 +332,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance object Footer" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.Footer" />
       <MemberSignature Language="VB.NET" Value="Public Property Footer As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Footer { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Footer : obj with get, set" Usage="Microsoft.Maui.Controls.ListView.Footer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Footer { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -352,8 +353,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Element FooterElement" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.FooterElement" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FooterElement As Element" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Element ^ FooterElement { Microsoft::Maui::Controls::Element ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.FooterElement : Microsoft.Maui.Controls.Element" Usage="Microsoft.Maui.Controls.ListView.FooterElement" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Element ^ FooterElement { Microsoft::Maui::Controls::Element ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IListViewController.FooterElement</InterfaceMember>
@@ -382,8 +383,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FooterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.FooterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FooterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FooterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FooterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.FooterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FooterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -402,8 +403,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.DataTemplate FooterTemplate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.FooterTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property FooterTemplate As DataTemplate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::DataTemplate ^ FooterTemplate { Microsoft::Maui::Controls::DataTemplate ^ get(); void set(Microsoft::Maui::Controls::DataTemplate ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FooterTemplate : Microsoft.Maui.Controls.DataTemplate with get, set" Usage="Microsoft.Maui.Controls.ListView.FooterTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::DataTemplate ^ FooterTemplate { Microsoft::Maui::Controls::DataTemplate ^ get(); void set(Microsoft::Maui::Controls::DataTemplate ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -423,8 +424,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FooterTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.FooterTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FooterTemplateProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FooterTemplateProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FooterTemplateProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.FooterTemplateProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FooterTemplateProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -443,8 +444,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetDisplayTextFromGroup(object cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.GetDisplayTextFromGroup(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetDisplayTextFromGroup (cell As Object) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetDisplayTextFromGroup(System::Object ^ cell);" />
       <MemberSignature Language="F#" Value="abstract member GetDisplayTextFromGroup : obj -&gt; string&#xA;override this.GetDisplayTextFromGroup : obj -&gt; string" Usage="listView.GetDisplayTextFromGroup cell" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetDisplayTextFromGroup(System::Object ^ cell);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IListViewController.GetDisplayTextFromGroup(System.Object)</InterfaceMember>
@@ -477,8 +478,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.BindingBase GroupDisplayBinding" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.GroupDisplayBinding" />
       <MemberSignature Language="VB.NET" Value="Public Property GroupDisplayBinding As BindingBase" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindingBase ^ GroupDisplayBinding { Microsoft::Maui::Controls::BindingBase ^ get(); void set(Microsoft::Maui::Controls::BindingBase ^ value); };" />
       <MemberSignature Language="F#" Value="member this.GroupDisplayBinding : Microsoft.Maui.Controls.BindingBase with get, set" Usage="Microsoft.Maui.Controls.ListView.GroupDisplayBinding" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindingBase ^ GroupDisplayBinding { Microsoft::Maui::Controls::BindingBase ^ get(); void set(Microsoft::Maui::Controls::BindingBase ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -567,8 +568,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.DataTemplate GroupHeaderTemplate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.GroupHeaderTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property GroupHeaderTemplate As DataTemplate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::DataTemplate ^ GroupHeaderTemplate { Microsoft::Maui::Controls::DataTemplate ^ get(); void set(Microsoft::Maui::Controls::DataTemplate ^ value); };" />
       <MemberSignature Language="F#" Value="member this.GroupHeaderTemplate : Microsoft.Maui.Controls.DataTemplate with get, set" Usage="Microsoft.Maui.Controls.ListView.GroupHeaderTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::DataTemplate ^ GroupHeaderTemplate { Microsoft::Maui::Controls::DataTemplate ^ get(); void set(Microsoft::Maui::Controls::DataTemplate ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -602,8 +603,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty GroupHeaderTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.GroupHeaderTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GroupHeaderTemplateProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ GroupHeaderTemplateProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable GroupHeaderTemplateProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.GroupHeaderTemplateProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ GroupHeaderTemplateProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -622,8 +623,8 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.BindingBase GroupShortNameBinding" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.GroupShortNameBinding" />
       <MemberSignature Language="VB.NET" Value="Public Property GroupShortNameBinding As BindingBase" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindingBase ^ GroupShortNameBinding { Microsoft::Maui::Controls::BindingBase ^ get(); void set(Microsoft::Maui::Controls::BindingBase ^ value); };" />
       <MemberSignature Language="F#" Value="member this.GroupShortNameBinding : Microsoft.Maui.Controls.BindingBase with get, set" Usage="Microsoft.Maui.Controls.ListView.GroupShortNameBinding" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindingBase ^ GroupShortNameBinding { Microsoft::Maui::Controls::BindingBase ^ get(); void set(Microsoft::Maui::Controls::BindingBase ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -713,8 +714,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance bool HasUnevenRows" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.HasUnevenRows" />
       <MemberSignature Language="VB.NET" Value="Public Property HasUnevenRows As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasUnevenRows { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.HasUnevenRows : bool with get, set" Usage="Microsoft.Maui.Controls.ListView.HasUnevenRows" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasUnevenRows { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -742,8 +743,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HasUnevenRowsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.HasUnevenRowsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HasUnevenRowsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HasUnevenRowsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HasUnevenRowsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.HasUnevenRowsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HasUnevenRowsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -762,8 +763,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance object Header" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.Header" />
       <MemberSignature Language="VB.NET" Value="Public Property Header As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Header { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Header : obj with get, set" Usage="Microsoft.Maui.Controls.ListView.Header" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Header { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -783,8 +784,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Element HeaderElement" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.HeaderElement" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HeaderElement As Element" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Element ^ HeaderElement { Microsoft::Maui::Controls::Element ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.HeaderElement : Microsoft.Maui.Controls.Element" Usage="Microsoft.Maui.Controls.ListView.HeaderElement" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Element ^ HeaderElement { Microsoft::Maui::Controls::Element ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IListViewController.HeaderElement</InterfaceMember>
@@ -813,8 +814,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HeaderProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.HeaderProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeaderProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HeaderProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.HeaderProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeaderProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -833,8 +834,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.DataTemplate HeaderTemplate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.HeaderTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property HeaderTemplate As DataTemplate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::DataTemplate ^ HeaderTemplate { Microsoft::Maui::Controls::DataTemplate ^ get(); void set(Microsoft::Maui::Controls::DataTemplate ^ value); };" />
       <MemberSignature Language="F#" Value="member this.HeaderTemplate : Microsoft.Maui.Controls.DataTemplate with get, set" Usage="Microsoft.Maui.Controls.ListView.HeaderTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::DataTemplate ^ HeaderTemplate { Microsoft::Maui::Controls::DataTemplate ^ get(); void set(Microsoft::Maui::Controls::DataTemplate ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -854,8 +855,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HeaderTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.HeaderTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderTemplateProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeaderTemplateProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HeaderTemplateProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.HeaderTemplateProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeaderTemplateProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -874,8 +875,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.ScrollBarVisibility HorizontalScrollBarVisibility" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.HorizontalScrollBarVisibility" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalScrollBarVisibility As ScrollBarVisibility" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ScrollBarVisibility HorizontalScrollBarVisibility { Microsoft::Maui::ScrollBarVisibility get(); void set(Microsoft::Maui::ScrollBarVisibility value); };" />
       <MemberSignature Language="F#" Value="member this.HorizontalScrollBarVisibility : Microsoft.Maui.ScrollBarVisibility with get, set" Usage="Microsoft.Maui.Controls.ListView.HorizontalScrollBarVisibility" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ScrollBarVisibility HorizontalScrollBarVisibility { Microsoft::Maui::ScrollBarVisibility get(); void set(Microsoft::Maui::ScrollBarVisibility value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -895,8 +896,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HorizontalScrollBarVisibilityProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.HorizontalScrollBarVisibilityProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HorizontalScrollBarVisibilityProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HorizontalScrollBarVisibilityProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HorizontalScrollBarVisibilityProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.HorizontalScrollBarVisibilityProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HorizontalScrollBarVisibilityProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -915,8 +916,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance bool IsGroupingEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.IsGroupingEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsGroupingEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsGroupingEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsGroupingEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.ListView.IsGroupingEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsGroupingEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -940,8 +941,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsGroupingEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.IsGroupingEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsGroupingEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsGroupingEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsGroupingEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.IsGroupingEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsGroupingEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -960,8 +961,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPullToRefreshEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.IsPullToRefreshEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPullToRefreshEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPullToRefreshEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsPullToRefreshEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.ListView.IsPullToRefreshEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPullToRefreshEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -981,8 +982,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsPullToRefreshEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.IsPullToRefreshEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsPullToRefreshEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsPullToRefreshEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsPullToRefreshEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.IsPullToRefreshEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsPullToRefreshEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1001,8 +1002,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance bool IsRefreshing" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.IsRefreshing" />
       <MemberSignature Language="VB.NET" Value="Public Property IsRefreshing As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRefreshing { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsRefreshing : bool with get, set" Usage="Microsoft.Maui.Controls.ListView.IsRefreshing" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRefreshing { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1022,8 +1023,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsRefreshingProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.IsRefreshingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsRefreshingProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsRefreshingProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsRefreshingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.IsRefreshingProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsRefreshingProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1042,8 +1043,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.ItemVisibilityEventArgs&gt; ItemAppearing" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.ListView.ItemAppearing" />
       <MemberSignature Language="VB.NET" Value="Public Event ItemAppearing As EventHandler(Of ItemVisibilityEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ItemVisibilityEventArgs ^&gt; ^ ItemAppearing;" />
       <MemberSignature Language="F#" Value="member this.ItemAppearing : EventHandler&lt;Microsoft.Maui.Controls.ItemVisibilityEventArgs&gt; " Usage="member this.ItemAppearing : System.EventHandler&lt;Microsoft.Maui.Controls.ItemVisibilityEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ItemVisibilityEventArgs ^&gt; ^ ItemAppearing;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1062,8 +1063,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.ItemVisibilityEventArgs&gt; ItemDisappearing" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.ListView.ItemDisappearing" />
       <MemberSignature Language="VB.NET" Value="Public Event ItemDisappearing As EventHandler(Of ItemVisibilityEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ItemVisibilityEventArgs ^&gt; ^ ItemDisappearing;" />
       <MemberSignature Language="F#" Value="member this.ItemDisappearing : EventHandler&lt;Microsoft.Maui.Controls.ItemVisibilityEventArgs&gt; " Usage="member this.ItemDisappearing : System.EventHandler&lt;Microsoft.Maui.Controls.ItemVisibilityEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ItemVisibilityEventArgs ^&gt; ^ ItemDisappearing;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1082,8 +1083,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.SelectedItemChangedEventArgs&gt; ItemSelected" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.ListView.ItemSelected" />
       <MemberSignature Language="VB.NET" Value="Public Event ItemSelected As EventHandler(Of SelectedItemChangedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::SelectedItemChangedEventArgs ^&gt; ^ ItemSelected;" />
       <MemberSignature Language="F#" Value="member this.ItemSelected : EventHandler&lt;Microsoft.Maui.Controls.SelectedItemChangedEventArgs&gt; " Usage="member this.ItemSelected : System.EventHandler&lt;Microsoft.Maui.Controls.SelectedItemChangedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::SelectedItemChangedEventArgs ^&gt; ^ ItemSelected;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1102,8 +1103,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.ItemTappedEventArgs&gt; ItemTapped" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.ListView.ItemTapped" />
       <MemberSignature Language="VB.NET" Value="Public Event ItemTapped As EventHandler(Of ItemTappedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ItemTappedEventArgs ^&gt; ^ ItemTapped;" />
       <MemberSignature Language="F#" Value="member this.ItemTapped : EventHandler&lt;Microsoft.Maui.Controls.ItemTappedEventArgs&gt; " Usage="member this.ItemTapped : System.EventHandler&lt;Microsoft.Maui.Controls.ItemTappedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ItemTappedEventArgs ^&gt; ^ ItemTapped;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1122,8 +1123,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IVisualTreeElement&gt; Microsoft.Maui.IVisualTreeElement.GetVisualChildren() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.Microsoft#Maui#IVisualTreeElement#GetVisualChildren" />
       <MemberSignature Language="VB.NET" Value="Function GetVisualChildren () As IReadOnlyList(Of IVisualTreeElement) Implements IVisualTreeElement.GetVisualChildren" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ Microsoft.Maui.IVisualTreeElement.GetVisualChildren() = Microsoft::Maui::IVisualTreeElement::GetVisualChildren;" />
       <MemberSignature Language="F#" Value="override this.Microsoft.Maui.IVisualTreeElement.GetVisualChildren : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IVisualTreeElement&gt;" Usage="listView.Microsoft.Maui.IVisualTreeElement.GetVisualChildren " />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ Microsoft.Maui.IVisualTreeElement.GetVisualChildren() = Microsoft::Maui::IVisualTreeElement::GetVisualChildren;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IVisualTreeElement.GetVisualChildren</InterfaceMember>
@@ -1181,8 +1182,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NotifyRowTapped(int32 index, class Microsoft.Maui.Controls.Cell cell, bool isContextmenuRequested) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.NotifyRowTapped(System.Int32,Microsoft.Maui.Controls.Cell,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub NotifyRowTapped (index As Integer, cell As Cell, isContextmenuRequested As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void NotifyRowTapped(int index, Microsoft::Maui::Controls::Cell ^ cell, bool isContextmenuRequested);" />
       <MemberSignature Language="F#" Value="abstract member NotifyRowTapped : int * Microsoft.Maui.Controls.Cell * bool -&gt; unit&#xA;override this.NotifyRowTapped : int * Microsoft.Maui.Controls.Cell * bool -&gt; unit" Usage="listView.NotifyRowTapped (index, cell, isContextmenuRequested)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void NotifyRowTapped(int index, Microsoft::Maui::Controls::Cell ^ cell, bool isContextmenuRequested);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IListViewController.NotifyRowTapped(System.Int32,Microsoft.Maui.Controls.Cell,System.Boolean)</InterfaceMember>
@@ -1254,8 +1255,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NotifyRowTapped(int32 groupIndex, int32 inGroupIndex, class Microsoft.Maui.Controls.Cell cell, bool isContextMenuRequested) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.NotifyRowTapped(System.Int32,System.Int32,Microsoft.Maui.Controls.Cell,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub NotifyRowTapped (groupIndex As Integer, inGroupIndex As Integer, cell As Cell, isContextMenuRequested As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void NotifyRowTapped(int groupIndex, int inGroupIndex, Microsoft::Maui::Controls::Cell ^ cell, bool isContextMenuRequested);" />
       <MemberSignature Language="F#" Value="abstract member NotifyRowTapped : int * int * Microsoft.Maui.Controls.Cell * bool -&gt; unit&#xA;override this.NotifyRowTapped : int * int * Microsoft.Maui.Controls.Cell * bool -&gt; unit" Usage="listView.NotifyRowTapped (groupIndex, inGroupIndex, cell, isContextMenuRequested)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void NotifyRowTapped(int groupIndex, int inGroupIndex, Microsoft::Maui::Controls::Cell ^ cell, bool isContextMenuRequested);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IListViewController.NotifyRowTapped(System.Int32,System.Int32,Microsoft.Maui.Controls.Cell,System.Boolean)</InterfaceMember>
@@ -1293,8 +1294,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.ListView&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, ListView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::ListView ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.ListView (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.ListView (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="listView.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::ListView ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -1327,8 +1328,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="listView.OnBindingContextChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1348,8 +1349,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.Maui.SizeRequest OnMeasure(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.OnMeasure(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnMeasure (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::SizeRequest OnMeasure(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="override this.OnMeasure : double * double -&gt; Microsoft.Maui.SizeRequest" Usage="listView.OnMeasure (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::SizeRequest OnMeasure(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1375,8 +1376,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance bool RefreshAllowed" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.RefreshAllowed" />
       <MemberSignature Language="VB.NET" Value="Public Property RefreshAllowed As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RefreshAllowed { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.RefreshAllowed : bool with get, set" Usage="Microsoft.Maui.Controls.ListView.RefreshAllowed" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RefreshAllowed { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1402,8 +1403,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand RefreshCommand" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.RefreshCommand" />
       <MemberSignature Language="VB.NET" Value="Public Property RefreshCommand As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ RefreshCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.RefreshCommand : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.ListView.RefreshCommand" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ RefreshCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1423,8 +1424,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty RefreshCommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.RefreshCommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RefreshCommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RefreshCommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable RefreshCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.RefreshCommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RefreshCommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1443,8 +1444,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color RefreshControlColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.RefreshControlColor" />
       <MemberSignature Language="VB.NET" Value="Public Property RefreshControlColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ RefreshControlColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.RefreshControlColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.ListView.RefreshControlColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ RefreshControlColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1464,8 +1465,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty RefreshControlColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.RefreshControlColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RefreshControlColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RefreshControlColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable RefreshControlColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.RefreshControlColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RefreshControlColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1484,8 +1485,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Refreshing" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.ListView.Refreshing" />
       <MemberSignature Language="VB.NET" Value="Public Event Refreshing As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Refreshing;" />
       <MemberSignature Language="F#" Value="member this.Refreshing : EventHandler " Usage="member this.Refreshing : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Refreshing;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1504,8 +1505,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance int32 RowHeight" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.RowHeight" />
       <MemberSignature Language="VB.NET" Value="Public Property RowHeight As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RowHeight { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.RowHeight : int with get, set" Usage="Microsoft.Maui.Controls.ListView.RowHeight" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RowHeight { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1525,8 +1526,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty RowHeightProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.RowHeightProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RowHeightProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RowHeightProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable RowHeightProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.RowHeightProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RowHeightProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1545,8 +1546,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.ScrolledEventArgs&gt; Scrolled" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.ListView.Scrolled" />
       <MemberSignature Language="VB.NET" Value="Public Event Scrolled As EventHandler(Of ScrolledEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ScrolledEventArgs ^&gt; ^ Scrolled;" />
       <MemberSignature Language="F#" Value="member this.Scrolled : EventHandler&lt;Microsoft.Maui.Controls.ScrolledEventArgs&gt; " Usage="member this.Scrolled : System.EventHandler&lt;Microsoft.Maui.Controls.ScrolledEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ScrolledEventArgs ^&gt; ^ Scrolled;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1565,8 +1566,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ScrollTo(object item, valuetype Microsoft.Maui.Controls.ScrollToPosition position, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.ScrollTo(System.Object,Microsoft.Maui.Controls.ScrollToPosition,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ScrollTo (item As Object, position As ScrollToPosition, animated As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ScrollTo(System::Object ^ item, Microsoft::Maui::Controls::ScrollToPosition position, bool animated);" />
       <MemberSignature Language="F#" Value="member this.ScrollTo : obj * Microsoft.Maui.Controls.ScrollToPosition * bool -&gt; unit" Usage="listView.ScrollTo (item, position, animated)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ScrollTo(System::Object ^ item, Microsoft::Maui::Controls::ScrollToPosition position, bool animated);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1597,8 +1598,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ScrollTo(object item, object group, valuetype Microsoft.Maui.Controls.ScrollToPosition position, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.ScrollTo(System.Object,System.Object,Microsoft.Maui.Controls.ScrollToPosition,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ScrollTo (item As Object, group As Object, position As ScrollToPosition, animated As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ScrollTo(System::Object ^ item, System::Object ^ group, Microsoft::Maui::Controls::ScrollToPosition position, bool animated);" />
       <MemberSignature Language="F#" Value="member this.ScrollTo : obj * obj * Microsoft.Maui.Controls.ScrollToPosition * bool -&gt; unit" Usage="listView.ScrollTo (item, group, position, animated)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ScrollTo(System::Object ^ item, System::Object ^ group, Microsoft::Maui::Controls::ScrollToPosition position, bool animated);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1634,8 +1635,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.ScrollToRequestedEventArgs&gt; ScrollToRequested" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.ListView.ScrollToRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event ScrollToRequested As EventHandler(Of ScrollToRequestedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler&lt;Microsoft::Maui::Controls::ScrollToRequestedEventArgs ^&gt; ^ ScrollToRequested;" />
       <MemberSignature Language="F#" Value="member this.ScrollToRequested : EventHandler&lt;Microsoft.Maui.Controls.ScrollToRequestedEventArgs&gt; " Usage="member this.ScrollToRequested : System.EventHandler&lt;Microsoft.Maui.Controls.ScrollToRequestedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler&lt;Microsoft::Maui::Controls::ScrollToRequestedEventArgs ^&gt; ^ ScrollToRequested;" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Maui.Controls.IListViewController.ScrollToRequested</InterfaceMember>
@@ -1663,8 +1664,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance object SelectedItem" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.SelectedItem" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectedItem As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SelectedItem { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SelectedItem : obj with get, set" Usage="Microsoft.Maui.Controls.ListView.SelectedItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SelectedItem { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1684,8 +1685,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectedItemProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.SelectedItemProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectedItemProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectedItemProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectedItemProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.SelectedItemProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectedItemProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1704,8 +1705,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.ListViewSelectionMode SelectionMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.SelectionMode" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectionMode As ListViewSelectionMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ListViewSelectionMode SelectionMode { Microsoft::Maui::Controls::ListViewSelectionMode get(); void set(Microsoft::Maui::Controls::ListViewSelectionMode value); };" />
       <MemberSignature Language="F#" Value="member this.SelectionMode : Microsoft.Maui.Controls.ListViewSelectionMode with get, set" Usage="Microsoft.Maui.Controls.ListView.SelectionMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ListViewSelectionMode SelectionMode { Microsoft::Maui::Controls::ListViewSelectionMode get(); void set(Microsoft::Maui::Controls::ListViewSelectionMode value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1726,8 +1727,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectionModeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.SelectionModeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectionModeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionModeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectionModeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.SelectionModeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionModeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1746,8 +1747,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendCellAppearing(class Microsoft.Maui.Controls.Cell cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.SendCellAppearing(Microsoft.Maui.Controls.Cell)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendCellAppearing (cell As Cell)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendCellAppearing(Microsoft::Maui::Controls::Cell ^ cell);" />
       <MemberSignature Language="F#" Value="abstract member SendCellAppearing : Microsoft.Maui.Controls.Cell -&gt; unit&#xA;override this.SendCellAppearing : Microsoft.Maui.Controls.Cell -&gt; unit" Usage="listView.SendCellAppearing cell" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendCellAppearing(Microsoft::Maui::Controls::Cell ^ cell);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IListViewController.SendCellAppearing(Microsoft.Maui.Controls.Cell)</InterfaceMember>
@@ -1779,8 +1780,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendCellDisappearing(class Microsoft.Maui.Controls.Cell cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.SendCellDisappearing(Microsoft.Maui.Controls.Cell)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendCellDisappearing (cell As Cell)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendCellDisappearing(Microsoft::Maui::Controls::Cell ^ cell);" />
       <MemberSignature Language="F#" Value="abstract member SendCellDisappearing : Microsoft.Maui.Controls.Cell -&gt; unit&#xA;override this.SendCellDisappearing : Microsoft.Maui.Controls.Cell -&gt; unit" Usage="listView.SendCellDisappearing cell" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendCellDisappearing(Microsoft::Maui::Controls::Cell ^ cell);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IListViewController.SendCellDisappearing(Microsoft.Maui.Controls.Cell)</InterfaceMember>
@@ -1812,8 +1813,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendRefreshing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.SendRefreshing" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendRefreshing ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendRefreshing();" />
       <MemberSignature Language="F#" Value="abstract member SendRefreshing : unit -&gt; unit&#xA;override this.SendRefreshing : unit -&gt; unit" Usage="listView.SendRefreshing " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendRefreshing();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IListViewController.SendRefreshing</InterfaceMember>
@@ -1842,8 +1843,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendScrolled(class Microsoft.Maui.Controls.ScrolledEventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.SendScrolled(Microsoft.Maui.Controls.ScrolledEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendScrolled (args As ScrolledEventArgs)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendScrolled(Microsoft::Maui::Controls::ScrolledEventArgs ^ args);" />
       <MemberSignature Language="F#" Value="member this.SendScrolled : Microsoft.Maui.Controls.ScrolledEventArgs -&gt; unit" Usage="listView.SendScrolled args" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendScrolled(Microsoft::Maui::Controls::ScrolledEventArgs ^ args);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1872,8 +1873,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color SeparatorColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.SeparatorColor" />
       <MemberSignature Language="VB.NET" Value="Public Property SeparatorColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ SeparatorColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SeparatorColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.ListView.SeparatorColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ SeparatorColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1893,8 +1894,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SeparatorColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.SeparatorColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SeparatorColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SeparatorColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SeparatorColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.SeparatorColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SeparatorColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1913,8 +1914,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.SeparatorVisibility SeparatorVisibility" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.SeparatorVisibility" />
       <MemberSignature Language="VB.NET" Value="Public Property SeparatorVisibility As SeparatorVisibility" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SeparatorVisibility SeparatorVisibility { Microsoft::Maui::Controls::SeparatorVisibility get(); void set(Microsoft::Maui::Controls::SeparatorVisibility value); };" />
       <MemberSignature Language="F#" Value="member this.SeparatorVisibility : Microsoft.Maui.Controls.SeparatorVisibility with get, set" Usage="Microsoft.Maui.Controls.ListView.SeparatorVisibility" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SeparatorVisibility SeparatorVisibility { Microsoft::Maui::Controls::SeparatorVisibility get(); void set(Microsoft::Maui::Controls::SeparatorVisibility value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1934,8 +1935,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SeparatorVisibilityProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.SeparatorVisibilityProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SeparatorVisibilityProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SeparatorVisibilityProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SeparatorVisibilityProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.SeparatorVisibilityProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SeparatorVisibilityProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1954,8 +1955,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void SetupContent(class Microsoft.Maui.Controls.Cell content, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.SetupContent(Microsoft.Maui.Controls.Cell,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub SetupContent (content As Cell, index As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void SetupContent(Microsoft::Maui::Controls::Cell ^ content, int index);" />
       <MemberSignature Language="F#" Value="override this.SetupContent : Microsoft.Maui.Controls.Cell * int -&gt; unit" Usage="listView.SetupContent (content, index)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void SetupContent(Microsoft::Maui::Controls::Cell ^ content, int index);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1980,8 +1981,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void UnhookContent(class Microsoft.Maui.Controls.Cell content) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.UnhookContent(Microsoft.Maui.Controls.Cell)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub UnhookContent (content As Cell)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnhookContent(Microsoft::Maui::Controls::Cell ^ content);" />
       <MemberSignature Language="F#" Value="override this.UnhookContent : Microsoft.Maui.Controls.Cell -&gt; unit" Usage="listView.UnhookContent content" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnhookContent(Microsoft::Maui::Controls::Cell ^ content);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2004,8 +2005,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool ValidateItemTemplate(class Microsoft.Maui.Controls.DataTemplate template) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ListView.ValidateItemTemplate(Microsoft.Maui.Controls.DataTemplate)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function ValidateItemTemplate (template As DataTemplate) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool ValidateItemTemplate(Microsoft::Maui::Controls::DataTemplate ^ template);" />
       <MemberSignature Language="F#" Value="override this.ValidateItemTemplate : Microsoft.Maui.Controls.DataTemplate -&gt; bool" Usage="listView.ValidateItemTemplate template" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool ValidateItemTemplate(Microsoft::Maui::Controls::DataTemplate ^ template);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2029,8 +2030,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.ScrollBarVisibility VerticalScrollBarVisibility" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ListView.VerticalScrollBarVisibility" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalScrollBarVisibility As ScrollBarVisibility" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ScrollBarVisibility VerticalScrollBarVisibility { Microsoft::Maui::ScrollBarVisibility get(); void set(Microsoft::Maui::ScrollBarVisibility value); };" />
       <MemberSignature Language="F#" Value="member this.VerticalScrollBarVisibility : Microsoft.Maui.ScrollBarVisibility with get, set" Usage="Microsoft.Maui.Controls.ListView.VerticalScrollBarVisibility" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ScrollBarVisibility VerticalScrollBarVisibility { Microsoft::Maui::ScrollBarVisibility get(); void set(Microsoft::Maui::ScrollBarVisibility value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2050,8 +2051,8 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty VerticalScrollBarVisibilityProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ListView.VerticalScrollBarVisibilityProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly VerticalScrollBarVisibilityProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VerticalScrollBarVisibilityProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable VerticalScrollBarVisibilityProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ListView.VerticalScrollBarVisibilityProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VerticalScrollBarVisibilityProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

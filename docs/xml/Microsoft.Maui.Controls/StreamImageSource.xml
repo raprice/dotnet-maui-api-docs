@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StreamImageSource extends Microsoft.Maui.Controls.ImageSource implements class Microsoft.Maui.IImageSource, class Microsoft.Maui.IStreamImageSource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.StreamImageSource" />
   <TypeSignature Language="VB.NET" Value="Public Class StreamImageSource&#xA;Inherits ImageSource&#xA;Implements IStreamImageSource" />
-  <TypeSignature Language="C++ CLI" Value="public ref class StreamImageSource : Microsoft::Maui::Controls::ImageSource, Microsoft::Maui::IStreamImageSource" />
   <TypeSignature Language="F#" Value="type StreamImageSource = class&#xA;    inherit ImageSource&#xA;    interface IStreamImageSource&#xA;    interface IImageSource" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StreamImageSource : Microsoft::Maui::Controls::ImageSource, Microsoft::Maui::IStreamImageSource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEmpty" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.StreamImageSource.IsEmpty" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsEmpty As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsEmpty { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsEmpty : bool" Usage="Microsoft.Maui.Controls.StreamImageSource.IsEmpty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsEmpty { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IImageSource.IsEmpty</InterfaceMember>
@@ -72,8 +72,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt; Microsoft.Maui.IStreamImageSource.GetStreamAsync(valuetype System.Threading.CancellationToken userToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.StreamImageSource.Microsoft#Maui#IStreamImageSource#GetStreamAsync(System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Function GetStreamAsync (userToken As CancellationToken) As Task(Of Stream) Implements IStreamImageSource.GetStreamAsync" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^ Microsoft.Maui.IStreamImageSource.GetStreamAsync(System::Threading::CancellationToken userToken) = Microsoft::Maui::IStreamImageSource::GetStreamAsync;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IStreamImageSource.GetStreamAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.IO.Stream&gt;&#xA;override this.Microsoft.Maui.IStreamImageSource.GetStreamAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.IO.Stream&gt;" Usage="streamImageSource.Microsoft.Maui.IStreamImageSource.GetStreamAsync userToken" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^ Microsoft.Maui.IStreamImageSource.GetStreamAsync(System::Threading::CancellationToken userToken) = Microsoft::Maui::IStreamImageSource::GetStreamAsync;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IStreamImageSource.GetStreamAsync(System.Threading.CancellationToken)</InterfaceMember>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPropertyChanged(string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.StreamImageSource.OnPropertyChanged(System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPropertyChanged (propertyName As String)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPropertyChanged(System::String ^ propertyName);" />
       <MemberSignature Language="F#" Value="override this.OnPropertyChanged : string -&gt; unit" Usage="streamImageSource.OnPropertyChanged propertyName" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPropertyChanged(System::String ^ propertyName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -124,8 +124,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt;&gt; Stream" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.StreamImageSource.Stream" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Stream As Func(Of CancellationToken, Task(Of Stream))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Func&lt;System::Threading::CancellationToken, System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^&gt; ^ Stream { Func&lt;System::Threading::CancellationToken, System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^&gt; ^ get(); void set(Func&lt;System::Threading::CancellationToken, System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Stream : Func&lt;System.Threading.CancellationToken, System.Threading.Tasks.Task&lt;System.IO.Stream&gt;&gt; with get, set" Usage="Microsoft.Maui.Controls.StreamImageSource.Stream" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Func&lt;System::Threading::CancellationToken, System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^&gt; ^ Stream { Func&lt;System::Threading::CancellationToken, System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^&gt; ^ get(); void set(Func&lt;System::Threading::CancellationToken, System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -145,8 +145,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StreamProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.StreamImageSource.StreamProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StreamProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StreamProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable StreamProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.StreamImageSource.StreamProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StreamProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

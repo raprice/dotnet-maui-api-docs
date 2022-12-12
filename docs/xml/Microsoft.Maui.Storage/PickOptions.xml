@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PickOptions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Storage.PickOptions" />
   <TypeSignature Language="VB.NET" Value="Public Class PickOptions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PickOptions" />
   <TypeSignature Language="F#" Value="type PickOptions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PickOptions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Storage.PickOptions Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Storage.PickOptions.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As PickOptions" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Storage::PickOptions ^ Default { Microsoft::Maui::Storage::PickOptions ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.Storage.PickOptions" Usage="Microsoft.Maui.Storage.PickOptions.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Storage::PickOptions ^ Default { Microsoft::Maui::Storage::PickOptions ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Storage.FilePickerFileType FileTypes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Storage.PickOptions.FileTypes" />
       <MemberSignature Language="VB.NET" Value="Public Property FileTypes As FilePickerFileType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Storage::FilePickerFileType ^ FileTypes { Microsoft::Maui::Storage::FilePickerFileType ^ get(); void set(Microsoft::Maui::Storage::FilePickerFileType ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FileTypes : Microsoft.Maui.Storage.FilePickerFileType with get, set" Usage="Microsoft.Maui.Storage.PickOptions.FileTypes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Storage::FilePickerFileType ^ FileTypes { Microsoft::Maui::Storage::FilePickerFileType ^ get(); void set(Microsoft::Maui::Storage::FilePickerFileType ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -91,8 +91,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Storage.PickOptions Images" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Storage.PickOptions.Images" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Images As PickOptions" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Storage::PickOptions ^ Images { Microsoft::Maui::Storage::PickOptions ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Images : Microsoft.Maui.Storage.PickOptions" Usage="Microsoft.Maui.Storage.PickOptions.Images" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Storage::PickOptions ^ Images { Microsoft::Maui::Storage::PickOptions ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -115,8 +115,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string PickerTitle" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Storage.PickOptions.PickerTitle" />
       <MemberSignature Language="VB.NET" Value="Public Property PickerTitle As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PickerTitle { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PickerTitle : string with get, set" Usage="Microsoft.Maui.Storage.PickOptions.PickerTitle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PickerTitle { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

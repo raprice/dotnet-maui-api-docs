@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Battery extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.Battery" />
   <TypeSignature Language="VB.NET" Value="Public Class Battery" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Battery abstract sealed" />
   <TypeSignature Language="F#" Value="type Battery = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Battery abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -28,8 +28,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Devices.BatteryInfoChangedEventArgs&gt; BatteryInfoChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Devices.Battery.BatteryInfoChanged" />
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event BatteryInfoChanged As EventHandler(Of BatteryInfoChangedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;Microsoft::Maui::Devices::BatteryInfoChangedEventArgs ^&gt; ^ BatteryInfoChanged;" />
       <MemberSignature Language="F#" Value="member this.BatteryInfoChanged : EventHandler&lt;Microsoft.Maui.Devices.BatteryInfoChangedEventArgs&gt; " Usage="member this.BatteryInfoChanged : System.EventHandler&lt;Microsoft.Maui.Devices.BatteryInfoChangedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;Microsoft::Maui::Devices::BatteryInfoChangedEventArgs ^&gt; ^ BatteryInfoChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".property float64 ChargeLevel" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Battery.ChargeLevel" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ChargeLevel As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property double ChargeLevel { double get(); };" />
       <MemberSignature Language="F#" Value="static member ChargeLevel : double" Usage="Microsoft.Maui.Devices.Battery.ChargeLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property double ChargeLevel { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Devices.IBattery Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Battery.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As IBattery" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::IBattery ^ Default { Microsoft::Maui::Devices::IBattery ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.Devices.IBattery" Usage="Microsoft.Maui.Devices.Battery.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::IBattery ^ Default { Microsoft::Maui::Devices::IBattery ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -92,8 +92,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Devices.EnergySaverStatus EnergySaverStatus" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Battery.EnergySaverStatus" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property EnergySaverStatus As EnergySaverStatus" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::EnergySaverStatus EnergySaverStatus { Microsoft::Maui::Devices::EnergySaverStatus get(); };" />
       <MemberSignature Language="F#" Value="static member EnergySaverStatus : Microsoft.Maui.Devices.EnergySaverStatus" Usage="Microsoft.Maui.Devices.Battery.EnergySaverStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::EnergySaverStatus EnergySaverStatus { Microsoft::Maui::Devices::EnergySaverStatus get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -113,8 +113,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Devices.EnergySaverStatusChangedEventArgs&gt; EnergySaverStatusChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Devices.Battery.EnergySaverStatusChanged" />
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event EnergySaverStatusChanged As EventHandler(Of EnergySaverStatusChangedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;Microsoft::Maui::Devices::EnergySaverStatusChangedEventArgs ^&gt; ^ EnergySaverStatusChanged;" />
       <MemberSignature Language="F#" Value="member this.EnergySaverStatusChanged : EventHandler&lt;Microsoft.Maui.Devices.EnergySaverStatusChangedEventArgs&gt; " Usage="member this.EnergySaverStatusChanged : System.EventHandler&lt;Microsoft.Maui.Devices.EnergySaverStatusChangedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;Microsoft::Maui::Devices::EnergySaverStatusChangedEventArgs ^&gt; ^ EnergySaverStatusChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -133,8 +133,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Devices.BatteryPowerSource PowerSource" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Battery.PowerSource" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PowerSource As BatteryPowerSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::BatteryPowerSource PowerSource { Microsoft::Maui::Devices::BatteryPowerSource get(); };" />
       <MemberSignature Language="F#" Value="static member PowerSource : Microsoft.Maui.Devices.BatteryPowerSource" Usage="Microsoft.Maui.Devices.Battery.PowerSource" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::BatteryPowerSource PowerSource { Microsoft::Maui::Devices::BatteryPowerSource get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -156,8 +156,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Devices.BatteryState State" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Battery.State" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property State As BatteryState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::BatteryState State { Microsoft::Maui::Devices::BatteryState get(); };" />
       <MemberSignature Language="F#" Value="static member State : Microsoft.Maui.Devices.BatteryState" Usage="Microsoft.Maui.Devices.Battery.State" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Devices::BatteryState State { Microsoft::Maui::Devices::BatteryState get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

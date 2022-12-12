@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SemanticProperties extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.SemanticProperties" />
   <TypeSignature Language="VB.NET" Value="Public Class SemanticProperties" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SemanticProperties" />
   <TypeSignature Language="F#" Value="type SemanticProperties = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SemanticProperties" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DescriptionProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SemanticProperties.DescriptionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DescriptionProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ DescriptionProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable DescriptionProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SemanticProperties.DescriptionProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ DescriptionProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -60,8 +60,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetDescription(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SemanticProperties.GetDescription(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetDescription (bindable As BindableObject) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetDescription(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetDescription : Microsoft.Maui.Controls.BindableObject -&gt; string" Usage="Microsoft.Maui.Controls.SemanticProperties.GetDescription bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetDescription(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -85,8 +85,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.SemanticHeadingLevel GetHeadingLevel(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SemanticProperties.GetHeadingLevel(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetHeadingLevel (bindable As BindableObject) As SemanticHeadingLevel" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::SemanticHeadingLevel GetHeadingLevel(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetHeadingLevel : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.SemanticHeadingLevel" Usage="Microsoft.Maui.Controls.SemanticProperties.GetHeadingLevel bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::SemanticHeadingLevel GetHeadingLevel(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -110,8 +110,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetHint(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SemanticProperties.GetHint(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetHint (bindable As BindableObject) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetHint(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetHint : Microsoft.Maui.Controls.BindableObject -&gt; string" Usage="Microsoft.Maui.Controls.SemanticProperties.GetHint bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetHint(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -135,8 +135,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HeadingLevelProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SemanticProperties.HeadingLevelProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeadingLevelProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeadingLevelProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HeadingLevelProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SemanticProperties.HeadingLevelProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeadingLevelProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -155,8 +155,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HintProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SemanticProperties.HintProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HintProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HintProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HintProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SemanticProperties.HintProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HintProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -175,8 +175,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetDescription(class Microsoft.Maui.Controls.BindableObject bindable, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SemanticProperties.SetDescription(Microsoft.Maui.Controls.BindableObject,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetDescription (bindable As BindableObject, value As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetDescription(Microsoft::Maui::Controls::BindableObject ^ bindable, System::String ^ value);" />
       <MemberSignature Language="F#" Value="static member SetDescription : Microsoft.Maui.Controls.BindableObject * string -&gt; unit" Usage="Microsoft.Maui.Controls.SemanticProperties.SetDescription (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetDescription(Microsoft::Maui::Controls::BindableObject ^ bindable, System::String ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -201,8 +201,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetHeadingLevel(class Microsoft.Maui.Controls.BindableObject bindable, valuetype Microsoft.Maui.SemanticHeadingLevel value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SemanticProperties.SetHeadingLevel(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.SemanticHeadingLevel)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetHeadingLevel (bindable As BindableObject, value As SemanticHeadingLevel)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHeadingLevel(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::SemanticHeadingLevel value);" />
       <MemberSignature Language="F#" Value="static member SetHeadingLevel : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.SemanticHeadingLevel -&gt; unit" Usage="Microsoft.Maui.Controls.SemanticProperties.SetHeadingLevel (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHeadingLevel(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::SemanticHeadingLevel value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -227,8 +227,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetHint(class Microsoft.Maui.Controls.BindableObject bindable, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SemanticProperties.SetHint(Microsoft.Maui.Controls.BindableObject,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetHint (bindable As BindableObject, value As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHint(Microsoft::Maui::Controls::BindableObject ^ bindable, System::String ^ value);" />
       <MemberSignature Language="F#" Value="static member SetHint : Microsoft.Maui.Controls.BindableObject * string -&gt; unit" Usage="Microsoft.Maui.Controls.SemanticProperties.SetHint (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHint(Microsoft::Maui::Controls::BindableObject ^ bindable, System::String ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

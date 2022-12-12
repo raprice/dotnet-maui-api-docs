@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PathF extends System.Object implements class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.PathF" />
   <TypeSignature Language="VB.NET" Value="Public Class PathF&#xA;Implements IDisposable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PathF : IDisposable" />
   <TypeSignature Language="F#" Value="type PathF = class&#xA;    interface IDisposable" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PathF : IDisposable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Graphics.PathF path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.#ctor(Microsoft.Maui.Graphics.PathF)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (path As PathF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; PathF(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Graphics.PathF : Microsoft.Maui.Graphics.PathF -&gt; Microsoft.Maui.Graphics.PathF" Usage="new Microsoft.Maui.Graphics.PathF path" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PathF(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.Graphics.PointF point) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.#ctor(Microsoft.Maui.Graphics.PointF)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (point As PointF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; PathF(Microsoft::Maui::Graphics::PointF point);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Graphics.PathF : Microsoft.Maui.Graphics.PointF -&gt; Microsoft.Maui.Graphics.PathF" Usage="new Microsoft.Maui.Graphics.PathF point" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PathF(Microsoft::Maui::Graphics::PointF point);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float32 x, float32 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.#ctor(System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (x As Single, y As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; PathF(float x, float y);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Graphics.PathF : single * single -&gt; Microsoft.Maui.Graphics.PathF" Usage="new Microsoft.Maui.Graphics.PathF (x, y)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PathF(float x, float y);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -109,8 +109,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF AddArc(valuetype Microsoft.Maui.Graphics.PointF topLeft, valuetype Microsoft.Maui.Graphics.PointF bottomRight, float32 startAngle, float32 endAngle, bool clockwise) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.AddArc(Microsoft.Maui.Graphics.PointF,Microsoft.Maui.Graphics.PointF,System.Single,System.Single,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddArc (topLeft As PointF, bottomRight As PointF, startAngle As Single, endAngle As Single, clockwise As Boolean) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ AddArc(Microsoft::Maui::Graphics::PointF topLeft, Microsoft::Maui::Graphics::PointF bottomRight, float startAngle, float endAngle, bool clockwise);" />
       <MemberSignature Language="F#" Value="member this.AddArc : Microsoft.Maui.Graphics.PointF * Microsoft.Maui.Graphics.PointF * single * single * bool -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.AddArc (topLeft, bottomRight, startAngle, endAngle, clockwise)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ AddArc(Microsoft::Maui::Graphics::PointF topLeft, Microsoft::Maui::Graphics::PointF bottomRight, float startAngle, float endAngle, bool clockwise);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -142,8 +142,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF AddArc(float32 x1, float32 y1, float32 x2, float32 y2, float32 startAngle, float32 endAngle, bool clockwise) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.AddArc(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddArc (x1 As Single, y1 As Single, x2 As Single, y2 As Single, startAngle As Single, endAngle As Single, clockwise As Boolean) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ AddArc(float x1, float y1, float x2, float y2, float startAngle, float endAngle, bool clockwise);" />
       <MemberSignature Language="F#" Value="member this.AddArc : single * single * single * single * single * single * bool -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.AddArc (x1, y1, x2, y2, startAngle, endAngle, clockwise)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ AddArc(float x1, float y1, float x2, float y2, float startAngle, float endAngle, bool clockwise);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -179,8 +179,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AppendCircle(valuetype Microsoft.Maui.Graphics.PointF center, float32 r) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.AppendCircle(Microsoft.Maui.Graphics.PointF,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AppendCircle (center As PointF, r As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AppendCircle(Microsoft::Maui::Graphics::PointF center, float r);" />
       <MemberSignature Language="F#" Value="member this.AppendCircle : Microsoft.Maui.Graphics.PointF * single -&gt; unit" Usage="pathF.AppendCircle (center, r)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AppendCircle(Microsoft::Maui::Graphics::PointF center, float r);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -205,8 +205,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AppendCircle(float32 cx, float32 cy, float32 r) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.AppendCircle(System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AppendCircle (cx As Single, cy As Single, r As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AppendCircle(float cx, float cy, float r);" />
       <MemberSignature Language="F#" Value="member this.AppendCircle : single * single * single -&gt; unit" Usage="pathF.AppendCircle (cx, cy, r)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AppendCircle(float cx, float cy, float r);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -233,8 +233,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AppendEllipse(valuetype Microsoft.Maui.Graphics.RectF rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.AppendEllipse(Microsoft.Maui.Graphics.RectF)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AppendEllipse (rect As RectF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AppendEllipse(Microsoft::Maui::Graphics::RectF rect);" />
       <MemberSignature Language="F#" Value="member this.AppendEllipse : Microsoft.Maui.Graphics.RectF -&gt; unit" Usage="pathF.AppendEllipse rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AppendEllipse(Microsoft::Maui::Graphics::RectF rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -257,8 +257,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AppendEllipse(float32 x, float32 y, float32 w, float32 h) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.AppendEllipse(System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AppendEllipse (x As Single, y As Single, w As Single, h As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AppendEllipse(float x, float y, float w, float h);" />
       <MemberSignature Language="F#" Value="member this.AppendEllipse : single * single * single * single -&gt; unit" Usage="pathF.AppendEllipse (x, y, w, h)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AppendEllipse(float x, float y, float w, float h);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -370,8 +370,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AppendRoundedRectangle(valuetype Microsoft.Maui.Graphics.RectF rect, float32 xCornerRadius, float32 yCornerRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.AppendRoundedRectangle(Microsoft.Maui.Graphics.RectF,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AppendRoundedRectangle (rect As RectF, xCornerRadius As Single, yCornerRadius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AppendRoundedRectangle(Microsoft::Maui::Graphics::RectF rect, float xCornerRadius, float yCornerRadius);" />
       <MemberSignature Language="F#" Value="member this.AppendRoundedRectangle : Microsoft.Maui.Graphics.RectF * single * single -&gt; unit" Usage="pathF.AppendRoundedRectangle (rect, xCornerRadius, yCornerRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AppendRoundedRectangle(Microsoft::Maui::Graphics::RectF rect, float xCornerRadius, float yCornerRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -503,8 +503,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.RectF Bounds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PathF.Bounds" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Bounds As RectF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::RectF Bounds { Microsoft::Maui::Graphics::RectF get(); };" />
       <MemberSignature Language="F#" Value="member this.Bounds : Microsoft.Maui.Graphics.RectF" Usage="Microsoft.Maui.Graphics.PathF.Bounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::RectF Bounds { Microsoft::Maui::Graphics::RectF get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -524,8 +524,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Close() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.Close" />
       <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
       <MemberSignature Language="F#" Value="member this.Close : unit -&gt; unit" Usage="pathF.Close " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -545,8 +545,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Closed" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PathF.Closed" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Closed As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Closed { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.Closed : bool" Usage="Microsoft.Maui.Graphics.PathF.Closed" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Closed { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -566,8 +566,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PathF.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Maui.Graphics.PathF.Count" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -587,8 +587,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF CurveTo(valuetype Microsoft.Maui.Graphics.PointF controlPoint1, valuetype Microsoft.Maui.Graphics.PointF controlPoint2, valuetype Microsoft.Maui.Graphics.PointF point) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.CurveTo(Microsoft.Maui.Graphics.PointF,Microsoft.Maui.Graphics.PointF,Microsoft.Maui.Graphics.PointF)" />
       <MemberSignature Language="VB.NET" Value="Public Function CurveTo (controlPoint1 As PointF, controlPoint2 As PointF, point As PointF) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ CurveTo(Microsoft::Maui::Graphics::PointF controlPoint1, Microsoft::Maui::Graphics::PointF controlPoint2, Microsoft::Maui::Graphics::PointF point);" />
       <MemberSignature Language="F#" Value="member this.CurveTo : Microsoft.Maui.Graphics.PointF * Microsoft.Maui.Graphics.PointF * Microsoft.Maui.Graphics.PointF -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.CurveTo (controlPoint1, controlPoint2, point)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ CurveTo(Microsoft::Maui::Graphics::PointF controlPoint1, Microsoft::Maui::Graphics::PointF controlPoint2, Microsoft::Maui::Graphics::PointF point);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -616,8 +616,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF CurveTo(float32 c1X, float32 c1Y, float32 c2X, float32 c2Y, float32 x, float32 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.CurveTo(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function CurveTo (c1X As Single, c1Y As Single, c2X As Single, c2Y As Single, x As Single, y As Single) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ CurveTo(float c1X, float c1Y, float c2X, float c2Y, float x, float y);" />
       <MemberSignature Language="F#" Value="member this.CurveTo : single * single * single * single * single * single -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.CurveTo (c1X, c1Y, c2X, c2Y, x, y)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ CurveTo(float c1X, float c1Y, float c2X, float c2Y, float x, float y);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -651,8 +651,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.Dispose" />
       <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="pathF.Dispose " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
@@ -675,8 +675,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="pathF.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -700,8 +700,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Equals(object obj, float32 epsilon) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.Equals(System.Object,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (obj As Object, epsilon As Single) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Equals(System::Object ^ obj, float epsilon);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj * single -&gt; bool" Usage="pathF.Equals (obj, epsilon)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Equals(System::Object ^ obj, float epsilon);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -727,8 +727,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.PointF FirstPoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PathF.FirstPoint" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FirstPoint As PointF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::PointF FirstPoint { Microsoft::Maui::Graphics::PointF get(); };" />
       <MemberSignature Language="F#" Value="member this.FirstPoint : Microsoft.Maui.Graphics.PointF" Usage="Microsoft.Maui.Graphics.PathF.FirstPoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::PointF FirstPoint { Microsoft::Maui::Graphics::PointF get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -748,8 +748,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance float32 GetArcAngle(int32 aIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.GetArcAngle(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetArcAngle (aIndex As Integer) As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; float GetArcAngle(int aIndex);" />
       <MemberSignature Language="F#" Value="member this.GetArcAngle : int -&gt; single" Usage="pathF.GetArcAngle aIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; float GetArcAngle(int aIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -773,8 +773,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool GetArcClockwise(int32 aIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.GetArcClockwise(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetArcClockwise (aIndex As Integer) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool GetArcClockwise(int aIndex);" />
       <MemberSignature Language="F#" Value="member this.GetArcClockwise : int -&gt; bool" Usage="pathF.GetArcClockwise aIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool GetArcClockwise(int aIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -848,8 +848,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="pathF.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -870,8 +870,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Graphics.PointF[] GetPointsForSegment(int32 segmentIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.GetPointsForSegment(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPointsForSegment (segmentIndex As Integer) As PointF()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ GetPointsForSegment(int segmentIndex);" />
       <MemberSignature Language="F#" Value="member this.GetPointsForSegment : int -&gt; Microsoft.Maui.Graphics.PointF[]" Usage="pathF.GetPointsForSegment segmentIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ GetPointsForSegment(int segmentIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -895,8 +895,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Graphics.PointF GetRotatedPoint(int32 pointIndex, valuetype Microsoft.Maui.Graphics.PointF pivotPoint, float32 angle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.GetRotatedPoint(System.Int32,Microsoft.Maui.Graphics.PointF,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetRotatedPoint (pointIndex As Integer, pivotPoint As PointF, angle As Single) As PointF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PointF GetRotatedPoint(int pointIndex, Microsoft::Maui::Graphics::PointF pivotPoint, float angle);" />
       <MemberSignature Language="F#" Value="member this.GetRotatedPoint : int * Microsoft.Maui.Graphics.PointF * single -&gt; Microsoft.Maui.Graphics.PointF" Usage="pathF.GetRotatedPoint (pointIndex, pivotPoint, angle)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PointF GetRotatedPoint(int pointIndex, Microsoft::Maui::Graphics::PointF pivotPoint, float angle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -924,8 +924,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 GetSegmentForPoint(int32 pointIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.GetSegmentForPoint(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetSegmentForPoint (pointIndex As Integer) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetSegmentForPoint(int pointIndex);" />
       <MemberSignature Language="F#" Value="member this.GetSegmentForPoint : int -&gt; int" Usage="pathF.GetSegmentForPoint pointIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetSegmentForPoint(int pointIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -949,8 +949,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Graphics.PathOperation GetSegmentInfo(int32 segmentIndex, [out] int32&amp; pointIndex, [out] int32&amp; arcAngleIndex, [out] int32&amp; arcClockwiseIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.GetSegmentInfo(System.Int32,System.Int32@,System.Int32@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetSegmentInfo (segmentIndex As Integer, ByRef pointIndex As Integer, ByRef arcAngleIndex As Integer, ByRef arcClockwiseIndex As Integer) As PathOperation" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathOperation GetSegmentInfo(int segmentIndex, [Runtime::InteropServices::Out] int % pointIndex, [Runtime::InteropServices::Out] int % arcAngleIndex, [Runtime::InteropServices::Out] int % arcClockwiseIndex);" />
       <MemberSignature Language="F#" Value="member this.GetSegmentInfo : int * int * int * int -&gt; Microsoft.Maui.Graphics.PathOperation" Usage="pathF.GetSegmentInfo (segmentIndex, pointIndex, arcAngleIndex, arcClockwiseIndex)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathOperation GetSegmentInfo(int segmentIndex, [Runtime::InteropServices::Out] int % pointIndex, [Runtime::InteropServices::Out] int % arcAngleIndex, [Runtime::InteropServices::Out] int % arcClockwiseIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -980,8 +980,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 GetSegmentPointIndex(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.GetSegmentPointIndex(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetSegmentPointIndex (index As Integer) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetSegmentPointIndex(int index);" />
       <MemberSignature Language="F#" Value="member this.GetSegmentPointIndex : int -&gt; int" Usage="pathF.GetSegmentPointIndex index" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetSegmentPointIndex(int index);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1005,8 +1005,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Graphics.PathOperation GetSegmentType(int32 aIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.GetSegmentType(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetSegmentType (aIndex As Integer) As PathOperation" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathOperation GetSegmentType(int aIndex);" />
       <MemberSignature Language="F#" Value="member this.GetSegmentType : int -&gt; Microsoft.Maui.Graphics.PathOperation" Usage="pathF.GetSegmentType aIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathOperation GetSegmentType(int aIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1030,8 +1030,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF InsertCurveTo(valuetype Microsoft.Maui.Graphics.PointF controlPoint1, valuetype Microsoft.Maui.Graphics.PointF controlPoint2, valuetype Microsoft.Maui.Graphics.PointF point, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.InsertCurveTo(Microsoft.Maui.Graphics.PointF,Microsoft.Maui.Graphics.PointF,Microsoft.Maui.Graphics.PointF,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function InsertCurveTo (controlPoint1 As PointF, controlPoint2 As PointF, point As PointF, index As Integer) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ InsertCurveTo(Microsoft::Maui::Graphics::PointF controlPoint1, Microsoft::Maui::Graphics::PointF controlPoint2, Microsoft::Maui::Graphics::PointF point, int index);" />
       <MemberSignature Language="F#" Value="member this.InsertCurveTo : Microsoft.Maui.Graphics.PointF * Microsoft.Maui.Graphics.PointF * Microsoft.Maui.Graphics.PointF * int -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.InsertCurveTo (controlPoint1, controlPoint2, point, index)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ InsertCurveTo(Microsoft::Maui::Graphics::PointF controlPoint1, Microsoft::Maui::Graphics::PointF controlPoint2, Microsoft::Maui::Graphics::PointF point, int index);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1061,8 +1061,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF InsertLineTo(valuetype Microsoft.Maui.Graphics.PointF point, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.InsertLineTo(Microsoft.Maui.Graphics.PointF,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function InsertLineTo (point As PointF, index As Integer) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ InsertLineTo(Microsoft::Maui::Graphics::PointF point, int index);" />
       <MemberSignature Language="F#" Value="member this.InsertLineTo : Microsoft.Maui.Graphics.PointF * int -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.InsertLineTo (point, index)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ InsertLineTo(Microsoft::Maui::Graphics::PointF point, int index);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1088,8 +1088,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF InsertQuadTo(valuetype Microsoft.Maui.Graphics.PointF controlPoint, valuetype Microsoft.Maui.Graphics.PointF point, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.InsertQuadTo(Microsoft.Maui.Graphics.PointF,Microsoft.Maui.Graphics.PointF,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function InsertQuadTo (controlPoint As PointF, point As PointF, index As Integer) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ InsertQuadTo(Microsoft::Maui::Graphics::PointF controlPoint, Microsoft::Maui::Graphics::PointF point, int index);" />
       <MemberSignature Language="F#" Value="member this.InsertQuadTo : Microsoft.Maui.Graphics.PointF * Microsoft.Maui.Graphics.PointF * int -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.InsertQuadTo (controlPoint, point, index)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ InsertQuadTo(Microsoft::Maui::Graphics::PointF controlPoint, Microsoft::Maui::Graphics::PointF point, int index);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1117,8 +1117,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Invalidate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.Invalidate" />
       <MemberSignature Language="VB.NET" Value="Public Sub Invalidate ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Invalidate();" />
       <MemberSignature Language="F#" Value="member this.Invalidate : unit -&gt; unit" Usage="pathF.Invalidate " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Invalidate();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1138,8 +1138,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsSubPathClosed(int32 subPathIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.IsSubPathClosed(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function IsSubPathClosed (subPathIndex As Integer) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsSubPathClosed(int subPathIndex);" />
       <MemberSignature Language="F#" Value="member this.IsSubPathClosed : int -&gt; bool" Usage="pathF.IsSubPathClosed subPathIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsSubPathClosed(int subPathIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1163,8 +1163,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.PointF Item(int32)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PathF.Item(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As PointF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::PointF default[int] { Microsoft::Maui::Graphics::PointF get(int index); };" />
       <MemberSignature Language="F#" Value="member this.Item(int) : Microsoft.Maui.Graphics.PointF" Usage="Microsoft.Maui.Graphics.PathF.Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::PointF default[int] { Microsoft::Maui::Graphics::PointF get(int index); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1188,8 +1188,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.PointF LastPoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PathF.LastPoint" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastPoint As PointF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::PointF LastPoint { Microsoft::Maui::Graphics::PointF get(); };" />
       <MemberSignature Language="F#" Value="member this.LastPoint : Microsoft.Maui.Graphics.PointF" Usage="Microsoft.Maui.Graphics.PathF.LastPoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::PointF LastPoint { Microsoft::Maui::Graphics::PointF get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1209,8 +1209,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 LastPointIndex" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PathF.LastPointIndex" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastPointIndex As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LastPointIndex { int get(); };" />
       <MemberSignature Language="F#" Value="member this.LastPointIndex : int" Usage="Microsoft.Maui.Graphics.PathF.LastPointIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LastPointIndex { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1230,8 +1230,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF LineTo(valuetype Microsoft.Maui.Graphics.PointF point) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.LineTo(Microsoft.Maui.Graphics.PointF)" />
       <MemberSignature Language="VB.NET" Value="Public Function LineTo (point As PointF) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ LineTo(Microsoft::Maui::Graphics::PointF point);" />
       <MemberSignature Language="F#" Value="member this.LineTo : Microsoft.Maui.Graphics.PointF -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.LineTo point" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ LineTo(Microsoft::Maui::Graphics::PointF point);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1255,8 +1255,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF LineTo(float32 x, float32 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.LineTo(System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function LineTo (x As Single, y As Single) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ LineTo(float x, float y);" />
       <MemberSignature Language="F#" Value="member this.LineTo : single * single -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.LineTo (x, y)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ LineTo(float x, float y);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1282,8 +1282,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Move(float32 x, float32 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.Move(System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Move (x As Single, y As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Move(float x, float y);" />
       <MemberSignature Language="F#" Value="member this.Move : single * single -&gt; unit" Usage="pathF.Move (x, y)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Move(float x, float y);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1308,8 +1308,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void MovePoint(int32 index, float32 dx, float32 dy) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.MovePoint(System.Int32,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub MovePoint (index As Integer, dx As Single, dy As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MovePoint(int index, float dx, float dy);" />
       <MemberSignature Language="F#" Value="member this.MovePoint : int * single * single -&gt; unit" Usage="pathF.MovePoint (index, dx, dy)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MovePoint(int index, float dx, float dy);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1336,8 +1336,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF MoveTo(valuetype Microsoft.Maui.Graphics.PointF point) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.MoveTo(Microsoft.Maui.Graphics.PointF)" />
       <MemberSignature Language="VB.NET" Value="Public Function MoveTo (point As PointF) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ MoveTo(Microsoft::Maui::Graphics::PointF point);" />
       <MemberSignature Language="F#" Value="member this.MoveTo : Microsoft.Maui.Graphics.PointF -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.MoveTo point" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ MoveTo(Microsoft::Maui::Graphics::PointF point);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1361,8 +1361,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF MoveTo(float32 x, float32 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.MoveTo(System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function MoveTo (x As Single, y As Single) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ MoveTo(float x, float y);" />
       <MemberSignature Language="F#" Value="member this.MoveTo : single * single -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.MoveTo (x, y)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ MoveTo(float x, float y);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1388,8 +1388,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Open() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.Open" />
       <MemberSignature Language="VB.NET" Value="Public Sub Open ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Open();" />
       <MemberSignature Language="F#" Value="member this.Open : unit -&gt; unit" Usage="pathF.Open " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Open();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1409,8 +1409,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 OperationCount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PathF.OperationCount" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OperationCount As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int OperationCount { int get(); };" />
       <MemberSignature Language="F#" Value="member this.OperationCount : int" Usage="Microsoft.Maui.Graphics.PathF.OperationCount" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int OperationCount { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1430,8 +1430,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object PlatformPath" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PathF.PlatformPath" />
       <MemberSignature Language="VB.NET" Value="Public Property PlatformPath As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PlatformPath { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PlatformPath : obj with get, set" Usage="Microsoft.Maui.Graphics.PathF.PlatformPath" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PlatformPath { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1451,8 +1451,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype Microsoft.Maui.Graphics.PointF&gt; Points" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PathF.Points" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Points As IEnumerable(Of PointF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Graphics::PointF&gt; ^ Points { System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Graphics::PointF&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Points : seq&lt;Microsoft.Maui.Graphics.PointF&gt;" Usage="Microsoft.Maui.Graphics.PathF.Points" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Graphics::PointF&gt; ^ Points { System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Graphics::PointF&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1478,8 +1478,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF QuadTo(valuetype Microsoft.Maui.Graphics.PointF controlPoint, valuetype Microsoft.Maui.Graphics.PointF point) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.QuadTo(Microsoft.Maui.Graphics.PointF,Microsoft.Maui.Graphics.PointF)" />
       <MemberSignature Language="VB.NET" Value="Public Function QuadTo (controlPoint As PointF, point As PointF) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ QuadTo(Microsoft::Maui::Graphics::PointF controlPoint, Microsoft::Maui::Graphics::PointF point);" />
       <MemberSignature Language="F#" Value="member this.QuadTo : Microsoft.Maui.Graphics.PointF * Microsoft.Maui.Graphics.PointF -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.QuadTo (controlPoint, point)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ QuadTo(Microsoft::Maui::Graphics::PointF controlPoint, Microsoft::Maui::Graphics::PointF point);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1505,8 +1505,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF QuadTo(float32 cx, float32 cy, float32 x, float32 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.QuadTo(System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function QuadTo (cx As Single, cy As Single, x As Single, y As Single) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ QuadTo(float cx, float cy, float x, float y);" />
       <MemberSignature Language="F#" Value="member this.QuadTo : single * single * single * single -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.QuadTo (cx, cy, x, y)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ QuadTo(float cx, float cy, float x, float y);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1536,8 +1536,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAllSegmentsAfter(int32 segmentIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.RemoveAllSegmentsAfter(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveAllSegmentsAfter (segmentIndex As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAllSegmentsAfter(int segmentIndex);" />
       <MemberSignature Language="F#" Value="member this.RemoveAllSegmentsAfter : int -&gt; unit" Usage="pathF.RemoveAllSegmentsAfter segmentIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAllSegmentsAfter(int segmentIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1560,8 +1560,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveSegment(int32 segmentIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.RemoveSegment(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveSegment (segmentIndex As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveSegment(int segmentIndex);" />
       <MemberSignature Language="F#" Value="member this.RemoveSegment : int -&gt; unit" Usage="pathF.RemoveSegment segmentIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveSegment(int segmentIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1584,8 +1584,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF Reverse() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.Reverse" />
       <MemberSignature Language="VB.NET" Value="Public Function Reverse () As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ Reverse();" />
       <MemberSignature Language="F#" Value="member this.Reverse : unit -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.Reverse " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ Reverse();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1606,8 +1606,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.PathF Rotate(float32 angleAsDegrees, valuetype Microsoft.Maui.Graphics.PointF pivot) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.Rotate(System.Single,Microsoft.Maui.Graphics.PointF)" />
       <MemberSignature Language="VB.NET" Value="Public Function Rotate (angleAsDegrees As Single, pivot As PointF) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ Rotate(float angleAsDegrees, Microsoft::Maui::Graphics::PointF pivot);" />
       <MemberSignature Language="F#" Value="member this.Rotate : single * Microsoft.Maui.Graphics.PointF -&gt; Microsoft.Maui.Graphics.PathF" Usage="pathF.Rotate (angleAsDegrees, pivot)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ Rotate(float angleAsDegrees, Microsoft::Maui::Graphics::PointF pivot);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1633,8 +1633,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 SegmentCountExcludingOpenAndClose" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PathF.SegmentCountExcludingOpenAndClose" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SegmentCountExcludingOpenAndClose As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SegmentCountExcludingOpenAndClose { int get(); };" />
       <MemberSignature Language="F#" Value="member this.SegmentCountExcludingOpenAndClose : int" Usage="Microsoft.Maui.Graphics.PathF.SegmentCountExcludingOpenAndClose" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SegmentCountExcludingOpenAndClose { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1654,8 +1654,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype Microsoft.Maui.Graphics.PathOperation&gt; SegmentTypes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PathF.SegmentTypes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SegmentTypes As IEnumerable(Of PathOperation)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Graphics::PathOperation&gt; ^ SegmentTypes { System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Graphics::PathOperation&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.SegmentTypes : seq&lt;Microsoft.Maui.Graphics.PathOperation&gt;" Usage="Microsoft.Maui.Graphics.PathF.SegmentTypes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Graphics::PathOperation&gt; ^ SegmentTypes { System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Graphics::PathOperation&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1681,8 +1681,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.List`1&lt;class Microsoft.Maui.Graphics.PathF&gt; Separate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.Separate" />
       <MemberSignature Language="VB.NET" Value="Public Function Separate () As List(Of PathF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::List&lt;Microsoft::Maui::Graphics::PathF ^&gt; ^ Separate();" />
       <MemberSignature Language="F#" Value="member this.Separate : unit -&gt; System.Collections.Generic.List&lt;Microsoft.Maui.Graphics.PathF&gt;" Usage="pathF.Separate " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::List&lt;Microsoft::Maui::Graphics::PathF ^&gt; ^ Separate();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1703,8 +1703,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetArcAngle(int32 aIndex, float32 aValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.SetArcAngle(System.Int32,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetArcAngle (aIndex As Integer, aValue As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetArcAngle(int aIndex, float aValue);" />
       <MemberSignature Language="F#" Value="member this.SetArcAngle : int * single -&gt; unit" Usage="pathF.SetArcAngle (aIndex, aValue)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetArcAngle(int aIndex, float aValue);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1729,8 +1729,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetArcClockwise(int32 aIndex, bool aValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.SetArcClockwise(System.Int32,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetArcClockwise (aIndex As Integer, aValue As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetArcClockwise(int aIndex, bool aValue);" />
       <MemberSignature Language="F#" Value="member this.SetArcClockwise : int * bool -&gt; unit" Usage="pathF.SetArcClockwise (aIndex, aValue)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetArcClockwise(int aIndex, bool aValue);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1755,8 +1755,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetPoint(int32 index, valuetype Microsoft.Maui.Graphics.PointF point) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.SetPoint(System.Int32,Microsoft.Maui.Graphics.PointF)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetPoint (index As Integer, point As PointF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetPoint(int index, Microsoft::Maui::Graphics::PointF point);" />
       <MemberSignature Language="F#" Value="member this.SetPoint : int * Microsoft.Maui.Graphics.PointF -&gt; unit" Usage="pathF.SetPoint (index, point)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetPoint(int index, Microsoft::Maui::Graphics::PointF point);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1781,8 +1781,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetPoint(int32 index, float32 x, float32 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.SetPoint(System.Int32,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetPoint (index As Integer, x As Single, y As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetPoint(int index, float x, float y);" />
       <MemberSignature Language="F#" Value="member this.SetPoint : int * single * single -&gt; unit" Usage="pathF.SetPoint (index, x, y)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetPoint(int index, float x, float y);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1809,8 +1809,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 SubPathCount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PathF.SubPathCount" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SubPathCount As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SubPathCount { int get(); };" />
       <MemberSignature Language="F#" Value="member this.SubPathCount : int" Usage="Microsoft.Maui.Graphics.PathF.SubPathCount" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SubPathCount { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1830,8 +1830,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Transform(valuetype System.Numerics.Matrix3x2 transform) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathF.Transform(System.Numerics.Matrix3x2)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Transform (transform As Matrix3x2)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Transform(System::Numerics::Matrix3x2 transform);" />
       <MemberSignature Language="F#" Value="member this.Transform : System.Numerics.Matrix3x2 -&gt; unit" Usage="pathF.Transform transform" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Transform(System::Numerics::Matrix3x2 transform);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit GeometryHelper extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.GeometryHelper" />
   <TypeSignature Language="VB.NET" Value="Public Class GeometryHelper" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GeometryHelper abstract sealed" />
   <TypeSignature Language="F#" Value="type GeometryHelper = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GeometryHelper abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FlattenArc(class System.Collections.Generic.List`1&lt;valuetype Microsoft.Maui.Graphics.Point&gt; points, valuetype Microsoft.Maui.Graphics.Point pt1, valuetype Microsoft.Maui.Graphics.Point pt2, float64 radiusX, float64 radiusY, float64 angleRotation, bool isLargeArc, bool isCounterclockwise, float64 tolerance) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.GeometryHelper.FlattenArc(System.Collections.Generic.List{Microsoft.Maui.Graphics.Point},Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Point,System.Double,System.Double,System.Double,System.Boolean,System.Boolean,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub FlattenArc (points As List(Of Point), pt1 As Point, pt2 As Point, radiusX As Double, radiusY As Double, angleRotation As Double, isLargeArc As Boolean, isCounterclockwise As Boolean, tolerance As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void FlattenArc(System::Collections::Generic::List&lt;Microsoft::Maui::Graphics::Point&gt; ^ points, Microsoft::Maui::Graphics::Point pt1, Microsoft::Maui::Graphics::Point pt2, double radiusX, double radiusY, double angleRotation, bool isLargeArc, bool isCounterclockwise, double tolerance);" />
       <MemberSignature Language="F#" Value="static member FlattenArc : System.Collections.Generic.List&lt;Microsoft.Maui.Graphics.Point&gt; * Microsoft.Maui.Graphics.Point * Microsoft.Maui.Graphics.Point * double * double * double * bool * bool * double -&gt; unit" Usage="Microsoft.Maui.Controls.Shapes.GeometryHelper.FlattenArc (points, pt1, pt2, radiusX, radiusY, angleRotation, isLargeArc, isCounterclockwise, tolerance)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void FlattenArc(System::Collections::Generic::List&lt;Microsoft::Maui::Graphics::Point&gt; ^ points, Microsoft::Maui::Graphics::Point pt1, Microsoft::Maui::Graphics::Point pt2, double radiusX, double radiusY, double angleRotation, bool isLargeArc, bool isCounterclockwise, double tolerance);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -63,8 +63,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FlattenCubicBezier(class System.Collections.Generic.List`1&lt;valuetype Microsoft.Maui.Graphics.Point&gt; points, valuetype Microsoft.Maui.Graphics.Point ptStart, valuetype Microsoft.Maui.Graphics.Point ptCtrl1, valuetype Microsoft.Maui.Graphics.Point ptCtrl2, valuetype Microsoft.Maui.Graphics.Point ptEnd, float64 tolerance) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.GeometryHelper.FlattenCubicBezier(System.Collections.Generic.List{Microsoft.Maui.Graphics.Point},Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Point,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub FlattenCubicBezier (points As List(Of Point), ptStart As Point, ptCtrl1 As Point, ptCtrl2 As Point, ptEnd As Point, tolerance As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void FlattenCubicBezier(System::Collections::Generic::List&lt;Microsoft::Maui::Graphics::Point&gt; ^ points, Microsoft::Maui::Graphics::Point ptStart, Microsoft::Maui::Graphics::Point ptCtrl1, Microsoft::Maui::Graphics::Point ptCtrl2, Microsoft::Maui::Graphics::Point ptEnd, double tolerance);" />
       <MemberSignature Language="F#" Value="static member FlattenCubicBezier : System.Collections.Generic.List&lt;Microsoft.Maui.Graphics.Point&gt; * Microsoft.Maui.Graphics.Point * Microsoft.Maui.Graphics.Point * Microsoft.Maui.Graphics.Point * Microsoft.Maui.Graphics.Point * double -&gt; unit" Usage="Microsoft.Maui.Controls.Shapes.GeometryHelper.FlattenCubicBezier (points, ptStart, ptCtrl1, ptCtrl2, ptEnd, tolerance)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void FlattenCubicBezier(System::Collections::Generic::List&lt;Microsoft::Maui::Graphics::Point&gt; ^ points, Microsoft::Maui::Graphics::Point ptStart, Microsoft::Maui::Graphics::Point ptCtrl1, Microsoft::Maui::Graphics::Point ptCtrl2, Microsoft::Maui::Graphics::Point ptEnd, double tolerance);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -97,8 +97,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.Shapes.PathGeometry FlattenGeometry(class Microsoft.Maui.Controls.Shapes.Geometry geoSrc, float64 tolerance) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.GeometryHelper.FlattenGeometry(Microsoft.Maui.Controls.Shapes.Geometry,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FlattenGeometry (geoSrc As Geometry, tolerance As Double) As PathGeometry" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Shapes::PathGeometry ^ FlattenGeometry(Microsoft::Maui::Controls::Shapes::Geometry ^ geoSrc, double tolerance);" />
       <MemberSignature Language="F#" Value="static member FlattenGeometry : Microsoft.Maui.Controls.Shapes.Geometry * double -&gt; Microsoft.Maui.Controls.Shapes.PathGeometry" Usage="Microsoft.Maui.Controls.Shapes.GeometryHelper.FlattenGeometry (geoSrc, tolerance)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Shapes::PathGeometry ^ FlattenGeometry(Microsoft::Maui::Controls::Shapes::Geometry ^ geoSrc, double tolerance);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -124,8 +124,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FlattenGeometry(class Microsoft.Maui.Controls.Shapes.PathGeometry pathGeoDst, class Microsoft.Maui.Controls.Shapes.Geometry geoSrc, float64 tolerance, valuetype Microsoft.Maui.Controls.Shapes.Matrix matxPrevious) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.GeometryHelper.FlattenGeometry(Microsoft.Maui.Controls.Shapes.PathGeometry,Microsoft.Maui.Controls.Shapes.Geometry,System.Double,Microsoft.Maui.Controls.Shapes.Matrix)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub FlattenGeometry (pathGeoDst As PathGeometry, geoSrc As Geometry, tolerance As Double, matxPrevious As Matrix)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void FlattenGeometry(Microsoft::Maui::Controls::Shapes::PathGeometry ^ pathGeoDst, Microsoft::Maui::Controls::Shapes::Geometry ^ geoSrc, double tolerance, Microsoft::Maui::Controls::Shapes::Matrix matxPrevious);" />
       <MemberSignature Language="F#" Value="static member FlattenGeometry : Microsoft.Maui.Controls.Shapes.PathGeometry * Microsoft.Maui.Controls.Shapes.Geometry * double * Microsoft.Maui.Controls.Shapes.Matrix -&gt; unit" Usage="Microsoft.Maui.Controls.Shapes.GeometryHelper.FlattenGeometry (pathGeoDst, geoSrc, tolerance, matxPrevious)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void FlattenGeometry(Microsoft::Maui::Controls::Shapes::PathGeometry ^ pathGeoDst, Microsoft::Maui::Controls::Shapes::Geometry ^ geoSrc, double tolerance, Microsoft::Maui::Controls::Shapes::Matrix matxPrevious);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -154,8 +154,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FlattenQuadraticBezier(class System.Collections.Generic.List`1&lt;valuetype Microsoft.Maui.Graphics.Point&gt; points, valuetype Microsoft.Maui.Graphics.Point ptStart, valuetype Microsoft.Maui.Graphics.Point ptCtrl, valuetype Microsoft.Maui.Graphics.Point ptEnd, float64 tolerance) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.GeometryHelper.FlattenQuadraticBezier(System.Collections.Generic.List{Microsoft.Maui.Graphics.Point},Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Point,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub FlattenQuadraticBezier (points As List(Of Point), ptStart As Point, ptCtrl As Point, ptEnd As Point, tolerance As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void FlattenQuadraticBezier(System::Collections::Generic::List&lt;Microsoft::Maui::Graphics::Point&gt; ^ points, Microsoft::Maui::Graphics::Point ptStart, Microsoft::Maui::Graphics::Point ptCtrl, Microsoft::Maui::Graphics::Point ptEnd, double tolerance);" />
       <MemberSignature Language="F#" Value="static member FlattenQuadraticBezier : System.Collections.Generic.List&lt;Microsoft.Maui.Graphics.Point&gt; * Microsoft.Maui.Graphics.Point * Microsoft.Maui.Graphics.Point * Microsoft.Maui.Graphics.Point * double -&gt; unit" Usage="Microsoft.Maui.Controls.Shapes.GeometryHelper.FlattenQuadraticBezier (points, ptStart, ptCtrl, ptEnd, tolerance)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void FlattenQuadraticBezier(System::Collections::Generic::List&lt;Microsoft::Maui::Graphics::Point&gt; ^ points, Microsoft::Maui::Graphics::Point ptStart, Microsoft::Maui::Graphics::Point ptCtrl, Microsoft::Maui::Graphics::Point ptEnd, double tolerance);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

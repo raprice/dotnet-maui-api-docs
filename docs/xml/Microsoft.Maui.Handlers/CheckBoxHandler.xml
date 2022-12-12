@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CheckBoxHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.ICheckBox, object&gt; implements class Microsoft.Maui.Handlers.ICheckBoxHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.CheckBoxHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class CheckBoxHandler&#xA;Inherits ViewHandler(Of ICheckBox, Object)&#xA;Implements ICheckBoxHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CheckBoxHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::ICheckBox ^, System::Object ^&gt;, Microsoft::Maui::Handlers::ICheckBoxHandler" />
   <TypeSignature Language="F#" Value="type CheckBoxHandler = class&#xA;    inherit ViewHandler&lt;ICheckBox, obj&gt;&#xA;    interface ICheckBoxHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CheckBoxHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::ICheckBox ^, System::Object ^&gt;, Microsoft::Maui::Handlers::ICheckBoxHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.CheckBoxHandler.#ctor(Microsoft.Maui.IPropertyMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CheckBoxHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.CheckBoxHandler : Microsoft.Maui.IPropertyMapper -&gt; Microsoft.Maui.Handlers.CheckBoxHandler" Usage="new Microsoft.Maui.Handlers.CheckBoxHandler mapper" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CheckBoxHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="C#" Value="public CheckBoxHandler (Microsoft.Maui.IPropertyMapper? mapper);" FrameworkAlternate="net-maui-7.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -76,8 +76,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.CheckBoxHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CheckBoxHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.CheckBoxHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.Handlers.CheckBoxHandler" Usage="new Microsoft.Maui.Handlers.CheckBoxHandler (mapper, commandMapper)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CheckBoxHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -99,8 +99,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.ICheckBox, class Microsoft.Maui.Handlers.CheckBoxHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.CheckBoxHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of ICheckBox, CheckBoxHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::ICheckBox ^, Microsoft::Maui::Handlers::CheckBoxHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.ICheckBox, Microsoft.Maui.Handlers.CheckBoxHandler&gt;" Usage="Microsoft.Maui.Handlers.CheckBoxHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::ICheckBox ^, Microsoft::Maui::Handlers::CheckBoxHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.CheckBoxHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="checkBoxHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -141,8 +141,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapForeground(class Microsoft.Maui.Handlers.ICheckBoxHandler handler, class Microsoft.Maui.ICheckBox check) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.CheckBoxHandler.MapForeground(Microsoft.Maui.Handlers.ICheckBoxHandler,Microsoft.Maui.ICheckBox)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapForeground (handler As ICheckBoxHandler, check As ICheckBox)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapForeground(Microsoft::Maui::Handlers::ICheckBoxHandler ^ handler, Microsoft::Maui::ICheckBox ^ check);" />
       <MemberSignature Language="F#" Value="static member MapForeground : Microsoft.Maui.Handlers.ICheckBoxHandler * Microsoft.Maui.ICheckBox -&gt; unit" Usage="Microsoft.Maui.Handlers.CheckBoxHandler.MapForeground (handler, check)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapForeground(Microsoft::Maui::Handlers::ICheckBoxHandler ^ handler, Microsoft::Maui::ICheckBox ^ check);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -167,8 +167,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsChecked(class Microsoft.Maui.Handlers.ICheckBoxHandler handler, class Microsoft.Maui.ICheckBox check) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.CheckBoxHandler.MapIsChecked(Microsoft.Maui.Handlers.ICheckBoxHandler,Microsoft.Maui.ICheckBox)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsChecked (handler As ICheckBoxHandler, check As ICheckBox)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsChecked(Microsoft::Maui::Handlers::ICheckBoxHandler ^ handler, Microsoft::Maui::ICheckBox ^ check);" />
       <MemberSignature Language="F#" Value="static member MapIsChecked : Microsoft.Maui.Handlers.ICheckBoxHandler * Microsoft.Maui.ICheckBox -&gt; unit" Usage="Microsoft.Maui.Handlers.CheckBoxHandler.MapIsChecked (handler, check)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsChecked(Microsoft::Maui::Handlers::ICheckBoxHandler ^ handler, Microsoft::Maui::ICheckBox ^ check);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -193,8 +193,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.ICheckBox, class Microsoft.Maui.Handlers.ICheckBoxHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.CheckBoxHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of ICheckBox, ICheckBoxHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ICheckBox ^, Microsoft::Maui::Handlers::ICheckBoxHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.ICheckBox, Microsoft.Maui.Handlers.ICheckBoxHandler&gt;" Usage="Microsoft.Maui.Handlers.CheckBoxHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ICheckBox ^, Microsoft::Maui::Handlers::ICheckBoxHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -213,8 +213,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.ICheckBoxHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.CheckBoxHandler.Microsoft#Maui#Handlers#ICheckBoxHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements ICheckBoxHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::ICheckBoxHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.ICheckBoxHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.ICheckBoxHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::ICheckBoxHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.ICheckBoxHandler.PlatformView</InterfaceMember>
@@ -237,8 +237,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.ICheckBox Microsoft.Maui.Handlers.ICheckBoxHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.CheckBoxHandler.Microsoft#Maui#Handlers#ICheckBoxHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As ICheckBox Implements ICheckBoxHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ICheckBox ^ Microsoft::Maui::Handlers::ICheckBoxHandler::VirtualView { Microsoft::Maui::ICheckBox ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.ICheckBoxHandler.VirtualView : Microsoft.Maui.ICheckBox" Usage="Microsoft.Maui.Handlers.ICheckBoxHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ICheckBox ^ Microsoft::Maui::Handlers::ICheckBoxHandler::VirtualView { Microsoft::Maui::ICheckBox ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.ICheckBoxHandler.VirtualView</InterfaceMember>

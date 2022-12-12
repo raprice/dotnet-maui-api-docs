@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AppTheme extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.AppTheme" />
   <TypeSignature Language="VB.NET" Value="Public Enum AppTheme" />
-  <TypeSignature Language="C++ CLI" Value="public enum class AppTheme" />
   <TypeSignature Language="F#" Value="type AppTheme = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class AppTheme" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.ApplicationModel.AppTheme Dark = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.ApplicationModel.AppTheme.Dark" />
       <MemberSignature Language="VB.NET" Value="Dark" />
-      <MemberSignature Language="C++ CLI" Value="Dark" />
       <MemberSignature Language="F#" Value="Dark = 2" Usage="Microsoft.Maui.ApplicationModel.AppTheme.Dark" />
+      <MemberSignature Language="C++ CLI" Value="Dark" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.ApplicationModel.AppTheme Light = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.ApplicationModel.AppTheme.Light" />
       <MemberSignature Language="VB.NET" Value="Light" />
-      <MemberSignature Language="C++ CLI" Value="Light" />
       <MemberSignature Language="F#" Value="Light = 1" Usage="Microsoft.Maui.ApplicationModel.AppTheme.Light" />
+      <MemberSignature Language="C++ CLI" Value="Light" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.ApplicationModel.AppTheme Unspecified = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.ApplicationModel.AppTheme.Unspecified" />
       <MemberSignature Language="VB.NET" Value="Unspecified" />
-      <MemberSignature Language="C++ CLI" Value="Unspecified" />
       <MemberSignature Language="F#" Value="Unspecified = 0" Usage="Microsoft.Maui.ApplicationModel.AppTheme.Unspecified" />
+      <MemberSignature Language="C++ CLI" Value="Unspecified" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

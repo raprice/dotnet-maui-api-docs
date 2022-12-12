@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TapGestureRecognizer extends Microsoft.Maui.Controls.GestureRecognizer" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.TapGestureRecognizer" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TapGestureRecognizer&#xA;Inherits GestureRecognizer" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TapGestureRecognizer sealed : Microsoft::Maui::Controls::GestureRecognizer" />
   <TypeSignature Language="F#" Value="type TapGestureRecognizer = class&#xA;    inherit GestureRecognizer" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TapGestureRecognizer sealed : Microsoft::Maui::Controls::GestureRecognizer" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.ButtonsMask Buttons" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TapGestureRecognizer.Buttons" />
       <MemberSignature Language="VB.NET" Value="Public Property Buttons As ButtonsMask" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ButtonsMask Buttons { Microsoft::Maui::Controls::ButtonsMask get(); void set(Microsoft::Maui::Controls::ButtonsMask value); };" />
       <MemberSignature Language="F#" Value="member this.Buttons : Microsoft.Maui.Controls.ButtonsMask with get, set" Usage="Microsoft.Maui.Controls.TapGestureRecognizer.Buttons" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ButtonsMask Buttons { Microsoft::Maui::Controls::ButtonsMask get(); void set(Microsoft::Maui::Controls::ButtonsMask value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ButtonsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TapGestureRecognizer.ButtonsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ButtonsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ButtonsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ButtonsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TapGestureRecognizer.ButtonsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ButtonsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -81,8 +81,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand Command" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TapGestureRecognizer.Command" />
       <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ Command { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.TapGestureRecognizer.Command" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ Command { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="C#" Value="public System.Windows.Input.ICommand? Command { get; set; }" FrameworkAlternate="net-maui-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -103,8 +103,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object CommandParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TapGestureRecognizer.CommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property CommandParameter As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="Microsoft.Maui.Controls.TapGestureRecognizer.CommandParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="C#" Value="public object? CommandParameter { get; set; }" FrameworkAlternate="net-maui-7.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -125,8 +125,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TapGestureRecognizer.CommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandParameterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CommandParameterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TapGestureRecognizer.CommandParameterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CommandParameterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -145,8 +145,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TapGestureRecognizer.CommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TapGestureRecognizer.CommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -165,8 +165,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfTapsRequired" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TapGestureRecognizer.NumberOfTapsRequired" />
       <MemberSignature Language="VB.NET" Value="Public Property NumberOfTapsRequired As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfTapsRequired { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.NumberOfTapsRequired : int with get, set" Usage="Microsoft.Maui.Controls.TapGestureRecognizer.NumberOfTapsRequired" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfTapsRequired { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -186,8 +186,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty NumberOfTapsRequiredProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TapGestureRecognizer.NumberOfTapsRequiredProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NumberOfTapsRequiredProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ NumberOfTapsRequiredProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable NumberOfTapsRequiredProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TapGestureRecognizer.NumberOfTapsRequiredProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ NumberOfTapsRequiredProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -206,13 +206,13 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Tapped" FrameworkAlternate="net-maui-6.0" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.TapGestureRecognizer.Tapped" />
       <MemberSignature Language="VB.NET" Value="Public Event Tapped As EventHandler " FrameworkAlternate="net-maui-6.0" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Tapped;" FrameworkAlternate="net-maui-6.0" />
       <MemberSignature Language="F#" Value="member this.Tapped : EventHandler " Usage="member this.Tapped : System.EventHandler " FrameworkAlternate="net-maui-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Tapped;" FrameworkAlternate="net-maui-6.0" />
       <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Maui.Controls.TappedEventArgs&gt;? Tapped;" FrameworkAlternate="net-maui-7.0" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.TappedEventArgs&gt; Tapped" FrameworkAlternate="net-maui-7.0" />
       <MemberSignature Language="VB.NET" Value="Public Event Tapped As EventHandler(Of TappedEventArgs) " FrameworkAlternate="net-maui-7.0" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::TappedEventArgs ^&gt; ^ Tapped;" FrameworkAlternate="net-maui-7.0" />
       <MemberSignature Language="F#" Value="member this.Tapped : EventHandler&lt;Microsoft.Maui.Controls.TappedEventArgs&gt; " Usage="member this.Tapped : System.EventHandler&lt;Microsoft.Maui.Controls.TappedEventArgs&gt; " FrameworkAlternate="net-maui-7.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::TappedEventArgs ^&gt; ^ Tapped;" FrameworkAlternate="net-maui-7.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

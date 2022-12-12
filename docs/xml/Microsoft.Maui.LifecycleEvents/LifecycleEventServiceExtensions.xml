@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit LifecycleEventServiceExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.LifecycleEvents.LifecycleEventServiceExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module LifecycleEventServiceExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class LifecycleEventServiceExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type LifecycleEventServiceExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class LifecycleEventServiceExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void InvokeEvents(class Microsoft.Maui.LifecycleEvents.ILifecycleEventService lifecycleService, string eventName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LifecycleEvents.LifecycleEventServiceExtensions.InvokeEvents(Microsoft.Maui.LifecycleEvents.ILifecycleEventService,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub InvokeEvents (lifecycleService As ILifecycleEventService, eventName As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void InvokeEvents(Microsoft::Maui::LifecycleEvents::ILifecycleEventService ^ lifecycleService, System::String ^ eventName);" />
       <MemberSignature Language="F#" Value="static member InvokeEvents : Microsoft.Maui.LifecycleEvents.ILifecycleEventService * string -&gt; unit" Usage="Microsoft.Maui.LifecycleEvents.LifecycleEventServiceExtensions.InvokeEvents (lifecycleService, eventName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void InvokeEvents(Microsoft::Maui::LifecycleEvents::ILifecycleEventService ^ lifecycleService, System::String ^ eventName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -49,8 +49,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void InvokeEvents&lt;(class System.Delegate) TDelegate&gt;(class Microsoft.Maui.LifecycleEvents.ILifecycleEventService lifecycleService, string eventName, class System.Action`1&lt;!!TDelegate&gt; action) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LifecycleEvents.LifecycleEventServiceExtensions.InvokeEvents``1(Microsoft.Maui.LifecycleEvents.ILifecycleEventService,System.String,System.Action{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub InvokeEvents(Of TDelegate As Delegate) (lifecycleService As ILifecycleEventService, eventName As String, action As Action(Of TDelegate))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TDelegate&gt;&#xA; where TDelegate : Delegate[System::Runtime::CompilerServices::Extension]&#xA; static void InvokeEvents(Microsoft::Maui::LifecycleEvents::ILifecycleEventService ^ lifecycleService, System::String ^ eventName, Action&lt;TDelegate&gt; ^ action);" />
       <MemberSignature Language="F#" Value="static member InvokeEvents : Microsoft.Maui.LifecycleEvents.ILifecycleEventService * string * Action&lt;'Delegate (requires 'Delegate :&gt; Delegate)&gt; -&gt; unit (requires 'Delegate :&gt; Delegate)" Usage="Microsoft.Maui.LifecycleEvents.LifecycleEventServiceExtensions.InvokeEvents (lifecycleService, eventName, action)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TDelegate&gt;&#xA; where TDelegate : Delegate[System::Runtime::CompilerServices::Extension]&#xA; static void InvokeEvents(Microsoft::Maui::LifecycleEvents::ILifecycleEventService ^ lifecycleService, System::String ^ eventName, Action&lt;TDelegate&gt; ^ action);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

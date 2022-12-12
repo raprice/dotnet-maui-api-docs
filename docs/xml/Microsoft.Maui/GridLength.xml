@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit GridLength extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.GridLength" />
   <TypeSignature Language="VB.NET" Value="Public Structure GridLength" />
-  <TypeSignature Language="C++ CLI" Value="public value class GridLength" />
   <TypeSignature Language="F#" Value="type GridLength = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class GridLength" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -36,8 +36,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.GridLength.#ctor(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (value As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; GridLength(double value);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.GridLength : double -&gt; Microsoft.Maui.GridLength" Usage="new Microsoft.Maui.GridLength value" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GridLength(double value);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -57,8 +57,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 value, valuetype Microsoft.Maui.GridUnitType type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.GridLength.#ctor(System.Double,Microsoft.Maui.GridUnitType)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (value As Double, type As GridUnitType)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; GridLength(double value, Microsoft::Maui::GridUnitType type);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.GridLength : double * Microsoft.Maui.GridUnitType -&gt; Microsoft.Maui.GridLength" Usage="new Microsoft.Maui.GridLength (value, type)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GridLength(double value, Microsoft::Maui::GridUnitType type);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -80,8 +80,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Maui.GridLength Auto" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.GridLength.Auto" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Auto As GridLength " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::GridLength Auto;" />
       <MemberSignature Language="F#" Value=" staticval mutable Auto : Microsoft.Maui.GridLength" Usage="Microsoft.Maui.GridLength.Auto" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::GridLength Auto;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -101,8 +101,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.GridLength.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="gridLength.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -126,8 +126,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.GridLength.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="gridLength.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -148,8 +148,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.GridUnitType GridUnitType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.GridLength.GridUnitType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GridUnitType As GridUnitType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::GridUnitType GridUnitType { Microsoft::Maui::GridUnitType get(); };" />
       <MemberSignature Language="F#" Value="member this.GridUnitType : Microsoft.Maui.GridUnitType" Usage="Microsoft.Maui.GridLength.GridUnitType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::GridUnitType GridUnitType { Microsoft::Maui::GridUnitType get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -169,8 +169,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsAbsolute" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.GridLength.IsAbsolute" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAbsolute As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAbsolute { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsAbsolute : bool" Usage="Microsoft.Maui.GridLength.IsAbsolute" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAbsolute { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -190,8 +190,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsAuto" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.GridLength.IsAuto" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAuto As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAuto { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsAuto : bool" Usage="Microsoft.Maui.GridLength.IsAuto" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAuto { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -211,8 +211,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsStar" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.GridLength.IsStar" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsStar As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsStar { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsStar : bool" Usage="Microsoft.Maui.GridLength.IsStar" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsStar { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -232,8 +232,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Maui.GridLength op_Implicit(float64 absoluteValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.GridLength.op_Implicit(System.Double)~Microsoft.Maui.GridLength" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (absoluteValue As Double) As GridLength" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::GridLength(double absoluteValue);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : double -&gt; Microsoft.Maui.GridLength" Usage="Microsoft.Maui.GridLength.op_Implicit absoluteValue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::GridLength(double absoluteValue);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -257,8 +257,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Maui.GridLength Star" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.GridLength.Star" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Star As GridLength " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::GridLength Star;" />
       <MemberSignature Language="F#" Value=" staticval mutable Star : Microsoft.Maui.GridLength" Usage="Microsoft.Maui.GridLength.Star" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::GridLength Star;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -278,8 +278,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.GridLength.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="gridLength.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -300,8 +300,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Value" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.GridLength.Value" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Value { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Value : double" Usage="Microsoft.Maui.GridLength.Value" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Value { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

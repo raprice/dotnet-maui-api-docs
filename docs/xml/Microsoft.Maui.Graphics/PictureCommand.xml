@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PictureCommand extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.PictureCommand" />
   <TypeSignature Language="VB.NET" Value="Public Enum PictureCommand" />
-  <TypeSignature Language="C++ CLI" Value="public enum class PictureCommand" />
   <TypeSignature Language="F#" Value="type PictureCommand = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class PictureCommand" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand Alpha = int32(71)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.Alpha" />
       <MemberSignature Language="VB.NET" Value="Alpha" />
-      <MemberSignature Language="C++ CLI" Value="Alpha" />
       <MemberSignature Language="F#" Value="Alpha = 71" Usage="Microsoft.Maui.Graphics.PictureCommand.Alpha" />
+      <MemberSignature Language="C++ CLI" Value="Alpha" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand BlendMode = int32(72)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.BlendMode" />
       <MemberSignature Language="VB.NET" Value="BlendMode" />
-      <MemberSignature Language="C++ CLI" Value="BlendMode" />
       <MemberSignature Language="F#" Value="BlendMode = 72" Usage="Microsoft.Maui.Graphics.PictureCommand.BlendMode" />
+      <MemberSignature Language="C++ CLI" Value="BlendMode" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand BoldSystemFont = int32(111)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.BoldSystemFont" />
       <MemberSignature Language="VB.NET" Value="BoldSystemFont" />
-      <MemberSignature Language="C++ CLI" Value="BoldSystemFont" />
       <MemberSignature Language="F#" Value="BoldSystemFont = 111" Usage="Microsoft.Maui.Graphics.PictureCommand.BoldSystemFont" />
+      <MemberSignature Language="C++ CLI" Value="BoldSystemFont" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand ClipPath = int32(81)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.ClipPath" />
       <MemberSignature Language="VB.NET" Value="ClipPath" />
-      <MemberSignature Language="C++ CLI" Value="ClipPath" />
       <MemberSignature Language="F#" Value="ClipPath = 81" Usage="Microsoft.Maui.Graphics.PictureCommand.ClipPath" />
+      <MemberSignature Language="C++ CLI" Value="ClipPath" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand ClipRectangle = int32(82)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.ClipRectangle" />
       <MemberSignature Language="VB.NET" Value="ClipRectangle" />
-      <MemberSignature Language="C++ CLI" Value="ClipRectangle" />
       <MemberSignature Language="F#" Value="ClipRectangle = 82" Usage="Microsoft.Maui.Graphics.PictureCommand.ClipRectangle" />
+      <MemberSignature Language="C++ CLI" Value="ClipRectangle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -122,8 +122,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand ConcatenateTransform = int32(64)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.ConcatenateTransform" />
       <MemberSignature Language="VB.NET" Value="ConcatenateTransform" />
-      <MemberSignature Language="C++ CLI" Value="ConcatenateTransform" />
       <MemberSignature Language="F#" Value="ConcatenateTransform = 64" Usage="Microsoft.Maui.Graphics.PictureCommand.ConcatenateTransform" />
+      <MemberSignature Language="C++ CLI" Value="ConcatenateTransform" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -142,8 +142,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand DrawArc = int32(6)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.DrawArc" />
       <MemberSignature Language="VB.NET" Value="DrawArc" />
-      <MemberSignature Language="C++ CLI" Value="DrawArc" />
       <MemberSignature Language="F#" Value="DrawArc = 6" Usage="Microsoft.Maui.Graphics.PictureCommand.DrawArc" />
+      <MemberSignature Language="C++ CLI" Value="DrawArc" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -162,8 +162,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand DrawEllipse = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.DrawEllipse" />
       <MemberSignature Language="VB.NET" Value="DrawEllipse" />
-      <MemberSignature Language="C++ CLI" Value="DrawEllipse" />
       <MemberSignature Language="F#" Value="DrawEllipse = 3" Usage="Microsoft.Maui.Graphics.PictureCommand.DrawEllipse" />
+      <MemberSignature Language="C++ CLI" Value="DrawEllipse" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -182,8 +182,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand DrawImage = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.DrawImage" />
       <MemberSignature Language="VB.NET" Value="DrawImage" />
-      <MemberSignature Language="C++ CLI" Value="DrawImage" />
       <MemberSignature Language="F#" Value="DrawImage = 5" Usage="Microsoft.Maui.Graphics.PictureCommand.DrawImage" />
+      <MemberSignature Language="C++ CLI" Value="DrawImage" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -202,8 +202,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand DrawLine = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.DrawLine" />
       <MemberSignature Language="VB.NET" Value="DrawLine" />
-      <MemberSignature Language="C++ CLI" Value="DrawLine" />
       <MemberSignature Language="F#" Value="DrawLine = 0" Usage="Microsoft.Maui.Graphics.PictureCommand.DrawLine" />
+      <MemberSignature Language="C++ CLI" Value="DrawLine" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -222,8 +222,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand DrawPath = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.DrawPath" />
       <MemberSignature Language="VB.NET" Value="DrawPath" />
-      <MemberSignature Language="C++ CLI" Value="DrawPath" />
       <MemberSignature Language="F#" Value="DrawPath = 4" Usage="Microsoft.Maui.Graphics.PictureCommand.DrawPath" />
+      <MemberSignature Language="C++ CLI" Value="DrawPath" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -242,8 +242,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand DrawPdfPage = int32(7)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.DrawPdfPage" />
       <MemberSignature Language="VB.NET" Value="DrawPdfPage" />
-      <MemberSignature Language="C++ CLI" Value="DrawPdfPage" />
       <MemberSignature Language="F#" Value="DrawPdfPage = 7" Usage="Microsoft.Maui.Graphics.PictureCommand.DrawPdfPage" />
+      <MemberSignature Language="C++ CLI" Value="DrawPdfPage" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -262,8 +262,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand DrawRectangle = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.DrawRectangle" />
       <MemberSignature Language="VB.NET" Value="DrawRectangle" />
-      <MemberSignature Language="C++ CLI" Value="DrawRectangle" />
       <MemberSignature Language="F#" Value="DrawRectangle = 1" Usage="Microsoft.Maui.Graphics.PictureCommand.DrawRectangle" />
+      <MemberSignature Language="C++ CLI" Value="DrawRectangle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -282,8 +282,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand DrawRoundedRectangle = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.DrawRoundedRectangle" />
       <MemberSignature Language="VB.NET" Value="DrawRoundedRectangle" />
-      <MemberSignature Language="C++ CLI" Value="DrawRoundedRectangle" />
       <MemberSignature Language="F#" Value="DrawRoundedRectangle = 2" Usage="Microsoft.Maui.Graphics.PictureCommand.DrawRoundedRectangle" />
+      <MemberSignature Language="C++ CLI" Value="DrawRoundedRectangle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -302,8 +302,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand DrawStringAtPoint = int32(20)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.DrawStringAtPoint" />
       <MemberSignature Language="VB.NET" Value="DrawStringAtPoint" />
-      <MemberSignature Language="C++ CLI" Value="DrawStringAtPoint" />
       <MemberSignature Language="F#" Value="DrawStringAtPoint = 20" Usage="Microsoft.Maui.Graphics.PictureCommand.DrawStringAtPoint" />
+      <MemberSignature Language="C++ CLI" Value="DrawStringAtPoint" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -322,8 +322,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand DrawStringInPath = int32(22)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.DrawStringInPath" />
       <MemberSignature Language="VB.NET" Value="DrawStringInPath" />
-      <MemberSignature Language="C++ CLI" Value="DrawStringInPath" />
       <MemberSignature Language="F#" Value="DrawStringInPath = 22" Usage="Microsoft.Maui.Graphics.PictureCommand.DrawStringInPath" />
+      <MemberSignature Language="C++ CLI" Value="DrawStringInPath" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -342,8 +342,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand DrawStringInRect = int32(21)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.DrawStringInRect" />
       <MemberSignature Language="VB.NET" Value="DrawStringInRect" />
-      <MemberSignature Language="C++ CLI" Value="DrawStringInRect" />
       <MemberSignature Language="F#" Value="DrawStringInRect = 21" Usage="Microsoft.Maui.Graphics.PictureCommand.DrawStringInRect" />
+      <MemberSignature Language="C++ CLI" Value="DrawStringInRect" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -362,8 +362,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand DrawTextInRect = int32(25)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.DrawTextInRect" />
       <MemberSignature Language="VB.NET" Value="DrawTextInRect" />
-      <MemberSignature Language="C++ CLI" Value="DrawTextInRect" />
       <MemberSignature Language="F#" Value="DrawTextInRect = 25" Usage="Microsoft.Maui.Graphics.PictureCommand.DrawTextInRect" />
+      <MemberSignature Language="C++ CLI" Value="DrawTextInRect" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -382,8 +382,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand FillArc = int32(14)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.FillArc" />
       <MemberSignature Language="VB.NET" Value="FillArc" />
-      <MemberSignature Language="C++ CLI" Value="FillArc" />
       <MemberSignature Language="F#" Value="FillArc = 14" Usage="Microsoft.Maui.Graphics.PictureCommand.FillArc" />
+      <MemberSignature Language="C++ CLI" Value="FillArc" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -402,8 +402,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand FillColor = int32(40)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.FillColor" />
       <MemberSignature Language="VB.NET" Value="FillColor" />
-      <MemberSignature Language="C++ CLI" Value="FillColor" />
       <MemberSignature Language="F#" Value="FillColor = 40" Usage="Microsoft.Maui.Graphics.PictureCommand.FillColor" />
+      <MemberSignature Language="C++ CLI" Value="FillColor" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -422,8 +422,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand FillEllipse = int32(12)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.FillEllipse" />
       <MemberSignature Language="VB.NET" Value="FillEllipse" />
-      <MemberSignature Language="C++ CLI" Value="FillEllipse" />
       <MemberSignature Language="F#" Value="FillEllipse = 12" Usage="Microsoft.Maui.Graphics.PictureCommand.FillEllipse" />
+      <MemberSignature Language="C++ CLI" Value="FillEllipse" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -442,8 +442,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand FillPaint = int32(41)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.FillPaint" />
       <MemberSignature Language="VB.NET" Value="FillPaint" />
-      <MemberSignature Language="C++ CLI" Value="FillPaint" />
       <MemberSignature Language="F#" Value="FillPaint = 41" Usage="Microsoft.Maui.Graphics.PictureCommand.FillPaint" />
+      <MemberSignature Language="C++ CLI" Value="FillPaint" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -462,8 +462,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand FillPath = int32(13)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.FillPath" />
       <MemberSignature Language="VB.NET" Value="FillPath" />
-      <MemberSignature Language="C++ CLI" Value="FillPath" />
       <MemberSignature Language="F#" Value="FillPath = 13" Usage="Microsoft.Maui.Graphics.PictureCommand.FillPath" />
+      <MemberSignature Language="C++ CLI" Value="FillPath" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -482,8 +482,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand FillPath2 = int32(15)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.FillPath2" />
       <MemberSignature Language="VB.NET" Value="FillPath2" />
-      <MemberSignature Language="C++ CLI" Value="FillPath2" />
       <MemberSignature Language="F#" Value="FillPath2 = 15" Usage="Microsoft.Maui.Graphics.PictureCommand.FillPath2" />
+      <MemberSignature Language="C++ CLI" Value="FillPath2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -502,8 +502,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand FillRectangle = int32(10)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.FillRectangle" />
       <MemberSignature Language="VB.NET" Value="FillRectangle" />
-      <MemberSignature Language="C++ CLI" Value="FillRectangle" />
       <MemberSignature Language="F#" Value="FillRectangle = 10" Usage="Microsoft.Maui.Graphics.PictureCommand.FillRectangle" />
+      <MemberSignature Language="C++ CLI" Value="FillRectangle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -522,8 +522,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand FillRoundedRectangle = int32(11)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.FillRoundedRectangle" />
       <MemberSignature Language="VB.NET" Value="FillRoundedRectangle" />
-      <MemberSignature Language="C++ CLI" Value="FillRoundedRectangle" />
       <MemberSignature Language="F#" Value="FillRoundedRectangle = 11" Usage="Microsoft.Maui.Graphics.PictureCommand.FillRoundedRectangle" />
+      <MemberSignature Language="C++ CLI" Value="FillRoundedRectangle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -542,8 +542,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand FontColor = int32(50)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.FontColor" />
       <MemberSignature Language="VB.NET" Value="FontColor" />
-      <MemberSignature Language="C++ CLI" Value="FontColor" />
       <MemberSignature Language="F#" Value="FontColor = 50" Usage="Microsoft.Maui.Graphics.PictureCommand.FontColor" />
+      <MemberSignature Language="C++ CLI" Value="FontColor" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -562,8 +562,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand FontName = int32(51)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.FontName" />
       <MemberSignature Language="VB.NET" Value="FontName" />
-      <MemberSignature Language="C++ CLI" Value="FontName" />
       <MemberSignature Language="F#" Value="FontName = 51" Usage="Microsoft.Maui.Graphics.PictureCommand.FontName" />
+      <MemberSignature Language="C++ CLI" Value="FontName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -582,8 +582,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand FontSize = int32(52)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.FontSize" />
       <MemberSignature Language="VB.NET" Value="FontSize" />
-      <MemberSignature Language="C++ CLI" Value="FontSize" />
       <MemberSignature Language="F#" Value="FontSize = 52" Usage="Microsoft.Maui.Graphics.PictureCommand.FontSize" />
+      <MemberSignature Language="C++ CLI" Value="FontSize" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -602,8 +602,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand LimitStrokeScaling = int32(37)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.LimitStrokeScaling" />
       <MemberSignature Language="VB.NET" Value="LimitStrokeScaling" />
-      <MemberSignature Language="C++ CLI" Value="LimitStrokeScaling" />
       <MemberSignature Language="F#" Value="LimitStrokeScaling = 37" Usage="Microsoft.Maui.Graphics.PictureCommand.LimitStrokeScaling" />
+      <MemberSignature Language="C++ CLI" Value="LimitStrokeScaling" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -622,8 +622,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand ResetState = int32(102)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.ResetState" />
       <MemberSignature Language="VB.NET" Value="ResetState" />
-      <MemberSignature Language="C++ CLI" Value="ResetState" />
       <MemberSignature Language="F#" Value="ResetState = 102" Usage="Microsoft.Maui.Graphics.PictureCommand.ResetState" />
+      <MemberSignature Language="C++ CLI" Value="ResetState" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -642,8 +642,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand RestoreState = int32(101)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.RestoreState" />
       <MemberSignature Language="VB.NET" Value="RestoreState" />
-      <MemberSignature Language="C++ CLI" Value="RestoreState" />
       <MemberSignature Language="F#" Value="RestoreState = 101" Usage="Microsoft.Maui.Graphics.PictureCommand.RestoreState" />
+      <MemberSignature Language="C++ CLI" Value="RestoreState" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -662,8 +662,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand Rotate = int32(62)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.Rotate" />
       <MemberSignature Language="VB.NET" Value="Rotate" />
-      <MemberSignature Language="C++ CLI" Value="Rotate" />
       <MemberSignature Language="F#" Value="Rotate = 62" Usage="Microsoft.Maui.Graphics.PictureCommand.Rotate" />
+      <MemberSignature Language="C++ CLI" Value="Rotate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -682,8 +682,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand RotateAtPoint = int32(63)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.RotateAtPoint" />
       <MemberSignature Language="VB.NET" Value="RotateAtPoint" />
-      <MemberSignature Language="C++ CLI" Value="RotateAtPoint" />
       <MemberSignature Language="F#" Value="RotateAtPoint = 63" Usage="Microsoft.Maui.Graphics.PictureCommand.RotateAtPoint" />
+      <MemberSignature Language="C++ CLI" Value="RotateAtPoint" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -702,8 +702,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand SaveState = int32(100)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.SaveState" />
       <MemberSignature Language="VB.NET" Value="SaveState" />
-      <MemberSignature Language="C++ CLI" Value="SaveState" />
       <MemberSignature Language="F#" Value="SaveState = 100" Usage="Microsoft.Maui.Graphics.PictureCommand.SaveState" />
+      <MemberSignature Language="C++ CLI" Value="SaveState" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -722,8 +722,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand Scale = int32(60)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.Scale" />
       <MemberSignature Language="VB.NET" Value="Scale" />
-      <MemberSignature Language="C++ CLI" Value="Scale" />
       <MemberSignature Language="F#" Value="Scale = 60" Usage="Microsoft.Maui.Graphics.PictureCommand.Scale" />
+      <MemberSignature Language="C++ CLI" Value="Scale" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -742,8 +742,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand Shadow = int32(70)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.Shadow" />
       <MemberSignature Language="VB.NET" Value="Shadow" />
-      <MemberSignature Language="C++ CLI" Value="Shadow" />
       <MemberSignature Language="F#" Value="Shadow = 70" Usage="Microsoft.Maui.Graphics.PictureCommand.Shadow" />
+      <MemberSignature Language="C++ CLI" Value="Shadow" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -762,8 +762,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand StrokeBrush = int32(39)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.StrokeBrush" />
       <MemberSignature Language="VB.NET" Value="StrokeBrush" />
-      <MemberSignature Language="C++ CLI" Value="StrokeBrush" />
       <MemberSignature Language="F#" Value="StrokeBrush = 39" Usage="Microsoft.Maui.Graphics.PictureCommand.StrokeBrush" />
+      <MemberSignature Language="C++ CLI" Value="StrokeBrush" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -782,8 +782,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand StrokeColor = int32(31)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.StrokeColor" />
       <MemberSignature Language="VB.NET" Value="StrokeColor" />
-      <MemberSignature Language="C++ CLI" Value="StrokeColor" />
       <MemberSignature Language="F#" Value="StrokeColor = 31" Usage="Microsoft.Maui.Graphics.PictureCommand.StrokeColor" />
+      <MemberSignature Language="C++ CLI" Value="StrokeColor" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -802,8 +802,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand StrokeDashPattern = int32(32)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.StrokeDashPattern" />
       <MemberSignature Language="VB.NET" Value="StrokeDashPattern" />
-      <MemberSignature Language="C++ CLI" Value="StrokeDashPattern" />
       <MemberSignature Language="F#" Value="StrokeDashPattern = 32" Usage="Microsoft.Maui.Graphics.PictureCommand.StrokeDashPattern" />
+      <MemberSignature Language="C++ CLI" Value="StrokeDashPattern" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -822,8 +822,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand StrokeLimit = int32(38)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.StrokeLimit" />
       <MemberSignature Language="VB.NET" Value="StrokeLimit" />
-      <MemberSignature Language="C++ CLI" Value="StrokeLimit" />
       <MemberSignature Language="F#" Value="StrokeLimit = 38" Usage="Microsoft.Maui.Graphics.PictureCommand.StrokeLimit" />
+      <MemberSignature Language="C++ CLI" Value="StrokeLimit" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -842,8 +842,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand StrokeLineCap = int32(33)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.StrokeLineCap" />
       <MemberSignature Language="VB.NET" Value="StrokeLineCap" />
-      <MemberSignature Language="C++ CLI" Value="StrokeLineCap" />
       <MemberSignature Language="F#" Value="StrokeLineCap = 33" Usage="Microsoft.Maui.Graphics.PictureCommand.StrokeLineCap" />
+      <MemberSignature Language="C++ CLI" Value="StrokeLineCap" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -862,8 +862,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand StrokeLineJoin = int32(34)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.StrokeLineJoin" />
       <MemberSignature Language="VB.NET" Value="StrokeLineJoin" />
-      <MemberSignature Language="C++ CLI" Value="StrokeLineJoin" />
       <MemberSignature Language="F#" Value="StrokeLineJoin = 34" Usage="Microsoft.Maui.Graphics.PictureCommand.StrokeLineJoin" />
+      <MemberSignature Language="C++ CLI" Value="StrokeLineJoin" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -882,8 +882,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand StrokeLocation = int32(35)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.StrokeLocation" />
       <MemberSignature Language="VB.NET" Value="StrokeLocation" />
-      <MemberSignature Language="C++ CLI" Value="StrokeLocation" />
       <MemberSignature Language="F#" Value="StrokeLocation = 35" Usage="Microsoft.Maui.Graphics.PictureCommand.StrokeLocation" />
+      <MemberSignature Language="C++ CLI" Value="StrokeLocation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -902,8 +902,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand StrokeMiterLimit = int32(36)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.StrokeMiterLimit" />
       <MemberSignature Language="VB.NET" Value="StrokeMiterLimit" />
-      <MemberSignature Language="C++ CLI" Value="StrokeMiterLimit" />
       <MemberSignature Language="F#" Value="StrokeMiterLimit = 36" Usage="Microsoft.Maui.Graphics.PictureCommand.StrokeMiterLimit" />
+      <MemberSignature Language="C++ CLI" Value="StrokeMiterLimit" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -922,8 +922,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand StrokeSize = int32(30)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.StrokeSize" />
       <MemberSignature Language="VB.NET" Value="StrokeSize" />
-      <MemberSignature Language="C++ CLI" Value="StrokeSize" />
       <MemberSignature Language="F#" Value="StrokeSize = 30" Usage="Microsoft.Maui.Graphics.PictureCommand.StrokeSize" />
+      <MemberSignature Language="C++ CLI" Value="StrokeSize" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -942,8 +942,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand SubtractFromClip = int32(80)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.SubtractFromClip" />
       <MemberSignature Language="VB.NET" Value="SubtractFromClip" />
-      <MemberSignature Language="C++ CLI" Value="SubtractFromClip" />
       <MemberSignature Language="F#" Value="SubtractFromClip = 80" Usage="Microsoft.Maui.Graphics.PictureCommand.SubtractFromClip" />
+      <MemberSignature Language="C++ CLI" Value="SubtractFromClip" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -962,8 +962,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand SubtractPathFromClip = int32(83)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.SubtractPathFromClip" />
       <MemberSignature Language="VB.NET" Value="SubtractPathFromClip" />
-      <MemberSignature Language="C++ CLI" Value="SubtractPathFromClip" />
       <MemberSignature Language="F#" Value="SubtractPathFromClip = 83" Usage="Microsoft.Maui.Graphics.PictureCommand.SubtractPathFromClip" />
+      <MemberSignature Language="C++ CLI" Value="SubtractPathFromClip" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -982,8 +982,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand SystemFont = int32(110)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.SystemFont" />
       <MemberSignature Language="VB.NET" Value="SystemFont" />
-      <MemberSignature Language="C++ CLI" Value="SystemFont" />
       <MemberSignature Language="F#" Value="SystemFont = 110" Usage="Microsoft.Maui.Graphics.PictureCommand.SystemFont" />
+      <MemberSignature Language="C++ CLI" Value="SystemFont" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -1002,8 +1002,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.PictureCommand Translate = int32(61)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.PictureCommand.Translate" />
       <MemberSignature Language="VB.NET" Value="Translate" />
-      <MemberSignature Language="C++ CLI" Value="Translate" />
       <MemberSignature Language="F#" Value="Translate = 61" Usage="Microsoft.Maui.Graphics.PictureCommand.Translate" />
+      <MemberSignature Language="C++ CLI" Value="Translate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

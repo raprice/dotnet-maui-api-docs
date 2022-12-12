@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SwipeGestureRecognizer extends Microsoft.Maui.Controls.GestureRecognizer implements class Microsoft.Maui.Controls.ISwipeGestureController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.SwipeGestureRecognizer" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SwipeGestureRecognizer&#xA;Inherits GestureRecognizer&#xA;Implements ISwipeGestureController" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SwipeGestureRecognizer sealed : Microsoft::Maui::Controls::GestureRecognizer, Microsoft::Maui::Controls::ISwipeGestureController" />
   <TypeSignature Language="F#" Value="type SwipeGestureRecognizer = class&#xA;    inherit GestureRecognizer&#xA;    interface ISwipeGestureController" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SwipeGestureRecognizer sealed : Microsoft::Maui::Controls::GestureRecognizer, Microsoft::Maui::Controls::ISwipeGestureController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand Command" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeGestureRecognizer.Command" />
       <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ Command { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.SwipeGestureRecognizer.Command" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ Command { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object CommandParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeGestureRecognizer.CommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property CommandParameter As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="Microsoft.Maui.Controls.SwipeGestureRecognizer.CommandParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SwipeGestureRecognizer.CommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandParameterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CommandParameterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SwipeGestureRecognizer.CommandParameterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CommandParameterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -106,8 +106,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SwipeGestureRecognizer.CommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SwipeGestureRecognizer.CommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -126,8 +126,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.SwipeDirection Direction" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeGestureRecognizer.Direction" />
       <MemberSignature Language="VB.NET" Value="Public Property Direction As SwipeDirection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SwipeDirection Direction { Microsoft::Maui::SwipeDirection get(); void set(Microsoft::Maui::SwipeDirection value); };" />
       <MemberSignature Language="F#" Value="member this.Direction : Microsoft.Maui.SwipeDirection with get, set" Usage="Microsoft.Maui.Controls.SwipeGestureRecognizer.Direction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SwipeDirection Direction { Microsoft::Maui::SwipeDirection get(); void set(Microsoft::Maui::SwipeDirection value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -147,8 +147,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DirectionProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SwipeGestureRecognizer.DirectionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DirectionProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ DirectionProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable DirectionProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SwipeGestureRecognizer.DirectionProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ DirectionProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -167,8 +167,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.ISwipeGestureController.DetectSwipe(class Microsoft.Maui.Controls.View sender, valuetype Microsoft.Maui.SwipeDirection direction) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeGestureRecognizer.Microsoft#Maui#Controls#ISwipeGestureController#DetectSwipe(Microsoft.Maui.Controls.View,Microsoft.Maui.SwipeDirection)" />
       <MemberSignature Language="VB.NET" Value="Function DetectSwipe (sender As View, direction As SwipeDirection) As Boolean Implements ISwipeGestureController.DetectSwipe" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.ISwipeGestureController.DetectSwipe(Microsoft::Maui::Controls::View ^ sender, Microsoft::Maui::SwipeDirection direction) = Microsoft::Maui::Controls::ISwipeGestureController::DetectSwipe;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.ISwipeGestureController.DetectSwipe : Microsoft.Maui.Controls.View * Microsoft.Maui.SwipeDirection -&gt; bool&#xA;override this.Microsoft.Maui.Controls.ISwipeGestureController.DetectSwipe : Microsoft.Maui.Controls.View * Microsoft.Maui.SwipeDirection -&gt; bool" Usage="swipeGestureRecognizer.Microsoft.Maui.Controls.ISwipeGestureController.DetectSwipe (sender, direction)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.ISwipeGestureController.DetectSwipe(Microsoft::Maui::Controls::View ^ sender, Microsoft::Maui::SwipeDirection direction) = Microsoft::Maui::Controls::ISwipeGestureController::DetectSwipe;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.ISwipeGestureController.DetectSwipe(Microsoft.Maui.Controls.View,Microsoft.Maui.SwipeDirection)</InterfaceMember>
@@ -197,8 +197,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.ISwipeGestureController.SendSwipe(class Microsoft.Maui.Controls.Element sender, float64 totalX, float64 totalY) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeGestureRecognizer.Microsoft#Maui#Controls#ISwipeGestureController#SendSwipe(Microsoft.Maui.Controls.Element,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Sub SendSwipe (sender As Element, totalX As Double, totalY As Double) Implements ISwipeGestureController.SendSwipe" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.ISwipeGestureController.SendSwipe(Microsoft::Maui::Controls::Element ^ sender, double totalX, double totalY) = Microsoft::Maui::Controls::ISwipeGestureController::SendSwipe;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.ISwipeGestureController.SendSwipe : Microsoft.Maui.Controls.Element * double * double -&gt; unit&#xA;override this.Microsoft.Maui.Controls.ISwipeGestureController.SendSwipe : Microsoft.Maui.Controls.Element * double * double -&gt; unit" Usage="swipeGestureRecognizer.Microsoft.Maui.Controls.ISwipeGestureController.SendSwipe (sender, totalX, totalY)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.ISwipeGestureController.SendSwipe(Microsoft::Maui::Controls::Element ^ sender, double totalX, double totalY) = Microsoft::Maui::Controls::ISwipeGestureController::SendSwipe;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.ISwipeGestureController.SendSwipe(Microsoft.Maui.Controls.Element,System.Double,System.Double)</InterfaceMember>
@@ -228,8 +228,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendSwiped(class Microsoft.Maui.Controls.View sender, valuetype Microsoft.Maui.SwipeDirection direction) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeGestureRecognizer.SendSwiped(Microsoft.Maui.Controls.View,Microsoft.Maui.SwipeDirection)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendSwiped (sender As View, direction As SwipeDirection)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendSwiped(Microsoft::Maui::Controls::View ^ sender, Microsoft::Maui::SwipeDirection direction);" />
       <MemberSignature Language="F#" Value="member this.SendSwiped : Microsoft.Maui.Controls.View * Microsoft.Maui.SwipeDirection -&gt; unit" Usage="swipeGestureRecognizer.SendSwiped (sender, direction)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendSwiped(Microsoft::Maui::Controls::View ^ sender, Microsoft::Maui::SwipeDirection direction);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -254,8 +254,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.SwipedEventArgs&gt; Swiped" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.SwipeGestureRecognizer.Swiped" />
       <MemberSignature Language="VB.NET" Value="Public Event Swiped As EventHandler(Of SwipedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::SwipedEventArgs ^&gt; ^ Swiped;" />
       <MemberSignature Language="F#" Value="member this.Swiped : EventHandler&lt;Microsoft.Maui.Controls.SwipedEventArgs&gt; " Usage="member this.Swiped : System.EventHandler&lt;Microsoft.Maui.Controls.SwipedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::SwipedEventArgs ^&gt; ^ Swiped;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -274,8 +274,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 Threshold" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeGestureRecognizer.Threshold" />
       <MemberSignature Language="VB.NET" Value="Public Property Threshold As UInteger" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 Threshold { System::UInt32 get(); void set(System::UInt32 value); };" />
       <MemberSignature Language="F#" Value="member this.Threshold : uint32 with get, set" Usage="Microsoft.Maui.Controls.SwipeGestureRecognizer.Threshold" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 Threshold { System::UInt32 get(); void set(System::UInt32 value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -295,8 +295,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ThresholdProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SwipeGestureRecognizer.ThresholdProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ThresholdProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ThresholdProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ThresholdProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SwipeGestureRecognizer.ThresholdProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ThresholdProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

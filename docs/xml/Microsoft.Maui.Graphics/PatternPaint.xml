@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PatternPaint extends Microsoft.Maui.Graphics.Paint" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.PatternPaint" />
   <TypeSignature Language="VB.NET" Value="Public Class PatternPaint&#xA;Inherits Paint" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PatternPaint : Microsoft::Maui::Graphics::Paint" />
   <TypeSignature Language="F#" Value="type PatternPaint = class&#xA;    inherit Paint" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PatternPaint : Microsoft::Maui::Graphics::Paint" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsTransparent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PatternPaint.IsTransparent" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsTransparent As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsTransparent { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsTransparent : bool" Usage="Microsoft.Maui.Graphics.PatternPaint.IsTransparent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsTransparent { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.IPattern Pattern" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.PatternPaint.Pattern" />
       <MemberSignature Language="VB.NET" Value="Public Property Pattern As IPattern" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IPattern ^ Pattern { Microsoft::Maui::Graphics::IPattern ^ get(); void set(Microsoft::Maui::Graphics::IPattern ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Pattern : Microsoft.Maui.Graphics.IPattern with get, set" Usage="Microsoft.Maui.Graphics.PatternPaint.Pattern" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IPattern ^ Pattern { Microsoft::Maui::Graphics::IPattern ^ get(); void set(Microsoft::Maui::Graphics::IPattern ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Editor extends Microsoft.Maui.Controls.InputView implements class Microsoft.Maui.Controls.IEditorController, class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.Editor&gt;, class Microsoft.Maui.Controls.IElementController, class Microsoft.Maui.Controls.Internals.IFontElement, class Microsoft.Maui.Controls.IViewController, class Microsoft.Maui.Controls.IVisualElementController, class Microsoft.Maui.IEditor, class Microsoft.Maui.IElement, class Microsoft.Maui.IPlaceholder, class Microsoft.Maui.IText, class Microsoft.Maui.ITextAlignment, class Microsoft.Maui.ITextInput, class Microsoft.Maui.ITextStyle, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Editor" />
   <TypeSignature Language="VB.NET" Value="Public Class Editor&#xA;Inherits InputView&#xA;Implements IEditor, IEditorController, IElementConfiguration(Of Editor), IFontElement" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Editor : Microsoft::Maui::Controls::InputView, Microsoft::Maui::Controls::IEditorController, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Editor ^&gt;, Microsoft::Maui::Controls::Internals::IFontElement, Microsoft::Maui::IEditor" />
   <TypeSignature Language="F#" Value="type Editor = class&#xA;    inherit InputView&#xA;    interface IEditorController&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController&#xA;    interface IFontElement&#xA;    interface IElementConfiguration&lt;Editor&gt;&#xA;    interface IEditor&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface ITextInput&#xA;    interface IText&#xA;    interface ITextStyle&#xA;    interface IPlaceholder&#xA;    interface ITextAlignment" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Editor : Microsoft::Maui::Controls::InputView, Microsoft::Maui::Controls::IEditorController, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Editor ^&gt;, Microsoft::Maui::Controls::Internals::IFontElement, Microsoft::Maui::IEditor" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -103,8 +103,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size ArrangeOverride(valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.ArrangeOverride(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function ArrangeOverride (bounds As Rect) As Size" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size ArrangeOverride(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberSignature Language="F#" Value="override this.ArrangeOverride : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size" Usage="editor.ArrangeOverride bounds" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size ArrangeOverride(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -128,8 +128,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.EditorAutoSizeOption AutoSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Editor.AutoSize" />
       <MemberSignature Language="VB.NET" Value="Public Property AutoSize As EditorAutoSizeOption" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::EditorAutoSizeOption AutoSize { Microsoft::Maui::Controls::EditorAutoSizeOption get(); void set(Microsoft::Maui::Controls::EditorAutoSizeOption value); };" />
       <MemberSignature Language="F#" Value="member this.AutoSize : Microsoft.Maui.Controls.EditorAutoSizeOption with get, set" Usage="Microsoft.Maui.Controls.Editor.AutoSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::EditorAutoSizeOption AutoSize { Microsoft::Maui::Controls::EditorAutoSizeOption get(); void set(Microsoft::Maui::Controls::EditorAutoSizeOption value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -149,8 +149,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty AutoSizeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.AutoSizeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AutoSizeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AutoSizeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable AutoSizeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.AutoSizeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ AutoSizeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -169,8 +169,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CharacterSpacingProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.CharacterSpacingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CharacterSpacingProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CharacterSpacingProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CharacterSpacingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.CharacterSpacingProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CharacterSpacingProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -189,8 +189,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Completed" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Editor.Completed" />
       <MemberSignature Language="VB.NET" Value="Public Event Completed As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Completed;" />
       <MemberSignature Language="F#" Value="member this.Completed : EventHandler " Usage="member this.Completed : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Completed;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -209,8 +209,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IEditor, class Microsoft.Maui.Handlers.EditorHandler&gt; ControlsEditorMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.ControlsEditorMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ControlsEditorMapper As IPropertyMapper(Of IEditor, EditorHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IEditor ^, Microsoft::Maui::Handlers::EditorHandler ^&gt; ^ ControlsEditorMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlsEditorMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IEditor, Microsoft.Maui.Handlers.EditorHandler&gt;" Usage="Microsoft.Maui.Controls.Editor.ControlsEditorMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IEditor ^, Microsoft::Maui::Handlers::EditorHandler ^&gt; ^ ControlsEditorMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -229,8 +229,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".property instance int32 CursorPosition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Editor.CursorPosition" />
       <MemberSignature Language="VB.NET" Value="Public Property CursorPosition As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CursorPosition { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.CursorPosition : int with get, set" Usage="Microsoft.Maui.Controls.Editor.CursorPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CursorPosition { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITextInput.CursorPosition</InterfaceMember>
@@ -253,8 +253,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CursorPositionProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.CursorPositionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CursorPositionProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CursorPositionProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CursorPositionProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.CursorPositionProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CursorPositionProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -273,8 +273,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.FontAttributes FontAttributes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Editor.FontAttributes" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAttributes As FontAttributes" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); void set(Microsoft::Maui::Controls::FontAttributes value); };" />
       <MemberSignature Language="F#" Value="member this.FontAttributes : Microsoft.Maui.Controls.FontAttributes with get, set" Usage="Microsoft.Maui.Controls.Editor.FontAttributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); void set(Microsoft::Maui::Controls::FontAttributes value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -294,8 +294,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAttributesProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.FontAttributesProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAttributesProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAttributesProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontAttributesProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.FontAttributesProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAttributesProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -314,8 +314,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".property instance bool FontAutoScalingEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Editor.FontAutoScalingEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAutoScalingEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.FontAutoScalingEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.Editor.FontAutoScalingEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -335,8 +335,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAutoScalingEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.FontAutoScalingEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAutoScalingEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAutoScalingEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontAutoScalingEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.FontAutoScalingEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAutoScalingEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -355,8 +355,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".property instance string FontFamily" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Editor.FontFamily" />
       <MemberSignature Language="VB.NET" Value="Public Property FontFamily As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FontFamily : string with get, set" Usage="Microsoft.Maui.Controls.Editor.FontFamily" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -376,8 +376,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontFamilyProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.FontFamilyProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontFamilyProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontFamilyProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontFamilyProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.FontFamilyProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontFamilyProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -396,8 +396,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".property instance float64 FontSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Editor.FontSize" />
       <MemberSignature Language="VB.NET" Value="Public Property FontSize As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.FontSize : double with get, set" Usage="Microsoft.Maui.Controls.Editor.FontSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -423,8 +423,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontSizeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.FontSizeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontSizeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontSizeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontSizeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.FontSizeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontSizeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -443,8 +443,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextAlignment HorizontalTextAlignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Editor.HorizontalTextAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalTextAlignment As TextAlignment" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment HorizontalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberSignature Language="F#" Value="member this.HorizontalTextAlignment : Microsoft.Maui.TextAlignment with get, set" Usage="Microsoft.Maui.Controls.Editor.HorizontalTextAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment HorizontalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -464,8 +464,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HorizontalTextAlignmentProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.HorizontalTextAlignmentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HorizontalTextAlignmentProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HorizontalTextAlignmentProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HorizontalTextAlignmentProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.HorizontalTextAlignmentProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HorizontalTextAlignmentProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -484,8 +484,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".property instance bool IsTextPredictionEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Editor.IsTextPredictionEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsTextPredictionEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTextPredictionEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsTextPredictionEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.Editor.IsTextPredictionEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTextPredictionEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -505,8 +505,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsTextPredictionEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.IsTextPredictionEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsTextPredictionEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsTextPredictionEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsTextPredictionEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.IsTextPredictionEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsTextPredictionEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -525,8 +525,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapText(class Microsoft.Maui.Handlers.EditorHandler handler, class Microsoft.Maui.Controls.Editor editor) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.MapText(Microsoft.Maui.Handlers.EditorHandler,Microsoft.Maui.Controls.Editor)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapText (handler As EditorHandler, editor As Editor)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::EditorHandler ^ handler, Microsoft::Maui::Controls::Editor ^ editor);" />
       <MemberSignature Language="F#" Value="static member MapText : Microsoft.Maui.Handlers.EditorHandler * Microsoft.Maui.Controls.Editor -&gt; unit" Usage="Microsoft.Maui.Controls.Editor.MapText (handler, editor)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::EditorHandler ^ handler, Microsoft::Maui::Controls::Editor ^ editor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -551,8 +551,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapText(class Microsoft.Maui.Handlers.IEditorHandler handler, class Microsoft.Maui.Controls.Editor editor) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.MapText(Microsoft.Maui.Handlers.IEditorHandler,Microsoft.Maui.Controls.Editor)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapText (handler As IEditorHandler, editor As Editor)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::IEditorHandler ^ handler, Microsoft::Maui::Controls::Editor ^ editor);" />
       <MemberSignature Language="F#" Value="static member MapText : Microsoft.Maui.Handlers.IEditorHandler * Microsoft.Maui.Controls.Editor -&gt; unit" Usage="Microsoft.Maui.Controls.Editor.MapText (handler, editor)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::IEditorHandler ^ handler, Microsoft::Maui::Controls::Editor ^ editor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -577,8 +577,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size MeasureOverride(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.MeasureOverride(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function MeasureOverride (widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size MeasureOverride(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="override this.MeasureOverride : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="editor.MeasureOverride (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size MeasureOverride(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -604,8 +604,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance float64 Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.Microsoft#Maui#Controls#Internals#IFontElement#FontSizeDefaultValueCreator" />
       <MemberSignature Language="VB.NET" Value="Function FontSizeDefaultValueCreator () As Double Implements IFontElement.FontSizeDefaultValueCreator" />
-      <MemberSignature Language="C++ CLI" Value=" virtual double Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() = Microsoft::Maui::Controls::Internals::IFontElement::FontSizeDefaultValueCreator;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double" Usage="editor.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator " />
+      <MemberSignature Language="C++ CLI" Value=" virtual double Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() = Microsoft::Maui::Controls::Internals::IFontElement::FontSizeDefaultValueCreator;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator</InterfaceMember>
@@ -629,8 +629,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(valuetype Microsoft.Maui.Controls.FontAttributes oldValue, valuetype Microsoft.Maui.Controls.FontAttributes newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAttributesChanged (oldValue As FontAttributes, newValue As FontAttributes) Implements IFontElement.OnFontAttributesChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAttributesChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit" Usage="editor.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAttributesChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)</InterfaceMember>
@@ -658,8 +658,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAutoScalingEnabledChanged (oldValue As Boolean, newValue As Boolean) Implements IFontElement.OnFontAutoScalingEnabledChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAutoScalingEnabledChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit" Usage="editor.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAutoScalingEnabledChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)</InterfaceMember>
@@ -687,8 +687,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(string oldValue, string newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.Microsoft#Maui#Controls#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontFamilyChanged (oldValue As String, newValue As String) Implements IFontElement.OnFontFamilyChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontFamilyChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit" Usage="editor.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontFamilyChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System.String,System.String)</InterfaceMember>
@@ -716,8 +716,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(float64 oldValue, float64 newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.Microsoft#Maui#Controls#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontSizeChanged (oldValue As Double, newValue As Double) Implements IFontElement.OnFontSizeChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(double oldValue, double newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontSizeChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit" Usage="editor.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(double oldValue, double newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontSizeChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(System.Double,System.Double)</InterfaceMember>
@@ -745,8 +745,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IEditor.Completed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.Microsoft#Maui#IEditor#Completed" />
       <MemberSignature Language="VB.NET" Value="Sub Completed () Implements IEditor.Completed" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IEditor.Completed() = Microsoft::Maui::IEditor::Completed;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IEditor.Completed : unit -&gt; unit&#xA;override this.Microsoft.Maui.IEditor.Completed : unit -&gt; unit" Usage="editor.Microsoft.Maui.IEditor.Completed " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IEditor.Completed() = Microsoft::Maui::IEditor::Completed;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IEditor.Completed</InterfaceMember>
@@ -769,8 +769,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Font Microsoft.Maui.ITextStyle.Font" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Editor.Microsoft#Maui#ITextStyle#Font" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Font As Font Implements ITextStyle.Font" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Font Microsoft::Maui::ITextStyle::Font { Microsoft::Maui::Font get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ITextStyle.Font : Microsoft.Maui.Font" Usage="Microsoft.Maui.ITextStyle.Font" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Font Microsoft::Maui::ITextStyle::Font { Microsoft::Maui::Font get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITextStyle.Font</InterfaceMember>
@@ -793,8 +793,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.Editor&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Editor)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Editor ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Editor (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Editor (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="editor.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Editor ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -827,8 +827,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnHorizontalTextAlignmentPropertyChanged(valuetype Microsoft.Maui.TextAlignment oldValue, valuetype Microsoft.Maui.TextAlignment newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.OnHorizontalTextAlignmentPropertyChanged(Microsoft.Maui.TextAlignment,Microsoft.Maui.TextAlignment)" />
       <MemberSignature Language="VB.NET" Value="Public Sub OnHorizontalTextAlignmentPropertyChanged (oldValue As TextAlignment, newValue As TextAlignment)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void OnHorizontalTextAlignmentPropertyChanged(Microsoft::Maui::TextAlignment oldValue, Microsoft::Maui::TextAlignment newValue);" />
       <MemberSignature Language="F#" Value="abstract member OnHorizontalTextAlignmentPropertyChanged : Microsoft.Maui.TextAlignment * Microsoft.Maui.TextAlignment -&gt; unit&#xA;override this.OnHorizontalTextAlignmentPropertyChanged : Microsoft.Maui.TextAlignment * Microsoft.Maui.TextAlignment -&gt; unit" Usage="editor.OnHorizontalTextAlignmentPropertyChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void OnHorizontalTextAlignmentPropertyChanged(Microsoft::Maui::TextAlignment oldValue, Microsoft::Maui::TextAlignment newValue);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -853,8 +853,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnTextChanged(string oldValue, string newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.OnTextChanged(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnTextChanged (oldValue As String, newValue As String)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnTextChanged(System::String ^ oldValue, System::String ^ newValue);" />
       <MemberSignature Language="F#" Value="override this.OnTextChanged : string * string -&gt; unit" Usage="editor.OnTextChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnTextChanged(System::String ^ oldValue, System::String ^ newValue);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -879,8 +879,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PlaceholderColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.PlaceholderColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PlaceholderColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PlaceholderColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PlaceholderColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.PlaceholderColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PlaceholderColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -899,8 +899,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PlaceholderProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.PlaceholderProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PlaceholderProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PlaceholderProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PlaceholderProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.PlaceholderProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PlaceholderProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -919,8 +919,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".property instance int32 SelectionLength" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Editor.SelectionLength" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectionLength As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectionLength { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.SelectionLength : int with get, set" Usage="Microsoft.Maui.Controls.Editor.SelectionLength" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectionLength { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITextInput.SelectionLength</InterfaceMember>
@@ -943,8 +943,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectionLengthProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.SelectionLengthProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectionLengthProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionLengthProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectionLengthProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.SelectionLengthProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionLengthProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -963,8 +963,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendCompleted() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Editor.SendCompleted" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendCompleted ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendCompleted();" />
       <MemberSignature Language="F#" Value="abstract member SendCompleted : unit -&gt; unit&#xA;override this.SendCompleted : unit -&gt; unit" Usage="editor.SendCompleted " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendCompleted();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IEditorController.SendCompleted</InterfaceMember>
@@ -993,8 +993,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.TextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TextColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.TextColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1013,8 +1013,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.TextProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TextProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.TextProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1033,8 +1033,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextAlignment VerticalTextAlignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Editor.VerticalTextAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalTextAlignment As TextAlignment" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment VerticalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberSignature Language="F#" Value="member this.VerticalTextAlignment : Microsoft.Maui.TextAlignment with get, set" Usage="Microsoft.Maui.Controls.Editor.VerticalTextAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment VerticalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1054,8 +1054,8 @@ var editor = new Editor {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty VerticalTextAlignmentProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Editor.VerticalTextAlignmentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly VerticalTextAlignmentProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VerticalTextAlignmentProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable VerticalTextAlignmentProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Editor.VerticalTextAlignmentProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VerticalTextAlignmentProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

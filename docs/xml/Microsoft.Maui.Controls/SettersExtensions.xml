@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SettersExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.SettersExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module SettersExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SettersExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type SettersExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SettersExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -25,8 +25,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Add(class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.Setter&gt; setters, class Microsoft.Maui.Controls.BindableProperty property, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SettersExtensions.Add(System.Collections.Generic.IList{Microsoft.Maui.Controls.Setter},Microsoft.Maui.Controls.BindableProperty,System.Object)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Add (setters As IList(Of Setter), property As BindableProperty, value As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void Add(System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Setter ^&gt; ^ setters, Microsoft::Maui::Controls::BindableProperty ^ property, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="static member Add : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.Setter&gt; * Microsoft.Maui.Controls.BindableProperty * obj -&gt; unit" Usage="Microsoft.Maui.Controls.SettersExtensions.Add (setters, property, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void Add(System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Setter ^&gt; ^ setters, Microsoft::Maui::Controls::BindableProperty ^ property, System::Object ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -53,8 +53,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AddBinding(class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.Setter&gt; setters, class Microsoft.Maui.Controls.BindableProperty property, class Microsoft.Maui.Controls.Binding binding) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SettersExtensions.AddBinding(System.Collections.Generic.IList{Microsoft.Maui.Controls.Setter},Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.Binding)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub AddBinding (setters As IList(Of Setter), property As BindableProperty, binding As Binding)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void AddBinding(System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Setter ^&gt; ^ setters, Microsoft::Maui::Controls::BindableProperty ^ property, Microsoft::Maui::Controls::Binding ^ binding);" />
       <MemberSignature Language="F#" Value="static member AddBinding : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.Setter&gt; * Microsoft.Maui.Controls.BindableProperty * Microsoft.Maui.Controls.Binding -&gt; unit" Usage="Microsoft.Maui.Controls.SettersExtensions.AddBinding (setters, property, binding)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void AddBinding(System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Setter ^&gt; ^ setters, Microsoft::Maui::Controls::BindableProperty ^ property, Microsoft::Maui::Controls::Binding ^ binding);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -81,8 +81,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AddDynamicResource(class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.Setter&gt; setters, class Microsoft.Maui.Controls.BindableProperty property, string key) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SettersExtensions.AddDynamicResource(System.Collections.Generic.IList{Microsoft.Maui.Controls.Setter},Microsoft.Maui.Controls.BindableProperty,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub AddDynamicResource (setters As IList(Of Setter), property As BindableProperty, key As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void AddDynamicResource(System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Setter ^&gt; ^ setters, Microsoft::Maui::Controls::BindableProperty ^ property, System::String ^ key);" />
       <MemberSignature Language="F#" Value="static member AddDynamicResource : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.Setter&gt; * Microsoft.Maui.Controls.BindableProperty * string -&gt; unit" Usage="Microsoft.Maui.Controls.SettersExtensions.AddDynamicResource (setters, property, key)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void AddDynamicResource(System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::Setter ^&gt; ^ setters, Microsoft::Maui::Controls::BindableProperty ^ property, System::String ^ key);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

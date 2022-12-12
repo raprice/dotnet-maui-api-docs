@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ActionSheetArguments extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.ActionSheetArguments" />
   <TypeSignature Language="VB.NET" Value="Public Class ActionSheetArguments" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ActionSheetArguments" />
   <TypeSignature Language="F#" Value="type ActionSheetArguments = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ActionSheetArguments" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -29,8 +29,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string title, string cancel, string destruction, class System.Collections.Generic.IEnumerable`1&lt;string&gt; buttons) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.ActionSheetArguments.#ctor(System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.String})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (title As String, cancel As String, destruction As String, buttons As IEnumerable(Of String))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ActionSheetArguments(System::String ^ title, System::String ^ cancel, System::String ^ destruction, System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ buttons);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Internals.ActionSheetArguments : string * string * string * seq&lt;string&gt; -&gt; Microsoft.Maui.Controls.Internals.ActionSheetArguments" Usage="new Microsoft.Maui.Controls.Internals.ActionSheetArguments (title, cancel, destruction, buttons)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ActionSheetArguments(System::String ^ title, System::String ^ cancel, System::String ^ destruction, System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ buttons);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -56,8 +56,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; Buttons" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.ActionSheetArguments.Buttons" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Buttons As IEnumerable(Of String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ Buttons { System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Buttons : seq&lt;string&gt;" Usage="Microsoft.Maui.Controls.Internals.ActionSheetArguments.Buttons" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ Buttons { System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -80,8 +80,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Cancel" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.ActionSheetArguments.Cancel" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Cancel As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Cancel { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Cancel : string" Usage="Microsoft.Maui.Controls.Internals.ActionSheetArguments.Cancel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Cancel { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -103,8 +103,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Destruction" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.ActionSheetArguments.Destruction" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Destruction As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Destruction { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Destruction : string" Usage="Microsoft.Maui.Controls.Internals.ActionSheetArguments.Destruction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Destruction { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -126,8 +126,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.FlowDirection FlowDirection" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.ActionSheetArguments.FlowDirection" />
       <MemberSignature Language="VB.NET" Value="Public Property FlowDirection As FlowDirection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::FlowDirection FlowDirection { Microsoft::Maui::FlowDirection get(); void set(Microsoft::Maui::FlowDirection value); };" />
       <MemberSignature Language="F#" Value="member this.FlowDirection : Microsoft.Maui.FlowDirection with get, set" Usage="Microsoft.Maui.Controls.Internals.ActionSheetArguments.FlowDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::FlowDirection FlowDirection { Microsoft::Maui::FlowDirection get(); void set(Microsoft::Maui::FlowDirection value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -147,8 +147,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Threading.Tasks.TaskCompletionSource`1&lt;string&gt; Result" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.ActionSheetArguments.Result" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As TaskCompletionSource(Of String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Threading::Tasks::TaskCompletionSource&lt;System::String ^&gt; ^ Result { System::Threading::Tasks::TaskCompletionSource&lt;System::String ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Result : System.Threading.Tasks.TaskCompletionSource&lt;string&gt;" Usage="Microsoft.Maui.Controls.Internals.ActionSheetArguments.Result" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Threading::Tasks::TaskCompletionSource&lt;System::String ^&gt; ^ Result { System::Threading::Tasks::TaskCompletionSource&lt;System::String ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -168,8 +168,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResult(string result) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.ActionSheetArguments.SetResult(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetResult (result As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetResult(System::String ^ result);" />
       <MemberSignature Language="F#" Value="member this.SetResult : string -&gt; unit" Usage="actionSheetArguments.SetResult result" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetResult(System::String ^ result);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -192,8 +192,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.ActionSheetArguments.Title" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Title As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Title : string" Usage="Microsoft.Maui.Controls.Internals.ActionSheetArguments.Title" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

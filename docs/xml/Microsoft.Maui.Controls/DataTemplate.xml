@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataTemplate extends Microsoft.Maui.Controls.ElementTemplate implements class Microsoft.Maui.Controls.Internals.IDataTemplateController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.DataTemplate" />
   <TypeSignature Language="VB.NET" Value="Public Class DataTemplate&#xA;Inherits ElementTemplate&#xA;Implements IDataTemplateController" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DataTemplate : Microsoft::Maui::Controls::ElementTemplate, Microsoft::Maui::Controls::Internals::IDataTemplateController" />
   <TypeSignature Language="F#" Value="type DataTemplate = class&#xA;    inherit ElementTemplate&#xA;    interface IDataTemplateController" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DataTemplate : Microsoft::Maui::Controls::ElementTemplate, Microsoft::Maui::Controls::Internals::IDataTemplateController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`1&lt;object&gt; loadTemplate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.DataTemplate.#ctor(System.Func{System.Object})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (loadTemplate As Func(Of Object))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataTemplate(Func&lt;System::Object ^&gt; ^ loadTemplate);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.DataTemplate : Func&lt;obj&gt; -&gt; Microsoft.Maui.Controls.DataTemplate" Usage="new Microsoft.Maui.Controls.DataTemplate loadTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataTemplate(Func&lt;System::Object ^&gt; ^ loadTemplate);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.DataTemplate.#ctor(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (type As Type)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataTemplate(Type ^ type);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.DataTemplate : Type -&gt; Microsoft.Maui.Controls.DataTemplate" Usage="new Microsoft.Maui.Controls.DataTemplate type" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataTemplate(Type ^ type);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class Microsoft.Maui.Controls.BindableProperty, class Microsoft.Maui.Controls.BindingBase&gt; Bindings" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.DataTemplate.Bindings" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Bindings As IDictionary(Of BindableProperty, BindingBase)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Maui::Controls::BindableProperty ^, Microsoft::Maui::Controls::BindingBase ^&gt; ^ Bindings { System::Collections::Generic::IDictionary&lt;Microsoft::Maui::Controls::BindableProperty ^, Microsoft::Maui::Controls::BindingBase ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Bindings : System.Collections.Generic.IDictionary&lt;Microsoft.Maui.Controls.BindableProperty, Microsoft.Maui.Controls.BindingBase&gt;" Usage="Microsoft.Maui.Controls.DataTemplate.Bindings" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Maui::Controls::BindableProperty ^, Microsoft::Maui::Controls::BindingBase ^&gt; ^ Bindings { System::Collections::Generic::IDictionary&lt;Microsoft::Maui::Controls::BindableProperty ^, Microsoft::Maui::Controls::BindingBase ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -114,8 +114,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Microsoft.Maui.Controls.Internals.IDataTemplateController.Id" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.DataTemplate.Microsoft#Maui#Controls#Internals#IDataTemplateController#Id" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Id As Integer Implements IDataTemplateController.Id" />
-      <MemberSignature Language="C++ CLI" Value="property int Microsoft::Maui::Controls::Internals::IDataTemplateController::Id { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.Internals.IDataTemplateController.Id : int" Usage="Microsoft.Maui.Controls.Internals.IDataTemplateController.Id" />
+      <MemberSignature Language="C++ CLI" Value="property int Microsoft::Maui::Controls::Internals::IDataTemplateController::Id { int get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.Internals.IDataTemplateController.Id</InterfaceMember>
@@ -138,8 +138,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Microsoft.Maui.Controls.Internals.IDataTemplateController.IdString" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.DataTemplate.Microsoft#Maui#Controls#Internals#IDataTemplateController#IdString" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property IdString As String Implements IDataTemplateController.IdString" />
-      <MemberSignature Language="C++ CLI" Value="property System::String ^ Microsoft::Maui::Controls::Internals::IDataTemplateController::IdString { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.Internals.IDataTemplateController.IdString : string" Usage="Microsoft.Maui.Controls.Internals.IDataTemplateController.IdString" />
+      <MemberSignature Language="C++ CLI" Value="property System::String ^ Microsoft::Maui::Controls::Internals::IDataTemplateController::IdString { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.Internals.IDataTemplateController.IdString</InterfaceMember>
@@ -162,8 +162,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetBinding(class Microsoft.Maui.Controls.BindableProperty property, class Microsoft.Maui.Controls.BindingBase binding) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.DataTemplate.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetBinding (property As BindableProperty, binding As BindingBase)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetBinding(Microsoft::Maui::Controls::BindableProperty ^ property, Microsoft::Maui::Controls::BindingBase ^ binding);" />
       <MemberSignature Language="F#" Value="member this.SetBinding : Microsoft.Maui.Controls.BindableProperty * Microsoft.Maui.Controls.BindingBase -&gt; unit" Usage="dataTemplate.SetBinding (property, binding)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetBinding(Microsoft::Maui::Controls::BindableProperty ^ property, Microsoft::Maui::Controls::BindingBase ^ binding);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -188,8 +188,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetValue(class Microsoft.Maui.Controls.BindableProperty property, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.DataTemplate.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetValue (property As BindableProperty, value As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetValue(Microsoft::Maui::Controls::BindableProperty ^ property, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="member this.SetValue : Microsoft.Maui.Controls.BindableProperty * obj -&gt; unit" Usage="dataTemplate.SetValue (property, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetValue(Microsoft::Maui::Controls::BindableProperty ^ property, System::Object ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -214,8 +214,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class Microsoft.Maui.Controls.BindableProperty, object&gt; Values" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.DataTemplate.Values" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Values As IDictionary(Of BindableProperty, Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Maui::Controls::BindableProperty ^, System::Object ^&gt; ^ Values { System::Collections::Generic::IDictionary&lt;Microsoft::Maui::Controls::BindableProperty ^, System::Object ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Values : System.Collections.Generic.IDictionary&lt;Microsoft.Maui.Controls.BindableProperty, obj&gt;" Usage="Microsoft.Maui.Controls.DataTemplate.Values" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Maui::Controls::BindableProperty ^, System::Object ^&gt; ^ Values { System::Collections::Generic::IDictionary&lt;Microsoft::Maui::Controls::BindableProperty ^, System::Object ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

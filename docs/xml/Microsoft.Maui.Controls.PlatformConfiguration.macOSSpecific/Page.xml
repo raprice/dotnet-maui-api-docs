@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Page extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.Page" />
   <TypeSignature Language="VB.NET" Value="Public Module Page" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Page abstract sealed" />
   <TypeSignature Language="F#" Value="type Page = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Page abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.VisualElement[] GetTabOrder(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.Page.GetTabOrder(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetTabOrder (element As BindableObject) As VisualElement()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;Microsoft::Maui::Controls::VisualElement ^&gt; ^ GetTabOrder(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetTabOrder : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.VisualElement[]" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.Page.GetTabOrder element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;Microsoft::Maui::Controls::VisualElement ^&gt; ^ GetTabOrder(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.VisualElement[] GetTabOrder(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.Page&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.Page.GetTabOrder(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.macOS,Microsoft.Maui.Controls.Page})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetTabOrder (config As IPlatformElementConfiguration(Of macOS, Page)) As VisualElement()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static cli::array &lt;Microsoft::Maui::Controls::VisualElement ^&gt; ^ GetTabOrder(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetTabOrder : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.Page&gt; -&gt; Microsoft.Maui.Controls.VisualElement[]" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.Page.GetTabOrder config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static cli::array &lt;Microsoft::Maui::Controls::VisualElement ^&gt; ^ GetTabOrder(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetTabOrder(class Microsoft.Maui.Controls.BindableObject element, class Microsoft.Maui.Controls.VisualElement[] value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.Page.SetTabOrder(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.VisualElement[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetTabOrder (element As BindableObject, ParamArray value As VisualElement())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetTabOrder(Microsoft::Maui::Controls::BindableObject ^ element, ... cli::array &lt;Microsoft::Maui::Controls::VisualElement ^&gt; ^ value);" />
       <MemberSignature Language="F#" Value="static member SetTabOrder : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.VisualElement[] -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.Page.SetTabOrder (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetTabOrder(Microsoft::Maui::Controls::BindableObject ^ element, ... cli::array &lt;Microsoft::Maui::Controls::VisualElement ^&gt; ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -106,8 +106,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.Page&gt; SetTabOrder(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.Page&gt; config, class Microsoft.Maui.Controls.VisualElement[] value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.Page.SetTabOrder(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.macOS,Microsoft.Maui.Controls.Page},Microsoft.Maui.Controls.VisualElement[])" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetTabOrder (config As IPlatformElementConfiguration(Of macOS, Page), ParamArray value As VisualElement()) As IPlatformElementConfiguration(Of macOS, Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetTabOrder(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, ... cli::array &lt;Microsoft::Maui::Controls::VisualElement ^&gt; ^ value);" />
       <MemberSignature Language="F#" Value="static member SetTabOrder : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.Page&gt; * Microsoft.Maui.Controls.VisualElement[] -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.Page.SetTabOrder (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetTabOrder(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, ... cli::array &lt;Microsoft::Maui::Controls::VisualElement ^&gt; ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -140,8 +140,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TabOrderProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.Page.TabOrderProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly TabOrderProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TabOrderProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TabOrderProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.Page.TabOrderProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TabOrderProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

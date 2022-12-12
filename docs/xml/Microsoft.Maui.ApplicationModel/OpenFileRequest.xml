@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OpenFileRequest extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.OpenFileRequest" />
   <TypeSignature Language="VB.NET" Value="Public Class OpenFileRequest" />
-  <TypeSignature Language="C++ CLI" Value="public ref class OpenFileRequest" />
   <TypeSignature Language="F#" Value="type OpenFileRequest = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OpenFileRequest" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string title, class Microsoft.Maui.Storage.FileBase file) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.OpenFileRequest.#ctor(System.String,Microsoft.Maui.Storage.FileBase)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (title As String, file As FileBase)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; OpenFileRequest(System::String ^ title, Microsoft::Maui::Storage::FileBase ^ file);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ApplicationModel.OpenFileRequest : string * Microsoft.Maui.Storage.FileBase -&gt; Microsoft.Maui.ApplicationModel.OpenFileRequest" Usage="new Microsoft.Maui.ApplicationModel.OpenFileRequest (title, file)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OpenFileRequest(System::String ^ title, Microsoft::Maui::Storage::FileBase ^ file);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -63,8 +63,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string title, class Microsoft.Maui.Storage.ReadOnlyFile file) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.OpenFileRequest.#ctor(System.String,Microsoft.Maui.Storage.ReadOnlyFile)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (title As String, file As ReadOnlyFile)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; OpenFileRequest(System::String ^ title, Microsoft::Maui::Storage::ReadOnlyFile ^ file);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ApplicationModel.OpenFileRequest : string * Microsoft.Maui.Storage.ReadOnlyFile -&gt; Microsoft.Maui.ApplicationModel.OpenFileRequest" Usage="new Microsoft.Maui.ApplicationModel.OpenFileRequest (title, file)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OpenFileRequest(System::String ^ title, Microsoft::Maui::Storage::ReadOnlyFile ^ file);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Storage.ReadOnlyFile File" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.OpenFileRequest.File" />
       <MemberSignature Language="VB.NET" Value="Public Property File As ReadOnlyFile" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Storage::ReadOnlyFile ^ File { Microsoft::Maui::Storage::ReadOnlyFile ^ get(); void set(Microsoft::Maui::Storage::ReadOnlyFile ^ value); };" />
       <MemberSignature Language="F#" Value="member this.File : Microsoft.Maui.Storage.ReadOnlyFile with get, set" Usage="Microsoft.Maui.ApplicationModel.OpenFileRequest.File" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Storage::ReadOnlyFile ^ File { Microsoft::Maui::Storage::ReadOnlyFile ^ get(); void set(Microsoft::Maui::Storage::ReadOnlyFile ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Rect PresentationSourceBounds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.OpenFileRequest.PresentationSourceBounds" />
       <MemberSignature Language="VB.NET" Value="Public Property PresentationSourceBounds As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect PresentationSourceBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberSignature Language="F#" Value="member this.PresentationSourceBounds : Microsoft.Maui.Graphics.Rect with get, set" Usage="Microsoft.Maui.ApplicationModel.OpenFileRequest.PresentationSourceBounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect PresentationSourceBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -128,8 +128,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.OpenFileRequest.Title" />
       <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Microsoft.Maui.ApplicationModel.OpenFileRequest.Title" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

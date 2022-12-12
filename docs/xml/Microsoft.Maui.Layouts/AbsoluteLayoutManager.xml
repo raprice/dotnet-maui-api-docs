@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AbsoluteLayoutManager extends Microsoft.Maui.Layouts.LayoutManager" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Layouts.AbsoluteLayoutManager" />
   <TypeSignature Language="VB.NET" Value="Public Class AbsoluteLayoutManager&#xA;Inherits LayoutManager" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AbsoluteLayoutManager : Microsoft::Maui::Layouts::LayoutManager" />
   <TypeSignature Language="F#" Value="type AbsoluteLayoutManager = class&#xA;    inherit LayoutManager" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AbsoluteLayoutManager : Microsoft::Maui::Layouts::LayoutManager" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IAbsoluteLayout absoluteLayout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.AbsoluteLayoutManager.#ctor(Microsoft.Maui.IAbsoluteLayout)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (absoluteLayout As IAbsoluteLayout)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; AbsoluteLayoutManager(Microsoft::Maui::IAbsoluteLayout ^ absoluteLayout);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Layouts.AbsoluteLayoutManager : Microsoft.Maui.IAbsoluteLayout -&gt; Microsoft.Maui.Layouts.AbsoluteLayoutManager" Usage="new Microsoft.Maui.Layouts.AbsoluteLayoutManager absoluteLayout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AbsoluteLayoutManager(Microsoft::Maui::IAbsoluteLayout ^ absoluteLayout);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IAbsoluteLayout AbsoluteLayout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Layouts.AbsoluteLayoutManager.AbsoluteLayout" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AbsoluteLayout As IAbsoluteLayout" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IAbsoluteLayout ^ AbsoluteLayout { Microsoft::Maui::IAbsoluteLayout ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.AbsoluteLayout : Microsoft.Maui.IAbsoluteLayout" Usage="Microsoft.Maui.Layouts.AbsoluteLayoutManager.AbsoluteLayout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IAbsoluteLayout ^ AbsoluteLayout { Microsoft::Maui::IAbsoluteLayout ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size ArrangeChildren(valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.AbsoluteLayoutManager.ArrangeChildren(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ArrangeChildren (bounds As Rect) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::Maui::Graphics::Size ArrangeChildren(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberSignature Language="F#" Value="override this.ArrangeChildren : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size" Usage="absoluteLayoutManager.ArrangeChildren bounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::Maui::Graphics::Size ArrangeChildren(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -90,8 +90,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size Measure(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.AbsoluteLayoutManager.Measure(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Measure (widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::Maui::Graphics::Size Measure(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="override this.Measure : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="absoluteLayoutManager.Measure (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::Maui::Graphics::Size Measure(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

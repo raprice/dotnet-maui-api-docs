@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit DisplayInfo extends System.ValueType implements class System.IEquatable`1&lt;valuetype Microsoft.Maui.Devices.DisplayInfo&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.DisplayInfo" />
   <TypeSignature Language="VB.NET" Value="Public Structure DisplayInfo&#xA;Implements IEquatable(Of DisplayInfo)" />
-  <TypeSignature Language="C++ CLI" Value="public value class DisplayInfo : IEquatable&lt;Microsoft::Maui::Devices::DisplayInfo&gt;" />
   <TypeSignature Language="F#" Value="type DisplayInfo = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class DisplayInfo : IEquatable&lt;Microsoft::Maui::Devices::DisplayInfo&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 width, float64 height, float64 density, valuetype Microsoft.Maui.Devices.DisplayOrientation orientation, valuetype Microsoft.Maui.Devices.DisplayRotation rotation) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DisplayInfo.#ctor(System.Double,System.Double,System.Double,Microsoft.Maui.Devices.DisplayOrientation,Microsoft.Maui.Devices.DisplayRotation)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (width As Double, height As Double, density As Double, orientation As DisplayOrientation, rotation As DisplayRotation)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DisplayInfo(double width, double height, double density, Microsoft::Maui::Devices::DisplayOrientation orientation, Microsoft::Maui::Devices::DisplayRotation rotation);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Devices.DisplayInfo : double * double * double * Microsoft.Maui.Devices.DisplayOrientation * Microsoft.Maui.Devices.DisplayRotation -&gt; Microsoft.Maui.Devices.DisplayInfo" Usage="new Microsoft.Maui.Devices.DisplayInfo (width, height, density, orientation, rotation)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DisplayInfo(double width, double height, double density, Microsoft::Maui::Devices::DisplayOrientation orientation, Microsoft::Maui::Devices::DisplayRotation rotation);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 width, float64 height, float64 density, valuetype Microsoft.Maui.Devices.DisplayOrientation orientation, valuetype Microsoft.Maui.Devices.DisplayRotation rotation, float32 rate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DisplayInfo.#ctor(System.Double,System.Double,System.Double,Microsoft.Maui.Devices.DisplayOrientation,Microsoft.Maui.Devices.DisplayRotation,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (width As Double, height As Double, density As Double, orientation As DisplayOrientation, rotation As DisplayRotation, rate As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DisplayInfo(double width, double height, double density, Microsoft::Maui::Devices::DisplayOrientation orientation, Microsoft::Maui::Devices::DisplayRotation rotation, float rate);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Devices.DisplayInfo : double * double * double * Microsoft.Maui.Devices.DisplayOrientation * Microsoft.Maui.Devices.DisplayRotation * single -&gt; Microsoft.Maui.Devices.DisplayInfo" Usage="new Microsoft.Maui.Devices.DisplayInfo (width, height, density, orientation, rotation, rate)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DisplayInfo(double width, double height, double density, Microsoft::Maui::Devices::DisplayOrientation orientation, Microsoft::Maui::Devices::DisplayRotation rotation, float rate);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Density" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DisplayInfo.Density" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Density As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Density { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Density : double" Usage="Microsoft.Maui.Devices.DisplayInfo.Density" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Density { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -118,8 +118,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Microsoft.Maui.Devices.DisplayInfo other) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DisplayInfo.Equals(Microsoft.Maui.Devices.DisplayInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As DisplayInfo) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(Microsoft::Maui::Devices::DisplayInfo other);" />
       <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Maui.Devices.DisplayInfo -&gt; bool" Usage="displayInfo.Equals other" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(Microsoft::Maui::Devices::DisplayInfo other);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
@@ -146,8 +146,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DisplayInfo.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="displayInfo.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -171,8 +171,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DisplayInfo.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="displayInfo.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -193,8 +193,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Height" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DisplayInfo.Height" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Height { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Height : double" Usage="Microsoft.Maui.Devices.DisplayInfo.Height" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Height { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -214,8 +214,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Maui.Devices.DisplayInfo left, valuetype Microsoft.Maui.Devices.DisplayInfo right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DisplayInfo.op_Equality(Microsoft.Maui.Devices.DisplayInfo,Microsoft.Maui.Devices.DisplayInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As DisplayInfo, right As DisplayInfo) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Devices::DisplayInfo left, Microsoft::Maui::Devices::DisplayInfo right);" />
       <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Maui.Devices.DisplayInfo * Microsoft.Maui.Devices.DisplayInfo -&gt; bool" Usage="left = right" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Devices::DisplayInfo left, Microsoft::Maui::Devices::DisplayInfo right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -241,8 +241,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Maui.Devices.DisplayInfo left, valuetype Microsoft.Maui.Devices.DisplayInfo right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DisplayInfo.op_Inequality(Microsoft.Maui.Devices.DisplayInfo,Microsoft.Maui.Devices.DisplayInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As DisplayInfo, right As DisplayInfo) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Devices::DisplayInfo left, Microsoft::Maui::Devices::DisplayInfo right);" />
       <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Maui.Devices.DisplayInfo * Microsoft.Maui.Devices.DisplayInfo -&gt; bool" Usage="Microsoft.Maui.Devices.DisplayInfo.op_Inequality (left, right)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Devices::DisplayInfo left, Microsoft::Maui::Devices::DisplayInfo right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -268,8 +268,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Devices.DisplayOrientation Orientation" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DisplayInfo.Orientation" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Orientation As DisplayOrientation" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::DisplayOrientation Orientation { Microsoft::Maui::Devices::DisplayOrientation get(); };" />
       <MemberSignature Language="F#" Value="member this.Orientation : Microsoft.Maui.Devices.DisplayOrientation" Usage="Microsoft.Maui.Devices.DisplayInfo.Orientation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::DisplayOrientation Orientation { Microsoft::Maui::Devices::DisplayOrientation get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -289,8 +289,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 RefreshRate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DisplayInfo.RefreshRate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RefreshRate As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float RefreshRate { float get(); };" />
       <MemberSignature Language="F#" Value="member this.RefreshRate : single" Usage="Microsoft.Maui.Devices.DisplayInfo.RefreshRate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float RefreshRate { float get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -312,8 +312,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Devices.DisplayRotation Rotation" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DisplayInfo.Rotation" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Rotation As DisplayRotation" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::DisplayRotation Rotation { Microsoft::Maui::Devices::DisplayRotation get(); };" />
       <MemberSignature Language="F#" Value="member this.Rotation : Microsoft.Maui.Devices.DisplayRotation" Usage="Microsoft.Maui.Devices.DisplayInfo.Rotation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::DisplayRotation Rotation { Microsoft::Maui::Devices::DisplayRotation get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -333,8 +333,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.DisplayInfo.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="displayInfo.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -355,8 +355,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Width" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.DisplayInfo.Width" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Width { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Width : double" Usage="Microsoft.Maui.Devices.DisplayInfo.Width" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Width { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

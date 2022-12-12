@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PreserveAttribute extends System.Attribute" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.PreserveAttribute" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PreserveAttribute&#xA;Inherits Attribute" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PreserveAttribute sealed : Attribute" />
   <TypeSignature Language="F#" Value="type PreserveAttribute = class&#xA;    inherit Attribute" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PreserveAttribute sealed : Attribute" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool allMembers, bool conditional) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.PreserveAttribute.#ctor(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (allMembers As Boolean, conditional As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; PreserveAttribute(bool allMembers, bool conditional);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Internals.PreserveAttribute : bool * bool -&gt; Microsoft.Maui.Controls.Internals.PreserveAttribute" Usage="new Microsoft.Maui.Controls.Internals.PreserveAttribute (allMembers, conditional)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PreserveAttribute(bool allMembers, bool conditional);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".field public bool AllMembers" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Internals.PreserveAttribute.AllMembers" />
       <MemberSignature Language="VB.NET" Value="Public AllMembers As Boolean " />
-      <MemberSignature Language="C++ CLI" Value="public: bool AllMembers;" />
       <MemberSignature Language="F#" Value="val mutable AllMembers : bool" Usage="Microsoft.Maui.Controls.Internals.PreserveAttribute.AllMembers" />
+      <MemberSignature Language="C++ CLI" Value="public: bool AllMembers;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".field public bool Conditional" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Internals.PreserveAttribute.Conditional" />
       <MemberSignature Language="VB.NET" Value="Public Conditional As Boolean " />
-      <MemberSignature Language="C++ CLI" Value="public: bool Conditional;" />
       <MemberSignature Language="F#" Value="val mutable Conditional : bool" Usage="Microsoft.Maui.Controls.Internals.PreserveAttribute.Conditional" />
+      <MemberSignature Language="C++ CLI" Value="public: bool Conditional;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

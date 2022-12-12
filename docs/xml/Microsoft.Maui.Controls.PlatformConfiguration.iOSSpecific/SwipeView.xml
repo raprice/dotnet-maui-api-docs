@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SwipeView extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.SwipeView" />
   <TypeSignature Language="VB.NET" Value="Public Module SwipeView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SwipeView abstract sealed" />
   <TypeSignature Language="F#" Value="type SwipeView = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SwipeView abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.SwipeTransitionMode GetSwipeTransitionMode(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.SwipeView.GetSwipeTransitionMode(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetSwipeTransitionMode (element As BindableObject) As SwipeTransitionMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::SwipeTransitionMode GetSwipeTransitionMode(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetSwipeTransitionMode : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.SwipeTransitionMode" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.SwipeView.GetSwipeTransitionMode element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::SwipeTransitionMode GetSwipeTransitionMode(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.SwipeTransitionMode GetSwipeTransitionMode(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.SwipeView&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.SwipeView.GetSwipeTransitionMode(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.SwipeView})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSwipeTransitionMode (config As IPlatformElementConfiguration(Of iOS, SwipeView)) As SwipeTransitionMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::SwipeTransitionMode GetSwipeTransitionMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::SwipeView ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetSwipeTransitionMode : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.SwipeView&gt; -&gt; Microsoft.Maui.SwipeTransitionMode" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.SwipeView.GetSwipeTransitionMode config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::SwipeTransitionMode GetSwipeTransitionMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::SwipeView ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetSwipeTransitionMode(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.SwipeTransitionMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.SwipeView.SetSwipeTransitionMode(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.SwipeTransitionMode)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetSwipeTransitionMode (element As BindableObject, value As SwipeTransitionMode)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetSwipeTransitionMode(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::SwipeTransitionMode value);" />
       <MemberSignature Language="F#" Value="static member SetSwipeTransitionMode : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.SwipeTransitionMode -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.SwipeView.SetSwipeTransitionMode (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetSwipeTransitionMode(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::SwipeTransitionMode value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -99,8 +99,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.SwipeView&gt; SetSwipeTransitionMode(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.iOS, class Microsoft.Maui.Controls.SwipeView&gt; config, valuetype Microsoft.Maui.SwipeTransitionMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.SwipeView.SetSwipeTransitionMode(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.iOS,Microsoft.Maui.Controls.SwipeView},Microsoft.Maui.SwipeTransitionMode)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetSwipeTransitionMode (config As IPlatformElementConfiguration(Of iOS, SwipeView), value As SwipeTransitionMode) As IPlatformElementConfiguration(Of iOS, SwipeView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::SwipeView ^&gt; ^ SetSwipeTransitionMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::SwipeView ^&gt; ^ config, Microsoft::Maui::SwipeTransitionMode value);" />
       <MemberSignature Language="F#" Value="static member SetSwipeTransitionMode : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.SwipeView&gt; * Microsoft.Maui.SwipeTransitionMode -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.iOS, Microsoft.Maui.Controls.SwipeView&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.SwipeView.SetSwipeTransitionMode (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::SwipeView ^&gt; ^ SetSwipeTransitionMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::iOS ^, Microsoft::Maui::Controls::SwipeView ^&gt; ^ config, Microsoft::Maui::SwipeTransitionMode value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -126,8 +126,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SwipeTransitionModeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.SwipeView.SwipeTransitionModeProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly SwipeTransitionModeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SwipeTransitionModeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SwipeTransitionModeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.SwipeView.SwipeTransitionModeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SwipeTransitionModeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

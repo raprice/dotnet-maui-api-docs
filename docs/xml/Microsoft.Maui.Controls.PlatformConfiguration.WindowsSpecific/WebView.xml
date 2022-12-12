@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit WebView extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView" />
   <TypeSignature Language="VB.NET" Value="Public Module WebView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class WebView abstract sealed" />
   <TypeSignature Language="F#" Value="type WebView = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WebView abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ExecutionModeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.ExecutionModeProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly ExecutionModeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ExecutionModeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ExecutionModeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.ExecutionModeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ExecutionModeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -43,8 +43,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebViewExecutionMode GetExecutionMode(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.GetExecutionMode(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetExecutionMode (element As BindableObject) As WebViewExecutionMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::WebViewExecutionMode GetExecutionMode(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetExecutionMode : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebViewExecutionMode" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.GetExecutionMode element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::WebViewExecutionMode GetExecutionMode(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebViewExecutionMode GetExecutionMode(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.WebView&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.GetExecutionMode(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.WebView})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetExecutionMode (config As IPlatformElementConfiguration(Of Windows, WebView)) As WebViewExecutionMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::WebViewExecutionMode GetExecutionMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetExecutionMode : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.WebView&gt; -&gt; Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebViewExecutionMode" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.GetExecutionMode config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::WebViewExecutionMode GetExecutionMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsJavaScriptAlertEnabled(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.GetIsJavaScriptAlertEnabled(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetIsJavaScriptAlertEnabled (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsJavaScriptAlertEnabled(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetIsJavaScriptAlertEnabled : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.GetIsJavaScriptAlertEnabled element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsJavaScriptAlertEnabled(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -118,8 +118,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsJavaScriptAlertEnabled(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.WebView&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.IsJavaScriptAlertEnabled(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.WebView})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsJavaScriptAlertEnabled (config As IPlatformElementConfiguration(Of Windows, WebView)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsJavaScriptAlertEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member IsJavaScriptAlertEnabled : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.WebView&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.IsJavaScriptAlertEnabled config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsJavaScriptAlertEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -143,8 +143,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsJavaScriptAlertEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.IsJavaScriptAlertEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly IsJavaScriptAlertEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsJavaScriptAlertEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsJavaScriptAlertEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.IsJavaScriptAlertEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsJavaScriptAlertEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -163,8 +163,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetExecutionMode(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebViewExecutionMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.SetExecutionMode(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebViewExecutionMode)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetExecutionMode (element As BindableObject, value As WebViewExecutionMode)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetExecutionMode(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::WebViewExecutionMode value);" />
       <MemberSignature Language="F#" Value="static member SetExecutionMode : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebViewExecutionMode -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.SetExecutionMode (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetExecutionMode(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::WebViewExecutionMode value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -189,8 +189,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.WebView&gt; SetExecutionMode(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.WebView&gt; config, valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebViewExecutionMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.SetExecutionMode(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.WebView},Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebViewExecutionMode)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetExecutionMode (config As IPlatformElementConfiguration(Of Windows, WebView), value As WebViewExecutionMode) As IPlatformElementConfiguration(Of Windows, WebView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::WebView ^&gt; ^ SetExecutionMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::WebViewExecutionMode value);" />
       <MemberSignature Language="F#" Value="static member SetExecutionMode : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.WebView&gt; * Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebViewExecutionMode -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.WebView&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.SetExecutionMode (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::WebView ^&gt; ^ SetExecutionMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::WebViewExecutionMode value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -216,8 +216,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsJavaScriptAlertEnabled(class Microsoft.Maui.Controls.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.SetIsJavaScriptAlertEnabled(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetIsJavaScriptAlertEnabled (element As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsJavaScriptAlertEnabled(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetIsJavaScriptAlertEnabled : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.SetIsJavaScriptAlertEnabled (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsJavaScriptAlertEnabled(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -243,8 +243,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.WebView&gt; SetIsJavaScriptAlertEnabled(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.WebView&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.SetIsJavaScriptAlertEnabled(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.WebView},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetIsJavaScriptAlertEnabled (config As IPlatformElementConfiguration(Of Windows, WebView), value As Boolean) As IPlatformElementConfiguration(Of Windows, WebView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::WebView ^&gt; ^ SetIsJavaScriptAlertEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetIsJavaScriptAlertEnabled : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.WebView&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.WebView&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.WebView.SetIsJavaScriptAlertEnabled (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::WebView ^&gt; ^ SetIsJavaScriptAlertEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

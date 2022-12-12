@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit GridExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.GridExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module GridExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GridExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type GridExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GridExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

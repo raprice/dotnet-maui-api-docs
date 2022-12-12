@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Share extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.DataTransfer.Share" />
   <TypeSignature Language="VB.NET" Value="Public Class Share" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Share abstract sealed" />
   <TypeSignature Language="F#" Value="type Share = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Share abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.ApplicationModel.DataTransfer.IShare Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.DataTransfer.Share.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As IShare" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::DataTransfer::IShare ^ Default { Microsoft::Maui::ApplicationModel::DataTransfer::IShare ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.ApplicationModel.DataTransfer.IShare" Usage="Microsoft.Maui.ApplicationModel.DataTransfer.Share.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::DataTransfer::IShare ^ Default { Microsoft::Maui::ApplicationModel::DataTransfer::IShare ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task RequestAsync(class Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest request) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.DataTransfer.Share.RequestAsync(Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function RequestAsync (request As ShareFileRequest) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ RequestAsync(Microsoft::Maui::ApplicationModel::DataTransfer::ShareFileRequest ^ request);" />
       <MemberSignature Language="F#" Value="static member RequestAsync : Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.DataTransfer.Share.RequestAsync request" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ RequestAsync(Microsoft::Maui::ApplicationModel::DataTransfer::ShareFileRequest ^ request);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task RequestAsync(class Microsoft.Maui.ApplicationModel.DataTransfer.ShareMultipleFilesRequest request) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.DataTransfer.Share.RequestAsync(Microsoft.Maui.ApplicationModel.DataTransfer.ShareMultipleFilesRequest)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function RequestAsync (request As ShareMultipleFilesRequest) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ RequestAsync(Microsoft::Maui::ApplicationModel::DataTransfer::ShareMultipleFilesRequest ^ request);" />
       <MemberSignature Language="F#" Value="static member RequestAsync : Microsoft.Maui.ApplicationModel.DataTransfer.ShareMultipleFilesRequest -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.DataTransfer.Share.RequestAsync request" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ RequestAsync(Microsoft::Maui::ApplicationModel::DataTransfer::ShareMultipleFilesRequest ^ request);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -94,8 +94,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task RequestAsync(class Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest request) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.DataTransfer.Share.RequestAsync(Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function RequestAsync (request As ShareTextRequest) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ RequestAsync(Microsoft::Maui::ApplicationModel::DataTransfer::ShareTextRequest ^ request);" />
       <MemberSignature Language="F#" Value="static member RequestAsync : Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.DataTransfer.Share.RequestAsync request" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ RequestAsync(Microsoft::Maui::ApplicationModel::DataTransfer::ShareTextRequest ^ request);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task RequestAsync(string text) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.DataTransfer.Share.RequestAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function RequestAsync (text As String) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ RequestAsync(System::String ^ text);" />
       <MemberSignature Language="F#" Value="static member RequestAsync : string -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.DataTransfer.Share.RequestAsync text" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ RequestAsync(System::String ^ text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -144,8 +144,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task RequestAsync(string text, string title) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.DataTransfer.Share.RequestAsync(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function RequestAsync (text As String, title As String) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ RequestAsync(System::String ^ text, System::String ^ title);" />
       <MemberSignature Language="F#" Value="static member RequestAsync : string * string -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.DataTransfer.Share.RequestAsync (text, title)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ RequestAsync(System::String ^ text, System::String ^ title);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

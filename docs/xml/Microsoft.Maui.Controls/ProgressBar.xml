@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ProgressBar extends Microsoft.Maui.Controls.View implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.ProgressBar&gt;, class Microsoft.Maui.IElement, class Microsoft.Maui.IProgress, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ProgressBar" />
   <TypeSignature Language="VB.NET" Value="Public Class ProgressBar&#xA;Inherits View&#xA;Implements IElementConfiguration(Of ProgressBar), IProgress" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ProgressBar : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::ProgressBar ^&gt;, Microsoft::Maui::IProgress" />
   <TypeSignature Language="F#" Value="type ProgressBar = class&#xA;    inherit View&#xA;    interface IProgress&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IElementConfiguration&lt;ProgressBar&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ProgressBar : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::ProgressBar ^&gt;, Microsoft::Maui::IProgress" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -75,8 +75,8 @@ Debug.WriteLine ("Animation completed");
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.ProgressBar&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ProgressBar.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, ProgressBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::ProgressBar ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.ProgressBar (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.ProgressBar (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="progressBar.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::ProgressBar ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -109,8 +109,8 @@ Debug.WriteLine ("Animation completed");
       <MemberSignature Language="ILAsm" Value=".property instance float64 Progress" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ProgressBar.Progress" />
       <MemberSignature Language="VB.NET" Value="Public Property Progress As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Progress { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Progress : double with get, set" Usage="Microsoft.Maui.Controls.ProgressBar.Progress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Progress { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -130,8 +130,8 @@ Debug.WriteLine ("Animation completed");
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color ProgressColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ProgressBar.ProgressColor" />
       <MemberSignature Language="VB.NET" Value="Public Property ProgressColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ ProgressColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ProgressColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.ProgressBar.ProgressColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ ProgressColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -151,8 +151,8 @@ Debug.WriteLine ("Animation completed");
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ProgressColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ProgressBar.ProgressColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ProgressColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ProgressColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ProgressColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ProgressBar.ProgressColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ProgressColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -171,8 +171,8 @@ Debug.WriteLine ("Animation completed");
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ProgressProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ProgressBar.ProgressProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ProgressProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ProgressProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ProgressProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ProgressBar.ProgressProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ProgressProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -191,8 +191,8 @@ Debug.WriteLine ("Animation completed");
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;bool&gt; ProgressTo(float64 value, unsigned int32 length, class Microsoft.Maui.Easing easing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ProgressBar.ProgressTo(System.Double,System.UInt32,Microsoft.Maui.Easing)" />
       <MemberSignature Language="VB.NET" Value="Public Function ProgressTo (value As Double, length As UInteger, easing As Easing) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;bool&gt; ^ ProgressTo(double value, System::UInt32 length, Microsoft::Maui::Easing ^ easing);" />
       <MemberSignature Language="F#" Value="member this.ProgressTo : double * uint32 * Microsoft.Maui.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="progressBar.ProgressTo (value, length, easing)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;bool&gt; ^ ProgressTo(double value, System::UInt32 length, Microsoft::Maui::Easing ^ easing);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

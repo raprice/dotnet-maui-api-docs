@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OpenGLView extends Microsoft.Maui.Controls.View implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.OpenGLView&gt;, class Microsoft.Maui.Controls.IElementController, class Microsoft.Maui.Controls.IOpenGlViewController, class Microsoft.Maui.Controls.IViewController, class Microsoft.Maui.Controls.IVisualElementController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.OpenGLView" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OpenGLView&#xA;Inherits View&#xA;Implements IElementConfiguration(Of OpenGLView), IOpenGlViewController" />
-  <TypeSignature Language="C++ CLI" Value="public ref class OpenGLView sealed : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::OpenGLView ^&gt;, Microsoft::Maui::Controls::IOpenGlViewController" />
   <TypeSignature Language="F#" Value="type OpenGLView = class&#xA;    inherit View&#xA;    interface IOpenGlViewController&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController&#xA;    interface IElementConfiguration&lt;OpenGLView&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OpenGLView sealed : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::OpenGLView ^&gt;, Microsoft::Maui::Controls::IOpenGlViewController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -122,8 +122,8 @@ namespace opengl
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Display() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.OpenGLView.Display" />
       <MemberSignature Language="VB.NET" Value="Public Sub Display ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Display();" />
       <MemberSignature Language="F#" Value="member this.Display : unit -&gt; unit" Usage="openGLView.Display " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Display();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -143,8 +143,8 @@ namespace opengl
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler DisplayRequested" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.OpenGLView.DisplayRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event DisplayRequested As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler ^ DisplayRequested;" />
       <MemberSignature Language="F#" Value="member this.DisplayRequested : EventHandler " Usage="member this.DisplayRequested : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler ^ DisplayRequested;" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Maui.Controls.IOpenGlViewController.DisplayRequested</InterfaceMember>
@@ -172,8 +172,8 @@ namespace opengl
       <MemberSignature Language="ILAsm" Value=".property instance bool HasRenderLoop" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.OpenGLView.HasRenderLoop" />
       <MemberSignature Language="VB.NET" Value="Public Property HasRenderLoop As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasRenderLoop { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.HasRenderLoop : bool with get, set" Usage="Microsoft.Maui.Controls.OpenGLView.HasRenderLoop" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasRenderLoop { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -193,8 +193,8 @@ namespace opengl
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HasRenderLoopProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.OpenGLView.HasRenderLoopProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HasRenderLoopProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HasRenderLoopProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HasRenderLoopProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.OpenGLView.HasRenderLoopProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HasRenderLoopProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -213,8 +213,8 @@ namespace opengl
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.OpenGLView&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.OpenGLView.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, OpenGLView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::OpenGLView ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.OpenGLView (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.OpenGLView (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="openGLView.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::OpenGLView ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -247,8 +247,8 @@ namespace opengl
       <MemberSignature Language="ILAsm" Value=".property instance class System.Action`1&lt;valuetype Microsoft.Maui.Graphics.Rect&gt; OnDisplay" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.OpenGLView.OnDisplay" />
       <MemberSignature Language="VB.NET" Value="Public Property OnDisplay As Action(Of Rect)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Action&lt;Microsoft::Maui::Graphics::Rect&gt; ^ OnDisplay { Action&lt;Microsoft::Maui::Graphics::Rect&gt; ^ get(); void set(Action&lt;Microsoft::Maui::Graphics::Rect&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.OnDisplay : Action&lt;Microsoft.Maui.Graphics.Rect&gt; with get, set" Usage="Microsoft.Maui.Controls.OpenGLView.OnDisplay" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Action&lt;Microsoft::Maui::Graphics::Rect&gt; ^ OnDisplay { Action&lt;Microsoft::Maui::Graphics::Rect&gt; ^ get(); void set(Action&lt;Microsoft::Maui::Graphics::Rect&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

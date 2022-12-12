@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAppLinkEntry" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IAppLinkEntry" />
   <TypeSignature Language="VB.NET" Value="Public Interface IAppLinkEntry" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IAppLinkEntry" />
   <TypeSignature Language="F#" Value="type IAppLinkEntry = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IAppLinkEntry" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri AppLinkUri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IAppLinkEntry.AppLinkUri" />
       <MemberSignature Language="VB.NET" Value="Public Property AppLinkUri As Uri" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Uri ^ AppLinkUri { Uri ^ get(); void set(Uri ^ value); };" />
       <MemberSignature Language="F#" Value="member this.AppLinkUri : Uri with get, set" Usage="Microsoft.Maui.Controls.IAppLinkEntry.AppLinkUri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Uri ^ AppLinkUri { Uri ^ get(); void set(Uri ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -41,8 +41,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Description" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IAppLinkEntry.Description" />
       <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Description : string with get, set" Usage="Microsoft.Maui.Controls.IAppLinkEntry.Description" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsLinkActive" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IAppLinkEntry.IsLinkActive" />
       <MemberSignature Language="VB.NET" Value="Public Property IsLinkActive As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLinkActive { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsLinkActive : bool with get, set" Usage="Microsoft.Maui.Controls.IAppLinkEntry.IsLinkActive" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLinkActive { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -83,8 +83,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; KeyValues" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IAppLinkEntry.KeyValues" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyValues As IDictionary(Of String, String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ KeyValues { System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.KeyValues : System.Collections.Generic.IDictionary&lt;string, string&gt;" Usage="Microsoft.Maui.Controls.IAppLinkEntry.KeyValues" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ KeyValues { System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -104,8 +104,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource Thumbnail" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IAppLinkEntry.Thumbnail" />
       <MemberSignature Language="VB.NET" Value="Public Property Thumbnail As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ Thumbnail { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Thumbnail : Microsoft.Maui.Controls.ImageSource with get, set" Usage="Microsoft.Maui.Controls.IAppLinkEntry.Thumbnail" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ Thumbnail { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -125,8 +125,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IAppLinkEntry.Title" />
       <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Microsoft.Maui.Controls.IAppLinkEntry.Title" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

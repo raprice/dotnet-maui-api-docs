@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SolidColorBrush extends Microsoft.Maui.Controls.Brush" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.SolidColorBrush" />
   <TypeSignature Language="VB.NET" Value="Public Class SolidColorBrush&#xA;Inherits Brush" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SolidColorBrush : Microsoft::Maui::Controls::Brush" />
   <TypeSignature Language="F#" Value="type SolidColorBrush = class&#xA;    inherit Brush" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SolidColorBrush : Microsoft::Maui::Controls::Brush" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Graphics.Color color) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SolidColorBrush.#ctor(Microsoft.Maui.Graphics.Color)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (color As Color)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; SolidColorBrush(Microsoft::Maui::Graphics::Color ^ color);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.SolidColorBrush : Microsoft.Maui.Graphics.Color -&gt; Microsoft.Maui.Controls.SolidColorBrush" Usage="new Microsoft.Maui.Controls.SolidColorBrush color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SolidColorBrush(Microsoft::Maui::Graphics::Color ^ color);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color Color" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SolidColorBrush.Color" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Color As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::Color ^ Color { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Color : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.SolidColorBrush.Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::Color ^ Color { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -88,8 +88,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SolidColorBrush.ColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SolidColorBrush.ColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -108,8 +108,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SolidColorBrush.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="solidColorBrush.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -133,8 +133,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SolidColorBrush.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="solidColorBrush.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -155,8 +155,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEmpty" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SolidColorBrush.IsEmpty" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsEmpty As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsEmpty { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsEmpty : bool" Usage="Microsoft.Maui.Controls.SolidColorBrush.IsEmpty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsEmpty { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

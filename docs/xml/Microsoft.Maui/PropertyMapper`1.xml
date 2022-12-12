@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PropertyMapper`1&lt;(class Microsoft.Maui.IElement) TVirtualView&gt; extends Microsoft.Maui.PropertyMapper`2&lt;!TVirtualView, class Microsoft.Maui.IElementHandler&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.PropertyMapper`1" />
   <TypeSignature Language="VB.NET" Value="Public Class PropertyMapper(Of TVirtualView)&#xA;Inherits PropertyMapper(Of TVirtualView, IElementHandler)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TVirtualView&gt;&#xA; where TVirtualView : IElementpublic ref class PropertyMapper : Microsoft::Maui::PropertyMapper&lt;TVirtualView, Microsoft::Maui::IElementHandler ^&gt;" />
   <TypeSignature Language="F#" Value="type PropertyMapper&lt;'VirtualView (requires 'VirtualView :&gt; IElement)&gt; = class&#xA;    inherit PropertyMapper&lt;'VirtualView, IElementHandler (requires 'VirtualView :&gt; IElement)&gt;" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TVirtualView&gt;&#xA; where TVirtualView : IElementpublic ref class PropertyMapper : Microsoft::Maui::PropertyMapper&lt;TVirtualView, Microsoft::Maui::IElementHandler ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -52,8 +52,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.PropertyMapper[] chained) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.PropertyMapper`1.#ctor(Microsoft.Maui.PropertyMapper[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (ParamArray chained As PropertyMapper())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertyMapper(... cli::array &lt;Microsoft::Maui::PropertyMapper ^&gt; ^ chained);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.PropertyMapper&lt;'VirtualView (requires 'VirtualView :&gt; Microsoft.Maui.IElement)&gt; : Microsoft.Maui.PropertyMapper[] -&gt; Microsoft.Maui.PropertyMapper&lt;'VirtualView (requires 'VirtualView :&gt; Microsoft.Maui.IElement)&gt;" Usage="new Microsoft.Maui.PropertyMapper&lt;'VirtualView (requires 'VirtualView :&gt; Microsoft.Maui.IElement)&gt; chained" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertyMapper(... cli::array &lt;Microsoft::Maui::PropertyMapper ^&gt; ^ chained);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

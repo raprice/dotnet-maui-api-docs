@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract INativeBindingService" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.Internals.INativeBindingService" />
   <TypeSignature Language="VB.NET" Value="Public Interface INativeBindingService" />
-  <TypeSignature Language="C++ CLI" Value="public interface class INativeBindingService" />
   <TypeSignature Language="F#" Value="type INativeBindingService = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class INativeBindingService" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TrySetBinding(object target, class Microsoft.Maui.Controls.BindableProperty property, class Microsoft.Maui.Controls.BindingBase binding) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.Internals.INativeBindingService.TrySetBinding(System.Object,Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)" />
       <MemberSignature Language="VB.NET" Value="Public Function TrySetBinding (target As Object, property As BindableProperty, binding As BindingBase) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TrySetBinding(System::Object ^ target, Microsoft::Maui::Controls::BindableProperty ^ property, Microsoft::Maui::Controls::BindingBase ^ binding);" />
       <MemberSignature Language="F#" Value="abstract member TrySetBinding : obj * Microsoft.Maui.Controls.BindableProperty * Microsoft.Maui.Controls.BindingBase -&gt; bool" Usage="iNativeBindingService.TrySetBinding (target, property, binding)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TrySetBinding(System::Object ^ target, Microsoft::Maui::Controls::BindableProperty ^ property, Microsoft::Maui::Controls::BindingBase ^ binding);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -49,8 +49,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TrySetBinding(object target, string propertyName, class Microsoft.Maui.Controls.BindingBase binding) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.Internals.INativeBindingService.TrySetBinding(System.Object,System.String,Microsoft.Maui.Controls.BindingBase)" />
       <MemberSignature Language="VB.NET" Value="Public Function TrySetBinding (target As Object, propertyName As String, binding As BindingBase) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TrySetBinding(System::Object ^ target, System::String ^ propertyName, Microsoft::Maui::Controls::BindingBase ^ binding);" />
       <MemberSignature Language="F#" Value="abstract member TrySetBinding : obj * string * Microsoft.Maui.Controls.BindingBase -&gt; bool" Usage="iNativeBindingService.TrySetBinding (target, propertyName, binding)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TrySetBinding(System::Object ^ target, System::String ^ propertyName, Microsoft::Maui::Controls::BindingBase ^ binding);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -78,8 +78,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TrySetValue(object target, class Microsoft.Maui.Controls.BindableProperty property, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.Internals.INativeBindingService.TrySetValue(System.Object,Microsoft.Maui.Controls.BindableProperty,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function TrySetValue (target As Object, property As BindableProperty, value As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TrySetValue(System::Object ^ target, Microsoft::Maui::Controls::BindableProperty ^ property, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="abstract member TrySetValue : obj * Microsoft.Maui.Controls.BindableProperty * obj -&gt; bool" Usage="iNativeBindingService.TrySetValue (target, property, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TrySetValue(System::Object ^ target, Microsoft::Maui::Controls::BindableProperty ^ property, System::Object ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

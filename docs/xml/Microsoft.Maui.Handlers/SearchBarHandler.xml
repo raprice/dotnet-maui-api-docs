@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi SearchBarHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.ISearchBar, object&gt; implements class Microsoft.Maui.Handlers.ISearchBarHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" FrameworkAlternate="net-maui-6.0" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.SearchBarHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class SearchBarHandler&#xA;Inherits ViewHandler(Of ISearchBar, Object)&#xA;Implements ISearchBarHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SearchBarHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::ISearchBar ^, System::Object ^&gt;, Microsoft::Maui::Handlers::ISearchBarHandler" />
   <TypeSignature Language="F#" Value="type SearchBarHandler = class&#xA;    inherit ViewHandler&lt;ISearchBar, obj&gt;&#xA;    interface ISearchBarHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchBarHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::ISearchBar ^, System::Object ^&gt;, Microsoft::Maui::Handlers::ISearchBarHandler" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SearchBarHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.ISearchBar, object&gt; implements class Microsoft.Maui.Handlers.ISearchBarHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" FrameworkAlternate="net-maui-7.0" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -78,8 +78,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchBarHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.SearchBarHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.Handlers.SearchBarHandler" Usage="new Microsoft.Maui.Handlers.SearchBarHandler (mapper, commandMapper)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchBarHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -101,8 +101,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.ISearchBar, class Microsoft.Maui.Handlers.ISearchBarHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.SearchBarHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of ISearchBar, ISearchBarHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::ISearchBar ^, Microsoft::Maui::Handlers::ISearchBarHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.ISearchBar, Microsoft.Maui.Handlers.ISearchBarHandler&gt;" Usage="Microsoft.Maui.Handlers.SearchBarHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::ISearchBar ^, Microsoft::Maui::Handlers::ISearchBarHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -121,8 +121,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="searchBarHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -143,8 +143,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapBackground(class Microsoft.Maui.Handlers.ISearchBarHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapBackground(Microsoft.Maui.Handlers.ISearchBarHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapBackground (handler As ISearchBarHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapBackground(Microsoft::Maui::Handlers::ISearchBarHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapBackground : Microsoft.Maui.Handlers.ISearchBarHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapBackground (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapBackground(Microsoft::Maui::Handlers::ISearchBarHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -169,8 +169,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCancelButtonColor(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapCancelButtonColor(Microsoft.Maui.IViewHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCancelButtonColor (handler As IViewHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCancelButtonColor(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapCancelButtonColor : Microsoft.Maui.IViewHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapCancelButtonColor (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCancelButtonColor(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -195,8 +195,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCharacterSpacing(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapCharacterSpacing(Microsoft.Maui.IViewHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCharacterSpacing (handler As IViewHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCharacterSpacing(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapCharacterSpacing : Microsoft.Maui.IViewHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapCharacterSpacing (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCharacterSpacing(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -221,8 +221,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapFont(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapFont(Microsoft.Maui.IViewHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapFont (handler As IViewHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFont(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapFont : Microsoft.Maui.IViewHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapFont (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFont(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -247,8 +247,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapHorizontalTextAlignment(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapHorizontalTextAlignment(Microsoft.Maui.IViewHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapHorizontalTextAlignment (handler As IViewHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHorizontalTextAlignment(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapHorizontalTextAlignment : Microsoft.Maui.IViewHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapHorizontalTextAlignment (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHorizontalTextAlignment(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -273,8 +273,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsEnabled(class Microsoft.Maui.Handlers.ISearchBarHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapIsEnabled(Microsoft.Maui.Handlers.ISearchBarHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsEnabled (handler As ISearchBarHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsEnabled(Microsoft::Maui::Handlers::ISearchBarHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapIsEnabled : Microsoft.Maui.Handlers.ISearchBarHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapIsEnabled (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsEnabled(Microsoft::Maui::Handlers::ISearchBarHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -299,8 +299,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsReadOnly(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapIsReadOnly(Microsoft.Maui.IViewHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsReadOnly (handler As IViewHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsReadOnly(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapIsReadOnly : Microsoft.Maui.IViewHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapIsReadOnly (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsReadOnly(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -325,8 +325,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsTextPredictionEnabled(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapIsTextPredictionEnabled(Microsoft.Maui.IViewHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsTextPredictionEnabled (handler As IViewHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsTextPredictionEnabled(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapIsTextPredictionEnabled : Microsoft.Maui.IViewHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapIsTextPredictionEnabled (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsTextPredictionEnabled(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -351,8 +351,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapMaxLength(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapMaxLength(Microsoft.Maui.IViewHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapMaxLength (handler As IViewHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMaxLength(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapMaxLength : Microsoft.Maui.IViewHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapMaxLength (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMaxLength(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -377,8 +377,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.ISearchBar, class Microsoft.Maui.Handlers.ISearchBarHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.SearchBarHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of ISearchBar, ISearchBarHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ISearchBar ^, Microsoft::Maui::Handlers::ISearchBarHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.ISearchBar, Microsoft.Maui.Handlers.ISearchBarHandler&gt;" Usage="Microsoft.Maui.Handlers.SearchBarHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ISearchBar ^, Microsoft::Maui::Handlers::ISearchBarHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -397,8 +397,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapPlaceholder(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapPlaceholder(Microsoft.Maui.IViewHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapPlaceholder (handler As IViewHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPlaceholder(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapPlaceholder : Microsoft.Maui.IViewHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapPlaceholder (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPlaceholder(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -423,8 +423,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapPlaceholderColor(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapPlaceholderColor(Microsoft.Maui.IViewHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapPlaceholderColor (handler As IViewHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPlaceholderColor(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapPlaceholderColor : Microsoft.Maui.IViewHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapPlaceholderColor (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPlaceholderColor(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -449,8 +449,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapText(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapText(Microsoft.Maui.IViewHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapText (handler As IViewHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapText : Microsoft.Maui.IViewHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapText (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -475,8 +475,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapTextColor(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapTextColor(Microsoft.Maui.IViewHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapTextColor (handler As IViewHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextColor(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapTextColor : Microsoft.Maui.IViewHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapTextColor (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextColor(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -501,8 +501,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapVerticalTextAlignment(class Microsoft.Maui.IViewHandler handler, class Microsoft.Maui.ISearchBar searchBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.SearchBarHandler.MapVerticalTextAlignment(Microsoft.Maui.IViewHandler,Microsoft.Maui.ISearchBar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapVerticalTextAlignment (handler As IViewHandler, searchBar As ISearchBar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapVerticalTextAlignment(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberSignature Language="F#" Value="static member MapVerticalTextAlignment : Microsoft.Maui.IViewHandler * Microsoft.Maui.ISearchBar -&gt; unit" Usage="Microsoft.Maui.Handlers.SearchBarHandler.MapVerticalTextAlignment (handler, searchBar)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapVerticalTextAlignment(Microsoft::Maui::IViewHandler ^ handler, Microsoft::Maui::ISearchBar ^ searchBar);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -527,8 +527,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.ISearchBarHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.SearchBarHandler.Microsoft#Maui#Handlers#ISearchBarHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements ISearchBarHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::ISearchBarHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.ISearchBarHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.ISearchBarHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::ISearchBarHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.ISearchBarHandler.PlatformView</InterfaceMember>
@@ -551,8 +551,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.ISearchBar Microsoft.Maui.Handlers.ISearchBarHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.SearchBarHandler.Microsoft#Maui#Handlers#ISearchBarHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As ISearchBar Implements ISearchBarHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ISearchBar ^ Microsoft::Maui::Handlers::ISearchBarHandler::VirtualView { Microsoft::Maui::ISearchBar ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.ISearchBarHandler.VirtualView : Microsoft.Maui.ISearchBar" Usage="Microsoft.Maui.Handlers.ISearchBarHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ISearchBar ^ Microsoft::Maui::Handlers::ISearchBarHandler::VirtualView { Microsoft::Maui::ISearchBar ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.ISearchBarHandler.VirtualView</InterfaceMember>
@@ -575,8 +575,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object QueryEditor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.SearchBarHandler.QueryEditor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueryEditor As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ QueryEditor { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.QueryEditor : obj" Usage="Microsoft.Maui.Handlers.SearchBarHandler.QueryEditor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ QueryEditor { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.ISearchBarHandler.QueryEditor</InterfaceMember>

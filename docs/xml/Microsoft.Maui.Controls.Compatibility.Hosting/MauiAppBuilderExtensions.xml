@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MauiAppBuilderExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Compatibility.Hosting.MauiAppBuilderExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module MauiAppBuilderExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MauiAppBuilderExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type MauiAppBuilderExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MauiAppBuilderExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.MauiAppBuilder UseMauiCompatibility(class Microsoft.Maui.Hosting.MauiAppBuilder builder) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.Hosting.MauiAppBuilderExtensions.UseMauiCompatibility(Microsoft.Maui.Hosting.MauiAppBuilder)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseMauiCompatibility (builder As MauiAppBuilder) As MauiAppBuilder" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ UseMauiCompatibility(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder);" />
       <MemberSignature Language="F#" Value="static member UseMauiCompatibility : Microsoft.Maui.Hosting.MauiAppBuilder -&gt; Microsoft.Maui.Hosting.MauiAppBuilder" Usage="Microsoft.Maui.Controls.Compatibility.Hosting.MauiAppBuilderExtensions.UseMauiCompatibility builder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ UseMauiCompatibility(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>

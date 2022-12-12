@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WrapperView extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Platform.WrapperView" />
   <TypeSignature Language="VB.NET" Value="Public Class WrapperView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class WrapperView" />
   <TypeSignature Language="F#" Value="type WrapperView = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WrapperView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IBorderStroke Border" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Platform.WrapperView.Border" />
       <MemberSignature Language="VB.NET" Value="Public Property Border As IBorderStroke" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IBorderStroke ^ Border { Microsoft::Maui::IBorderStroke ^ get(); void set(Microsoft::Maui::IBorderStroke ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Border : Microsoft.Maui.IBorderStroke with get, set" Usage="Microsoft.Maui.Platform.WrapperView.Border" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IBorderStroke ^ Border { Microsoft::Maui::IBorderStroke ^ get(); void set(Microsoft::Maui::IBorderStroke ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.IShape Clip" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Platform.WrapperView.Clip" />
       <MemberSignature Language="VB.NET" Value="Public Property Clip As IShape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IShape ^ Clip { Microsoft::Maui::Graphics::IShape ^ get(); void set(Microsoft::Maui::Graphics::IShape ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Clip : Microsoft.Maui.Graphics.IShape with get, set" Usage="Microsoft.Maui.Platform.WrapperView.Clip" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IShape ^ Clip { Microsoft::Maui::Graphics::IShape ^ get(); void set(Microsoft::Maui::Graphics::IShape ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IShadow Shadow" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Platform.WrapperView.Shadow" />
       <MemberSignature Language="VB.NET" Value="Public Property Shadow As IShadow" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IShadow ^ Shadow { Microsoft::Maui::IShadow ^ get(); void set(Microsoft::Maui::IShadow ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Shadow : Microsoft.Maui.IShadow with get, set" Usage="Microsoft.Maui.Platform.WrapperView.Shadow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IShadow ^ Shadow { Microsoft::Maui::IShadow ^ get(); void set(Microsoft::Maui::IShadow ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

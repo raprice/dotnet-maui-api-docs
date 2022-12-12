@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CommandMapper extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.CommandMapper" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class CommandMapper" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CommandMapper abstract" />
   <TypeSignature Language="F#" Value="type CommandMapper = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CommandMapper abstract" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.CommandMapper chained) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CommandMapper.#ctor(Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (chained As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CommandMapper(Microsoft::Maui::CommandMapper ^ chained);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.CommandMapper : Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.CommandMapper" Usage="new Microsoft.Maui.CommandMapper chained" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CommandMapper(Microsoft::Maui::CommandMapper ^ chained);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.CommandMapper Chained" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.CommandMapper.Chained" />
       <MemberSignature Language="VB.NET" Value="Public Property Chained As CommandMapper" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::CommandMapper ^ Chained { Microsoft::Maui::CommandMapper ^ get(); void set(Microsoft::Maui::CommandMapper ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Chained : Microsoft.Maui.CommandMapper with get, set" Usage="Microsoft.Maui.CommandMapper.Chained" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::CommandMapper ^ Chained { Microsoft::Maui::CommandMapper ^ get(); void set(Microsoft::Maui::CommandMapper ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Action`3&lt;class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IElement, object&gt; GetCommand(string key) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CommandMapper.GetCommand(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCommand (key As String) As Action(Of IElementHandler, IElement, Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Action&lt;Microsoft::Maui::IElementHandler ^, Microsoft::Maui::IElement ^, System::Object ^&gt; ^ GetCommand(System::String ^ key);" />
       <MemberSignature Language="F#" Value="abstract member GetCommand : string -&gt; Action&lt;Microsoft.Maui.IElementHandler, Microsoft.Maui.IElement, obj&gt;&#xA;override this.GetCommand : string -&gt; Action&lt;Microsoft.Maui.IElementHandler, Microsoft.Maui.IElement, obj&gt;" Usage="commandMapper.GetCommand key" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Action&lt;Microsoft::Maui::IElementHandler ^, Microsoft::Maui::IElement ^, System::Object ^&gt; ^ GetCommand(System::String ^ key);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

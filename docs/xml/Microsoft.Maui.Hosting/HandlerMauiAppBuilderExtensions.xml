@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit HandlerMauiAppBuilderExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Hosting.HandlerMauiAppBuilderExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module HandlerMauiAppBuilderExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class HandlerMauiAppBuilderExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type HandlerMauiAppBuilderExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class HandlerMauiAppBuilderExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Extensions.DependencyInjection.IServiceCollection ConfigureMauiHandlers(class Microsoft.Extensions.DependencyInjection.IServiceCollection services, class System.Action`1&lt;class Microsoft.Maui.Hosting.IMauiHandlersCollection&gt; configureDelegate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Hosting.HandlerMauiAppBuilderExtensions.ConfigureMauiHandlers(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Maui.Hosting.IMauiHandlersCollection})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ConfigureMauiHandlers (services As IServiceCollection, configureDelegate As Action(Of IMauiHandlersCollection)) As IServiceCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Extensions::DependencyInjection::IServiceCollection ^ ConfigureMauiHandlers(Microsoft::Extensions::DependencyInjection::IServiceCollection ^ services, Action&lt;Microsoft::Maui::Hosting::IMauiHandlersCollection ^&gt; ^ configureDelegate);" />
       <MemberSignature Language="F#" Value="static member ConfigureMauiHandlers : Microsoft.Extensions.DependencyInjection.IServiceCollection * Action&lt;Microsoft.Maui.Hosting.IMauiHandlersCollection&gt; -&gt; Microsoft.Extensions.DependencyInjection.IServiceCollection" Usage="Microsoft.Maui.Hosting.HandlerMauiAppBuilderExtensions.ConfigureMauiHandlers (services, configureDelegate)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Extensions::DependencyInjection::IServiceCollection ^ ConfigureMauiHandlers(Microsoft::Extensions::DependencyInjection::IServiceCollection ^ services, Action&lt;Microsoft::Maui::Hosting::IMauiHandlersCollection ^&gt; ^ configureDelegate);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.MauiAppBuilder ConfigureMauiHandlers(class Microsoft.Maui.Hosting.MauiAppBuilder builder, class System.Action`1&lt;class Microsoft.Maui.Hosting.IMauiHandlersCollection&gt; configureDelegate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Hosting.HandlerMauiAppBuilderExtensions.ConfigureMauiHandlers(Microsoft.Maui.Hosting.MauiAppBuilder,System.Action{Microsoft.Maui.Hosting.IMauiHandlersCollection})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ConfigureMauiHandlers (builder As MauiAppBuilder, configureDelegate As Action(Of IMauiHandlersCollection)) As MauiAppBuilder" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ ConfigureMauiHandlers(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder, Action&lt;Microsoft::Maui::Hosting::IMauiHandlersCollection ^&gt; ^ configureDelegate);" />
       <MemberSignature Language="F#" Value="static member ConfigureMauiHandlers : Microsoft.Maui.Hosting.MauiAppBuilder * Action&lt;Microsoft.Maui.Hosting.IMauiHandlersCollection&gt; -&gt; Microsoft.Maui.Hosting.MauiAppBuilder" Usage="Microsoft.Maui.Hosting.HandlerMauiAppBuilderExtensions.ConfigureMauiHandlers (builder, configureDelegate)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ ConfigureMauiHandlers(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder, Action&lt;Microsoft::Maui::Hosting::IMauiHandlersCollection ^&gt; ^ configureDelegate);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

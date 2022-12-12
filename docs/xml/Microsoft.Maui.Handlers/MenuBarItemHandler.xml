@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MenuBarItemHandler extends Microsoft.Maui.Handlers.ElementHandler`2&lt;class Microsoft.Maui.IMenuBarItem, object&gt; implements class Microsoft.Maui.Handlers.IMenuBarItemHandler, class Microsoft.Maui.IElementHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.MenuBarItemHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class MenuBarItemHandler&#xA;Inherits ElementHandler(Of IMenuBarItem, Object)&#xA;Implements IMenuBarItemHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MenuBarItemHandler : Microsoft::Maui::Handlers::ElementHandler&lt;Microsoft::Maui::IMenuBarItem ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IMenuBarItemHandler" />
   <TypeSignature Language="F#" Value="type MenuBarItemHandler = class&#xA;    inherit ElementHandler&lt;IMenuBarItem, obj&gt;&#xA;    interface IMenuBarItemHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MenuBarItemHandler : Microsoft::Maui::Handlers::ElementHandler&lt;Microsoft::Maui::IMenuBarItem ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IMenuBarItemHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(class Microsoft.Maui.IMenuElement view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.MenuBarItemHandler.Add(Microsoft.Maui.IMenuElement)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (view As IMenuElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Add(Microsoft::Maui::IMenuElement ^ view);" />
       <MemberSignature Language="F#" Value="abstract member Add : Microsoft.Maui.IMenuElement -&gt; unit&#xA;override this.Add : Microsoft.Maui.IMenuElement -&gt; unit" Usage="menuBarItemHandler.Add view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Add(Microsoft::Maui::IMenuElement ^ view);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Handlers.IMenuBarItemHandler.Add(Microsoft.Maui.IMenuElement)</InterfaceMember>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.MenuBarItemHandler.Clear" />
       <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Clear();" />
       <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="menuBarItemHandler.Clear " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Clear();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Handlers.IMenuBarItemHandler.Clear</InterfaceMember>
@@ -124,8 +124,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IMenuBarItem, class Microsoft.Maui.Handlers.IMenuBarItemHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.MenuBarItemHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IMenuBarItem, IMenuBarItemHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IMenuBarItem ^, Microsoft::Maui::Handlers::IMenuBarItemHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IMenuBarItem, Microsoft.Maui.Handlers.IMenuBarItemHandler&gt;" Usage="Microsoft.Maui.Handlers.MenuBarItemHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IMenuBarItem ^, Microsoft::Maui::Handlers::IMenuBarItemHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -144,8 +144,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformElement() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.MenuBarItemHandler.CreatePlatformElement" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformElement () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformElement();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformElement : unit -&gt; obj" Usage="menuBarItemHandler.CreatePlatformElement " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformElement();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -166,8 +166,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Insert(int32 index, class Microsoft.Maui.IMenuElement view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.MenuBarItemHandler.Insert(System.Int32,Microsoft.Maui.IMenuElement)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Insert (index As Integer, view As IMenuElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Insert(int index, Microsoft::Maui::IMenuElement ^ view);" />
       <MemberSignature Language="F#" Value="abstract member Insert : int * Microsoft.Maui.IMenuElement -&gt; unit&#xA;override this.Insert : int * Microsoft.Maui.IMenuElement -&gt; unit" Usage="menuBarItemHandler.Insert (index, view)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Insert(int index, Microsoft::Maui::IMenuElement ^ view);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Handlers.IMenuBarItemHandler.Insert(System.Int32,Microsoft.Maui.IMenuElement)</InterfaceMember>
@@ -195,8 +195,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapAdd(class Microsoft.Maui.Handlers.IMenuBarItemHandler handler, class Microsoft.Maui.IMenuBarItem layout, object arg) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.MenuBarItemHandler.MapAdd(Microsoft.Maui.Handlers.IMenuBarItemHandler,Microsoft.Maui.IMenuBarItem,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapAdd (handler As IMenuBarItemHandler, layout As IMenuBarItem, arg As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapAdd(Microsoft::Maui::Handlers::IMenuBarItemHandler ^ handler, Microsoft::Maui::IMenuBarItem ^ layout, System::Object ^ arg);" />
       <MemberSignature Language="F#" Value="static member MapAdd : Microsoft.Maui.Handlers.IMenuBarItemHandler * Microsoft.Maui.IMenuBarItem * obj -&gt; unit" Usage="Microsoft.Maui.Handlers.MenuBarItemHandler.MapAdd (handler, layout, arg)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapAdd(Microsoft::Maui::Handlers::IMenuBarItemHandler ^ handler, Microsoft::Maui::IMenuBarItem ^ layout, System::Object ^ arg);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -223,8 +223,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapClear(class Microsoft.Maui.Handlers.IMenuBarItemHandler handler, class Microsoft.Maui.IMenuBarItem layout, object arg) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.MenuBarItemHandler.MapClear(Microsoft.Maui.Handlers.IMenuBarItemHandler,Microsoft.Maui.IMenuBarItem,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapClear (handler As IMenuBarItemHandler, layout As IMenuBarItem, arg As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapClear(Microsoft::Maui::Handlers::IMenuBarItemHandler ^ handler, Microsoft::Maui::IMenuBarItem ^ layout, System::Object ^ arg);" />
       <MemberSignature Language="F#" Value="static member MapClear : Microsoft.Maui.Handlers.IMenuBarItemHandler * Microsoft.Maui.IMenuBarItem * obj -&gt; unit" Usage="Microsoft.Maui.Handlers.MenuBarItemHandler.MapClear (handler, layout, arg)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapClear(Microsoft::Maui::Handlers::IMenuBarItemHandler ^ handler, Microsoft::Maui::IMenuBarItem ^ layout, System::Object ^ arg);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -251,8 +251,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapInsert(class Microsoft.Maui.Handlers.IMenuBarItemHandler handler, class Microsoft.Maui.IMenuBarItem layout, object arg) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.MenuBarItemHandler.MapInsert(Microsoft.Maui.Handlers.IMenuBarItemHandler,Microsoft.Maui.IMenuBarItem,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapInsert (handler As IMenuBarItemHandler, layout As IMenuBarItem, arg As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapInsert(Microsoft::Maui::Handlers::IMenuBarItemHandler ^ handler, Microsoft::Maui::IMenuBarItem ^ layout, System::Object ^ arg);" />
       <MemberSignature Language="F#" Value="static member MapInsert : Microsoft.Maui.Handlers.IMenuBarItemHandler * Microsoft.Maui.IMenuBarItem * obj -&gt; unit" Usage="Microsoft.Maui.Handlers.MenuBarItemHandler.MapInsert (handler, layout, arg)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapInsert(Microsoft::Maui::Handlers::IMenuBarItemHandler ^ handler, Microsoft::Maui::IMenuBarItem ^ layout, System::Object ^ arg);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -279,8 +279,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IMenuBarItem, class Microsoft.Maui.Handlers.IMenuBarItemHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.MenuBarItemHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IMenuBarItem, IMenuBarItemHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IMenuBarItem ^, Microsoft::Maui::Handlers::IMenuBarItemHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IMenuBarItem, Microsoft.Maui.Handlers.IMenuBarItemHandler&gt;" Usage="Microsoft.Maui.Handlers.MenuBarItemHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IMenuBarItem ^, Microsoft::Maui::Handlers::IMenuBarItemHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -299,8 +299,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapRemove(class Microsoft.Maui.Handlers.IMenuBarItemHandler handler, class Microsoft.Maui.IMenuBarItem layout, object arg) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.MenuBarItemHandler.MapRemove(Microsoft.Maui.Handlers.IMenuBarItemHandler,Microsoft.Maui.IMenuBarItem,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapRemove (handler As IMenuBarItemHandler, layout As IMenuBarItem, arg As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapRemove(Microsoft::Maui::Handlers::IMenuBarItemHandler ^ handler, Microsoft::Maui::IMenuBarItem ^ layout, System::Object ^ arg);" />
       <MemberSignature Language="F#" Value="static member MapRemove : Microsoft.Maui.Handlers.IMenuBarItemHandler * Microsoft.Maui.IMenuBarItem * obj -&gt; unit" Usage="Microsoft.Maui.Handlers.MenuBarItemHandler.MapRemove (handler, layout, arg)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapRemove(Microsoft::Maui::Handlers::IMenuBarItemHandler ^ handler, Microsoft::Maui::IMenuBarItem ^ layout, System::Object ^ arg);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -327,8 +327,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.IMenuBarItemHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.MenuBarItemHandler.Microsoft#Maui#Handlers#IMenuBarItemHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IMenuBarItemHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IMenuBarItemHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IMenuBarItemHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.IMenuBarItemHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IMenuBarItemHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IMenuBarItemHandler.PlatformView</InterfaceMember>
@@ -351,8 +351,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IMenuBarItem Microsoft.Maui.Handlers.IMenuBarItemHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.MenuBarItemHandler.Microsoft#Maui#Handlers#IMenuBarItemHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IMenuBarItem Implements IMenuBarItemHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IMenuBarItem ^ Microsoft::Maui::Handlers::IMenuBarItemHandler::VirtualView { Microsoft::Maui::IMenuBarItem ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IMenuBarItemHandler.VirtualView : Microsoft.Maui.IMenuBarItem" Usage="Microsoft.Maui.Handlers.IMenuBarItemHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IMenuBarItem ^ Microsoft::Maui::Handlers::IMenuBarItemHandler::VirtualView { Microsoft::Maui::IMenuBarItem ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IMenuBarItemHandler.VirtualView</InterfaceMember>
@@ -375,8 +375,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove(class Microsoft.Maui.IMenuElement view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.MenuBarItemHandler.Remove(Microsoft.Maui.IMenuElement)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Remove (view As IMenuElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Remove(Microsoft::Maui::IMenuElement ^ view);" />
       <MemberSignature Language="F#" Value="abstract member Remove : Microsoft.Maui.IMenuElement -&gt; unit&#xA;override this.Remove : Microsoft.Maui.IMenuElement -&gt; unit" Usage="menuBarItemHandler.Remove view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Remove(Microsoft::Maui::IMenuElement ^ view);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Handlers.IMenuBarItemHandler.Remove(Microsoft.Maui.IMenuElement)</InterfaceMember>

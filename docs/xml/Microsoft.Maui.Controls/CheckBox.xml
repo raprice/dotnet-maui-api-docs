@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CheckBox extends Microsoft.Maui.Controls.View implements class Microsoft.Maui.Controls.IBorderElement, class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.CheckBox&gt;, class Microsoft.Maui.ICheckBox, class Microsoft.Maui.IElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.CheckBox" />
   <TypeSignature Language="VB.NET" Value="Public Class CheckBox&#xA;Inherits View&#xA;Implements IBorderElement, ICheckBox, IElementConfiguration(Of CheckBox)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CheckBox : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IBorderElement, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::CheckBox ^&gt;, Microsoft::Maui::ICheckBox" />
   <TypeSignature Language="F#" Value="type CheckBox = class&#xA;    inherit View&#xA;    interface IElementConfiguration&lt;CheckBox&gt;&#xA;    interface IBorderElement&#xA;    interface ICheckBox&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CheckBox : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IBorderElement, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::CheckBox ^&gt;, Microsoft::Maui::ICheckBox" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -59,8 +59,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig virtual instance void ChangeVisualState() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CheckBox.ChangeVisualState" />
       <MemberSignature Language="VB.NET" Value="Protected Friend Overrides Sub ChangeVisualState ()" />
-      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; override void ChangeVisualState();" />
       <MemberSignature Language="F#" Value="override this.ChangeVisualState : unit -&gt; unit" Usage="checkBox.ChangeVisualState " />
+      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; override void ChangeVisualState();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -80,8 +80,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.CheckedChangedEventArgs&gt; CheckedChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.CheckBox.CheckedChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event CheckedChanged As EventHandler(Of CheckedChangedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::CheckedChangedEventArgs ^&gt; ^ CheckedChanged;" />
       <MemberSignature Language="F#" Value="member this.CheckedChanged : EventHandler&lt;Microsoft.Maui.Controls.CheckedChangedEventArgs&gt; " Usage="member this.CheckedChanged : System.EventHandler&lt;Microsoft.Maui.Controls.CheckedChangedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::CheckedChangedEventArgs ^&gt; ^ CheckedChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color Color" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CheckBox.Color" />
       <MemberSignature Language="VB.NET" Value="Public Property Color As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ Color { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Color : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.CheckBox.Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ Color { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -121,8 +121,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CheckBox.ColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CheckBox.ColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -141,8 +141,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Paint Foreground" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CheckBox.Foreground" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Foreground As Paint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Paint ^ Foreground { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Foreground : Microsoft.Maui.Graphics.Paint" Usage="Microsoft.Maui.Controls.CheckBox.Foreground" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Paint ^ Foreground { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ICheckBox.Foreground</InterfaceMember>
@@ -165,8 +165,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsChecked" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CheckBox.IsChecked" />
       <MemberSignature Language="VB.NET" Value="Public Property IsChecked As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsChecked { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsChecked : bool with get, set" Usage="Microsoft.Maui.Controls.CheckBox.IsChecked" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsChecked { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ICheckBox.IsChecked</InterfaceMember>
@@ -189,8 +189,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsCheckedProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CheckBox.IsCheckedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsCheckedProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsCheckedProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsCheckedProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CheckBox.IsCheckedProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsCheckedProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -209,8 +209,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string IsCheckedVisualState" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CheckBox.IsCheckedVisualState" />
       <MemberSignature Language="VB.NET" Value="Public Const IsCheckedVisualState As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ IsCheckedVisualState;" />
       <MemberSignature Language="F#" Value="val mutable IsCheckedVisualState : string" Usage="Microsoft.Maui.Controls.CheckBox.IsCheckedVisualState" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ IsCheckedVisualState;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -229,8 +229,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color Microsoft.Maui.Controls.IBorderElement.BorderColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CheckBox.Microsoft#Maui#Controls#IBorderElement#BorderColor" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property BorderColor As Color Implements IBorderElement.BorderColor" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Color ^ Microsoft::Maui::Controls::IBorderElement::BorderColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IBorderElement.BorderColor : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Controls.IBorderElement.BorderColor" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Color ^ Microsoft::Maui::Controls::IBorderElement::BorderColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.BorderColor</InterfaceMember>
@@ -253,8 +253,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CheckBox.Microsoft#Maui#Controls#IBorderElement#BorderColorDefaultValue" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property BorderColorDefaultValue As Color Implements IBorderElement.BorderColorDefaultValue" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Color ^ Microsoft::Maui::Controls::IBorderElement::BorderColorDefaultValue { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Color ^ Microsoft::Maui::Controls::IBorderElement::BorderColorDefaultValue { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue</InterfaceMember>
@@ -277,8 +277,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Microsoft.Maui.Controls.IBorderElement.BorderWidth" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CheckBox.Microsoft#Maui#Controls#IBorderElement#BorderWidth" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property BorderWidth As Double Implements IBorderElement.BorderWidth" />
-      <MemberSignature Language="C++ CLI" Value="property double Microsoft::Maui::Controls::IBorderElement::BorderWidth { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IBorderElement.BorderWidth : double" Usage="Microsoft.Maui.Controls.IBorderElement.BorderWidth" />
+      <MemberSignature Language="C++ CLI" Value="property double Microsoft::Maui::Controls::IBorderElement::BorderWidth { double get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.BorderWidth</InterfaceMember>
@@ -301,8 +301,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CheckBox.Microsoft#Maui#Controls#IBorderElement#BorderWidthDefaultValue" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property BorderWidthDefaultValue As Double Implements IBorderElement.BorderWidthDefaultValue" />
-      <MemberSignature Language="C++ CLI" Value="property double Microsoft::Maui::Controls::IBorderElement::BorderWidthDefaultValue { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue : double" Usage="Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue" />
+      <MemberSignature Language="C++ CLI" Value="property double Microsoft::Maui::Controls::IBorderElement::BorderWidthDefaultValue { double get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue</InterfaceMember>
@@ -325,8 +325,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Microsoft.Maui.Controls.IBorderElement.CornerRadius" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CheckBox.Microsoft#Maui#Controls#IBorderElement#CornerRadius" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property CornerRadius As Integer Implements IBorderElement.CornerRadius" />
-      <MemberSignature Language="C++ CLI" Value="property int Microsoft::Maui::Controls::IBorderElement::CornerRadius { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IBorderElement.CornerRadius : int" Usage="Microsoft.Maui.Controls.IBorderElement.CornerRadius" />
+      <MemberSignature Language="C++ CLI" Value="property int Microsoft::Maui::Controls::IBorderElement::CornerRadius { int get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.CornerRadius</InterfaceMember>
@@ -349,8 +349,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CheckBox.Microsoft#Maui#Controls#IBorderElement#CornerRadiusDefaultValue" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property CornerRadiusDefaultValue As Integer Implements IBorderElement.CornerRadiusDefaultValue" />
-      <MemberSignature Language="C++ CLI" Value="property int Microsoft::Maui::Controls::IBorderElement::CornerRadiusDefaultValue { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue : int" Usage="Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue" />
+      <MemberSignature Language="C++ CLI" Value="property int Microsoft::Maui::Controls::IBorderElement::CornerRadiusDefaultValue { int get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue</InterfaceMember>
@@ -373,8 +373,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CheckBox.Microsoft#Maui#Controls#IBorderElement#IsBackgroundColorSet" />
       <MemberSignature Language="VB.NET" Value="Function IsBackgroundColorSet () As Boolean Implements IBorderElement.IsBackgroundColorSet" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet() = Microsoft::Maui::Controls::IBorderElement::IsBackgroundColorSet;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet : unit -&gt; bool" Usage="checkBox.Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet " />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet() = Microsoft::Maui::Controls::IBorderElement::IsBackgroundColorSet;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet</InterfaceMember>
@@ -398,8 +398,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CheckBox.Microsoft#Maui#Controls#IBorderElement#IsBackgroundSet" />
       <MemberSignature Language="VB.NET" Value="Function IsBackgroundSet () As Boolean Implements IBorderElement.IsBackgroundSet" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet() = Microsoft::Maui::Controls::IBorderElement::IsBackgroundSet;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet : unit -&gt; bool" Usage="checkBox.Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet " />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet() = Microsoft::Maui::Controls::IBorderElement::IsBackgroundSet;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet</InterfaceMember>
@@ -423,8 +423,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CheckBox.Microsoft#Maui#Controls#IBorderElement#IsBorderColorSet" />
       <MemberSignature Language="VB.NET" Value="Function IsBorderColorSet () As Boolean Implements IBorderElement.IsBorderColorSet" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet() = Microsoft::Maui::Controls::IBorderElement::IsBorderColorSet;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet : unit -&gt; bool" Usage="checkBox.Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet " />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet() = Microsoft::Maui::Controls::IBorderElement::IsBorderColorSet;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet</InterfaceMember>
@@ -448,8 +448,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CheckBox.Microsoft#Maui#Controls#IBorderElement#IsBorderWidthSet" />
       <MemberSignature Language="VB.NET" Value="Function IsBorderWidthSet () As Boolean Implements IBorderElement.IsBorderWidthSet" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet() = Microsoft::Maui::Controls::IBorderElement::IsBorderWidthSet;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet : unit -&gt; bool" Usage="checkBox.Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet " />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet() = Microsoft::Maui::Controls::IBorderElement::IsBorderWidthSet;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet</InterfaceMember>
@@ -473,8 +473,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CheckBox.Microsoft#Maui#Controls#IBorderElement#IsCornerRadiusSet" />
       <MemberSignature Language="VB.NET" Value="Function IsCornerRadiusSet () As Boolean Implements IBorderElement.IsCornerRadiusSet" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet() = Microsoft::Maui::Controls::IBorderElement::IsCornerRadiusSet;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet : unit -&gt; bool" Usage="checkBox.Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet " />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet() = Microsoft::Maui::Controls::IBorderElement::IsCornerRadiusSet;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet</InterfaceMember>
@@ -498,8 +498,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged(class Microsoft.Maui.Graphics.Color oldValue, class Microsoft.Maui.Graphics.Color newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CheckBox.Microsoft#Maui#Controls#IBorderElement#OnBorderColorPropertyChanged(Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color)" />
       <MemberSignature Language="VB.NET" Value="Sub OnBorderColorPropertyChanged (oldValue As Color, newValue As Color) Implements IBorderElement.OnBorderColorPropertyChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged(Microsoft::Maui::Graphics::Color ^ oldValue, Microsoft::Maui::Graphics::Color ^ newValue) = Microsoft::Maui::Controls::IBorderElement::OnBorderColorPropertyChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged : Microsoft.Maui.Graphics.Color * Microsoft.Maui.Graphics.Color -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged : Microsoft.Maui.Graphics.Color * Microsoft.Maui.Graphics.Color -&gt; unit" Usage="checkBox.Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged(Microsoft::Maui::Graphics::Color ^ oldValue, Microsoft::Maui::Graphics::Color ^ newValue) = Microsoft::Maui::Controls::IBorderElement::OnBorderColorPropertyChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged(Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color)</InterfaceMember>
@@ -527,8 +527,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.CheckBox&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CheckBox.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, CheckBox)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::CheckBox ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.CheckBox (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.CheckBox (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="checkBox.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::CheckBox ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>

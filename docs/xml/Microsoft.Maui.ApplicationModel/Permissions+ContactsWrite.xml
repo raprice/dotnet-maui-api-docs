@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit Permissions/ContactsWrite extends Microsoft.Maui.ApplicationModel.Permissions/BasePlatformPermission" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Permissions.ContactsWrite" />
   <TypeSignature Language="VB.NET" Value="Public Class Permissions.ContactsWrite&#xA;Inherits Permissions.BasePlatformPermission" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class Permissions::ContactsWrite : Microsoft::Maui::ApplicationModel::Permissions::BasePlatformPermission" />
   <TypeSignature Language="F#" Value="type Permissions.ContactsWrite = class&#xA;    inherit Permissions.BasePlatformPermission" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Permissions::ContactsWrite : Microsoft::Maui::ApplicationModel::Permissions::BasePlatformPermission" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

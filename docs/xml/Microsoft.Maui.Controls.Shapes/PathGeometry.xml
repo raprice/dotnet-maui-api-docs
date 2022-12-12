@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PathGeometry extends Microsoft.Maui.Controls.Shapes.Geometry" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.PathGeometry" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PathGeometry&#xA;Inherits Geometry" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PathGeometry sealed : Microsoft::Maui::Controls::Shapes::Geometry" />
   <TypeSignature Language="F#" Value="type PathGeometry = class&#xA;    inherit Geometry" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PathGeometry sealed : Microsoft::Maui::Controls::Shapes::Geometry" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Controls.Shapes.PathFigureCollection figures) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.PathGeometry.#ctor(Microsoft.Maui.Controls.Shapes.PathFigureCollection)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (figures As PathFigureCollection)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; PathGeometry(Microsoft::Maui::Controls::Shapes::PathFigureCollection ^ figures);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Shapes.PathGeometry : Microsoft.Maui.Controls.Shapes.PathFigureCollection -&gt; Microsoft.Maui.Controls.Shapes.PathGeometry" Usage="new Microsoft.Maui.Controls.Shapes.PathGeometry figures" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PathGeometry(Microsoft::Maui::Controls::Shapes::PathFigureCollection ^ figures);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Controls.Shapes.PathFigureCollection figures, valuetype Microsoft.Maui.Controls.Shapes.FillRule fillRule) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.PathGeometry.#ctor(Microsoft.Maui.Controls.Shapes.PathFigureCollection,Microsoft.Maui.Controls.Shapes.FillRule)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (figures As PathFigureCollection, fillRule As FillRule)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; PathGeometry(Microsoft::Maui::Controls::Shapes::PathFigureCollection ^ figures, Microsoft::Maui::Controls::Shapes::FillRule fillRule);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Shapes.PathGeometry : Microsoft.Maui.Controls.Shapes.PathFigureCollection * Microsoft.Maui.Controls.Shapes.FillRule -&gt; Microsoft.Maui.Controls.Shapes.PathGeometry" Usage="new Microsoft.Maui.Controls.Shapes.PathGeometry (figures, fillRule)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PathGeometry(Microsoft::Maui::Controls::Shapes::PathFigureCollection ^ figures, Microsoft::Maui::Controls::Shapes::FillRule fillRule);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -90,8 +90,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void AppendPath(class Microsoft.Maui.Graphics.PathF path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.PathGeometry.AppendPath(Microsoft.Maui.Graphics.PathF)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub AppendPath (path As PathF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void AppendPath(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberSignature Language="F#" Value="override this.AppendPath : Microsoft.Maui.Graphics.PathF -&gt; unit" Usage="pathGeometry.AppendPath path" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void AppendPath(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -114,8 +114,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Shapes.PathFigureCollection Figures" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.PathGeometry.Figures" />
       <MemberSignature Language="VB.NET" Value="Public Property Figures As PathFigureCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Shapes::PathFigureCollection ^ Figures { Microsoft::Maui::Controls::Shapes::PathFigureCollection ^ get(); void set(Microsoft::Maui::Controls::Shapes::PathFigureCollection ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Figures : Microsoft.Maui.Controls.Shapes.PathFigureCollection with get, set" Usage="Microsoft.Maui.Controls.Shapes.PathGeometry.Figures" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Shapes::PathFigureCollection ^ Figures { Microsoft::Maui::Controls::Shapes::PathFigureCollection ^ get(); void set(Microsoft::Maui::Controls::Shapes::PathFigureCollection ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -141,8 +141,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FiguresProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.PathGeometry.FiguresProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FiguresProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FiguresProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FiguresProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.PathGeometry.FiguresProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FiguresProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -161,8 +161,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.Shapes.FillRule FillRule" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.PathGeometry.FillRule" />
       <MemberSignature Language="VB.NET" Value="Public Property FillRule As FillRule" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Shapes::FillRule FillRule { Microsoft::Maui::Controls::Shapes::FillRule get(); void set(Microsoft::Maui::Controls::Shapes::FillRule value); };" />
       <MemberSignature Language="F#" Value="member this.FillRule : Microsoft.Maui.Controls.Shapes.FillRule with get, set" Usage="Microsoft.Maui.Controls.Shapes.PathGeometry.FillRule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Shapes::FillRule FillRule { Microsoft::Maui::Controls::Shapes::FillRule get(); void set(Microsoft::Maui::Controls::Shapes::FillRule value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -182,8 +182,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FillRuleProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.PathGeometry.FillRuleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FillRuleProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FillRuleProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FillRuleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.PathGeometry.FillRuleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FillRuleProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

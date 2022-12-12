@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMauiHandlersFactory implements class Microsoft.Maui.IMauiFactory, class System.IServiceProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IMauiHandlersFactory" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMauiHandlersFactory&#xA;Implements IMauiFactory, IServiceProvider" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IMauiHandlersFactory : IServiceProvider, Microsoft::Maui::IMauiFactory" />
   <TypeSignature Language="F#" Value="type IMauiHandlersFactory = interface&#xA;    interface IMauiFactory&#xA;    interface IServiceProvider" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IMauiHandlersFactory : IServiceProvider, Microsoft::Maui::IMauiFactory" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -27,8 +27,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Hosting.IMauiHandlersCollection GetCollection() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IMauiHandlersFactory.GetCollection" />
       <MemberSignature Language="VB.NET" Value="Public Function GetCollection () As IMauiHandlersCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Hosting::IMauiHandlersCollection ^ GetCollection();" />
       <MemberSignature Language="F#" Value="abstract member GetCollection : unit -&gt; Microsoft.Maui.Hosting.IMauiHandlersCollection" Usage="iMauiHandlersFactory.GetCollection " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Hosting::IMauiHandlersCollection ^ GetCollection();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -49,8 +49,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.IElementHandler GetHandler(class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IMauiHandlersFactory.GetHandler(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetHandler (type As Type) As IElementHandler" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::IElementHandler ^ GetHandler(Type ^ type);" />
       <MemberSignature Language="F#" Value="abstract member GetHandler : Type -&gt; Microsoft.Maui.IElementHandler" Usage="iMauiHandlersFactory.GetHandler type" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::IElementHandler ^ GetHandler(Type ^ type);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -74,8 +74,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.IElementHandler GetHandler&lt;(class Microsoft.Maui.IElement) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IMauiHandlersFactory.GetHandler``1" />
       <MemberSignature Language="VB.NET" Value="Public Function GetHandler(Of T As IElement) () As IElementHandler" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::IElement Microsoft::Maui::IElementHandler ^ GetHandler();" />
       <MemberSignature Language="F#" Value="abstract member GetHandler : unit -&gt; Microsoft.Maui.IElementHandler (requires 'T :&gt; Microsoft.Maui.IElement)" Usage="iMauiHandlersFactory.GetHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::IElement Microsoft::Maui::IElementHandler ^ GetHandler();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -104,8 +104,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Type GetHandlerType(class System.Type iview) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IMauiHandlersFactory.GetHandlerType(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetHandlerType (iview As Type) As Type" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Type ^ GetHandlerType(Type ^ iview);" />
       <MemberSignature Language="F#" Value="abstract member GetHandlerType : Type -&gt; Type" Usage="iMauiHandlersFactory.GetHandlerType iview" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Type ^ GetHandlerType(Type ^ iview);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

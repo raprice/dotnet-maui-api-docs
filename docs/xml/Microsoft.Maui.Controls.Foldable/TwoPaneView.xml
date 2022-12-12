@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TwoPaneView extends Microsoft.Maui.Controls.Grid" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Foldable.TwoPaneView" />
   <TypeSignature Language="VB.NET" Value="Public Class TwoPaneView&#xA;Inherits Grid" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TwoPaneView : Microsoft::Maui::Controls::Grid" />
   <TypeSignature Language="F#" Value="type TwoPaneView = class&#xA;    inherit Grid" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TwoPaneView : Microsoft::Maui::Controls::Grid" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -55,8 +55,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size ArrangeOverride(valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Foldable.TwoPaneView.ArrangeOverride(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function ArrangeOverride (bounds As Rect) As Size" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size ArrangeOverride(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberSignature Language="F#" Value="override this.ArrangeOverride : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size" Usage="twoPaneView.ArrangeOverride bounds" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size ArrangeOverride(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -80,8 +80,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size MeasureOverride(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Foldable.TwoPaneView.MeasureOverride(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function MeasureOverride (widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size MeasureOverride(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="override this.MeasureOverride : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="twoPaneView.MeasureOverride (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size MeasureOverride(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 MinTallModeHeight" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Foldable.TwoPaneView.MinTallModeHeight" />
       <MemberSignature Language="VB.NET" Value="Public Property MinTallModeHeight As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double MinTallModeHeight { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.MinTallModeHeight : double with get, set" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.MinTallModeHeight" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double MinTallModeHeight { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -130,8 +130,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MinTallModeHeightProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneView.MinTallModeHeightProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinTallModeHeightProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MinTallModeHeightProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable MinTallModeHeightProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.MinTallModeHeightProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MinTallModeHeightProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -150,8 +150,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 MinWideModeWidth" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Foldable.TwoPaneView.MinWideModeWidth" />
       <MemberSignature Language="VB.NET" Value="Public Property MinWideModeWidth As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double MinWideModeWidth { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.MinWideModeWidth : double with get, set" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.MinWideModeWidth" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double MinWideModeWidth { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -173,8 +173,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MinWideModeWidthProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneView.MinWideModeWidthProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinWideModeWidthProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MinWideModeWidthProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable MinWideModeWidthProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.MinWideModeWidthProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MinWideModeWidthProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -193,8 +193,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.Foldable.TwoPaneViewMode Mode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Foldable.TwoPaneView.Mode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Mode As TwoPaneViewMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Foldable::TwoPaneViewMode Mode { Microsoft::Maui::Controls::Foldable::TwoPaneViewMode get(); };" />
       <MemberSignature Language="F#" Value="member this.Mode : Microsoft.Maui.Controls.Foldable.TwoPaneViewMode" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.Mode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Foldable::TwoPaneViewMode Mode { Microsoft::Maui::Controls::Foldable::TwoPaneViewMode get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -217,8 +217,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler ModeChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Foldable.TwoPaneView.ModeChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event ModeChanged As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ ModeChanged;" />
       <MemberSignature Language="F#" Value="member this.ModeChanged : EventHandler " Usage="member this.ModeChanged : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ ModeChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -240,8 +240,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ModeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneView.ModeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ModeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ModeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ModeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.ModeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ModeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -260,8 +260,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.View Pane1" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane1" />
       <MemberSignature Language="VB.NET" Value="Public Property Pane1 As View" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::View ^ Pane1 { Microsoft::Maui::Controls::View ^ get(); void set(Microsoft::Maui::Controls::View ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Pane1 : Microsoft.Maui.Controls.View with get, set" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane1" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::View ^ Pane1 { Microsoft::Maui::Controls::View ^ get(); void set(Microsoft::Maui::Controls::View ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -283,8 +283,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.GridLength Pane1Length" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane1Length" />
       <MemberSignature Language="VB.NET" Value="Public Property Pane1Length As GridLength" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::GridLength Pane1Length { Microsoft::Maui::GridLength get(); void set(Microsoft::Maui::GridLength value); };" />
       <MemberSignature Language="F#" Value="member this.Pane1Length : Microsoft.Maui.GridLength with get, set" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane1Length" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::GridLength Pane1Length { Microsoft::Maui::GridLength get(); void set(Microsoft::Maui::GridLength value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -306,8 +306,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty Pane1LengthProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane1LengthProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Pane1LengthProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ Pane1LengthProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable Pane1LengthProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane1LengthProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ Pane1LengthProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -326,8 +326,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty Pane1Property" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane1Property" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Pane1Property As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ Pane1Property;" />
       <MemberSignature Language="F#" Value=" staticval mutable Pane1Property : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane1Property" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ Pane1Property;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -346,8 +346,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.View Pane2" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane2" />
       <MemberSignature Language="VB.NET" Value="Public Property Pane2 As View" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::View ^ Pane2 { Microsoft::Maui::Controls::View ^ get(); void set(Microsoft::Maui::Controls::View ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Pane2 : Microsoft.Maui.Controls.View with get, set" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::View ^ Pane2 { Microsoft::Maui::Controls::View ^ get(); void set(Microsoft::Maui::Controls::View ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -369,8 +369,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.GridLength Pane2Length" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane2Length" />
       <MemberSignature Language="VB.NET" Value="Public Property Pane2Length As GridLength" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::GridLength Pane2Length { Microsoft::Maui::GridLength get(); void set(Microsoft::Maui::GridLength value); };" />
       <MemberSignature Language="F#" Value="member this.Pane2Length : Microsoft.Maui.GridLength with get, set" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane2Length" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::GridLength Pane2Length { Microsoft::Maui::GridLength get(); void set(Microsoft::Maui::GridLength value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -392,8 +392,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty Pane2LengthProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane2LengthProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Pane2LengthProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ Pane2LengthProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable Pane2LengthProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane2LengthProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ Pane2LengthProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -412,8 +412,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty Pane2Property" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane2Property" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Pane2Property As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ Pane2Property;" />
       <MemberSignature Language="F#" Value=" staticval mutable Pane2Property : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.Pane2Property" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ Pane2Property;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -432,8 +432,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.Foldable.TwoPaneViewPriority PanePriority" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Foldable.TwoPaneView.PanePriority" />
       <MemberSignature Language="VB.NET" Value="Public Property PanePriority As TwoPaneViewPriority" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Foldable::TwoPaneViewPriority PanePriority { Microsoft::Maui::Controls::Foldable::TwoPaneViewPriority get(); void set(Microsoft::Maui::Controls::Foldable::TwoPaneViewPriority value); };" />
       <MemberSignature Language="F#" Value="member this.PanePriority : Microsoft.Maui.Controls.Foldable.TwoPaneViewPriority with get, set" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.PanePriority" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Foldable::TwoPaneViewPriority PanePriority { Microsoft::Maui::Controls::Foldable::TwoPaneViewPriority get(); void set(Microsoft::Maui::Controls::Foldable::TwoPaneViewPriority value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -455,8 +455,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PanePriorityProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneView.PanePriorityProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PanePriorityProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PanePriorityProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PanePriorityProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.PanePriorityProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PanePriorityProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -475,8 +475,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.Foldable.TwoPaneViewTallModeConfiguration TallModeConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Foldable.TwoPaneView.TallModeConfiguration" />
       <MemberSignature Language="VB.NET" Value="Public Property TallModeConfiguration As TwoPaneViewTallModeConfiguration" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Foldable::TwoPaneViewTallModeConfiguration TallModeConfiguration { Microsoft::Maui::Controls::Foldable::TwoPaneViewTallModeConfiguration get(); void set(Microsoft::Maui::Controls::Foldable::TwoPaneViewTallModeConfiguration value); };" />
       <MemberSignature Language="F#" Value="member this.TallModeConfiguration : Microsoft.Maui.Controls.Foldable.TwoPaneViewTallModeConfiguration with get, set" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.TallModeConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Foldable::TwoPaneViewTallModeConfiguration TallModeConfiguration { Microsoft::Maui::Controls::Foldable::TwoPaneViewTallModeConfiguration get(); void set(Microsoft::Maui::Controls::Foldable::TwoPaneViewTallModeConfiguration value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -498,8 +498,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TallModeConfigurationProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneView.TallModeConfigurationProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TallModeConfigurationProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TallModeConfigurationProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TallModeConfigurationProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.TallModeConfigurationProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TallModeConfigurationProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -518,8 +518,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.Foldable.TwoPaneViewWideModeConfiguration WideModeConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Foldable.TwoPaneView.WideModeConfiguration" />
       <MemberSignature Language="VB.NET" Value="Public Property WideModeConfiguration As TwoPaneViewWideModeConfiguration" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Foldable::TwoPaneViewWideModeConfiguration WideModeConfiguration { Microsoft::Maui::Controls::Foldable::TwoPaneViewWideModeConfiguration get(); void set(Microsoft::Maui::Controls::Foldable::TwoPaneViewWideModeConfiguration value); };" />
       <MemberSignature Language="F#" Value="member this.WideModeConfiguration : Microsoft.Maui.Controls.Foldable.TwoPaneViewWideModeConfiguration with get, set" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.WideModeConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Foldable::TwoPaneViewWideModeConfiguration WideModeConfiguration { Microsoft::Maui::Controls::Foldable::TwoPaneViewWideModeConfiguration get(); void set(Microsoft::Maui::Controls::Foldable::TwoPaneViewWideModeConfiguration value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -541,8 +541,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty WideModeConfigurationProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneView.WideModeConfigurationProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly WideModeConfigurationProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ WideModeConfigurationProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable WideModeConfigurationProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneView.WideModeConfigurationProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ WideModeConfigurationProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>

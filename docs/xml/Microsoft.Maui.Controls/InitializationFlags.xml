@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed InitializationFlags extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.InitializationFlags" />
   <TypeSignature Language="VB.NET" Value="Public Enum InitializationFlags" />
-  <TypeSignature Language="C++ CLI" Value="public enum class InitializationFlags" />
   <TypeSignature Language="F#" Value="type InitializationFlags = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class InitializationFlags" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -28,8 +28,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.InitializationFlags DisableCss = int64(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.InitializationFlags.DisableCss" />
       <MemberSignature Language="VB.NET" Value="DisableCss" />
-      <MemberSignature Language="C++ CLI" Value="DisableCss" />
       <MemberSignature Language="F#" Value="DisableCss = 1" Usage="Microsoft.Maui.Controls.InitializationFlags.DisableCss" />
+      <MemberSignature Language="C++ CLI" Value="DisableCss" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.InitializationFlags SkipRenderers = int64(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.InitializationFlags.SkipRenderers" />
       <MemberSignature Language="VB.NET" Value="SkipRenderers" />
-      <MemberSignature Language="C++ CLI" Value="SkipRenderers" />
       <MemberSignature Language="F#" Value="SkipRenderers = 2" Usage="Microsoft.Maui.Controls.InitializationFlags.SkipRenderers" />
+      <MemberSignature Language="C++ CLI" Value="SkipRenderers" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

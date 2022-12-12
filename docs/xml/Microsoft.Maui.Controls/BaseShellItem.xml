@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BaseShellItem extends Microsoft.Maui.Controls.NavigableElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.BaseShellItem" />
   <TypeSignature Language="VB.NET" Value="Public Class BaseShellItem&#xA;Inherits NavigableElement" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BaseShellItem : Microsoft::Maui::Controls::NavigableElement" />
   <TypeSignature Language="F#" Value="type BaseShellItem = class&#xA;    inherit NavigableElement" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BaseShellItem : Microsoft::Maui::Controls::NavigableElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Appearing" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.BaseShellItem.Appearing" />
       <MemberSignature Language="VB.NET" Value="Public Event Appearing As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Appearing;" />
       <MemberSignature Language="F#" Value="member this.Appearing : EventHandler " Usage="member this.Appearing : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Appearing;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -66,8 +66,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Disappearing" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.BaseShellItem.Disappearing" />
       <MemberSignature Language="VB.NET" Value="Public Event Disappearing As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Disappearing;" />
       <MemberSignature Language="F#" Value="member this.Disappearing : EventHandler " Usage="member this.Disappearing : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Disappearing;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource FlyoutIcon" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BaseShellItem.FlyoutIcon" />
       <MemberSignature Language="VB.NET" Value="Public Property FlyoutIcon As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ FlyoutIcon { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FlyoutIcon : Microsoft.Maui.Controls.ImageSource with get, set" Usage="Microsoft.Maui.Controls.BaseShellItem.FlyoutIcon" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ FlyoutIcon { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FlyoutIconProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BaseShellItem.FlyoutIconProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FlyoutIconProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FlyoutIconProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FlyoutIconProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BaseShellItem.FlyoutIconProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FlyoutIconProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -127,8 +127,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool FlyoutItemIsVisible" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BaseShellItem.FlyoutItemIsVisible" />
       <MemberSignature Language="VB.NET" Value="Public Property FlyoutItemIsVisible As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FlyoutItemIsVisible { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.FlyoutItemIsVisible : bool with get, set" Usage="Microsoft.Maui.Controls.BaseShellItem.FlyoutItemIsVisible" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FlyoutItemIsVisible { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -148,8 +148,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource Icon" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BaseShellItem.Icon" />
       <MemberSignature Language="VB.NET" Value="Public Property Icon As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ Icon { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Icon : Microsoft.Maui.Controls.ImageSource with get, set" Usage="Microsoft.Maui.Controls.BaseShellItem.Icon" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ Icon { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -169,8 +169,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IconProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BaseShellItem.IconProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IconProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IconProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IconProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BaseShellItem.IconProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IconProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -189,8 +189,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsChecked" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BaseShellItem.IsChecked" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsChecked As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsChecked { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsChecked : bool" Usage="Microsoft.Maui.Controls.BaseShellItem.IsChecked" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsChecked { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -211,8 +211,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsCheckedProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BaseShellItem.IsCheckedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsCheckedProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsCheckedProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsCheckedProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BaseShellItem.IsCheckedProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsCheckedProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -231,8 +231,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BaseShellItem.IsEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.BaseShellItem.IsEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -253,8 +253,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BaseShellItem.IsEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BaseShellItem.IsEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -273,8 +273,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsVisible" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BaseShellItem.IsVisible" />
       <MemberSignature Language="VB.NET" Value="Public Property IsVisible As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsVisible : bool with get, set" Usage="Microsoft.Maui.Controls.BaseShellItem.IsVisible" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -294,8 +294,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsVisibleProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BaseShellItem.IsVisibleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsVisibleProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsVisibleProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsVisibleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BaseShellItem.IsVisibleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsVisibleProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -314,8 +314,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnAppearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BaseShellItem.OnAppearing" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnAppearing ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnAppearing();" />
       <MemberSignature Language="F#" Value="abstract member OnAppearing : unit -&gt; unit&#xA;override this.OnAppearing : unit -&gt; unit" Usage="baseShellItem.OnAppearing " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnAppearing();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -335,8 +335,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnDisappearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BaseShellItem.OnDisappearing" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnDisappearing ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDisappearing();" />
       <MemberSignature Language="F#" Value="abstract member OnDisappearing : unit -&gt; unit&#xA;override this.OnDisappearing : unit -&gt; unit" Usage="baseShellItem.OnDisappearing " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDisappearing();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -386,8 +386,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Route" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BaseShellItem.Route" />
       <MemberSignature Language="VB.NET" Value="Public Property Route As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Route { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Route : string with get, set" Usage="Microsoft.Maui.Controls.BaseShellItem.Route" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Route { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -407,8 +407,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BaseShellItem.Title" />
       <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Microsoft.Maui.Controls.BaseShellItem.Title" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -428,8 +428,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TitleProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BaseShellItem.TitleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TitleProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TitleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BaseShellItem.TitleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TitleProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -448,8 +448,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Window Window" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BaseShellItem.Window" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Window As Window" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Window ^ Window { Microsoft::Maui::Controls::Window ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Window : Microsoft.Maui.Controls.Window" Usage="Microsoft.Maui.Controls.BaseShellItem.Window" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Window ^ Window { Microsoft::Maui::Controls::Window ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -469,8 +469,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty WindowProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BaseShellItem.WindowProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly WindowProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ WindowProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable WindowProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BaseShellItem.WindowProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ WindowProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

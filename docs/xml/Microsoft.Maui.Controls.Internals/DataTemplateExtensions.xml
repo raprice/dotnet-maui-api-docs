@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DataTemplateExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.DataTemplateExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module DataTemplateExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DataTemplateExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type DataTemplateExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DataTemplateExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -29,8 +29,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object CreateContent(class Microsoft.Maui.Controls.DataTemplate self, object item, class Microsoft.Maui.Controls.BindableObject container) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.DataTemplateExtensions.CreateContent(Microsoft.Maui.Controls.DataTemplate,System.Object,Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateContent (self As DataTemplate, item As Object, container As BindableObject) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Object ^ CreateContent(Microsoft::Maui::Controls::DataTemplate ^ self, System::Object ^ item, Microsoft::Maui::Controls::BindableObject ^ container);" />
       <MemberSignature Language="F#" Value="static member CreateContent : Microsoft.Maui.Controls.DataTemplate * obj * Microsoft.Maui.Controls.BindableObject -&gt; obj" Usage="Microsoft.Maui.Controls.Internals.DataTemplateExtensions.CreateContent (self, item, container)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Object ^ CreateContent(Microsoft::Maui::Controls::DataTemplate ^ self, System::Object ^ item, Microsoft::Maui::Controls::BindableObject ^ container);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -58,8 +58,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.DataTemplate SelectDataTemplate(class Microsoft.Maui.Controls.DataTemplate self, object item, class Microsoft.Maui.Controls.BindableObject container) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.DataTemplateExtensions.SelectDataTemplate(Microsoft.Maui.Controls.DataTemplate,System.Object,Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SelectDataTemplate (self As DataTemplate, item As Object, container As BindableObject) As DataTemplate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::DataTemplate ^ SelectDataTemplate(Microsoft::Maui::Controls::DataTemplate ^ self, System::Object ^ item, Microsoft::Maui::Controls::BindableObject ^ container);" />
       <MemberSignature Language="F#" Value="static member SelectDataTemplate : Microsoft.Maui.Controls.DataTemplate * obj * Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.DataTemplate" Usage="Microsoft.Maui.Controls.Internals.DataTemplateExtensions.SelectDataTemplate (self, item, container)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::DataTemplate ^ SelectDataTemplate(Microsoft::Maui::Controls::DataTemplate ^ self, System::Object ^ item, Microsoft::Maui::Controls::BindableObject ^ container);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

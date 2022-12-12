@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MarshalingObservableCollection extends System.Collections.Generic.List`1&lt;object&gt; implements class System.Collections.Specialized.INotifyCollectionChanged" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.MarshalingObservableCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class MarshalingObservableCollection&#xA;Inherits List(Of Object)&#xA;Implements INotifyCollectionChanged" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MarshalingObservableCollection : System::Collections::Generic::List&lt;System::Object ^&gt;, System::Collections::Specialized::INotifyCollectionChanged" />
   <TypeSignature Language="F#" Value="type MarshalingObservableCollection = class&#xA;    inherit List&lt;obj&gt;&#xA;    interface INotifyCollectionChanged" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MarshalingObservableCollection : System::Collections::Generic::List&lt;System::Object ^&gt;, System::Collections::Specialized::INotifyCollectionChanged" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -30,8 +30,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.IList list) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.MarshalingObservableCollection.#ctor(System.Collections.IList)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (list As IList)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; MarshalingObservableCollection(System::Collections::IList ^ list);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.MarshalingObservableCollection : System.Collections.IList -&gt; Microsoft.Maui.Controls.MarshalingObservableCollection" Usage="new Microsoft.Maui.Controls.MarshalingObservableCollection list" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MarshalingObservableCollection(System::Collections::IList ^ list);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -51,8 +51,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.Collections.Specialized.NotifyCollectionChangedEventHandler CollectionChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.MarshalingObservableCollection.CollectionChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event CollectionChanged As NotifyCollectionChangedEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::Collections::Specialized::NotifyCollectionChangedEventHandler ^ CollectionChanged;" />
       <MemberSignature Language="F#" Value="member this.CollectionChanged : System.Collections.Specialized.NotifyCollectionChangedEventHandler " Usage="member this.CollectionChanged : System.Collections.Specialized.NotifyCollectionChangedEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::Collections::Specialized::NotifyCollectionChangedEventHandler ^ CollectionChanged;" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged</InterfaceMember>

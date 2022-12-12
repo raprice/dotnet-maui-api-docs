@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RoundRectangleGeometry extends Microsoft.Maui.Controls.Shapes.GeometryGroup" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry" />
   <TypeSignature Language="VB.NET" Value="Public Class RoundRectangleGeometry&#xA;Inherits GeometryGroup" />
-  <TypeSignature Language="C++ CLI" Value="public ref class RoundRectangleGeometry : Microsoft::Maui::Controls::Shapes::GeometryGroup" />
   <TypeSignature Language="F#" Value="type RoundRectangleGeometry = class&#xA;    inherit GeometryGroup" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RoundRectangleGeometry : Microsoft::Maui::Controls::Shapes::GeometryGroup" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.CornerRadius cornerRadius, valuetype Microsoft.Maui.Graphics.Rect rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry.#ctor(Microsoft.Maui.CornerRadius,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (cornerRadius As CornerRadius, rect As Rect)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; RoundRectangleGeometry(Microsoft::Maui::CornerRadius cornerRadius, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry : Microsoft.Maui.CornerRadius * Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry" Usage="new Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry (cornerRadius, rect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RoundRectangleGeometry(Microsoft::Maui::CornerRadius cornerRadius, Microsoft::Maui::Graphics::Rect rect);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -63,8 +63,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void AppendPath(class Microsoft.Maui.Graphics.PathF path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry.AppendPath(Microsoft.Maui.Graphics.PathF)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub AppendPath (path As PathF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void AppendPath(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberSignature Language="F#" Value="override this.AppendPath : Microsoft.Maui.Graphics.PathF -&gt; unit" Usage="roundRectangleGeometry.AppendPath path" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void AppendPath(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -87,8 +87,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.CornerRadius CornerRadius" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry.CornerRadius" />
       <MemberSignature Language="VB.NET" Value="Public Property CornerRadius As CornerRadius" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::CornerRadius CornerRadius { Microsoft::Maui::CornerRadius get(); void set(Microsoft::Maui::CornerRadius value); };" />
       <MemberSignature Language="F#" Value="member this.CornerRadius : Microsoft.Maui.CornerRadius with get, set" Usage="Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry.CornerRadius" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::CornerRadius CornerRadius { Microsoft::Maui::CornerRadius get(); void set(Microsoft::Maui::CornerRadius value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -108,8 +108,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CornerRadiusProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry.CornerRadiusProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CornerRadiusProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CornerRadiusProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CornerRadiusProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry.CornerRadiusProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CornerRadiusProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -128,8 +128,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Rect Rect" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry.Rect" />
       <MemberSignature Language="VB.NET" Value="Public Property Rect As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect Rect { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberSignature Language="F#" Value="member this.Rect : Microsoft.Maui.Graphics.Rect with get, set" Usage="Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry.Rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect Rect { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -149,8 +149,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty RectProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry.RectProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RectProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RectProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable RectProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.RoundRectangleGeometry.RectProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RectProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

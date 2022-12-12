@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VisualMarker extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.VisualMarker" />
   <TypeSignature Language="VB.NET" Value="Public Class VisualMarker" />
-  <TypeSignature Language="C++ CLI" Value="public ref class VisualMarker abstract sealed" />
   <TypeSignature Language="F#" Value="type VisualMarker = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VisualMarker abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.IVisual Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.VisualMarker.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As IVisual" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::IVisual ^ Default { Microsoft::Maui::Controls::IVisual ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.Controls.IVisual" Usage="Microsoft.Maui.Controls.VisualMarker.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::IVisual ^ Default { Microsoft::Maui::Controls::IVisual ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.IVisual MatchParent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.VisualMarker.MatchParent" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MatchParent As IVisual" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::IVisual ^ MatchParent { Microsoft::Maui::Controls::IVisual ^ get(); };" />
       <MemberSignature Language="F#" Value="static member MatchParent : Microsoft.Maui.Controls.IVisual" Usage="Microsoft.Maui.Controls.VisualMarker.MatchParent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::IVisual ^ MatchParent { Microsoft::Maui::Controls::IVisual ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

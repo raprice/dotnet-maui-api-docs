@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ScrollToMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ScrollToMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum ScrollToMode" />
-  <TypeSignature Language="C++ CLI" Value="public enum class ScrollToMode" />
   <TypeSignature Language="F#" Value="type ScrollToMode = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class ScrollToMode" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.ScrollToMode Element = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ScrollToMode.Element" />
       <MemberSignature Language="VB.NET" Value="Element" />
-      <MemberSignature Language="C++ CLI" Value="Element" />
       <MemberSignature Language="F#" Value="Element = 0" Usage="Microsoft.Maui.Controls.ScrollToMode.Element" />
+      <MemberSignature Language="C++ CLI" Value="Element" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.ScrollToMode Position = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ScrollToMode.Position" />
       <MemberSignature Language="VB.NET" Value="Position" />
-      <MemberSignature Language="C++ CLI" Value="Position" />
       <MemberSignature Language="F#" Value="Position = 1" Usage="Microsoft.Maui.Controls.ScrollToMode.Position" />
+      <MemberSignature Language="C++ CLI" Value="Position" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

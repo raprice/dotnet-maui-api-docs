@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GroupHeaderStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.GroupHeaderStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum GroupHeaderStyle" />
-  <TypeSignature Language="C++ CLI" Value="public enum class GroupHeaderStyle" />
   <TypeSignature Language="F#" Value="type GroupHeaderStyle = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class GroupHeaderStyle" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.GroupHeaderStyle Grouped = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.GroupHeaderStyle.Grouped" />
       <MemberSignature Language="VB.NET" Value="Grouped" />
-      <MemberSignature Language="C++ CLI" Value="Grouped" />
       <MemberSignature Language="F#" Value="Grouped = 1" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.GroupHeaderStyle.Grouped" />
+      <MemberSignature Language="C++ CLI" Value="Grouped" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.GroupHeaderStyle Plain = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.GroupHeaderStyle.Plain" />
       <MemberSignature Language="VB.NET" Value="Plain" />
-      <MemberSignature Language="C++ CLI" Value="Plain" />
       <MemberSignature Language="F#" Value="Plain = 0" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.GroupHeaderStyle.Plain" />
+      <MemberSignature Language="C++ CLI" Value="Plain" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

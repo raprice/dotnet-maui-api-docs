@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FlowDirection extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.FlowDirection" />
   <TypeSignature Language="VB.NET" Value="Public Enum FlowDirection" />
-  <TypeSignature Language="C++ CLI" Value="public enum class FlowDirection" />
   <TypeSignature Language="F#" Value="type FlowDirection = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class FlowDirection" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -26,8 +26,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FlowDirection LeftToRight = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FlowDirection.LeftToRight" />
       <MemberSignature Language="VB.NET" Value="LeftToRight" />
-      <MemberSignature Language="C++ CLI" Value="LeftToRight" />
       <MemberSignature Language="F#" Value="LeftToRight = 1" Usage="Microsoft.Maui.FlowDirection.LeftToRight" />
+      <MemberSignature Language="C++ CLI" Value="LeftToRight" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FlowDirection MatchParent = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FlowDirection.MatchParent" />
       <MemberSignature Language="VB.NET" Value="MatchParent" />
-      <MemberSignature Language="C++ CLI" Value="MatchParent" />
       <MemberSignature Language="F#" Value="MatchParent = 0" Usage="Microsoft.Maui.FlowDirection.MatchParent" />
+      <MemberSignature Language="C++ CLI" Value="MatchParent" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -66,8 +66,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FlowDirection RightToLeft = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FlowDirection.RightToLeft" />
       <MemberSignature Language="VB.NET" Value="RightToLeft" />
-      <MemberSignature Language="C++ CLI" Value="RightToLeft" />
       <MemberSignature Language="F#" Value="RightToLeft = 2" Usage="Microsoft.Maui.FlowDirection.RightToLeft" />
+      <MemberSignature Language="C++ CLI" Value="RightToLeft" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

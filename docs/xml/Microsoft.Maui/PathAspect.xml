@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PathAspect extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.PathAspect" />
   <TypeSignature Language="VB.NET" Value="Public Enum PathAspect" />
-  <TypeSignature Language="C++ CLI" Value="public enum class PathAspect" />
   <TypeSignature Language="F#" Value="type PathAspect = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class PathAspect" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.PathAspect AspectFill = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.PathAspect.AspectFill" />
       <MemberSignature Language="VB.NET" Value="AspectFill" />
-      <MemberSignature Language="C++ CLI" Value="AspectFill" />
       <MemberSignature Language="F#" Value="AspectFill = 4" Usage="Microsoft.Maui.PathAspect.AspectFill" />
+      <MemberSignature Language="C++ CLI" Value="AspectFill" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.PathAspect AspectFit = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.PathAspect.AspectFit" />
       <MemberSignature Language="VB.NET" Value="AspectFit" />
-      <MemberSignature Language="C++ CLI" Value="AspectFit" />
       <MemberSignature Language="F#" Value="AspectFit = 3" Usage="Microsoft.Maui.PathAspect.AspectFit" />
+      <MemberSignature Language="C++ CLI" Value="AspectFit" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.PathAspect Center = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.PathAspect.Center" />
       <MemberSignature Language="VB.NET" Value="Center" />
-      <MemberSignature Language="C++ CLI" Value="Center" />
       <MemberSignature Language="F#" Value="Center = 1" Usage="Microsoft.Maui.PathAspect.Center" />
+      <MemberSignature Language="C++ CLI" Value="Center" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.PathAspect None = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.PathAspect.None" />
       <MemberSignature Language="VB.NET" Value="None" />
-      <MemberSignature Language="C++ CLI" Value="None" />
       <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Maui.PathAspect.None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.PathAspect Stretch = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.PathAspect.Stretch" />
       <MemberSignature Language="VB.NET" Value="Stretch" />
-      <MemberSignature Language="C++ CLI" Value="Stretch" />
       <MemberSignature Language="F#" Value="Stretch = 2" Usage="Microsoft.Maui.PathAspect.Stretch" />
+      <MemberSignature Language="C++ CLI" Value="Stretch" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

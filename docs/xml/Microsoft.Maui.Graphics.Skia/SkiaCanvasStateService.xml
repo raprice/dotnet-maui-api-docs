@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SkiaCanvasStateService extends System.Object implements class Microsoft.Maui.Graphics.ICanvasStateService`1&lt;class Microsoft.Maui.Graphics.Skia.SkiaCanvasState&gt;, class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.Skia.SkiaCanvasStateService" />
   <TypeSignature Language="VB.NET" Value="Public Class SkiaCanvasStateService&#xA;Implements ICanvasStateService(Of SkiaCanvasState), IDisposable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SkiaCanvasStateService : IDisposable, Microsoft::Maui::Graphics::ICanvasStateService&lt;Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^&gt;" />
   <TypeSignature Language="F#" Value="type SkiaCanvasStateService = class&#xA;    interface IDisposable&#xA;    interface ICanvasStateService&lt;SkiaCanvasState&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SkiaCanvasStateService : IDisposable, Microsoft::Maui::Graphics::ICanvasStateService&lt;Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Graphics.Skia.SkiaCanvasState CreateCopy(class Microsoft.Maui.Graphics.Skia.SkiaCanvasState prototype) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvasStateService.CreateCopy(Microsoft.Maui.Graphics.Skia.SkiaCanvasState)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateCopy (prototype As SkiaCanvasState) As SkiaCanvasState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^ CreateCopy(Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^ prototype);" />
       <MemberSignature Language="F#" Value="abstract member CreateCopy : Microsoft.Maui.Graphics.Skia.SkiaCanvasState -&gt; Microsoft.Maui.Graphics.Skia.SkiaCanvasState&#xA;override this.CreateCopy : Microsoft.Maui.Graphics.Skia.SkiaCanvasState -&gt; Microsoft.Maui.Graphics.Skia.SkiaCanvasState" Usage="skiaCanvasStateService.CreateCopy prototype" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^ CreateCopy(Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^ prototype);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Graphics.ICanvasStateService`1.CreateCopy(`0)</InterfaceMember>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Graphics.Skia.SkiaCanvasState CreateNew(object context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvasStateService.CreateNew(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateNew (context As Object) As SkiaCanvasState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^ CreateNew(System::Object ^ context);" />
       <MemberSignature Language="F#" Value="abstract member CreateNew : obj -&gt; Microsoft.Maui.Graphics.Skia.SkiaCanvasState&#xA;override this.CreateNew : obj -&gt; Microsoft.Maui.Graphics.Skia.SkiaCanvasState" Usage="skiaCanvasStateService.CreateNew context" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^ CreateNew(System::Object ^ context);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Graphics.ICanvasStateService`1.CreateNew(System.Object)</InterfaceMember>
@@ -103,8 +103,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvasStateService.Dispose" />
       <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="skiaCanvasStateService.Dispose " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
@@ -127,8 +127,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Reset(class Microsoft.Maui.Graphics.Skia.SkiaCanvasState currentState) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvasStateService.Reset(Microsoft.Maui.Graphics.Skia.SkiaCanvasState)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Reset (currentState As SkiaCanvasState)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reset(Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^ currentState);" />
       <MemberSignature Language="F#" Value="member this.Reset : Microsoft.Maui.Graphics.Skia.SkiaCanvasState -&gt; unit" Usage="skiaCanvasStateService.Reset currentState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reset(Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^ currentState);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>

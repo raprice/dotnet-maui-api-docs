@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WebNavigatingEventArgs extends Microsoft.Maui.Controls.WebNavigationEventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.WebNavigatingEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class WebNavigatingEventArgs&#xA;Inherits WebNavigationEventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class WebNavigatingEventArgs : Microsoft::Maui::Controls::WebNavigationEventArgs" />
   <TypeSignature Language="F#" Value="type WebNavigatingEventArgs = class&#xA;    inherit WebNavigationEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WebNavigatingEventArgs : Microsoft::Maui::Controls::WebNavigationEventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.WebNavigationEvent navigationEvent, class Microsoft.Maui.Controls.WebViewSource source, string url) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.WebNavigatingEventArgs.#ctor(Microsoft.Maui.WebNavigationEvent,Microsoft.Maui.Controls.WebViewSource,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (navigationEvent As WebNavigationEvent, source As WebViewSource, url As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; WebNavigatingEventArgs(Microsoft::Maui::WebNavigationEvent navigationEvent, Microsoft::Maui::Controls::WebViewSource ^ source, System::String ^ url);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.WebNavigatingEventArgs : Microsoft.Maui.WebNavigationEvent * Microsoft.Maui.Controls.WebViewSource * string -&gt; Microsoft.Maui.Controls.WebNavigatingEventArgs" Usage="new Microsoft.Maui.Controls.WebNavigatingEventArgs (navigationEvent, source, url)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WebNavigatingEventArgs(Microsoft::Maui::WebNavigationEvent navigationEvent, Microsoft::Maui::Controls::WebViewSource ^ source, System::String ^ url);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Cancel" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.WebNavigatingEventArgs.Cancel" />
       <MemberSignature Language="VB.NET" Value="Public Property Cancel As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Cancel { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Cancel : bool with get, set" Usage="Microsoft.Maui.Controls.WebNavigatingEventArgs.Cancel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Cancel { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

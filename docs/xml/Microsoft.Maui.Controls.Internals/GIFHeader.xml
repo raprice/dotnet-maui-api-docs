@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GIFHeader extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.GIFHeader" />
   <TypeSignature Language="VB.NET" Value="Public Class GIFHeader" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GIFHeader" />
   <TypeSignature Language="F#" Value="type GIFHeader = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GIFHeader" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 BackgroundColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.GIFHeader.BackgroundColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BackgroundColor As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BackgroundColor { int get(); };" />
       <MemberSignature Language="F#" Value="member this.BackgroundColor : int" Usage="Microsoft.Maui.Controls.Internals.GIFHeader.BackgroundColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BackgroundColor { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 BackgroundColorIndex" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.GIFHeader.BackgroundColorIndex" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BackgroundColorIndex As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BackgroundColorIndex { int get(); };" />
       <MemberSignature Language="F#" Value="member this.BackgroundColorIndex : int" Usage="Microsoft.Maui.Controls.Internals.GIFHeader.BackgroundColorIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BackgroundColorIndex { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -91,8 +91,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Internals.GIFColorTable GlobalColorTable" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.GIFHeader.GlobalColorTable" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalColorTable As GIFColorTable" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Internals::GIFColorTable ^ GlobalColorTable { Microsoft::Maui::Controls::Internals::GIFColorTable ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.GlobalColorTable : Microsoft.Maui.Controls.Internals.GIFColorTable" Usage="Microsoft.Maui.Controls.Internals.GIFHeader.GlobalColorTable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Internals::GIFColorTable ^ GlobalColorTable { Microsoft::Maui::Controls::Internals::GIFColorTable ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -112,8 +112,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.GIFHeader.Height" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Height : int" Usage="Microsoft.Maui.Controls.Internals.GIFHeader.Height" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -133,8 +133,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsGIFHeader" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.GIFHeader.IsGIFHeader" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsGIFHeader As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsGIFHeader { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsGIFHeader : bool" Usage="Microsoft.Maui.Controls.Internals.GIFHeader.IsGIFHeader" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsGIFHeader { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -154,8 +154,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 PixelAspectRatio" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.GIFHeader.PixelAspectRatio" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PixelAspectRatio As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PixelAspectRatio { int get(); };" />
       <MemberSignature Language="F#" Value="member this.PixelAspectRatio : int" Usage="Microsoft.Maui.Controls.Internals.GIFHeader.PixelAspectRatio" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PixelAspectRatio { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -175,8 +175,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string TypeIdentifier" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.GIFHeader.TypeIdentifier" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TypeIdentifier As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TypeIdentifier { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.TypeIdentifier : string" Usage="Microsoft.Maui.Controls.Internals.GIFHeader.TypeIdentifier" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TypeIdentifier { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -196,8 +196,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Version" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.GIFHeader.Version" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Version { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Version : string" Usage="Microsoft.Maui.Controls.Internals.GIFHeader.Version" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Version { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -217,8 +217,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.GIFHeader.Width" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Width : int" Usage="Microsoft.Maui.Controls.Internals.GIFHeader.Width" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

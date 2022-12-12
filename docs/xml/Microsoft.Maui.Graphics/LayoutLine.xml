@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LayoutLine extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.LayoutLine" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub LayoutLine(aPoint As PointF, aTextual As ITextAttributes, aText As String, aAscent As Single, aDescent As Single, aLeading As Single)" />
-  <TypeSignature Language="C++ CLI" Value="public delegate void LayoutLine(PointF aPoint, ITextAttributes ^ aTextual, System::String ^ aText, float aAscent, float aDescent, float aLeading);" />
   <TypeSignature Language="F#" Value="type LayoutLine = delegate of PointF * ITextAttributes * string * single * single * single -&gt; unit" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void LayoutLine(PointF aPoint, ITextAttributes ^ aTextual, System::String ^ aText, float aAscent, float aDescent, float aLeading);" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

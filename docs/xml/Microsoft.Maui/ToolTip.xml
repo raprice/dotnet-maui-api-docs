@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ToolTip extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ToolTip" />
   <TypeSignature Language="VB.NET" Value="Public Class ToolTip" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ToolTip" />
   <TypeSignature Language="F#" Value="type ToolTip = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ToolTip" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Content" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ToolTip.Content" />
       <MemberSignature Language="VB.NET" Value="Public Property Content As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Content { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Content : obj with get, set" Usage="Microsoft.Maui.ToolTip.Content" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Content { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Constraint extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Compatibility.Constraint" />
   <TypeSignature Language="VB.NET" Value="Public Class Constraint" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Constraint" />
   <TypeSignature Language="F#" Value="type Constraint = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Constraint" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.Compatibility.Constraint Constant(float64 size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.Constraint.Constant(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Constant (size As Double) As Constraint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ Constant(double size);" />
       <MemberSignature Language="F#" Value="static member Constant : double -&gt; Microsoft.Maui.Controls.Compatibility.Constraint" Usage="Microsoft.Maui.Controls.Compatibility.Constraint.Constant size" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ Constant(double size);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.Compatibility.Constraint FromExpression(class System.Linq.Expressions.Expression`1&lt;class System.Func`1&lt;float64&gt;&gt; expression) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.Constraint.FromExpression(System.Linq.Expressions.Expression{System.Func{System.Double}})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromExpression (expression As Expression(Of Func(Of Double))) As Constraint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ FromExpression(System::Linq::Expressions::Expression&lt;Func&lt;double&gt; ^&gt; ^ expression);" />
       <MemberSignature Language="F#" Value="static member FromExpression : System.Linq.Expressions.Expression&lt;Func&lt;double&gt;&gt; -&gt; Microsoft.Maui.Controls.Compatibility.Constraint" Usage="Microsoft.Maui.Controls.Compatibility.Constraint.FromExpression expression" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ FromExpression(System::Linq::Expressions::Expression&lt;Func&lt;double&gt; ^&gt; ^ expression);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -96,8 +96,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.Compatibility.Constraint RelativeToParent(class System.Func`2&lt;class Microsoft.Maui.Controls.Compatibility.RelativeLayout, float64&gt; measure) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.Constraint.RelativeToParent(System.Func{Microsoft.Maui.Controls.Compatibility.RelativeLayout,System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function RelativeToParent (measure As Func(Of RelativeLayout, Double)) As Constraint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ RelativeToParent(Func&lt;Microsoft::Maui::Controls::Compatibility::RelativeLayout ^, double&gt; ^ measure);" />
       <MemberSignature Language="F#" Value="static member RelativeToParent : Func&lt;Microsoft.Maui.Controls.Compatibility.RelativeLayout, double&gt; -&gt; Microsoft.Maui.Controls.Compatibility.Constraint" Usage="Microsoft.Maui.Controls.Compatibility.Constraint.RelativeToParent measure" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ RelativeToParent(Func&lt;Microsoft::Maui::Controls::Compatibility::RelativeLayout ^, double&gt; ^ measure);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -121,8 +121,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.Compatibility.Constraint RelativeToView(class Microsoft.Maui.Controls.View view, class System.Func`3&lt;class Microsoft.Maui.Controls.Compatibility.RelativeLayout, class Microsoft.Maui.Controls.View, float64&gt; measure) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.Constraint.RelativeToView(Microsoft.Maui.Controls.View,System.Func{Microsoft.Maui.Controls.Compatibility.RelativeLayout,Microsoft.Maui.Controls.View,System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function RelativeToView (view As View, measure As Func(Of RelativeLayout, View, Double)) As Constraint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ RelativeToView(Microsoft::Maui::Controls::View ^ view, Func&lt;Microsoft::Maui::Controls::Compatibility::RelativeLayout ^, Microsoft::Maui::Controls::View ^, double&gt; ^ measure);" />
       <MemberSignature Language="F#" Value="static member RelativeToView : Microsoft.Maui.Controls.View * Func&lt;Microsoft.Maui.Controls.Compatibility.RelativeLayout, Microsoft.Maui.Controls.View, double&gt; -&gt; Microsoft.Maui.Controls.Compatibility.Constraint" Usage="Microsoft.Maui.Controls.Compatibility.Constraint.RelativeToView (view, measure)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ RelativeToView(Microsoft::Maui::Controls::View ^ view, Func&lt;Microsoft::Maui::Controls::Compatibility::RelativeLayout ^, Microsoft::Maui::Controls::View ^, double&gt; ^ measure);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

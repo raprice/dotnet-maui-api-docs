@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StandardTextAttributes extends System.Object implements class Microsoft.Maui.Graphics.ITextAttributes" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.StandardTextAttributes" />
   <TypeSignature Language="VB.NET" Value="Public Class StandardTextAttributes&#xA;Implements ITextAttributes" />
-  <TypeSignature Language="C++ CLI" Value="public ref class StandardTextAttributes : Microsoft::Maui::Graphics::ITextAttributes" />
   <TypeSignature Language="F#" Value="type StandardTextAttributes = class&#xA;    interface ITextAttributes" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StandardTextAttributes : Microsoft::Maui::Graphics::ITextAttributes" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.IFont Font" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.StandardTextAttributes.Font" />
       <MemberSignature Language="VB.NET" Value="Public Property Font As IFont" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IFont ^ Font { Microsoft::Maui::Graphics::IFont ^ get(); void set(Microsoft::Maui::Graphics::IFont ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Font : Microsoft.Maui.Graphics.IFont with get, set" Usage="Microsoft.Maui.Graphics.StandardTextAttributes.Font" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IFont ^ Font { Microsoft::Maui::Graphics::IFont ^ get(); void set(Microsoft::Maui::Graphics::IFont ^ value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Graphics.ITextAttributes.Font</InterfaceMember>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 FontSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.StandardTextAttributes.FontSize" />
       <MemberSignature Language="VB.NET" Value="Public Property FontSize As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float FontSize { float get(); void set(float value); };" />
       <MemberSignature Language="F#" Value="member this.FontSize : single with get, set" Usage="Microsoft.Maui.Graphics.StandardTextAttributes.FontSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float FontSize { float get(); void set(float value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Graphics.ITextAttributes.FontSize</InterfaceMember>
@@ -92,8 +92,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.HorizontalAlignment HorizontalAlignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.StandardTextAttributes.HorizontalAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalAlignment As HorizontalAlignment" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::HorizontalAlignment HorizontalAlignment { Microsoft::Maui::Graphics::HorizontalAlignment get(); void set(Microsoft::Maui::Graphics::HorizontalAlignment value); };" />
       <MemberSignature Language="F#" Value="member this.HorizontalAlignment : Microsoft.Maui.Graphics.HorizontalAlignment with get, set" Usage="Microsoft.Maui.Graphics.StandardTextAttributes.HorizontalAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::HorizontalAlignment HorizontalAlignment { Microsoft::Maui::Graphics::HorizontalAlignment get(); void set(Microsoft::Maui::Graphics::HorizontalAlignment value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Graphics.ITextAttributes.HorizontalAlignment</InterfaceMember>
@@ -116,8 +116,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 Margin" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.StandardTextAttributes.Margin" />
       <MemberSignature Language="VB.NET" Value="Public Property Margin As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Margin { float get(); void set(float value); };" />
       <MemberSignature Language="F#" Value="member this.Margin : single with get, set" Usage="Microsoft.Maui.Graphics.StandardTextAttributes.Margin" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Margin { float get(); void set(float value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Graphics.ITextAttributes.Margin</InterfaceMember>
@@ -140,8 +140,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color TextFontColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.StandardTextAttributes.TextFontColor" />
       <MemberSignature Language="VB.NET" Value="Public Property TextFontColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TextFontColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.TextFontColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Graphics.StandardTextAttributes.TextFontColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TextFontColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Graphics.ITextAttributes.TextFontColor</InterfaceMember>
@@ -164,8 +164,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.VerticalAlignment VerticalAlignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.StandardTextAttributes.VerticalAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalAlignment As VerticalAlignment" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::VerticalAlignment VerticalAlignment { Microsoft::Maui::Graphics::VerticalAlignment get(); void set(Microsoft::Maui::Graphics::VerticalAlignment value); };" />
       <MemberSignature Language="F#" Value="member this.VerticalAlignment : Microsoft.Maui.Graphics.VerticalAlignment with get, set" Usage="Microsoft.Maui.Graphics.StandardTextAttributes.VerticalAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::VerticalAlignment VerticalAlignment { Microsoft::Maui::Graphics::VerticalAlignment get(); void set(Microsoft::Maui::Graphics::VerticalAlignment value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Graphics.ITextAttributes.VerticalAlignment</InterfaceMember>

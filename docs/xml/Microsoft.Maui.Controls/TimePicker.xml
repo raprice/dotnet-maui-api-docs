@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TimePicker extends Microsoft.Maui.Controls.View implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.TimePicker&gt;, class Microsoft.Maui.Controls.Internals.IFontElement, class Microsoft.Maui.IElement, class Microsoft.Maui.ITextStyle, class Microsoft.Maui.ITimePicker, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.TimePicker" />
   <TypeSignature Language="VB.NET" Value="Public Class TimePicker&#xA;Inherits View&#xA;Implements IElementConfiguration(Of TimePicker), IFontElement, ITimePicker" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TimePicker : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::TimePicker ^&gt;, Microsoft::Maui::Controls::Internals::IFontElement, Microsoft::Maui::ITimePicker" />
   <TypeSignature Language="F#" Value="type TimePicker = class&#xA;    inherit View&#xA;    interface ITimePicker&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface ITextStyle&#xA;    interface IFontElement&#xA;    interface IElementConfiguration&lt;TimePicker&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TimePicker : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::TimePicker ^&gt;, Microsoft::Maui::Controls::Internals::IFontElement, Microsoft::Maui::ITimePicker" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -75,8 +75,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".property instance float64 CharacterSpacing" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TimePicker.CharacterSpacing" />
       <MemberSignature Language="VB.NET" Value="Public Property CharacterSpacing As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double CharacterSpacing { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.CharacterSpacing : double with get, set" Usage="Microsoft.Maui.Controls.TimePicker.CharacterSpacing" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double CharacterSpacing { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -96,8 +96,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CharacterSpacingProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TimePicker.CharacterSpacingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CharacterSpacingProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CharacterSpacingProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CharacterSpacingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TimePicker.CharacterSpacingProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CharacterSpacingProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -116,8 +116,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.ITimePicker, class Microsoft.Maui.Handlers.TimePickerHandler&gt; ControlsTimePickerMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TimePicker.ControlsTimePickerMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ControlsTimePickerMapper As IPropertyMapper(Of ITimePicker, TimePickerHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ITimePicker ^, Microsoft::Maui::Handlers::TimePickerHandler ^&gt; ^ ControlsTimePickerMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlsTimePickerMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.ITimePicker, Microsoft.Maui.Handlers.TimePickerHandler&gt;" Usage="Microsoft.Maui.Controls.TimePicker.ControlsTimePickerMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ITimePicker ^, Microsoft::Maui::Handlers::TimePickerHandler ^&gt; ^ ControlsTimePickerMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -136,8 +136,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.FontAttributes FontAttributes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TimePicker.FontAttributes" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAttributes As FontAttributes" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); void set(Microsoft::Maui::Controls::FontAttributes value); };" />
       <MemberSignature Language="F#" Value="member this.FontAttributes : Microsoft.Maui.Controls.FontAttributes with get, set" Usage="Microsoft.Maui.Controls.TimePicker.FontAttributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); void set(Microsoft::Maui::Controls::FontAttributes value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -157,8 +157,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAttributesProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TimePicker.FontAttributesProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAttributesProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAttributesProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontAttributesProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TimePicker.FontAttributesProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAttributesProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -177,8 +177,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".property instance bool FontAutoScalingEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TimePicker.FontAutoScalingEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAutoScalingEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.FontAutoScalingEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.TimePicker.FontAutoScalingEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -198,8 +198,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAutoScalingEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TimePicker.FontAutoScalingEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAutoScalingEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAutoScalingEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontAutoScalingEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TimePicker.FontAutoScalingEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAutoScalingEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -218,8 +218,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".property instance string FontFamily" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TimePicker.FontFamily" />
       <MemberSignature Language="VB.NET" Value="Public Property FontFamily As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FontFamily : string with get, set" Usage="Microsoft.Maui.Controls.TimePicker.FontFamily" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -239,8 +239,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontFamilyProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TimePicker.FontFamilyProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontFamilyProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontFamilyProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontFamilyProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TimePicker.FontFamilyProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontFamilyProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -259,8 +259,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".property instance float64 FontSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TimePicker.FontSize" />
       <MemberSignature Language="VB.NET" Value="Public Property FontSize As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.FontSize : double with get, set" Usage="Microsoft.Maui.Controls.TimePicker.FontSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -286,8 +286,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontSizeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TimePicker.FontSizeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontSizeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontSizeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontSizeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TimePicker.FontSizeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontSizeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -306,8 +306,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".property instance string Format" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TimePicker.Format" />
       <MemberSignature Language="VB.NET" Value="Public Property Format As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Format { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Format : string with get, set" Usage="Microsoft.Maui.Controls.TimePicker.Format" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Format { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -327,8 +327,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FormatProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TimePicker.FormatProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FormatProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FormatProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FormatProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TimePicker.FormatProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FormatProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -347,8 +347,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance float64 Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TimePicker.Microsoft#Maui#Controls#Internals#IFontElement#FontSizeDefaultValueCreator" />
       <MemberSignature Language="VB.NET" Value="Function FontSizeDefaultValueCreator () As Double Implements IFontElement.FontSizeDefaultValueCreator" />
-      <MemberSignature Language="C++ CLI" Value=" virtual double Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() = Microsoft::Maui::Controls::Internals::IFontElement::FontSizeDefaultValueCreator;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double" Usage="timePicker.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator " />
+      <MemberSignature Language="C++ CLI" Value=" virtual double Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() = Microsoft::Maui::Controls::Internals::IFontElement::FontSizeDefaultValueCreator;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator</InterfaceMember>
@@ -372,8 +372,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(valuetype Microsoft.Maui.Controls.FontAttributes oldValue, valuetype Microsoft.Maui.Controls.FontAttributes newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TimePicker.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAttributesChanged (oldValue As FontAttributes, newValue As FontAttributes) Implements IFontElement.OnFontAttributesChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAttributesChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit" Usage="timePicker.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAttributesChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)</InterfaceMember>
@@ -401,8 +401,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TimePicker.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAutoScalingEnabledChanged (oldValue As Boolean, newValue As Boolean) Implements IFontElement.OnFontAutoScalingEnabledChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAutoScalingEnabledChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit" Usage="timePicker.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAutoScalingEnabledChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)</InterfaceMember>
@@ -430,8 +430,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(string oldValue, string newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TimePicker.Microsoft#Maui#Controls#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontFamilyChanged (oldValue As String, newValue As String) Implements IFontElement.OnFontFamilyChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontFamilyChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit" Usage="timePicker.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontFamilyChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System.String,System.String)</InterfaceMember>
@@ -459,8 +459,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(float64 oldValue, float64 newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TimePicker.Microsoft#Maui#Controls#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontSizeChanged (oldValue As Double, newValue As Double) Implements IFontElement.OnFontSizeChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(double oldValue, double newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontSizeChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit" Usage="timePicker.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(double oldValue, double newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontSizeChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(System.Double,System.Double)</InterfaceMember>
@@ -488,8 +488,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Font Microsoft.Maui.ITextStyle.Font" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TimePicker.Microsoft#Maui#ITextStyle#Font" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Font As Font Implements ITextStyle.Font" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Font Microsoft::Maui::ITextStyle::Font { Microsoft::Maui::Font get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ITextStyle.Font : Microsoft.Maui.Font" Usage="Microsoft.Maui.ITextStyle.Font" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Font Microsoft::Maui::ITextStyle::Font { Microsoft::Maui::Font get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITextStyle.Font</InterfaceMember>
@@ -512,8 +512,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.TimePicker&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TimePicker.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, TimePicker)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::TimePicker ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.TimePicker (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.TimePicker (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="timePicker.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::TimePicker ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -546,8 +546,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color TextColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TimePicker.TextColor" />
       <MemberSignature Language="VB.NET" Value="Public Property TextColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TextColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.TextColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.TimePicker.TextColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TextColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -567,8 +567,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TimePicker.TextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TextColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TimePicker.TextColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -587,8 +587,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan Time" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TimePicker.Time" />
       <MemberSignature Language="VB.NET" Value="Public Property Time As TimeSpan" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeSpan Time { TimeSpan get(); void set(TimeSpan value); };" />
       <MemberSignature Language="F#" Value="member this.Time : TimeSpan with get, set" Usage="Microsoft.Maui.Controls.TimePicker.Time" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeSpan Time { TimeSpan get(); void set(TimeSpan value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITimePicker.Time</InterfaceMember>
@@ -611,8 +611,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TimeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TimePicker.TimeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TimeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TimeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TimeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TimePicker.TimeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TimeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -631,8 +631,8 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string UpdateFormsText(string source, valuetype Microsoft.Maui.TextTransform textTransform) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TimePicker.UpdateFormsText(System.String,Microsoft.Maui.TextTransform)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateFormsText (source As String, textTransform As TextTransform) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ UpdateFormsText(System::String ^ source, Microsoft::Maui::TextTransform textTransform);" />
       <MemberSignature Language="F#" Value="abstract member UpdateFormsText : string * Microsoft.Maui.TextTransform -&gt; string&#xA;override this.UpdateFormsText : string * Microsoft.Maui.TextTransform -&gt; string" Usage="timePicker.UpdateFormsText (source, textTransform)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ UpdateFormsText(System::String ^ source, Microsoft::Maui::TextTransform textTransform);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

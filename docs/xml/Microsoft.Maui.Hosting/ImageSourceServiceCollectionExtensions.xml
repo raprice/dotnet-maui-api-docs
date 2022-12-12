@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ImageSourceServiceCollectionExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Hosting.ImageSourceServiceCollectionExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module ImageSourceServiceCollectionExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ImageSourceServiceCollectionExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type ImageSourceServiceCollectionExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImageSourceServiceCollectionExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.IImageSourceServiceCollection AddService&lt;(class Microsoft.Maui.IImageSource) TImageSource&gt;(class Microsoft.Maui.Hosting.IImageSourceServiceCollection services, class System.Func`2&lt;class System.IServiceProvider, class Microsoft.Maui.IImageSourceService`1&lt;!!TImageSource&gt;&gt; implementationFactory) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Hosting.ImageSourceServiceCollectionExtensions.AddService``1(Microsoft.Maui.Hosting.IImageSourceServiceCollection,System.Func{System.IServiceProvider,Microsoft.Maui.IImageSourceService{``0}})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddService(Of TImageSource As IImageSource) (services As IImageSourceServiceCollection, implementationFactory As Func(Of IServiceProvider, IImageSourceService(Of TImageSource))) As IImageSourceServiceCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TImageSource&gt;&#xA; where TImageSource : Microsoft::Maui::IImageSource[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IImageSourceServiceCollection ^ AddService(Microsoft::Maui::Hosting::IImageSourceServiceCollection ^ services, Func&lt;IServiceProvider ^, Microsoft::Maui::IImageSourceService&lt;TImageSource&gt; ^&gt; ^ implementationFactory);" />
       <MemberSignature Language="F#" Value="static member AddService : Microsoft.Maui.Hosting.IImageSourceServiceCollection * Func&lt;IServiceProvider, Microsoft.Maui.IImageSourceService&lt;'ImageSource&gt;&gt; -&gt; Microsoft.Maui.Hosting.IImageSourceServiceCollection (requires 'ImageSource :&gt; Microsoft.Maui.IImageSource)" Usage="Microsoft.Maui.Hosting.ImageSourceServiceCollectionExtensions.AddService (services, implementationFactory)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TImageSource&gt;&#xA; where TImageSource : Microsoft::Maui::IImageSource[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IImageSourceServiceCollection ^ AddService(Microsoft::Maui::Hosting::IImageSourceServiceCollection ^ services, Func&lt;IServiceProvider ^, Microsoft::Maui::IImageSourceService&lt;TImageSource&gt; ^&gt; ^ implementationFactory);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -58,8 +58,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.IImageSourceServiceCollection AddService&lt;(class Microsoft.Maui.IImageSource) TImageSource, class (class Microsoft.Maui.IImageSourceService`1&lt;!!TImageSource&gt;) TImageSourceService&gt;(class Microsoft.Maui.Hosting.IImageSourceServiceCollection services) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Hosting.ImageSourceServiceCollectionExtensions.AddService``2(Microsoft.Maui.Hosting.IImageSourceServiceCollection)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddService(Of TImageSource As IImageSource, TImageSourceService As IImageSource) (services As IImageSourceServiceCollection) As IImageSourceServiceCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TImageSource, typename TImageSourceService&gt;&#xA; where TImageSource : Microsoft::Maui::IImageSource where TImageSourceService : class, Microsoft::Maui::IImageSourceService&lt;TImageSource&gt;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IImageSourceServiceCollection ^ AddService(Microsoft::Maui::Hosting::IImageSourceServiceCollection ^ services);" />
       <MemberSignature Language="F#" Value="static member AddService : Microsoft.Maui.Hosting.IImageSourceServiceCollection -&gt; Microsoft.Maui.Hosting.IImageSourceServiceCollection (requires 'ImageSource :&gt; Microsoft.Maui.IImageSource and 'ImageSourceService : null and 'ImageSourceService :&gt; Microsoft.Maui.IImageSourceService&lt;'ImageSource&gt;)" Usage="Microsoft.Maui.Hosting.ImageSourceServiceCollectionExtensions.AddService services" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TImageSource, typename TImageSourceService&gt;&#xA; where TImageSource : Microsoft::Maui::IImageSource where TImageSourceService : class, Microsoft::Maui::IImageSourceService&lt;TImageSource&gt;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IImageSourceServiceCollection ^ AddService(Microsoft::Maui::Hosting::IImageSourceServiceCollection ^ services);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

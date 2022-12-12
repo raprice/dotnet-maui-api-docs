@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ImageExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.ImageExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module ImageExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ImageExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type ImageExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImageExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Paint AsPaint(class Microsoft.Maui.Graphics.IImage target) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.ImageExtensions.AsPaint(Microsoft.Maui.Graphics.IImage)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsPaint (target As IImage) As Paint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Paint ^ AsPaint(Microsoft::Maui::Graphics::IImage ^ target);" />
       <MemberSignature Language="F#" Value="static member AsPaint : Microsoft.Maui.Graphics.IImage -&gt; Microsoft.Maui.Graphics.Paint" Usage="Microsoft.Maui.Graphics.ImageExtensions.AsPaint target" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Paint ^ AsPaint(Microsoft::Maui::Graphics::IImage ^ target);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -160,8 +160,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetFillImage(class Microsoft.Maui.Graphics.ICanvas canvas, class Microsoft.Maui.Graphics.IImage image) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.ImageExtensions.SetFillImage(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.IImage)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetFillImage (canvas As ICanvas, image As IImage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillImage(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::IImage ^ image);" />
       <MemberSignature Language="F#" Value="static member SetFillImage : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.IImage -&gt; unit" Usage="Microsoft.Maui.Graphics.ImageExtensions.SetFillImage (canvas, image)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFillImage(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::IImage ^ image);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CellExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.CellExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module CellExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CellExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type CellExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CellExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -29,8 +29,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.ITemplatedItemsList`1&lt;!!TItem&gt; GetGroup&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.Controls.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Microsoft.Maui.Controls.BindableObject) TItem&gt;(!!TItem cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.CellExtensions.GetGroup``2(``1)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetGroup(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem) As ITemplatedItemsList(Of TItem)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TView, typename TItem&gt;&#xA; where TView : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::ITemplatedItemsView&lt;TItem&gt; where TItem : Microsoft::Maui::Controls::BindableObject[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::ITemplatedItemsList&lt;TItem&gt; ^ GetGroup(TItem cell);" />
       <MemberSignature Language="F#" Value="static member GetGroup : 'Item -&gt; Microsoft.Maui.Controls.ITemplatedItemsList&lt;'Item (requires 'Item :&gt; Microsoft.Maui.Controls.BindableObject)&gt; (requires 'View :&gt; Microsoft.Maui.Controls.BindableObject and 'View :&gt; Microsoft.Maui.Controls.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="Microsoft.Maui.Controls.Internals.CellExtensions.GetGroup cell" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TView, typename TItem&gt;&#xA; where TView : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::ITemplatedItemsView&lt;TItem&gt; where TItem : Microsoft::Maui::Controls::BindableObject[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::ITemplatedItemsList&lt;TItem&gt; ^ GetGroup(TItem cell);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItem GetGroupHeaderContent&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.Controls.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Microsoft.Maui.Controls.BindableObject) TItem&gt;(!!TItem cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.CellExtensions.GetGroupHeaderContent``2(``1)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetGroupHeaderContent(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem) As TItem" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TView, typename TItem&gt;&#xA; where TView : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::ITemplatedItemsView&lt;TItem&gt; where TItem : Microsoft::Maui::Controls::BindableObject[System::Runtime::CompilerServices::Extension]&#xA; static TItem GetGroupHeaderContent(TItem cell);" />
       <MemberSignature Language="F#" Value="static member GetGroupHeaderContent : 'Item -&gt; 'Item (requires 'View :&gt; Microsoft.Maui.Controls.BindableObject and 'View :&gt; Microsoft.Maui.Controls.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="Microsoft.Maui.Controls.Internals.CellExtensions.GetGroupHeaderContent cell" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TView, typename TItem&gt;&#xA; where TView : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::ITemplatedItemsView&lt;TItem&gt; where TItem : Microsoft::Maui::Controls::BindableObject[System::Runtime::CompilerServices::Extension]&#xA; static TItem GetGroupHeaderContent(TItem cell);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -121,8 +121,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetIndex&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.Controls.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Microsoft.Maui.Controls.BindableObject) TItem&gt;(!!TItem cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.CellExtensions.GetIndex``2(``1)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetIndex(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TView, typename TItem&gt;&#xA; where TView : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::ITemplatedItemsView&lt;TItem&gt; where TItem : Microsoft::Maui::Controls::BindableObject[System::Runtime::CompilerServices::Extension]&#xA; static int GetIndex(TItem cell);" />
       <MemberSignature Language="F#" Value="static member GetIndex : 'Item -&gt; int (requires 'View :&gt; Microsoft.Maui.Controls.BindableObject and 'View :&gt; Microsoft.Maui.Controls.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="Microsoft.Maui.Controls.Internals.CellExtensions.GetIndex cell" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TView, typename TItem&gt;&#xA; where TView : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::ITemplatedItemsView&lt;TItem&gt; where TItem : Microsoft::Maui::Controls::BindableObject[System::Runtime::CompilerServices::Extension]&#xA; static int GetIndex(TItem cell);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -167,8 +167,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsGroupHeader&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.Controls.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Microsoft.Maui.Controls.BindableObject) TItem&gt;(!!TItem cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.CellExtensions.GetIsGroupHeader``2(``1)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetIsGroupHeader(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TView, typename TItem&gt;&#xA; where TView : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::ITemplatedItemsView&lt;TItem&gt; where TItem : Microsoft::Maui::Controls::BindableObject[System::Runtime::CompilerServices::Extension]&#xA; static bool GetIsGroupHeader(TItem cell);" />
       <MemberSignature Language="F#" Value="static member GetIsGroupHeader : 'Item -&gt; bool (requires 'View :&gt; Microsoft.Maui.Controls.BindableObject and 'View :&gt; Microsoft.Maui.Controls.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="Microsoft.Maui.Controls.Internals.CellExtensions.GetIsGroupHeader cell" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TView, typename TItem&gt;&#xA; where TView : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::ITemplatedItemsView&lt;TItem&gt; where TItem : Microsoft::Maui::Controls::BindableObject[System::Runtime::CompilerServices::Extension]&#xA; static bool GetIsGroupHeader(TItem cell);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -213,8 +213,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Tuple`2&lt;int32, int32&gt; GetPath(class Microsoft.Maui.Controls.Cell cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.CellExtensions.GetPath(Microsoft.Maui.Controls.Cell)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetPath (cell As Cell) As Tuple(Of Integer, Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Tuple&lt;int, int&gt; ^ GetPath(Microsoft::Maui::Controls::Cell ^ cell);" />
       <MemberSignature Language="F#" Value="static member GetPath : Microsoft.Maui.Controls.Cell -&gt; int * int" Usage="Microsoft.Maui.Controls.Internals.CellExtensions.GetPath cell" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Tuple&lt;int, int&gt; ^ GetPath(Microsoft::Maui::Controls::Cell ^ cell);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -238,8 +238,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsGroupHeader&lt;(class Microsoft.Maui.Controls.BindableObject, class Microsoft.Maui.Controls.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Microsoft.Maui.Controls.BindableObject) TItem&gt;(!!TItem cell, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.CellExtensions.SetIsGroupHeader``2(``1,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetIsGroupHeader(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TView, typename TItem&gt;&#xA; where TView : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::ITemplatedItemsView&lt;TItem&gt; where TItem : Microsoft::Maui::Controls::BindableObject[System::Runtime::CompilerServices::Extension]&#xA; static void SetIsGroupHeader(TItem cell, bool value);" />
       <MemberSignature Language="F#" Value="static member SetIsGroupHeader : 'Item * bool -&gt; unit (requires 'View :&gt; Microsoft.Maui.Controls.BindableObject and 'View :&gt; Microsoft.Maui.Controls.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Microsoft.Maui.Controls.BindableObject)" Usage="Microsoft.Maui.Controls.Internals.CellExtensions.SetIsGroupHeader (cell, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TView, typename TItem&gt;&#xA; where TView : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::ITemplatedItemsView&lt;TItem&gt; where TItem : Microsoft::Maui::Controls::BindableObject[System::Runtime::CompilerServices::Extension]&#xA; static void SetIsGroupHeader(TItem cell, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

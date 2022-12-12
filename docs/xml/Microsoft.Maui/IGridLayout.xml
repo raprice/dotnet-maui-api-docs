@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGridLayout implements class Microsoft.Maui.IContainer, class Microsoft.Maui.IElement, class Microsoft.Maui.ILayout, class Microsoft.Maui.IPadding, class Microsoft.Maui.ISafeAreaView, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView, class System.Collections.Generic.ICollection`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IGridLayout" />
   <TypeSignature Language="VB.NET" Value="Public Interface IGridLayout&#xA;Implements ICollection(Of IView), IEnumerable(Of IView), ILayout, IList(Of IView)" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IGridLayout : Microsoft::Maui::ILayout, System::Collections::Generic::ICollection&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::IView ^&gt;" />
   <TypeSignature Language="F#" Value="type IGridLayout = interface&#xA;    interface ILayout&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IContainer&#xA;    interface IList&lt;IView&gt;&#xA;    interface ICollection&lt;IView&gt;&#xA;    interface seq&lt;IView&gt;&#xA;    interface IEnumerable&#xA;    interface ISafeAreaView&#xA;    interface IPadding" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IGridLayout : Microsoft::Maui::ILayout, System::Collections::Generic::ICollection&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::IView ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IGridColumnDefinition&gt; ColumnDefinitions" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IGridLayout.ColumnDefinitions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ColumnDefinitions As IReadOnlyList(Of IGridColumnDefinition)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IGridColumnDefinition ^&gt; ^ ColumnDefinitions { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IGridColumnDefinition ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ColumnDefinitions : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IGridColumnDefinition&gt;" Usage="Microsoft.Maui.IGridLayout.ColumnDefinitions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IGridColumnDefinition ^&gt; ^ ColumnDefinitions { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IGridColumnDefinition ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -85,8 +85,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 ColumnSpacing" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IGridLayout.ColumnSpacing" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ColumnSpacing As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double ColumnSpacing { double get(); };" />
       <MemberSignature Language="F#" Value="member this.ColumnSpacing : double" Usage="Microsoft.Maui.IGridLayout.ColumnSpacing" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double ColumnSpacing { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -108,8 +108,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetColumn(class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IGridLayout.GetColumn(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetColumn (view As IView) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetColumn(Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="abstract member GetColumn : Microsoft.Maui.IView -&gt; int" Usage="iGridLayout.GetColumn view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetColumn(Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -135,8 +135,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetColumnSpan(class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IGridLayout.GetColumnSpan(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetColumnSpan (view As IView) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetColumnSpan(Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="abstract member GetColumnSpan : Microsoft.Maui.IView -&gt; int" Usage="iGridLayout.GetColumnSpan view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetColumnSpan(Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -162,8 +162,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetRow(class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IGridLayout.GetRow(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetRow (view As IView) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetRow(Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="abstract member GetRow : Microsoft.Maui.IView -&gt; int" Usage="iGridLayout.GetRow view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetRow(Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -189,8 +189,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetRowSpan(class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IGridLayout.GetRowSpan(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetRowSpan (view As IView) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetRowSpan(Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="abstract member GetRowSpan : Microsoft.Maui.IView -&gt; int" Usage="iGridLayout.GetRowSpan view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetRowSpan(Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -216,8 +216,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IGridRowDefinition&gt; RowDefinitions" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IGridLayout.RowDefinitions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RowDefinitions As IReadOnlyList(Of IGridRowDefinition)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IGridRowDefinition ^&gt; ^ RowDefinitions { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IGridRowDefinition ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.RowDefinitions : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IGridRowDefinition&gt;" Usage="Microsoft.Maui.IGridLayout.RowDefinitions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IGridRowDefinition ^&gt; ^ RowDefinitions { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IGridRowDefinition ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -239,8 +239,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 RowSpacing" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IGridLayout.RowSpacing" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RowSpacing As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double RowSpacing { double get(); };" />
       <MemberSignature Language="F#" Value="member this.RowSpacing : double" Usage="Microsoft.Maui.IGridLayout.RowSpacing" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double RowSpacing { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

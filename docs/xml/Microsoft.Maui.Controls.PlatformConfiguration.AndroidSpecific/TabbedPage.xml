@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TabbedPage extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage" />
   <TypeSignature Language="VB.NET" Value="Public Module TabbedPage" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TabbedPage abstract sealed" />
   <TypeSignature Language="F#" Value="type TabbedPage = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TabbedPage abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; DisableSmoothScroll(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.DisableSmoothScroll(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DisableSmoothScroll (config As IPlatformElementConfiguration(Of Android, TabbedPage)) As IPlatformElementConfiguration(Of Android, TabbedPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ DisableSmoothScroll(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member DisableSmoothScroll : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt; -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.DisableSmoothScroll config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ DisableSmoothScroll(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; DisableSwipePaging(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.DisableSwipePaging(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DisableSwipePaging (config As IPlatformElementConfiguration(Of Android, TabbedPage)) As IPlatformElementConfiguration(Of Android, TabbedPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ DisableSwipePaging(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member DisableSwipePaging : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt; -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.DisableSwipePaging config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ DisableSwipePaging(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; EnableSmoothScroll(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.EnableSmoothScroll(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EnableSmoothScroll (config As IPlatformElementConfiguration(Of Android, TabbedPage)) As IPlatformElementConfiguration(Of Android, TabbedPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ EnableSmoothScroll(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member EnableSmoothScroll : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt; -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.EnableSmoothScroll config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ EnableSmoothScroll(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -98,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; EnableSwipePaging(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.EnableSwipePaging(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EnableSwipePaging (config As IPlatformElementConfiguration(Of Android, TabbedPage)) As IPlatformElementConfiguration(Of Android, TabbedPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ EnableSwipePaging(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member EnableSwipePaging : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt; -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.EnableSwipePaging config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ EnableSwipePaging(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -123,8 +123,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsSmoothScrollEnabled(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetIsSmoothScrollEnabled(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetIsSmoothScrollEnabled (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsSmoothScrollEnabled(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetIsSmoothScrollEnabled : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetIsSmoothScrollEnabled element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsSmoothScrollEnabled(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -148,8 +148,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsSwipePagingEnabled(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetIsSwipePagingEnabled(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetIsSwipePagingEnabled (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsSwipePagingEnabled(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetIsSwipePagingEnabled : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetIsSwipePagingEnabled element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsSwipePagingEnabled(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -173,8 +173,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetMaxItemCount(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetMaxItemCount(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetMaxItemCount (element As BindableObject) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static int GetMaxItemCount(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetMaxItemCount : Microsoft.Maui.Controls.BindableObject -&gt; int" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetMaxItemCount element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static int GetMaxItemCount(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -198,8 +198,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetMaxItemCount(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetMaxItemCount(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetMaxItemCount (config As IPlatformElementConfiguration(Of Android, TabbedPage)) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static int GetMaxItemCount(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetMaxItemCount : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt; -&gt; int" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetMaxItemCount config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static int GetMaxItemCount(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -223,8 +223,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetOffscreenPageLimit(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetOffscreenPageLimit(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetOffscreenPageLimit (element As BindableObject) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static int GetOffscreenPageLimit(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetOffscreenPageLimit : Microsoft.Maui.Controls.BindableObject -&gt; int" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetOffscreenPageLimit element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static int GetOffscreenPageLimit(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -248,8 +248,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.ToolbarPlacement GetToolbarPlacement(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetToolbarPlacement(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetToolbarPlacement (element As BindableObject) As ToolbarPlacement" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::ToolbarPlacement GetToolbarPlacement(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetToolbarPlacement : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.ToolbarPlacement" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetToolbarPlacement element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::ToolbarPlacement GetToolbarPlacement(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -273,8 +273,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.ToolbarPlacement GetToolbarPlacement(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetToolbarPlacement(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetToolbarPlacement (config As IPlatformElementConfiguration(Of Android, TabbedPage)) As ToolbarPlacement" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::ToolbarPlacement GetToolbarPlacement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetToolbarPlacement : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt; -&gt; Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.ToolbarPlacement" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.GetToolbarPlacement config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::ToolbarPlacement GetToolbarPlacement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -298,8 +298,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsSmoothScrollEnabled(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.IsSmoothScrollEnabled(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsSmoothScrollEnabled (config As IPlatformElementConfiguration(Of Android, TabbedPage)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsSmoothScrollEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member IsSmoothScrollEnabled : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.IsSmoothScrollEnabled config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsSmoothScrollEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -323,8 +323,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsSmoothScrollEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.IsSmoothScrollEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly IsSmoothScrollEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsSmoothScrollEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsSmoothScrollEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.IsSmoothScrollEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsSmoothScrollEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -343,8 +343,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsSwipePagingEnabled(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.IsSwipePagingEnabled(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsSwipePagingEnabled (config As IPlatformElementConfiguration(Of Android, TabbedPage)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsSwipePagingEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member IsSwipePagingEnabled : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.IsSwipePagingEnabled config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsSwipePagingEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -369,8 +369,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsSwipePagingEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.IsSwipePagingEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly IsSwipePagingEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsSwipePagingEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsSwipePagingEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.IsSwipePagingEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsSwipePagingEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -389,8 +389,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 OffscreenPageLimit(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.OffscreenPageLimit(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function OffscreenPageLimit (config As IPlatformElementConfiguration(Of Android, TabbedPage)) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static int OffscreenPageLimit(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member OffscreenPageLimit : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt; -&gt; int" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.OffscreenPageLimit config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static int OffscreenPageLimit(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -414,8 +414,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty OffscreenPageLimitProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.OffscreenPageLimitProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly OffscreenPageLimitProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ OffscreenPageLimitProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable OffscreenPageLimitProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.OffscreenPageLimitProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ OffscreenPageLimitProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -434,8 +434,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsSmoothScrollEnabled(class Microsoft.Maui.Controls.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetIsSmoothScrollEnabled(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetIsSmoothScrollEnabled (element As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsSmoothScrollEnabled(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetIsSmoothScrollEnabled : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetIsSmoothScrollEnabled (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsSmoothScrollEnabled(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -461,8 +461,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; SetIsSmoothScrollEnabled(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetIsSmoothScrollEnabled(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.TabbedPage},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetIsSmoothScrollEnabled (config As IPlatformElementConfiguration(Of Android, TabbedPage), value As Boolean) As IPlatformElementConfiguration(Of Android, TabbedPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ SetIsSmoothScrollEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetIsSmoothScrollEnabled : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetIsSmoothScrollEnabled (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ SetIsSmoothScrollEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -491,8 +491,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsSwipePagingEnabled(class Microsoft.Maui.Controls.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetIsSwipePagingEnabled(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetIsSwipePagingEnabled (element As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsSwipePagingEnabled(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetIsSwipePagingEnabled : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetIsSwipePagingEnabled (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsSwipePagingEnabled(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -517,8 +517,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; SetIsSwipePagingEnabled(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetIsSwipePagingEnabled(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.TabbedPage},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetIsSwipePagingEnabled (config As IPlatformElementConfiguration(Of Android, TabbedPage), value As Boolean) As IPlatformElementConfiguration(Of Android, TabbedPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ SetIsSwipePagingEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetIsSwipePagingEnabled : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetIsSwipePagingEnabled (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ SetIsSwipePagingEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -544,8 +544,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetOffscreenPageLimit(class Microsoft.Maui.Controls.BindableObject element, int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetOffscreenPageLimit(Microsoft.Maui.Controls.BindableObject,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetOffscreenPageLimit (element As BindableObject, value As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetOffscreenPageLimit(Microsoft::Maui::Controls::BindableObject ^ element, int value);" />
       <MemberSignature Language="F#" Value="static member SetOffscreenPageLimit : Microsoft.Maui.Controls.BindableObject * int -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetOffscreenPageLimit (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetOffscreenPageLimit(Microsoft::Maui::Controls::BindableObject ^ element, int value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -570,8 +570,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; SetOffscreenPageLimit(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; config, int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetOffscreenPageLimit(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.TabbedPage},System.Int32)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetOffscreenPageLimit (config As IPlatformElementConfiguration(Of Android, TabbedPage), value As Integer) As IPlatformElementConfiguration(Of Android, TabbedPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ SetOffscreenPageLimit(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config, int value);" />
       <MemberSignature Language="F#" Value="static member SetOffscreenPageLimit : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt; * int -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetOffscreenPageLimit (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ SetOffscreenPageLimit(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config, int value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -597,8 +597,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetToolbarPlacement(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.ToolbarPlacement value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetToolbarPlacement(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.ToolbarPlacement)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetToolbarPlacement (element As BindableObject, value As ToolbarPlacement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetToolbarPlacement(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::ToolbarPlacement value);" />
       <MemberSignature Language="F#" Value="static member SetToolbarPlacement : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.ToolbarPlacement -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetToolbarPlacement (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetToolbarPlacement(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::ToolbarPlacement value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -623,8 +623,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; SetToolbarPlacement(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.TabbedPage&gt; config, valuetype Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.ToolbarPlacement value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetToolbarPlacement(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.TabbedPage},Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.ToolbarPlacement)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetToolbarPlacement (config As IPlatformElementConfiguration(Of Android, TabbedPage), value As ToolbarPlacement) As IPlatformElementConfiguration(Of Android, TabbedPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ SetToolbarPlacement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::ToolbarPlacement value);" />
       <MemberSignature Language="F#" Value="static member SetToolbarPlacement : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt; * Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.ToolbarPlacement -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.TabbedPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.SetToolbarPlacement (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ SetToolbarPlacement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::ToolbarPlacement value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -650,8 +650,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ToolbarPlacementProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.ToolbarPlacementProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly ToolbarPlacementProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ToolbarPlacementProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ToolbarPlacementProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.TabbedPage.ToolbarPlacementProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ToolbarPlacementProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

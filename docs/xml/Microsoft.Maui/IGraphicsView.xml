@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGraphicsView implements class Microsoft.Maui.IElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IGraphicsView" />
   <TypeSignature Language="VB.NET" Value="Public Interface IGraphicsView&#xA;Implements IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IGraphicsView : Microsoft::Maui::IView" />
   <TypeSignature Language="F#" Value="type IGraphicsView = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IGraphicsView : Microsoft::Maui::IView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -32,8 +32,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CancelInteraction() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IGraphicsView.CancelInteraction" />
       <MemberSignature Language="VB.NET" Value="Public Sub CancelInteraction ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CancelInteraction();" />
       <MemberSignature Language="F#" Value="abstract member CancelInteraction : unit -&gt; unit" Usage="iGraphicsView.CancelInteraction " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CancelInteraction();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -55,8 +55,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DragInteraction(valuetype Microsoft.Maui.Graphics.PointF[] points) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IGraphicsView.DragInteraction(Microsoft.Maui.Graphics.PointF[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub DragInteraction (points As PointF())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DragInteraction(cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ points);" />
       <MemberSignature Language="F#" Value="abstract member DragInteraction : Microsoft.Maui.Graphics.PointF[] -&gt; unit" Usage="iGraphicsView.DragInteraction points" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DragInteraction(cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ points);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -81,8 +81,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.IDrawable Drawable" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IGraphicsView.Drawable" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Drawable As IDrawable" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IDrawable ^ Drawable { Microsoft::Maui::Graphics::IDrawable ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Drawable : Microsoft.Maui.Graphics.IDrawable" Usage="Microsoft.Maui.IGraphicsView.Drawable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IDrawable ^ Drawable { Microsoft::Maui::Graphics::IDrawable ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -104,8 +104,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndHoverInteraction() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IGraphicsView.EndHoverInteraction" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndHoverInteraction ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndHoverInteraction();" />
       <MemberSignature Language="F#" Value="abstract member EndHoverInteraction : unit -&gt; unit" Usage="iGraphicsView.EndHoverInteraction " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndHoverInteraction();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -127,8 +127,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndInteraction(valuetype Microsoft.Maui.Graphics.PointF[] points, bool isInsideBounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IGraphicsView.EndInteraction(Microsoft.Maui.Graphics.PointF[],System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndInteraction (points As PointF(), isInsideBounds As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndInteraction(cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ points, bool isInsideBounds);" />
       <MemberSignature Language="F#" Value="abstract member EndInteraction : Microsoft.Maui.Graphics.PointF[] * bool -&gt; unit" Usage="iGraphicsView.EndInteraction (points, isInsideBounds)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndInteraction(cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ points, bool isInsideBounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -155,8 +155,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Invalidate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IGraphicsView.Invalidate" />
       <MemberSignature Language="VB.NET" Value="Public Sub Invalidate ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Invalidate();" />
       <MemberSignature Language="F#" Value="abstract member Invalidate : unit -&gt; unit" Usage="iGraphicsView.Invalidate " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Invalidate();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -178,8 +178,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MoveHoverInteraction(valuetype Microsoft.Maui.Graphics.PointF[] points) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IGraphicsView.MoveHoverInteraction(Microsoft.Maui.Graphics.PointF[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub MoveHoverInteraction (points As PointF())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MoveHoverInteraction(cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ points);" />
       <MemberSignature Language="F#" Value="abstract member MoveHoverInteraction : Microsoft.Maui.Graphics.PointF[] -&gt; unit" Usage="iGraphicsView.MoveHoverInteraction points" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MoveHoverInteraction(cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ points);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -205,8 +205,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void StartHoverInteraction(valuetype Microsoft.Maui.Graphics.PointF[] points) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IGraphicsView.StartHoverInteraction(Microsoft.Maui.Graphics.PointF[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub StartHoverInteraction (points As PointF())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void StartHoverInteraction(cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ points);" />
       <MemberSignature Language="F#" Value="abstract member StartHoverInteraction : Microsoft.Maui.Graphics.PointF[] -&gt; unit" Usage="iGraphicsView.StartHoverInteraction points" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void StartHoverInteraction(cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ points);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -231,8 +231,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void StartInteraction(valuetype Microsoft.Maui.Graphics.PointF[] points) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IGraphicsView.StartInteraction(Microsoft.Maui.Graphics.PointF[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub StartInteraction (points As PointF())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void StartInteraction(cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ points);" />
       <MemberSignature Language="F#" Value="abstract member StartInteraction : Microsoft.Maui.Graphics.PointF[] -&gt; unit" Usage="iGraphicsView.StartInteraction points" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void StartInteraction(cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ points);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

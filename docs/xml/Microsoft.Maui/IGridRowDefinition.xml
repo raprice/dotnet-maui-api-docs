@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGridRowDefinition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IGridRowDefinition" />
   <TypeSignature Language="VB.NET" Value="Public Interface IGridRowDefinition" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IGridRowDefinition" />
   <TypeSignature Language="F#" Value="type IGridRowDefinition = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IGridRowDefinition" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.GridLength Height" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IGridRowDefinition.Height" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As GridLength" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::GridLength Height { Microsoft::Maui::GridLength get(); };" />
       <MemberSignature Language="F#" Value="member this.Height : Microsoft.Maui.GridLength" Usage="Microsoft.Maui.IGridRowDefinition.Height" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::GridLength Height { Microsoft::Maui::GridLength get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

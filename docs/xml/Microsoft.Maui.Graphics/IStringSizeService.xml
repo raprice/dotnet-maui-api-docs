@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStringSizeService" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.IStringSizeService" />
   <TypeSignature Language="VB.NET" Value="Public Interface IStringSizeService" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IStringSizeService" />
   <TypeSignature Language="F#" Value="type IStringSizeService = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IStringSizeService" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Maui.Graphics.SizeF GetStringSize(string value, class Microsoft.Maui.Graphics.IFont font, float32 fontSize) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.IStringSizeService.GetStringSize(System.String,Microsoft.Maui.Graphics.IFont,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetStringSize (value As String, font As IFont, fontSize As Single) As SizeF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::SizeF GetStringSize(System::String ^ value, Microsoft::Maui::Graphics::IFont ^ font, float fontSize);" />
       <MemberSignature Language="F#" Value="abstract member GetStringSize : string * Microsoft.Maui.Graphics.IFont * single -&gt; Microsoft.Maui.Graphics.SizeF" Usage="iStringSizeService.GetStringSize (value, font, fontSize)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::SizeF GetStringSize(System::String ^ value, Microsoft::Maui::Graphics::IFont ^ font, float fontSize);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -49,8 +49,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Maui.Graphics.SizeF GetStringSize(string value, class Microsoft.Maui.Graphics.IFont font, float32 fontSize, valuetype Microsoft.Maui.Graphics.HorizontalAlignment horizontalAlignment, valuetype Microsoft.Maui.Graphics.VerticalAlignment verticalAlignment) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.IStringSizeService.GetStringSize(System.String,Microsoft.Maui.Graphics.IFont,System.Single,Microsoft.Maui.Graphics.HorizontalAlignment,Microsoft.Maui.Graphics.VerticalAlignment)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetStringSize (value As String, font As IFont, fontSize As Single, horizontalAlignment As HorizontalAlignment, verticalAlignment As VerticalAlignment) As SizeF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::SizeF GetStringSize(System::String ^ value, Microsoft::Maui::Graphics::IFont ^ font, float fontSize, Microsoft::Maui::Graphics::HorizontalAlignment horizontalAlignment, Microsoft::Maui::Graphics::VerticalAlignment verticalAlignment);" />
       <MemberSignature Language="F#" Value="abstract member GetStringSize : string * Microsoft.Maui.Graphics.IFont * single * Microsoft.Maui.Graphics.HorizontalAlignment * Microsoft.Maui.Graphics.VerticalAlignment -&gt; Microsoft.Maui.Graphics.SizeF" Usage="iStringSizeService.GetStringSize (value, font, fontSize, horizontalAlignment, verticalAlignment)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::SizeF GetStringSize(System::String ^ value, Microsoft::Maui::Graphics::IFont ^ font, float fontSize, Microsoft::Maui::Graphics::HorizontalAlignment horizontalAlignment, Microsoft::Maui::Graphics::VerticalAlignment verticalAlignment);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAbsoluteLayout implements class Microsoft.Maui.IContainer, class Microsoft.Maui.IElement, class Microsoft.Maui.ILayout, class Microsoft.Maui.IPadding, class Microsoft.Maui.ISafeAreaView, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView, class System.Collections.Generic.ICollection`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IAbsoluteLayout" />
   <TypeSignature Language="VB.NET" Value="Public Interface IAbsoluteLayout&#xA;Implements ICollection(Of IView), IEnumerable(Of IView), ILayout, IList(Of IView)" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IAbsoluteLayout : Microsoft::Maui::ILayout, System::Collections::Generic::ICollection&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::IView ^&gt;" />
   <TypeSignature Language="F#" Value="type IAbsoluteLayout = interface&#xA;    interface ILayout&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IContainer&#xA;    interface IList&lt;IView&gt;&#xA;    interface ICollection&lt;IView&gt;&#xA;    interface seq&lt;IView&gt;&#xA;    interface IEnumerable&#xA;    interface ISafeAreaView&#xA;    interface IPadding" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IAbsoluteLayout : Microsoft::Maui::ILayout, System::Collections::Generic::ICollection&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::IView ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Maui.Graphics.Rect GetLayoutBounds(class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IAbsoluteLayout.GetLayoutBounds(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetLayoutBounds (view As IView) As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect GetLayoutBounds(Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="abstract member GetLayoutBounds : Microsoft.Maui.IView -&gt; Microsoft.Maui.Graphics.Rect" Usage="iAbsoluteLayout.GetLayoutBounds view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect GetLayoutBounds(Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -89,8 +89,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Maui.Layouts.AbsoluteLayoutFlags GetLayoutFlags(class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IAbsoluteLayout.GetLayoutFlags(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetLayoutFlags (view As IView) As AbsoluteLayoutFlags" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Layouts::AbsoluteLayoutFlags GetLayoutFlags(Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="abstract member GetLayoutFlags : Microsoft.Maui.IView -&gt; Microsoft.Maui.Layouts.AbsoluteLayoutFlags" Usage="iAbsoluteLayout.GetLayoutFlags view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Layouts::AbsoluteLayoutFlags GetLayoutFlags(Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

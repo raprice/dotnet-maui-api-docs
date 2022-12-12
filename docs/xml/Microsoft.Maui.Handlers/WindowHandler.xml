@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WindowHandler extends Microsoft.Maui.Handlers.ElementHandler`2&lt;class Microsoft.Maui.IWindow, object&gt; implements class Microsoft.Maui.Handlers.IWindowHandler, class Microsoft.Maui.IElementHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.WindowHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class WindowHandler&#xA;Inherits ElementHandler(Of IWindow, Object)&#xA;Implements IWindowHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class WindowHandler : Microsoft::Maui::Handlers::ElementHandler&lt;Microsoft::Maui::IWindow ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IWindowHandler" />
   <TypeSignature Language="F#" Value="type WindowHandler = class&#xA;    inherit ElementHandler&lt;IWindow, obj&gt;&#xA;    interface IWindowHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WindowHandler : Microsoft::Maui::Handlers::ElementHandler&lt;Microsoft::Maui::IWindow ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IWindowHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -99,8 +99,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IWindow, class Microsoft.Maui.Handlers.IWindowHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.WindowHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IWindow, IWindowHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IWindow ^, Microsoft::Maui::Handlers::IWindowHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IWindow, Microsoft.Maui.Handlers.IWindowHandler&gt;" Usage="Microsoft.Maui.Handlers.WindowHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IWindow ^, Microsoft::Maui::Handlers::IWindowHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformElement() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.WindowHandler.CreatePlatformElement" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformElement () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformElement();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformElement : unit -&gt; obj" Usage="windowHandler.CreatePlatformElement " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformElement();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -141,8 +141,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapContent(class Microsoft.Maui.Handlers.IWindowHandler handler, class Microsoft.Maui.IWindow window) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.WindowHandler.MapContent(Microsoft.Maui.Handlers.IWindowHandler,Microsoft.Maui.IWindow)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapContent (handler As IWindowHandler, window As IWindow)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContent(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ window);" />
       <MemberSignature Language="F#" Value="static member MapContent : Microsoft.Maui.Handlers.IWindowHandler * Microsoft.Maui.IWindow -&gt; unit" Usage="Microsoft.Maui.Handlers.WindowHandler.MapContent (handler, window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContent(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ window);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -167,8 +167,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapHeight(class Microsoft.Maui.Handlers.IWindowHandler handler, class Microsoft.Maui.IWindow view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.WindowHandler.MapHeight(Microsoft.Maui.Handlers.IWindowHandler,Microsoft.Maui.IWindow)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapHeight (handler As IWindowHandler, view As IWindow)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHeight(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ view);" />
       <MemberSignature Language="F#" Value="static member MapHeight : Microsoft.Maui.Handlers.IWindowHandler * Microsoft.Maui.IWindow -&gt; unit" Usage="Microsoft.Maui.Handlers.WindowHandler.MapHeight (handler, view)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHeight(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -193,8 +193,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IWindow, class Microsoft.Maui.Handlers.IWindowHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.WindowHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IWindow, IWindowHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IWindow ^, Microsoft::Maui::Handlers::IWindowHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IWindow, Microsoft.Maui.Handlers.IWindowHandler&gt;" Usage="Microsoft.Maui.Handlers.WindowHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IWindow ^, Microsoft::Maui::Handlers::IWindowHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -213,8 +213,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapRequestDisplayDensity(class Microsoft.Maui.Handlers.IWindowHandler handler, class Microsoft.Maui.IWindow window, object args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.WindowHandler.MapRequestDisplayDensity(Microsoft.Maui.Handlers.IWindowHandler,Microsoft.Maui.IWindow,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapRequestDisplayDensity (handler As IWindowHandler, window As IWindow, args As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapRequestDisplayDensity(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ window, System::Object ^ args);" />
       <MemberSignature Language="F#" Value="static member MapRequestDisplayDensity : Microsoft.Maui.Handlers.IWindowHandler * Microsoft.Maui.IWindow * obj -&gt; unit" Usage="Microsoft.Maui.Handlers.WindowHandler.MapRequestDisplayDensity (handler, window, args)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapRequestDisplayDensity(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ window, System::Object ^ args);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -241,8 +241,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapTitle(class Microsoft.Maui.Handlers.IWindowHandler handler, class Microsoft.Maui.IWindow window) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.WindowHandler.MapTitle(Microsoft.Maui.Handlers.IWindowHandler,Microsoft.Maui.IWindow)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapTitle (handler As IWindowHandler, window As IWindow)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTitle(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ window);" />
       <MemberSignature Language="F#" Value="static member MapTitle : Microsoft.Maui.Handlers.IWindowHandler * Microsoft.Maui.IWindow -&gt; unit" Usage="Microsoft.Maui.Handlers.WindowHandler.MapTitle (handler, window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTitle(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ window);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -267,8 +267,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapWidth(class Microsoft.Maui.Handlers.IWindowHandler handler, class Microsoft.Maui.IWindow view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.WindowHandler.MapWidth(Microsoft.Maui.Handlers.IWindowHandler,Microsoft.Maui.IWindow)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapWidth (handler As IWindowHandler, view As IWindow)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapWidth(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ view);" />
       <MemberSignature Language="F#" Value="static member MapWidth : Microsoft.Maui.Handlers.IWindowHandler * Microsoft.Maui.IWindow -&gt; unit" Usage="Microsoft.Maui.Handlers.WindowHandler.MapWidth (handler, view)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapWidth(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -293,8 +293,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapX(class Microsoft.Maui.Handlers.IWindowHandler handler, class Microsoft.Maui.IWindow view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.WindowHandler.MapX(Microsoft.Maui.Handlers.IWindowHandler,Microsoft.Maui.IWindow)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapX (handler As IWindowHandler, view As IWindow)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapX(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ view);" />
       <MemberSignature Language="F#" Value="static member MapX : Microsoft.Maui.Handlers.IWindowHandler * Microsoft.Maui.IWindow -&gt; unit" Usage="Microsoft.Maui.Handlers.WindowHandler.MapX (handler, view)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapX(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -319,8 +319,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapY(class Microsoft.Maui.Handlers.IWindowHandler handler, class Microsoft.Maui.IWindow view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.WindowHandler.MapY(Microsoft.Maui.Handlers.IWindowHandler,Microsoft.Maui.IWindow)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapY (handler As IWindowHandler, view As IWindow)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapY(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ view);" />
       <MemberSignature Language="F#" Value="static member MapY : Microsoft.Maui.Handlers.IWindowHandler * Microsoft.Maui.IWindow -&gt; unit" Usage="Microsoft.Maui.Handlers.WindowHandler.MapY (handler, view)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapY(Microsoft::Maui::Handlers::IWindowHandler ^ handler, Microsoft::Maui::IWindow ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

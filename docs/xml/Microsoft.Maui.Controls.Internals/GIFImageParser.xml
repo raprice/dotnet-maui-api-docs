@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit GIFImageParser extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.GIFImageParser" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class GIFImageParser" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GIFImageParser abstract" />
   <TypeSignature Language="F#" Value="type GIFImageParser = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GIFImageParser abstract" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void AddBitmap(class Microsoft.Maui.Controls.Internals.GIFHeader header, class Microsoft.Maui.Controls.Internals.GIFBitmap bitmap, bool ignoreImageData) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.GIFImageParser.AddBitmap(Microsoft.Maui.Controls.Internals.GIFHeader,Microsoft.Maui.Controls.Internals.GIFBitmap,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub AddBitmap (header As GIFHeader, bitmap As GIFBitmap, ignoreImageData As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract void AddBitmap(Microsoft::Maui::Controls::Internals::GIFHeader ^ header, Microsoft::Maui::Controls::Internals::GIFBitmap ^ bitmap, bool ignoreImageData);" />
       <MemberSignature Language="F#" Value="abstract member AddBitmap : Microsoft.Maui.Controls.Internals.GIFHeader * Microsoft.Maui.Controls.Internals.GIFBitmap * bool -&gt; unit" Usage="gIFImageParser.AddBitmap (header, bitmap, ignoreImageData)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract void AddBitmap(Microsoft::Maui::Controls::Internals::GIFHeader ^ header, Microsoft::Maui::Controls::Internals::GIFBitmap ^ bitmap, bool ignoreImageData);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void FinishedParsing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.GIFImageParser.FinishedParsing" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub FinishedParsing ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract void FinishedParsing();" />
       <MemberSignature Language="F#" Value="abstract member FinishedParsing : unit -&gt; unit" Usage="gIFImageParser.FinishedParsing " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract void FinishedParsing();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -117,8 +117,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void StartParsing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.GIFImageParser.StartParsing" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub StartParsing ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract void StartParsing();" />
       <MemberSignature Language="F#" Value="abstract member StartParsing : unit -&gt; unit" Usage="gIFImageParser.StartParsing " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract void StartParsing();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Launcher extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Launcher" />
   <TypeSignature Language="VB.NET" Value="Public Class Launcher" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Launcher abstract sealed" />
   <TypeSignature Language="F#" Value="type Launcher = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Launcher abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; CanOpenAsync(string uri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Launcher.CanOpenAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CanOpenAsync (uri As String) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ CanOpenAsync(System::String ^ uri);" />
       <MemberSignature Language="F#" Value="static member CanOpenAsync : string -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.ApplicationModel.Launcher.CanOpenAsync uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ CanOpenAsync(System::String ^ uri);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; CanOpenAsync(class System.Uri uri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Launcher.CanOpenAsync(System.Uri)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CanOpenAsync (uri As Uri) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ CanOpenAsync(Uri ^ uri);" />
       <MemberSignature Language="F#" Value="static member CanOpenAsync : Uri -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.ApplicationModel.Launcher.CanOpenAsync uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ CanOpenAsync(Uri ^ uri);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.ApplicationModel.ILauncher Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Launcher.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As ILauncher" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::ILauncher ^ Default { Microsoft::Maui::ApplicationModel::ILauncher ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.ApplicationModel.ILauncher" Usage="Microsoft.Maui.ApplicationModel.Launcher.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::ILauncher ^ Default { Microsoft::Maui::ApplicationModel::ILauncher ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -94,8 +94,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; OpenAsync(class Microsoft.Maui.ApplicationModel.OpenFileRequest request) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Launcher.OpenAsync(Microsoft.Maui.ApplicationModel.OpenFileRequest)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OpenAsync (request As OpenFileRequest) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ OpenAsync(Microsoft::Maui::ApplicationModel::OpenFileRequest ^ request);" />
       <MemberSignature Language="F#" Value="static member OpenAsync : Microsoft.Maui.ApplicationModel.OpenFileRequest -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.ApplicationModel.Launcher.OpenAsync request" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ OpenAsync(Microsoft::Maui::ApplicationModel::OpenFileRequest ^ request);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; OpenAsync(string uri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Launcher.OpenAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OpenAsync (uri As String) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ OpenAsync(System::String ^ uri);" />
       <MemberSignature Language="F#" Value="static member OpenAsync : string -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.ApplicationModel.Launcher.OpenAsync uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ OpenAsync(System::String ^ uri);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -144,8 +144,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; OpenAsync(class System.Uri uri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Launcher.OpenAsync(System.Uri)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OpenAsync (uri As Uri) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ OpenAsync(Uri ^ uri);" />
       <MemberSignature Language="F#" Value="static member OpenAsync : Uri -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.ApplicationModel.Launcher.OpenAsync uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ OpenAsync(Uri ^ uri);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -169,8 +169,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; TryOpenAsync(string uri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Launcher.TryOpenAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryOpenAsync (uri As String) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(System::String ^ uri);" />
       <MemberSignature Language="F#" Value="static member TryOpenAsync : string -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.ApplicationModel.Launcher.TryOpenAsync uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(System::String ^ uri);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -196,8 +196,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; TryOpenAsync(class System.Uri uri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Launcher.TryOpenAsync(System.Uri)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryOpenAsync (uri As Uri) As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(Uri ^ uri);" />
       <MemberSignature Language="F#" Value="static member TryOpenAsync : Uri -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Microsoft.Maui.ApplicationModel.Launcher.TryOpenAsync uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;bool&gt; ^ TryOpenAsync(Uri ^ uri);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit BaseSwipeEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.BaseSwipeEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class BaseSwipeEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BaseSwipeEventArgs abstract : EventArgs" />
   <TypeSignature Language="F#" Value="type BaseSwipeEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BaseSwipeEventArgs abstract : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.SwipeDirection swipeDirection) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BaseSwipeEventArgs.#ctor(Microsoft.Maui.SwipeDirection)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (swipeDirection As SwipeDirection)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; BaseSwipeEventArgs(Microsoft::Maui::SwipeDirection swipeDirection);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.BaseSwipeEventArgs : Microsoft.Maui.SwipeDirection -&gt; Microsoft.Maui.Controls.BaseSwipeEventArgs" Usage="new Microsoft.Maui.Controls.BaseSwipeEventArgs swipeDirection" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; BaseSwipeEventArgs(Microsoft::Maui::SwipeDirection swipeDirection);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.SwipeDirection SwipeDirection" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BaseSwipeEventArgs.SwipeDirection" />
       <MemberSignature Language="VB.NET" Value="Public Property SwipeDirection As SwipeDirection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SwipeDirection SwipeDirection { Microsoft::Maui::SwipeDirection get(); void set(Microsoft::Maui::SwipeDirection value); };" />
       <MemberSignature Language="F#" Value="member this.SwipeDirection : Microsoft.Maui.SwipeDirection with get, set" Usage="Microsoft.Maui.Controls.BaseSwipeEventArgs.SwipeDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SwipeDirection SwipeDirection { Microsoft::Maui::SwipeDirection get(); void set(Microsoft::Maui::SwipeDirection value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

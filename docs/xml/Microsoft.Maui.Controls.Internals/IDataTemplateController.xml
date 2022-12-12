@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDataTemplateController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.IDataTemplateController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDataTemplateController" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IDataTemplateController" />
   <TypeSignature Language="F#" Value="type IDataTemplateController = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IDataTemplateController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -26,8 +26,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.IDataTemplateController.Id" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Id { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.Maui.Controls.Internals.IDataTemplateController.Id" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Id { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string IdString" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.IDataTemplateController.IdString" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IdString As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ IdString { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.IdString : string" Usage="Microsoft.Maui.Controls.Internals.IDataTemplateController.IdString" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ IdString { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

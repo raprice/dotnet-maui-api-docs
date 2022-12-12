@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ShellNavigatingEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ShellNavigatingEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ShellNavigatingEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ShellNavigatingEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type ShellNavigatingEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ShellNavigatingEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Controls.ShellNavigationState current, class Microsoft.Maui.Controls.ShellNavigationState target, valuetype Microsoft.Maui.Controls.ShellNavigationSource source, bool canCancel) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellNavigatingEventArgs.#ctor(Microsoft.Maui.Controls.ShellNavigationState,Microsoft.Maui.Controls.ShellNavigationState,Microsoft.Maui.Controls.ShellNavigationSource,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (current As ShellNavigationState, target As ShellNavigationState, source As ShellNavigationSource, canCancel As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShellNavigatingEventArgs(Microsoft::Maui::Controls::ShellNavigationState ^ current, Microsoft::Maui::Controls::ShellNavigationState ^ target, Microsoft::Maui::Controls::ShellNavigationSource source, bool canCancel);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.ShellNavigatingEventArgs : Microsoft.Maui.Controls.ShellNavigationState * Microsoft.Maui.Controls.ShellNavigationState * Microsoft.Maui.Controls.ShellNavigationSource * bool -&gt; Microsoft.Maui.Controls.ShellNavigatingEventArgs" Usage="new Microsoft.Maui.Controls.ShellNavigatingEventArgs (current, target, source, canCancel)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShellNavigatingEventArgs(Microsoft::Maui::Controls::ShellNavigationState ^ current, Microsoft::Maui::Controls::ShellNavigationState ^ target, Microsoft::Maui::Controls::ShellNavigationSource source, bool canCancel);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool CanCancel" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ShellNavigatingEventArgs.CanCancel" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanCancel As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanCancel { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.CanCancel : bool" Usage="Microsoft.Maui.Controls.ShellNavigatingEventArgs.CanCancel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanCancel { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Cancel() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellNavigatingEventArgs.Cancel" />
       <MemberSignature Language="VB.NET" Value="Public Function Cancel () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Cancel();" />
       <MemberSignature Language="F#" Value="member this.Cancel : unit -&gt; bool" Usage="shellNavigatingEventArgs.Cancel " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Cancel();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Cancelled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ShellNavigatingEventArgs.Cancelled" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Cancelled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Cancelled { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.Cancelled : bool" Usage="Microsoft.Maui.Controls.ShellNavigatingEventArgs.Cancelled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Cancelled { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -114,8 +114,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ShellNavigationState Current" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ShellNavigatingEventArgs.Current" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Current As ShellNavigationState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellNavigationState ^ Current { Microsoft::Maui::Controls::ShellNavigationState ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Current : Microsoft.Maui.Controls.ShellNavigationState" Usage="Microsoft.Maui.Controls.ShellNavigatingEventArgs.Current" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellNavigationState ^ Current { Microsoft::Maui::Controls::ShellNavigationState ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -135,8 +135,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Controls.ShellNavigatingDeferral GetDeferral() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellNavigatingEventArgs.GetDeferral" />
       <MemberSignature Language="VB.NET" Value="Public Function GetDeferral () As ShellNavigatingDeferral" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Controls::ShellNavigatingDeferral ^ GetDeferral();" />
       <MemberSignature Language="F#" Value="member this.GetDeferral : unit -&gt; Microsoft.Maui.Controls.ShellNavigatingDeferral" Usage="shellNavigatingEventArgs.GetDeferral " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Controls::ShellNavigatingDeferral ^ GetDeferral();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -157,8 +157,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.ShellNavigationSource Source" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ShellNavigatingEventArgs.Source" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Source As ShellNavigationSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellNavigationSource Source { Microsoft::Maui::Controls::ShellNavigationSource get(); };" />
       <MemberSignature Language="F#" Value="member this.Source : Microsoft.Maui.Controls.ShellNavigationSource" Usage="Microsoft.Maui.Controls.ShellNavigatingEventArgs.Source" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellNavigationSource Source { Microsoft::Maui::Controls::ShellNavigationSource get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -178,8 +178,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ShellNavigationState Target" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ShellNavigatingEventArgs.Target" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Target As ShellNavigationState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellNavigationState ^ Target { Microsoft::Maui::Controls::ShellNavigationState ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Target : Microsoft.Maui.Controls.ShellNavigationState" Usage="Microsoft.Maui.Controls.ShellNavigatingEventArgs.Target" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellNavigationState ^ Target { Microsoft::Maui::Controls::ShellNavigationState ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

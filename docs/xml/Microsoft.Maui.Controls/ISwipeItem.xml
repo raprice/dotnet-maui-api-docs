@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISwipeItem implements class Microsoft.Maui.IElement, class Microsoft.Maui.ISwipeItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ISwipeItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface ISwipeItem&#xA;Implements ISwipeItem" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ISwipeItem : Microsoft::Maui::ISwipeItem" />
   <TypeSignature Language="F#" Value="type ISwipeItem = interface&#xA;    interface ISwipeItem&#xA;    interface IElement" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ISwipeItem : Microsoft::Maui::ISwipeItem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -27,8 +27,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand Command" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ISwipeItem.Command" />
       <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ Command { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.ISwipeItem.Command" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ Command { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object CommandParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ISwipeItem.CommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property CommandParameter As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="Microsoft.Maui.Controls.ISwipeItem.CommandParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.EventArgs&gt; Invoked" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.ISwipeItem.Invoked" />
       <MemberSignature Language="VB.NET" Value="Event Invoked As EventHandler(Of EventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;EventArgs ^&gt; ^ Invoked;" />
       <MemberSignature Language="F#" Value="member this.Invoked : EventHandler&lt;EventArgs&gt; " Usage="member this.Invoked : System.EventHandler&lt;System.EventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;EventArgs ^&gt; ^ Invoked;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -89,8 +89,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsVisible" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ISwipeItem.IsVisible" />
       <MemberSignature Language="VB.NET" Value="Public Property IsVisible As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsVisible : bool with get, set" Usage="Microsoft.Maui.Controls.ISwipeItem.IsVisible" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

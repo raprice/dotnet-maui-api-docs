@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HtmlWebViewSource extends Microsoft.Maui.Controls.WebViewSource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.HtmlWebViewSource" />
   <TypeSignature Language="VB.NET" Value="Public Class HtmlWebViewSource&#xA;Inherits WebViewSource" />
-  <TypeSignature Language="C++ CLI" Value="public ref class HtmlWebViewSource : Microsoft::Maui::Controls::WebViewSource" />
   <TypeSignature Language="F#" Value="type HtmlWebViewSource = class&#xA;    inherit WebViewSource" />
+  <TypeSignature Language="C++ CLI" Value="public ref class HtmlWebViewSource : Microsoft::Maui::Controls::WebViewSource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string BaseUrl" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.HtmlWebViewSource.BaseUrl" />
       <MemberSignature Language="VB.NET" Value="Public Property BaseUrl As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BaseUrl { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BaseUrl : string with get, set" Usage="Microsoft.Maui.Controls.HtmlWebViewSource.BaseUrl" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BaseUrl { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BaseUrlProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.HtmlWebViewSource.BaseUrlProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BaseUrlProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BaseUrlProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BaseUrlProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.HtmlWebViewSource.BaseUrlProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BaseUrlProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -81,8 +81,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Html" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.HtmlWebViewSource.Html" />
       <MemberSignature Language="VB.NET" Value="Public Property Html As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Html { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Html : string with get, set" Usage="Microsoft.Maui.Controls.HtmlWebViewSource.Html" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Html { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HtmlProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.HtmlWebViewSource.HtmlProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HtmlProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HtmlProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HtmlProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.HtmlWebViewSource.HtmlProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HtmlProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -122,8 +122,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Load(class Microsoft.Maui.IWebViewDelegate renderer) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.HtmlWebViewSource.Load(Microsoft.Maui.IWebViewDelegate)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Load (renderer As IWebViewDelegate)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Load(Microsoft::Maui::IWebViewDelegate ^ renderer);" />
       <MemberSignature Language="F#" Value="override this.Load : Microsoft.Maui.IWebViewDelegate -&gt; unit" Usage="htmlWebViewSource.Load renderer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Load(Microsoft::Maui::IWebViewDelegate ^ renderer);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

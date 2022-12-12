@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit WebView extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView" />
   <TypeSignature Language="VB.NET" Value="Public Module WebView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class WebView abstract sealed" />
   <TypeSignature Language="F#" Value="type WebView = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WebView abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DisplayZoomControls(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.WebView&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.DisplayZoomControls(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.WebView},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DisplayZoomControls (config As IPlatformElementConfiguration(Of Android, WebView), value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DisplayZoomControls(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member DisplayZoomControls : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.WebView&gt; * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.DisplayZoomControls (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void DisplayZoomControls(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -49,8 +49,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty DisplayZoomControlsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.DisplayZoomControlsProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly DisplayZoomControlsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ DisplayZoomControlsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable DisplayZoomControlsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.DisplayZoomControlsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ DisplayZoomControlsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void EnableZoomControls(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.WebView&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.EnableZoomControls(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.WebView},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub EnableZoomControls (config As IPlatformElementConfiguration(Of Android, WebView), value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void EnableZoomControls(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member EnableZoomControls : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.WebView&gt; * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.EnableZoomControls (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void EnableZoomControls(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -95,8 +95,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty EnableZoomControlsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.EnableZoomControlsProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly EnableZoomControlsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ EnableZoomControlsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable EnableZoomControlsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.EnableZoomControlsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ EnableZoomControlsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -115,8 +115,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetDisplayZoomControls(class Microsoft.Maui.Controls.WebView element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.GetDisplayZoomControls(Microsoft.Maui.Controls.WebView)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetDisplayZoomControls (element As WebView) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetDisplayZoomControls(Microsoft::Maui::Controls::WebView ^ element);" />
       <MemberSignature Language="F#" Value="static member GetDisplayZoomControls : Microsoft.Maui.Controls.WebView -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.GetDisplayZoomControls element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetDisplayZoomControls(Microsoft::Maui::Controls::WebView ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -140,8 +140,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetEnableZoomControls(class Microsoft.Maui.Controls.WebView element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.GetEnableZoomControls(Microsoft.Maui.Controls.WebView)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnableZoomControls (element As WebView) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetEnableZoomControls(Microsoft::Maui::Controls::WebView ^ element);" />
       <MemberSignature Language="F#" Value="static member GetEnableZoomControls : Microsoft.Maui.Controls.WebView -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.GetEnableZoomControls element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetEnableZoomControls(Microsoft::Maui::Controls::WebView ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -165,8 +165,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.MixedContentHandling GetMixedContentMode(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.GetMixedContentMode(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetMixedContentMode (element As BindableObject) As MixedContentHandling" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::MixedContentHandling GetMixedContentMode(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetMixedContentMode : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.MixedContentHandling" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.GetMixedContentMode element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::MixedContentHandling GetMixedContentMode(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -190,8 +190,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.MixedContentHandling MixedContentMode(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.WebView&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.MixedContentMode(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.WebView})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function MixedContentMode (config As IPlatformElementConfiguration(Of Android, WebView)) As MixedContentHandling" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::MixedContentHandling MixedContentMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member MixedContentMode : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.WebView&gt; -&gt; Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.MixedContentHandling" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.MixedContentMode config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::MixedContentHandling MixedContentMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -215,8 +215,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty MixedContentModeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.MixedContentModeProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly MixedContentModeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MixedContentModeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable MixedContentModeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.MixedContentModeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ MixedContentModeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -235,8 +235,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.WebView&gt; SetDisplayZoomControls(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.WebView&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.SetDisplayZoomControls(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.WebView},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetDisplayZoomControls (config As IPlatformElementConfiguration(Of Android, WebView), value As Boolean) As IPlatformElementConfiguration(Of Android, WebView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ SetDisplayZoomControls(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetDisplayZoomControls : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.WebView&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.WebView&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.SetDisplayZoomControls (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ SetDisplayZoomControls(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -262,8 +262,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetDisplayZoomControls(class Microsoft.Maui.Controls.WebView element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.SetDisplayZoomControls(Microsoft.Maui.Controls.WebView,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetDisplayZoomControls (element As WebView, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetDisplayZoomControls(Microsoft::Maui::Controls::WebView ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetDisplayZoomControls : Microsoft.Maui.Controls.WebView * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.SetDisplayZoomControls (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetDisplayZoomControls(Microsoft::Maui::Controls::WebView ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -288,8 +288,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.WebView&gt; SetEnableZoomControls(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.WebView&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.SetEnableZoomControls(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.WebView},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetEnableZoomControls (config As IPlatformElementConfiguration(Of Android, WebView), value As Boolean) As IPlatformElementConfiguration(Of Android, WebView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ SetEnableZoomControls(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetEnableZoomControls : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.WebView&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.WebView&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.SetEnableZoomControls (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ SetEnableZoomControls(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -315,8 +315,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetEnableZoomControls(class Microsoft.Maui.Controls.WebView element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.SetEnableZoomControls(Microsoft.Maui.Controls.WebView,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetEnableZoomControls (element As WebView, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetEnableZoomControls(Microsoft::Maui::Controls::WebView ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetEnableZoomControls : Microsoft.Maui.Controls.WebView * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.SetEnableZoomControls (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetEnableZoomControls(Microsoft::Maui::Controls::WebView ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -341,8 +341,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetMixedContentMode(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.MixedContentHandling value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.SetMixedContentMode(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.MixedContentHandling)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetMixedContentMode (element As BindableObject, value As MixedContentHandling)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetMixedContentMode(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::MixedContentHandling value);" />
       <MemberSignature Language="F#" Value="static member SetMixedContentMode : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.MixedContentHandling -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.SetMixedContentMode (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetMixedContentMode(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::MixedContentHandling value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -367,8 +367,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.WebView&gt; SetMixedContentMode(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.WebView&gt; config, valuetype Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.MixedContentHandling value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.SetMixedContentMode(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.WebView},Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.MixedContentHandling)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetMixedContentMode (config As IPlatformElementConfiguration(Of Android, WebView), value As MixedContentHandling) As IPlatformElementConfiguration(Of Android, WebView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ SetMixedContentMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::MixedContentHandling value);" />
       <MemberSignature Language="F#" Value="static member SetMixedContentMode : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.WebView&gt; * Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.MixedContentHandling -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.WebView&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.SetMixedContentMode (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ SetMixedContentMode(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::AndroidSpecific::MixedContentHandling value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -394,8 +394,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ZoomControlsDisplayed(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.WebView&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.ZoomControlsDisplayed(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.WebView})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ZoomControlsDisplayed (config As IPlatformElementConfiguration(Of Android, WebView)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool ZoomControlsDisplayed(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member ZoomControlsDisplayed : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.WebView&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.ZoomControlsDisplayed config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool ZoomControlsDisplayed(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -419,8 +419,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ZoomControlsEnabled(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Android, class Microsoft.Maui.Controls.WebView&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.ZoomControlsEnabled(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Android,Microsoft.Maui.Controls.WebView})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ZoomControlsEnabled (config As IPlatformElementConfiguration(Of Android, WebView)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool ZoomControlsEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member ZoomControlsEnabled : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Android, Microsoft.Maui.Controls.WebView&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.WebView.ZoomControlsEnabled config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool ZoomControlsEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Android ^, Microsoft::Maui::Controls::WebView ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

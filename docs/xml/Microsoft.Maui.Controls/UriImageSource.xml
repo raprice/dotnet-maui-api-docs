@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UriImageSource extends Microsoft.Maui.Controls.ImageSource implements class Microsoft.Maui.IImageSource, class Microsoft.Maui.IStreamImageSource, class Microsoft.Maui.IUriImageSource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.UriImageSource" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UriImageSource&#xA;Inherits ImageSource&#xA;Implements IStreamImageSource, IUriImageSource" />
-  <TypeSignature Language="C++ CLI" Value="public ref class UriImageSource sealed : Microsoft::Maui::Controls::ImageSource, Microsoft::Maui::IStreamImageSource, Microsoft::Maui::IUriImageSource" />
   <TypeSignature Language="F#" Value="type UriImageSource = class&#xA;    inherit ImageSource&#xA;    interface IUriImageSource&#xA;    interface IImageSource&#xA;    interface IStreamImageSource" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UriImageSource sealed : Microsoft::Maui::Controls::ImageSource, Microsoft::Maui::IStreamImageSource, Microsoft::Maui::IUriImageSource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan CacheValidity" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.UriImageSource.CacheValidity" />
       <MemberSignature Language="VB.NET" Value="Public Property CacheValidity As TimeSpan" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeSpan CacheValidity { TimeSpan get(); void set(TimeSpan value); };" />
       <MemberSignature Language="F#" Value="member this.CacheValidity : TimeSpan with get, set" Usage="Microsoft.Maui.Controls.UriImageSource.CacheValidity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeSpan CacheValidity { TimeSpan get(); void set(TimeSpan value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CacheValidityProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.UriImageSource.CacheValidityProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CacheValidityProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CacheValidityProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CacheValidityProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.UriImageSource.CacheValidityProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CacheValidityProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -91,8 +91,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool CachingEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.UriImageSource.CachingEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property CachingEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CachingEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.CachingEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.UriImageSource.CachingEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CachingEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -112,8 +112,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CachingEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.UriImageSource.CachingEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CachingEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CachingEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CachingEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.UriImageSource.CachingEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CachingEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -132,8 +132,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEmpty" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.UriImageSource.IsEmpty" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsEmpty As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsEmpty { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsEmpty : bool" Usage="Microsoft.Maui.Controls.UriImageSource.IsEmpty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsEmpty { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IImageSource.IsEmpty</InterfaceMember>
@@ -156,8 +156,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt; Microsoft.Maui.IStreamImageSource.GetStreamAsync(valuetype System.Threading.CancellationToken userToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.UriImageSource.Microsoft#Maui#IStreamImageSource#GetStreamAsync(System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Function GetStreamAsync (userToken As CancellationToken) As Task(Of Stream) Implements IStreamImageSource.GetStreamAsync" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^ Microsoft.Maui.IStreamImageSource.GetStreamAsync(System::Threading::CancellationToken userToken) = Microsoft::Maui::IStreamImageSource::GetStreamAsync;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IStreamImageSource.GetStreamAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.IO.Stream&gt;&#xA;override this.Microsoft.Maui.IStreamImageSource.GetStreamAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.IO.Stream&gt;" Usage="uriImageSource.Microsoft.Maui.IStreamImageSource.GetStreamAsync userToken" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^ Microsoft.Maui.IStreamImageSource.GetStreamAsync(System::Threading::CancellationToken userToken) = Microsoft::Maui::IStreamImageSource::GetStreamAsync;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IStreamImageSource.GetStreamAsync(System.Threading.CancellationToken)</InterfaceMember>
@@ -184,8 +184,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.UriImageSource.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="uriImageSource.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -206,8 +206,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Uri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.UriImageSource.Uri" />
       <MemberSignature Language="VB.NET" Value="Public Property Uri As Uri" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Uri ^ Uri { Uri ^ get(); void set(Uri ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Uri : Uri with get, set" Usage="Microsoft.Maui.Controls.UriImageSource.Uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Uri ^ Uri { Uri ^ get(); void set(Uri ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -233,8 +233,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty UriProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.UriImageSource.UriProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly UriProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ UriProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable UriProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.UriImageSource.UriProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ UriProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

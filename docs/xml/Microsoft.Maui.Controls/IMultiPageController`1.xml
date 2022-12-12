@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMultiPageController`1&lt;T&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IMultiPageController`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMultiPageController(Of T)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public interface class IMultiPageController" />
   <TypeSignature Language="F#" Value="type IMultiPageController&lt;'T&gt; = interface" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public interface class IMultiPageController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -24,8 +24,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !T GetPageByIndex(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IMultiPageController`1.GetPageByIndex(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPageByIndex (index As Integer) As T" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; T GetPageByIndex(int index);" />
       <MemberSignature Language="F#" Value="abstract member GetPageByIndex : int -&gt; 'T" Usage="iMultiPageController.GetPageByIndex index" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; T GetPageByIndex(int index);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

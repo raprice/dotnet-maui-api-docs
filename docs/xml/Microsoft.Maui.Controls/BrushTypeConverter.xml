@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BrushTypeConverter extends System.ComponentModel.TypeConverter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.BrushTypeConverter" />
   <TypeSignature Language="VB.NET" Value="Public Class BrushTypeConverter&#xA;Inherits TypeConverter" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BrushTypeConverter : System::ComponentModel::TypeConverter" />
   <TypeSignature Language="F#" Value="type BrushTypeConverter = class&#xA;    inherit TypeConverter" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BrushTypeConverter : System::ComponentModel::TypeConverter" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool CanConvertFrom(class System.ComponentModel.ITypeDescriptorContext context, class System.Type sourceType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BrushTypeConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function CanConvertFrom (context As ITypeDescriptorContext, sourceType As Type) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool CanConvertFrom(System::ComponentModel::ITypeDescriptorContext ^ context, Type ^ sourceType);" />
       <MemberSignature Language="F#" Value="override this.CanConvertFrom : System.ComponentModel.ITypeDescriptorContext * Type -&gt; bool" Usage="brushTypeConverter.CanConvertFrom (context, sourceType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool CanConvertFrom(System::ComponentModel::ITypeDescriptorContext ^ context, Type ^ sourceType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool CanConvertTo(class System.ComponentModel.ITypeDescriptorContext context, class System.Type destinationType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BrushTypeConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function CanConvertTo (context As ITypeDescriptorContext, destinationType As Type) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool CanConvertTo(System::ComponentModel::ITypeDescriptorContext ^ context, Type ^ destinationType);" />
       <MemberSignature Language="F#" Value="override this.CanConvertTo : System.ComponentModel.ITypeDescriptorContext * Type -&gt; bool" Usage="brushTypeConverter.CanConvertTo (context, destinationType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool CanConvertTo(System::ComponentModel::ITypeDescriptorContext ^ context, Type ^ destinationType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -94,8 +94,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ConvertFrom(class System.ComponentModel.ITypeDescriptorContext context, class System.Globalization.CultureInfo culture, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BrushTypeConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFrom (context As ITypeDescriptorContext, culture As CultureInfo, value As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Object ^ ConvertFrom(System::ComponentModel::ITypeDescriptorContext ^ context, System::Globalization::CultureInfo ^ culture, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="override this.ConvertFrom : System.ComponentModel.ITypeDescriptorContext * System.Globalization.CultureInfo * obj -&gt; obj" Usage="brushTypeConverter.ConvertFrom (context, culture, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Object ^ ConvertFrom(System::ComponentModel::ITypeDescriptorContext ^ context, System::Globalization::CultureInfo ^ culture, System::Object ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -123,8 +123,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ConvertTo(class System.ComponentModel.ITypeDescriptorContext context, class System.Globalization.CultureInfo culture, object value, class System.Type destinationType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BrushTypeConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertTo (context As ITypeDescriptorContext, culture As CultureInfo, value As Object, destinationType As Type) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Object ^ ConvertTo(System::ComponentModel::ITypeDescriptorContext ^ context, System::Globalization::CultureInfo ^ culture, System::Object ^ value, Type ^ destinationType);" />
       <MemberSignature Language="F#" Value="override this.ConvertTo : System.ComponentModel.ITypeDescriptorContext * System.Globalization.CultureInfo * obj * Type -&gt; obj" Usage="brushTypeConverter.ConvertTo (context, culture, value, destinationType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Object ^ ConvertTo(System::ComponentModel::ITypeDescriptorContext ^ context, System::Globalization::CultureInfo ^ culture, System::Object ^ value, Type ^ destinationType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -154,8 +154,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Hsl" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BrushTypeConverter.Hsl" />
       <MemberSignature Language="VB.NET" Value="Public Const Hsl As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Hsl;" />
       <MemberSignature Language="F#" Value="val mutable Hsl : string" Usage="Microsoft.Maui.Controls.BrushTypeConverter.Hsl" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Hsl;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -174,8 +174,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Hsla" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BrushTypeConverter.Hsla" />
       <MemberSignature Language="VB.NET" Value="Public Const Hsla As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Hsla;" />
       <MemberSignature Language="F#" Value="val mutable Hsla : string" Usage="Microsoft.Maui.Controls.BrushTypeConverter.Hsla" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Hsla;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -194,8 +194,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string LinearGradient" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BrushTypeConverter.LinearGradient" />
       <MemberSignature Language="VB.NET" Value="Public Const LinearGradient As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ LinearGradient;" />
       <MemberSignature Language="F#" Value="val mutable LinearGradient : string" Usage="Microsoft.Maui.Controls.BrushTypeConverter.LinearGradient" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ LinearGradient;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -214,8 +214,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string RadialGradient" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BrushTypeConverter.RadialGradient" />
       <MemberSignature Language="VB.NET" Value="Public Const RadialGradient As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ RadialGradient;" />
       <MemberSignature Language="F#" Value="val mutable RadialGradient : string" Usage="Microsoft.Maui.Controls.BrushTypeConverter.RadialGradient" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ RadialGradient;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -234,8 +234,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Rgb" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BrushTypeConverter.Rgb" />
       <MemberSignature Language="VB.NET" Value="Public Const Rgb As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Rgb;" />
       <MemberSignature Language="F#" Value="val mutable Rgb : string" Usage="Microsoft.Maui.Controls.BrushTypeConverter.Rgb" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Rgb;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -254,8 +254,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Rgba" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BrushTypeConverter.Rgba" />
       <MemberSignature Language="VB.NET" Value="Public Const Rgba As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Rgba;" />
       <MemberSignature Language="F#" Value="val mutable Rgba : string" Usage="Microsoft.Maui.Controls.BrushTypeConverter.Rgba" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Rgba;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

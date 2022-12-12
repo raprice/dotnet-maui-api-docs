@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AppHostBuilderExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Hosting.AppHostBuilderExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module AppHostBuilderExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AppHostBuilderExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type AppHostBuilderExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppHostBuilderExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -63,7 +63,7 @@
       </AssemblyInfo>
       <ReturnValue />
       <Parameters>
-        <Parameter Name="handlersCollection" Type="Microsoft.Maui.Hosting.IMauiHandlersCollection" Index="0" FrameworkAlternate="net-maui-7.0" RefType="this" />
+        <Parameter Name="handlersCollection" Type="Microsoft.Maui.Hosting.IMauiHandlersCollection" RefType="this" Index="0" FrameworkAlternate="net-maui-7.0" />
       </Parameters>
       <Docs>
         <param name="handlersCollection">To be added.</param>
@@ -77,8 +77,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.MauiAppBuilder ConfigureEffects(class Microsoft.Maui.Hosting.MauiAppBuilder builder, class System.Action`1&lt;class Microsoft.Maui.Controls.Hosting.IEffectsBuilder&gt; configureDelegate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Hosting.AppHostBuilderExtensions.ConfigureEffects(Microsoft.Maui.Hosting.MauiAppBuilder,System.Action{Microsoft.Maui.Controls.Hosting.IEffectsBuilder})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ConfigureEffects (builder As MauiAppBuilder, configureDelegate As Action(Of IEffectsBuilder)) As MauiAppBuilder" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ ConfigureEffects(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder, Action&lt;Microsoft::Maui::Controls::Hosting::IEffectsBuilder ^&gt; ^ configureDelegate);" />
       <MemberSignature Language="F#" Value="static member ConfigureEffects : Microsoft.Maui.Hosting.MauiAppBuilder * Action&lt;Microsoft.Maui.Controls.Hosting.IEffectsBuilder&gt; -&gt; Microsoft.Maui.Hosting.MauiAppBuilder" Usage="Microsoft.Maui.Controls.Hosting.AppHostBuilderExtensions.ConfigureEffects (builder, configureDelegate)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ ConfigureEffects(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder, Action&lt;Microsoft::Maui::Controls::Hosting::IEffectsBuilder ^&gt; ^ configureDelegate);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -179,7 +179,7 @@
       </AssemblyInfo>
       <ReturnValue />
       <Parameters>
-        <Parameter Name="builder" Type="Microsoft.Maui.Hosting.MauiAppBuilder" Index="0" FrameworkAlternate="net-maui-7.0" RefType="this" />
+        <Parameter Name="builder" Type="Microsoft.Maui.Hosting.MauiAppBuilder" RefType="this" Index="0" FrameworkAlternate="net-maui-7.0" />
       </Parameters>
       <Docs>
         <param name="builder">To be added.</param>

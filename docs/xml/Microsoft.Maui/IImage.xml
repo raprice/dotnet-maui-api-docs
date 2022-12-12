@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IImage implements class Microsoft.Maui.IElement, class Microsoft.Maui.IImageSourcePart, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IImage" />
   <TypeSignature Language="VB.NET" Value="Public Interface IImage&#xA;Implements IImageSourcePart, IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IImage : Microsoft::Maui::IImageSourcePart, Microsoft::Maui::IView" />
   <TypeSignature Language="F#" Value="type IImage = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IImageSourcePart" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IImage : Microsoft::Maui::IImageSourcePart, Microsoft::Maui::IView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -35,8 +35,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Aspect Aspect" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IImage.Aspect" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Aspect As Aspect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Aspect Aspect { Microsoft::Maui::Aspect get(); };" />
       <MemberSignature Language="F#" Value="member this.Aspect : Microsoft.Maui.Aspect" Usage="Microsoft.Maui.IImage.Aspect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Aspect Aspect { Microsoft::Maui::Aspect get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -58,8 +58,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsOpaque" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IImage.IsOpaque" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsOpaque As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOpaque { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsOpaque : bool" Usage="Microsoft.Maui.IImage.IsOpaque" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOpaque { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

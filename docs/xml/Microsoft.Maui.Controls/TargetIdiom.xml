@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TargetIdiom extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.TargetIdiom" />
   <TypeSignature Language="VB.NET" Value="Public Enum TargetIdiom" />
-  <TypeSignature Language="C++ CLI" Value="public enum class TargetIdiom" />
   <TypeSignature Language="F#" Value="type TargetIdiom = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class TargetIdiom" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -28,8 +28,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.TargetIdiom Desktop = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TargetIdiom.Desktop" />
       <MemberSignature Language="VB.NET" Value="Desktop" />
-      <MemberSignature Language="C++ CLI" Value="Desktop" />
       <MemberSignature Language="F#" Value="Desktop = 3" Usage="Microsoft.Maui.Controls.TargetIdiom.Desktop" />
+      <MemberSignature Language="C++ CLI" Value="Desktop" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.TargetIdiom Phone = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TargetIdiom.Phone" />
       <MemberSignature Language="VB.NET" Value="Phone" />
-      <MemberSignature Language="C++ CLI" Value="Phone" />
       <MemberSignature Language="F#" Value="Phone = 1" Usage="Microsoft.Maui.Controls.TargetIdiom.Phone" />
+      <MemberSignature Language="C++ CLI" Value="Phone" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.TargetIdiom Tablet = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TargetIdiom.Tablet" />
       <MemberSignature Language="VB.NET" Value="Tablet" />
-      <MemberSignature Language="C++ CLI" Value="Tablet" />
       <MemberSignature Language="F#" Value="Tablet = 2" Usage="Microsoft.Maui.Controls.TargetIdiom.Tablet" />
+      <MemberSignature Language="C++ CLI" Value="Tablet" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -88,8 +88,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.TargetIdiom TV = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TargetIdiom.TV" />
       <MemberSignature Language="VB.NET" Value="TV" />
-      <MemberSignature Language="C++ CLI" Value="TV" />
       <MemberSignature Language="F#" Value="TV = 4" Usage="Microsoft.Maui.Controls.TargetIdiom.TV" />
+      <MemberSignature Language="C++ CLI" Value="TV" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -108,8 +108,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.TargetIdiom Unsupported = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TargetIdiom.Unsupported" />
       <MemberSignature Language="VB.NET" Value="Unsupported" />
-      <MemberSignature Language="C++ CLI" Value="Unsupported" />
       <MemberSignature Language="F#" Value="Unsupported = 0" Usage="Microsoft.Maui.Controls.TargetIdiom.Unsupported" />
+      <MemberSignature Language="C++ CLI" Value="Unsupported" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -128,8 +128,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.TargetIdiom Watch = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TargetIdiom.Watch" />
       <MemberSignature Language="VB.NET" Value="Watch" />
-      <MemberSignature Language="C++ CLI" Value="Watch" />
       <MemberSignature Language="F#" Value="Watch = 5" Usage="Microsoft.Maui.Controls.TargetIdiom.Watch" />
+      <MemberSignature Language="C++ CLI" Value="Watch" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

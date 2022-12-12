@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IVisual" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IVisual" />
   <TypeSignature Language="VB.NET" Value="Public Interface IVisual" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IVisual" />
   <TypeSignature Language="F#" Value="type IVisual = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IVisual" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

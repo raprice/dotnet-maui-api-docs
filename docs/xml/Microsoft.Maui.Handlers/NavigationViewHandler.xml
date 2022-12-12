@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NavigationViewHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.IStackNavigationView, object&gt; implements class Microsoft.Maui.Handlers.INavigationViewHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.NavigationViewHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class NavigationViewHandler&#xA;Inherits ViewHandler(Of IStackNavigationView, Object)&#xA;Implements INavigationViewHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class NavigationViewHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IStackNavigationView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::INavigationViewHandler" />
   <TypeSignature Language="F#" Value="type NavigationViewHandler = class&#xA;    inherit ViewHandler&lt;IStackNavigationView, obj&gt;&#xA;    interface INavigationViewHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NavigationViewHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IStackNavigationView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::INavigationViewHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -77,8 +77,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.NavigationViewHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; NavigationViewHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.NavigationViewHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.Handlers.NavigationViewHandler" Usage="new Microsoft.Maui.Handlers.NavigationViewHandler (mapper, commandMapper)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NavigationViewHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IStackNavigationView, class Microsoft.Maui.Handlers.INavigationViewHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.NavigationViewHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IStackNavigationView, INavigationViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IStackNavigationView ^, Microsoft::Maui::Handlers::INavigationViewHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IStackNavigationView, Microsoft.Maui.Handlers.INavigationViewHandler&gt;" Usage="Microsoft.Maui.Handlers.NavigationViewHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IStackNavigationView ^, Microsoft::Maui::Handlers::INavigationViewHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -120,8 +120,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.NavigationViewHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="navigationViewHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -142,8 +142,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IStackNavigationView, class Microsoft.Maui.Handlers.INavigationViewHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.NavigationViewHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IStackNavigationView, INavigationViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IStackNavigationView ^, Microsoft::Maui::Handlers::INavigationViewHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IStackNavigationView, Microsoft.Maui.Handlers.INavigationViewHandler&gt;" Usage="Microsoft.Maui.Handlers.NavigationViewHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IStackNavigationView ^, Microsoft::Maui::Handlers::INavigationViewHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -162,8 +162,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.INavigationViewHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.NavigationViewHandler.Microsoft#Maui#Handlers#INavigationViewHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements INavigationViewHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::INavigationViewHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.INavigationViewHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.INavigationViewHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::INavigationViewHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.INavigationViewHandler.PlatformView</InterfaceMember>
@@ -186,8 +186,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IStackNavigationView Microsoft.Maui.Handlers.INavigationViewHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.NavigationViewHandler.Microsoft#Maui#Handlers#INavigationViewHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IStackNavigationView Implements INavigationViewHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IStackNavigationView ^ Microsoft::Maui::Handlers::INavigationViewHandler::VirtualView { Microsoft::Maui::IStackNavigationView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.INavigationViewHandler.VirtualView : Microsoft.Maui.IStackNavigationView" Usage="Microsoft.Maui.Handlers.INavigationViewHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IStackNavigationView ^ Microsoft::Maui::Handlers::INavigationViewHandler::VirtualView { Microsoft::Maui::IStackNavigationView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.INavigationViewHandler.VirtualView</InterfaceMember>
@@ -210,8 +210,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RequestNavigation(class Microsoft.Maui.Handlers.INavigationViewHandler arg1, class Microsoft.Maui.IStackNavigation arg2, object arg3) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.NavigationViewHandler.RequestNavigation(Microsoft.Maui.Handlers.INavigationViewHandler,Microsoft.Maui.IStackNavigation,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub RequestNavigation (arg1 As INavigationViewHandler, arg2 As IStackNavigation, arg3 As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RequestNavigation(Microsoft::Maui::Handlers::INavigationViewHandler ^ arg1, Microsoft::Maui::IStackNavigation ^ arg2, System::Object ^ arg3);" />
       <MemberSignature Language="F#" Value="static member RequestNavigation : Microsoft.Maui.Handlers.INavigationViewHandler * Microsoft.Maui.IStackNavigation * obj -&gt; unit" Usage="Microsoft.Maui.Handlers.NavigationViewHandler.RequestNavigation (arg1, arg2, arg3)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RequestNavigation(Microsoft::Maui::Handlers::INavigationViewHandler ^ arg1, Microsoft::Maui::IStackNavigation ^ arg2, System::Object ^ arg3);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit PlatformBehavior`1&lt;(class Microsoft.Maui.Controls.VisualElement) TView&gt; extends Microsoft.Maui.Controls.PlatformBehavior`2&lt;!TView, object&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformBehavior`1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class PlatformBehavior(Of TView)&#xA;Inherits PlatformBehavior(Of TView, Object)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TView&gt;&#xA; where TView : VisualElementpublic ref class PlatformBehavior abstract : Microsoft::Maui::Controls::PlatformBehavior&lt;TView, System::Object ^&gt;" />
   <TypeSignature Language="F#" Value="type PlatformBehavior&lt;'View (requires 'View :&gt; VisualElement)&gt; = class&#xA;    inherit PlatformBehavior&lt;'View, obj (requires 'View :&gt; VisualElement)&gt;" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TView&gt;&#xA; where TView : VisualElementpublic ref class PlatformBehavior abstract : Microsoft::Maui::Controls::PlatformBehavior&lt;TView, System::Object ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi Easing extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Easing" />
   <TypeSignature Language="VB.NET" Value="Public Class Easing" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Easing" />
   <TypeSignature Language="F#" Value="type Easing = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Easing" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -34,8 +34,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`2&lt;float64, float64&gt; easingFunc) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Easing.#ctor(System.Func{System.Double,System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (easingFunc As Func(Of Double, Double))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Easing(Func&lt;double, double&gt; ^ easingFunc);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Easing : Func&lt;double, double&gt; -&gt; Microsoft.Maui.Easing" Usage="new Microsoft.Maui.Easing easingFunc" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Easing(Func&lt;double, double&gt; ^ easingFunc);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -58,8 +58,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Easing BounceIn" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Easing.BounceIn" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BounceIn As Easing " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ BounceIn;" />
       <MemberSignature Language="F#" Value=" staticval mutable BounceIn : Microsoft.Maui.Easing" Usage="Microsoft.Maui.Easing.BounceIn" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ BounceIn;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Easing BounceOut" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Easing.BounceOut" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BounceOut As Easing " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ BounceOut;" />
       <MemberSignature Language="F#" Value=" staticval mutable BounceOut : Microsoft.Maui.Easing" Usage="Microsoft.Maui.Easing.BounceOut" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ BounceOut;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -108,8 +108,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Easing CubicIn" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Easing.CubicIn" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CubicIn As Easing " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ CubicIn;" />
       <MemberSignature Language="F#" Value=" staticval mutable CubicIn : Microsoft.Maui.Easing" Usage="Microsoft.Maui.Easing.CubicIn" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ CubicIn;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -134,8 +134,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Easing CubicInOut" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Easing.CubicInOut" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CubicInOut As Easing " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ CubicInOut;" />
       <MemberSignature Language="F#" Value=" staticval mutable CubicInOut : Microsoft.Maui.Easing" Usage="Microsoft.Maui.Easing.CubicInOut" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ CubicInOut;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -160,8 +160,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Easing CubicOut" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Easing.CubicOut" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CubicOut As Easing " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ CubicOut;" />
       <MemberSignature Language="F#" Value=" staticval mutable CubicOut : Microsoft.Maui.Easing" Usage="Microsoft.Maui.Easing.CubicOut" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ CubicOut;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -186,8 +186,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Easing Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Easing.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As Easing" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Easing ^ Default { Microsoft::Maui::Easing ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.Easing" Usage="Microsoft.Maui.Easing.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Easing ^ Default { Microsoft::Maui::Easing ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -210,8 +210,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance float64 Ease(float64 v) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Easing.Ease(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function Ease (v As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; double Ease(double v);" />
       <MemberSignature Language="F#" Value="member this.Ease : double -&gt; double" Usage="easing.Ease v" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; double Ease(double v);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -237,8 +237,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Easing Linear" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Easing.Linear" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Linear As Easing " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ Linear;" />
       <MemberSignature Language="F#" Value=" staticval mutable Linear : Microsoft.Maui.Easing" Usage="Microsoft.Maui.Easing.Linear" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ Linear;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -263,8 +263,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Maui.Easing op_Implicit(class System.Func`2&lt;float64, float64&gt; func) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Easing.op_Implicit(System.Func{System.Double,System.Double})~Microsoft.Maui.Easing" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (func As Func(Of Double, Double)) As Easing" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Easing ^(Func&lt;double, double&gt; ^ func);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : Func&lt;double, double&gt; -&gt; Microsoft.Maui.Easing" Usage="Microsoft.Maui.Easing.op_Implicit func" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Easing ^(Func&lt;double, double&gt; ^ func);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -290,8 +290,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Easing SinIn" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Easing.SinIn" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SinIn As Easing " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ SinIn;" />
       <MemberSignature Language="F#" Value=" staticval mutable SinIn : Microsoft.Maui.Easing" Usage="Microsoft.Maui.Easing.SinIn" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ SinIn;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -316,8 +316,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Easing SinInOut" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Easing.SinInOut" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SinInOut As Easing " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ SinInOut;" />
       <MemberSignature Language="F#" Value=" staticval mutable SinInOut : Microsoft.Maui.Easing" Usage="Microsoft.Maui.Easing.SinInOut" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ SinInOut;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -341,8 +341,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Easing SinOut" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Easing.SinOut" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SinOut As Easing " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ SinOut;" />
       <MemberSignature Language="F#" Value=" staticval mutable SinOut : Microsoft.Maui.Easing" Usage="Microsoft.Maui.Easing.SinOut" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ SinOut;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -367,8 +367,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Easing SpringIn" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Easing.SpringIn" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SpringIn As Easing " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ SpringIn;" />
       <MemberSignature Language="F#" Value=" staticval mutable SpringIn : Microsoft.Maui.Easing" Usage="Microsoft.Maui.Easing.SpringIn" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ SpringIn;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -393,8 +393,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Easing SpringOut" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Easing.SpringOut" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SpringOut As Easing " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ SpringOut;" />
       <MemberSignature Language="F#" Value=" staticval mutable SpringOut : Microsoft.Maui.Easing" Usage="Microsoft.Maui.Easing.SpringOut" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Easing ^ SpringOut;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

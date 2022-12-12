@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DisplayDensityRequest extends Microsoft.Maui.RetrievePlatformValueRequest`1&lt;float32&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.DisplayDensityRequest" />
   <TypeSignature Language="VB.NET" Value="Public Class DisplayDensityRequest&#xA;Inherits RetrievePlatformValueRequest(Of Single)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DisplayDensityRequest : Microsoft::Maui::RetrievePlatformValueRequest&lt;float&gt;" />
   <TypeSignature Language="F#" Value="type DisplayDensityRequest = class&#xA;    inherit RetrievePlatformValueRequest&lt;single&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DisplayDensityRequest : Microsoft::Maui::RetrievePlatformValueRequest&lt;float&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

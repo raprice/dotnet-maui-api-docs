@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi LabelHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.ILabel, object&gt; implements class Microsoft.Maui.Handlers.ILabelHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" FrameworkAlternate="net-maui-6.0" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.LabelHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class LabelHandler&#xA;Inherits ViewHandler(Of ILabel, Object)&#xA;Implements ILabelHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class LabelHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::ILabel ^, System::Object ^&gt;, Microsoft::Maui::Handlers::ILabelHandler" />
   <TypeSignature Language="F#" Value="type LabelHandler = class&#xA;    inherit ViewHandler&lt;ILabel, obj&gt;&#xA;    interface ILabelHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class LabelHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::ILabel ^, System::Object ^&gt;, Microsoft::Maui::Handlers::ILabelHandler" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LabelHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.ILabel, object&gt; implements class Microsoft.Maui.Handlers.ILabelHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" FrameworkAlternate="net-maui-7.0" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -78,8 +78,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.LabelHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; LabelHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.LabelHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.Handlers.LabelHandler" Usage="new Microsoft.Maui.Handlers.LabelHandler (mapper, commandMapper)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; LabelHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -101,8 +101,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.ILabel, class Microsoft.Maui.Handlers.ILabelHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.LabelHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of ILabel, ILabelHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::ILabel ^, Microsoft::Maui::Handlers::ILabelHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.ILabel, Microsoft.Maui.Handlers.ILabelHandler&gt;" Usage="Microsoft.Maui.Handlers.LabelHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::ILabel ^, Microsoft::Maui::Handlers::ILabelHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -121,8 +121,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.LabelHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="labelHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -143,8 +143,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCharacterSpacing(class Microsoft.Maui.Handlers.ILabelHandler handler, class Microsoft.Maui.ILabel label) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.LabelHandler.MapCharacterSpacing(Microsoft.Maui.Handlers.ILabelHandler,Microsoft.Maui.ILabel)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCharacterSpacing (handler As ILabelHandler, label As ILabel)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCharacterSpacing(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberSignature Language="F#" Value="static member MapCharacterSpacing : Microsoft.Maui.Handlers.ILabelHandler * Microsoft.Maui.ILabel -&gt; unit" Usage="Microsoft.Maui.Handlers.LabelHandler.MapCharacterSpacing (handler, label)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCharacterSpacing(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -169,8 +169,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapFont(class Microsoft.Maui.Handlers.ILabelHandler handler, class Microsoft.Maui.ILabel label) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.LabelHandler.MapFont(Microsoft.Maui.Handlers.ILabelHandler,Microsoft.Maui.ILabel)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapFont (handler As ILabelHandler, label As ILabel)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFont(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberSignature Language="F#" Value="static member MapFont : Microsoft.Maui.Handlers.ILabelHandler * Microsoft.Maui.ILabel -&gt; unit" Usage="Microsoft.Maui.Handlers.LabelHandler.MapFont (handler, label)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFont(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -195,8 +195,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapHorizontalTextAlignment(class Microsoft.Maui.Handlers.ILabelHandler handler, class Microsoft.Maui.ILabel label) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.LabelHandler.MapHorizontalTextAlignment(Microsoft.Maui.Handlers.ILabelHandler,Microsoft.Maui.ILabel)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapHorizontalTextAlignment (handler As ILabelHandler, label As ILabel)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHorizontalTextAlignment(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberSignature Language="F#" Value="static member MapHorizontalTextAlignment : Microsoft.Maui.Handlers.ILabelHandler * Microsoft.Maui.ILabel -&gt; unit" Usage="Microsoft.Maui.Handlers.LabelHandler.MapHorizontalTextAlignment (handler, label)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHorizontalTextAlignment(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -221,8 +221,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapLineHeight(class Microsoft.Maui.Handlers.ILabelHandler handler, class Microsoft.Maui.ILabel label) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.LabelHandler.MapLineHeight(Microsoft.Maui.Handlers.ILabelHandler,Microsoft.Maui.ILabel)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapLineHeight (handler As ILabelHandler, label As ILabel)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapLineHeight(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberSignature Language="F#" Value="static member MapLineHeight : Microsoft.Maui.Handlers.ILabelHandler * Microsoft.Maui.ILabel -&gt; unit" Usage="Microsoft.Maui.Handlers.LabelHandler.MapLineHeight (handler, label)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapLineHeight(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -247,8 +247,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapMaxLines(class Microsoft.Maui.Handlers.ILabelHandler handler, class Microsoft.Maui.ILabel label) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.LabelHandler.MapMaxLines(Microsoft.Maui.Handlers.ILabelHandler,Microsoft.Maui.ILabel)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapMaxLines (handler As ILabelHandler, label As ILabel)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMaxLines(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberSignature Language="F#" Value="static member MapMaxLines : Microsoft.Maui.Handlers.ILabelHandler * Microsoft.Maui.ILabel -&gt; unit" Usage="Microsoft.Maui.Handlers.LabelHandler.MapMaxLines (handler, label)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMaxLines(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -273,8 +273,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapPadding(class Microsoft.Maui.Handlers.ILabelHandler handler, class Microsoft.Maui.ILabel label) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.LabelHandler.MapPadding(Microsoft.Maui.Handlers.ILabelHandler,Microsoft.Maui.ILabel)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapPadding (handler As ILabelHandler, label As ILabel)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPadding(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberSignature Language="F#" Value="static member MapPadding : Microsoft.Maui.Handlers.ILabelHandler * Microsoft.Maui.ILabel -&gt; unit" Usage="Microsoft.Maui.Handlers.LabelHandler.MapPadding (handler, label)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPadding(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -299,8 +299,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.ILabel, class Microsoft.Maui.Handlers.ILabelHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.LabelHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of ILabel, ILabelHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ILabel ^, Microsoft::Maui::Handlers::ILabelHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.ILabel, Microsoft.Maui.Handlers.ILabelHandler&gt;" Usage="Microsoft.Maui.Handlers.LabelHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ILabel ^, Microsoft::Maui::Handlers::ILabelHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -319,8 +319,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapText(class Microsoft.Maui.Handlers.ILabelHandler handler, class Microsoft.Maui.ILabel label) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.LabelHandler.MapText(Microsoft.Maui.Handlers.ILabelHandler,Microsoft.Maui.ILabel)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapText (handler As ILabelHandler, label As ILabel)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberSignature Language="F#" Value="static member MapText : Microsoft.Maui.Handlers.ILabelHandler * Microsoft.Maui.ILabel -&gt; unit" Usage="Microsoft.Maui.Handlers.LabelHandler.MapText (handler, label)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -345,8 +345,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapTextColor(class Microsoft.Maui.Handlers.ILabelHandler handler, class Microsoft.Maui.ILabel label) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.LabelHandler.MapTextColor(Microsoft.Maui.Handlers.ILabelHandler,Microsoft.Maui.ILabel)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapTextColor (handler As ILabelHandler, label As ILabel)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextColor(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberSignature Language="F#" Value="static member MapTextColor : Microsoft.Maui.Handlers.ILabelHandler * Microsoft.Maui.ILabel -&gt; unit" Usage="Microsoft.Maui.Handlers.LabelHandler.MapTextColor (handler, label)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextColor(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -371,8 +371,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapTextDecorations(class Microsoft.Maui.Handlers.ILabelHandler handler, class Microsoft.Maui.ILabel label) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.LabelHandler.MapTextDecorations(Microsoft.Maui.Handlers.ILabelHandler,Microsoft.Maui.ILabel)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapTextDecorations (handler As ILabelHandler, label As ILabel)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextDecorations(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberSignature Language="F#" Value="static member MapTextDecorations : Microsoft.Maui.Handlers.ILabelHandler * Microsoft.Maui.ILabel -&gt; unit" Usage="Microsoft.Maui.Handlers.LabelHandler.MapTextDecorations (handler, label)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextDecorations(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -397,8 +397,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapVerticalTextAlignment(class Microsoft.Maui.Handlers.ILabelHandler handler, class Microsoft.Maui.ILabel label) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.LabelHandler.MapVerticalTextAlignment(Microsoft.Maui.Handlers.ILabelHandler,Microsoft.Maui.ILabel)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapVerticalTextAlignment (handler As ILabelHandler, label As ILabel)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapVerticalTextAlignment(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberSignature Language="F#" Value="static member MapVerticalTextAlignment : Microsoft.Maui.Handlers.ILabelHandler * Microsoft.Maui.ILabel -&gt; unit" Usage="Microsoft.Maui.Handlers.LabelHandler.MapVerticalTextAlignment (handler, label)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapVerticalTextAlignment(Microsoft::Maui::Handlers::ILabelHandler ^ handler, Microsoft::Maui::ILabel ^ label);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -423,8 +423,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.ILabelHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.LabelHandler.Microsoft#Maui#Handlers#ILabelHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements ILabelHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::ILabelHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.ILabelHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.ILabelHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::ILabelHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.ILabelHandler.PlatformView</InterfaceMember>
@@ -447,8 +447,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.ILabel Microsoft.Maui.Handlers.ILabelHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.LabelHandler.Microsoft#Maui#Handlers#ILabelHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As ILabel Implements ILabelHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ILabel ^ Microsoft::Maui::Handlers::ILabelHandler::VirtualView { Microsoft::Maui::ILabel ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.ILabelHandler.VirtualView : Microsoft.Maui.ILabel" Usage="Microsoft.Maui.Handlers.ILabelHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::ILabel ^ Microsoft::Maui::Handlers::ILabelHandler::VirtualView { Microsoft::Maui::ILabel ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.ILabelHandler.VirtualView</InterfaceMember>

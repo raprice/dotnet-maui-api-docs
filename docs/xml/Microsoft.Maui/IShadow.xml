@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IShadow" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IShadow" />
   <TypeSignature Language="VB.NET" Value="Public Interface IShadow" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IShadow" />
   <TypeSignature Language="F#" Value="type IShadow = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IShadow" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Point Offset" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IShadow.Offset" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Offset As Point" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point Offset { Microsoft::Maui::Graphics::Point get(); };" />
       <MemberSignature Language="F#" Value="member this.Offset : Microsoft.Maui.Graphics.Point" Usage="Microsoft.Maui.IShadow.Offset" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point Offset { Microsoft::Maui::Graphics::Point get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -45,8 +45,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 Opacity" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IShadow.Opacity" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Opacity As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Opacity { float get(); };" />
       <MemberSignature Language="F#" Value="member this.Opacity : single" Usage="Microsoft.Maui.IShadow.Opacity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Opacity { float get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Paint Paint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IShadow.Paint" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Paint As Paint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Paint ^ Paint { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Paint : Microsoft.Maui.Graphics.Paint" Usage="Microsoft.Maui.IShadow.Paint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Paint ^ Paint { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -92,8 +92,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 Radius" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IShadow.Radius" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Radius As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Radius { float get(); };" />
       <MemberSignature Language="F#" Value="member this.Radius : single" Usage="Microsoft.Maui.IShadow.Radius" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Radius { float get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

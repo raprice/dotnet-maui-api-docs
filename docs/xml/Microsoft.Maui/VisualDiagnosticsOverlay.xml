@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VisualDiagnosticsOverlay extends Microsoft.Maui.WindowOverlay implements class Microsoft.Maui.Graphics.IDrawable, class Microsoft.Maui.IVisualDiagnosticsOverlay, class Microsoft.Maui.IWindowOverlay" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.VisualDiagnosticsOverlay" />
   <TypeSignature Language="VB.NET" Value="Public Class VisualDiagnosticsOverlay&#xA;Inherits WindowOverlay&#xA;Implements IDrawable, IVisualDiagnosticsOverlay" />
-  <TypeSignature Language="C++ CLI" Value="public ref class VisualDiagnosticsOverlay : Microsoft::Maui::WindowOverlay, Microsoft::Maui::Graphics::IDrawable, Microsoft::Maui::IVisualDiagnosticsOverlay" />
   <TypeSignature Language="F#" Value="type VisualDiagnosticsOverlay = class&#xA;    inherit WindowOverlay&#xA;    interface IVisualDiagnosticsOverlay&#xA;    interface IWindowOverlay&#xA;    interface IDrawable" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VisualDiagnosticsOverlay : Microsoft::Maui::WindowOverlay, Microsoft::Maui::Graphics::IDrawable, Microsoft::Maui::IVisualDiagnosticsOverlay" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IWindow window) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnosticsOverlay.#ctor(Microsoft.Maui.IWindow)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (window As IWindow)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; VisualDiagnosticsOverlay(Microsoft::Maui::IWindow ^ window);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.VisualDiagnosticsOverlay : Microsoft.Maui.IWindow -&gt; Microsoft.Maui.VisualDiagnosticsOverlay" Usage="new Microsoft.Maui.VisualDiagnosticsOverlay window" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; VisualDiagnosticsOverlay(Microsoft::Maui::IWindow ^ window);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -116,8 +116,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddScrollableElementHandler(class Microsoft.Maui.IScrollView scrollBar) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnosticsOverlay.AddScrollableElementHandler(Microsoft.Maui.IScrollView)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AddScrollableElementHandler (scrollBar As IScrollView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void AddScrollableElementHandler(Microsoft::Maui::IScrollView ^ scrollBar);" />
       <MemberSignature Language="F#" Value="abstract member AddScrollableElementHandler : Microsoft.Maui.IScrollView -&gt; unit&#xA;override this.AddScrollableElementHandler : Microsoft.Maui.IScrollView -&gt; unit" Usage="visualDiagnosticsOverlay.AddScrollableElementHandler scrollBar" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void AddScrollableElementHandler(Microsoft::Maui::IScrollView ^ scrollBar);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IVisualDiagnosticsOverlay.AddScrollableElementHandler(Microsoft.Maui.IScrollView)</InterfaceMember>
@@ -144,8 +144,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddScrollableElementHandlers() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnosticsOverlay.AddScrollableElementHandlers" />
       <MemberSignature Language="VB.NET" Value="Public Sub AddScrollableElementHandlers ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void AddScrollableElementHandlers();" />
       <MemberSignature Language="F#" Value="abstract member AddScrollableElementHandlers : unit -&gt; unit&#xA;override this.AddScrollableElementHandlers : unit -&gt; unit" Usage="visualDiagnosticsOverlay.AddScrollableElementHandlers " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void AddScrollableElementHandlers();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IVisualDiagnosticsOverlay.AddScrollableElementHandlers</InterfaceMember>
@@ -168,8 +168,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool AddWindowElement(class Microsoft.Maui.IWindowOverlayElement drawable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnosticsOverlay.AddWindowElement(Microsoft.Maui.IWindowOverlayElement)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function AddWindowElement (drawable As IWindowOverlayElement) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool AddWindowElement(Microsoft::Maui::IWindowOverlayElement ^ drawable);" />
       <MemberSignature Language="F#" Value="override this.AddWindowElement : Microsoft.Maui.IWindowOverlayElement -&gt; bool" Usage="visualDiagnosticsOverlay.AddWindowElement drawable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool AddWindowElement(Microsoft::Maui::IWindowOverlayElement ^ drawable);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IWindowOverlay.AddWindowElement(Microsoft.Maui.IWindowOverlayElement)</InterfaceMember>
@@ -197,8 +197,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Deinitialize() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnosticsOverlay.Deinitialize" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Deinitialize () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Deinitialize();" />
       <MemberSignature Language="F#" Value="override this.Deinitialize : unit -&gt; bool" Usage="visualDiagnosticsOverlay.Deinitialize " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Deinitialize();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IWindowOverlay.Deinitialize</InterfaceMember>
@@ -222,8 +222,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool EnableElementSelector" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.VisualDiagnosticsOverlay.EnableElementSelector" />
       <MemberSignature Language="VB.NET" Value="Public Property EnableElementSelector As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableElementSelector { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.EnableElementSelector : bool with get, set" Usage="Microsoft.Maui.VisualDiagnosticsOverlay.EnableElementSelector" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableElementSelector { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IVisualDiagnosticsOverlay.EnableElementSelector</InterfaceMember>
@@ -247,8 +247,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Point Offset" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.VisualDiagnosticsOverlay.Offset" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Offset As Point" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point Offset { Microsoft::Maui::Graphics::Point get(); };" />
       <MemberSignature Language="F#" Value="member this.Offset : Microsoft.Maui.Graphics.Point" Usage="Microsoft.Maui.VisualDiagnosticsOverlay.Offset" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point Offset { Microsoft::Maui::Graphics::Point get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -269,8 +269,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool RemoveAdorner(class Microsoft.Maui.IAdorner adorner) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnosticsOverlay.RemoveAdorner(Microsoft.Maui.IAdorner)" />
       <MemberSignature Language="VB.NET" Value="Public Function RemoveAdorner (adorner As IAdorner) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool RemoveAdorner(Microsoft::Maui::IAdorner ^ adorner);" />
       <MemberSignature Language="F#" Value="abstract member RemoveAdorner : Microsoft.Maui.IAdorner -&gt; bool&#xA;override this.RemoveAdorner : Microsoft.Maui.IAdorner -&gt; bool" Usage="visualDiagnosticsOverlay.RemoveAdorner adorner" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool RemoveAdorner(Microsoft::Maui::IAdorner ^ adorner);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IVisualDiagnosticsOverlay.RemoveAdorner(Microsoft.Maui.IAdorner)</InterfaceMember>
@@ -298,8 +298,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveAdorners() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnosticsOverlay.RemoveAdorners" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveAdorners ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void RemoveAdorners();" />
       <MemberSignature Language="F#" Value="abstract member RemoveAdorners : unit -&gt; unit&#xA;override this.RemoveAdorners : unit -&gt; unit" Usage="visualDiagnosticsOverlay.RemoveAdorners " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void RemoveAdorners();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IVisualDiagnosticsOverlay.RemoveAdorners</InterfaceMember>
@@ -323,8 +323,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool RemoveAdorners(class Microsoft.Maui.IVisualTreeElement visualElement) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnosticsOverlay.RemoveAdorners(Microsoft.Maui.IVisualTreeElement)" />
       <MemberSignature Language="VB.NET" Value="Public Function RemoveAdorners (visualElement As IVisualTreeElement) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool RemoveAdorners(Microsoft::Maui::IVisualTreeElement ^ visualElement);" />
       <MemberSignature Language="F#" Value="abstract member RemoveAdorners : Microsoft.Maui.IVisualTreeElement -&gt; bool&#xA;override this.RemoveAdorners : Microsoft.Maui.IVisualTreeElement -&gt; bool" Usage="visualDiagnosticsOverlay.RemoveAdorners visualElement" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool RemoveAdorners(Microsoft::Maui::IVisualTreeElement ^ visualElement);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IVisualDiagnosticsOverlay.RemoveAdorners(Microsoft.Maui.IVisualTreeElement)</InterfaceMember>
@@ -352,8 +352,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveScrollableElementHandler() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnosticsOverlay.RemoveScrollableElementHandler" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveScrollableElementHandler ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void RemoveScrollableElementHandler();" />
       <MemberSignature Language="F#" Value="abstract member RemoveScrollableElementHandler : unit -&gt; unit&#xA;override this.RemoveScrollableElementHandler : unit -&gt; unit" Usage="visualDiagnosticsOverlay.RemoveScrollableElementHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void RemoveScrollableElementHandler();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IVisualDiagnosticsOverlay.RemoveScrollableElementHandler</InterfaceMember>
@@ -377,8 +377,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool RemoveWindowElement(class Microsoft.Maui.IWindowOverlayElement drawable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnosticsOverlay.RemoveWindowElement(Microsoft.Maui.IWindowOverlayElement)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function RemoveWindowElement (drawable As IWindowOverlayElement) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool RemoveWindowElement(Microsoft::Maui::IWindowOverlayElement ^ drawable);" />
       <MemberSignature Language="F#" Value="override this.RemoveWindowElement : Microsoft.Maui.IWindowOverlayElement -&gt; bool" Usage="visualDiagnosticsOverlay.RemoveWindowElement drawable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool RemoveWindowElement(Microsoft::Maui::IWindowOverlayElement ^ drawable);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IWindowOverlay.RemoveWindowElement(Microsoft.Maui.IWindowOverlayElement)</InterfaceMember>
@@ -406,8 +406,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void RemoveWindowElements() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnosticsOverlay.RemoveWindowElements" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub RemoveWindowElements ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void RemoveWindowElements();" />
       <MemberSignature Language="F#" Value="override this.RemoveWindowElements : unit -&gt; unit" Usage="visualDiagnosticsOverlay.RemoveWindowElements " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void RemoveWindowElements();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IWindowOverlay.RemoveWindowElements</InterfaceMember>
@@ -431,8 +431,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool ScrollToElement" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.VisualDiagnosticsOverlay.ScrollToElement" />
       <MemberSignature Language="VB.NET" Value="Public Property ScrollToElement As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ScrollToElement { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.ScrollToElement : bool with get, set" Usage="Microsoft.Maui.VisualDiagnosticsOverlay.ScrollToElement" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ScrollToElement { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IVisualDiagnosticsOverlay.ScrollToElement</InterfaceMember>
@@ -456,8 +456,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ScrollToView(class Microsoft.Maui.IVisualTreeElement element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.VisualDiagnosticsOverlay.ScrollToView(Microsoft.Maui.IVisualTreeElement)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ScrollToView (element As IVisualTreeElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ScrollToView(Microsoft::Maui::IVisualTreeElement ^ element);" />
       <MemberSignature Language="F#" Value="abstract member ScrollToView : Microsoft.Maui.IVisualTreeElement -&gt; unit&#xA;override this.ScrollToView : Microsoft.Maui.IVisualTreeElement -&gt; unit" Usage="visualDiagnosticsOverlay.ScrollToView element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ScrollToView(Microsoft::Maui::IVisualTreeElement ^ element);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IVisualDiagnosticsOverlay.ScrollToView(Microsoft.Maui.IVisualTreeElement)</InterfaceMember>
@@ -484,8 +484,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyCollection`1&lt;class Microsoft.Maui.IScrollView&gt; ScrollViews" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.VisualDiagnosticsOverlay.ScrollViews" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollViews As IReadOnlyCollection(Of IScrollView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyCollection&lt;Microsoft::Maui::IScrollView ^&gt; ^ ScrollViews { System::Collections::Generic::IReadOnlyCollection&lt;Microsoft::Maui::IScrollView ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ScrollViews : System.Collections.Generic.IReadOnlyCollection&lt;Microsoft.Maui.IScrollView&gt;" Usage="Microsoft.Maui.VisualDiagnosticsOverlay.ScrollViews" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyCollection&lt;Microsoft::Maui::IScrollView ^&gt; ^ ScrollViews { System::Collections::Generic::IReadOnlyCollection&lt;Microsoft::Maui::IScrollView ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IVisualDiagnosticsOverlay.ScrollViews</InterfaceMember>

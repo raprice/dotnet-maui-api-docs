@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MauiHandlersCollectionExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Hosting.MauiHandlersCollectionExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module MauiHandlersCollectionExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MauiHandlersCollectionExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type MauiHandlersCollectionExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MauiHandlersCollectionExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.IMauiHandlersCollection AddHandler(class Microsoft.Maui.Hosting.IMauiHandlersCollection handlersCollection, class System.Type viewType, class System.Type handlerType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Hosting.MauiHandlersCollectionExtensions.AddHandler(Microsoft.Maui.Hosting.IMauiHandlersCollection,System.Type,System.Type)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddHandler (handlersCollection As IMauiHandlersCollection, viewType As Type, handlerType As Type) As IMauiHandlersCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ AddHandler(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection, Type ^ viewType, Type ^ handlerType);" />
       <MemberSignature Language="F#" Value="static member AddHandler : Microsoft.Maui.Hosting.IMauiHandlersCollection * Type * Type -&gt; Microsoft.Maui.Hosting.IMauiHandlersCollection" Usage="Microsoft.Maui.Hosting.MauiHandlersCollectionExtensions.AddHandler (handlersCollection, viewType, handlerType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ AddHandler(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection, Type ^ viewType, Type ^ handlerType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -59,8 +59,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.IMauiHandlersCollection AddHandler&lt;(class Microsoft.Maui.IElement) TType, (class Microsoft.Maui.IElementHandler) TTypeRender&gt;(class Microsoft.Maui.Hosting.IMauiHandlersCollection handlersCollection) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Hosting.MauiHandlersCollectionExtensions.AddHandler``2(Microsoft.Maui.Hosting.IMauiHandlersCollection)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddHandler(Of TType As IElement, TTypeRender As IElement) (handlersCollection As IMauiHandlersCollection) As IMauiHandlersCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TType, typename TTypeRender&gt;&#xA; where TType : Microsoft::Maui::IElement where TTypeRender : Microsoft::Maui::IElementHandler[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ AddHandler(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection);" />
       <MemberSignature Language="F#" Value="static member AddHandler : Microsoft.Maui.Hosting.IMauiHandlersCollection -&gt; Microsoft.Maui.Hosting.IMauiHandlersCollection (requires 'ype :&gt; Microsoft.Maui.IElement and 'ypeRender :&gt; Microsoft.Maui.IElementHandler)" Usage="Microsoft.Maui.Hosting.MauiHandlersCollectionExtensions.AddHandler handlersCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TType, typename TTypeRender&gt;&#xA; where TType : Microsoft::Maui::IElement where TTypeRender : Microsoft::Maui::IElementHandler[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ AddHandler(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -104,8 +104,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.IMauiHandlersCollection TryAddHandler(class Microsoft.Maui.Hosting.IMauiHandlersCollection handlersCollection, class System.Type viewType, class System.Type handlerType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Hosting.MauiHandlersCollectionExtensions.TryAddHandler(Microsoft.Maui.Hosting.IMauiHandlersCollection,System.Type,System.Type)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function TryAddHandler (handlersCollection As IMauiHandlersCollection, viewType As Type, handlerType As Type) As IMauiHandlersCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ TryAddHandler(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection, Type ^ viewType, Type ^ handlerType);" />
       <MemberSignature Language="F#" Value="static member TryAddHandler : Microsoft.Maui.Hosting.IMauiHandlersCollection * Type * Type -&gt; Microsoft.Maui.Hosting.IMauiHandlersCollection" Usage="Microsoft.Maui.Hosting.MauiHandlersCollectionExtensions.TryAddHandler (handlersCollection, viewType, handlerType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ TryAddHandler(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection, Type ^ viewType, Type ^ handlerType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -140,8 +140,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.IMauiHandlersCollection TryAddHandler&lt;(class Microsoft.Maui.IView) TType, (class Microsoft.Maui.IViewHandler) TTypeRender&gt;(class Microsoft.Maui.Hosting.IMauiHandlersCollection handlersCollection) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Hosting.MauiHandlersCollectionExtensions.TryAddHandler``2(Microsoft.Maui.Hosting.IMauiHandlersCollection)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function TryAddHandler(Of TType As IView, TTypeRender As IView) (handlersCollection As IMauiHandlersCollection) As IMauiHandlersCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TType, typename TTypeRender&gt;&#xA; where TType : Microsoft::Maui::IView where TTypeRender : Microsoft::Maui::IViewHandler[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ TryAddHandler(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection);" />
       <MemberSignature Language="F#" Value="static member TryAddHandler : Microsoft.Maui.Hosting.IMauiHandlersCollection -&gt; Microsoft.Maui.Hosting.IMauiHandlersCollection (requires 'ype :&gt; Microsoft.Maui.IView and 'ypeRender :&gt; Microsoft.Maui.IViewHandler)" Usage="Microsoft.Maui.Hosting.MauiHandlersCollectionExtensions.TryAddHandler handlersCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TType, typename TTypeRender&gt;&#xA; where TType : Microsoft::Maui::IView where TTypeRender : Microsoft::Maui::IViewHandler[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::IMauiHandlersCollection ^ TryAddHandler(Microsoft::Maui::Hosting::IMauiHandlersCollection ^ handlersCollection);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

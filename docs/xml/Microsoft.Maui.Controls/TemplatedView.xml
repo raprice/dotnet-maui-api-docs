@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TemplatedView extends Microsoft.Maui.Controls.Compatibility.Layout implements class Microsoft.Maui.IContentView, class Microsoft.Maui.IElement, class Microsoft.Maui.IPadding, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.TemplatedView" />
   <TypeSignature Language="VB.NET" Value="Public Class TemplatedView&#xA;Inherits Layout&#xA;Implements IContentView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TemplatedView : Microsoft::Maui::Controls::Compatibility::Layout, Microsoft::Maui::IContentView" />
   <TypeSignature Language="F#" Value="type TemplatedView = class&#xA;    inherit Layout&#xA;    interface IContentView&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IPadding" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TemplatedView : Microsoft::Maui::Controls::Compatibility::Layout, Microsoft::Maui::IContentView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -56,8 +56,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size ArrangeOverride(valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TemplatedView.ArrangeOverride(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function ArrangeOverride (bounds As Rect) As Size" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size ArrangeOverride(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberSignature Language="F#" Value="override this.ArrangeOverride : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size" Usage="templatedView.ArrangeOverride bounds" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size ArrangeOverride(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -81,8 +81,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ControlTemplate ControlTemplate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TemplatedView.ControlTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property ControlTemplate As ControlTemplate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ControlTemplate ^ ControlTemplate { Microsoft::Maui::Controls::ControlTemplate ^ get(); void set(Microsoft::Maui::Controls::ControlTemplate ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ControlTemplate : Microsoft.Maui.Controls.ControlTemplate with get, set" Usage="Microsoft.Maui.Controls.TemplatedView.ControlTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ControlTemplate ^ ControlTemplate { Microsoft::Maui::Controls::ControlTemplate ^ get(); void set(Microsoft::Maui::Controls::ControlTemplate ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ControlTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TemplatedView.ControlTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ControlTemplateProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ControlTemplateProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlTemplateProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TemplatedView.ControlTemplateProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ControlTemplateProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -122,8 +122,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance object GetTemplateChild(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TemplatedView.GetTemplateChild(System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function GetTemplateChild (name As String) As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; System::Object ^ GetTemplateChild(System::String ^ name);" />
       <MemberSignature Language="F#" Value="member this.GetTemplateChild : string -&gt; obj" Usage="templatedView.GetTemplateChild name" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; System::Object ^ GetTemplateChild(System::String ^ name);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -147,8 +147,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void LayoutChildren(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TemplatedView.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub LayoutChildren (x As Double, y As Double, width As Double, height As Double)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void LayoutChildren(double x, double y, double width, double height);" />
       <MemberSignature Language="F#" Value="override this.LayoutChildren : double * double * double * double -&gt; unit" Usage="templatedView.LayoutChildren (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void LayoutChildren(double x, double y, double width, double height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -177,8 +177,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.Maui.Graphics.Size MeasureOverride(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TemplatedView.MeasureOverride(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function MeasureOverride (widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size MeasureOverride(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="override this.MeasureOverride : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="templatedView.MeasureOverride (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Graphics::Size MeasureOverride(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -204,8 +204,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.IContentView.Content" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TemplatedView.Microsoft#Maui#IContentView#Content" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Content As Object Implements IContentView.Content" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::IContentView::Content { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IContentView.Content : obj" Usage="Microsoft.Maui.IContentView.Content" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::IContentView::Content { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IContentView.Content</InterfaceMember>
@@ -228,8 +228,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance valuetype Microsoft.Maui.Graphics.Size Microsoft.Maui.IContentView.CrossPlatformArrange(valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TemplatedView.Microsoft#Maui#IContentView#CrossPlatformArrange(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Function CrossPlatformArrange (bounds As Rect) As Size Implements IContentView.CrossPlatformArrange" />
-      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Graphics::Size Microsoft.Maui.IContentView.CrossPlatformArrange(Microsoft::Maui::Graphics::Rect bounds) = Microsoft::Maui::IContentView::CrossPlatformArrange;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IContentView.CrossPlatformArrange : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size&#xA;override this.Microsoft.Maui.IContentView.CrossPlatformArrange : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size" Usage="templatedView.Microsoft.Maui.IContentView.CrossPlatformArrange bounds" />
+      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Graphics::Size Microsoft.Maui.IContentView.CrossPlatformArrange(Microsoft::Maui::Graphics::Rect bounds) = Microsoft::Maui::IContentView::CrossPlatformArrange;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IContentView.CrossPlatformArrange(Microsoft.Maui.Graphics.Rect)</InterfaceMember>
@@ -256,8 +256,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance valuetype Microsoft.Maui.Graphics.Size Microsoft.Maui.IContentView.CrossPlatformMeasure(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TemplatedView.Microsoft#Maui#IContentView#CrossPlatformMeasure(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Function CrossPlatformMeasure (widthConstraint As Double, heightConstraint As Double) As Size Implements IContentView.CrossPlatformMeasure" />
-      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Graphics::Size Microsoft.Maui.IContentView.CrossPlatformMeasure(double widthConstraint, double heightConstraint) = Microsoft::Maui::IContentView::CrossPlatformMeasure;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IContentView.CrossPlatformMeasure : double * double -&gt; Microsoft.Maui.Graphics.Size&#xA;override this.Microsoft.Maui.IContentView.CrossPlatformMeasure : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="templatedView.Microsoft.Maui.IContentView.CrossPlatformMeasure (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Graphics::Size Microsoft.Maui.IContentView.CrossPlatformMeasure(double widthConstraint, double heightConstraint) = Microsoft::Maui::IContentView::CrossPlatformMeasure;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IContentView.CrossPlatformMeasure(System.Double,System.Double)</InterfaceMember>
@@ -286,8 +286,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Microsoft.Maui.IContentView.PresentedContent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TemplatedView.Microsoft#Maui#IContentView#PresentedContent" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PresentedContent As IView Implements IContentView.PresentedContent" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IContentView::PresentedContent { Microsoft::Maui::IView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IContentView.PresentedContent : Microsoft.Maui.IView" Usage="Microsoft.Maui.IContentView.PresentedContent" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IView ^ Microsoft::Maui::IContentView::PresentedContent { Microsoft::Maui::IView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IContentView.PresentedContent</InterfaceMember>
@@ -310,8 +310,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnApplyTemplate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TemplatedView.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnApplyTemplate ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnApplyTemplate();" />
       <MemberSignature Language="F#" Value="abstract member OnApplyTemplate : unit -&gt; unit&#xA;override this.OnApplyTemplate : unit -&gt; unit" Usage="templatedView.OnApplyTemplate " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnApplyTemplate();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -331,8 +331,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildRemoved(class Microsoft.Maui.Controls.Element child, int32 oldLogicalIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TemplatedView.OnChildRemoved(Microsoft.Maui.Controls.Element,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnChildRemoved (child As Element, oldLogicalIndex As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnChildRemoved(Microsoft::Maui::Controls::Element ^ child, int oldLogicalIndex);" />
       <MemberSignature Language="F#" Value="override this.OnChildRemoved : Microsoft.Maui.Controls.Element * int -&gt; unit" Usage="templatedView.OnChildRemoved (child, oldLogicalIndex)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnChildRemoved(Microsoft::Maui::Controls::Element ^ child, int oldLogicalIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -357,8 +357,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.Maui.SizeRequest OnMeasure(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TemplatedView.OnMeasure(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnMeasure (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::SizeRequest OnMeasure(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="override this.OnMeasure : double * double -&gt; Microsoft.Maui.SizeRequest" Usage="templatedView.OnMeasure (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::SizeRequest OnMeasure(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -384,8 +384,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.ControlTemplate ResolveControlTemplate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TemplatedView.ResolveControlTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ResolveControlTemplate () As ControlTemplate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Maui::Controls::ControlTemplate ^ ResolveControlTemplate();" />
       <MemberSignature Language="F#" Value="abstract member ResolveControlTemplate : unit -&gt; Microsoft.Maui.Controls.ControlTemplate&#xA;override this.ResolveControlTemplate : unit -&gt; Microsoft.Maui.Controls.ControlTemplate" Usage="templatedView.ResolveControlTemplate " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Maui::Controls::ControlTemplate ^ ResolveControlTemplate();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

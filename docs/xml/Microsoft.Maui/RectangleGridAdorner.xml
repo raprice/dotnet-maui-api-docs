@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RectangleGridAdorner extends Microsoft.Maui.RectangleAdorner" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.RectangleGridAdorner" />
   <TypeSignature Language="VB.NET" Value="Public Class RectangleGridAdorner&#xA;Inherits RectangleAdorner" />
-  <TypeSignature Language="C++ CLI" Value="public ref class RectangleGridAdorner : Microsoft::Maui::RectangleAdorner" />
   <TypeSignature Language="F#" Value="type RectangleGridAdorner = class&#xA;    inherit RectangleAdorner" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RectangleGridAdorner : Microsoft::Maui::RectangleAdorner" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -55,8 +55,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Draw(class Microsoft.Maui.Graphics.ICanvas canvas, valuetype Microsoft.Maui.Graphics.RectF dirtyRect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.RectangleGridAdorner.Draw(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Draw (canvas As ICanvas, dirtyRect As RectF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Draw(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::RectF dirtyRect);" />
       <MemberSignature Language="F#" Value="override this.Draw : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF -&gt; unit" Usage="rectangleGridAdorner.Draw (canvas, dirtyRect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Draw(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::RectF dirtyRect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

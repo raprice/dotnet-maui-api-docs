@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SkiaImage extends System.Object implements class Microsoft.Maui.Graphics.IDrawable, class Microsoft.Maui.Graphics.IImage, class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.Skia.SkiaImage" />
   <TypeSignature Language="VB.NET" Value="Public Class SkiaImage&#xA;Implements IDisposable, IImage" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SkiaImage : IDisposable, Microsoft::Maui::Graphics::IImage" />
   <TypeSignature Language="F#" Value="type SkiaImage = class&#xA;    interface IImage&#xA;    interface IDrawable&#xA;    interface IDisposable" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SkiaImage : IDisposable, Microsoft::Maui::Graphics::IImage" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class SkiaSharp.SKBitmap image) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaImage.#ctor(SkiaSharp.SKBitmap)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (image As SKBitmap)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; SkiaImage(SkiaSharp::SKBitmap ^ image);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Graphics.Skia.SkiaImage : SkiaSharp.SKBitmap -&gt; Microsoft.Maui.Graphics.Skia.SkiaImage" Usage="new Microsoft.Maui.Graphics.Skia.SkiaImage image" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SkiaImage(SkiaSharp::SKBitmap ^ image);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaImage.Dispose" />
       <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="skiaImage.Dispose " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
@@ -138,8 +138,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Draw(class Microsoft.Maui.Graphics.ICanvas canvas, valuetype Microsoft.Maui.Graphics.RectF dirtyRect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaImage.Draw(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Draw (canvas As ICanvas, dirtyRect As RectF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Draw(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::RectF dirtyRect);" />
       <MemberSignature Language="F#" Value="abstract member Draw : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF -&gt; unit&#xA;override this.Draw : Microsoft.Maui.Graphics.ICanvas * Microsoft.Maui.Graphics.RectF -&gt; unit" Usage="skiaImage.Draw (canvas, dirtyRect)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Draw(Microsoft::Maui::Graphics::ICanvas ^ canvas, Microsoft::Maui::Graphics::RectF dirtyRect);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Graphics.IDrawable.Draw(Microsoft.Maui.Graphics.ICanvas,Microsoft.Maui.Graphics.RectF)</InterfaceMember>
@@ -193,8 +193,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 Height" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaImage.Height" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Height { float get(); };" />
       <MemberSignature Language="F#" Value="member this.Height : single" Usage="Microsoft.Maui.Graphics.Skia.SkiaImage.Height" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Height { float get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Graphics.IImage.Height</InterfaceMember>
@@ -217,8 +217,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class SkiaSharp.SKBitmap PlatformRepresentation" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaImage.PlatformRepresentation" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PlatformRepresentation As SKBitmap" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property SkiaSharp::SKBitmap ^ PlatformRepresentation { SkiaSharp::SKBitmap ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.PlatformRepresentation : SkiaSharp.SKBitmap" Usage="Microsoft.Maui.Graphics.Skia.SkiaImage.PlatformRepresentation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property SkiaSharp::SKBitmap ^ PlatformRepresentation { SkiaSharp::SKBitmap ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -338,8 +338,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Graphics.IImage ToPlatformImage() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaImage.ToPlatformImage" />
       <MemberSignature Language="VB.NET" Value="Public Function ToPlatformImage () As IImage" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Maui::Graphics::IImage ^ ToPlatformImage();" />
       <MemberSignature Language="F#" Value="abstract member ToPlatformImage : unit -&gt; Microsoft.Maui.Graphics.IImage&#xA;override this.ToPlatformImage : unit -&gt; Microsoft.Maui.Graphics.IImage" Usage="skiaImage.ToPlatformImage " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Maui::Graphics::IImage ^ ToPlatformImage();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Graphics.IImage.ToPlatformImage</InterfaceMember>
@@ -363,8 +363,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 Width" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaImage.Width" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Width { float get(); };" />
       <MemberSignature Language="F#" Value="member this.Width : single" Usage="Microsoft.Maui.Graphics.Skia.SkiaImage.Width" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Width { float get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Graphics.IImage.Width</InterfaceMember>

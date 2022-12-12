@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ItemsViewHandler`1&lt;(class Microsoft.Maui.Controls.ItemsView) TItemsView&gt; extends Microsoft.Maui.Handlers.ViewHandler`2&lt;!TItemsView, object&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ItemsViewHandler(Of TItemsView)&#xA;Inherits ViewHandler(Of TItemsView, Object)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TItemsView&gt;&#xA; where TItemsView : ItemsViewpublic ref class ItemsViewHandler abstract : Microsoft::Maui::Handlers::ViewHandler&lt;TItemsView, System::Object ^&gt;" />
   <TypeSignature Language="F#" Value="type ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; ItemsView)&gt; = class&#xA;    inherit ViewHandler&lt;'ItemsView, obj (requires 'ItemsView :&gt; ItemsView)&gt;" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TItemsView&gt;&#xA; where TItemsView : ItemsViewpublic ref class ItemsViewHandler abstract : Microsoft::Maui::Handlers::ViewHandler&lt;TItemsView, System::Object ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -72,8 +72,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="itemsViewHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -94,8 +94,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.PropertyMapper`2&lt;!TItemsView, class Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1&lt;!TItemsView&gt;&gt; ItemsViewMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1.ItemsViewMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ItemsViewMapper As PropertyMapper(Of TItemsView, ItemsViewHandler(Of TItemsView)) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::PropertyMapper&lt;TItemsView, Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^&gt; ^ ItemsViewMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ItemsViewMapper : Microsoft.Maui.PropertyMapper&lt;'ItemsView, Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView&gt; (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt;" Usage="Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt;.ItemsViewMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::PropertyMapper&lt;TItemsView, Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^&gt; ^ ItemsViewMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -114,8 +114,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapEmptyView(class Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1&lt;!TItemsView&gt; handler, class Microsoft.Maui.Controls.ItemsView itemsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1.MapEmptyView(Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler{`0},Microsoft.Maui.Controls.ItemsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapEmptyView (handler As ItemsViewHandler(Of TItemsView), itemsView As ItemsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapEmptyView(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberSignature Language="F#" Value="static member MapEmptyView : Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt; * Microsoft.Maui.Controls.ItemsView -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt;.MapEmptyView (handler, itemsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapEmptyView(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -140,8 +140,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapEmptyViewTemplate(class Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1&lt;!TItemsView&gt; handler, class Microsoft.Maui.Controls.ItemsView itemsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1.MapEmptyViewTemplate(Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler{`0},Microsoft.Maui.Controls.ItemsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapEmptyViewTemplate (handler As ItemsViewHandler(Of TItemsView), itemsView As ItemsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapEmptyViewTemplate(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberSignature Language="F#" Value="static member MapEmptyViewTemplate : Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt; * Microsoft.Maui.Controls.ItemsView -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt;.MapEmptyViewTemplate (handler, itemsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapEmptyViewTemplate(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -166,8 +166,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapFlowDirection(class Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1&lt;!TItemsView&gt; handler, class Microsoft.Maui.Controls.ItemsView itemsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1.MapFlowDirection(Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler{`0},Microsoft.Maui.Controls.ItemsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapFlowDirection (handler As ItemsViewHandler(Of TItemsView), itemsView As ItemsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFlowDirection(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberSignature Language="F#" Value="static member MapFlowDirection : Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt; * Microsoft.Maui.Controls.ItemsView -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt;.MapFlowDirection (handler, itemsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFlowDirection(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -192,8 +192,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapHorizontalScrollBarVisibility(class Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1&lt;!TItemsView&gt; handler, class Microsoft.Maui.Controls.ItemsView itemsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1.MapHorizontalScrollBarVisibility(Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler{`0},Microsoft.Maui.Controls.ItemsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapHorizontalScrollBarVisibility (handler As ItemsViewHandler(Of TItemsView), itemsView As ItemsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHorizontalScrollBarVisibility(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberSignature Language="F#" Value="static member MapHorizontalScrollBarVisibility : Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt; * Microsoft.Maui.Controls.ItemsView -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt;.MapHorizontalScrollBarVisibility (handler, itemsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHorizontalScrollBarVisibility(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -218,8 +218,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsVisible(class Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1&lt;!TItemsView&gt; handler, class Microsoft.Maui.Controls.ItemsView itemsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1.MapIsVisible(Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler{`0},Microsoft.Maui.Controls.ItemsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsVisible (handler As ItemsViewHandler(Of TItemsView), itemsView As ItemsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsVisible(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberSignature Language="F#" Value="static member MapIsVisible : Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt; * Microsoft.Maui.Controls.ItemsView -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt;.MapIsVisible (handler, itemsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsVisible(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -244,8 +244,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapItemsSource(class Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1&lt;!TItemsView&gt; handler, class Microsoft.Maui.Controls.ItemsView itemsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1.MapItemsSource(Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler{`0},Microsoft.Maui.Controls.ItemsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapItemsSource (handler As ItemsViewHandler(Of TItemsView), itemsView As ItemsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapItemsSource(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberSignature Language="F#" Value="static member MapItemsSource : Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt; * Microsoft.Maui.Controls.ItemsView -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt;.MapItemsSource (handler, itemsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapItemsSource(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -270,8 +270,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapItemsUpdatingScrollMode(class Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1&lt;!TItemsView&gt; handler, class Microsoft.Maui.Controls.ItemsView itemsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1.MapItemsUpdatingScrollMode(Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler{`0},Microsoft.Maui.Controls.ItemsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapItemsUpdatingScrollMode (handler As ItemsViewHandler(Of TItemsView), itemsView As ItemsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapItemsUpdatingScrollMode(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberSignature Language="F#" Value="static member MapItemsUpdatingScrollMode : Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt; * Microsoft.Maui.Controls.ItemsView -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt;.MapItemsUpdatingScrollMode (handler, itemsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapItemsUpdatingScrollMode(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -296,8 +296,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapItemTemplate(class Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1&lt;!TItemsView&gt; handler, class Microsoft.Maui.Controls.ItemsView itemsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1.MapItemTemplate(Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler{`0},Microsoft.Maui.Controls.ItemsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapItemTemplate (handler As ItemsViewHandler(Of TItemsView), itemsView As ItemsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapItemTemplate(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberSignature Language="F#" Value="static member MapItemTemplate : Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt; * Microsoft.Maui.Controls.ItemsView -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt;.MapItemTemplate (handler, itemsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapItemTemplate(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -322,8 +322,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapVerticalScrollBarVisibility(class Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1&lt;!TItemsView&gt; handler, class Microsoft.Maui.Controls.ItemsView itemsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler`1.MapVerticalScrollBarVisibility(Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler{`0},Microsoft.Maui.Controls.ItemsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapVerticalScrollBarVisibility (handler As ItemsViewHandler(Of TItemsView), itemsView As ItemsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapVerticalScrollBarVisibility(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberSignature Language="F#" Value="static member MapVerticalScrollBarVisibility : Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt; * Microsoft.Maui.Controls.ItemsView -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ItemsView)&gt;.MapVerticalScrollBarVisibility (handler, itemsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapVerticalScrollBarVisibility(Microsoft::Maui::Controls::Handlers::Items::ItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ItemsView ^ itemsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

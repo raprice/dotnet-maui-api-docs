@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract INativeElementView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Compatibility.INativeElementView" />
   <TypeSignature Language="VB.NET" Value="Public Interface INativeElementView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class INativeElementView" />
   <TypeSignature Language="F#" Value="type INativeElementView = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class INativeElementView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Element Element" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Compatibility.INativeElementView.Element" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Element As Element" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Element ^ Element { Microsoft::Maui::Controls::Element ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Element : Microsoft.Maui.Controls.Element" Usage="Microsoft.Maui.Controls.Compatibility.INativeElementView.Element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Element ^ Element { Microsoft::Maui::Controls::Element ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Page extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page" />
   <TypeSignature Language="VB.NET" Value="Public Module Page" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Page abstract sealed" />
   <TypeSignature Language="F#" Value="type Page = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Page abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetToolbarDynamicOverflowEnabled(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.GetToolbarDynamicOverflowEnabled(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetToolbarDynamicOverflowEnabled (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetToolbarDynamicOverflowEnabled(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetToolbarDynamicOverflowEnabled : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.GetToolbarDynamicOverflowEnabled element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetToolbarDynamicOverflowEnabled(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetToolbarDynamicOverflowEnabled(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.Page&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.GetToolbarDynamicOverflowEnabled(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.Page})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetToolbarDynamicOverflowEnabled (config As IPlatformElementConfiguration(Of Windows, Page)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetToolbarDynamicOverflowEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetToolbarDynamicOverflowEnabled : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.Page&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.GetToolbarDynamicOverflowEnabled config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetToolbarDynamicOverflowEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement GetToolbarPlacement(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.GetToolbarPlacement(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetToolbarPlacement (element As BindableObject) As ToolbarPlacement" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ToolbarPlacement GetToolbarPlacement(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetToolbarPlacement : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.GetToolbarPlacement element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ToolbarPlacement GetToolbarPlacement(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -98,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement GetToolbarPlacement(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.Page&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.GetToolbarPlacement(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.Page})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetToolbarPlacement (config As IPlatformElementConfiguration(Of Windows, Page)) As ToolbarPlacement" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ToolbarPlacement GetToolbarPlacement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetToolbarPlacement : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.Page&gt; -&gt; Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.GetToolbarPlacement config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ToolbarPlacement GetToolbarPlacement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::Page ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -123,8 +123,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetToolbarDynamicOverflowEnabled(class Microsoft.Maui.Controls.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.SetToolbarDynamicOverflowEnabled(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetToolbarDynamicOverflowEnabled (element As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetToolbarDynamicOverflowEnabled(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetToolbarDynamicOverflowEnabled : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.SetToolbarDynamicOverflowEnabled (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetToolbarDynamicOverflowEnabled(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -149,8 +149,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.Page&gt; SetToolbarDynamicOverflowEnabled(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.Page&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.SetToolbarDynamicOverflowEnabled(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.Page},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetToolbarDynamicOverflowEnabled (config As IPlatformElementConfiguration(Of Windows, Page), value As Boolean) As IPlatformElementConfiguration(Of Windows, Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetToolbarDynamicOverflowEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetToolbarDynamicOverflowEnabled : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.Page&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.SetToolbarDynamicOverflowEnabled (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetToolbarDynamicOverflowEnabled(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -176,8 +176,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetToolbarPlacement(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement toolbarPlacement) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.SetToolbarPlacement(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetToolbarPlacement (element As BindableObject, toolbarPlacement As ToolbarPlacement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetToolbarPlacement(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ToolbarPlacement toolbarPlacement);" />
       <MemberSignature Language="F#" Value="static member SetToolbarPlacement : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.SetToolbarPlacement (element, toolbarPlacement)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetToolbarPlacement(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ToolbarPlacement toolbarPlacement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -202,8 +202,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.Page&gt; SetToolbarPlacement(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Windows, class Microsoft.Maui.Controls.Page&gt; config, valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.SetToolbarPlacement(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Windows,Microsoft.Maui.Controls.Page},Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetToolbarPlacement (config As IPlatformElementConfiguration(Of Windows, Page), value As ToolbarPlacement) As IPlatformElementConfiguration(Of Windows, Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetToolbarPlacement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ToolbarPlacement value);" />
       <MemberSignature Language="F#" Value="static member SetToolbarPlacement : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.Page&gt; * Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Windows, Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.SetToolbarPlacement (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::Page ^&gt; ^ SetToolbarPlacement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Windows ^, Microsoft::Maui::Controls::Page ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::WindowsSpecific::ToolbarPlacement value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -229,8 +229,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ToolbarDynamicOverflowEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.ToolbarDynamicOverflowEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly ToolbarDynamicOverflowEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ToolbarDynamicOverflowEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ToolbarDynamicOverflowEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.ToolbarDynamicOverflowEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ToolbarDynamicOverflowEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -249,8 +249,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ToolbarPlacementProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.ToolbarPlacementProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly ToolbarPlacementProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ToolbarPlacementProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ToolbarPlacementProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.Page.ToolbarPlacementProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ToolbarPlacementProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

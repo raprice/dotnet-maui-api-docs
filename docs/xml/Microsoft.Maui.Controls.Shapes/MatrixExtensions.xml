@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MatrixExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.MatrixExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module MatrixExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MatrixExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type MatrixExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MatrixExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.Shapes.Matrix ToMatrix(valuetype System.Numerics.Matrix3x2 matrix3x2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.MatrixExtensions.ToMatrix(System.Numerics.Matrix3x2)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToMatrix (matrix3x2 As Matrix3x2) As Matrix" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::Shapes::Matrix ToMatrix(System::Numerics::Matrix3x2 matrix3x2);" />
       <MemberSignature Language="F#" Value="static member ToMatrix : System.Numerics.Matrix3x2 -&gt; Microsoft.Maui.Controls.Shapes.Matrix" Usage="Microsoft.Maui.Controls.Shapes.MatrixExtensions.ToMatrix matrix3x2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::Shapes::Matrix ToMatrix(System::Numerics::Matrix3x2 matrix3x2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Matrix3x2 ToMatrix3X2(valuetype Microsoft.Maui.Controls.Shapes.Matrix matrix) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.MatrixExtensions.ToMatrix3X2(Microsoft.Maui.Controls.Shapes.Matrix)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToMatrix3X2 (matrix As Matrix) As Matrix3x2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Numerics::Matrix3x2 ToMatrix3X2(Microsoft::Maui::Controls::Shapes::Matrix matrix);" />
       <MemberSignature Language="F#" Value="static member ToMatrix3X2 : Microsoft.Maui.Controls.Shapes.Matrix -&gt; System.Numerics.Matrix3x2" Usage="Microsoft.Maui.Controls.Shapes.MatrixExtensions.ToMatrix3X2 matrix" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Numerics::Matrix3x2 ToMatrix3X2(Microsoft::Maui::Controls::Shapes::Matrix matrix);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

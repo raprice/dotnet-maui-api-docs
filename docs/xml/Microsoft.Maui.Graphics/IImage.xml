@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IImage implements class Microsoft.Maui.Graphics.IDrawable, class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.IImage" />
   <TypeSignature Language="VB.NET" Value="Public Interface IImage&#xA;Implements IDisposable, IDrawable" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IImage : IDisposable, Microsoft::Maui::Graphics::IDrawable" />
   <TypeSignature Language="F#" Value="type IImage = interface&#xA;    interface IDrawable&#xA;    interface IDisposable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IImage : IDisposable, Microsoft::Maui::Graphics::IDrawable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -81,8 +81,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 Height" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.IImage.Height" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Height { float get(); };" />
       <MemberSignature Language="F#" Value="member this.Height : single" Usage="Microsoft.Maui.Graphics.IImage.Height" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Height { float get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -187,8 +187,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Graphics.IImage ToPlatformImage() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.IImage.ToPlatformImage" />
       <MemberSignature Language="VB.NET" Value="Public Function ToPlatformImage () As IImage" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::IImage ^ ToPlatformImage();" />
       <MemberSignature Language="F#" Value="abstract member ToPlatformImage : unit -&gt; Microsoft.Maui.Graphics.IImage" Usage="iImage.ToPlatformImage " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::IImage ^ ToPlatformImage();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -209,8 +209,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 Width" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.IImage.Width" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Width { float get(); };" />
       <MemberSignature Language="F#" Value="member this.Width : single" Usage="Microsoft.Maui.Graphics.IImage.Width" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Width { float get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

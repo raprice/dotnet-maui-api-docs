@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Picker extends Microsoft.Maui.Controls.View implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.Picker&gt;, class Microsoft.Maui.Controls.Internals.IFontElement, class Microsoft.Maui.IElement, class Microsoft.Maui.IItemDelegate`1&lt;string&gt;, class Microsoft.Maui.IPicker, class Microsoft.Maui.ITextAlignment, class Microsoft.Maui.ITextStyle, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Picker" />
   <TypeSignature Language="VB.NET" Value="Public Class Picker&#xA;Inherits View&#xA;Implements IElementConfiguration(Of Picker), IFontElement, IItemDelegate(Of String), IPicker" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Picker : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Picker ^&gt;, Microsoft::Maui::Controls::Internals::IFontElement, Microsoft::Maui::IItemDelegate&lt;System::String ^&gt;, Microsoft::Maui::IPicker" />
   <TypeSignature Language="F#" Value="type Picker = class&#xA;    inherit View&#xA;    interface IPicker&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface ITextStyle&#xA;    interface ITextAlignment&#xA;    interface IItemDelegate&lt;string&gt;&#xA;    interface IFontElement&#xA;    interface IElementConfiguration&lt;Picker&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Picker : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Picker ^&gt;, Microsoft::Maui::Controls::Internals::IFontElement, Microsoft::Maui::IItemDelegate&lt;System::String ^&gt;, Microsoft::Maui::IPicker" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -157,8 +157,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance float64 CharacterSpacing" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.CharacterSpacing" />
       <MemberSignature Language="VB.NET" Value="Public Property CharacterSpacing As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double CharacterSpacing { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.CharacterSpacing : double with get, set" Usage="Microsoft.Maui.Controls.Picker.CharacterSpacing" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double CharacterSpacing { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -178,8 +178,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CharacterSpacingProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.CharacterSpacingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CharacterSpacingProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CharacterSpacingProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CharacterSpacingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Picker.CharacterSpacingProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CharacterSpacingProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -198,8 +198,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IPicker, class Microsoft.Maui.Handlers.PickerHandler&gt; ControlsPickerMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.ControlsPickerMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ControlsPickerMapper As IPropertyMapper(Of IPicker, PickerHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IPicker ^, Microsoft::Maui::Handlers::PickerHandler ^&gt; ^ ControlsPickerMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlsPickerMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IPicker, Microsoft.Maui.Handlers.PickerHandler&gt;" Usage="Microsoft.Maui.Controls.Picker.ControlsPickerMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IPicker ^, Microsoft::Maui::Handlers::PickerHandler ^&gt; ^ ControlsPickerMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -218,8 +218,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.FontAttributes FontAttributes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.FontAttributes" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAttributes As FontAttributes" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); void set(Microsoft::Maui::Controls::FontAttributes value); };" />
       <MemberSignature Language="F#" Value="member this.FontAttributes : Microsoft.Maui.Controls.FontAttributes with get, set" Usage="Microsoft.Maui.Controls.Picker.FontAttributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); void set(Microsoft::Maui::Controls::FontAttributes value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -239,8 +239,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAttributesProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.FontAttributesProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAttributesProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAttributesProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontAttributesProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Picker.FontAttributesProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAttributesProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -259,8 +259,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool FontAutoScalingEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.FontAutoScalingEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAutoScalingEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.FontAutoScalingEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.Picker.FontAutoScalingEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -280,8 +280,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAutoScalingEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.FontAutoScalingEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAutoScalingEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAutoScalingEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontAutoScalingEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Picker.FontAutoScalingEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAutoScalingEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -300,8 +300,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance string FontFamily" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.FontFamily" />
       <MemberSignature Language="VB.NET" Value="Public Property FontFamily As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FontFamily : string with get, set" Usage="Microsoft.Maui.Controls.Picker.FontFamily" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -321,8 +321,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontFamilyProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.FontFamilyProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontFamilyProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontFamilyProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontFamilyProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Picker.FontFamilyProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontFamilyProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -341,8 +341,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance float64 FontSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.FontSize" />
       <MemberSignature Language="VB.NET" Value="Public Property FontSize As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.FontSize : double with get, set" Usage="Microsoft.Maui.Controls.Picker.FontSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -368,8 +368,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontSizeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.FontSizeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontSizeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontSizeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontSizeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Picker.FontSizeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontSizeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -388,8 +388,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextAlignment HorizontalTextAlignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.HorizontalTextAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalTextAlignment As TextAlignment" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment HorizontalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberSignature Language="F#" Value="member this.HorizontalTextAlignment : Microsoft.Maui.TextAlignment with get, set" Usage="Microsoft.Maui.Controls.Picker.HorizontalTextAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment HorizontalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -409,8 +409,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HorizontalTextAlignmentProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.HorizontalTextAlignmentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HorizontalTextAlignmentProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HorizontalTextAlignmentProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HorizontalTextAlignmentProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Picker.HorizontalTextAlignmentProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HorizontalTextAlignmentProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -429,8 +429,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.BindingBase ItemDisplayBinding" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.ItemDisplayBinding" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemDisplayBinding As BindingBase" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindingBase ^ ItemDisplayBinding { Microsoft::Maui::Controls::BindingBase ^ get(); void set(Microsoft::Maui::Controls::BindingBase ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ItemDisplayBinding : Microsoft.Maui.Controls.BindingBase with get, set" Usage="Microsoft.Maui.Controls.Picker.ItemDisplayBinding" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindingBase ^ ItemDisplayBinding { Microsoft::Maui::Controls::BindingBase ^ get(); void set(Microsoft::Maui::Controls::BindingBase ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -450,8 +450,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Items" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.Items" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Items As IList(Of String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ Items { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Items : System.Collections.Generic.IList&lt;string&gt;" Usage="Microsoft.Maui.Controls.Picker.Items" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ Items { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -471,8 +471,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.IList ItemsSource" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.ItemsSource" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemsSource As IList" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::IList ^ ItemsSource { System::Collections::IList ^ get(); void set(System::Collections::IList ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ItemsSource : System.Collections.IList with get, set" Usage="Microsoft.Maui.Controls.Picker.ItemsSource" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::IList ^ ItemsSource { System::Collections::IList ^ get(); void set(System::Collections::IList ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -492,8 +492,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ItemsSourceProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.ItemsSourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemsSourceProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemsSourceProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ItemsSourceProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Picker.ItemsSourceProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemsSourceProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -512,8 +512,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance float64 Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Picker.Microsoft#Maui#Controls#Internals#IFontElement#FontSizeDefaultValueCreator" />
       <MemberSignature Language="VB.NET" Value="Function FontSizeDefaultValueCreator () As Double Implements IFontElement.FontSizeDefaultValueCreator" />
-      <MemberSignature Language="C++ CLI" Value=" virtual double Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() = Microsoft::Maui::Controls::Internals::IFontElement::FontSizeDefaultValueCreator;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double" Usage="picker.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator " />
+      <MemberSignature Language="C++ CLI" Value=" virtual double Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() = Microsoft::Maui::Controls::Internals::IFontElement::FontSizeDefaultValueCreator;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator</InterfaceMember>
@@ -537,8 +537,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(valuetype Microsoft.Maui.Controls.FontAttributes oldValue, valuetype Microsoft.Maui.Controls.FontAttributes newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Picker.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAttributesChanged (oldValue As FontAttributes, newValue As FontAttributes) Implements IFontElement.OnFontAttributesChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAttributesChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit" Usage="picker.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAttributesChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)</InterfaceMember>
@@ -566,8 +566,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Picker.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAutoScalingEnabledChanged (oldValue As Boolean, newValue As Boolean) Implements IFontElement.OnFontAutoScalingEnabledChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAutoScalingEnabledChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit" Usage="picker.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAutoScalingEnabledChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)</InterfaceMember>
@@ -595,8 +595,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(string oldValue, string newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Picker.Microsoft#Maui#Controls#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontFamilyChanged (oldValue As String, newValue As String) Implements IFontElement.OnFontFamilyChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontFamilyChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit" Usage="picker.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontFamilyChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System.String,System.String)</InterfaceMember>
@@ -624,8 +624,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(float64 oldValue, float64 newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Picker.Microsoft#Maui#Controls#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontSizeChanged (oldValue As Double, newValue As Double) Implements IFontElement.OnFontSizeChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(double oldValue, double newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontSizeChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit" Usage="picker.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(double oldValue, double newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontSizeChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(System.Double,System.Double)</InterfaceMember>
@@ -653,8 +653,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance int32 Microsoft.Maui.IItemDelegate&lt;System.String&gt;.GetCount() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Picker.Microsoft#Maui#IItemDelegate&lt;System#String&gt;#GetCount" />
       <MemberSignature Language="VB.NET" Value="Function GetCount () As Integer Implements IItemDelegate(Of String).GetCount" />
-      <MemberSignature Language="C++ CLI" Value=" virtual int Microsoft.Maui.IItemDelegate&lt;System.String&gt;.GetCount() = Microsoft::Maui::IItemDelegate&lt;System::String ^&gt;::GetCount;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IItemDelegate&lt;System.String&gt;.GetCount : unit -&gt; int&#xA;override this.Microsoft.Maui.IItemDelegate&lt;System.String&gt;.GetCount : unit -&gt; int" Usage="picker.Microsoft.Maui.IItemDelegate&lt;System.String&gt;.GetCount " />
+      <MemberSignature Language="C++ CLI" Value=" virtual int Microsoft.Maui.IItemDelegate&lt;System.String&gt;.GetCount() = Microsoft::Maui::IItemDelegate&lt;System::String ^&gt;::GetCount;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IItemDelegate`1.GetCount</InterfaceMember>
@@ -678,8 +678,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance string Microsoft.Maui.IItemDelegate&lt;System.String&gt;.GetItem(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Picker.Microsoft#Maui#IItemDelegate&lt;System#String&gt;#GetItem(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Function GetItem (index As Integer) As String Implements IItemDelegate(Of String).GetItem" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::String ^ Microsoft.Maui.IItemDelegate&lt;System.String&gt;.GetItem(int index) = Microsoft::Maui::IItemDelegate&lt;System::String ^&gt;::GetItem;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IItemDelegate&lt;System.String&gt;.GetItem : int -&gt; string&#xA;override this.Microsoft.Maui.IItemDelegate&lt;System.String&gt;.GetItem : int -&gt; string" Usage="picker.Microsoft.Maui.IItemDelegate&lt;System.String&gt;.GetItem index" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::String ^ Microsoft.Maui.IItemDelegate&lt;System.String&gt;.GetItem(int index) = Microsoft::Maui::IItemDelegate&lt;System::String ^&gt;::GetItem;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IItemDelegate`1.GetItem(System.Int32)</InterfaceMember>
@@ -706,8 +706,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Microsoft.Maui.IPicker.Items" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.Microsoft#Maui#IPicker#Items" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Items As IList(Of String) Implements IPicker.Items" />
-      <MemberSignature Language="C++ CLI" Value="property System::Collections::Generic::IList&lt;System::String ^&gt; ^ Microsoft::Maui::IPicker::Items { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IPicker.Items : System.Collections.Generic.IList&lt;string&gt;" Usage="Microsoft.Maui.IPicker.Items" />
+      <MemberSignature Language="C++ CLI" Value="property System::Collections::Generic::IList&lt;System::String ^&gt; ^ Microsoft::Maui::IPicker::Items { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IPicker.Items</InterfaceMember>
@@ -730,8 +730,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Font Microsoft.Maui.ITextStyle.Font" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.Microsoft#Maui#ITextStyle#Font" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Font As Font Implements ITextStyle.Font" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Font Microsoft::Maui::ITextStyle::Font { Microsoft::Maui::Font get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ITextStyle.Font : Microsoft.Maui.Font" Usage="Microsoft.Maui.ITextStyle.Font" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Font Microsoft::Maui::ITextStyle::Font { Microsoft::Maui::Font get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITextStyle.Font</InterfaceMember>
@@ -754,8 +754,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.Picker&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Picker.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Picker)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Picker ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Picker (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Picker (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="picker.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Picker ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -788,8 +788,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance int32 SelectedIndex" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.SelectedIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectedIndex As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectedIndex { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.SelectedIndex : int with get, set" Usage="Microsoft.Maui.Controls.Picker.SelectedIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectedIndex { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IPicker.SelectedIndex</InterfaceMember>
@@ -812,8 +812,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler SelectedIndexChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Picker.SelectedIndexChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event SelectedIndexChanged As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ SelectedIndexChanged;" />
       <MemberSignature Language="F#" Value="member this.SelectedIndexChanged : EventHandler " Usage="member this.SelectedIndexChanged : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ SelectedIndexChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -832,8 +832,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectedIndexProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.SelectedIndexProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectedIndexProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectedIndexProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectedIndexProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Picker.SelectedIndexProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectedIndexProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -852,8 +852,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance object SelectedItem" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.SelectedItem" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectedItem As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SelectedItem { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SelectedItem : obj with get, set" Usage="Microsoft.Maui.Controls.Picker.SelectedItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SelectedItem { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -873,8 +873,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectedItemProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.SelectedItemProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectedItemProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectedItemProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectedItemProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Picker.SelectedItemProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectedItemProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -893,8 +893,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color TextColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.TextColor" />
       <MemberSignature Language="VB.NET" Value="Public Property TextColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TextColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.TextColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.Picker.TextColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TextColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -914,8 +914,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.TextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TextColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Picker.TextColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -934,8 +934,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.Title" />
       <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Microsoft.Maui.Controls.Picker.Title" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -955,8 +955,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color TitleColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.TitleColor" />
       <MemberSignature Language="VB.NET" Value="Public Property TitleColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TitleColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.TitleColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.Picker.TitleColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TitleColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -976,8 +976,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TitleColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.TitleColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TitleColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TitleColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Picker.TitleColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TitleColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -996,8 +996,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TitleProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.TitleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TitleProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TitleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Picker.TitleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TitleProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1016,8 +1016,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string UpdateFormsText(string source, valuetype Microsoft.Maui.TextTransform textTransform) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Picker.UpdateFormsText(System.String,Microsoft.Maui.TextTransform)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateFormsText (source As String, textTransform As TextTransform) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ UpdateFormsText(System::String ^ source, Microsoft::Maui::TextTransform textTransform);" />
       <MemberSignature Language="F#" Value="abstract member UpdateFormsText : string * Microsoft.Maui.TextTransform -&gt; string&#xA;override this.UpdateFormsText : string * Microsoft.Maui.TextTransform -&gt; string" Usage="picker.UpdateFormsText (source, textTransform)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ UpdateFormsText(System::String ^ source, Microsoft::Maui::TextTransform textTransform);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1043,8 +1043,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextAlignment VerticalTextAlignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Picker.VerticalTextAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalTextAlignment As TextAlignment" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment VerticalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberSignature Language="F#" Value="member this.VerticalTextAlignment : Microsoft.Maui.TextAlignment with get, set" Usage="Microsoft.Maui.Controls.Picker.VerticalTextAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment VerticalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1064,8 +1064,8 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty VerticalTextAlignmentProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Picker.VerticalTextAlignmentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly VerticalTextAlignmentProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VerticalTextAlignmentProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable VerticalTextAlignmentProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Picker.VerticalTextAlignmentProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VerticalTextAlignmentProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

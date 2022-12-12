@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SpeechOptions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Media.SpeechOptions" />
   <TypeSignature Language="VB.NET" Value="Public Class SpeechOptions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SpeechOptions" />
   <TypeSignature Language="F#" Value="type SpeechOptions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SpeechOptions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Media.Locale Locale" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Media.SpeechOptions.Locale" />
       <MemberSignature Language="VB.NET" Value="Public Property Locale As Locale" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Media::Locale ^ Locale { Microsoft::Maui::Media::Locale ^ get(); void set(Microsoft::Maui::Media::Locale ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Locale : Microsoft.Maui.Media.Locale with get, set" Usage="Microsoft.Maui.Media.SpeechOptions.Locale" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Media::Locale ^ Locale { Microsoft::Maui::Media::Locale ^ get(); void set(Microsoft::Maui::Media::Locale ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float32&gt; Pitch" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Media.SpeechOptions.Pitch" />
       <MemberSignature Language="VB.NET" Value="Public Property Pitch As Nullable(Of Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;float&gt; Pitch { Nullable&lt;float&gt; get(); void set(Nullable&lt;float&gt; value); };" />
       <MemberSignature Language="F#" Value="member this.Pitch : Nullable&lt;single&gt; with get, set" Usage="Microsoft.Maui.Media.SpeechOptions.Pitch" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;float&gt; Pitch { Nullable&lt;float&gt; get(); void set(Nullable&lt;float&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float32&gt; Volume" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Media.SpeechOptions.Volume" />
       <MemberSignature Language="VB.NET" Value="Public Property Volume As Nullable(Of Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;float&gt; Volume { Nullable&lt;float&gt; get(); void set(Nullable&lt;float&gt; value); };" />
       <MemberSignature Language="F#" Value="member this.Volume : Nullable&lt;single&gt; with get, set" Usage="Microsoft.Maui.Media.SpeechOptions.Volume" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;float&gt; Volume { Nullable&lt;float&gt; get(); void set(Nullable&lt;float&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DependencyAttribute extends System.Attribute" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.DependencyAttribute" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DependencyAttribute&#xA;Inherits Attribute" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DependencyAttribute sealed : Attribute" />
   <TypeSignature Language="F#" Value="type DependencyAttribute = class&#xA;    inherit Attribute" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DependencyAttribute sealed : Attribute" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -29,8 +29,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type implementorType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.DependencyAttribute.#ctor(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (implementorType As Type)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DependencyAttribute(Type ^ implementorType);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.DependencyAttribute : Type -&gt; Microsoft.Maui.Controls.DependencyAttribute" Usage="new Microsoft.Maui.Controls.DependencyAttribute implementorType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DependencyAttribute(Type ^ implementorType);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AttributedTextExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.Text.AttributedTextExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module AttributedTextExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AttributedTextExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type AttributedTextExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AttributedTextExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Graphics.Text.AttributedTextBlock&gt; CreateBlocks(class Microsoft.Maui.Graphics.Text.IAttributedText text) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.AttributedTextExtensions.CreateBlocks(Microsoft.Maui.Graphics.Text.IAttributedText)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateBlocks (text As IAttributedText) As IList(Of AttributedTextBlock)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IList&lt;Microsoft::Maui::Graphics::Text::AttributedTextBlock ^&gt; ^ CreateBlocks(Microsoft::Maui::Graphics::Text::IAttributedText ^ text);" />
       <MemberSignature Language="F#" Value="static member CreateBlocks : Microsoft.Maui.Graphics.Text.IAttributedText -&gt; System.Collections.Generic.IList&lt;Microsoft.Maui.Graphics.Text.AttributedTextBlock&gt;" Usage="Microsoft.Maui.Graphics.Text.AttributedTextExtensions.CreateBlocks text" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IList&lt;Microsoft::Maui::Graphics::Text::AttributedTextBlock ^&gt; ^ CreateBlocks(Microsoft::Maui::Graphics::Text::IAttributedText ^ text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -80,8 +80,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.Graphics.Text.IAttributedText&gt; CreateParagraphs(class Microsoft.Maui.Graphics.Text.IAttributedText attributedText) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.AttributedTextExtensions.CreateParagraphs(Microsoft.Maui.Graphics.Text.IAttributedText)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateParagraphs (attributedText As IAttributedText) As IReadOnlyList(Of IAttributedText)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Graphics::Text::IAttributedText ^&gt; ^ CreateParagraphs(Microsoft::Maui::Graphics::Text::IAttributedText ^ attributedText);" />
       <MemberSignature Language="F#" Value="static member CreateParagraphs : Microsoft.Maui.Graphics.Text.IAttributedText -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Graphics.Text.IAttributedText&gt;" Usage="Microsoft.Maui.Graphics.Text.AttributedTextExtensions.CreateParagraphs attributedText" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Graphics::Text::IAttributedText ^&gt; ^ CreateParagraphs(Microsoft::Maui::Graphics::Text::IAttributedText ^ attributedText);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -105,8 +105,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Text.IAttributedText Optimize(class Microsoft.Maui.Graphics.Text.IAttributedText attributedText) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.AttributedTextExtensions.Optimize(Microsoft.Maui.Graphics.Text.IAttributedText)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Optimize (attributedText As IAttributedText) As IAttributedText" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Text::IAttributedText ^ Optimize(Microsoft::Maui::Graphics::Text::IAttributedText ^ attributedText);" />
       <MemberSignature Language="F#" Value="static member Optimize : Microsoft.Maui.Graphics.Text.IAttributedText -&gt; Microsoft.Maui.Graphics.Text.IAttributedText" Usage="Microsoft.Maui.Graphics.Text.AttributedTextExtensions.Optimize attributedText" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Text::IAttributedText ^ Optimize(Microsoft::Maui::Graphics::Text::IAttributedText ^ attributedText);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

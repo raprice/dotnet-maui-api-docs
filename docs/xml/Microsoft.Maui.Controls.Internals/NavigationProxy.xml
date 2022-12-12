@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NavigationProxy extends System.Object implements class Microsoft.Maui.Controls.INavigation" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.NavigationProxy" />
   <TypeSignature Language="VB.NET" Value="Public Class NavigationProxy&#xA;Implements INavigation" />
-  <TypeSignature Language="C++ CLI" Value="public ref class NavigationProxy : Microsoft::Maui::Controls::INavigation" />
   <TypeSignature Language="F#" Value="type NavigationProxy = class&#xA;    interface INavigation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NavigationProxy : Microsoft::Maui::Controls::INavigation" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.Controls.Page&gt; GetModalStack() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.GetModalStack" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function GetModalStack () As IReadOnlyList(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ GetModalStack();" />
       <MemberSignature Language="F#" Value="abstract member GetModalStack : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Controls.Page&gt;&#xA;override this.GetModalStack : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Controls.Page&gt;" Usage="navigationProxy.GetModalStack " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ GetModalStack();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -72,8 +72,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.Controls.Page&gt; GetNavigationStack() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.GetNavigationStack" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function GetNavigationStack () As IReadOnlyList(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ GetNavigationStack();" />
       <MemberSignature Language="F#" Value="abstract member GetNavigationStack : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Controls.Page&gt;&#xA;override this.GetNavigationStack : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Controls.Page&gt;" Usage="navigationProxy.GetNavigationStack " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ GetNavigationStack();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -94,8 +94,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.INavigation Inner" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.NavigationProxy.Inner" />
       <MemberSignature Language="VB.NET" Value="Public Property Inner As INavigation" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::INavigation ^ Inner { Microsoft::Maui::Controls::INavigation ^ get(); void set(Microsoft::Maui::Controls::INavigation ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Inner : Microsoft.Maui.Controls.INavigation with get, set" Usage="Microsoft.Maui.Controls.Internals.NavigationProxy.Inner" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::INavigation ^ Inner { Microsoft::Maui::Controls::INavigation ^ get(); void set(Microsoft::Maui::Controls::INavigation ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -115,8 +115,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertPageBefore(class Microsoft.Maui.Controls.Page page, class Microsoft.Maui.Controls.Page before) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.InsertPageBefore(Microsoft.Maui.Controls.Page,Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InsertPageBefore (page As Page, before As Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void InsertPageBefore(Microsoft::Maui::Controls::Page ^ page, Microsoft::Maui::Controls::Page ^ before);" />
       <MemberSignature Language="F#" Value="abstract member InsertPageBefore : Microsoft.Maui.Controls.Page * Microsoft.Maui.Controls.Page -&gt; unit&#xA;override this.InsertPageBefore : Microsoft.Maui.Controls.Page * Microsoft.Maui.Controls.Page -&gt; unit" Usage="navigationProxy.InsertPageBefore (page, before)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void InsertPageBefore(Microsoft::Maui::Controls::Page ^ page, Microsoft::Maui::Controls::Page ^ before);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigation.InsertPageBefore(Microsoft.Maui.Controls.Page,Microsoft.Maui.Controls.Page)</InterfaceMember>
@@ -144,8 +144,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.Controls.Page&gt; ModalStack" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.NavigationProxy.ModalStack" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModalStack As IReadOnlyList(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ ModalStack { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ModalStack : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.Internals.NavigationProxy.ModalStack" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ ModalStack { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.INavigation.ModalStack</InterfaceMember>
@@ -168,8 +168,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.Controls.Page&gt; NavigationStack" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.NavigationProxy.NavigationStack" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NavigationStack As IReadOnlyList(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ NavigationStack { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.NavigationStack : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.Internals.NavigationProxy.NavigationStack" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ NavigationStack { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.INavigation.NavigationStack</InterfaceMember>
@@ -192,8 +192,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnInsertPageBefore(class Microsoft.Maui.Controls.Page page, class Microsoft.Maui.Controls.Page before) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.OnInsertPageBefore(Microsoft.Maui.Controls.Page,Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnInsertPageBefore (page As Page, before As Page)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnInsertPageBefore(Microsoft::Maui::Controls::Page ^ page, Microsoft::Maui::Controls::Page ^ before);" />
       <MemberSignature Language="F#" Value="abstract member OnInsertPageBefore : Microsoft.Maui.Controls.Page * Microsoft.Maui.Controls.Page -&gt; unit&#xA;override this.OnInsertPageBefore : Microsoft.Maui.Controls.Page * Microsoft.Maui.Controls.Page -&gt; unit" Usage="navigationProxy.OnInsertPageBefore (page, before)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnInsertPageBefore(Microsoft::Maui::Controls::Page ^ page, Microsoft::Maui::Controls::Page ^ before);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -218,8 +218,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Controls.Page&gt; OnPopAsync(bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.OnPopAsync(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnPopAsync (animated As Boolean) As Task(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ OnPopAsync(bool animated);" />
       <MemberSignature Language="F#" Value="abstract member OnPopAsync : bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;&#xA;override this.OnPopAsync : bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;" Usage="navigationProxy.OnPopAsync animated" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ OnPopAsync(bool animated);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -243,8 +243,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Controls.Page&gt; OnPopModal(bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.OnPopModal(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnPopModal (animated As Boolean) As Task(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ OnPopModal(bool animated);" />
       <MemberSignature Language="F#" Value="abstract member OnPopModal : bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;&#xA;override this.OnPopModal : bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;" Usage="navigationProxy.OnPopModal animated" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ OnPopModal(bool animated);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -268,8 +268,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task OnPopToRootAsync(bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.OnPopToRootAsync(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnPopToRootAsync (animated As Boolean) As Task" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task ^ OnPopToRootAsync(bool animated);" />
       <MemberSignature Language="F#" Value="abstract member OnPopToRootAsync : bool -&gt; System.Threading.Tasks.Task&#xA;override this.OnPopToRootAsync : bool -&gt; System.Threading.Tasks.Task" Usage="navigationProxy.OnPopToRootAsync animated" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task ^ OnPopToRootAsync(bool animated);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -293,8 +293,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task OnPushAsync(class Microsoft.Maui.Controls.Page page, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.OnPushAsync(Microsoft.Maui.Controls.Page,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnPushAsync (page As Page, animated As Boolean) As Task" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task ^ OnPushAsync(Microsoft::Maui::Controls::Page ^ page, bool animated);" />
       <MemberSignature Language="F#" Value="abstract member OnPushAsync : Microsoft.Maui.Controls.Page * bool -&gt; System.Threading.Tasks.Task&#xA;override this.OnPushAsync : Microsoft.Maui.Controls.Page * bool -&gt; System.Threading.Tasks.Task" Usage="navigationProxy.OnPushAsync (page, animated)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task ^ OnPushAsync(Microsoft::Maui::Controls::Page ^ page, bool animated);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -320,8 +320,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task OnPushModal(class Microsoft.Maui.Controls.Page modal, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.OnPushModal(Microsoft.Maui.Controls.Page,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnPushModal (modal As Page, animated As Boolean) As Task" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task ^ OnPushModal(Microsoft::Maui::Controls::Page ^ modal, bool animated);" />
       <MemberSignature Language="F#" Value="abstract member OnPushModal : Microsoft.Maui.Controls.Page * bool -&gt; System.Threading.Tasks.Task&#xA;override this.OnPushModal : Microsoft.Maui.Controls.Page * bool -&gt; System.Threading.Tasks.Task" Usage="navigationProxy.OnPushModal (modal, animated)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task ^ OnPushModal(Microsoft::Maui::Controls::Page ^ modal, bool animated);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -347,8 +347,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnRemovePage(class Microsoft.Maui.Controls.Page page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.OnRemovePage(Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnRemovePage (page As Page)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnRemovePage(Microsoft::Maui::Controls::Page ^ page);" />
       <MemberSignature Language="F#" Value="abstract member OnRemovePage : Microsoft.Maui.Controls.Page -&gt; unit&#xA;override this.OnRemovePage : Microsoft.Maui.Controls.Page -&gt; unit" Usage="navigationProxy.OnRemovePage page" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnRemovePage(Microsoft::Maui::Controls::Page ^ page);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -371,8 +371,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Controls.Page&gt; PopAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.PopAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function PopAsync () As Task(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PopAsync();" />
       <MemberSignature Language="F#" Value="abstract member PopAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;&#xA;override this.PopAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;" Usage="navigationProxy.PopAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PopAsync();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigation.PopAsync</InterfaceMember>
@@ -396,8 +396,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Controls.Page&gt; PopAsync(bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.PopAsync(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function PopAsync (animated As Boolean) As Task(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PopAsync(bool animated);" />
       <MemberSignature Language="F#" Value="abstract member PopAsync : bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;&#xA;override this.PopAsync : bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;" Usage="navigationProxy.PopAsync animated" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PopAsync(bool animated);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigation.PopAsync(System.Boolean)</InterfaceMember>
@@ -424,8 +424,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Controls.Page&gt; PopModalAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.PopModalAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function PopModalAsync () As Task(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PopModalAsync();" />
       <MemberSignature Language="F#" Value="abstract member PopModalAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;&#xA;override this.PopModalAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;" Usage="navigationProxy.PopModalAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PopModalAsync();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigation.PopModalAsync</InterfaceMember>
@@ -449,8 +449,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Controls.Page&gt; PopModalAsync(bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.PopModalAsync(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function PopModalAsync (animated As Boolean) As Task(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PopModalAsync(bool animated);" />
       <MemberSignature Language="F#" Value="abstract member PopModalAsync : bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;&#xA;override this.PopModalAsync : bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;" Usage="navigationProxy.PopModalAsync animated" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PopModalAsync(bool animated);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigation.PopModalAsync(System.Boolean)</InterfaceMember>
@@ -477,8 +477,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task PopToRootAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.PopToRootAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function PopToRootAsync () As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task ^ PopToRootAsync();" />
       <MemberSignature Language="F#" Value="abstract member PopToRootAsync : unit -&gt; System.Threading.Tasks.Task&#xA;override this.PopToRootAsync : unit -&gt; System.Threading.Tasks.Task" Usage="navigationProxy.PopToRootAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task ^ PopToRootAsync();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigation.PopToRootAsync</InterfaceMember>
@@ -502,8 +502,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task PopToRootAsync(bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.PopToRootAsync(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function PopToRootAsync (animated As Boolean) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task ^ PopToRootAsync(bool animated);" />
       <MemberSignature Language="F#" Value="abstract member PopToRootAsync : bool -&gt; System.Threading.Tasks.Task&#xA;override this.PopToRootAsync : bool -&gt; System.Threading.Tasks.Task" Usage="navigationProxy.PopToRootAsync animated" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task ^ PopToRootAsync(bool animated);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigation.PopToRootAsync(System.Boolean)</InterfaceMember>
@@ -530,8 +530,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task PushAsync(class Microsoft.Maui.Controls.Page root) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.PushAsync(Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Public Function PushAsync (root As Page) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task ^ PushAsync(Microsoft::Maui::Controls::Page ^ root);" />
       <MemberSignature Language="F#" Value="abstract member PushAsync : Microsoft.Maui.Controls.Page -&gt; System.Threading.Tasks.Task&#xA;override this.PushAsync : Microsoft.Maui.Controls.Page -&gt; System.Threading.Tasks.Task" Usage="navigationProxy.PushAsync root" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task ^ PushAsync(Microsoft::Maui::Controls::Page ^ root);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigation.PushAsync(Microsoft.Maui.Controls.Page)</InterfaceMember>
@@ -558,8 +558,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task PushAsync(class Microsoft.Maui.Controls.Page root, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.PushAsync(Microsoft.Maui.Controls.Page,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function PushAsync (root As Page, animated As Boolean) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task ^ PushAsync(Microsoft::Maui::Controls::Page ^ root, bool animated);" />
       <MemberSignature Language="F#" Value="abstract member PushAsync : Microsoft.Maui.Controls.Page * bool -&gt; System.Threading.Tasks.Task&#xA;override this.PushAsync : Microsoft.Maui.Controls.Page * bool -&gt; System.Threading.Tasks.Task" Usage="navigationProxy.PushAsync (root, animated)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task ^ PushAsync(Microsoft::Maui::Controls::Page ^ root, bool animated);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigation.PushAsync(Microsoft.Maui.Controls.Page,System.Boolean)</InterfaceMember>
@@ -588,8 +588,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task PushModalAsync(class Microsoft.Maui.Controls.Page modal) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.PushModalAsync(Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Public Function PushModalAsync (modal As Page) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task ^ PushModalAsync(Microsoft::Maui::Controls::Page ^ modal);" />
       <MemberSignature Language="F#" Value="abstract member PushModalAsync : Microsoft.Maui.Controls.Page -&gt; System.Threading.Tasks.Task&#xA;override this.PushModalAsync : Microsoft.Maui.Controls.Page -&gt; System.Threading.Tasks.Task" Usage="navigationProxy.PushModalAsync modal" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task ^ PushModalAsync(Microsoft::Maui::Controls::Page ^ modal);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigation.PushModalAsync(Microsoft.Maui.Controls.Page)</InterfaceMember>
@@ -616,8 +616,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task PushModalAsync(class Microsoft.Maui.Controls.Page modal, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.PushModalAsync(Microsoft.Maui.Controls.Page,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function PushModalAsync (modal As Page, animated As Boolean) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task ^ PushModalAsync(Microsoft::Maui::Controls::Page ^ modal, bool animated);" />
       <MemberSignature Language="F#" Value="abstract member PushModalAsync : Microsoft.Maui.Controls.Page * bool -&gt; System.Threading.Tasks.Task&#xA;override this.PushModalAsync : Microsoft.Maui.Controls.Page * bool -&gt; System.Threading.Tasks.Task" Usage="navigationProxy.PushModalAsync (modal, animated)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task ^ PushModalAsync(Microsoft::Maui::Controls::Page ^ modal, bool animated);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigation.PushModalAsync(Microsoft.Maui.Controls.Page,System.Boolean)</InterfaceMember>
@@ -646,8 +646,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemovePage(class Microsoft.Maui.Controls.Page page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NavigationProxy.RemovePage(Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemovePage (page As Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void RemovePage(Microsoft::Maui::Controls::Page ^ page);" />
       <MemberSignature Language="F#" Value="abstract member RemovePage : Microsoft.Maui.Controls.Page -&gt; unit&#xA;override this.RemovePage : Microsoft.Maui.Controls.Page -&gt; unit" Usage="navigationProxy.RemovePage page" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void RemovePage(Microsoft::Maui::Controls::Page ^ page);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigation.RemovePage(Microsoft.Maui.Controls.Page)</InterfaceMember>

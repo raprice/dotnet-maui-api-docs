@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LineGeometry extends Microsoft.Maui.Controls.Shapes.Geometry" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.LineGeometry" />
   <TypeSignature Language="VB.NET" Value="Public Class LineGeometry&#xA;Inherits Geometry" />
-  <TypeSignature Language="C++ CLI" Value="public ref class LineGeometry : Microsoft::Maui::Controls::Shapes::Geometry" />
   <TypeSignature Language="F#" Value="type LineGeometry = class&#xA;    inherit Geometry" />
+  <TypeSignature Language="C++ CLI" Value="public ref class LineGeometry : Microsoft::Maui::Controls::Shapes::Geometry" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.Graphics.Point startPoint, valuetype Microsoft.Maui.Graphics.Point endPoint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.LineGeometry.#ctor(Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (startPoint As Point, endPoint As Point)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; LineGeometry(Microsoft::Maui::Graphics::Point startPoint, Microsoft::Maui::Graphics::Point endPoint);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Shapes.LineGeometry : Microsoft.Maui.Graphics.Point * Microsoft.Maui.Graphics.Point -&gt; Microsoft.Maui.Controls.Shapes.LineGeometry" Usage="new Microsoft.Maui.Controls.Shapes.LineGeometry (startPoint, endPoint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; LineGeometry(Microsoft::Maui::Graphics::Point startPoint, Microsoft::Maui::Graphics::Point endPoint);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -63,8 +63,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void AppendPath(class Microsoft.Maui.Graphics.PathF path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.LineGeometry.AppendPath(Microsoft.Maui.Graphics.PathF)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub AppendPath (path As PathF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void AppendPath(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberSignature Language="F#" Value="override this.AppendPath : Microsoft.Maui.Graphics.PathF -&gt; unit" Usage="lineGeometry.AppendPath path" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void AppendPath(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -87,8 +87,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Point EndPoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.LineGeometry.EndPoint" />
       <MemberSignature Language="VB.NET" Value="Public Property EndPoint As Point" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point EndPoint { Microsoft::Maui::Graphics::Point get(); void set(Microsoft::Maui::Graphics::Point value); };" />
       <MemberSignature Language="F#" Value="member this.EndPoint : Microsoft.Maui.Graphics.Point with get, set" Usage="Microsoft.Maui.Controls.Shapes.LineGeometry.EndPoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point EndPoint { Microsoft::Maui::Graphics::Point get(); void set(Microsoft::Maui::Graphics::Point value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -108,8 +108,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty EndPointProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.LineGeometry.EndPointProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EndPointProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ EndPointProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable EndPointProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.LineGeometry.EndPointProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ EndPointProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -128,8 +128,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Point StartPoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.LineGeometry.StartPoint" />
       <MemberSignature Language="VB.NET" Value="Public Property StartPoint As Point" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point StartPoint { Microsoft::Maui::Graphics::Point get(); void set(Microsoft::Maui::Graphics::Point value); };" />
       <MemberSignature Language="F#" Value="member this.StartPoint : Microsoft.Maui.Graphics.Point with get, set" Usage="Microsoft.Maui.Controls.Shapes.LineGeometry.StartPoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point StartPoint { Microsoft::Maui::Graphics::Point get(); void set(Microsoft::Maui::Graphics::Point value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -149,8 +149,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty StartPointProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.LineGeometry.StartPointProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StartPointProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StartPointProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable StartPointProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.LineGeometry.StartPointProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ StartPointProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

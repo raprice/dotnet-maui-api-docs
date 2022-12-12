@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWindowOverlay implements class Microsoft.Maui.Graphics.IDrawable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IWindowOverlay" />
   <TypeSignature Language="VB.NET" Value="Public Interface IWindowOverlay&#xA;Implements IDrawable" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IWindowOverlay : Microsoft::Maui::Graphics::IDrawable" />
   <TypeSignature Language="F#" Value="type IWindowOverlay = interface&#xA;    interface IDrawable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IWindowOverlay : Microsoft::Maui::Graphics::IDrawable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -24,8 +24,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool AddWindowElement(class Microsoft.Maui.IWindowOverlayElement element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IWindowOverlay.AddWindowElement(Microsoft.Maui.IWindowOverlayElement)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddWindowElement (element As IWindowOverlayElement) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool AddWindowElement(Microsoft::Maui::IWindowOverlayElement ^ element);" />
       <MemberSignature Language="F#" Value="abstract member AddWindowElement : Microsoft.Maui.IWindowOverlayElement -&gt; bool" Usage="iWindowOverlay.AddWindowElement element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool AddWindowElement(Microsoft::Maui::IWindowOverlayElement ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -52,8 +52,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Deinitialize() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IWindowOverlay.Deinitialize" />
       <MemberSignature Language="VB.NET" Value="Public Function Deinitialize () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Deinitialize();" />
       <MemberSignature Language="F#" Value="abstract member Deinitialize : unit -&gt; bool" Usage="iWindowOverlay.Deinitialize " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Deinitialize();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -76,8 +76,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 Density" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IWindowOverlay.Density" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Density As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Density { float get(); };" />
       <MemberSignature Language="F#" Value="member this.Density : single" Usage="Microsoft.Maui.IWindowOverlay.Density" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Density { float get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool DisableUITouchEventPassthrough" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IWindowOverlay.DisableUITouchEventPassthrough" />
       <MemberSignature Language="VB.NET" Value="Public Property DisableUITouchEventPassthrough As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisableUITouchEventPassthrough { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.DisableUITouchEventPassthrough : bool with get, set" Usage="Microsoft.Maui.IWindowOverlay.DisableUITouchEventPassthrough" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisableUITouchEventPassthrough { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -125,8 +125,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool EnableDrawableTouchHandling" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IWindowOverlay.EnableDrawableTouchHandling" />
       <MemberSignature Language="VB.NET" Value="Public Property EnableDrawableTouchHandling As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableDrawableTouchHandling { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.EnableDrawableTouchHandling : bool with get, set" Usage="Microsoft.Maui.IWindowOverlay.EnableDrawableTouchHandling" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableDrawableTouchHandling { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -150,8 +150,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HandleUIChange() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IWindowOverlay.HandleUIChange" />
       <MemberSignature Language="VB.NET" Value="Public Sub HandleUIChange ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HandleUIChange();" />
       <MemberSignature Language="F#" Value="abstract member HandleUIChange : unit -&gt; unit" Usage="iWindowOverlay.HandleUIChange " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HandleUIChange();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -173,8 +173,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Initialize() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IWindowOverlay.Initialize" />
       <MemberSignature Language="VB.NET" Value="Public Function Initialize () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Initialize();" />
       <MemberSignature Language="F#" Value="abstract member Initialize : unit -&gt; bool" Usage="iWindowOverlay.Initialize " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Initialize();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -197,8 +197,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Invalidate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IWindowOverlay.Invalidate" />
       <MemberSignature Language="VB.NET" Value="Public Sub Invalidate ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Invalidate();" />
       <MemberSignature Language="F#" Value="abstract member Invalidate : unit -&gt; unit" Usage="iWindowOverlay.Invalidate " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Invalidate();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -221,8 +221,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPlatformViewInitialized" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IWindowOverlay.IsPlatformViewInitialized" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsPlatformViewInitialized As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPlatformViewInitialized { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsPlatformViewInitialized : bool" Usage="Microsoft.Maui.IWindowOverlay.IsPlatformViewInitialized" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPlatformViewInitialized { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -245,8 +245,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsVisible" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IWindowOverlay.IsVisible" />
       <MemberSignature Language="VB.NET" Value="Public Property IsVisible As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsVisible : bool with get, set" Usage="Microsoft.Maui.IWindowOverlay.IsVisible" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -268,8 +268,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool RemoveWindowElement(class Microsoft.Maui.IWindowOverlayElement element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IWindowOverlay.RemoveWindowElement(Microsoft.Maui.IWindowOverlayElement)" />
       <MemberSignature Language="VB.NET" Value="Public Function RemoveWindowElement (element As IWindowOverlayElement) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool RemoveWindowElement(Microsoft::Maui::IWindowOverlayElement ^ element);" />
       <MemberSignature Language="F#" Value="abstract member RemoveWindowElement : Microsoft.Maui.IWindowOverlayElement -&gt; bool" Usage="iWindowOverlay.RemoveWindowElement element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool RemoveWindowElement(Microsoft::Maui::IWindowOverlayElement ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -296,8 +296,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveWindowElements() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IWindowOverlay.RemoveWindowElements" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveWindowElements ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveWindowElements();" />
       <MemberSignature Language="F#" Value="abstract member RemoveWindowElements : unit -&gt; unit" Usage="iWindowOverlay.RemoveWindowElements " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveWindowElements();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -319,8 +319,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.WindowOverlayTappedEventArgs&gt; Tapped" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.IWindowOverlay.Tapped" />
       <MemberSignature Language="VB.NET" Value="Event Tapped As EventHandler(Of WindowOverlayTappedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::WindowOverlayTappedEventArgs ^&gt; ^ Tapped;" />
       <MemberSignature Language="F#" Value="member this.Tapped : EventHandler&lt;Microsoft.Maui.WindowOverlayTappedEventArgs&gt; " Usage="member this.Tapped : System.EventHandler&lt;Microsoft.Maui.WindowOverlayTappedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::WindowOverlayTappedEventArgs ^&gt; ^ Tapped;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -342,8 +342,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IWindow Window" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IWindowOverlay.Window" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Window As IWindow" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IWindow ^ Window { Microsoft::Maui::IWindow ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Window : Microsoft.Maui.IWindow" Usage="Microsoft.Maui.IWindowOverlay.Window" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IWindow ^ Window { Microsoft::Maui::IWindow ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -365,8 +365,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyCollection`1&lt;class Microsoft.Maui.IWindowOverlayElement&gt; WindowElements" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IWindowOverlay.WindowElements" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WindowElements As IReadOnlyCollection(Of IWindowOverlayElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyCollection&lt;Microsoft::Maui::IWindowOverlayElement ^&gt; ^ WindowElements { System::Collections::Generic::IReadOnlyCollection&lt;Microsoft::Maui::IWindowOverlayElement ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.WindowElements : System.Collections.Generic.IReadOnlyCollection&lt;Microsoft.Maui.IWindowOverlayElement&gt;" Usage="Microsoft.Maui.IWindowOverlay.WindowElements" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyCollection&lt;Microsoft::Maui::IWindowOverlayElement ^&gt; ^ WindowElements { System::Collections::Generic::IReadOnlyCollection&lt;Microsoft::Maui::IWindowOverlayElement ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

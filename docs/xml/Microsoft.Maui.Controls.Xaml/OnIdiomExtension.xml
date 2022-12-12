@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OnIdiomExtension extends System.Object implements class Microsoft.Maui.Controls.Xaml.IMarkupExtension" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.OnIdiomExtension" />
   <TypeSignature Language="VB.NET" Value="Public Class OnIdiomExtension&#xA;Implements IMarkupExtension" />
-  <TypeSignature Language="C++ CLI" Value="public ref class OnIdiomExtension : Microsoft::Maui::Controls::Xaml::IMarkupExtension" />
   <TypeSignature Language="F#" Value="type OnIdiomExtension = class&#xA;    interface IMarkupExtension" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OnIdiomExtension : Microsoft::Maui::Controls::Xaml::IMarkupExtension" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.IValueConverter Converter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.OnIdiomExtension.Converter" />
       <MemberSignature Language="VB.NET" Value="Public Property Converter As IValueConverter" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IValueConverter ^ Converter { Microsoft::Maui::Controls::IValueConverter ^ get(); void set(Microsoft::Maui::Controls::IValueConverter ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Converter : Microsoft.Maui.Controls.IValueConverter with get, set" Usage="Microsoft.Maui.Controls.Xaml.OnIdiomExtension.Converter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IValueConverter ^ Converter { Microsoft::Maui::Controls::IValueConverter ^ get(); void set(Microsoft::Maui::Controls::IValueConverter ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object ConverterParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.OnIdiomExtension.ConverterParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property ConverterParameter As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ConverterParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ConverterParameter : obj with get, set" Usage="Microsoft.Maui.Controls.Xaml.OnIdiomExtension.ConverterParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ConverterParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -92,8 +92,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.OnIdiomExtension.Default" />
       <MemberSignature Language="VB.NET" Value="Public Property Default As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Default { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Default : obj with get, set" Usage="Microsoft.Maui.Controls.Xaml.OnIdiomExtension.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Default { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -113,8 +113,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Desktop" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.OnIdiomExtension.Desktop" />
       <MemberSignature Language="VB.NET" Value="Public Property Desktop As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Desktop { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Desktop : obj with get, set" Usage="Microsoft.Maui.Controls.Xaml.OnIdiomExtension.Desktop" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Desktop { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -134,8 +134,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Phone" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.OnIdiomExtension.Phone" />
       <MemberSignature Language="VB.NET" Value="Public Property Phone As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Phone { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Phone : obj with get, set" Usage="Microsoft.Maui.Controls.Xaml.OnIdiomExtension.Phone" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Phone { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -155,8 +155,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.OnIdiomExtension.ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ProvideValue (serviceProvider As IServiceProvider) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ ProvideValue(IServiceProvider ^ serviceProvider);" />
       <MemberSignature Language="F#" Value="abstract member ProvideValue : IServiceProvider -&gt; obj&#xA;override this.ProvideValue : IServiceProvider -&gt; obj" Usage="onIdiomExtension.ProvideValue serviceProvider" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ ProvideValue(IServiceProvider ^ serviceProvider);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue(System.IServiceProvider)</InterfaceMember>
@@ -183,8 +183,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Tablet" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.OnIdiomExtension.Tablet" />
       <MemberSignature Language="VB.NET" Value="Public Property Tablet As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Tablet { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Tablet : obj with get, set" Usage="Microsoft.Maui.Controls.Xaml.OnIdiomExtension.Tablet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Tablet { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -204,8 +204,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object TV" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.OnIdiomExtension.TV" />
       <MemberSignature Language="VB.NET" Value="Public Property TV As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TV { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.TV : obj with get, set" Usage="Microsoft.Maui.Controls.Xaml.OnIdiomExtension.TV" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TV { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -225,8 +225,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Watch" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.OnIdiomExtension.Watch" />
       <MemberSignature Language="VB.NET" Value="Public Property Watch As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Watch { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Watch : obj with get, set" Usage="Microsoft.Maui.Controls.Xaml.OnIdiomExtension.Watch" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Watch { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>

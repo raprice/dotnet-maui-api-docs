@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SearchBoxVisibility extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.SearchBoxVisibility" />
   <TypeSignature Language="VB.NET" Value="Public Enum SearchBoxVisibility" />
-  <TypeSignature Language="C++ CLI" Value="public enum class SearchBoxVisibility" />
   <TypeSignature Language="F#" Value="type SearchBoxVisibility = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchBoxVisibility" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.SearchBoxVisibility Collapsible = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBoxVisibility.Collapsible" />
       <MemberSignature Language="VB.NET" Value="Collapsible" />
-      <MemberSignature Language="C++ CLI" Value="Collapsible" />
       <MemberSignature Language="F#" Value="Collapsible = 1" Usage="Microsoft.Maui.Controls.SearchBoxVisibility.Collapsible" />
+      <MemberSignature Language="C++ CLI" Value="Collapsible" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.SearchBoxVisibility Expanded = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBoxVisibility.Expanded" />
       <MemberSignature Language="VB.NET" Value="Expanded" />
-      <MemberSignature Language="C++ CLI" Value="Expanded" />
       <MemberSignature Language="F#" Value="Expanded = 2" Usage="Microsoft.Maui.Controls.SearchBoxVisibility.Expanded" />
+      <MemberSignature Language="C++ CLI" Value="Expanded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.SearchBoxVisibility Hidden = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SearchBoxVisibility.Hidden" />
       <MemberSignature Language="VB.NET" Value="Hidden" />
-      <MemberSignature Language="C++ CLI" Value="Hidden" />
       <MemberSignature Language="F#" Value="Hidden = 0" Usage="Microsoft.Maui.Controls.SearchBoxVisibility.Hidden" />
+      <MemberSignature Language="C++ CLI" Value="Hidden" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

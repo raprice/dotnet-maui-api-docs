@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GradientStopCollection extends System.Collections.ObjectModel.ObservableCollection`1&lt;class Microsoft.Maui.Controls.GradientStop&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.GradientStopCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GradientStopCollection&#xA;Inherits ObservableCollection(Of GradientStop)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GradientStopCollection sealed : System::Collections::ObjectModel::ObservableCollection&lt;Microsoft::Maui::Controls::GradientStop ^&gt;" />
   <TypeSignature Language="F#" Value="type GradientStopCollection = class&#xA;    inherit ObservableCollection&lt;GradientStop&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GradientStopCollection sealed : System::Collections::ObjectModel::ObservableCollection&lt;Microsoft::Maui::Controls::GradientStop ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

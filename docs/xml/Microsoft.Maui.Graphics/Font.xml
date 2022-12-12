@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Font extends System.ValueType implements class Microsoft.Maui.Graphics.IFont, class System.IEquatable`1&lt;class Microsoft.Maui.Graphics.IFont&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.Font" />
   <TypeSignature Language="VB.NET" Value="Public Structure Font&#xA;Implements IEquatable(Of IFont), IFont" />
-  <TypeSignature Language="C++ CLI" Value="public value class Font : IEquatable&lt;Microsoft::Maui::Graphics::IFont ^&gt;, Microsoft::Maui::Graphics::IFont" />
   <TypeSignature Language="F#" Value="type Font = struct&#xA;    interface IFont" />
+  <TypeSignature Language="C++ CLI" Value="public value class Font : IEquatable&lt;Microsoft::Maui::Graphics::IFont ^&gt;, Microsoft::Maui::Graphics::IFont" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Graphics.Font Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Font.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As Font" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Graphics::Font Default { Microsoft::Maui::Graphics::Font get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.Graphics.Font" Usage="Microsoft.Maui.Graphics.Font.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Graphics::Font Default { Microsoft::Maui::Graphics::Font get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Graphics.Font DefaultBold" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Font.DefaultBold" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DefaultBold As Font" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Graphics::Font DefaultBold { Microsoft::Maui::Graphics::Font get(); };" />
       <MemberSignature Language="F#" Value="static member DefaultBold : Microsoft.Maui.Graphics.Font" Usage="Microsoft.Maui.Graphics.Font.DefaultBold" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Graphics::Font DefaultBold { Microsoft::Maui::Graphics::Font get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -96,8 +96,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(class Microsoft.Maui.Graphics.IFont other) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Font.Equals(Microsoft.Maui.Graphics.IFont)" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As IFont) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(Microsoft::Maui::Graphics::IFont ^ other);" />
       <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Maui.Graphics.IFont -&gt; bool" Usage="font.Equals other" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(Microsoft::Maui::Graphics::IFont ^ other);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
@@ -124,8 +124,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Font.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="font.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -149,8 +149,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Font.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="font.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -171,8 +171,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsDefault" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Font.IsDefault" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDefault As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDefault { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsDefault : bool" Usage="Microsoft.Maui.Graphics.Font.IsDefault" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDefault { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -192,8 +192,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Font.Name" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Maui.Graphics.Font.Name" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -219,8 +219,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.FontStyleType StyleType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Font.StyleType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StyleType As FontStyleType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::FontStyleType StyleType { Microsoft::Maui::Graphics::FontStyleType get(); };" />
       <MemberSignature Language="F#" Value="member this.StyleType : Microsoft.Maui.Graphics.FontStyleType" Usage="Microsoft.Maui.Graphics.Font.StyleType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::FontStyleType StyleType { Microsoft::Maui::Graphics::FontStyleType get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -246,8 +246,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Weight" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Font.Weight" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Weight As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Weight { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Weight : int" Usage="Microsoft.Maui.Graphics.Font.Weight" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Weight { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

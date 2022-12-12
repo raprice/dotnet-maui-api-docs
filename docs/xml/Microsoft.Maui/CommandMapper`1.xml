@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CommandMapper`1&lt;(class Microsoft.Maui.IElement) TVirtualView&gt; extends Microsoft.Maui.CommandMapper`2&lt;!TVirtualView, class Microsoft.Maui.IElementHandler&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.CommandMapper`1" />
   <TypeSignature Language="VB.NET" Value="Public Class CommandMapper(Of TVirtualView)&#xA;Inherits CommandMapper(Of TVirtualView, IElementHandler)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TVirtualView&gt;&#xA; where TVirtualView : IElementpublic ref class CommandMapper : Microsoft::Maui::CommandMapper&lt;TVirtualView, Microsoft::Maui::IElementHandler ^&gt;" />
   <TypeSignature Language="F#" Value="type CommandMapper&lt;'VirtualView (requires 'VirtualView :&gt; IElement)&gt; = class&#xA;    inherit CommandMapper&lt;'VirtualView, IElementHandler (requires 'VirtualView :&gt; IElement)&gt;" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TVirtualView&gt;&#xA; where TVirtualView : IElementpublic ref class CommandMapper : Microsoft::Maui::CommandMapper&lt;TVirtualView, Microsoft::Maui::IElementHandler ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -52,8 +52,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.CommandMapper chained) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CommandMapper`1.#ctor(Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (chained As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CommandMapper(Microsoft::Maui::CommandMapper ^ chained);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.CommandMapper&lt;'VirtualView (requires 'VirtualView :&gt; Microsoft.Maui.IElement)&gt; : Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.CommandMapper&lt;'VirtualView (requires 'VirtualView :&gt; Microsoft.Maui.IElement)&gt;" Usage="new Microsoft.Maui.CommandMapper&lt;'VirtualView (requires 'VirtualView :&gt; Microsoft.Maui.IElement)&gt; chained" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CommandMapper(Microsoft::Maui::CommandMapper ^ chained);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

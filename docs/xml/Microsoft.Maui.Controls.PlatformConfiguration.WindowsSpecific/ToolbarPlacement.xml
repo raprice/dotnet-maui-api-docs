@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ToolbarPlacement extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement" />
   <TypeSignature Language="VB.NET" Value="Public Enum ToolbarPlacement" />
-  <TypeSignature Language="C++ CLI" Value="public enum class ToolbarPlacement" />
   <TypeSignature Language="F#" Value="type ToolbarPlacement = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class ToolbarPlacement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement Bottom = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement.Bottom" />
       <MemberSignature Language="VB.NET" Value="Bottom" />
-      <MemberSignature Language="C++ CLI" Value="Bottom" />
       <MemberSignature Language="F#" Value="Bottom = 2" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement.Bottom" />
+      <MemberSignature Language="C++ CLI" Value="Bottom" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement Default = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement.Default" />
       <MemberSignature Language="VB.NET" Value="Default" />
-      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement.Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement Top = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement.Top" />
       <MemberSignature Language="VB.NET" Value="Top" />
-      <MemberSignature Language="C++ CLI" Value="Top" />
       <MemberSignature Language="F#" Value="Top = 1" Usage="Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement.Top" />
+      <MemberSignature Language="C++ CLI" Value="Top" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

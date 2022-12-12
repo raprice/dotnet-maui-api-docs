@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DispatcherExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Dispatching.DispatcherExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module DispatcherExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DispatcherExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type DispatcherExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DispatcherExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -25,8 +25,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DispatchAsync(class Microsoft.Maui.Dispatching.IDispatcher dispatcher, class System.Action action) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Dispatching.DispatcherExtensions.DispatchAsync(Microsoft.Maui.Dispatching.IDispatcher,System.Action)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DispatchAsync (dispatcher As IDispatcher, action As Action) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task ^ DispatchAsync(Microsoft::Maui::Dispatching::IDispatcher ^ dispatcher, Action ^ action);" />
       <MemberSignature Language="F#" Value="static member DispatchAsync : Microsoft.Maui.Dispatching.IDispatcher * Action -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.Dispatching.DispatcherExtensions.DispatchAsync (dispatcher, action)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task ^ DispatchAsync(Microsoft::Maui::Dispatching::IDispatcher ^ dispatcher, Action ^ action);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -55,8 +55,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DispatchAsync(class Microsoft.Maui.Dispatching.IDispatcher dispatcher, class System.Func`1&lt;class System.Threading.Tasks.Task&gt; funcTask) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Dispatching.DispatcherExtensions.DispatchAsync(Microsoft.Maui.Dispatching.IDispatcher,System.Func{System.Threading.Tasks.Task})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DispatchAsync (dispatcher As IDispatcher, funcTask As Func(Of Task)) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task ^ DispatchAsync(Microsoft::Maui::Dispatching::IDispatcher ^ dispatcher, Func&lt;System::Threading::Tasks::Task ^&gt; ^ funcTask);" />
       <MemberSignature Language="F#" Value="static member DispatchAsync : Microsoft.Maui.Dispatching.IDispatcher * Func&lt;System.Threading.Tasks.Task&gt; -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.Dispatching.DispatcherExtensions.DispatchAsync (dispatcher, funcTask)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task ^ DispatchAsync(Microsoft::Maui::Dispatching::IDispatcher ^ dispatcher, Func&lt;System::Threading::Tasks::Task ^&gt; ^ funcTask);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -85,8 +85,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!T&gt; DispatchAsync&lt;T&gt;(class Microsoft.Maui.Dispatching.IDispatcher dispatcher, class System.Func`1&lt;class System.Threading.Tasks.Task`1&lt;!!T&gt;&gt; funcTask) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Dispatching.DispatcherExtensions.DispatchAsync``1(Microsoft.Maui.Dispatching.IDispatcher,System.Func{System.Threading.Tasks.Task{``0}})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DispatchAsync(Of T) (dispatcher As IDispatcher, funcTask As Func(Of Task(Of T))) As Task(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;T&gt; ^ DispatchAsync(Microsoft::Maui::Dispatching::IDispatcher ^ dispatcher, Func&lt;System::Threading::Tasks::Task&lt;T&gt; ^&gt; ^ funcTask);" />
       <MemberSignature Language="F#" Value="static member DispatchAsync : Microsoft.Maui.Dispatching.IDispatcher * Func&lt;System.Threading.Tasks.Task&lt;'T&gt;&gt; -&gt; System.Threading.Tasks.Task&lt;'T&gt;" Usage="Microsoft.Maui.Dispatching.DispatcherExtensions.DispatchAsync (dispatcher, funcTask)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;T&gt; ^ DispatchAsync(Microsoft::Maui::Dispatching::IDispatcher ^ dispatcher, Func&lt;System::Threading::Tasks::Task&lt;T&gt; ^&gt; ^ funcTask);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -118,8 +118,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!T&gt; DispatchAsync&lt;T&gt;(class Microsoft.Maui.Dispatching.IDispatcher dispatcher, class System.Func`1&lt;!!T&gt; func) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Dispatching.DispatcherExtensions.DispatchAsync``1(Microsoft.Maui.Dispatching.IDispatcher,System.Func{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DispatchAsync(Of T) (dispatcher As IDispatcher, func As Func(Of T)) As Task(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;T&gt; ^ DispatchAsync(Microsoft::Maui::Dispatching::IDispatcher ^ dispatcher, Func&lt;T&gt; ^ func);" />
       <MemberSignature Language="F#" Value="static member DispatchAsync : Microsoft.Maui.Dispatching.IDispatcher * Func&lt;'T&gt; -&gt; System.Threading.Tasks.Task&lt;'T&gt;" Usage="Microsoft.Maui.Dispatching.DispatcherExtensions.DispatchAsync (dispatcher, func)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;T&gt; ^ DispatchAsync(Microsoft::Maui::Dispatching::IDispatcher ^ dispatcher, Func&lt;T&gt; ^ func);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -151,8 +151,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Threading.SynchronizationContext&gt; GetSynchronizationContextAsync(class Microsoft.Maui.Dispatching.IDispatcher dispatcher) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Dispatching.DispatcherExtensions.GetSynchronizationContextAsync(Microsoft.Maui.Dispatching.IDispatcher)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSynchronizationContextAsync (dispatcher As IDispatcher) As Task(Of SynchronizationContext)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;System::Threading::SynchronizationContext ^&gt; ^ GetSynchronizationContextAsync(Microsoft::Maui::Dispatching::IDispatcher ^ dispatcher);" />
       <MemberSignature Language="F#" Value="static member GetSynchronizationContextAsync : Microsoft.Maui.Dispatching.IDispatcher -&gt; System.Threading.Tasks.Task&lt;System.Threading.SynchronizationContext&gt;" Usage="Microsoft.Maui.Dispatching.DispatcherExtensions.GetSynchronizationContextAsync dispatcher" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;System::Threading::SynchronizationContext ^&gt; ^ GetSynchronizationContextAsync(Microsoft::Maui::Dispatching::IDispatcher ^ dispatcher);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -178,8 +178,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void StartTimer(class Microsoft.Maui.Dispatching.IDispatcher dispatcher, valuetype System.TimeSpan interval, class System.Func`1&lt;bool&gt; callback) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Dispatching.DispatcherExtensions.StartTimer(Microsoft.Maui.Dispatching.IDispatcher,System.TimeSpan,System.Func{System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub StartTimer (dispatcher As IDispatcher, interval As TimeSpan, callback As Func(Of Boolean))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void StartTimer(Microsoft::Maui::Dispatching::IDispatcher ^ dispatcher, TimeSpan interval, Func&lt;bool&gt; ^ callback);" />
       <MemberSignature Language="F#" Value="static member StartTimer : Microsoft.Maui.Dispatching.IDispatcher * TimeSpan * Func&lt;bool&gt; -&gt; unit" Usage="Microsoft.Maui.Dispatching.DispatcherExtensions.StartTimer (dispatcher, interval, callback)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void StartTimer(Microsoft::Maui::Dispatching::IDispatcher ^ dispatcher, TimeSpan interval, Func&lt;bool&gt; ^ callback);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

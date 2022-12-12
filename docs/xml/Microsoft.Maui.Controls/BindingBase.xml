@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit BindingBase extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.BindingBase" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class BindingBase" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BindingBase abstract" />
   <TypeSignature Language="F#" Value="type BindingBase = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BindingBase abstract" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DisableCollectionSynchronization(class System.Collections.IEnumerable collection) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindingBase.DisableCollectionSynchronization(System.Collections.IEnumerable)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub DisableCollectionSynchronization (collection As IEnumerable)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void DisableCollectionSynchronization(System::Collections::IEnumerable ^ collection);" />
       <MemberSignature Language="F#" Value="static member DisableCollectionSynchronization : System.Collections.IEnumerable -&gt; unit" Usage="Microsoft.Maui.Controls.BindingBase.DisableCollectionSynchronization collection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void DisableCollectionSynchronization(System::Collections::IEnumerable ^ collection);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void EnableCollectionSynchronization(class System.Collections.IEnumerable collection, object context, class Microsoft.Maui.Controls.CollectionSynchronizationCallback callback) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindingBase.EnableCollectionSynchronization(System.Collections.IEnumerable,System.Object,Microsoft.Maui.Controls.CollectionSynchronizationCallback)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub EnableCollectionSynchronization (collection As IEnumerable, context As Object, callback As CollectionSynchronizationCallback)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void EnableCollectionSynchronization(System::Collections::IEnumerable ^ collection, System::Object ^ context, Microsoft::Maui::Controls::CollectionSynchronizationCallback ^ callback);" />
       <MemberSignature Language="F#" Value="static member EnableCollectionSynchronization : System.Collections.IEnumerable * obj * Microsoft.Maui.Controls.CollectionSynchronizationCallback -&gt; unit" Usage="Microsoft.Maui.Controls.BindingBase.EnableCollectionSynchronization (collection, context, callback)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void EnableCollectionSynchronization(System::Collections::IEnumerable ^ collection, System::Object ^ context, Microsoft::Maui::Controls::CollectionSynchronizationCallback ^ callback);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -78,8 +78,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object FallbackValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BindingBase.FallbackValue" />
       <MemberSignature Language="VB.NET" Value="Public Property FallbackValue As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ FallbackValue { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FallbackValue : obj with get, set" Usage="Microsoft.Maui.Controls.BindingBase.FallbackValue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ FallbackValue { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -99,8 +99,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.BindingMode Mode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BindingBase.Mode" />
       <MemberSignature Language="VB.NET" Value="Public Property Mode As BindingMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindingMode Mode { Microsoft::Maui::Controls::BindingMode get(); void set(Microsoft::Maui::Controls::BindingMode value); };" />
       <MemberSignature Language="F#" Value="member this.Mode : Microsoft.Maui.Controls.BindingMode with get, set" Usage="Microsoft.Maui.Controls.BindingBase.Mode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::BindingMode Mode { Microsoft::Maui::Controls::BindingMode get(); void set(Microsoft::Maui::Controls::BindingMode value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -120,8 +120,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string StringFormat" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BindingBase.StringFormat" />
       <MemberSignature Language="VB.NET" Value="Public Property StringFormat As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StringFormat { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.StringFormat : string with get, set" Usage="Microsoft.Maui.Controls.BindingBase.StringFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StringFormat { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -164,8 +164,8 @@ label.AddBinding (new Binding (Label.TextProperty, "Price") {
       <MemberSignature Language="ILAsm" Value=".property instance object TargetNullValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BindingBase.TargetNullValue" />
       <MemberSignature Language="VB.NET" Value="Public Property TargetNullValue As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TargetNullValue { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.TargetNullValue : obj with get, set" Usage="Microsoft.Maui.Controls.BindingBase.TargetNullValue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TargetNullValue { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -185,8 +185,8 @@ label.AddBinding (new Binding (Label.TextProperty, "Price") {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void ThrowIfApplied() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindingBase.ThrowIfApplied" />
       <MemberSignature Language="VB.NET" Value="Protected Sub ThrowIfApplied ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void ThrowIfApplied();" />
       <MemberSignature Language="F#" Value="member this.ThrowIfApplied : unit -&gt; unit" Usage="bindingBase.ThrowIfApplied " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void ThrowIfApplied();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

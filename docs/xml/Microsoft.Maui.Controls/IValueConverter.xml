@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IValueConverter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IValueConverter" />
   <TypeSignature Language="VB.NET" Value="Public Interface IValueConverter" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IValueConverter" />
   <TypeSignature Language="F#" Value="type IValueConverter = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IValueConverter" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Convert(object value, class System.Type targetType, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Function Convert (value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Convert(System::Object ^ value, Type ^ targetType, System::Object ^ parameter, System::Globalization::CultureInfo ^ culture);" />
       <MemberSignature Language="F#" Value="abstract member Convert : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="iValueConverter.Convert (value, targetType, parameter, culture)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Convert(System::Object ^ value, Type ^ targetType, System::Object ^ parameter, System::Globalization::CultureInfo ^ culture);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -51,8 +51,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ConvertBack(object value, class System.Type targetType, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Function ConvertBack (value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ConvertBack(System::Object ^ value, Type ^ targetType, System::Object ^ parameter, System::Globalization::CultureInfo ^ culture);" />
       <MemberSignature Language="F#" Value="abstract member ConvertBack : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="iValueConverter.ConvertBack (value, targetType, parameter, culture)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ConvertBack(System::Object ^ value, Type ^ targetType, System::Object ^ parameter, System::Globalization::CultureInfo ^ culture);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

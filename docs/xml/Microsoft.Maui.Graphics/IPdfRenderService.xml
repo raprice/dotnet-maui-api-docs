@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPdfRenderService" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.IPdfRenderService" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPdfRenderService" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IPdfRenderService" />
   <TypeSignature Language="F#" Value="type IPdfRenderService = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPdfRenderService" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

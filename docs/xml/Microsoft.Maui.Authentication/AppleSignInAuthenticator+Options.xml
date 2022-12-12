@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit AppleSignInAuthenticator/Options extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Authentication.AppleSignInAuthenticator.Options" />
   <TypeSignature Language="VB.NET" Value="Public Class AppleSignInAuthenticator.Options" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class AppleSignInAuthenticator::Options" />
   <TypeSignature Language="F#" Value="type AppleSignInAuthenticator.Options = class" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class AppleSignInAuthenticator::Options" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IncludeEmailScope" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Authentication.AppleSignInAuthenticator.Options.IncludeEmailScope" />
       <MemberSignature Language="VB.NET" Value="Public Property IncludeEmailScope As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeEmailScope { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IncludeEmailScope : bool with get, set" Usage="Microsoft.Maui.Authentication.AppleSignInAuthenticator.Options.IncludeEmailScope" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeEmailScope { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IncludeFullNameScope" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Authentication.AppleSignInAuthenticator.Options.IncludeFullNameScope" />
       <MemberSignature Language="VB.NET" Value="Public Property IncludeFullNameScope As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeFullNameScope { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IncludeFullNameScope : bool with get, set" Usage="Microsoft.Maui.Authentication.AppleSignInAuthenticator.Options.IncludeFullNameScope" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeFullNameScope { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

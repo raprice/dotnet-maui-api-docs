@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit UnitConverters extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Media.UnitConverters" />
   <TypeSignature Language="VB.NET" Value="Public Class UnitConverters" />
-  <TypeSignature Language="C++ CLI" Value="public ref class UnitConverters abstract sealed" />
   <TypeSignature Language="F#" Value="type UnitConverters = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UnitConverters abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 AtmospheresToPascals(float64 atm) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.AtmospheresToPascals(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AtmospheresToPascals (atm As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double AtmospheresToPascals(double atm);" />
       <MemberSignature Language="F#" Value="static member AtmospheresToPascals : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.AtmospheresToPascals atm" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double AtmospheresToPascals(double atm);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 CelsiusToFahrenheit(float64 celsius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.CelsiusToFahrenheit(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CelsiusToFahrenheit (celsius As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CelsiusToFahrenheit(double celsius);" />
       <MemberSignature Language="F#" Value="static member CelsiusToFahrenheit : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.CelsiusToFahrenheit celsius" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CelsiusToFahrenheit(double celsius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 CelsiusToKelvin(float64 celsius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.CelsiusToKelvin(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CelsiusToKelvin (celsius As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CelsiusToKelvin(double celsius);" />
       <MemberSignature Language="F#" Value="static member CelsiusToKelvin : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.CelsiusToKelvin celsius" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CelsiusToKelvin(double celsius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -98,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 CoordinatesToKilometers(float64 lat1, float64 lon1, float64 lat2, float64 lon2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.CoordinatesToKilometers(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CoordinatesToKilometers (lat1 As Double, lon1 As Double, lat2 As Double, lon2 As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CoordinatesToKilometers(double lat1, double lon1, double lat2, double lon2);" />
       <MemberSignature Language="F#" Value="static member CoordinatesToKilometers : double * double * double * double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.CoordinatesToKilometers (lat1, lon1, lat2, lon2)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CoordinatesToKilometers(double lat1, double lon1, double lat2, double lon2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -129,8 +129,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 CoordinatesToMiles(float64 lat1, float64 lon1, float64 lat2, float64 lon2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.CoordinatesToMiles(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CoordinatesToMiles (lat1 As Double, lon1 As Double, lat2 As Double, lon2 As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CoordinatesToMiles(double lat1, double lon1, double lat2, double lon2);" />
       <MemberSignature Language="F#" Value="static member CoordinatesToMiles : double * double * double * double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.CoordinatesToMiles (lat1, lon1, lat2, lon2)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double CoordinatesToMiles(double lat1, double lon1, double lat2, double lon2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -160,8 +160,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 DegreesPerSecondToHertz(float64 degrees) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.DegreesPerSecondToHertz(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DegreesPerSecondToHertz (degrees As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double DegreesPerSecondToHertz(double degrees);" />
       <MemberSignature Language="F#" Value="static member DegreesPerSecondToHertz : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.DegreesPerSecondToHertz degrees" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double DegreesPerSecondToHertz(double degrees);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -185,8 +185,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 DegreesPerSecondToRadiansPerSecond(float64 degrees) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.DegreesPerSecondToRadiansPerSecond(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DegreesPerSecondToRadiansPerSecond (degrees As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double DegreesPerSecondToRadiansPerSecond(double degrees);" />
       <MemberSignature Language="F#" Value="static member DegreesPerSecondToRadiansPerSecond : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.DegreesPerSecondToRadiansPerSecond degrees" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double DegreesPerSecondToRadiansPerSecond(double degrees);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -210,8 +210,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 DegreesToRadians(float64 degrees) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.DegreesToRadians(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DegreesToRadians (degrees As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double DegreesToRadians(double degrees);" />
       <MemberSignature Language="F#" Value="static member DegreesToRadians : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.DegreesToRadians degrees" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double DegreesToRadians(double degrees);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -235,8 +235,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 FahrenheitToCelsius(float64 fahrenheit) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.FahrenheitToCelsius(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FahrenheitToCelsius (fahrenheit As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double FahrenheitToCelsius(double fahrenheit);" />
       <MemberSignature Language="F#" Value="static member FahrenheitToCelsius : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.FahrenheitToCelsius fahrenheit" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double FahrenheitToCelsius(double fahrenheit);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -260,8 +260,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 HectopascalsToKilopascals(float64 hpa) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.HectopascalsToKilopascals(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function HectopascalsToKilopascals (hpa As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double HectopascalsToKilopascals(double hpa);" />
       <MemberSignature Language="F#" Value="static member HectopascalsToKilopascals : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.HectopascalsToKilopascals hpa" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double HectopascalsToKilopascals(double hpa);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -285,8 +285,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 HectopascalsToPascals(float64 hpa) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.HectopascalsToPascals(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function HectopascalsToPascals (hpa As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double HectopascalsToPascals(double hpa);" />
       <MemberSignature Language="F#" Value="static member HectopascalsToPascals : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.HectopascalsToPascals hpa" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double HectopascalsToPascals(double hpa);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -310,8 +310,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 HertzToDegreesPerSecond(float64 hertz) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.HertzToDegreesPerSecond(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function HertzToDegreesPerSecond (hertz As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double HertzToDegreesPerSecond(double hertz);" />
       <MemberSignature Language="F#" Value="static member HertzToDegreesPerSecond : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.HertzToDegreesPerSecond hertz" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double HertzToDegreesPerSecond(double hertz);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -335,8 +335,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 HertzToRadiansPerSecond(float64 hertz) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.HertzToRadiansPerSecond(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function HertzToRadiansPerSecond (hertz As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double HertzToRadiansPerSecond(double hertz);" />
       <MemberSignature Language="F#" Value="static member HertzToRadiansPerSecond : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.HertzToRadiansPerSecond hertz" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double HertzToRadiansPerSecond(double hertz);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -360,8 +360,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 InternationalFeetToMeters(float64 internationalFeet) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.InternationalFeetToMeters(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function InternationalFeetToMeters (internationalFeet As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double InternationalFeetToMeters(double internationalFeet);" />
       <MemberSignature Language="F#" Value="static member InternationalFeetToMeters : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.InternationalFeetToMeters internationalFeet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double InternationalFeetToMeters(double internationalFeet);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -387,8 +387,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 KelvinToCelsius(float64 kelvin) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.KelvinToCelsius(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function KelvinToCelsius (kelvin As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double KelvinToCelsius(double kelvin);" />
       <MemberSignature Language="F#" Value="static member KelvinToCelsius : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.KelvinToCelsius kelvin" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double KelvinToCelsius(double kelvin);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -412,8 +412,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 KilogramsToPounds(float64 kilograms) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.KilogramsToPounds(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function KilogramsToPounds (kilograms As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double KilogramsToPounds(double kilograms);" />
       <MemberSignature Language="F#" Value="static member KilogramsToPounds : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.KilogramsToPounds kilograms" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double KilogramsToPounds(double kilograms);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -437,8 +437,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 KilometersToMiles(float64 kilometers) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.KilometersToMiles(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function KilometersToMiles (kilometers As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double KilometersToMiles(double kilometers);" />
       <MemberSignature Language="F#" Value="static member KilometersToMiles : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.KilometersToMiles kilometers" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double KilometersToMiles(double kilometers);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -462,8 +462,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 KilopascalsToHectopascals(float64 kpa) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.KilopascalsToHectopascals(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function KilopascalsToHectopascals (kpa As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double KilopascalsToHectopascals(double kpa);" />
       <MemberSignature Language="F#" Value="static member KilopascalsToHectopascals : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.KilopascalsToHectopascals kpa" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double KilopascalsToHectopascals(double kpa);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -487,8 +487,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 KilopascalsToPascals(float64 kpa) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.KilopascalsToPascals(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function KilopascalsToPascals (kpa As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double KilopascalsToPascals(double kpa);" />
       <MemberSignature Language="F#" Value="static member KilopascalsToPascals : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.KilopascalsToPascals kpa" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double KilopascalsToPascals(double kpa);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -512,8 +512,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 MetersToInternationalFeet(float64 meters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.MetersToInternationalFeet(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MetersToInternationalFeet (meters As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double MetersToInternationalFeet(double meters);" />
       <MemberSignature Language="F#" Value="static member MetersToInternationalFeet : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.MetersToInternationalFeet meters" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double MetersToInternationalFeet(double meters);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -539,8 +539,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 MetersToUSSurveyFeet(float64 meters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.MetersToUSSurveyFeet(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MetersToUSSurveyFeet (meters As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double MetersToUSSurveyFeet(double meters);" />
       <MemberSignature Language="F#" Value="static member MetersToUSSurveyFeet : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.MetersToUSSurveyFeet meters" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double MetersToUSSurveyFeet(double meters);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -566,8 +566,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 MilesToKilometers(float64 miles) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.MilesToKilometers(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MilesToKilometers (miles As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double MilesToKilometers(double miles);" />
       <MemberSignature Language="F#" Value="static member MilesToKilometers : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.MilesToKilometers miles" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double MilesToKilometers(double miles);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -591,8 +591,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 MilesToMeters(float64 miles) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.MilesToMeters(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MilesToMeters (miles As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double MilesToMeters(double miles);" />
       <MemberSignature Language="F#" Value="static member MilesToMeters : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.MilesToMeters miles" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double MilesToMeters(double miles);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -616,8 +616,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 PascalsToAtmospheres(float64 pascals) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.PascalsToAtmospheres(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function PascalsToAtmospheres (pascals As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double PascalsToAtmospheres(double pascals);" />
       <MemberSignature Language="F#" Value="static member PascalsToAtmospheres : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.PascalsToAtmospheres pascals" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double PascalsToAtmospheres(double pascals);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -641,8 +641,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 PoundsToKilograms(float64 pounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.PoundsToKilograms(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function PoundsToKilograms (pounds As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double PoundsToKilograms(double pounds);" />
       <MemberSignature Language="F#" Value="static member PoundsToKilograms : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.PoundsToKilograms pounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double PoundsToKilograms(double pounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -666,8 +666,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 PoundsToStones(float64 pounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.PoundsToStones(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function PoundsToStones (pounds As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double PoundsToStones(double pounds);" />
       <MemberSignature Language="F#" Value="static member PoundsToStones : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.PoundsToStones pounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double PoundsToStones(double pounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -691,8 +691,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 RadiansPerSecondToDegreesPerSecond(float64 radians) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.RadiansPerSecondToDegreesPerSecond(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function RadiansPerSecondToDegreesPerSecond (radians As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double RadiansPerSecondToDegreesPerSecond(double radians);" />
       <MemberSignature Language="F#" Value="static member RadiansPerSecondToDegreesPerSecond : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.RadiansPerSecondToDegreesPerSecond radians" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double RadiansPerSecondToDegreesPerSecond(double radians);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -716,8 +716,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 RadiansPerSecondToHertz(float64 radians) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.RadiansPerSecondToHertz(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function RadiansPerSecondToHertz (radians As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double RadiansPerSecondToHertz(double radians);" />
       <MemberSignature Language="F#" Value="static member RadiansPerSecondToHertz : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.RadiansPerSecondToHertz radians" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double RadiansPerSecondToHertz(double radians);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -741,8 +741,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 RadiansToDegrees(float64 radians) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.RadiansToDegrees(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function RadiansToDegrees (radians As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double RadiansToDegrees(double radians);" />
       <MemberSignature Language="F#" Value="static member RadiansToDegrees : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.RadiansToDegrees radians" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double RadiansToDegrees(double radians);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -766,8 +766,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 StonesToPounds(float64 stones) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.StonesToPounds(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function StonesToPounds (stones As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double StonesToPounds(double stones);" />
       <MemberSignature Language="F#" Value="static member StonesToPounds : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.StonesToPounds stones" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double StonesToPounds(double stones);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -791,8 +791,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 USSurveyFeetToMeters(float64 usFeet) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.UnitConverters.USSurveyFeetToMeters(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function USSurveyFeetToMeters (usFeet As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double USSurveyFeetToMeters(double usFeet);" />
       <MemberSignature Language="F#" Value="static member USSurveyFeetToMeters : double -&gt; double" Usage="Microsoft.Maui.Media.UnitConverters.USSurveyFeetToMeters usFeet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double USSurveyFeetToMeters(double usFeet);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

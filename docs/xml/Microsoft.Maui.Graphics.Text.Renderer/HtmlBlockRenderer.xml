@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HtmlBlockRenderer extends Microsoft.Maui.Graphics.Text.Renderer.AttributedTextObjectRenderer`1&lt;class Markdig.Syntax.HtmlBlock&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.Text.Renderer.HtmlBlockRenderer" />
   <TypeSignature Language="VB.NET" Value="Public Class HtmlBlockRenderer&#xA;Inherits AttributedTextObjectRenderer(Of HtmlBlock)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class HtmlBlockRenderer : Microsoft::Maui::Graphics::Text::Renderer::AttributedTextObjectRenderer&lt;Markdig::Syntax::HtmlBlock ^&gt;" />
   <TypeSignature Language="F#" Value="type HtmlBlockRenderer = class&#xA;    inherit AttributedTextObjectRenderer&lt;HtmlBlock&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class HtmlBlockRenderer : Microsoft::Maui::Graphics::Text::Renderer::AttributedTextObjectRenderer&lt;Markdig::Syntax::HtmlBlock ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics.Text.Markdig</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -43,8 +43,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Write(class Microsoft.Maui.Graphics.Text.Renderer.AttributedTextRenderer renderer, class Markdig.Syntax.HtmlBlock leafBlock) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.Renderer.HtmlBlockRenderer.Write(Microsoft.Maui.Graphics.Text.Renderer.AttributedTextRenderer,Markdig.Syntax.HtmlBlock)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Write (renderer As AttributedTextRenderer, leafBlock As HtmlBlock)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void Write(Microsoft::Maui::Graphics::Text::Renderer::AttributedTextRenderer ^ renderer, Markdig::Syntax::HtmlBlock ^ leafBlock);" />
       <MemberSignature Language="F#" Value="override this.Write : Microsoft.Maui.Graphics.Text.Renderer.AttributedTextRenderer * Markdig.Syntax.HtmlBlock -&gt; unit" Usage="htmlBlockRenderer.Write (renderer, leafBlock)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void Write(Microsoft::Maui::Graphics::Text::Renderer::AttributedTextRenderer ^ renderer, Markdig::Syntax::HtmlBlock ^ leafBlock);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Text.Markdig</AssemblyName>

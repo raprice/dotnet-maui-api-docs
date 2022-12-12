@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WebAuthenticatorResult extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Authentication.WebAuthenticatorResult" />
   <TypeSignature Language="VB.NET" Value="Public Class WebAuthenticatorResult" />
-  <TypeSignature Language="C++ CLI" Value="public ref class WebAuthenticatorResult" />
   <TypeSignature Language="F#" Value="type WebAuthenticatorResult = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WebAuthenticatorResult" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; properties) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Authentication.WebAuthenticatorResult.#ctor(System.Collections.Generic.IDictionary{System.String,System.String})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (properties As IDictionary(Of String, String))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; WebAuthenticatorResult(System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ properties);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Authentication.WebAuthenticatorResult : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Microsoft.Maui.Authentication.WebAuthenticatorResult" Usage="new Microsoft.Maui.Authentication.WebAuthenticatorResult properties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WebAuthenticatorResult(System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ properties);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri uri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Authentication.WebAuthenticatorResult.#ctor(System.Uri)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (uri As Uri)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; WebAuthenticatorResult(Uri ^ uri);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Authentication.WebAuthenticatorResult : Uri -&gt; Microsoft.Maui.Authentication.WebAuthenticatorResult" Usage="new Microsoft.Maui.Authentication.WebAuthenticatorResult uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WebAuthenticatorResult(Uri ^ uri);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string AccessToken" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Authentication.WebAuthenticatorResult.AccessToken" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AccessToken As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AccessToken { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.AccessToken : string" Usage="Microsoft.Maui.Authentication.WebAuthenticatorResult.AccessToken" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AccessToken { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -103,8 +103,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; ExpiresIn" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Authentication.WebAuthenticatorResult.ExpiresIn" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpiresIn As Nullable(Of DateTimeOffset)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTimeOffset&gt; ExpiresIn { Nullable&lt;DateTimeOffset&gt; get(); };" />
       <MemberSignature Language="F#" Value="member this.ExpiresIn : Nullable&lt;DateTimeOffset&gt;" Usage="Microsoft.Maui.Authentication.WebAuthenticatorResult.ExpiresIn" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTimeOffset&gt; ExpiresIn { Nullable&lt;DateTimeOffset&gt; get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -124,8 +124,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string Get(string key) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Authentication.WebAuthenticatorResult.Get(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function Get (key As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ Get(System::String ^ key);" />
       <MemberSignature Language="F#" Value="member this.Get : string -&gt; string" Usage="webAuthenticatorResult.Get key" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ Get(System::String ^ key);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -149,8 +149,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string IdToken" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Authentication.WebAuthenticatorResult.IdToken" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IdToken As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ IdToken { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.IdToken : string" Usage="Microsoft.Maui.Authentication.WebAuthenticatorResult.IdToken" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ IdToken { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -170,8 +170,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; Properties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Authentication.WebAuthenticatorResult.Properties" />
       <MemberSignature Language="VB.NET" Value="Public Property Properties As Dictionary(Of String, String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::Dictionary&lt;System::String ^, System::String ^&gt; ^ Properties { System::Collections::Generic::Dictionary&lt;System::String ^, System::String ^&gt; ^ get(); void set(System::Collections::Generic::Dictionary&lt;System::String ^, System::String ^&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Properties : System.Collections.Generic.Dictionary&lt;string, string&gt; with get, set" Usage="Microsoft.Maui.Authentication.WebAuthenticatorResult.Properties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::Dictionary&lt;System::String ^, System::String ^&gt; ^ Properties { System::Collections::Generic::Dictionary&lt;System::String ^, System::String ^&gt; ^ get(); void set(System::Collections::Generic::Dictionary&lt;System::String ^, System::String ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -191,8 +191,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Put(string key, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Authentication.WebAuthenticatorResult.Put(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Put (key As String, value As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Put(System::String ^ key, System::String ^ value);" />
       <MemberSignature Language="F#" Value="member this.Put : string * string -&gt; unit" Usage="webAuthenticatorResult.Put (key, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Put(System::String ^ key, System::String ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -217,8 +217,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string RefreshToken" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Authentication.WebAuthenticatorResult.RefreshToken" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RefreshToken As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RefreshToken { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.RefreshToken : string" Usage="Microsoft.Maui.Authentication.WebAuthenticatorResult.RefreshToken" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RefreshToken { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -238,8 +238,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; RefreshTokenExpiresIn" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Authentication.WebAuthenticatorResult.RefreshTokenExpiresIn" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RefreshTokenExpiresIn As Nullable(Of DateTimeOffset)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTimeOffset&gt; RefreshTokenExpiresIn { Nullable&lt;DateTimeOffset&gt; get(); };" />
       <MemberSignature Language="F#" Value="member this.RefreshTokenExpiresIn : Nullable&lt;DateTimeOffset&gt;" Usage="Microsoft.Maui.Authentication.WebAuthenticatorResult.RefreshTokenExpiresIn" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTimeOffset&gt; RefreshTokenExpiresIn { Nullable&lt;DateTimeOffset&gt; get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -259,8 +259,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset Timestamp" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Authentication.WebAuthenticatorResult.Timestamp" />
       <MemberSignature Language="VB.NET" Value="Public Property Timestamp As DateTimeOffset" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTimeOffset Timestamp { DateTimeOffset get(); void set(DateTimeOffset value); };" />
       <MemberSignature Language="F#" Value="member this.Timestamp : DateTimeOffset with get, set" Usage="Microsoft.Maui.Authentication.WebAuthenticatorResult.Timestamp" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTimeOffset Timestamp { DateTimeOffset get(); void set(DateTimeOffset value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

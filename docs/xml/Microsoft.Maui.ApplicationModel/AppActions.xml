@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AppActions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.AppActions" />
   <TypeSignature Language="VB.NET" Value="Public Class AppActions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AppActions abstract sealed" />
   <TypeSignature Language="F#" Value="type AppActions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppActions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.ApplicationModel.IAppActions Current" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppActions.Current" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Current As IAppActions" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::IAppActions ^ Current { Microsoft::Maui::ApplicationModel::IAppActions ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Current : Microsoft.Maui.ApplicationModel.IAppActions" Usage="Microsoft.Maui.ApplicationModel.AppActions.Current" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::IAppActions ^ Current { Microsoft::Maui::ApplicationModel::IAppActions ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.ApplicationModel.AppAction&gt;&gt; GetAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.AppActions.GetAsync" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetAsync () As Task(Of IEnumerable(Of AppAction))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::ApplicationModel::AppAction ^&gt; ^&gt; ^ GetAsync();" />
       <MemberSignature Language="F#" Value="static member GetAsync : unit -&gt; System.Threading.Tasks.Task&lt;seq&lt;Microsoft.Maui.ApplicationModel.AppAction&gt;&gt;" Usage="Microsoft.Maui.ApplicationModel.AppActions.GetAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::ApplicationModel::AppAction ^&gt; ^&gt; ^ GetAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -66,8 +66,8 @@
       <MemberSignature Language="ILAsm" Value=".property bool IsSupported" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.AppActions.IsSupported" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsSupported As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsSupported { bool get(); };" />
       <MemberSignature Language="F#" Value="static member IsSupported : bool" Usage="Microsoft.Maui.ApplicationModel.AppActions.IsSupported" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsSupported { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -87,8 +87,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.ApplicationModel.AppActionEventArgs&gt; OnAppAction" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.ApplicationModel.AppActions.OnAppAction" />
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event OnAppAction As EventHandler(Of AppActionEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;Microsoft::Maui::ApplicationModel::AppActionEventArgs ^&gt; ^ OnAppAction;" />
       <MemberSignature Language="F#" Value="member this.OnAppAction : EventHandler&lt;Microsoft.Maui.ApplicationModel.AppActionEventArgs&gt; " Usage="member this.OnAppAction : System.EventHandler&lt;Microsoft.Maui.ApplicationModel.AppActionEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;Microsoft::Maui::ApplicationModel::AppActionEventArgs ^&gt; ^ OnAppAction;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task SetAsync(class Microsoft.Maui.ApplicationModel.AppAction[] actions) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.AppActions.SetAsync(Microsoft.Maui.ApplicationModel.AppAction[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function SetAsync (ParamArray actions As AppAction()) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ SetAsync(... cli::array &lt;Microsoft::Maui::ApplicationModel::AppAction ^&gt; ^ actions);" />
       <MemberSignature Language="F#" Value="static member SetAsync : Microsoft.Maui.ApplicationModel.AppAction[] -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.AppActions.SetAsync actions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ SetAsync(... cli::array &lt;Microsoft::Maui::ApplicationModel::AppAction ^&gt; ^ actions);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -139,8 +139,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task SetAsync(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.ApplicationModel.AppAction&gt; actions) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.AppActions.SetAsync(System.Collections.Generic.IEnumerable{Microsoft.Maui.ApplicationModel.AppAction})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function SetAsync (actions As IEnumerable(Of AppAction)) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ SetAsync(System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::ApplicationModel::AppAction ^&gt; ^ actions);" />
       <MemberSignature Language="F#" Value="static member SetAsync : seq&lt;Microsoft.Maui.ApplicationModel.AppAction&gt; -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.AppActions.SetAsync actions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ SetAsync(System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::ApplicationModel::AppAction ^&gt; ^ actions);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

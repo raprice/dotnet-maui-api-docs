@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RelativeLayout extends Microsoft.Maui.Controls.Compatibility.Layout`1&lt;class Microsoft.Maui.Controls.View&gt; implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.Compatibility.RelativeLayout&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Compatibility.RelativeLayout" />
   <TypeSignature Language="VB.NET" Value="Public Class RelativeLayout&#xA;Inherits Layout(Of View)&#xA;Implements IElementConfiguration(Of RelativeLayout)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class RelativeLayout : Microsoft::Maui::Controls::Compatibility::Layout&lt;Microsoft::Maui::Controls::View ^&gt;, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Compatibility::RelativeLayout ^&gt;" />
   <TypeSignature Language="F#" Value="type RelativeLayout = class&#xA;    inherit Layout&lt;View&gt;&#xA;    interface IElementConfiguration&lt;RelativeLayout&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RelativeLayout : Microsoft::Maui::Controls::Compatibility::Layout&lt;Microsoft::Maui::Controls::View ^&gt;, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Compatibility::RelativeLayout ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -53,8 +53,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BoundsConstraintProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Compatibility.RelativeLayout.BoundsConstraintProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BoundsConstraintProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BoundsConstraintProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BoundsConstraintProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.BoundsConstraintProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BoundsConstraintProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Compatibility.RelativeLayout/IRelativeList`1&lt;class Microsoft.Maui.Controls.View&gt; Children" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Compatibility.RelativeLayout.Children" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Children As RelativeLayout.IRelativeList(Of View)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Compatibility::RelativeLayout::IRelativeList&lt;Microsoft::Maui::Controls::View ^&gt; ^ Children { Microsoft::Maui::Controls::Compatibility::RelativeLayout::IRelativeList&lt;Microsoft::Maui::Controls::View ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Children : Microsoft.Maui.Controls.Compatibility.RelativeLayout.IRelativeList&lt;Microsoft.Maui.Controls.View&gt;" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.Children" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Compatibility::RelativeLayout::IRelativeList&lt;Microsoft::Maui::Controls::View ^&gt; ^ Children { Microsoft::Maui::Controls::Compatibility::RelativeLayout::IRelativeList&lt;Microsoft::Maui::Controls::View ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -94,8 +94,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.BoundsConstraint GetBoundsConstraint(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.GetBoundsConstraint(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetBoundsConstraint (bindable As BindableObject) As BoundsConstraint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::BoundsConstraint ^ GetBoundsConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetBoundsConstraint : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.BoundsConstraint" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.GetBoundsConstraint bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::BoundsConstraint ^ GetBoundsConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.Compatibility.Constraint GetHeightConstraint(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.GetHeightConstraint(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetHeightConstraint (bindable As BindableObject) As Constraint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ GetHeightConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetHeightConstraint : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.Compatibility.Constraint" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.GetHeightConstraint bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ GetHeightConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -144,8 +144,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.Compatibility.Constraint GetWidthConstraint(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.GetWidthConstraint(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetWidthConstraint (bindable As BindableObject) As Constraint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ GetWidthConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetWidthConstraint : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.Compatibility.Constraint" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.GetWidthConstraint bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ GetWidthConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -169,8 +169,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.Compatibility.Constraint GetXConstraint(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.GetXConstraint(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetXConstraint (bindable As BindableObject) As Constraint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ GetXConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetXConstraint : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.Compatibility.Constraint" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.GetXConstraint bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ GetXConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -194,8 +194,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.Compatibility.Constraint GetYConstraint(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.GetYConstraint(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetYConstraint (bindable As BindableObject) As Constraint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ GetYConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetYConstraint : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.Compatibility.Constraint" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.GetYConstraint bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Compatibility::Constraint ^ GetYConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -219,8 +219,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HeightConstraintProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Compatibility.RelativeLayout.HeightConstraintProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeightConstraintProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeightConstraintProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HeightConstraintProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.HeightConstraintProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeightConstraintProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -239,8 +239,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void LayoutChildren(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub LayoutChildren (x As Double, y As Double, width As Double, height As Double)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void LayoutChildren(double x, double y, double width, double height);" />
       <MemberSignature Language="F#" Value="override this.LayoutChildren : double * double * double * double -&gt; unit" Usage="relativeLayout.LayoutChildren (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void LayoutChildren(double x, double y, double width, double height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -269,8 +269,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.Compatibility.RelativeLayout&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, RelativeLayout)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Compatibility::RelativeLayout ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Compatibility.RelativeLayout (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Compatibility.RelativeLayout (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="relativeLayout.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Compatibility::RelativeLayout ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -303,8 +303,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAdded(class Microsoft.Maui.Controls.View view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.OnAdded(Microsoft.Maui.Controls.View)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAdded (view As View)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnAdded(Microsoft::Maui::Controls::View ^ view);" />
       <MemberSignature Language="F#" Value="override this.OnAdded : Microsoft.Maui.Controls.View -&gt; unit" Usage="relativeLayout.OnAdded view" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnAdded(Microsoft::Maui::Controls::View ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -327,8 +327,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Microsoft.Maui.SizeRequest OnMeasure(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.OnMeasure(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnMeasure (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::SizeRequest OnMeasure(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="override this.OnMeasure : double * double -&gt; Microsoft.Maui.SizeRequest" Usage="relativeLayout.OnMeasure (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::SizeRequest OnMeasure(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -354,8 +354,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnRemoved(class Microsoft.Maui.Controls.View view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.OnRemoved(Microsoft.Maui.Controls.View)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnRemoved (view As View)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnRemoved(Microsoft::Maui::Controls::View ^ view);" />
       <MemberSignature Language="F#" Value="override this.OnRemoved : Microsoft.Maui.Controls.View -&gt; unit" Usage="relativeLayout.OnRemoved view" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnRemoved(Microsoft::Maui::Controls::View ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -378,8 +378,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBoundsConstraint(class Microsoft.Maui.Controls.BindableObject bindable, class Microsoft.Maui.Controls.BoundsConstraint value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.SetBoundsConstraint(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.BoundsConstraint)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetBoundsConstraint (bindable As BindableObject, value As BoundsConstraint)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetBoundsConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::BoundsConstraint ^ value);" />
       <MemberSignature Language="F#" Value="static member SetBoundsConstraint : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.BoundsConstraint -&gt; unit" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.SetBoundsConstraint (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetBoundsConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::BoundsConstraint ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -404,8 +404,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetHeightConstraint(class Microsoft.Maui.Controls.BindableObject bindable, class Microsoft.Maui.Controls.Compatibility.Constraint value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.SetHeightConstraint(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.Compatibility.Constraint)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetHeightConstraint (bindable As BindableObject, value As Constraint)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHeightConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::Compatibility::Constraint ^ value);" />
       <MemberSignature Language="F#" Value="static member SetHeightConstraint : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.Compatibility.Constraint -&gt; unit" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.SetHeightConstraint (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHeightConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::Compatibility::Constraint ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -430,8 +430,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetWidthConstraint(class Microsoft.Maui.Controls.BindableObject bindable, class Microsoft.Maui.Controls.Compatibility.Constraint value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.SetWidthConstraint(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.Compatibility.Constraint)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetWidthConstraint (bindable As BindableObject, value As Constraint)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetWidthConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::Compatibility::Constraint ^ value);" />
       <MemberSignature Language="F#" Value="static member SetWidthConstraint : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.Compatibility.Constraint -&gt; unit" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.SetWidthConstraint (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetWidthConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::Compatibility::Constraint ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -456,8 +456,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetXConstraint(class Microsoft.Maui.Controls.BindableObject bindable, class Microsoft.Maui.Controls.Compatibility.Constraint value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.SetXConstraint(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.Compatibility.Constraint)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetXConstraint (bindable As BindableObject, value As Constraint)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetXConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::Compatibility::Constraint ^ value);" />
       <MemberSignature Language="F#" Value="static member SetXConstraint : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.Compatibility.Constraint -&gt; unit" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.SetXConstraint (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetXConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::Compatibility::Constraint ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -482,8 +482,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetYConstraint(class Microsoft.Maui.Controls.BindableObject bindable, class Microsoft.Maui.Controls.Compatibility.Constraint value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Compatibility.RelativeLayout.SetYConstraint(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.Compatibility.Constraint)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetYConstraint (bindable As BindableObject, value As Constraint)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetYConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::Compatibility::Constraint ^ value);" />
       <MemberSignature Language="F#" Value="static member SetYConstraint : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.Compatibility.Constraint -&gt; unit" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.SetYConstraint (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetYConstraint(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::Compatibility::Constraint ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -508,8 +508,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty WidthConstraintProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Compatibility.RelativeLayout.WidthConstraintProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly WidthConstraintProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ WidthConstraintProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable WidthConstraintProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.WidthConstraintProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ WidthConstraintProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -528,8 +528,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty XConstraintProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Compatibility.RelativeLayout.XConstraintProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly XConstraintProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ XConstraintProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable XConstraintProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.XConstraintProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ XConstraintProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -548,8 +548,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty YConstraintProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Compatibility.RelativeLayout.YConstraintProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly YConstraintProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ YConstraintProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable YConstraintProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Compatibility.RelativeLayout.YConstraintProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ YConstraintProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

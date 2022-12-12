@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ShareFileRequest extends Microsoft.Maui.ApplicationModel.DataTransfer.ShareRequestBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest" />
   <TypeSignature Language="VB.NET" Value="Public Class ShareFileRequest&#xA;Inherits ShareRequestBase" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ShareFileRequest : Microsoft::Maui::ApplicationModel::DataTransfer::ShareRequestBase" />
   <TypeSignature Language="F#" Value="type ShareFileRequest = class&#xA;    inherit ShareRequestBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ShareFileRequest : Microsoft::Maui::ApplicationModel::DataTransfer::ShareRequestBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.ApplicationModel.DataTransfer.ShareFile file) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest.#ctor(Microsoft.Maui.ApplicationModel.DataTransfer.ShareFile)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (file As ShareFile)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShareFileRequest(Microsoft::Maui::ApplicationModel::DataTransfer::ShareFile ^ file);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest : Microsoft.Maui.ApplicationModel.DataTransfer.ShareFile -&gt; Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest" Usage="new Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest file" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShareFileRequest(Microsoft::Maui::ApplicationModel::DataTransfer::ShareFile ^ file);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Storage.FileBase file) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest.#ctor(Microsoft.Maui.Storage.FileBase)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (file As FileBase)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShareFileRequest(Microsoft::Maui::Storage::FileBase ^ file);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest : Microsoft.Maui.Storage.FileBase -&gt; Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest" Usage="new Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest file" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShareFileRequest(Microsoft::Maui::Storage::FileBase ^ file);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string title, class Microsoft.Maui.ApplicationModel.DataTransfer.ShareFile file) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest.#ctor(System.String,Microsoft.Maui.ApplicationModel.DataTransfer.ShareFile)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (title As String, file As ShareFile)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShareFileRequest(System::String ^ title, Microsoft::Maui::ApplicationModel::DataTransfer::ShareFile ^ file);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest : string * Microsoft.Maui.ApplicationModel.DataTransfer.ShareFile -&gt; Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest" Usage="new Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest (title, file)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShareFileRequest(System::String ^ title, Microsoft::Maui::ApplicationModel::DataTransfer::ShareFile ^ file);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -105,8 +105,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string title, class Microsoft.Maui.Storage.FileBase file) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest.#ctor(System.String,Microsoft.Maui.Storage.FileBase)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (title As String, file As FileBase)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShareFileRequest(System::String ^ title, Microsoft::Maui::Storage::FileBase ^ file);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest : string * Microsoft.Maui.Storage.FileBase -&gt; Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest" Usage="new Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest (title, file)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShareFileRequest(System::String ^ title, Microsoft::Maui::Storage::FileBase ^ file);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -128,8 +128,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.ApplicationModel.DataTransfer.ShareFile File" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest.File" />
       <MemberSignature Language="VB.NET" Value="Public Property File As ShareFile" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::DataTransfer::ShareFile ^ File { Microsoft::Maui::ApplicationModel::DataTransfer::ShareFile ^ get(); void set(Microsoft::Maui::ApplicationModel::DataTransfer::ShareFile ^ value); };" />
       <MemberSignature Language="F#" Value="member this.File : Microsoft.Maui.ApplicationModel.DataTransfer.ShareFile with get, set" Usage="Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest.File" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::DataTransfer::ShareFile ^ File { Microsoft::Maui::ApplicationModel::DataTransfer::ShareFile ^ get(); void set(Microsoft::Maui::ApplicationModel::DataTransfer::ShareFile ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

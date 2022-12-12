@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ShareTextRequest extends Microsoft.Maui.ApplicationModel.DataTransfer.ShareRequestBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest" />
   <TypeSignature Language="VB.NET" Value="Public Class ShareTextRequest&#xA;Inherits ShareRequestBase" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ShareTextRequest : Microsoft::Maui::ApplicationModel::DataTransfer::ShareRequestBase" />
   <TypeSignature Language="F#" Value="type ShareTextRequest = class&#xA;    inherit ShareRequestBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ShareTextRequest : Microsoft::Maui::ApplicationModel::DataTransfer::ShareRequestBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (text As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShareTextRequest(System::String ^ text);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest : string -&gt; Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest" Usage="new Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest text" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShareTextRequest(System::String ^ text);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text, string title) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest.#ctor(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (text As String, title As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShareTextRequest(System::String ^ text, System::String ^ title);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest : string * string -&gt; Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest" Usage="new Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest (text, title)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ShareTextRequest(System::String ^ text, System::String ^ title);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -84,8 +84,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest.Subject" />
       <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Subject : string with get, set" Usage="Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest.Subject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -105,8 +105,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Text" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest.Text" />
       <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest.Text" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -126,8 +126,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Uri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest.Uri" />
       <MemberSignature Language="VB.NET" Value="Public Property Uri As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Uri { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Uri : string with get, set" Usage="Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest.Uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Uri { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

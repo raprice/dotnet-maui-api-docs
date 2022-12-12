@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Brush extends Microsoft.Maui.Controls.Element" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Brush" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Brush&#xA;Inherits Element" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Brush abstract : Microsoft::Maui::Controls::Element" />
   <TypeSignature Language="F#" Value="type Brush = class&#xA;    inherit Element" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Brush abstract : Microsoft::Maui::Controls::Element" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush AliceBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.AliceBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AliceBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ AliceBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member AliceBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.AliceBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ AliceBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush AntiqueWhite" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.AntiqueWhite" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AntiqueWhite As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ AntiqueWhite { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member AntiqueWhite : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.AntiqueWhite" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ AntiqueWhite { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -88,8 +88,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Aqua" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Aqua" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Aqua As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Aqua { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Aqua : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Aqua" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Aqua { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -109,8 +109,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Aquamarine" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Aquamarine" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Aquamarine As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Aquamarine { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Aquamarine : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Aquamarine" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Aquamarine { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -130,8 +130,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Azure" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Azure" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Azure As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Azure { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Azure : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Azure" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Azure { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -151,8 +151,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Beige" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Beige" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Beige As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Beige { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Beige : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Beige" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Beige { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -172,8 +172,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Bisque" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Bisque" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Bisque As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Bisque { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Bisque : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Bisque" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Bisque { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -193,8 +193,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Black" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Black" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Black As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Black { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Black : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Black" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Black { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -214,8 +214,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush BlanchedAlmond" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.BlanchedAlmond" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BlanchedAlmond As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ BlanchedAlmond { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member BlanchedAlmond : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.BlanchedAlmond" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ BlanchedAlmond { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -235,8 +235,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Blue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Blue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Blue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Blue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Blue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Blue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Blue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -256,8 +256,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush BlueViolet" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.BlueViolet" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BlueViolet As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ BlueViolet { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member BlueViolet : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.BlueViolet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ BlueViolet { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -277,8 +277,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Brown" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Brown" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Brown As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Brown { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Brown : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Brown" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Brown { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -298,8 +298,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush BurlyWood" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.BurlyWood" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BurlyWood As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ BurlyWood { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member BurlyWood : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.BurlyWood" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ BurlyWood { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -319,8 +319,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush CadetBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.CadetBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CadetBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ CadetBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member CadetBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.CadetBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ CadetBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -340,8 +340,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Chartreuse" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Chartreuse" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Chartreuse As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Chartreuse { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Chartreuse : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Chartreuse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Chartreuse { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -361,8 +361,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Chocolate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Chocolate" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Chocolate As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Chocolate { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Chocolate : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Chocolate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Chocolate { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -382,8 +382,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Coral" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Coral" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Coral As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Coral { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Coral : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Coral" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Coral { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -403,8 +403,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush CornflowerBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.CornflowerBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CornflowerBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ CornflowerBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member CornflowerBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.CornflowerBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ CornflowerBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -424,8 +424,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Cornsilk" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Cornsilk" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Cornsilk As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Cornsilk { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Cornsilk : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Cornsilk" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Cornsilk { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -445,8 +445,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Crimson" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Crimson" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Crimson As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Crimson { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Crimson : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Crimson" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Crimson { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -466,8 +466,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Cyan" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Cyan" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Cyan As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Cyan { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Cyan : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Cyan" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Cyan { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -487,8 +487,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -508,8 +508,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkCyan" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkCyan" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkCyan As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkCyan { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkCyan : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkCyan" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkCyan { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -529,8 +529,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkGoldenrod" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkGoldenrod" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkGoldenrod As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkGoldenrod { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkGoldenrod : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkGoldenrod" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkGoldenrod { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -550,8 +550,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkGray" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkGray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkGray As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkGray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkGray : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkGray" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkGray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -571,8 +571,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -592,8 +592,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkKhaki" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkKhaki" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkKhaki As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkKhaki { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkKhaki : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkKhaki" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkKhaki { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -613,8 +613,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkMagenta" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkMagenta" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkMagenta As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkMagenta { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkMagenta : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkMagenta" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkMagenta { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -634,8 +634,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkOliveGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkOliveGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkOliveGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkOliveGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkOliveGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkOliveGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkOliveGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -655,8 +655,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkOrange" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkOrange" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkOrange As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkOrange { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkOrange : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkOrange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkOrange { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -676,8 +676,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkOrchid" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkOrchid" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkOrchid As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkOrchid { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkOrchid : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkOrchid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkOrchid { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -697,8 +697,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkRed" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkRed" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkRed As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkRed { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkRed : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkRed" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkRed { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -718,8 +718,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkSalmon" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkSalmon" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkSalmon As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkSalmon { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkSalmon : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkSalmon" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkSalmon { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -739,8 +739,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkSeaGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkSeaGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkSeaGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkSeaGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkSeaGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkSeaGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkSeaGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -760,8 +760,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkSlateBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkSlateBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkSlateBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkSlateBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkSlateBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkSlateBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkSlateBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -781,8 +781,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkSlateGray" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkSlateGray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkSlateGray As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkSlateGray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkSlateGray : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkSlateGray" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkSlateGray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -802,8 +802,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkTurquoise" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkTurquoise" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkTurquoise As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkTurquoise { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkTurquoise : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkTurquoise" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkTurquoise { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -823,8 +823,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DarkViolet" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DarkViolet" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DarkViolet As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkViolet { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DarkViolet : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DarkViolet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DarkViolet { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -844,8 +844,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DeepPink" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DeepPink" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DeepPink As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DeepPink { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DeepPink : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DeepPink" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DeepPink { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -865,8 +865,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DeepSkyBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DeepSkyBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DeepSkyBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DeepSkyBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DeepSkyBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DeepSkyBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DeepSkyBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -886,8 +886,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.Brush Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As Brush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::Brush ^ Default { Microsoft::Maui::Controls::Brush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.Controls.Brush" Usage="Microsoft.Maui.Controls.Brush.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::Brush ^ Default { Microsoft::Maui::Controls::Brush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -907,8 +907,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DimGray" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DimGray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DimGray As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DimGray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DimGray : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DimGray" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DimGray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -928,8 +928,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush DodgerBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.DodgerBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DodgerBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DodgerBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member DodgerBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.DodgerBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ DodgerBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -949,8 +949,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Firebrick" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Firebrick" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Firebrick As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Firebrick { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Firebrick : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Firebrick" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Firebrick { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -970,8 +970,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush FloralWhite" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.FloralWhite" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FloralWhite As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ FloralWhite { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member FloralWhite : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.FloralWhite" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ FloralWhite { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -991,8 +991,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush ForestGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.ForestGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ForestGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ ForestGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member ForestGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.ForestGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ ForestGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1012,8 +1012,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Fuchsia" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Fuchsia" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Fuchsia As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Fuchsia { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Fuchsia : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Fuchsia" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Fuchsia { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1033,8 +1033,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Gainsboro" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Gainsboro" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Gainsboro As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Gainsboro { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Gainsboro : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Gainsboro" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Gainsboro { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1054,8 +1054,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush GhostWhite" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.GhostWhite" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property GhostWhite As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ GhostWhite { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member GhostWhite : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.GhostWhite" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ GhostWhite { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1075,8 +1075,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Gold" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Gold" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Gold As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Gold { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Gold : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Gold" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Gold { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1096,8 +1096,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Goldenrod" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Goldenrod" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Goldenrod As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Goldenrod { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Goldenrod : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Goldenrod" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Goldenrod { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1117,8 +1117,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Gray" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Gray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Gray As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Gray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Gray : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Gray" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Gray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1138,8 +1138,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Green" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Green" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Green As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Green { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Green : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Green" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Green { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1159,8 +1159,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush GreenYellow" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.GreenYellow" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property GreenYellow As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ GreenYellow { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member GreenYellow : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.GreenYellow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ GreenYellow { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1180,8 +1180,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Honeydew" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Honeydew" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Honeydew As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Honeydew { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Honeydew : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Honeydew" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Honeydew { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1201,8 +1201,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush HotPink" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.HotPink" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property HotPink As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ HotPink { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member HotPink : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.HotPink" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ HotPink { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1222,8 +1222,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush IndianRed" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.IndianRed" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IndianRed As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ IndianRed { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member IndianRed : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.IndianRed" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ IndianRed { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1243,8 +1243,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Indigo" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Indigo" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Indigo As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Indigo { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Indigo : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Indigo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Indigo { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1264,8 +1264,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEmpty" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.IsEmpty" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property IsEmpty As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property bool IsEmpty { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsEmpty : bool" Usage="Microsoft.Maui.Controls.Brush.IsEmpty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property bool IsEmpty { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1285,8 +1285,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsNullOrEmpty(class Microsoft.Maui.Controls.Brush brush) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Brush.IsNullOrEmpty(Microsoft.Maui.Controls.Brush)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsNullOrEmpty (brush As Brush) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNullOrEmpty(Microsoft::Maui::Controls::Brush ^ brush);" />
       <MemberSignature Language="F#" Value="static member IsNullOrEmpty : Microsoft.Maui.Controls.Brush -&gt; bool" Usage="Microsoft.Maui.Controls.Brush.IsNullOrEmpty brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNullOrEmpty(Microsoft::Maui::Controls::Brush ^ brush);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1310,8 +1310,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Ivory" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Ivory" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Ivory As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Ivory { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Ivory : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Ivory" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Ivory { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1331,8 +1331,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Khaki" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Khaki" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Khaki As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Khaki { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Khaki : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Khaki" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Khaki { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1352,8 +1352,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Lavender" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Lavender" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Lavender As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Lavender { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Lavender : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Lavender" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Lavender { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1373,8 +1373,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LavenderBlush" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LavenderBlush" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LavenderBlush As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LavenderBlush { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LavenderBlush : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LavenderBlush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LavenderBlush { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1394,8 +1394,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LawnGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LawnGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LawnGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LawnGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LawnGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LawnGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LawnGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1415,8 +1415,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LemonChiffon" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LemonChiffon" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LemonChiffon As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LemonChiffon { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LemonChiffon : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LemonChiffon" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LemonChiffon { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1436,8 +1436,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LightBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LightBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LightBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LightBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LightBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1457,8 +1457,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LightCoral" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LightCoral" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LightCoral As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightCoral { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LightCoral : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LightCoral" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightCoral { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1478,8 +1478,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LightCyan" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LightCyan" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LightCyan As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightCyan { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LightCyan : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LightCyan" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightCyan { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1499,8 +1499,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LightGoldenrodYellow" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LightGoldenrodYellow" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LightGoldenrodYellow As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightGoldenrodYellow { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LightGoldenrodYellow : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LightGoldenrodYellow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightGoldenrodYellow { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1520,8 +1520,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LightGray" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LightGray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LightGray As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightGray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LightGray : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LightGray" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightGray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1541,8 +1541,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LightGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LightGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LightGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LightGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LightGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1562,8 +1562,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LightPink" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LightPink" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LightPink As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightPink { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LightPink : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LightPink" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightPink { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1583,8 +1583,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LightSalmon" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LightSalmon" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LightSalmon As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightSalmon { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LightSalmon : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LightSalmon" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightSalmon { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1604,8 +1604,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LightSeaGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LightSeaGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LightSeaGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightSeaGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LightSeaGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LightSeaGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightSeaGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1625,8 +1625,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LightSkyBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LightSkyBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LightSkyBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightSkyBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LightSkyBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LightSkyBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightSkyBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1646,8 +1646,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LightSlateGray" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LightSlateGray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LightSlateGray As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightSlateGray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LightSlateGray : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LightSlateGray" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightSlateGray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1667,8 +1667,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LightSteelBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LightSteelBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LightSteelBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightSteelBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LightSteelBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LightSteelBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightSteelBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1688,8 +1688,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LightYellow" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LightYellow" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LightYellow As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightYellow { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LightYellow : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LightYellow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LightYellow { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1709,8 +1709,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Lime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Lime" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Lime As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Lime { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Lime : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Lime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Lime { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1730,8 +1730,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush LimeGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.LimeGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LimeGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LimeGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member LimeGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.LimeGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ LimeGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1751,8 +1751,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Linen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Linen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Linen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Linen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Linen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Linen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Linen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1772,8 +1772,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Magenta" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Magenta" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Magenta As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Magenta { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Magenta : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Magenta" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Magenta { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1793,8 +1793,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Maroon" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Maroon" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Maroon As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Maroon { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Maroon : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Maroon" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Maroon { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1814,8 +1814,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush MediumAquamarine" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.MediumAquamarine" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MediumAquamarine As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumAquamarine { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member MediumAquamarine : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.MediumAquamarine" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumAquamarine { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1835,8 +1835,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush MediumBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.MediumBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MediumBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member MediumBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.MediumBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1856,8 +1856,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush MediumOrchid" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.MediumOrchid" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MediumOrchid As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumOrchid { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member MediumOrchid : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.MediumOrchid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumOrchid { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1877,8 +1877,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush MediumPurple" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.MediumPurple" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MediumPurple As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumPurple { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member MediumPurple : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.MediumPurple" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumPurple { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1898,8 +1898,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush MediumSeaGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.MediumSeaGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MediumSeaGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumSeaGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member MediumSeaGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.MediumSeaGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumSeaGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1919,8 +1919,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush MediumSlateBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.MediumSlateBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MediumSlateBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumSlateBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member MediumSlateBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.MediumSlateBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumSlateBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1940,8 +1940,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush MediumSpringGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.MediumSpringGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MediumSpringGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumSpringGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member MediumSpringGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.MediumSpringGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumSpringGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1961,8 +1961,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush MediumTurquoise" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.MediumTurquoise" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MediumTurquoise As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumTurquoise { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member MediumTurquoise : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.MediumTurquoise" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumTurquoise { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1982,8 +1982,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush MediumVioletRed" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.MediumVioletRed" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MediumVioletRed As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumVioletRed { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member MediumVioletRed : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.MediumVioletRed" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MediumVioletRed { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2003,8 +2003,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush MidnightBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.MidnightBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MidnightBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MidnightBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member MidnightBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.MidnightBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MidnightBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2024,8 +2024,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush MintCream" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.MintCream" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MintCream As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MintCream { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member MintCream : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.MintCream" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MintCream { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2045,8 +2045,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush MistyRose" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.MistyRose" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MistyRose As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MistyRose { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member MistyRose : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.MistyRose" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ MistyRose { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2066,8 +2066,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Moccasin" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Moccasin" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Moccasin As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Moccasin { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Moccasin : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Moccasin" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Moccasin { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2087,8 +2087,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush NavajoWhite" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.NavajoWhite" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NavajoWhite As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ NavajoWhite { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member NavajoWhite : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.NavajoWhite" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ NavajoWhite { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2108,8 +2108,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Navy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Navy" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Navy As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Navy { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Navy : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Navy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Navy { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2129,8 +2129,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush OldLace" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.OldLace" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OldLace As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ OldLace { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member OldLace : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.OldLace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ OldLace { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2150,8 +2150,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Olive" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Olive" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Olive As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Olive { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Olive : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Olive" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Olive { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2171,8 +2171,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush OliveDrab" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.OliveDrab" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OliveDrab As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ OliveDrab { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member OliveDrab : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.OliveDrab" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ OliveDrab { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2192,8 +2192,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Maui.Graphics.Paint op_Implicit(class Microsoft.Maui.Controls.Brush brush) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Brush.op_Implicit(Microsoft.Maui.Controls.Brush)~Microsoft.Maui.Graphics.Paint" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (brush As Brush) As Paint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Graphics::Paint ^(Microsoft::Maui::Controls::Brush ^ brush);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : Microsoft.Maui.Controls.Brush -&gt; Microsoft.Maui.Graphics.Paint" Usage="Microsoft.Maui.Controls.Brush.op_Implicit brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Graphics::Paint ^(Microsoft::Maui::Controls::Brush ^ brush);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2217,8 +2217,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Maui.Controls.Brush op_Implicit(class Microsoft.Maui.Graphics.Color color) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Brush.op_Implicit(Microsoft.Maui.Graphics.Color)~Microsoft.Maui.Controls.Brush" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (color As Color) As Brush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::Brush ^(Microsoft::Maui::Graphics::Color ^ color);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : Microsoft.Maui.Graphics.Color -&gt; Microsoft.Maui.Controls.Brush" Usage="Microsoft.Maui.Controls.Brush.op_Implicit color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::Brush ^(Microsoft::Maui::Graphics::Color ^ color);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2242,8 +2242,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Maui.Controls.Brush op_Implicit(class Microsoft.Maui.Graphics.Paint paint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Brush.op_Implicit(Microsoft.Maui.Graphics.Paint)~Microsoft.Maui.Controls.Brush" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (paint As Paint) As Brush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::Brush ^(Microsoft::Maui::Graphics::Paint ^ paint);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : Microsoft.Maui.Graphics.Paint -&gt; Microsoft.Maui.Controls.Brush" Usage="Microsoft.Maui.Controls.Brush.op_Implicit paint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::Brush ^(Microsoft::Maui::Graphics::Paint ^ paint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2267,8 +2267,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Orange" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Orange" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Orange As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Orange { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Orange : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Orange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Orange { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2288,8 +2288,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush OrangeRed" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.OrangeRed" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OrangeRed As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ OrangeRed { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member OrangeRed : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.OrangeRed" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ OrangeRed { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2309,8 +2309,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Orchid" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Orchid" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Orchid As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Orchid { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Orchid : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Orchid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Orchid { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2330,8 +2330,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush PaleGoldenrod" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.PaleGoldenrod" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PaleGoldenrod As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PaleGoldenrod { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member PaleGoldenrod : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.PaleGoldenrod" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PaleGoldenrod { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2351,8 +2351,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush PaleGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.PaleGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PaleGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PaleGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member PaleGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.PaleGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PaleGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2372,8 +2372,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush PaleTurquoise" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.PaleTurquoise" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PaleTurquoise As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PaleTurquoise { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member PaleTurquoise : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.PaleTurquoise" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PaleTurquoise { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2393,8 +2393,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush PaleVioletRed" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.PaleVioletRed" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PaleVioletRed As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PaleVioletRed { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member PaleVioletRed : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.PaleVioletRed" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PaleVioletRed { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2414,8 +2414,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush PapayaWhip" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.PapayaWhip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PapayaWhip As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PapayaWhip { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member PapayaWhip : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.PapayaWhip" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PapayaWhip { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2435,8 +2435,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush PeachPuff" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.PeachPuff" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PeachPuff As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PeachPuff { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member PeachPuff : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.PeachPuff" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PeachPuff { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2456,8 +2456,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Peru" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Peru" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Peru As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Peru { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Peru : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Peru" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Peru { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2477,8 +2477,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Pink" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Pink" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Pink As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Pink { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Pink : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Pink" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Pink { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2498,8 +2498,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Plum" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Plum" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Plum As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Plum { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Plum : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Plum" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Plum { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2519,8 +2519,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush PowderBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.PowderBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PowderBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PowderBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member PowderBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.PowderBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ PowderBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2540,8 +2540,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Purple" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Purple" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Purple As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Purple { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Purple : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Purple" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Purple { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2561,8 +2561,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Red" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Red" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Red As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Red { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Red : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Red" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Red { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2582,8 +2582,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush RosyBrown" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.RosyBrown" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RosyBrown As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ RosyBrown { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member RosyBrown : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.RosyBrown" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ RosyBrown { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2603,8 +2603,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush RoyalBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.RoyalBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RoyalBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ RoyalBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member RoyalBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.RoyalBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ RoyalBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2624,8 +2624,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush SaddleBrown" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.SaddleBrown" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SaddleBrown As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SaddleBrown { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member SaddleBrown : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.SaddleBrown" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SaddleBrown { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2645,8 +2645,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Salmon" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Salmon" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Salmon As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Salmon { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Salmon : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Salmon" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Salmon { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2666,8 +2666,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush SandyBrown" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.SandyBrown" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SandyBrown As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SandyBrown { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member SandyBrown : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.SandyBrown" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SandyBrown { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2687,8 +2687,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush SeaGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.SeaGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SeaGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SeaGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member SeaGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.SeaGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SeaGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2708,8 +2708,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush SeaShell" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.SeaShell" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SeaShell As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SeaShell { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member SeaShell : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.SeaShell" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SeaShell { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2729,8 +2729,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Sienna" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Sienna" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Sienna As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Sienna { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Sienna : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Sienna" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Sienna { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2750,8 +2750,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Silver" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Silver" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Silver As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Silver { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Silver : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Silver" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Silver { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2771,8 +2771,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush SkyBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.SkyBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SkyBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SkyBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member SkyBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.SkyBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SkyBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2792,8 +2792,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush SlateBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.SlateBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SlateBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SlateBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member SlateBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.SlateBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SlateBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2813,8 +2813,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush SlateGray" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.SlateGray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SlateGray As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SlateGray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member SlateGray : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.SlateGray" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SlateGray { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2834,8 +2834,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Snow" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Snow" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Snow As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Snow { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Snow : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Snow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Snow { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2855,8 +2855,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush SpringGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.SpringGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SpringGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SpringGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member SpringGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.SpringGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SpringGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2876,8 +2876,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush SteelBlue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.SteelBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SteelBlue As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SteelBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member SteelBlue : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.SteelBlue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ SteelBlue { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2897,8 +2897,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Tan" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Tan" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Tan As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Tan { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Tan : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Tan" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Tan { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2918,8 +2918,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Teal" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Teal" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Teal As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Teal { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Teal : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Teal" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Teal { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2939,8 +2939,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Thistle" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Thistle" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Thistle As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Thistle { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Thistle : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Thistle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Thistle { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2960,8 +2960,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Tomato" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Tomato" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Tomato As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Tomato { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Tomato : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Tomato" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Tomato { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2981,8 +2981,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Transparent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Transparent" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Transparent As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Transparent { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Transparent : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Transparent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Transparent { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -3002,8 +3002,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Turquoise" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Turquoise" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Turquoise As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Turquoise { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Turquoise : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Turquoise" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Turquoise { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -3023,8 +3023,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Violet" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Violet" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Violet As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Violet { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Violet : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Violet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Violet { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -3044,8 +3044,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Wheat" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Wheat" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Wheat As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Wheat { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Wheat : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Wheat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Wheat { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -3065,8 +3065,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush White" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.White" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property White As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ White { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member White : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.White" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ White { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -3086,8 +3086,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush WhiteSmoke" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.WhiteSmoke" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property WhiteSmoke As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ WhiteSmoke { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member WhiteSmoke : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.WhiteSmoke" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ WhiteSmoke { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -3107,8 +3107,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush Yellow" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.Yellow" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Yellow As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Yellow { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Yellow : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.Yellow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ Yellow { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -3128,8 +3128,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.SolidColorBrush YellowGreen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Brush.YellowGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property YellowGreen As SolidColorBrush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ YellowGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberSignature Language="F#" Value="static member YellowGreen : Microsoft.Maui.Controls.SolidColorBrush" Usage="Microsoft.Maui.Controls.Brush.YellowGreen" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::SolidColorBrush ^ YellowGreen { Microsoft::Maui::Controls::SolidColorBrush ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

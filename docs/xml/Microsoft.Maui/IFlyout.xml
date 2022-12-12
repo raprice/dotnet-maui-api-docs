@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFlyout implements class Microsoft.Maui.IElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IFlyout" />
   <TypeSignature Language="VB.NET" Value="Public Interface IFlyout&#xA;Implements IElement" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IFlyout : Microsoft::Maui::IElement" />
   <TypeSignature Language="F#" Value="type IFlyout = interface&#xA;    interface IElement" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IFlyout : Microsoft::Maui::IElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OnHotReloadAttribute extends System.Attribute" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.HotReload.OnHotReloadAttribute" />
   <TypeSignature Language="VB.NET" Value="Public Class OnHotReloadAttribute&#xA;Inherits Attribute" />
-  <TypeSignature Language="C++ CLI" Value="public ref class OnHotReloadAttribute : Attribute" />
   <TypeSignature Language="F#" Value="type OnHotReloadAttribute = class&#xA;    inherit Attribute" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OnHotReloadAttribute : Attribute" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

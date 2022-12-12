@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Visibility extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Visibility" />
   <TypeSignature Language="VB.NET" Value="Public Enum Visibility" />
-  <TypeSignature Language="C++ CLI" Value="public enum class Visibility" />
   <TypeSignature Language="F#" Value="type Visibility = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class Visibility" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Visibility Collapsed = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Visibility.Collapsed" />
       <MemberSignature Language="VB.NET" Value="Collapsed" />
-      <MemberSignature Language="C++ CLI" Value="Collapsed" />
       <MemberSignature Language="F#" Value="Collapsed = 2" Usage="Microsoft.Maui.Visibility.Collapsed" />
+      <MemberSignature Language="C++ CLI" Value="Collapsed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Visibility Hidden = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Visibility.Hidden" />
       <MemberSignature Language="VB.NET" Value="Hidden" />
-      <MemberSignature Language="C++ CLI" Value="Hidden" />
       <MemberSignature Language="F#" Value="Hidden = 1" Usage="Microsoft.Maui.Visibility.Hidden" />
+      <MemberSignature Language="C++ CLI" Value="Hidden" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Visibility Visible = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Visibility.Visible" />
       <MemberSignature Language="VB.NET" Value="Visible" />
-      <MemberSignature Language="C++ CLI" Value="Visible" />
       <MemberSignature Language="F#" Value="Visible = 0" Usage="Microsoft.Maui.Visibility.Visible" />
+      <MemberSignature Language="C++ CLI" Value="Visible" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

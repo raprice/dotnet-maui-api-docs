@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PermissionException extends System.UnauthorizedAccessException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.PermissionException" />
   <TypeSignature Language="VB.NET" Value="Public Class PermissionException&#xA;Inherits UnauthorizedAccessException" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PermissionException : UnauthorizedAccessException" />
   <TypeSignature Language="F#" Value="type PermissionException = class&#xA;    inherit UnauthorizedAccessException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PermissionException : UnauthorizedAccessException" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.PermissionException.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; PermissionException(System::String ^ message);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.ApplicationModel.PermissionException : string -&gt; Microsoft.Maui.ApplicationModel.PermissionException" Usage="new Microsoft.Maui.ApplicationModel.PermissionException message" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PermissionException(System::String ^ message);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

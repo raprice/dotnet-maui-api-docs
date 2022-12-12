@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITableViewController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ITableViewController" />
   <TypeSignature Language="VB.NET" Value="Public Interface ITableViewController" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ITableViewController" />
   <TypeSignature Language="F#" Value="type ITableViewController = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ITableViewController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ITableModel Model" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ITableViewController.Model" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Model As ITableModel" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ITableModel ^ Model { Microsoft::Maui::Controls::ITableModel ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Model : Microsoft.Maui.Controls.ITableModel" Usage="Microsoft.Maui.Controls.ITableViewController.Model" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ITableModel ^ Model { Microsoft::Maui::Controls::ITableModel ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -41,8 +41,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler ModelChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.ITableViewController.ModelChanged" />
       <MemberSignature Language="VB.NET" Value="Event ModelChanged As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ ModelChanged;" />
       <MemberSignature Language="F#" Value="member this.ModelChanged : EventHandler " Usage="member this.ModelChanged : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ ModelChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

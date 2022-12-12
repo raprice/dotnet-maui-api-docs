@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITemplatedItemsView`1&lt;(class Microsoft.Maui.Controls.BindableObject) TItem&gt; implements class Microsoft.Maui.Controls.IItemsView`1&lt;!TItem&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ITemplatedItemsView`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface ITemplatedItemsView(Of TItem)&#xA;Implements IItemsView(Of TItem)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TItem&gt;&#xA; where TItem : BindableObjectpublic interface class ITemplatedItemsView : Microsoft::Maui::Controls::IItemsView&lt;TItem&gt;" />
   <TypeSignature Language="F#" Value="type ITemplatedItemsView&lt;'Item (requires 'Item :&gt; BindableObject)&gt; = interface&#xA;    interface IItemsView&lt;'Item (requires 'Item :&gt; BindableObject)&gt;" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TItem&gt;&#xA; where TItem : BindableObjectpublic interface class ITemplatedItemsView : Microsoft::Maui::Controls::IItemsView&lt;TItem&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -32,8 +32,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.IListProxy ListProxy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ITemplatedItemsView`1.ListProxy" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListProxy As IListProxy" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IListProxy ^ ListProxy { Microsoft::Maui::Controls::IListProxy ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ListProxy : Microsoft.Maui.Controls.IListProxy" Usage="Microsoft.Maui.Controls.ITemplatedItemsView&lt;'Item (requires 'Item :&gt; Microsoft.Maui.Controls.BindableObject)&gt;.ListProxy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IListProxy ^ ListProxy { Microsoft::Maui::Controls::IListProxy ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -53,8 +53,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.ComponentModel.PropertyChangedEventHandler PropertyChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.ITemplatedItemsView`1.PropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Event PropertyChanged As PropertyChangedEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::ComponentModel::PropertyChangedEventHandler ^ PropertyChanged;" />
       <MemberSignature Language="F#" Value="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " Usage="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::ComponentModel::PropertyChangedEventHandler ^ PropertyChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ITemplatedItemsList`1&lt;!TItem&gt; TemplatedItems" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ITemplatedItemsView`1.TemplatedItems" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TemplatedItems As ITemplatedItemsList(Of TItem)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ITemplatedItemsList&lt;TItem&gt; ^ TemplatedItems { Microsoft::Maui::Controls::ITemplatedItemsList&lt;TItem&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.TemplatedItems : Microsoft.Maui.Controls.ITemplatedItemsList&lt;'Item (requires 'Item :&gt; Microsoft.Maui.Controls.BindableObject)&gt;" Usage="Microsoft.Maui.Controls.ITemplatedItemsView&lt;'Item (requires 'Item :&gt; Microsoft.Maui.Controls.BindableObject)&gt;.TemplatedItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ITemplatedItemsList&lt;TItem&gt; ^ TemplatedItems { Microsoft::Maui::Controls::ITemplatedItemsList&lt;TItem&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

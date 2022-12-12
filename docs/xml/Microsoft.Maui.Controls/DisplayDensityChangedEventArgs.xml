@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DisplayDensityChangedEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.DisplayDensityChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class DisplayDensityChangedEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DisplayDensityChangedEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type DisplayDensityChangedEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DisplayDensityChangedEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float32 displayDensity) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.DisplayDensityChangedEventArgs.#ctor(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (displayDensity As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DisplayDensityChangedEventArgs(float displayDensity);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.DisplayDensityChangedEventArgs : single -&gt; Microsoft.Maui.Controls.DisplayDensityChangedEventArgs" Usage="new Microsoft.Maui.Controls.DisplayDensityChangedEventArgs displayDensity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DisplayDensityChangedEventArgs(float displayDensity);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 DisplayDensity" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.DisplayDensityChangedEventArgs.DisplayDensity" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayDensity As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float DisplayDensity { float get(); };" />
       <MemberSignature Language="F#" Value="member this.DisplayDensity : single" Usage="Microsoft.Maui.Controls.DisplayDensityChangedEventArgs.DisplayDensity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float DisplayDensity { float get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

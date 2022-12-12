@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Application extends Microsoft.Maui.Controls.Element implements class Microsoft.Maui.Controls.IApplicationController, class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.Application&gt;, class Microsoft.Maui.IApplication, class Microsoft.Maui.IElement, class Microsoft.Maui.IVisualTreeElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Application" />
   <TypeSignature Language="VB.NET" Value="Public Class Application&#xA;Inherits Element&#xA;Implements IApplication, IApplicationController, IElementConfiguration(Of Application), IVisualTreeElement" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Application : Microsoft::Maui::Controls::Element, Microsoft::Maui::Controls::IApplicationController, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Application ^&gt;, Microsoft::Maui::IApplication, Microsoft::Maui::IVisualTreeElement" />
   <TypeSignature Language="F#" Value="type Application = class&#xA;    inherit Element&#xA;    interface IApplicationController&#xA;    interface IElementConfiguration&lt;Application&gt;&#xA;    interface IVisualTreeElement&#xA;    interface IApplication&#xA;    interface IElement" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Application : Microsoft::Maui::Controls::Element, Microsoft::Maui::Controls::IApplicationController, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Application ^&gt;, Microsoft::Maui::IApplication, Microsoft::Maui::IVisualTreeElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -95,8 +95,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Graphics.Color AccentColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Application.AccentColor" />
       <MemberSignature Language="VB.NET" Value="Public Shared Property AccentColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Graphics::Color ^ AccentColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="static member AccentColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.Application.AccentColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Graphics::Color ^ AccentColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -116,8 +116,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.IAppLinks AppLinks" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Application.AppLinks" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppLinks As IAppLinks" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IAppLinks ^ AppLinks { Microsoft::Maui::Controls::IAppLinks ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.AppLinks : Microsoft.Maui.Controls.IAppLinks" Usage="Microsoft.Maui.Controls.Application.AppLinks" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IAppLinks ^ AppLinks { Microsoft::Maui::Controls::IAppLinks ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -138,8 +138,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig newslot virtual instance void CleanUp() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.CleanUp" />
       <MemberSignature Language="VB.NET" Value="Protected Friend Overridable Sub CleanUp ()" />
-      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; virtual void CleanUp();" />
       <MemberSignature Language="F#" Value="abstract member CleanUp : unit -&gt; unit&#xA;override this.CleanUp : unit -&gt; unit" Usage="application.CleanUp " />
+      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; virtual void CleanUp();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -159,8 +159,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CloseWindow(class Microsoft.Maui.Controls.Window window) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.CloseWindow(Microsoft.Maui.Controls.Window)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub CloseWindow (window As Window)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void CloseWindow(Microsoft::Maui::Controls::Window ^ window);" />
       <MemberSignature Language="F#" Value="abstract member CloseWindow : Microsoft.Maui.Controls.Window -&gt; unit&#xA;override this.CloseWindow : Microsoft.Maui.Controls.Window -&gt; unit" Usage="application.CloseWindow window" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void CloseWindow(Microsoft::Maui::Controls::Window ^ window);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -183,8 +183,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IApplication, class Microsoft.Maui.Handlers.ApplicationHandler&gt; ControlsApplicationMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Application.ControlsApplicationMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ControlsApplicationMapper As IPropertyMapper(Of IApplication, ApplicationHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IApplication ^, Microsoft::Maui::Handlers::ApplicationHandler ^&gt; ^ ControlsApplicationMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlsApplicationMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IApplication, Microsoft.Maui.Handlers.ApplicationHandler&gt;" Usage="Microsoft.Maui.Controls.Application.ControlsApplicationMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IApplication ^, Microsoft::Maui::Handlers::ApplicationHandler ^&gt; ^ ControlsApplicationMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -203,8 +203,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Microsoft.Maui.Controls.Window CreateWindow(class Microsoft.Maui.IActivationState activationState) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.CreateWindow(Microsoft.Maui.IActivationState)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function CreateWindow (activationState As IActivationState) As Window" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual Microsoft::Maui::Controls::Window ^ CreateWindow(Microsoft::Maui::IActivationState ^ activationState);" />
       <MemberSignature Language="F#" Value="abstract member CreateWindow : Microsoft.Maui.IActivationState -&gt; Microsoft.Maui.Controls.Window&#xA;override this.CreateWindow : Microsoft.Maui.IActivationState -&gt; Microsoft.Maui.Controls.Window" Usage="application.CreateWindow activationState" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual Microsoft::Maui::Controls::Window ^ CreateWindow(Microsoft::Maui::IActivationState ^ activationState);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -228,8 +228,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.Application Current" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Application.Current" />
       <MemberSignature Language="VB.NET" Value="Public Shared Property Current As Application" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::Application ^ Current { Microsoft::Maui::Controls::Application ^ get(); void set(Microsoft::Maui::Controls::Application ^ value); };" />
       <MemberSignature Language="F#" Value="static member Current : Microsoft.Maui.Controls.Application with get, set" Usage="Microsoft.Maui.Controls.Application.Current" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::Application ^ Current { Microsoft::Maui::Controls::Application ^ get(); void set(Microsoft::Maui::Controls::Application ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -249,8 +249,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Page MainPage" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Application.MainPage" />
       <MemberSignature Language="VB.NET" Value="Public Property MainPage As Page" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Page ^ MainPage { Microsoft::Maui::Controls::Page ^ get(); void set(Microsoft::Maui::Controls::Page ^ value); };" />
       <MemberSignature Language="F#" Value="member this.MainPage : Microsoft.Maui.Controls.Page with get, set" Usage="Microsoft.Maui.Controls.Application.MainPage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Page ^ MainPage { Microsoft::Maui::Controls::Page ^ get(); void set(Microsoft::Maui::Controls::Page ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -270,8 +270,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IApplication.CloseWindow(class Microsoft.Maui.IWindow window) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.Microsoft#Maui#IApplication#CloseWindow(Microsoft.Maui.IWindow)" />
       <MemberSignature Language="VB.NET" Value="Sub CloseWindow (window As IWindow) Implements IApplication.CloseWindow" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IApplication.CloseWindow(Microsoft::Maui::IWindow ^ window) = Microsoft::Maui::IApplication::CloseWindow;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IApplication.CloseWindow : Microsoft.Maui.IWindow -&gt; unit&#xA;override this.Microsoft.Maui.IApplication.CloseWindow : Microsoft.Maui.IWindow -&gt; unit" Usage="application.Microsoft.Maui.IApplication.CloseWindow window" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IApplication.CloseWindow(Microsoft::Maui::IWindow ^ window) = Microsoft::Maui::IApplication::CloseWindow;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IApplication.CloseWindow(Microsoft.Maui.IWindow)</InterfaceMember>
@@ -297,8 +297,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Microsoft.Maui.IWindow Microsoft.Maui.IApplication.CreateWindow(class Microsoft.Maui.IActivationState activationState) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.Microsoft#Maui#IApplication#CreateWindow(Microsoft.Maui.IActivationState)" />
       <MemberSignature Language="VB.NET" Value="Function CreateWindow (activationState As IActivationState) As IWindow Implements IApplication.CreateWindow" />
-      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::IWindow ^ Microsoft.Maui.IApplication.CreateWindow(Microsoft::Maui::IActivationState ^ activationState) = Microsoft::Maui::IApplication::CreateWindow;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IApplication.CreateWindow : Microsoft.Maui.IActivationState -&gt; Microsoft.Maui.IWindow&#xA;override this.Microsoft.Maui.IApplication.CreateWindow : Microsoft.Maui.IActivationState -&gt; Microsoft.Maui.IWindow" Usage="application.Microsoft.Maui.IApplication.CreateWindow activationState" />
+      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::IWindow ^ Microsoft.Maui.IApplication.CreateWindow(Microsoft::Maui::IActivationState ^ activationState) = Microsoft::Maui::IApplication::CreateWindow;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IApplication.CreateWindow(Microsoft.Maui.IActivationState)</InterfaceMember>
@@ -325,8 +325,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IApplication.OpenWindow(class Microsoft.Maui.IWindow window) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.Microsoft#Maui#IApplication#OpenWindow(Microsoft.Maui.IWindow)" />
       <MemberSignature Language="VB.NET" Value="Sub OpenWindow (window As IWindow) Implements IApplication.OpenWindow" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IApplication.OpenWindow(Microsoft::Maui::IWindow ^ window) = Microsoft::Maui::IApplication::OpenWindow;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IApplication.OpenWindow : Microsoft.Maui.IWindow -&gt; unit&#xA;override this.Microsoft.Maui.IApplication.OpenWindow : Microsoft.Maui.IWindow -&gt; unit" Usage="application.Microsoft.Maui.IApplication.OpenWindow window" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IApplication.OpenWindow(Microsoft::Maui::IWindow ^ window) = Microsoft::Maui::IApplication::OpenWindow;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IApplication.OpenWindow(Microsoft.Maui.IWindow)</InterfaceMember>
@@ -352,8 +352,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IApplication.ThemeChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.Microsoft#Maui#IApplication#ThemeChanged" />
       <MemberSignature Language="VB.NET" Value="Sub ThemeChanged () Implements IApplication.ThemeChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IApplication.ThemeChanged() = Microsoft::Maui::IApplication::ThemeChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IApplication.ThemeChanged : unit -&gt; unit&#xA;override this.Microsoft.Maui.IApplication.ThemeChanged : unit -&gt; unit" Usage="application.Microsoft.Maui.IApplication.ThemeChanged " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IApplication.ThemeChanged() = Microsoft::Maui::IApplication::ThemeChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IApplication.ThemeChanged</InterfaceMember>
@@ -376,8 +376,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IWindow&gt; Microsoft.Maui.IApplication.Windows" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Application.Microsoft#Maui#IApplication#Windows" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Windows As IReadOnlyList(Of IWindow) Implements IApplication.Windows" />
-      <MemberSignature Language="C++ CLI" Value="property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IWindow ^&gt; ^ Microsoft::Maui::IApplication::Windows { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IWindow ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IApplication.Windows : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IWindow&gt;" Usage="Microsoft.Maui.IApplication.Windows" />
+      <MemberSignature Language="C++ CLI" Value="property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IWindow ^&gt; ^ Microsoft::Maui::IApplication::Windows { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IWindow ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IApplication.Windows</InterfaceMember>
@@ -400,8 +400,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IVisualTreeElement&gt; Microsoft.Maui.IVisualTreeElement.GetVisualChildren() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.Microsoft#Maui#IVisualTreeElement#GetVisualChildren" />
       <MemberSignature Language="VB.NET" Value="Function GetVisualChildren () As IReadOnlyList(Of IVisualTreeElement) Implements IVisualTreeElement.GetVisualChildren" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ Microsoft.Maui.IVisualTreeElement.GetVisualChildren() = Microsoft::Maui::IVisualTreeElement::GetVisualChildren;" />
       <MemberSignature Language="F#" Value="override this.Microsoft.Maui.IVisualTreeElement.GetVisualChildren : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IVisualTreeElement&gt;" Usage="application.Microsoft.Maui.IVisualTreeElement.GetVisualChildren " />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ Microsoft.Maui.IVisualTreeElement.GetVisualChildren() = Microsoft::Maui::IVisualTreeElement::GetVisualChildren;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IVisualTreeElement.GetVisualChildren</InterfaceMember>
@@ -425,8 +425,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.ModalPoppedEventArgs&gt; ModalPopped" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Application.ModalPopped" />
       <MemberSignature Language="VB.NET" Value="Public Event ModalPopped As EventHandler(Of ModalPoppedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ModalPoppedEventArgs ^&gt; ^ ModalPopped;" />
       <MemberSignature Language="F#" Value="member this.ModalPopped : EventHandler&lt;Microsoft.Maui.Controls.ModalPoppedEventArgs&gt; " Usage="member this.ModalPopped : System.EventHandler&lt;Microsoft.Maui.Controls.ModalPoppedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ModalPoppedEventArgs ^&gt; ^ ModalPopped;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -445,8 +445,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.ModalPoppingEventArgs&gt; ModalPopping" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Application.ModalPopping" />
       <MemberSignature Language="VB.NET" Value="Public Event ModalPopping As EventHandler(Of ModalPoppingEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ModalPoppingEventArgs ^&gt; ^ ModalPopping;" />
       <MemberSignature Language="F#" Value="member this.ModalPopping : EventHandler&lt;Microsoft.Maui.Controls.ModalPoppingEventArgs&gt; " Usage="member this.ModalPopping : System.EventHandler&lt;Microsoft.Maui.Controls.ModalPoppingEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ModalPoppingEventArgs ^&gt; ^ ModalPopping;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -465,8 +465,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.ModalPushedEventArgs&gt; ModalPushed" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Application.ModalPushed" />
       <MemberSignature Language="VB.NET" Value="Public Event ModalPushed As EventHandler(Of ModalPushedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ModalPushedEventArgs ^&gt; ^ ModalPushed;" />
       <MemberSignature Language="F#" Value="member this.ModalPushed : EventHandler&lt;Microsoft.Maui.Controls.ModalPushedEventArgs&gt; " Usage="member this.ModalPushed : System.EventHandler&lt;Microsoft.Maui.Controls.ModalPushedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ModalPushedEventArgs ^&gt; ^ ModalPushed;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -485,8 +485,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.ModalPushingEventArgs&gt; ModalPushing" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Application.ModalPushing" />
       <MemberSignature Language="VB.NET" Value="Public Event ModalPushing As EventHandler(Of ModalPushingEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ModalPushingEventArgs ^&gt; ^ ModalPushing;" />
       <MemberSignature Language="F#" Value="member this.ModalPushing : EventHandler&lt;Microsoft.Maui.Controls.ModalPushingEventArgs&gt; " Usage="member this.ModalPushing : System.EventHandler&lt;Microsoft.Maui.Controls.ModalPushingEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::ModalPushingEventArgs ^&gt; ^ ModalPushing;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -505,8 +505,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Internals.NavigationProxy NavigationProxy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Application.NavigationProxy" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NavigationProxy As NavigationProxy" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Internals::NavigationProxy ^ NavigationProxy { Microsoft::Maui::Controls::Internals::NavigationProxy ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.NavigationProxy : Microsoft.Maui.Controls.Internals.NavigationProxy" Usage="Microsoft.Maui.Controls.Application.NavigationProxy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Internals::NavigationProxy ^ NavigationProxy { Microsoft::Maui::Controls::Internals::NavigationProxy ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -532,8 +532,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.Application&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Application)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Application ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Application (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Application (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="application.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Application ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -566,8 +566,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnAppLinkRequestReceived(class System.Uri uri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.OnAppLinkRequestReceived(System.Uri)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnAppLinkRequestReceived (uri As Uri)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnAppLinkRequestReceived(Uri ^ uri);" />
       <MemberSignature Language="F#" Value="abstract member OnAppLinkRequestReceived : Uri -&gt; unit&#xA;override this.OnAppLinkRequestReceived : Uri -&gt; unit" Usage="application.OnAppLinkRequestReceived uri" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnAppLinkRequestReceived(Uri ^ uri);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -590,8 +590,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnParentSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.OnParentSet" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnParentSet ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnParentSet();" />
       <MemberSignature Language="F#" Value="override this.OnParentSet : unit -&gt; unit" Usage="application.OnParentSet " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnParentSet();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -611,8 +611,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnResume() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.OnResume" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnResume ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnResume();" />
       <MemberSignature Language="F#" Value="abstract member OnResume : unit -&gt; unit&#xA;override this.OnResume : unit -&gt; unit" Usage="application.OnResume " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnResume();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -632,8 +632,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnSleep() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.OnSleep" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnSleep ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnSleep();" />
       <MemberSignature Language="F#" Value="abstract member OnSleep : unit -&gt; unit&#xA;override this.OnSleep : unit -&gt; unit" Usage="application.OnSleep " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnSleep();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -653,8 +653,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnStart() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.OnStart" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnStart ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnStart();" />
       <MemberSignature Language="F#" Value="abstract member OnStart : unit -&gt; unit&#xA;override this.OnStart : unit -&gt; unit" Usage="application.OnStart " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnStart();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -674,8 +674,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OpenWindow(class Microsoft.Maui.Controls.Window window) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.OpenWindow(Microsoft.Maui.Controls.Window)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub OpenWindow (window As Window)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void OpenWindow(Microsoft::Maui::Controls::Window ^ window);" />
       <MemberSignature Language="F#" Value="abstract member OpenWindow : Microsoft.Maui.Controls.Window -&gt; unit&#xA;override this.OpenWindow : Microsoft.Maui.Controls.Window -&gt; unit" Usage="application.OpenWindow window" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void OpenWindow(Microsoft::Maui::Controls::Window ^ window);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -698,8 +698,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.Page&gt; PageAppearing" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Application.PageAppearing" />
       <MemberSignature Language="VB.NET" Value="Public Event PageAppearing As EventHandler(Of Page) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PageAppearing;" />
       <MemberSignature Language="F#" Value="member this.PageAppearing : EventHandler&lt;Microsoft.Maui.Controls.Page&gt; " Usage="member this.PageAppearing : System.EventHandler&lt;Microsoft.Maui.Controls.Page&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PageAppearing;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -718,8 +718,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.Page&gt; PageDisappearing" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Application.PageDisappearing" />
       <MemberSignature Language="VB.NET" Value="Public Event PageDisappearing As EventHandler(Of Page) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PageDisappearing;" />
       <MemberSignature Language="F#" Value="member this.PageDisappearing : EventHandler&lt;Microsoft.Maui.Controls.Page&gt; " Usage="member this.PageDisappearing : System.EventHandler&lt;Microsoft.Maui.Controls.Page&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PageDisappearing;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -738,8 +738,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.ApplicationModel.AppTheme PlatformAppTheme" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Application.PlatformAppTheme" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PlatformAppTheme As AppTheme" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::AppTheme PlatformAppTheme { Microsoft::Maui::ApplicationModel::AppTheme get(); };" />
       <MemberSignature Language="F#" Value="member this.PlatformAppTheme : Microsoft.Maui.ApplicationModel.AppTheme" Usage="Microsoft.Maui.Controls.Application.PlatformAppTheme" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::AppTheme PlatformAppTheme { Microsoft::Maui::ApplicationModel::AppTheme get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -759,8 +759,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; Properties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Application.Properties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of String, Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;System::String ^, System::Object ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Properties : System.Collections.Generic.IDictionary&lt;string, obj&gt;" Usage="Microsoft.Maui.Controls.Application.Properties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;System::String ^, System::Object ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -788,8 +788,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Quit() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.Quit" />
       <MemberSignature Language="VB.NET" Value="Public Sub Quit ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Quit();" />
       <MemberSignature Language="F#" Value="member this.Quit : unit -&gt; unit" Usage="application.Quit " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Quit();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -809,8 +809,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.ApplicationModel.AppTheme RequestedTheme" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Application.RequestedTheme" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestedTheme As AppTheme" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::AppTheme RequestedTheme { Microsoft::Maui::ApplicationModel::AppTheme get(); };" />
       <MemberSignature Language="F#" Value="member this.RequestedTheme : Microsoft.Maui.ApplicationModel.AppTheme" Usage="Microsoft.Maui.Controls.Application.RequestedTheme" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::AppTheme RequestedTheme { Microsoft::Maui::ApplicationModel::AppTheme get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -830,8 +830,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.AppThemeChangedEventArgs&gt; RequestedThemeChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Application.RequestedThemeChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event RequestedThemeChanged As EventHandler(Of AppThemeChangedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::AppThemeChangedEventArgs ^&gt; ^ RequestedThemeChanged;" />
       <MemberSignature Language="F#" Value="member this.RequestedThemeChanged : EventHandler&lt;Microsoft.Maui.Controls.AppThemeChangedEventArgs&gt; " Usage="member this.RequestedThemeChanged : System.EventHandler&lt;Microsoft.Maui.Controls.AppThemeChangedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::AppThemeChangedEventArgs ^&gt; ^ RequestedThemeChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -850,8 +850,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ResourceDictionary Resources" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Application.Resources" />
       <MemberSignature Language="VB.NET" Value="Public Property Resources As ResourceDictionary" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ResourceDictionary ^ Resources { Microsoft::Maui::Controls::ResourceDictionary ^ get(); void set(Microsoft::Maui::Controls::ResourceDictionary ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Resources : Microsoft.Maui.Controls.ResourceDictionary with get, set" Usage="Microsoft.Maui.Controls.Application.Resources" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ResourceDictionary ^ Resources { Microsoft::Maui::Controls::ResourceDictionary ^ get(); void set(Microsoft::Maui::Controls::ResourceDictionary ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -871,8 +871,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task SavePropertiesAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.SavePropertiesAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function SavePropertiesAsync () As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ SavePropertiesAsync();" />
       <MemberSignature Language="F#" Value="member this.SavePropertiesAsync : unit -&gt; System.Threading.Tasks.Task" Usage="application.SavePropertiesAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ SavePropertiesAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -901,8 +901,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendOnAppLinkRequestReceived(class System.Uri uri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.SendOnAppLinkRequestReceived(System.Uri)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendOnAppLinkRequestReceived (uri As Uri)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendOnAppLinkRequestReceived(Uri ^ uri);" />
       <MemberSignature Language="F#" Value="member this.SendOnAppLinkRequestReceived : Uri -&gt; unit" Usage="application.SendOnAppLinkRequestReceived uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendOnAppLinkRequestReceived(Uri ^ uri);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -931,8 +931,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetAppIndexingProvider(class Microsoft.Maui.Controls.IAppIndexingProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.SetAppIndexingProvider(Microsoft.Maui.Controls.IAppIndexingProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetAppIndexingProvider (provider As IAppIndexingProvider)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetAppIndexingProvider(Microsoft::Maui::Controls::IAppIndexingProvider ^ provider);" />
       <MemberSignature Language="F#" Value="abstract member SetAppIndexingProvider : Microsoft.Maui.Controls.IAppIndexingProvider -&gt; unit&#xA;override this.SetAppIndexingProvider : Microsoft.Maui.Controls.IAppIndexingProvider -&gt; unit" Usage="application.SetAppIndexingProvider provider" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetAppIndexingProvider(Microsoft::Maui::Controls::IAppIndexingProvider ^ provider);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IApplicationController.SetAppIndexingProvider(Microsoft.Maui.Controls.IAppIndexingProvider)</InterfaceMember>
@@ -964,8 +964,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetCurrentApplication(class Microsoft.Maui.Controls.Application value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Application.SetCurrentApplication(Microsoft.Maui.Controls.Application)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetCurrentApplication (value As Application)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetCurrentApplication(Microsoft::Maui::Controls::Application ^ value);" />
       <MemberSignature Language="F#" Value="static member SetCurrentApplication : Microsoft.Maui.Controls.Application -&gt; unit" Usage="Microsoft.Maui.Controls.Application.SetCurrentApplication value" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetCurrentApplication(Microsoft::Maui::Controls::Application ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -994,8 +994,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.ApplicationModel.AppTheme UserAppTheme" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Application.UserAppTheme" />
       <MemberSignature Language="VB.NET" Value="Public Property UserAppTheme As AppTheme" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::AppTheme UserAppTheme { Microsoft::Maui::ApplicationModel::AppTheme get(); void set(Microsoft::Maui::ApplicationModel::AppTheme value); };" />
       <MemberSignature Language="F#" Value="member this.UserAppTheme : Microsoft.Maui.ApplicationModel.AppTheme with get, set" Usage="Microsoft.Maui.Controls.Application.UserAppTheme" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::AppTheme UserAppTheme { Microsoft::Maui::ApplicationModel::AppTheme get(); void set(Microsoft::Maui::ApplicationModel::AppTheme value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1015,8 +1015,8 @@ public partial class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.Controls.Window&gt; Windows" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Application.Windows" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Windows As IReadOnlyList(Of Window)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Window ^&gt; ^ Windows { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Window ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Windows : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Controls.Window&gt;" Usage="Microsoft.Maui.Controls.Application.Windows" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Window ^&gt; ^ Windows { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Window ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

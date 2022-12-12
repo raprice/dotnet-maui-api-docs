@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SwipeViewSwipeStarted extends System.Object implements class System.IEquatable`1&lt;class Microsoft.Maui.SwipeViewSwipeStarted&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.SwipeViewSwipeStarted" />
   <TypeSignature Language="VB.NET" Value="Public Class SwipeViewSwipeStarted&#xA;Implements IEquatable(Of SwipeViewSwipeStarted)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SwipeViewSwipeStarted : IEquatable&lt;Microsoft::Maui::SwipeViewSwipeStarted ^&gt;" />
   <TypeSignature Language="F#" Value="type SwipeViewSwipeStarted = class&#xA;    interface IEquatable&lt;SwipeViewSwipeStarted&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SwipeViewSwipeStarted : IEquatable&lt;Microsoft::Maui::SwipeViewSwipeStarted ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -27,8 +27,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.SwipeDirection SwipeDirection) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.SwipeViewSwipeStarted.#ctor(Microsoft.Maui.SwipeDirection)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (SwipeDirection As SwipeDirection)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; SwipeViewSwipeStarted(Microsoft::Maui::SwipeDirection SwipeDirection);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.SwipeViewSwipeStarted : Microsoft.Maui.SwipeDirection -&gt; Microsoft.Maui.SwipeViewSwipeStarted" Usage="new Microsoft.Maui.SwipeViewSwipeStarted SwipeDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SwipeViewSwipeStarted(Microsoft::Maui::SwipeDirection SwipeDirection);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -112,8 +112,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type EqualityContract" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.SwipeViewSwipeStarted.EqualityContract" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property EqualityContract As Type" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property Type ^ EqualityContract { Type ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.EqualityContract : Type" Usage="Microsoft.Maui.SwipeViewSwipeStarted.EqualityContract" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property Type ^ EqualityContract { Type ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -281,8 +281,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.SwipeDirection SwipeDirection" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.SwipeViewSwipeStarted.SwipeDirection" />
       <MemberSignature Language="VB.NET" Value="Public Property SwipeDirection As SwipeDirection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SwipeDirection SwipeDirection { Microsoft::Maui::SwipeDirection get(); void set(Microsoft::Maui::SwipeDirection value); };" />
       <MemberSignature Language="F#" Value="member this.SwipeDirection : Microsoft.Maui.SwipeDirection with get, set" Usage="Microsoft.Maui.SwipeViewSwipeStarted.SwipeDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SwipeDirection SwipeDirection { Microsoft::Maui::SwipeDirection get(); void set(Microsoft::Maui::SwipeDirection value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

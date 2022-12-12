@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PointerGestureRecognizer extends Microsoft.Maui.Controls.GestureRecognizer" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PointerGestureRecognizer" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PointerGestureRecognizer&#xA;Inherits GestureRecognizer" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PointerGestureRecognizer sealed : Microsoft::Maui::Controls::GestureRecognizer" />
   <TypeSignature Language="F#" Value="type PointerGestureRecognizer = class&#xA;    inherit GestureRecognizer" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PointerGestureRecognizer sealed : Microsoft::Maui::Controls::GestureRecognizer" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.PointerEventArgs&gt; PointerEntered" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerEntered" />
       <MemberSignature Language="VB.NET" Value="Public Event PointerEntered As EventHandler(Of PointerEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::PointerEventArgs ^&gt; ^ PointerEntered;" />
       <MemberSignature Language="F#" Value="member this.PointerEntered : EventHandler&lt;Microsoft.Maui.Controls.PointerEventArgs&gt; " Usage="member this.PointerEntered : System.EventHandler&lt;Microsoft.Maui.Controls.PointerEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::PointerEventArgs ^&gt; ^ PointerEntered;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -66,8 +66,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand PointerEnteredCommand" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerEnteredCommand" />
       <MemberSignature Language="VB.NET" Value="Public Property PointerEnteredCommand As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PointerEnteredCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PointerEnteredCommand : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.PointerGestureRecognizer.PointerEnteredCommand" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PointerEnteredCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -89,8 +89,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand PointerEnteredCommandParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerEnteredCommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property PointerEnteredCommandParameter As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PointerEnteredCommandParameter { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PointerEnteredCommandParameter : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.PointerGestureRecognizer.PointerEnteredCommandParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PointerEnteredCommandParameter { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -112,8 +112,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PointerEnteredCommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerEnteredCommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PointerEnteredCommandParameterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointerEnteredCommandParameterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PointerEnteredCommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PointerGestureRecognizer.PointerEnteredCommandParameterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointerEnteredCommandParameterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -134,8 +134,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PointerEnteredCommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerEnteredCommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PointerEnteredCommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointerEnteredCommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PointerEnteredCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PointerGestureRecognizer.PointerEnteredCommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointerEnteredCommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -156,8 +156,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.PointerEventArgs&gt; PointerExited" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerExited" />
       <MemberSignature Language="VB.NET" Value="Public Event PointerExited As EventHandler(Of PointerEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::PointerEventArgs ^&gt; ^ PointerExited;" />
       <MemberSignature Language="F#" Value="member this.PointerExited : EventHandler&lt;Microsoft.Maui.Controls.PointerEventArgs&gt; " Usage="member this.PointerExited : System.EventHandler&lt;Microsoft.Maui.Controls.PointerEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::PointerEventArgs ^&gt; ^ PointerExited;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -178,8 +178,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand PointerExitedCommand" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerExitedCommand" />
       <MemberSignature Language="VB.NET" Value="Public Property PointerExitedCommand As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PointerExitedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PointerExitedCommand : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.PointerGestureRecognizer.PointerExitedCommand" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PointerExitedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -201,8 +201,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand PointerExitedCommandParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerExitedCommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property PointerExitedCommandParameter As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PointerExitedCommandParameter { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PointerExitedCommandParameter : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.PointerGestureRecognizer.PointerExitedCommandParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PointerExitedCommandParameter { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -224,8 +224,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PointerExitedCommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerExitedCommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PointerExitedCommandParameterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointerExitedCommandParameterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PointerExitedCommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PointerGestureRecognizer.PointerExitedCommandParameterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointerExitedCommandParameterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -246,8 +246,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PointerExitedCommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerExitedCommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PointerExitedCommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointerExitedCommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PointerExitedCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PointerGestureRecognizer.PointerExitedCommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointerExitedCommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -268,8 +268,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.PointerEventArgs&gt; PointerMoved" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerMoved" />
       <MemberSignature Language="VB.NET" Value="Public Event PointerMoved As EventHandler(Of PointerEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::PointerEventArgs ^&gt; ^ PointerMoved;" />
       <MemberSignature Language="F#" Value="member this.PointerMoved : EventHandler&lt;Microsoft.Maui.Controls.PointerEventArgs&gt; " Usage="member this.PointerMoved : System.EventHandler&lt;Microsoft.Maui.Controls.PointerEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::PointerEventArgs ^&gt; ^ PointerMoved;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -290,8 +290,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand PointerMovedCommand" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerMovedCommand" />
       <MemberSignature Language="VB.NET" Value="Public Property PointerMovedCommand As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PointerMovedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PointerMovedCommand : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.PointerGestureRecognizer.PointerMovedCommand" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PointerMovedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -313,8 +313,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand PointerMovedCommandParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerMovedCommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property PointerMovedCommandParameter As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PointerMovedCommandParameter { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PointerMovedCommandParameter : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.PointerGestureRecognizer.PointerMovedCommandParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PointerMovedCommandParameter { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -336,8 +336,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PointerMovedCommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerMovedCommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PointerMovedCommandParameterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointerMovedCommandParameterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PointerMovedCommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PointerGestureRecognizer.PointerMovedCommandParameterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointerMovedCommandParameterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -358,8 +358,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PointerMovedCommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PointerGestureRecognizer.PointerMovedCommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PointerMovedCommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointerMovedCommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PointerMovedCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PointerGestureRecognizer.PointerMovedCommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointerMovedCommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

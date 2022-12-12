@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IShellAppearanceElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IShellAppearanceElement" />
   <TypeSignature Language="VB.NET" Value="Public Interface IShellAppearanceElement" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IShellAppearanceElement" />
   <TypeSignature Language="F#" Value="type IShellAppearanceElement = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IShellAppearanceElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color EffectiveTabBarBackgroundColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IShellAppearanceElement.EffectiveTabBarBackgroundColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EffectiveTabBarBackgroundColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ EffectiveTabBarBackgroundColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.EffectiveTabBarBackgroundColor : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Controls.IShellAppearanceElement.EffectiveTabBarBackgroundColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ EffectiveTabBarBackgroundColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -41,8 +41,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color EffectiveTabBarDisabledColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IShellAppearanceElement.EffectiveTabBarDisabledColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EffectiveTabBarDisabledColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ EffectiveTabBarDisabledColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.EffectiveTabBarDisabledColor : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Controls.IShellAppearanceElement.EffectiveTabBarDisabledColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ EffectiveTabBarDisabledColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color EffectiveTabBarForegroundColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IShellAppearanceElement.EffectiveTabBarForegroundColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EffectiveTabBarForegroundColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ EffectiveTabBarForegroundColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.EffectiveTabBarForegroundColor : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Controls.IShellAppearanceElement.EffectiveTabBarForegroundColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ EffectiveTabBarForegroundColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -83,8 +83,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color EffectiveTabBarTitleColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IShellAppearanceElement.EffectiveTabBarTitleColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EffectiveTabBarTitleColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ EffectiveTabBarTitleColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.EffectiveTabBarTitleColor : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Controls.IShellAppearanceElement.EffectiveTabBarTitleColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ EffectiveTabBarTitleColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -104,8 +104,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color EffectiveTabBarUnselectedColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.IShellAppearanceElement.EffectiveTabBarUnselectedColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EffectiveTabBarUnselectedColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ EffectiveTabBarUnselectedColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.EffectiveTabBarUnselectedColor : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Controls.IShellAppearanceElement.EffectiveTabBarUnselectedColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ EffectiveTabBarUnselectedColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

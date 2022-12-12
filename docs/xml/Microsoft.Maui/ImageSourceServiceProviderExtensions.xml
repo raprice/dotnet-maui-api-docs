@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ImageSourceServiceProviderExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ImageSourceServiceProviderExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module ImageSourceServiceProviderExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ImageSourceServiceProviderExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type ImageSourceServiceProviderExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImageSourceServiceProviderExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.IImageSourceService GetImageSourceService(class Microsoft.Maui.IImageSourceServiceProvider provider, class Microsoft.Maui.IImageSource imageSource) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ImageSourceServiceProviderExtensions.GetImageSourceService(Microsoft.Maui.IImageSourceServiceProvider,Microsoft.Maui.IImageSource)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetImageSourceService (provider As IImageSourceServiceProvider, imageSource As IImageSource) As IImageSourceService" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::IImageSourceService ^ GetImageSourceService(Microsoft::Maui::IImageSourceServiceProvider ^ provider, Microsoft::Maui::IImageSource ^ imageSource);" />
       <MemberSignature Language="F#" Value="static member GetImageSourceService : Microsoft.Maui.IImageSourceServiceProvider * Microsoft.Maui.IImageSource -&gt; Microsoft.Maui.IImageSourceService" Usage="Microsoft.Maui.ImageSourceServiceProviderExtensions.GetImageSourceService (provider, imageSource)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::IImageSourceService ^ GetImageSourceService(Microsoft::Maui::IImageSourceServiceProvider ^ provider, Microsoft::Maui::IImageSource ^ imageSource);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.IImageSourceService GetImageSourceService&lt;(class Microsoft.Maui.IImageSource) T&gt;(class Microsoft.Maui.IImageSourceServiceProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ImageSourceServiceProviderExtensions.GetImageSourceService``1(Microsoft.Maui.IImageSourceServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetImageSourceService(Of T As IImageSource) (provider As IImageSourceServiceProvider) As IImageSourceService" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::IImageSource[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::IImageSourceService ^ GetImageSourceService(Microsoft::Maui::IImageSourceServiceProvider ^ provider);" />
       <MemberSignature Language="F#" Value="static member GetImageSourceService : Microsoft.Maui.IImageSourceServiceProvider -&gt; Microsoft.Maui.IImageSourceService (requires 'T :&gt; Microsoft.Maui.IImageSource)" Usage="Microsoft.Maui.ImageSourceServiceProviderExtensions.GetImageSourceService provider" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::IImageSource[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::IImageSourceService ^ GetImageSourceService(Microsoft::Maui::IImageSourceServiceProvider ^ provider);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -83,8 +83,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.IImageSourceService GetRequiredImageSourceService(class Microsoft.Maui.IImageSourceServiceProvider provider, class Microsoft.Maui.IImageSource imageSource) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ImageSourceServiceProviderExtensions.GetRequiredImageSourceService(Microsoft.Maui.IImageSourceServiceProvider,Microsoft.Maui.IImageSource)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRequiredImageSourceService (provider As IImageSourceServiceProvider, imageSource As IImageSource) As IImageSourceService" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::IImageSourceService ^ GetRequiredImageSourceService(Microsoft::Maui::IImageSourceServiceProvider ^ provider, Microsoft::Maui::IImageSource ^ imageSource);" />
       <MemberSignature Language="F#" Value="static member GetRequiredImageSourceService : Microsoft.Maui.IImageSourceServiceProvider * Microsoft.Maui.IImageSource -&gt; Microsoft.Maui.IImageSourceService" Usage="Microsoft.Maui.ImageSourceServiceProviderExtensions.GetRequiredImageSourceService (provider, imageSource)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::IImageSourceService ^ GetRequiredImageSourceService(Microsoft::Maui::IImageSourceServiceProvider ^ provider, Microsoft::Maui::IImageSource ^ imageSource);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -110,8 +110,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.IImageSourceService GetRequiredImageSourceService(class Microsoft.Maui.IImageSourceServiceProvider provider, class System.Type imageSourceType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ImageSourceServiceProviderExtensions.GetRequiredImageSourceService(Microsoft.Maui.IImageSourceServiceProvider,System.Type)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRequiredImageSourceService (provider As IImageSourceServiceProvider, imageSourceType As Type) As IImageSourceService" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::IImageSourceService ^ GetRequiredImageSourceService(Microsoft::Maui::IImageSourceServiceProvider ^ provider, Type ^ imageSourceType);" />
       <MemberSignature Language="F#" Value="static member GetRequiredImageSourceService : Microsoft.Maui.IImageSourceServiceProvider * Type -&gt; Microsoft.Maui.IImageSourceService" Usage="Microsoft.Maui.ImageSourceServiceProviderExtensions.GetRequiredImageSourceService (provider, imageSourceType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::IImageSourceService ^ GetRequiredImageSourceService(Microsoft::Maui::IImageSourceServiceProvider ^ provider, Type ^ imageSourceType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -137,8 +137,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.IImageSourceService GetRequiredImageSourceService&lt;(class Microsoft.Maui.IImageSource) T&gt;(class Microsoft.Maui.IImageSourceServiceProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ImageSourceServiceProviderExtensions.GetRequiredImageSourceService``1(Microsoft.Maui.IImageSourceServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRequiredImageSourceService(Of T As IImageSource) (provider As IImageSourceServiceProvider) As IImageSourceService" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::IImageSource[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::IImageSourceService ^ GetRequiredImageSourceService(Microsoft::Maui::IImageSourceServiceProvider ^ provider);" />
       <MemberSignature Language="F#" Value="static member GetRequiredImageSourceService : Microsoft.Maui.IImageSourceServiceProvider -&gt; Microsoft.Maui.IImageSourceService (requires 'T :&gt; Microsoft.Maui.IImageSource)" Usage="Microsoft.Maui.ImageSourceServiceProviderExtensions.GetRequiredImageSourceService provider" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::IImageSource[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::IImageSourceService ^ GetRequiredImageSourceService(Microsoft::Maui::IImageSourceServiceProvider ^ provider);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConnectionProfile extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Networking.ConnectionProfile" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConnectionProfile" />
-  <TypeSignature Language="C++ CLI" Value="public enum class ConnectionProfile" />
   <TypeSignature Language="F#" Value="type ConnectionProfile = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConnectionProfile" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Networking.ConnectionProfile Bluetooth = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Networking.ConnectionProfile.Bluetooth" />
       <MemberSignature Language="VB.NET" Value="Bluetooth" />
-      <MemberSignature Language="C++ CLI" Value="Bluetooth" />
       <MemberSignature Language="F#" Value="Bluetooth = 1" Usage="Microsoft.Maui.Networking.ConnectionProfile.Bluetooth" />
+      <MemberSignature Language="C++ CLI" Value="Bluetooth" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Networking.ConnectionProfile Cellular = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Networking.ConnectionProfile.Cellular" />
       <MemberSignature Language="VB.NET" Value="Cellular" />
-      <MemberSignature Language="C++ CLI" Value="Cellular" />
       <MemberSignature Language="F#" Value="Cellular = 2" Usage="Microsoft.Maui.Networking.ConnectionProfile.Cellular" />
+      <MemberSignature Language="C++ CLI" Value="Cellular" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Networking.ConnectionProfile Ethernet = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Networking.ConnectionProfile.Ethernet" />
       <MemberSignature Language="VB.NET" Value="Ethernet" />
-      <MemberSignature Language="C++ CLI" Value="Ethernet" />
       <MemberSignature Language="F#" Value="Ethernet = 3" Usage="Microsoft.Maui.Networking.ConnectionProfile.Ethernet" />
+      <MemberSignature Language="C++ CLI" Value="Ethernet" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Networking.ConnectionProfile Unknown = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Networking.ConnectionProfile.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
-      <MemberSignature Language="C++ CLI" Value="Unknown" />
       <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.Maui.Networking.ConnectionProfile.Unknown" />
+      <MemberSignature Language="C++ CLI" Value="Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Networking.ConnectionProfile WiFi = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Networking.ConnectionProfile.WiFi" />
       <MemberSignature Language="VB.NET" Value="WiFi" />
-      <MemberSignature Language="C++ CLI" Value="WiFi" />
       <MemberSignature Language="F#" Value="WiFi = 4" Usage="Microsoft.Maui.Networking.ConnectionProfile.WiFi" />
+      <MemberSignature Language="C++ CLI" Value="WiFi" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

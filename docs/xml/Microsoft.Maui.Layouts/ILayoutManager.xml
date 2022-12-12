@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILayoutManager" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Layouts.ILayoutManager" />
   <TypeSignature Language="VB.NET" Value="Public Interface ILayoutManager" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ILayoutManager" />
   <TypeSignature Language="F#" Value="type ILayoutManager = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ILayoutManager" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Maui.Graphics.Size ArrangeChildren(valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.ILayoutManager.ArrangeChildren(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Function ArrangeChildren (bounds As Rect) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Size ArrangeChildren(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberSignature Language="F#" Value="abstract member ArrangeChildren : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Size" Usage="iLayoutManager.ArrangeChildren bounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Size ArrangeChildren(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -45,8 +45,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Maui.Graphics.Size Measure(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.ILayoutManager.Measure(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function Measure (widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Size Measure(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="abstract member Measure : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="iLayoutManager.Measure (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Size Measure(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

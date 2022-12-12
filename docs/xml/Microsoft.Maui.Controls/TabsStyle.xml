@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TabsStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.TabsStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum TabsStyle" />
-  <TypeSignature Language="C++ CLI" Value="public enum class TabsStyle" />
   <TypeSignature Language="F#" Value="type TabsStyle = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class TabsStyle" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.TabsStyle Default = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TabsStyle.Default" />
       <MemberSignature Language="VB.NET" Value="Default" />
-      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.Maui.Controls.TabsStyle.Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.TabsStyle Hidden = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TabsStyle.Hidden" />
       <MemberSignature Language="VB.NET" Value="Hidden" />
-      <MemberSignature Language="C++ CLI" Value="Hidden" />
       <MemberSignature Language="F#" Value="Hidden = 1" Usage="Microsoft.Maui.Controls.TabsStyle.Hidden" />
+      <MemberSignature Language="C++ CLI" Value="Hidden" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.TabsStyle Icons = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TabsStyle.Icons" />
       <MemberSignature Language="VB.NET" Value="Icons" />
-      <MemberSignature Language="C++ CLI" Value="Icons" />
       <MemberSignature Language="F#" Value="Icons = 2" Usage="Microsoft.Maui.Controls.TabsStyle.Icons" />
+      <MemberSignature Language="C++ CLI" Value="Icons" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.TabsStyle OnBottom = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TabsStyle.OnBottom" />
       <MemberSignature Language="VB.NET" Value="OnBottom" />
-      <MemberSignature Language="C++ CLI" Value="OnBottom" />
       <MemberSignature Language="F#" Value="OnBottom = 4" Usage="Microsoft.Maui.Controls.TabsStyle.OnBottom" />
+      <MemberSignature Language="C++ CLI" Value="OnBottom" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.TabsStyle OnNavigation = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TabsStyle.OnNavigation" />
       <MemberSignature Language="VB.NET" Value="OnNavigation" />
-      <MemberSignature Language="C++ CLI" Value="OnNavigation" />
       <MemberSignature Language="F#" Value="OnNavigation = 3" Usage="Microsoft.Maui.Controls.TabsStyle.OnNavigation" />
+      <MemberSignature Language="C++ CLI" Value="OnNavigation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IQueryAttributable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IQueryAttributable" />
   <TypeSignature Language="VB.NET" Value="Public Interface IQueryAttributable" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IQueryAttributable" />
   <TypeSignature Language="F#" Value="type IQueryAttributable = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IQueryAttributable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ApplyQueryAttributes(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; query) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IQueryAttributable.ApplyQueryAttributes(System.Collections.Generic.IDictionary{System.String,System.Object})" />
       <MemberSignature Language="VB.NET" Value="Public Sub ApplyQueryAttributes (query As IDictionary(Of String, Object))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ApplyQueryAttributes(System::Collections::Generic::IDictionary&lt;System::String ^, System::Object ^&gt; ^ query);" />
       <MemberSignature Language="F#" Value="abstract member ApplyQueryAttributes : System.Collections.Generic.IDictionary&lt;string, obj&gt; -&gt; unit" Usage="iQueryAttributable.ApplyQueryAttributes query" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ApplyQueryAttributes(System::Collections::Generic::IDictionary&lt;System::String ^, System::Object ^&gt; ^ query);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

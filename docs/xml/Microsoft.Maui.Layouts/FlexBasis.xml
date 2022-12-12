@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit FlexBasis extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Layouts.FlexBasis" />
   <TypeSignature Language="VB.NET" Value="Public Structure FlexBasis" />
-  <TypeSignature Language="C++ CLI" Value="public value class FlexBasis" />
   <TypeSignature Language="F#" Value="type FlexBasis = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class FlexBasis" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -51,8 +51,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Maui.Layouts.FlexBasis Auto" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.FlexBasis.Auto" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Auto As FlexBasis " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Layouts::FlexBasis Auto;" />
       <MemberSignature Language="F#" Value=" staticval mutable Auto : Microsoft.Maui.Layouts.FlexBasis" Usage="Microsoft.Maui.Layouts.FlexBasis.Auto" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Layouts::FlexBasis Auto;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 Length" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Layouts.FlexBasis.Length" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Length As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Length { float get(); };" />
       <MemberSignature Language="F#" Value="member this.Length : single" Usage="Microsoft.Maui.Layouts.FlexBasis.Length" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Length { float get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -98,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Maui.Layouts.FlexBasis op_Implicit(float32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Layouts.FlexBasis.op_Implicit(System.Single)~Microsoft.Maui.Layouts.FlexBasis" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (length As Single) As FlexBasis" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Layouts::FlexBasis(float length);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : single -&gt; Microsoft.Maui.Layouts.FlexBasis" Usage="Microsoft.Maui.Layouts.FlexBasis.op_Implicit length" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Layouts::FlexBasis(float length);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

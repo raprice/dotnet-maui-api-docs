@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Geometry extends Microsoft.Maui.Controls.BindableObject implements class Microsoft.Maui.Controls.Shapes.IGeometry, class Microsoft.Maui.Graphics.IShape" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.Geometry" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Geometry&#xA;Inherits BindableObject&#xA;Implements IGeometry, IShape" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Geometry abstract : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::Shapes::IGeometry, Microsoft::Maui::Graphics::IShape" />
   <TypeSignature Language="F#" Value="type Geometry = class&#xA;    inherit BindableObject&#xA;    interface IGeometry&#xA;    interface IShape" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Geometry abstract : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::Shapes::IGeometry, Microsoft::Maui::Graphics::IShape" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AppendPath(class Microsoft.Maui.Graphics.PathF path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Geometry.AppendPath(Microsoft.Maui.Graphics.PathF)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Sub AppendPath (path As PathF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract void AppendPath(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberSignature Language="F#" Value="abstract member AppendPath : Microsoft.Maui.Graphics.PathF -&gt; unit" Usage="geometry.AppendPath path" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract void AppendPath(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Microsoft.Maui.Graphics.PathF Microsoft.Maui.Graphics.IShape.PathForBounds(valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.Geometry.Microsoft#Maui#Graphics#IShape#PathForBounds(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Function PathForBounds (bounds As Rect) As PathF Implements IShape.PathForBounds" />
-      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Graphics::PathF ^ Microsoft.Maui.Graphics.IShape.PathForBounds(Microsoft::Maui::Graphics::Rect bounds) = Microsoft::Maui::Graphics::IShape::PathForBounds;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Graphics.IShape.PathForBounds : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.PathF&#xA;override this.Microsoft.Maui.Graphics.IShape.PathForBounds : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.PathF" Usage="geometry.Microsoft.Maui.Graphics.IShape.PathForBounds bounds" />
+      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Graphics::PathF ^ Microsoft.Maui.Graphics.IShape.PathForBounds(Microsoft::Maui::Graphics::Rect bounds) = Microsoft::Maui::Graphics::IShape::PathForBounds;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Graphics.IShape.PathForBounds(Microsoft.Maui.Graphics.Rect)</InterfaceMember>

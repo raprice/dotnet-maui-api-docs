@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MenuFlyoutItem extends Microsoft.Maui.Controls.MenuItem implements class Microsoft.Maui.IElement, class Microsoft.Maui.IImageSourcePart, class Microsoft.Maui.IMenuElement, class Microsoft.Maui.IMenuFlyoutItem, class Microsoft.Maui.IText, class Microsoft.Maui.ITextStyle" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.MenuFlyoutItem" />
   <TypeSignature Language="VB.NET" Value="Public Class MenuFlyoutItem&#xA;Inherits MenuItem&#xA;Implements IMenuFlyoutItem" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MenuFlyoutItem : Microsoft::Maui::Controls::MenuItem, Microsoft::Maui::IMenuFlyoutItem" />
   <TypeSignature Language="F#" Value="type MenuFlyoutItem = class&#xA;    inherit MenuItem&#xA;    interface IMenuFlyoutItem&#xA;    interface IMenuElement&#xA;    interface IElement&#xA;    interface IImageSourcePart&#xA;    interface IText&#xA;    interface ITextStyle" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MenuFlyoutItem : Microsoft::Maui::Controls::MenuItem, Microsoft::Maui::IMenuFlyoutItem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IImageLoadingService" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.IImageLoadingService" />
   <TypeSignature Language="VB.NET" Value="Public Interface IImageLoadingService" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IImageLoadingService" />
   <TypeSignature Language="F#" Value="type IImageLoadingService = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IImageLoadingService" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

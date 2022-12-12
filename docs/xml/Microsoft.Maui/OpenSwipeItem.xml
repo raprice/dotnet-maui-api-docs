@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OpenSwipeItem extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.OpenSwipeItem" />
   <TypeSignature Language="VB.NET" Value="Public Enum OpenSwipeItem" />
-  <TypeSignature Language="C++ CLI" Value="public enum class OpenSwipeItem" />
   <TypeSignature Language="F#" Value="type OpenSwipeItem = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class OpenSwipeItem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.OpenSwipeItem BottomItems = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.OpenSwipeItem.BottomItems" />
       <MemberSignature Language="VB.NET" Value="BottomItems" />
-      <MemberSignature Language="C++ CLI" Value="BottomItems" />
       <MemberSignature Language="F#" Value="BottomItems = 3" Usage="Microsoft.Maui.OpenSwipeItem.BottomItems" />
+      <MemberSignature Language="C++ CLI" Value="BottomItems" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.OpenSwipeItem LeftItems = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.OpenSwipeItem.LeftItems" />
       <MemberSignature Language="VB.NET" Value="LeftItems" />
-      <MemberSignature Language="C++ CLI" Value="LeftItems" />
       <MemberSignature Language="F#" Value="LeftItems = 0" Usage="Microsoft.Maui.OpenSwipeItem.LeftItems" />
+      <MemberSignature Language="C++ CLI" Value="LeftItems" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.OpenSwipeItem RightItems = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.OpenSwipeItem.RightItems" />
       <MemberSignature Language="VB.NET" Value="RightItems" />
-      <MemberSignature Language="C++ CLI" Value="RightItems" />
       <MemberSignature Language="F#" Value="RightItems = 2" Usage="Microsoft.Maui.OpenSwipeItem.RightItems" />
+      <MemberSignature Language="C++ CLI" Value="RightItems" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.OpenSwipeItem TopItems = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.OpenSwipeItem.TopItems" />
       <MemberSignature Language="VB.NET" Value="TopItems" />
-      <MemberSignature Language="C++ CLI" Value="TopItems" />
       <MemberSignature Language="F#" Value="TopItems = 1" Usage="Microsoft.Maui.OpenSwipeItem.TopItems" />
+      <MemberSignature Language="C++ CLI" Value="TopItems" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

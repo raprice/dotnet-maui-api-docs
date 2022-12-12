@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SwipedEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.SwipedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class SwipedEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SwipedEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type SwipedEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SwipedEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object parameter, valuetype Microsoft.Maui.SwipeDirection direction) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipedEventArgs.#ctor(System.Object,Microsoft.Maui.SwipeDirection)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (parameter As Object, direction As SwipeDirection)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; SwipedEventArgs(System::Object ^ parameter, Microsoft::Maui::SwipeDirection direction);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.SwipedEventArgs : obj * Microsoft.Maui.SwipeDirection -&gt; Microsoft.Maui.Controls.SwipedEventArgs" Usage="new Microsoft.Maui.Controls.SwipedEventArgs (parameter, direction)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SwipedEventArgs(System::Object ^ parameter, Microsoft::Maui::SwipeDirection direction);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.SwipeDirection Direction" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipedEventArgs.Direction" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Direction As SwipeDirection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SwipeDirection Direction { Microsoft::Maui::SwipeDirection get(); };" />
       <MemberSignature Language="F#" Value="member this.Direction : Microsoft.Maui.SwipeDirection" Usage="Microsoft.Maui.Controls.SwipedEventArgs.Direction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::SwipeDirection Direction { Microsoft::Maui::SwipeDirection get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Parameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipedEventArgs.Parameter" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parameter As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parameter { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Parameter : obj" Usage="Microsoft.Maui.Controls.SwipedEventArgs.Parameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parameter { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

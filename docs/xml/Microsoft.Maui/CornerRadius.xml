@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit CornerRadius extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.CornerRadius" />
   <TypeSignature Language="VB.NET" Value="Public Structure CornerRadius" />
-  <TypeSignature Language="C++ CLI" Value="public value class CornerRadius" />
   <TypeSignature Language="F#" Value="type CornerRadius = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class CornerRadius" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 uniformRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CornerRadius.#ctor(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (uniformRadius As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CornerRadius(double uniformRadius);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.CornerRadius : double -&gt; Microsoft.Maui.CornerRadius" Usage="new Microsoft.Maui.CornerRadius uniformRadius" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CornerRadius(double uniformRadius);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 topLeft, float64 topRight, float64 bottomLeft, float64 bottomRight) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CornerRadius.#ctor(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (topLeft As Double, topRight As Double, bottomLeft As Double, bottomRight As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CornerRadius(double topLeft, double topRight, double bottomLeft, double bottomRight);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.CornerRadius : double * double * double * double -&gt; Microsoft.Maui.CornerRadius" Usage="new Microsoft.Maui.CornerRadius (topLeft, topRight, bottomLeft, bottomRight)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CornerRadius(double topLeft, double topRight, double bottomLeft, double bottomRight);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -81,8 +81,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 BottomLeft" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.CornerRadius.BottomLeft" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BottomLeft As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double BottomLeft { double get(); };" />
       <MemberSignature Language="F#" Value="member this.BottomLeft : double" Usage="Microsoft.Maui.CornerRadius.BottomLeft" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double BottomLeft { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -108,8 +108,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 BottomRight" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.CornerRadius.BottomRight" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BottomRight As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double BottomRight { double get(); };" />
       <MemberSignature Language="F#" Value="member this.BottomRight : double" Usage="Microsoft.Maui.CornerRadius.BottomRight" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double BottomRight { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -135,8 +135,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Deconstruct([out] float64&amp; topLeft, [out] float64&amp; topRight, [out] float64&amp; bottomLeft, [out] float64&amp; bottomRight) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CornerRadius.Deconstruct(System.Double@,System.Double@,System.Double@,System.Double@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Deconstruct (ByRef topLeft As Double, ByRef topRight As Double, ByRef bottomLeft As Double, ByRef bottomRight As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Deconstruct([Runtime::InteropServices::Out] double % topLeft, [Runtime::InteropServices::Out] double % topRight, [Runtime::InteropServices::Out] double % bottomLeft, [Runtime::InteropServices::Out] double % bottomRight);" />
       <MemberSignature Language="F#" Value="member this.Deconstruct : double * double * double * double -&gt; unit" Usage="cornerRadius.Deconstruct (topLeft, topRight, bottomLeft, bottomRight)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Deconstruct([Runtime::InteropServices::Out] double % topLeft, [Runtime::InteropServices::Out] double % topRight, [Runtime::InteropServices::Out] double % bottomLeft, [Runtime::InteropServices::Out] double % bottomRight);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -165,8 +165,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CornerRadius.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="cornerRadius.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -191,8 +191,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CornerRadius.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="cornerRadius.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -213,8 +213,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Maui.CornerRadius left, valuetype Microsoft.Maui.CornerRadius right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CornerRadius.op_Equality(Microsoft.Maui.CornerRadius,Microsoft.Maui.CornerRadius)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As CornerRadius, right As CornerRadius) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::CornerRadius left, Microsoft::Maui::CornerRadius right);" />
       <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Maui.CornerRadius * Microsoft.Maui.CornerRadius -&gt; bool" Usage="left = right" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::CornerRadius left, Microsoft::Maui::CornerRadius right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -240,8 +240,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Maui.CornerRadius op_Implicit(float64 uniformRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CornerRadius.op_Implicit(System.Double)~Microsoft.Maui.CornerRadius" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uniformRadius As Double) As CornerRadius" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::CornerRadius(double uniformRadius);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : double -&gt; Microsoft.Maui.CornerRadius" Usage="Microsoft.Maui.CornerRadius.op_Implicit uniformRadius" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::CornerRadius(double uniformRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -265,8 +265,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Maui.CornerRadius left, valuetype Microsoft.Maui.CornerRadius right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.CornerRadius.op_Inequality(Microsoft.Maui.CornerRadius,Microsoft.Maui.CornerRadius)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As CornerRadius, right As CornerRadius) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::CornerRadius left, Microsoft::Maui::CornerRadius right);" />
       <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Maui.CornerRadius * Microsoft.Maui.CornerRadius -&gt; bool" Usage="Microsoft.Maui.CornerRadius.op_Inequality (left, right)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::CornerRadius left, Microsoft::Maui::CornerRadius right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -292,8 +292,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 TopLeft" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.CornerRadius.TopLeft" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TopLeft As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double TopLeft { double get(); };" />
       <MemberSignature Language="F#" Value="member this.TopLeft : double" Usage="Microsoft.Maui.CornerRadius.TopLeft" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double TopLeft { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -319,8 +319,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 TopRight" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.CornerRadius.TopRight" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TopRight As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double TopRight { double get(); };" />
       <MemberSignature Language="F#" Value="member this.TopRight : double" Usage="Microsoft.Maui.CornerRadius.TopRight" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double TopRight { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AppHostBuilderExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Compatibility.Hosting.AppHostBuilderExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module AppHostBuilderExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AppHostBuilderExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type AppHostBuilderExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppHostBuilderExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

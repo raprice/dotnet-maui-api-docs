@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ProfileDatum extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.ProfileDatum" />
   <TypeSignature Language="VB.NET" Value="Public Class ProfileDatum" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ProfileDatum" />
   <TypeSignature Language="F#" Value="type ProfileDatum = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ProfileDatum" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".field public int32 Depth" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Internals.ProfileDatum.Depth" />
       <MemberSignature Language="VB.NET" Value="Public Depth As Integer " />
-      <MemberSignature Language="C++ CLI" Value="public: int Depth;" />
       <MemberSignature Language="F#" Value="val mutable Depth : int" Usage="Microsoft.Maui.Controls.Internals.ProfileDatum.Depth" />
+      <MemberSignature Language="C++ CLI" Value="public: int Depth;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -60,8 +60,8 @@
       <MemberSignature Language="ILAsm" Value=".field public string Id" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Internals.ProfileDatum.Id" />
       <MemberSignature Language="VB.NET" Value="Public Id As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Id;" />
       <MemberSignature Language="F#" Value="val mutable Id : string" Usage="Microsoft.Maui.Controls.Internals.ProfileDatum.Id" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Id;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -80,8 +80,8 @@
       <MemberSignature Language="ILAsm" Value=".field public int32 Line" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Internals.ProfileDatum.Line" />
       <MemberSignature Language="VB.NET" Value="Public Line As Integer " />
-      <MemberSignature Language="C++ CLI" Value="public: int Line;" />
       <MemberSignature Language="F#" Value="val mutable Line : int" Usage="Microsoft.Maui.Controls.Internals.ProfileDatum.Line" />
+      <MemberSignature Language="C++ CLI" Value="public: int Line;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".field public string Name" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Internals.ProfileDatum.Name" />
       <MemberSignature Language="VB.NET" Value="Public Name As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Name;" />
       <MemberSignature Language="F#" Value="val mutable Name : string" Usage="Microsoft.Maui.Controls.Internals.ProfileDatum.Name" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Name;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -120,8 +120,8 @@
       <MemberSignature Language="ILAsm" Value=".field public string Path" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Internals.ProfileDatum.Path" />
       <MemberSignature Language="VB.NET" Value="Public Path As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Path;" />
       <MemberSignature Language="F#" Value="val mutable Path : string" Usage="Microsoft.Maui.Controls.Internals.ProfileDatum.Path" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Path;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -140,8 +140,8 @@
       <MemberSignature Language="ILAsm" Value=".field public int64 SubTicks" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Internals.ProfileDatum.SubTicks" />
       <MemberSignature Language="VB.NET" Value="Public SubTicks As Long " />
-      <MemberSignature Language="C++ CLI" Value="public: long SubTicks;" />
       <MemberSignature Language="F#" Value="val mutable SubTicks : int64" Usage="Microsoft.Maui.Controls.Internals.ProfileDatum.SubTicks" />
+      <MemberSignature Language="C++ CLI" Value="public: long SubTicks;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -160,8 +160,8 @@
       <MemberSignature Language="ILAsm" Value=".field public int64 Ticks" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Internals.ProfileDatum.Ticks" />
       <MemberSignature Language="VB.NET" Value="Public Ticks As Long " />
-      <MemberSignature Language="C++ CLI" Value="public: long Ticks;" />
       <MemberSignature Language="F#" Value="val mutable Ticks : int64" Usage="Microsoft.Maui.Controls.Internals.ProfileDatum.Ticks" />
+      <MemberSignature Language="C++ CLI" Value="public: long Ticks;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

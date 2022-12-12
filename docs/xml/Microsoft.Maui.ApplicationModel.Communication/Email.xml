@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Email extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.Communication.Email" />
   <TypeSignature Language="VB.NET" Value="Public Class Email" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Email abstract sealed" />
   <TypeSignature Language="F#" Value="type Email = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Email abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task ComposeAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Communication.Email.ComposeAsync" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ComposeAsync () As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ ComposeAsync();" />
       <MemberSignature Language="F#" Value="static member ComposeAsync : unit -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.Communication.Email.ComposeAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ ComposeAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -45,8 +45,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task ComposeAsync(class Microsoft.Maui.ApplicationModel.Communication.EmailMessage message) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Communication.Email.ComposeAsync(Microsoft.Maui.ApplicationModel.Communication.EmailMessage)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ComposeAsync (message As EmailMessage) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ ComposeAsync(Microsoft::Maui::ApplicationModel::Communication::EmailMessage ^ message);" />
       <MemberSignature Language="F#" Value="static member ComposeAsync : Microsoft.Maui.ApplicationModel.Communication.EmailMessage -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.Communication.Email.ComposeAsync message" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ ComposeAsync(Microsoft::Maui::ApplicationModel::Communication::EmailMessage ^ message);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -70,8 +70,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task ComposeAsync(string subject, string body, string[] to) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.Communication.Email.ComposeAsync(System.String,System.String,System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ComposeAsync (subject As String, body As String, ParamArray to As String()) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ ComposeAsync(System::String ^ subject, System::String ^ body, ... cli::array &lt;System::String ^&gt; ^ to);" />
       <MemberSignature Language="F#" Value="static member ComposeAsync : string * string * string[] -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.ApplicationModel.Communication.Email.ComposeAsync (subject, body, to)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ ComposeAsync(System::String ^ subject, System::String ^ body, ... cli::array &lt;System::String ^&gt; ^ to);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -106,8 +106,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.ApplicationModel.Communication.IEmail Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.Communication.Email.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As IEmail" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::Communication::IEmail ^ Default { Microsoft::Maui::ApplicationModel::Communication::IEmail ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.ApplicationModel.Communication.IEmail" Usage="Microsoft.Maui.ApplicationModel.Communication.Email.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::ApplicationModel::Communication::IEmail ^ Default { Microsoft::Maui::ApplicationModel::Communication::IEmail ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

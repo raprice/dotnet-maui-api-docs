@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit NavigationPage extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage" />
   <TypeSignature Language="VB.NET" Value="Public Module NavigationPage" />
-  <TypeSignature Language="C++ CLI" Value="public ref class NavigationPage abstract sealed" />
   <TypeSignature Language="F#" Value="type NavigationPage = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NavigationPage abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle GetNavigationTransitionPopStyle(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPopStyle(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetNavigationTransitionPopStyle (element As BindableObject) As NavigationTransitionStyle" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle GetNavigationTransitionPopStyle(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetNavigationTransitionPopStyle : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPopStyle element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle GetNavigationTransitionPopStyle(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle GetNavigationTransitionPopStyle(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.NavigationPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPopStyle(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.macOS,Microsoft.Maui.Controls.NavigationPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNavigationTransitionPopStyle (config As IPlatformElementConfiguration(Of macOS, NavigationPage)) As NavigationTransitionStyle" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle GetNavigationTransitionPopStyle(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetNavigationTransitionPopStyle : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.NavigationPage&gt; -&gt; Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPopStyle config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle GetNavigationTransitionPopStyle(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle GetNavigationTransitionPushStyle(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPushStyle(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetNavigationTransitionPushStyle (element As BindableObject) As NavigationTransitionStyle" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle GetNavigationTransitionPushStyle(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetNavigationTransitionPushStyle : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPushStyle element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle GetNavigationTransitionPushStyle(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -98,8 +98,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle GetNavigationTransitionPushStyle(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.NavigationPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPushStyle(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.macOS,Microsoft.Maui.Controls.NavigationPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNavigationTransitionPushStyle (config As IPlatformElementConfiguration(Of macOS, NavigationPage)) As NavigationTransitionStyle" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle GetNavigationTransitionPushStyle(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetNavigationTransitionPushStyle : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.NavigationPage&gt; -&gt; Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPushStyle config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle GetNavigationTransitionPushStyle(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -123,8 +123,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty NavigationTransitionPopStyleProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.NavigationTransitionPopStyleProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly NavigationTransitionPopStyleProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ NavigationTransitionPopStyleProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable NavigationTransitionPopStyleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.NavigationTransitionPopStyleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ NavigationTransitionPopStyleProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -143,8 +143,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty NavigationTransitionPushStyleProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.NavigationTransitionPushStyleProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly NavigationTransitionPushStyleProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ NavigationTransitionPushStyleProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable NavigationTransitionPushStyleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.NavigationTransitionPushStyleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ NavigationTransitionPushStyleProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -163,8 +163,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetNavigationTransitionPopStyle(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionPopStyle(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetNavigationTransitionPopStyle (element As BindableObject, value As NavigationTransitionStyle)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetNavigationTransitionPopStyle(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle value);" />
       <MemberSignature Language="F#" Value="static member SetNavigationTransitionPopStyle : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionPopStyle (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetNavigationTransitionPopStyle(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -189,8 +189,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetNavigationTransitionPushStyle(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionPushStyle(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetNavigationTransitionPushStyle (element As BindableObject, value As NavigationTransitionStyle)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetNavigationTransitionPushStyle(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle value);" />
       <MemberSignature Language="F#" Value="static member SetNavigationTransitionPushStyle : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionPushStyle (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetNavigationTransitionPushStyle(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -215,8 +215,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetNavigationTransitionStyle(class Microsoft.Maui.Controls.BindableObject element, valuetype Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle pushStyle, valuetype Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle popStyle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionStyle(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle,Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetNavigationTransitionStyle (element As BindableObject, pushStyle As NavigationTransitionStyle, popStyle As NavigationTransitionStyle)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetNavigationTransitionStyle(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle pushStyle, Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle popStyle);" />
       <MemberSignature Language="F#" Value="static member SetNavigationTransitionStyle : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle * Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionStyle (element, pushStyle, popStyle)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetNavigationTransitionStyle(Microsoft::Maui::Controls::BindableObject ^ element, Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle pushStyle, Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle popStyle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -243,8 +243,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.NavigationPage&gt; SetNavigationTransitionStyle(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.macOS, class Microsoft.Maui.Controls.NavigationPage&gt; config, valuetype Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle pushStyle, valuetype Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle popStyle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionStyle(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.macOS,Microsoft.Maui.Controls.NavigationPage},Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle,Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetNavigationTransitionStyle (config As IPlatformElementConfiguration(Of macOS, NavigationPage), pushStyle As NavigationTransitionStyle, popStyle As NavigationTransitionStyle) As IPlatformElementConfiguration(Of macOS, NavigationPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ SetNavigationTransitionStyle(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle pushStyle, Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle popStyle);" />
       <MemberSignature Language="F#" Value="static member SetNavigationTransitionStyle : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.NavigationPage&gt; * Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle * Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.macOS, Microsoft.Maui.Controls.NavigationPage&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionStyle (config, pushStyle, popStyle)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ SetNavigationTransitionStyle(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::macOS ^, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ config, Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle pushStyle, Microsoft::Maui::Controls::PlatformConfiguration::macOSSpecific::NavigationTransitionStyle popStyle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AppHostBuilderExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Embedding.AppHostBuilderExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module AppHostBuilderExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AppHostBuilderExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type AppHostBuilderExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppHostBuilderExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.MauiAppBuilder UseMauiEmbedding&lt;class (class Microsoft.Maui.IApplication) TApp&gt;(class Microsoft.Maui.Hosting.MauiAppBuilder builder) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Embedding.AppHostBuilderExtensions.UseMauiEmbedding``1(Microsoft.Maui.Hosting.MauiAppBuilder)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseMauiEmbedding(Of TApp As {Class, IApplication}) (builder As MauiAppBuilder) As MauiAppBuilder" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TApp&gt;&#xA; where TApp : class, Microsoft::Maui::IApplication[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ UseMauiEmbedding(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder);" />
       <MemberSignature Language="F#" Value="static member UseMauiEmbedding : Microsoft.Maui.Hosting.MauiAppBuilder -&gt; Microsoft.Maui.Hosting.MauiAppBuilder (requires 'App : null and 'App :&gt; Microsoft.Maui.IApplication)" Usage="Microsoft.Maui.Embedding.AppHostBuilderExtensions.UseMauiEmbedding builder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TApp&gt;&#xA; where TApp : class, Microsoft::Maui::IApplication[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ UseMauiEmbedding(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>
@@ -63,8 +63,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Hosting.MauiAppBuilder UseMauiEmbedding&lt;class (class Microsoft.Maui.IApplication) TApp&gt;(class Microsoft.Maui.Hosting.MauiAppBuilder builder, class System.Func`2&lt;class System.IServiceProvider, class Microsoft.Maui.Controls.Application&gt; implementationFactory) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Embedding.AppHostBuilderExtensions.UseMauiEmbedding``1(Microsoft.Maui.Hosting.MauiAppBuilder,System.Func{System.IServiceProvider,Microsoft.Maui.Controls.Application})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseMauiEmbedding(Of TApp As {Class, IApplication}) (builder As MauiAppBuilder, implementationFactory As Func(Of IServiceProvider, Application)) As MauiAppBuilder" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TApp&gt;&#xA; where TApp : class, Microsoft::Maui::IApplication[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ UseMauiEmbedding(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder, Func&lt;IServiceProvider ^, Microsoft::Maui::Controls::Application ^&gt; ^ implementationFactory);" />
       <MemberSignature Language="F#" Value="static member UseMauiEmbedding : Microsoft.Maui.Hosting.MauiAppBuilder * Func&lt;IServiceProvider, Microsoft.Maui.Controls.Application&gt; -&gt; Microsoft.Maui.Hosting.MauiAppBuilder (requires 'App : null and 'App :&gt; Microsoft.Maui.IApplication)" Usage="Microsoft.Maui.Embedding.AppHostBuilderExtensions.UseMauiEmbedding (builder, implementationFactory)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TApp&gt;&#xA; where TApp : class, Microsoft::Maui::IApplication[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Hosting::MauiAppBuilder ^ UseMauiEmbedding(Microsoft::Maui::Hosting::MauiAppBuilder ^ builder, Func&lt;IServiceProvider ^, Microsoft::Maui::Controls::Application ^&gt; ^ implementationFactory);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Compatibility</AssemblyName>

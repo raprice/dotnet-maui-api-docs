@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DualScreenInfo extends System.Object implements class System.ComponentModel.INotifyPropertyChanged" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Foldable.DualScreenInfo" />
   <TypeSignature Language="VB.NET" Value="Public Class DualScreenInfo&#xA;Implements INotifyPropertyChanged" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DualScreenInfo : System::ComponentModel::INotifyPropertyChanged" />
   <TypeSignature Language="F#" Value="type DualScreenInfo = class&#xA;    interface INotifyPropertyChanged" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DualScreenInfo : System::ComponentModel::INotifyPropertyChanged" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -30,8 +30,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Controls.VisualElement element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Foldable.DualScreenInfo.#ctor(Microsoft.Maui.Controls.VisualElement)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (element As VisualElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DualScreenInfo(Microsoft::Maui::Controls::VisualElement ^ element);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Foldable.DualScreenInfo : Microsoft.Maui.Controls.VisualElement -&gt; Microsoft.Maui.Foldable.DualScreenInfo" Usage="new Microsoft.Maui.Foldable.DualScreenInfo element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DualScreenInfo(Microsoft::Maui::Controls::VisualElement ^ element);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -51,8 +51,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Foldable.DualScreenInfo Current" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Foldable.DualScreenInfo.Current" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Current As DualScreenInfo" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Foldable::DualScreenInfo ^ Current { Microsoft::Maui::Foldable::DualScreenInfo ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Current : Microsoft.Maui.Foldable.DualScreenInfo" Usage="Microsoft.Maui.Foldable.DualScreenInfo.Current" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Foldable::DualScreenInfo ^ Current { Microsoft::Maui::Foldable::DualScreenInfo ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;int32&gt; GetHingeAngleAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Foldable.DualScreenInfo.GetHingeAngleAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function GetHingeAngleAsync () As Task(Of Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;int&gt; ^ GetHingeAngleAsync();" />
       <MemberSignature Language="F#" Value="member this.GetHingeAngleAsync : unit -&gt; System.Threading.Tasks.Task&lt;int&gt;" Usage="dualScreenInfo.GetHingeAngleAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;int&gt; ^ GetHingeAngleAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -97,8 +97,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Foldable.HingeAngleChangedEventArgs&gt; HingeAngleChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Foldable.DualScreenInfo.HingeAngleChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event HingeAngleChanged As EventHandler(Of HingeAngleChangedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Foldable::HingeAngleChangedEventArgs ^&gt; ^ HingeAngleChanged;" />
       <MemberSignature Language="F#" Value="member this.HingeAngleChanged : EventHandler&lt;Microsoft.Maui.Foldable.HingeAngleChangedEventArgs&gt; " Usage="member this.HingeAngleChanged : System.EventHandler&lt;Microsoft.Maui.Foldable.HingeAngleChangedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Foldable::HingeAngleChangedEventArgs ^&gt; ^ HingeAngleChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -120,8 +120,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Rect HingeBounds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Foldable.DualScreenInfo.HingeBounds" />
       <MemberSignature Language="VB.NET" Value="Public Property HingeBounds As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect HingeBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberSignature Language="F#" Value="member this.HingeBounds : Microsoft.Maui.Graphics.Rect with get, set" Usage="Microsoft.Maui.Foldable.DualScreenInfo.HingeBounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Rect HingeBounds { Microsoft::Maui::Graphics::Rect get(); void set(Microsoft::Maui::Graphics::Rect value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -144,8 +144,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsLandscape" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Foldable.DualScreenInfo.IsLandscape" />
       <MemberSignature Language="VB.NET" Value="Public Property IsLandscape As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLandscape { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsLandscape : bool with get, set" Usage="Microsoft.Maui.Foldable.DualScreenInfo.IsLandscape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLandscape { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -169,8 +169,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.ComponentModel.PropertyChangedEventHandler PropertyChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Foldable.DualScreenInfo.PropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event PropertyChanged As PropertyChangedEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::ComponentModel::PropertyChangedEventHandler ^ PropertyChanged;" />
       <MemberSignature Language="F#" Value="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " Usage="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::ComponentModel::PropertyChangedEventHandler ^ PropertyChanged;" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged</InterfaceMember>
@@ -194,8 +194,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.Foldable.TwoPaneViewMode SpanMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Foldable.DualScreenInfo.SpanMode" />
       <MemberSignature Language="VB.NET" Value="Public Property SpanMode As TwoPaneViewMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Foldable::TwoPaneViewMode SpanMode { Microsoft::Maui::Controls::Foldable::TwoPaneViewMode get(); void set(Microsoft::Maui::Controls::Foldable::TwoPaneViewMode value); };" />
       <MemberSignature Language="F#" Value="member this.SpanMode : Microsoft.Maui.Controls.Foldable.TwoPaneViewMode with get, set" Usage="Microsoft.Maui.Foldable.DualScreenInfo.SpanMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Foldable::TwoPaneViewMode SpanMode { Microsoft::Maui::Controls::Foldable::TwoPaneViewMode get(); void set(Microsoft::Maui::Controls::Foldable::TwoPaneViewMode value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -218,8 +218,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Rect[] SpanningBounds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Foldable.DualScreenInfo.SpanningBounds" />
       <MemberSignature Language="VB.NET" Value="Public Property SpanningBounds As Rect()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Maui::Graphics::Rect&gt; ^ SpanningBounds { cli::array &lt;Microsoft::Maui::Graphics::Rect&gt; ^ get(); void set(cli::array &lt;Microsoft::Maui::Graphics::Rect&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SpanningBounds : Microsoft.Maui.Graphics.Rect[] with get, set" Usage="Microsoft.Maui.Foldable.DualScreenInfo.SpanningBounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Maui::Graphics::Rect&gt; ^ SpanningBounds { cli::array &lt;Microsoft::Maui::Graphics::Rect&gt; ^ get(); void set(cli::array &lt;Microsoft::Maui::Graphics::Rect&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>

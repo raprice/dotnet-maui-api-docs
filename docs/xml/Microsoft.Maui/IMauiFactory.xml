@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMauiFactory implements class System.IServiceProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IMauiFactory" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMauiFactory&#xA;Implements IServiceProvider" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IMauiFactory : IServiceProvider" />
   <TypeSignature Language="F#" Value="type IMauiFactory = interface&#xA;    interface IServiceProvider" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IMauiFactory : IServiceProvider" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

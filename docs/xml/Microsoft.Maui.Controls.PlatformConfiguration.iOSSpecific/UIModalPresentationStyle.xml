@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UIModalPresentationStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum UIModalPresentationStyle" />
-  <TypeSignature Language="C++ CLI" Value="public enum class UIModalPresentationStyle" />
   <TypeSignature Language="F#" Value="type UIModalPresentationStyle = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class UIModalPresentationStyle" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle Automatic = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle.Automatic" />
       <MemberSignature Language="VB.NET" Value="Automatic" />
-      <MemberSignature Language="C++ CLI" Value="Automatic" />
       <MemberSignature Language="F#" Value="Automatic = 2" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle.Automatic" />
+      <MemberSignature Language="C++ CLI" Value="Automatic" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle FormSheet = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle.FormSheet" />
       <MemberSignature Language="VB.NET" Value="FormSheet" />
-      <MemberSignature Language="C++ CLI" Value="FormSheet" />
       <MemberSignature Language="F#" Value="FormSheet = 1" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle.FormSheet" />
+      <MemberSignature Language="C++ CLI" Value="FormSheet" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle FullScreen = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle.FullScreen" />
       <MemberSignature Language="VB.NET" Value="FullScreen" />
-      <MemberSignature Language="C++ CLI" Value="FullScreen" />
       <MemberSignature Language="F#" Value="FullScreen = 0" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle.FullScreen" />
+      <MemberSignature Language="C++ CLI" Value="FullScreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle OverFullScreen = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle.OverFullScreen" />
       <MemberSignature Language="VB.NET" Value="OverFullScreen" />
-      <MemberSignature Language="C++ CLI" Value="OverFullScreen" />
       <MemberSignature Language="F#" Value="OverFullScreen = 3" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle.OverFullScreen" />
+      <MemberSignature Language="C++ CLI" Value="OverFullScreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle PageSheet = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle.PageSheet" />
       <MemberSignature Language="VB.NET" Value="PageSheet" />
-      <MemberSignature Language="C++ CLI" Value="PageSheet" />
       <MemberSignature Language="F#" Value="PageSheet = 4" Usage="Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.UIModalPresentationStyle.PageSheet" />
+      <MemberSignature Language="C++ CLI" Value="PageSheet" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

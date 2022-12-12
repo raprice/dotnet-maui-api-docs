@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SwipeItem extends Microsoft.Maui.Controls.MenuItem implements class Microsoft.Maui.Controls.ISwipeItem, class Microsoft.Maui.IElement, class Microsoft.Maui.IImageSourcePart, class Microsoft.Maui.IMenuElement, class Microsoft.Maui.ISwipeItem, class Microsoft.Maui.ISwipeItemMenuItem, class Microsoft.Maui.IText, class Microsoft.Maui.ITextStyle" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.SwipeItem" />
   <TypeSignature Language="VB.NET" Value="Public Class SwipeItem&#xA;Inherits MenuItem&#xA;Implements ISwipeItem, ISwipeItemMenuItem" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SwipeItem : Microsoft::Maui::Controls::MenuItem, Microsoft::Maui::Controls::ISwipeItem, Microsoft::Maui::ISwipeItemMenuItem" />
   <TypeSignature Language="F#" Value="type SwipeItem = class&#xA;    inherit MenuItem&#xA;    interface ISwipeItemMenuItem&#xA;    interface IMenuElement&#xA;    interface IElement&#xA;    interface IImageSourcePart&#xA;    interface IText&#xA;    interface ITextStyle&#xA;    interface ISwipeItem&#xA;    interface ISwipeItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SwipeItem : Microsoft::Maui::Controls::MenuItem, Microsoft::Maui::Controls::ISwipeItem, Microsoft::Maui::ISwipeItemMenuItem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color BackgroundColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeItem.BackgroundColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BackgroundColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ BackgroundColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BackgroundColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.SwipeItem.BackgroundColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ BackgroundColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BackgroundColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SwipeItem.BackgroundColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BackgroundColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BackgroundColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BackgroundColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SwipeItem.BackgroundColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BackgroundColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -106,8 +106,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.EventArgs&gt; Invoked" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.SwipeItem.Invoked" />
       <MemberSignature Language="VB.NET" Value="Public Event Invoked As EventHandler(Of EventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler&lt;EventArgs ^&gt; ^ Invoked;" />
       <MemberSignature Language="F#" Value="member this.Invoked : EventHandler&lt;EventArgs&gt; " Usage="member this.Invoked : System.EventHandler&lt;System.EventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler&lt;EventArgs ^&gt; ^ Invoked;" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Maui.Controls.ISwipeItem.Invoked</InterfaceMember>
@@ -129,8 +129,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsVisible" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeItem.IsVisible" />
       <MemberSignature Language="VB.NET" Value="Public Property IsVisible As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsVisible : bool with get, set" Usage="Microsoft.Maui.Controls.SwipeItem.IsVisible" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.ISwipeItem.IsVisible</InterfaceMember>
@@ -153,8 +153,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsVisibleProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.SwipeItem.IsVisibleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsVisibleProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsVisibleProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsVisibleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.SwipeItem.IsVisibleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsVisibleProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -173,8 +173,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IImageSourcePart.UpdateIsLoading(bool isLoading) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeItem.Microsoft#Maui#IImageSourcePart#UpdateIsLoading(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Sub UpdateIsLoading (isLoading As Boolean) Implements IImageSourcePart.UpdateIsLoading" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IImageSourcePart.UpdateIsLoading(bool isLoading) = Microsoft::Maui::IImageSourcePart::UpdateIsLoading;" />
       <MemberSignature Language="F#" Value="override this.Microsoft.Maui.IImageSourcePart.UpdateIsLoading : bool -&gt; unit" Usage="swipeItem.Microsoft.Maui.IImageSourcePart.UpdateIsLoading isLoading" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IImageSourcePart.UpdateIsLoading(bool isLoading) = Microsoft::Maui::IImageSourcePart::UpdateIsLoading;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IImageSourcePart.UpdateIsLoading(System.Boolean)</InterfaceMember>
@@ -200,8 +200,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.ISwipeItem.OnInvoked() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.SwipeItem.Microsoft#Maui#ISwipeItem#OnInvoked" />
       <MemberSignature Language="VB.NET" Value="Sub OnInvoked () Implements ISwipeItem.OnInvoked" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISwipeItem.OnInvoked() = Microsoft::Maui::ISwipeItem::OnInvoked;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.ISwipeItem.OnInvoked : unit -&gt; unit&#xA;override this.Microsoft.Maui.ISwipeItem.OnInvoked : unit -&gt; unit" Usage="swipeItem.Microsoft.Maui.ISwipeItem.OnInvoked " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.ISwipeItem.OnInvoked() = Microsoft::Maui::ISwipeItem::OnInvoked;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.ISwipeItem.OnInvoked</InterfaceMember>
@@ -224,8 +224,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Paint Microsoft.Maui.ISwipeItemMenuItem.Background" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeItem.Microsoft#Maui#ISwipeItemMenuItem#Background" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Background As Paint Implements ISwipeItemMenuItem.Background" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Paint ^ Microsoft::Maui::ISwipeItemMenuItem::Background { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ISwipeItemMenuItem.Background : Microsoft.Maui.Graphics.Paint" Usage="Microsoft.Maui.ISwipeItemMenuItem.Background" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Paint ^ Microsoft::Maui::ISwipeItemMenuItem::Background { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ISwipeItemMenuItem.Background</InterfaceMember>
@@ -248,8 +248,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Visibility Microsoft.Maui.ISwipeItemMenuItem.Visibility" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.SwipeItem.Microsoft#Maui#ISwipeItemMenuItem#Visibility" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Visibility As Visibility Implements ISwipeItemMenuItem.Visibility" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Visibility Microsoft::Maui::ISwipeItemMenuItem::Visibility { Microsoft::Maui::Visibility get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ISwipeItemMenuItem.Visibility : Microsoft.Maui.Visibility" Usage="Microsoft.Maui.ISwipeItemMenuItem.Visibility" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Visibility Microsoft::Maui::ISwipeItemMenuItem::Visibility { Microsoft::Maui::Visibility get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ISwipeItemMenuItem.Visibility</InterfaceMember>

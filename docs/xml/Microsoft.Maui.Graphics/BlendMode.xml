@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed BlendMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.BlendMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum BlendMode" />
-  <TypeSignature Language="C++ CLI" Value="public enum class BlendMode" />
   <TypeSignature Language="F#" Value="type BlendMode = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class BlendMode" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Clear = int32(16)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Clear" />
       <MemberSignature Language="VB.NET" Value="Clear" />
-      <MemberSignature Language="C++ CLI" Value="Clear" />
       <MemberSignature Language="F#" Value="Clear = 16" Usage="Microsoft.Maui.Graphics.BlendMode.Clear" />
+      <MemberSignature Language="C++ CLI" Value="Clear" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Color = int32(14)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Color" />
       <MemberSignature Language="VB.NET" Value="Color" />
-      <MemberSignature Language="C++ CLI" Value="Color" />
       <MemberSignature Language="F#" Value="Color = 14" Usage="Microsoft.Maui.Graphics.BlendMode.Color" />
+      <MemberSignature Language="C++ CLI" Value="Color" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode ColorBurn = int32(7)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.ColorBurn" />
       <MemberSignature Language="VB.NET" Value="ColorBurn" />
-      <MemberSignature Language="C++ CLI" Value="ColorBurn" />
       <MemberSignature Language="F#" Value="ColorBurn = 7" Usage="Microsoft.Maui.Graphics.BlendMode.ColorBurn" />
+      <MemberSignature Language="C++ CLI" Value="ColorBurn" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode ColorDodge = int32(6)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.ColorDodge" />
       <MemberSignature Language="VB.NET" Value="ColorDodge" />
-      <MemberSignature Language="C++ CLI" Value="ColorDodge" />
       <MemberSignature Language="F#" Value="ColorDodge = 6" Usage="Microsoft.Maui.Graphics.BlendMode.ColorDodge" />
+      <MemberSignature Language="C++ CLI" Value="ColorDodge" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Copy = int32(17)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Copy" />
       <MemberSignature Language="VB.NET" Value="Copy" />
-      <MemberSignature Language="C++ CLI" Value="Copy" />
       <MemberSignature Language="F#" Value="Copy = 17" Usage="Microsoft.Maui.Graphics.BlendMode.Copy" />
+      <MemberSignature Language="C++ CLI" Value="Copy" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -122,8 +122,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Darken = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Darken" />
       <MemberSignature Language="VB.NET" Value="Darken" />
-      <MemberSignature Language="C++ CLI" Value="Darken" />
       <MemberSignature Language="F#" Value="Darken = 4" Usage="Microsoft.Maui.Graphics.BlendMode.Darken" />
+      <MemberSignature Language="C++ CLI" Value="Darken" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -142,8 +142,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode DestinationAtop = int32(24)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.DestinationAtop" />
       <MemberSignature Language="VB.NET" Value="DestinationAtop" />
-      <MemberSignature Language="C++ CLI" Value="DestinationAtop" />
       <MemberSignature Language="F#" Value="DestinationAtop = 24" Usage="Microsoft.Maui.Graphics.BlendMode.DestinationAtop" />
+      <MemberSignature Language="C++ CLI" Value="DestinationAtop" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -162,8 +162,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode DestinationIn = int32(22)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.DestinationIn" />
       <MemberSignature Language="VB.NET" Value="DestinationIn" />
-      <MemberSignature Language="C++ CLI" Value="DestinationIn" />
       <MemberSignature Language="F#" Value="DestinationIn = 22" Usage="Microsoft.Maui.Graphics.BlendMode.DestinationIn" />
+      <MemberSignature Language="C++ CLI" Value="DestinationIn" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -182,8 +182,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode DestinationOut = int32(23)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.DestinationOut" />
       <MemberSignature Language="VB.NET" Value="DestinationOut" />
-      <MemberSignature Language="C++ CLI" Value="DestinationOut" />
       <MemberSignature Language="F#" Value="DestinationOut = 23" Usage="Microsoft.Maui.Graphics.BlendMode.DestinationOut" />
+      <MemberSignature Language="C++ CLI" Value="DestinationOut" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -202,8 +202,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode DestinationOver = int32(21)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.DestinationOver" />
       <MemberSignature Language="VB.NET" Value="DestinationOver" />
-      <MemberSignature Language="C++ CLI" Value="DestinationOver" />
       <MemberSignature Language="F#" Value="DestinationOver = 21" Usage="Microsoft.Maui.Graphics.BlendMode.DestinationOver" />
+      <MemberSignature Language="C++ CLI" Value="DestinationOver" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -222,8 +222,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Difference = int32(10)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Difference" />
       <MemberSignature Language="VB.NET" Value="Difference" />
-      <MemberSignature Language="C++ CLI" Value="Difference" />
       <MemberSignature Language="F#" Value="Difference = 10" Usage="Microsoft.Maui.Graphics.BlendMode.Difference" />
+      <MemberSignature Language="C++ CLI" Value="Difference" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -242,8 +242,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Exclusion = int32(11)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Exclusion" />
       <MemberSignature Language="VB.NET" Value="Exclusion" />
-      <MemberSignature Language="C++ CLI" Value="Exclusion" />
       <MemberSignature Language="F#" Value="Exclusion = 11" Usage="Microsoft.Maui.Graphics.BlendMode.Exclusion" />
+      <MemberSignature Language="C++ CLI" Value="Exclusion" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -262,8 +262,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode HardLight = int32(9)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.HardLight" />
       <MemberSignature Language="VB.NET" Value="HardLight" />
-      <MemberSignature Language="C++ CLI" Value="HardLight" />
       <MemberSignature Language="F#" Value="HardLight = 9" Usage="Microsoft.Maui.Graphics.BlendMode.HardLight" />
+      <MemberSignature Language="C++ CLI" Value="HardLight" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -282,8 +282,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Hue = int32(12)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Hue" />
       <MemberSignature Language="VB.NET" Value="Hue" />
-      <MemberSignature Language="C++ CLI" Value="Hue" />
       <MemberSignature Language="F#" Value="Hue = 12" Usage="Microsoft.Maui.Graphics.BlendMode.Hue" />
+      <MemberSignature Language="C++ CLI" Value="Hue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -302,8 +302,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Lighten = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Lighten" />
       <MemberSignature Language="VB.NET" Value="Lighten" />
-      <MemberSignature Language="C++ CLI" Value="Lighten" />
       <MemberSignature Language="F#" Value="Lighten = 5" Usage="Microsoft.Maui.Graphics.BlendMode.Lighten" />
+      <MemberSignature Language="C++ CLI" Value="Lighten" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -322,8 +322,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Luminosity = int32(15)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Luminosity" />
       <MemberSignature Language="VB.NET" Value="Luminosity" />
-      <MemberSignature Language="C++ CLI" Value="Luminosity" />
       <MemberSignature Language="F#" Value="Luminosity = 15" Usage="Microsoft.Maui.Graphics.BlendMode.Luminosity" />
+      <MemberSignature Language="C++ CLI" Value="Luminosity" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -342,8 +342,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Multiply = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Multiply" />
       <MemberSignature Language="VB.NET" Value="Multiply" />
-      <MemberSignature Language="C++ CLI" Value="Multiply" />
       <MemberSignature Language="F#" Value="Multiply = 1" Usage="Microsoft.Maui.Graphics.BlendMode.Multiply" />
+      <MemberSignature Language="C++ CLI" Value="Multiply" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -362,8 +362,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Normal = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Normal" />
       <MemberSignature Language="VB.NET" Value="Normal" />
-      <MemberSignature Language="C++ CLI" Value="Normal" />
       <MemberSignature Language="F#" Value="Normal = 0" Usage="Microsoft.Maui.Graphics.BlendMode.Normal" />
+      <MemberSignature Language="C++ CLI" Value="Normal" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -382,8 +382,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Overlay = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Overlay" />
       <MemberSignature Language="VB.NET" Value="Overlay" />
-      <MemberSignature Language="C++ CLI" Value="Overlay" />
       <MemberSignature Language="F#" Value="Overlay = 3" Usage="Microsoft.Maui.Graphics.BlendMode.Overlay" />
+      <MemberSignature Language="C++ CLI" Value="Overlay" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -402,8 +402,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode PlusDarker = int32(26)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.PlusDarker" />
       <MemberSignature Language="VB.NET" Value="PlusDarker" />
-      <MemberSignature Language="C++ CLI" Value="PlusDarker" />
       <MemberSignature Language="F#" Value="PlusDarker = 26" Usage="Microsoft.Maui.Graphics.BlendMode.PlusDarker" />
+      <MemberSignature Language="C++ CLI" Value="PlusDarker" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -422,8 +422,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode PlusLighter = int32(27)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.PlusLighter" />
       <MemberSignature Language="VB.NET" Value="PlusLighter" />
-      <MemberSignature Language="C++ CLI" Value="PlusLighter" />
       <MemberSignature Language="F#" Value="PlusLighter = 27" Usage="Microsoft.Maui.Graphics.BlendMode.PlusLighter" />
+      <MemberSignature Language="C++ CLI" Value="PlusLighter" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -442,8 +442,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Saturation = int32(13)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Saturation" />
       <MemberSignature Language="VB.NET" Value="Saturation" />
-      <MemberSignature Language="C++ CLI" Value="Saturation" />
       <MemberSignature Language="F#" Value="Saturation = 13" Usage="Microsoft.Maui.Graphics.BlendMode.Saturation" />
+      <MemberSignature Language="C++ CLI" Value="Saturation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -462,8 +462,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Screen = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Screen" />
       <MemberSignature Language="VB.NET" Value="Screen" />
-      <MemberSignature Language="C++ CLI" Value="Screen" />
       <MemberSignature Language="F#" Value="Screen = 2" Usage="Microsoft.Maui.Graphics.BlendMode.Screen" />
+      <MemberSignature Language="C++ CLI" Value="Screen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -482,8 +482,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode SoftLight = int32(8)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.SoftLight" />
       <MemberSignature Language="VB.NET" Value="SoftLight" />
-      <MemberSignature Language="C++ CLI" Value="SoftLight" />
       <MemberSignature Language="F#" Value="SoftLight = 8" Usage="Microsoft.Maui.Graphics.BlendMode.SoftLight" />
+      <MemberSignature Language="C++ CLI" Value="SoftLight" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -502,8 +502,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode SourceAtop = int32(20)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.SourceAtop" />
       <MemberSignature Language="VB.NET" Value="SourceAtop" />
-      <MemberSignature Language="C++ CLI" Value="SourceAtop" />
       <MemberSignature Language="F#" Value="SourceAtop = 20" Usage="Microsoft.Maui.Graphics.BlendMode.SourceAtop" />
+      <MemberSignature Language="C++ CLI" Value="SourceAtop" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -522,8 +522,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode SourceIn = int32(18)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.SourceIn" />
       <MemberSignature Language="VB.NET" Value="SourceIn" />
-      <MemberSignature Language="C++ CLI" Value="SourceIn" />
       <MemberSignature Language="F#" Value="SourceIn = 18" Usage="Microsoft.Maui.Graphics.BlendMode.SourceIn" />
+      <MemberSignature Language="C++ CLI" Value="SourceIn" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -542,8 +542,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode SourceOut = int32(19)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.SourceOut" />
       <MemberSignature Language="VB.NET" Value="SourceOut" />
-      <MemberSignature Language="C++ CLI" Value="SourceOut" />
       <MemberSignature Language="F#" Value="SourceOut = 19" Usage="Microsoft.Maui.Graphics.BlendMode.SourceOut" />
+      <MemberSignature Language="C++ CLI" Value="SourceOut" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -562,8 +562,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.BlendMode Xor = int32(25)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.BlendMode.Xor" />
       <MemberSignature Language="VB.NET" Value="Xor" />
-      <MemberSignature Language="C++ CLI" Value="Xor" />
       <MemberSignature Language="F#" Value="Xor = 25" Usage="Microsoft.Maui.Graphics.BlendMode.Xor" />
+      <MemberSignature Language="C++ CLI" Value="Xor" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

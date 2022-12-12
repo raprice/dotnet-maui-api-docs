@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LineCap extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.LineCap" />
   <TypeSignature Language="VB.NET" Value="Public Enum LineCap" />
-  <TypeSignature Language="C++ CLI" Value="public enum class LineCap" />
   <TypeSignature Language="F#" Value="type LineCap = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class LineCap" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.LineCap Butt = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.LineCap.Butt" />
       <MemberSignature Language="VB.NET" Value="Butt" />
-      <MemberSignature Language="C++ CLI" Value="Butt" />
       <MemberSignature Language="F#" Value="Butt = 0" Usage="Microsoft.Maui.Graphics.LineCap.Butt" />
+      <MemberSignature Language="C++ CLI" Value="Butt" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.LineCap Round = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.LineCap.Round" />
       <MemberSignature Language="VB.NET" Value="Round" />
-      <MemberSignature Language="C++ CLI" Value="Round" />
       <MemberSignature Language="F#" Value="Round = 1" Usage="Microsoft.Maui.Graphics.LineCap.Round" />
+      <MemberSignature Language="C++ CLI" Value="Round" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.LineCap Square = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.LineCap.Square" />
       <MemberSignature Language="VB.NET" Value="Square" />
-      <MemberSignature Language="C++ CLI" Value="Square" />
       <MemberSignature Language="F#" Value="Square = 2" Usage="Microsoft.Maui.Graphics.LineCap.Square" />
+      <MemberSignature Language="C++ CLI" Value="Square" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

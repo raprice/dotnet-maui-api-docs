@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Keyboard extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Keyboard" />
   <TypeSignature Language="VB.NET" Value="Public Class Keyboard" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Keyboard" />
   <TypeSignature Language="F#" Value="type Keyboard = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Keyboard" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -29,8 +29,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Keyboard Chat" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Keyboard.Chat" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Chat As Keyboard" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Chat { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Chat : Microsoft.Maui.Keyboard" Usage="Microsoft.Maui.Keyboard.Chat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Chat { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Keyboard Create(valuetype Microsoft.Maui.KeyboardFlags flags) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Keyboard.Create(Microsoft.Maui.KeyboardFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Create (flags As KeyboardFlags) As Keyboard" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Keyboard ^ Create(Microsoft::Maui::KeyboardFlags flags);" />
       <MemberSignature Language="F#" Value="static member Create : Microsoft.Maui.KeyboardFlags -&gt; Microsoft.Maui.Keyboard" Usage="Microsoft.Maui.Keyboard.Create flags" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Keyboard ^ Create(Microsoft::Maui::KeyboardFlags flags);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Keyboard Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Keyboard.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As Keyboard" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Default { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.Keyboard" Usage="Microsoft.Maui.Keyboard.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Default { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -96,8 +96,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Keyboard Email" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Keyboard.Email" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Email As Keyboard" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Email { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Email : Microsoft.Maui.Keyboard" Usage="Microsoft.Maui.Keyboard.Email" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Email { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -117,8 +117,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Keyboard Numeric" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Keyboard.Numeric" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Numeric As Keyboard" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Numeric { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Numeric : Microsoft.Maui.Keyboard" Usage="Microsoft.Maui.Keyboard.Numeric" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Numeric { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -138,8 +138,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Keyboard Plain" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Keyboard.Plain" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Plain As Keyboard" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Plain { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Plain : Microsoft.Maui.Keyboard" Usage="Microsoft.Maui.Keyboard.Plain" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Plain { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -159,8 +159,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Keyboard Telephone" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Keyboard.Telephone" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Telephone As Keyboard" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Telephone { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Telephone : Microsoft.Maui.Keyboard" Usage="Microsoft.Maui.Keyboard.Telephone" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Telephone { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -180,8 +180,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Keyboard Text" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Keyboard.Text" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Text As Keyboard" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Text { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Text : Microsoft.Maui.Keyboard" Usage="Microsoft.Maui.Keyboard.Text" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Text { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -201,8 +201,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Keyboard Url" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Keyboard.Url" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Url As Keyboard" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Url { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Url : Microsoft.Maui.Keyboard" Usage="Microsoft.Maui.Keyboard.Url" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Keyboard ^ Url { Microsoft::Maui::Keyboard ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

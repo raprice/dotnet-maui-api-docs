@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Command`1&lt;T&gt; extends Microsoft.Maui.Controls.Command" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Command`1" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Command(Of T)&#xA;Inherits Command" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class Command sealed : Microsoft::Maui::Controls::Command" />
   <TypeSignature Language="F#" Value="type Command&lt;'T&gt; = class&#xA;    inherit Command" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class Command sealed : Microsoft::Maui::Controls::Command" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -27,8 +27,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action`1&lt;!T&gt; execute) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Command`1.#ctor(System.Action{`0})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (execute As Action(Of T))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Command(Action&lt;T&gt; ^ execute);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Command&lt;'T&gt; : Action&lt;'T&gt; -&gt; Microsoft.Maui.Controls.Command&lt;'T&gt;" Usage="new Microsoft.Maui.Controls.Command&lt;'T&gt; execute" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Command(Action&lt;T&gt; ^ execute);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action`1&lt;!T&gt; execute, class System.Func`2&lt;!T, bool&gt; canExecute) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Command`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (execute As Action(Of T), canExecute As Func(Of T, Boolean))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Command(Action&lt;T&gt; ^ execute, Func&lt;T, bool&gt; ^ canExecute);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Command&lt;'T&gt; : Action&lt;'T&gt; * Func&lt;'T, bool&gt; -&gt; Microsoft.Maui.Controls.Command&lt;'T&gt;" Usage="new Microsoft.Maui.Controls.Command&lt;'T&gt; (execute, canExecute)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Command(Action&lt;T&gt; ^ execute, Func&lt;T, bool&gt; ^ canExecute);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

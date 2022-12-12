@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NameScope extends System.Object implements class Microsoft.Maui.Controls.Internals.INameScope" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.NameScope" />
   <TypeSignature Language="VB.NET" Value="Public Class NameScope&#xA;Implements INameScope" />
-  <TypeSignature Language="C++ CLI" Value="public ref class NameScope : Microsoft::Maui::Controls::Internals::INameScope" />
   <TypeSignature Language="F#" Value="type NameScope = class&#xA;    interface INameScope" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NameScope : Microsoft::Maui::Controls::Internals::INameScope" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.Internals.INameScope GetNameScope(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NameScope.GetNameScope(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetNameScope (bindable As BindableObject) As INameScope" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Internals::INameScope ^ GetNameScope(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetNameScope : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.Internals.INameScope" Usage="Microsoft.Maui.Controls.Internals.NameScope.GetNameScope bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Internals::INameScope ^ GetNameScope(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object Microsoft.Maui.Controls.Internals.INameScope.FindByName(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NameScope.Microsoft#Maui#Controls#Internals#INameScope#FindByName(System.String)" />
       <MemberSignature Language="VB.NET" Value="Function FindByName (name As String) As Object Implements INameScope.FindByName" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Object ^ Microsoft.Maui.Controls.Internals.INameScope.FindByName(System::String ^ name) = Microsoft::Maui::Controls::Internals::INameScope::FindByName;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.INameScope.FindByName : string -&gt; obj&#xA;override this.Microsoft.Maui.Controls.Internals.INameScope.FindByName : string -&gt; obj" Usage="nameScope.Microsoft.Maui.Controls.Internals.INameScope.FindByName name" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Object ^ Microsoft.Maui.Controls.Internals.INameScope.FindByName(System::String ^ name) = Microsoft::Maui::Controls::Internals::INameScope::FindByName;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.INameScope.FindByName(System.String)</InterfaceMember>
@@ -103,8 +103,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.INameScope.RegisterName(string name, object scopedElement) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NameScope.Microsoft#Maui#Controls#Internals#INameScope#RegisterName(System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Sub RegisterName (name As String, scopedElement As Object) Implements INameScope.RegisterName" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.INameScope.RegisterName(System::String ^ name, System::Object ^ scopedElement) = Microsoft::Maui::Controls::Internals::INameScope::RegisterName;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.INameScope.RegisterName : string * obj -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.INameScope.RegisterName : string * obj -&gt; unit" Usage="nameScope.Microsoft.Maui.Controls.Internals.INameScope.RegisterName (name, scopedElement)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.INameScope.RegisterName(System::String ^ name, System::Object ^ scopedElement) = Microsoft::Maui::Controls::Internals::INameScope::RegisterName;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.INameScope.RegisterName(System.String,System.Object)</InterfaceMember>
@@ -132,8 +132,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.INameScope.UnregisterName(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NameScope.Microsoft#Maui#Controls#Internals#INameScope#UnregisterName(System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub UnregisterName (name As String) Implements INameScope.UnregisterName" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.INameScope.UnregisterName(System::String ^ name) = Microsoft::Maui::Controls::Internals::INameScope::UnregisterName;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.INameScope.UnregisterName : string -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.INameScope.UnregisterName : string -&gt; unit" Usage="nameScope.Microsoft.Maui.Controls.Internals.INameScope.UnregisterName name" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.INameScope.UnregisterName(System::String ^ name) = Microsoft::Maui::Controls::Internals::INameScope::UnregisterName;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.INameScope.UnregisterName(System.String)</InterfaceMember>
@@ -159,8 +159,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty NameScopeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Internals.NameScope.NameScopeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NameScopeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ NameScopeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable NameScopeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Internals.NameScope.NameScopeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ NameScopeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -179,8 +179,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetNameScope(class Microsoft.Maui.Controls.BindableObject bindable, class Microsoft.Maui.Controls.Internals.INameScope value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.NameScope.SetNameScope(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.Internals.INameScope)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetNameScope (bindable As BindableObject, value As INameScope)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetNameScope(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::Internals::INameScope ^ value);" />
       <MemberSignature Language="F#" Value="static member SetNameScope : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.Internals.INameScope -&gt; unit" Usage="Microsoft.Maui.Controls.Internals.NameScope.SetNameScope (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetNameScope(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::Internals::INameScope ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit VisualElement/ShadowEffect extends Microsoft.Maui.Controls.RoutingEffect" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.VisualElement.ShadowEffect" />
   <TypeSignature Language="VB.NET" Value="Public Class VisualElement.ShadowEffect&#xA;Inherits RoutingEffect" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class VisualElement::ShadowEffect : Microsoft::Maui::Controls::RoutingEffect" />
   <TypeSignature Language="F#" Value="type VisualElement.ShadowEffect = class&#xA;    inherit RoutingEffect" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class VisualElement::ShadowEffect : Microsoft::Maui::Controls::RoutingEffect" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

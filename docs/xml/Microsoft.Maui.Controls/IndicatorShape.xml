@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed IndicatorShape extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IndicatorShape" />
   <TypeSignature Language="VB.NET" Value="Public Enum IndicatorShape" />
-  <TypeSignature Language="C++ CLI" Value="public enum class IndicatorShape" />
   <TypeSignature Language="F#" Value="type IndicatorShape = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class IndicatorShape" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.IndicatorShape Circle = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.IndicatorShape.Circle" />
       <MemberSignature Language="VB.NET" Value="Circle" />
-      <MemberSignature Language="C++ CLI" Value="Circle" />
       <MemberSignature Language="F#" Value="Circle = 0" Usage="Microsoft.Maui.Controls.IndicatorShape.Circle" />
+      <MemberSignature Language="C++ CLI" Value="Circle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.IndicatorShape Square = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.IndicatorShape.Square" />
       <MemberSignature Language="VB.NET" Value="Square" />
-      <MemberSignature Language="C++ CLI" Value="Square" />
       <MemberSignature Language="F#" Value="Square = 1" Usage="Microsoft.Maui.Controls.IndicatorShape.Square" />
+      <MemberSignature Language="C++ CLI" Value="Square" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

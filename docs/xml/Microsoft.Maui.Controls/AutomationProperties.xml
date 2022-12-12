@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AutomationProperties extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.AutomationProperties" />
   <TypeSignature Language="VB.NET" Value="Public Class AutomationProperties" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AutomationProperties" />
   <TypeSignature Language="F#" Value="type AutomationProperties = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AutomationProperties" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ExcludedWithChildrenProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.AutomationProperties.ExcludedWithChildrenProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ExcludedWithChildrenProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ExcludedWithChildrenProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ExcludedWithChildrenProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.AutomationProperties.ExcludedWithChildrenProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ExcludedWithChildrenProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -60,8 +60,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Nullable`1&lt;bool&gt; GetExcludedWithChildren(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.AutomationProperties.GetExcludedWithChildren(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetExcludedWithChildren (bindable As BindableObject) As Nullable(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Nullable&lt;bool&gt; GetExcludedWithChildren(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetExcludedWithChildren : Microsoft.Maui.Controls.BindableObject -&gt; Nullable&lt;bool&gt;" Usage="Microsoft.Maui.Controls.AutomationProperties.GetExcludedWithChildren bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Nullable&lt;bool&gt; GetExcludedWithChildren(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -85,8 +85,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetHelpText(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.AutomationProperties.GetHelpText(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetHelpText (bindable As BindableObject) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetHelpText(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetHelpText : Microsoft.Maui.Controls.BindableObject -&gt; string" Usage="Microsoft.Maui.Controls.AutomationProperties.GetHelpText bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetHelpText(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -110,8 +110,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Nullable`1&lt;bool&gt; GetIsInAccessibleTree(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.AutomationProperties.GetIsInAccessibleTree(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetIsInAccessibleTree (bindable As BindableObject) As Nullable(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Nullable&lt;bool&gt; GetIsInAccessibleTree(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetIsInAccessibleTree : Microsoft.Maui.Controls.BindableObject -&gt; Nullable&lt;bool&gt;" Usage="Microsoft.Maui.Controls.AutomationProperties.GetIsInAccessibleTree bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Nullable&lt;bool&gt; GetIsInAccessibleTree(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -136,8 +136,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.VisualElement GetLabeledBy(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.AutomationProperties.GetLabeledBy(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetLabeledBy (bindable As BindableObject) As VisualElement" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::VisualElement ^ GetLabeledBy(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetLabeledBy : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.VisualElement" Usage="Microsoft.Maui.Controls.AutomationProperties.GetLabeledBy bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::VisualElement ^ GetLabeledBy(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -167,8 +167,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetName(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.AutomationProperties.GetName(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetName (bindable As BindableObject) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetName(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetName : Microsoft.Maui.Controls.BindableObject -&gt; string" Usage="Microsoft.Maui.Controls.AutomationProperties.GetName bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetName(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -192,8 +192,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HelpTextProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.AutomationProperties.HelpTextProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HelpTextProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HelpTextProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HelpTextProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.AutomationProperties.HelpTextProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HelpTextProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -212,8 +212,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsInAccessibleTreeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.AutomationProperties.IsInAccessibleTreeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsInAccessibleTreeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsInAccessibleTreeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsInAccessibleTreeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.AutomationProperties.IsInAccessibleTreeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsInAccessibleTreeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -232,8 +232,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty LabeledByProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.AutomationProperties.LabeledByProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LabeledByProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ LabeledByProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable LabeledByProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.AutomationProperties.LabeledByProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ LabeledByProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -252,8 +252,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty NameProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.AutomationProperties.NameProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NameProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ NameProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable NameProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.AutomationProperties.NameProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ NameProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -272,8 +272,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetExcludedWithChildren(class Microsoft.Maui.Controls.BindableObject bindable, valuetype System.Nullable`1&lt;bool&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.AutomationProperties.SetExcludedWithChildren(Microsoft.Maui.Controls.BindableObject,System.Nullable{System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetExcludedWithChildren (bindable As BindableObject, value As Nullable(Of Boolean))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetExcludedWithChildren(Microsoft::Maui::Controls::BindableObject ^ bindable, Nullable&lt;bool&gt; value);" />
       <MemberSignature Language="F#" Value="static member SetExcludedWithChildren : Microsoft.Maui.Controls.BindableObject * Nullable&lt;bool&gt; -&gt; unit" Usage="Microsoft.Maui.Controls.AutomationProperties.SetExcludedWithChildren (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetExcludedWithChildren(Microsoft::Maui::Controls::BindableObject ^ bindable, Nullable&lt;bool&gt; value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -298,8 +298,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetHelpText(class Microsoft.Maui.Controls.BindableObject bindable, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.AutomationProperties.SetHelpText(Microsoft.Maui.Controls.BindableObject,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetHelpText (bindable As BindableObject, value As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHelpText(Microsoft::Maui::Controls::BindableObject ^ bindable, System::String ^ value);" />
       <MemberSignature Language="F#" Value="static member SetHelpText : Microsoft.Maui.Controls.BindableObject * string -&gt; unit" Usage="Microsoft.Maui.Controls.AutomationProperties.SetHelpText (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHelpText(Microsoft::Maui::Controls::BindableObject ^ bindable, System::String ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -324,8 +324,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsInAccessibleTree(class Microsoft.Maui.Controls.BindableObject bindable, valuetype System.Nullable`1&lt;bool&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.AutomationProperties.SetIsInAccessibleTree(Microsoft.Maui.Controls.BindableObject,System.Nullable{System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetIsInAccessibleTree (bindable As BindableObject, value As Nullable(Of Boolean))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsInAccessibleTree(Microsoft::Maui::Controls::BindableObject ^ bindable, Nullable&lt;bool&gt; value);" />
       <MemberSignature Language="F#" Value="static member SetIsInAccessibleTree : Microsoft.Maui.Controls.BindableObject * Nullable&lt;bool&gt; -&gt; unit" Usage="Microsoft.Maui.Controls.AutomationProperties.SetIsInAccessibleTree (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsInAccessibleTree(Microsoft::Maui::Controls::BindableObject ^ bindable, Nullable&lt;bool&gt; value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -351,8 +351,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetLabeledBy(class Microsoft.Maui.Controls.BindableObject bindable, class Microsoft.Maui.Controls.VisualElement value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.AutomationProperties.SetLabeledBy(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.VisualElement)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetLabeledBy (bindable As BindableObject, value As VisualElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetLabeledBy(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::VisualElement ^ value);" />
       <MemberSignature Language="F#" Value="static member SetLabeledBy : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.VisualElement -&gt; unit" Usage="Microsoft.Maui.Controls.AutomationProperties.SetLabeledBy (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetLabeledBy(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::VisualElement ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -377,8 +377,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetName(class Microsoft.Maui.Controls.BindableObject bindable, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.AutomationProperties.SetName(Microsoft.Maui.Controls.BindableObject,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetName (bindable As BindableObject, value As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetName(Microsoft::Maui::Controls::BindableObject ^ bindable, System::String ^ value);" />
       <MemberSignature Language="F#" Value="static member SetName : Microsoft.Maui.Controls.BindableObject * string -&gt; unit" Usage="Microsoft.Maui.Controls.AutomationProperties.SetName (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetName(Microsoft::Maui::Controls::BindableObject ^ bindable, System::String ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

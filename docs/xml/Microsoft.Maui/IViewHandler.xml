@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IViewHandler implements class Microsoft.Maui.IElementHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="VB.NET" Value="Public Interface IViewHandler&#xA;Implements IElementHandler" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IViewHandler : Microsoft::Maui::IElementHandler" />
   <TypeSignature Language="F#" Value="type IViewHandler = interface&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IViewHandler : Microsoft::Maui::IElementHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -24,8 +24,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object ContainerView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IViewHandler.ContainerView" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainerView As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ContainerView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ContainerView : obj" Usage="Microsoft.Maui.IViewHandler.ContainerView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ContainerView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -45,8 +45,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Maui.Graphics.Size GetDesiredSize(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IViewHandler.GetDesiredSize(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetDesiredSize (widthConstraint As Double, heightConstraint As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Size GetDesiredSize(double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="F#" Value="abstract member GetDesiredSize : double * double -&gt; Microsoft.Maui.Graphics.Size" Usage="iViewHandler.GetDesiredSize (widthConstraint, heightConstraint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Size GetDesiredSize(double widthConstraint, double heightConstraint);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -72,8 +72,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool HasContainer" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IViewHandler.HasContainer" />
       <MemberSignature Language="VB.NET" Value="Public Property HasContainer As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasContainer { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.HasContainer : bool with get, set" Usage="Microsoft.Maui.IViewHandler.HasContainer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasContainer { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PlatformArrange(valuetype Microsoft.Maui.Graphics.Rect frame) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.IViewHandler.PlatformArrange(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Sub PlatformArrange (frame As Rect)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PlatformArrange(Microsoft::Maui::Graphics::Rect frame);" />
       <MemberSignature Language="F#" Value="abstract member PlatformArrange : Microsoft.Maui.Graphics.Rect -&gt; unit" Usage="iViewHandler.PlatformArrange frame" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PlatformArrange(Microsoft::Maui::Graphics::Rect frame);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -117,8 +117,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IViewHandler.VirtualView" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VirtualView As IView" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IView ^ VirtualView { Microsoft::Maui::IView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.VirtualView : Microsoft.Maui.IView" Usage="Microsoft.Maui.IViewHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IView ^ VirtualView { Microsoft::Maui::IView ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

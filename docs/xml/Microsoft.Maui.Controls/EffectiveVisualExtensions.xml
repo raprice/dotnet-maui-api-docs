@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit EffectiveVisualExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.EffectiveVisualExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module EffectiveVisualExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class EffectiveVisualExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type EffectiveVisualExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EffectiveVisualExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -29,8 +29,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsDefault(class Microsoft.Maui.Controls.IVisual visual) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.EffectiveVisualExtensions.IsDefault(Microsoft.Maui.Controls.IVisual)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsDefault (visual As IVisual) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsDefault(Microsoft::Maui::Controls::IVisual ^ visual);" />
       <MemberSignature Language="F#" Value="static member IsDefault : Microsoft.Maui.Controls.IVisual -&gt; bool" Usage="Microsoft.Maui.Controls.EffectiveVisualExtensions.IsDefault visual" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsDefault(Microsoft::Maui::Controls::IVisual ^ visual);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsMatchParent(class Microsoft.Maui.Controls.IVisual visual) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.EffectiveVisualExtensions.IsMatchParent(Microsoft.Maui.Controls.IVisual)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsMatchParent (visual As IVisual) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsMatchParent(Microsoft::Maui::Controls::IVisual ^ visual);" />
       <MemberSignature Language="F#" Value="static member IsMatchParent : Microsoft.Maui.Controls.IVisual -&gt; bool" Usage="Microsoft.Maui.Controls.EffectiveVisualExtensions.IsMatchParent visual" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsMatchParent(Microsoft::Maui::Controls::IVisual ^ visual);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -79,8 +79,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsMaterial(class Microsoft.Maui.Controls.IVisual visual) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.EffectiveVisualExtensions.IsMaterial(Microsoft.Maui.Controls.IVisual)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsMaterial (visual As IVisual) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsMaterial(Microsoft::Maui::Controls::IVisual ^ visual);" />
       <MemberSignature Language="F#" Value="static member IsMaterial : Microsoft.Maui.Controls.IVisual -&gt; bool" Usage="Microsoft.Maui.Controls.EffectiveVisualExtensions.IsMaterial visual" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsMaterial(Microsoft::Maui::Controls::IVisual ^ visual);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

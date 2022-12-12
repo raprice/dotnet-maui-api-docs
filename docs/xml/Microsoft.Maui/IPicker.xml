@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPicker implements class Microsoft.Maui.IElement, class Microsoft.Maui.IItemDelegate`1&lt;string&gt;, class Microsoft.Maui.ITextAlignment, class Microsoft.Maui.ITextStyle, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IPicker" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPicker&#xA;Implements IItemDelegate(Of String), ITextAlignment, ITextStyle, IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IPicker : Microsoft::Maui::IItemDelegate&lt;System::String ^&gt;, Microsoft::Maui::ITextAlignment, Microsoft::Maui::ITextStyle, Microsoft::Maui::IView" />
   <TypeSignature Language="F#" Value="type IPicker = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface ITextStyle&#xA;    interface ITextAlignment&#xA;    interface IItemDelegate&lt;string&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPicker : Microsoft::Maui::IItemDelegate&lt;System::String ^&gt;, Microsoft::Maui::ITextAlignment, Microsoft::Maui::ITextStyle, Microsoft::Maui::IView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -41,8 +41,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Items" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IPicker.Items" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Items As IList(Of String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ Items { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Items : System.Collections.Generic.IList&lt;string&gt;" Usage="Microsoft.Maui.IPicker.Items" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ Items { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -64,8 +64,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 SelectedIndex" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IPicker.SelectedIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectedIndex As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectedIndex { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.SelectedIndex : int with get, set" Usage="Microsoft.Maui.IPicker.SelectedIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectedIndex { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -87,8 +87,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IPicker.Title" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Title As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Title : string" Usage="Microsoft.Maui.IPicker.Title" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -110,8 +110,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color TitleColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IPicker.TitleColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TitleColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TitleColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.TitleColor : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.IPicker.TitleColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TitleColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

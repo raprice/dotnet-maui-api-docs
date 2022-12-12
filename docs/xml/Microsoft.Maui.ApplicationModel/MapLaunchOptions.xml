@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MapLaunchOptions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.MapLaunchOptions" />
   <TypeSignature Language="VB.NET" Value="Public Class MapLaunchOptions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MapLaunchOptions" />
   <TypeSignature Language="F#" Value="type MapLaunchOptions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MapLaunchOptions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.MapLaunchOptions.Name" />
       <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Maui.ApplicationModel.MapLaunchOptions.Name" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.ApplicationModel.NavigationMode NavigationMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.MapLaunchOptions.NavigationMode" />
       <MemberSignature Language="VB.NET" Value="Public Property NavigationMode As NavigationMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::NavigationMode NavigationMode { Microsoft::Maui::ApplicationModel::NavigationMode get(); void set(Microsoft::Maui::ApplicationModel::NavigationMode value); };" />
       <MemberSignature Language="F#" Value="member this.NavigationMode : Microsoft.Maui.ApplicationModel.NavigationMode with get, set" Usage="Microsoft.Maui.ApplicationModel.MapLaunchOptions.NavigationMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ApplicationModel::NavigationMode NavigationMode { Microsoft::Maui::ApplicationModel::NavigationMode get(); void set(Microsoft::Maui::ApplicationModel::NavigationMode value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

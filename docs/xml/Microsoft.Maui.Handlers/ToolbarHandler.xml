@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ToolbarHandler extends Microsoft.Maui.Handlers.ElementHandler`2&lt;class Microsoft.Maui.IToolbar, object&gt; implements class Microsoft.Maui.Handlers.IToolbarHandler, class Microsoft.Maui.IElementHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.ToolbarHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class ToolbarHandler&#xA;Inherits ElementHandler(Of IToolbar, Object)&#xA;Implements IToolbarHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ToolbarHandler : Microsoft::Maui::Handlers::ElementHandler&lt;Microsoft::Maui::IToolbar ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IToolbarHandler" />
   <TypeSignature Language="F#" Value="type ToolbarHandler = class&#xA;    inherit ElementHandler&lt;IToolbar, obj&gt;&#xA;    interface IToolbarHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ToolbarHandler : Microsoft::Maui::Handlers::ElementHandler&lt;Microsoft::Maui::IToolbar ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IToolbarHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -51,8 +51,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ToolbarHandler.#ctor(Microsoft.Maui.IPropertyMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ToolbarHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.ToolbarHandler : Microsoft.Maui.IPropertyMapper -&gt; Microsoft.Maui.Handlers.ToolbarHandler" Usage="new Microsoft.Maui.Handlers.ToolbarHandler mapper" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ToolbarHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -72,8 +72,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ToolbarHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ToolbarHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.ToolbarHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.Handlers.ToolbarHandler" Usage="new Microsoft.Maui.Handlers.ToolbarHandler (mapper, commandMapper)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ToolbarHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -95,8 +95,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IToolbar, class Microsoft.Maui.Handlers.IToolbarHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.ToolbarHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IToolbar, IToolbarHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IToolbar ^, Microsoft::Maui::Handlers::IToolbarHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IToolbar, Microsoft.Maui.Handlers.IToolbarHandler&gt;" Usage="Microsoft.Maui.Handlers.ToolbarHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IToolbar ^, Microsoft::Maui::Handlers::IToolbarHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -115,8 +115,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformElement() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ToolbarHandler.CreatePlatformElement" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformElement () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformElement();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformElement : unit -&gt; obj" Usage="toolbarHandler.CreatePlatformElement " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformElement();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -137,8 +137,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IToolbar, class Microsoft.Maui.Handlers.IToolbarHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.ToolbarHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IToolbar, IToolbarHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IToolbar ^, Microsoft::Maui::Handlers::IToolbarHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IToolbar, Microsoft.Maui.Handlers.IToolbarHandler&gt;" Usage="Microsoft.Maui.Handlers.ToolbarHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IToolbar ^, Microsoft::Maui::Handlers::IToolbarHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -157,8 +157,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapTitle(class Microsoft.Maui.Handlers.IToolbarHandler arg1, class Microsoft.Maui.IToolbar arg2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.ToolbarHandler.MapTitle(Microsoft.Maui.Handlers.IToolbarHandler,Microsoft.Maui.IToolbar)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapTitle (arg1 As IToolbarHandler, arg2 As IToolbar)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTitle(Microsoft::Maui::Handlers::IToolbarHandler ^ arg1, Microsoft::Maui::IToolbar ^ arg2);" />
       <MemberSignature Language="F#" Value="static member MapTitle : Microsoft.Maui.Handlers.IToolbarHandler * Microsoft.Maui.IToolbar -&gt; unit" Usage="Microsoft.Maui.Handlers.ToolbarHandler.MapTitle (arg1, arg2)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTitle(Microsoft::Maui::Handlers::IToolbarHandler ^ arg1, Microsoft::Maui::IToolbar ^ arg2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -183,8 +183,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.IToolbarHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.ToolbarHandler.Microsoft#Maui#Handlers#IToolbarHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IToolbarHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IToolbarHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IToolbarHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.IToolbarHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IToolbarHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IToolbarHandler.PlatformView</InterfaceMember>
@@ -207,8 +207,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IToolbar Microsoft.Maui.Handlers.IToolbarHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.ToolbarHandler.Microsoft#Maui#Handlers#IToolbarHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IToolbar Implements IToolbarHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IToolbar ^ Microsoft::Maui::Handlers::IToolbarHandler::VirtualView { Microsoft::Maui::IToolbar ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IToolbarHandler.VirtualView : Microsoft.Maui.IToolbar" Usage="Microsoft.Maui.Handlers.IToolbarHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IToolbar ^ Microsoft::Maui::Handlers::IToolbarHandler::VirtualView { Microsoft::Maui::IToolbar ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IToolbarHandler.VirtualView</InterfaceMember>

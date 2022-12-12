@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit StateTriggerBase extends Microsoft.Maui.Controls.BindableObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.StateTriggerBase" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class StateTriggerBase&#xA;Inherits BindableObject" />
-  <TypeSignature Language="C++ CLI" Value="public ref class StateTriggerBase abstract : Microsoft::Maui::Controls::BindableObject" />
   <TypeSignature Language="F#" Value="type StateTriggerBase = class&#xA;    inherit BindableObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StateTriggerBase abstract : Microsoft::Maui::Controls::BindableObject" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsActive" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.StateTriggerBase.IsActive" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsActive As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsActive { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsActive : bool" Usage="Microsoft.Maui.Controls.StateTriggerBase.IsActive" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsActive { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler IsActiveChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.StateTriggerBase.IsActiveChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event IsActiveChanged As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ IsActiveChanged;" />
       <MemberSignature Language="F#" Value="member this.IsActiveChanged : EventHandler " Usage="member this.IsActiveChanged : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ IsActiveChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -81,8 +81,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsAttached" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.StateTriggerBase.IsAttached" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAttached As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAttached { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsAttached : bool" Usage="Microsoft.Maui.Controls.StateTriggerBase.IsAttached" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAttached { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnAttached() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.StateTriggerBase.OnAttached" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnAttached ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnAttached();" />
       <MemberSignature Language="F#" Value="abstract member OnAttached : unit -&gt; unit&#xA;override this.OnAttached : unit -&gt; unit" Usage="stateTriggerBase.OnAttached " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnAttached();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -123,8 +123,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnDetached() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.StateTriggerBase.OnDetached" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnDetached ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDetached();" />
       <MemberSignature Language="F#" Value="abstract member OnDetached : unit -&gt; unit&#xA;override this.OnDetached : unit -&gt; unit" Usage="stateTriggerBase.OnDetached " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDetached();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -144,8 +144,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void SetActive(bool active) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.StateTriggerBase.SetActive(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub SetActive (active As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void SetActive(bool active);" />
       <MemberSignature Language="F#" Value="member this.SetActive : bool -&gt; unit" Usage="stateTriggerBase.SetActive active" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void SetActive(bool active);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

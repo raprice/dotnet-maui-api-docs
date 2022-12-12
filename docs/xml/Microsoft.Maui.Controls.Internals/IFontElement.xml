@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFontElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.IFontElement" />
   <TypeSignature Language="VB.NET" Value="Public Interface IFontElement" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IFontElement" />
   <TypeSignature Language="F#" Value="type IFontElement = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IFontElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -26,8 +26,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.FontAttributes FontAttributes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.IFontElement.FontAttributes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontAttributes As FontAttributes" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); };" />
       <MemberSignature Language="F#" Value="member this.FontAttributes : Microsoft.Maui.Controls.FontAttributes" Usage="Microsoft.Maui.Controls.Internals.IFontElement.FontAttributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool FontAutoScalingEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.IFontElement.FontAutoScalingEnabled" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontAutoScalingEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.FontAutoScalingEnabled : bool" Usage="Microsoft.Maui.Controls.Internals.IFontElement.FontAutoScalingEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string FontFamily" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.IFontElement.FontFamily" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontFamily As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.FontFamily : string" Usage="Microsoft.Maui.Controls.Internals.IFontElement.FontFamily" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -89,8 +89,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 FontSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.IFontElement.FontSize" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontSize As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); };" />
       <MemberSignature Language="F#" Value="member this.FontSize : double" Usage="Microsoft.Maui.Controls.Internals.IFontElement.FontSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -116,8 +116,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float64 FontSizeDefaultValueCreator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator" />
       <MemberSignature Language="VB.NET" Value="Public Function FontSizeDefaultValueCreator () As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; double FontSizeDefaultValueCreator();" />
       <MemberSignature Language="F#" Value="abstract member FontSizeDefaultValueCreator : unit -&gt; double" Usage="iFontElement.FontSizeDefaultValueCreator " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; double FontSizeDefaultValueCreator();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -138,8 +138,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnFontAttributesChanged(valuetype Microsoft.Maui.Controls.FontAttributes oldValue, valuetype Microsoft.Maui.Controls.FontAttributes newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)" />
       <MemberSignature Language="VB.NET" Value="Public Sub OnFontAttributesChanged (oldValue As FontAttributes, newValue As FontAttributes)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue);" />
       <MemberSignature Language="F#" Value="abstract member OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit" Usage="iFontElement.OnFontAttributesChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -164,8 +164,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub OnFontAutoScalingEnabledChanged (oldValue As Boolean, newValue As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue);" />
       <MemberSignature Language="F#" Value="abstract member OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit" Usage="iFontElement.OnFontAutoScalingEnabledChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -190,8 +190,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnFontFamilyChanged(string oldValue, string newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub OnFontFamilyChanged (oldValue As String, newValue As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue);" />
       <MemberSignature Language="F#" Value="abstract member OnFontFamilyChanged : string * string -&gt; unit" Usage="iFontElement.OnFontFamilyChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -216,8 +216,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnFontSizeChanged(float64 oldValue, float64 newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub OnFontSizeChanged (oldValue As Double, newValue As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnFontSizeChanged(double oldValue, double newValue);" />
       <MemberSignature Language="F#" Value="abstract member OnFontSizeChanged : double * double -&gt; unit" Usage="iFontElement.OnFontSizeChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnFontSizeChanged(double oldValue, double newValue);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

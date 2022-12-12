@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FocusRequest extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.FocusRequest" />
   <TypeSignature Language="VB.NET" Value="Public Class FocusRequest" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FocusRequest" />
   <TypeSignature Language="F#" Value="type FocusRequest = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FocusRequest" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool isFocused) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.FocusRequest.#ctor(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (isFocused As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; FocusRequest(bool isFocused);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.FocusRequest : bool -&gt; Microsoft.Maui.FocusRequest" Usage="new Microsoft.Maui.FocusRequest isFocused" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FocusRequest(bool isFocused);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsFocused" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.FocusRequest.IsFocused" />
       <MemberSignature Language="VB.NET" Value="Public Property IsFocused As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFocused { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsFocused : bool with get, set" Usage="Microsoft.Maui.FocusRequest.IsFocused" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFocused { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

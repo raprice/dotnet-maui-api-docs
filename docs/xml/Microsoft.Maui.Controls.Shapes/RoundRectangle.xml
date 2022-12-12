@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RoundRectangle extends Microsoft.Maui.Controls.Shapes.Shape implements class Microsoft.Maui.Graphics.IShape" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.RoundRectangle" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RoundRectangle&#xA;Inherits Shape&#xA;Implements IShape" />
-  <TypeSignature Language="C++ CLI" Value="public ref class RoundRectangle sealed : Microsoft::Maui::Controls::Shapes::Shape, Microsoft::Maui::Graphics::IShape" />
   <TypeSignature Language="F#" Value="type RoundRectangle = class&#xA;    inherit Shape&#xA;    interface IShape" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RoundRectangle sealed : Microsoft::Maui::Controls::Shapes::Shape, Microsoft::Maui::Graphics::IShape" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.CornerRadius CornerRadius" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.RoundRectangle.CornerRadius" />
       <MemberSignature Language="VB.NET" Value="Public Property CornerRadius As CornerRadius" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::CornerRadius CornerRadius { Microsoft::Maui::CornerRadius get(); void set(Microsoft::Maui::CornerRadius value); };" />
       <MemberSignature Language="F#" Value="member this.CornerRadius : Microsoft.Maui.CornerRadius with get, set" Usage="Microsoft.Maui.Controls.Shapes.RoundRectangle.CornerRadius" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::CornerRadius CornerRadius { Microsoft::Maui::CornerRadius get(); void set(Microsoft::Maui::CornerRadius value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CornerRadiusProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.RoundRectangle.CornerRadiusProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CornerRadiusProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CornerRadiusProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CornerRadiusProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.RoundRectangle.CornerRadiusProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CornerRadiusProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -85,8 +85,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class Microsoft.Maui.Graphics.PathF GetPath() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.RoundRectangle.GetPath" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetPath () As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::Maui::Graphics::PathF ^ GetPath();" />
       <MemberSignature Language="F#" Value="override this.GetPath : unit -&gt; Microsoft.Maui.Graphics.PathF" Usage="roundRectangle.GetPath " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::Maui::Graphics::PathF ^ GetPath();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

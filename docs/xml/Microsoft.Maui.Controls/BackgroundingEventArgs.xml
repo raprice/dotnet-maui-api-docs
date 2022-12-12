@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BackgroundingEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.BackgroundingEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class BackgroundingEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BackgroundingEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type BackgroundingEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BackgroundingEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPersistedState state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BackgroundingEventArgs.#ctor(Microsoft.Maui.IPersistedState)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (state As IPersistedState)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; BackgroundingEventArgs(Microsoft::Maui::IPersistedState ^ state);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.BackgroundingEventArgs : Microsoft.Maui.IPersistedState -&gt; Microsoft.Maui.Controls.BackgroundingEventArgs" Usage="new Microsoft.Maui.Controls.BackgroundingEventArgs state" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; BackgroundingEventArgs(Microsoft::Maui::IPersistedState ^ state);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IPersistedState State" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BackgroundingEventArgs.State" />
       <MemberSignature Language="VB.NET" Value="Public Property State As IPersistedState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IPersistedState ^ State { Microsoft::Maui::IPersistedState ^ get(); void set(Microsoft::Maui::IPersistedState ^ value); };" />
       <MemberSignature Language="F#" Value="member this.State : Microsoft.Maui.IPersistedState with get, set" Usage="Microsoft.Maui.Controls.BackgroundingEventArgs.State" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IPersistedState ^ State { Microsoft::Maui::IPersistedState ^ get(); void set(Microsoft::Maui::IPersistedState ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

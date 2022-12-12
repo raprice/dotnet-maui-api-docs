@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StructuredItemsView extends Microsoft.Maui.Controls.ItemsView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.StructuredItemsView" />
   <TypeSignature Language="VB.NET" Value="Public Class StructuredItemsView&#xA;Inherits ItemsView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class StructuredItemsView : Microsoft::Maui::Controls::ItemsView" />
   <TypeSignature Language="F#" Value="type StructuredItemsView = class&#xA;    inherit ItemsView" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StructuredItemsView : Microsoft::Maui::Controls::ItemsView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Footer" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.StructuredItemsView.Footer" />
       <MemberSignature Language="VB.NET" Value="Public Property Footer As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Footer { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Footer : obj with get, set" Usage="Microsoft.Maui.Controls.StructuredItemsView.Footer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Footer { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FooterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.StructuredItemsView.FooterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FooterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FooterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FooterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.StructuredItemsView.FooterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FooterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -81,8 +81,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.DataTemplate FooterTemplate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.StructuredItemsView.FooterTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property FooterTemplate As DataTemplate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::DataTemplate ^ FooterTemplate { Microsoft::Maui::Controls::DataTemplate ^ get(); void set(Microsoft::Maui::Controls::DataTemplate ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FooterTemplate : Microsoft.Maui.Controls.DataTemplate with get, set" Usage="Microsoft.Maui.Controls.StructuredItemsView.FooterTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::DataTemplate ^ FooterTemplate { Microsoft::Maui::Controls::DataTemplate ^ get(); void set(Microsoft::Maui::Controls::DataTemplate ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FooterTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.StructuredItemsView.FooterTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FooterTemplateProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FooterTemplateProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FooterTemplateProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.StructuredItemsView.FooterTemplateProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FooterTemplateProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -122,8 +122,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Header" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.StructuredItemsView.Header" />
       <MemberSignature Language="VB.NET" Value="Public Property Header As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Header { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Header : obj with get, set" Usage="Microsoft.Maui.Controls.StructuredItemsView.Header" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Header { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -143,8 +143,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HeaderProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.StructuredItemsView.HeaderProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeaderProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HeaderProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.StructuredItemsView.HeaderProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeaderProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -163,8 +163,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.DataTemplate HeaderTemplate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.StructuredItemsView.HeaderTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property HeaderTemplate As DataTemplate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::DataTemplate ^ HeaderTemplate { Microsoft::Maui::Controls::DataTemplate ^ get(); void set(Microsoft::Maui::Controls::DataTemplate ^ value); };" />
       <MemberSignature Language="F#" Value="member this.HeaderTemplate : Microsoft.Maui.Controls.DataTemplate with get, set" Usage="Microsoft.Maui.Controls.StructuredItemsView.HeaderTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::DataTemplate ^ HeaderTemplate { Microsoft::Maui::Controls::DataTemplate ^ get(); void set(Microsoft::Maui::Controls::DataTemplate ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -184,8 +184,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HeaderTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.StructuredItemsView.HeaderTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderTemplateProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeaderTemplateProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HeaderTemplateProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.StructuredItemsView.HeaderTemplateProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeaderTemplateProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -204,8 +204,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.ItemSizingStrategy ItemSizingStrategy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.StructuredItemsView.ItemSizingStrategy" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemSizingStrategy As ItemSizingStrategy" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ItemSizingStrategy ItemSizingStrategy { Microsoft::Maui::Controls::ItemSizingStrategy get(); void set(Microsoft::Maui::Controls::ItemSizingStrategy value); };" />
       <MemberSignature Language="F#" Value="member this.ItemSizingStrategy : Microsoft.Maui.Controls.ItemSizingStrategy with get, set" Usage="Microsoft.Maui.Controls.StructuredItemsView.ItemSizingStrategy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ItemSizingStrategy ItemSizingStrategy { Microsoft::Maui::Controls::ItemSizingStrategy get(); void set(Microsoft::Maui::Controls::ItemSizingStrategy value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -225,8 +225,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ItemSizingStrategyProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.StructuredItemsView.ItemSizingStrategyProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemSizingStrategyProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemSizingStrategyProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ItemSizingStrategyProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.StructuredItemsView.ItemSizingStrategyProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemSizingStrategyProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -245,8 +245,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.IItemsLayout ItemsLayout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.StructuredItemsView.ItemsLayout" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemsLayout As IItemsLayout" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IItemsLayout ^ ItemsLayout { Microsoft::Maui::Controls::IItemsLayout ^ get(); void set(Microsoft::Maui::Controls::IItemsLayout ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ItemsLayout : Microsoft.Maui.Controls.IItemsLayout with get, set" Usage="Microsoft.Maui.Controls.StructuredItemsView.ItemsLayout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IItemsLayout ^ ItemsLayout { Microsoft::Maui::Controls::IItemsLayout ^ get(); void set(Microsoft::Maui::Controls::IItemsLayout ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -266,8 +266,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ItemsLayoutProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.StructuredItemsView.ItemsLayoutProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemsLayoutProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemsLayoutProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ItemsLayoutProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.StructuredItemsView.ItemsLayoutProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemsLayoutProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

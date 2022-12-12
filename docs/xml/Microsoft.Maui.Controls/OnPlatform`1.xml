@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OnPlatform`1&lt;T&gt; extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.OnPlatform`1" />
   <TypeSignature Language="VB.NET" Value="Public Class OnPlatform(Of T)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class OnPlatform" />
   <TypeSignature Language="F#" Value="type OnPlatform&lt;'T&gt; = class" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class OnPlatform" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance !T Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.OnPlatform`1.Default" />
       <MemberSignature Language="VB.NET" Value="Public Property Default As T" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property T Default { T get(); void set(T value); };" />
       <MemberSignature Language="F#" Value="member this.Default : 'T with get, set" Usage="Microsoft.Maui.Controls.OnPlatform&lt;'T&gt;.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property T Default { T get(); void set(T value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname !T op_Implicit(class Microsoft.Maui.Controls.OnPlatform`1&lt;!T&gt; onPlatform) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.OnPlatform`1.op_Implicit(Microsoft.Maui.Controls.OnPlatform{`0})~`0" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (onPlatform As OnPlatform(Of T)) As T" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator T(Microsoft::Maui::Controls::OnPlatform&lt;T&gt; ^ onPlatform);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : Microsoft.Maui.Controls.OnPlatform&lt;'T&gt; -&gt; 'T" Usage="Microsoft.Maui.Controls.OnPlatform&lt;'T&gt;.op_Implicit onPlatform" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator T(Microsoft::Maui::Controls::OnPlatform&lt;T&gt; ^ onPlatform);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -96,8 +96,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.On&gt; Platforms" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.OnPlatform`1.Platforms" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Platforms As IList(Of On)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::On ^&gt; ^ Platforms { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::On ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Platforms : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.On&gt;" Usage="Microsoft.Maui.Controls.OnPlatform&lt;'T&gt;.Platforms" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::On ^&gt; ^ Platforms { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::On ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

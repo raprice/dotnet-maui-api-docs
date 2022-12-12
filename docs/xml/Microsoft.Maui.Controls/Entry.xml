@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Entry extends Microsoft.Maui.Controls.InputView implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.Entry&gt;, class Microsoft.Maui.Controls.IEntryController, class Microsoft.Maui.Controls.Internals.IFontElement, class Microsoft.Maui.IElement, class Microsoft.Maui.IEntry, class Microsoft.Maui.IPlaceholder, class Microsoft.Maui.IText, class Microsoft.Maui.ITextAlignment, class Microsoft.Maui.ITextInput, class Microsoft.Maui.ITextStyle, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Entry" />
   <TypeSignature Language="VB.NET" Value="Public Class Entry&#xA;Inherits InputView&#xA;Implements IElementConfiguration(Of Entry), IEntry, IEntryController, IFontElement" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Entry : Microsoft::Maui::Controls::InputView, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Entry ^&gt;, Microsoft::Maui::Controls::IEntryController, Microsoft::Maui::Controls::Internals::IFontElement, Microsoft::Maui::IEntry" />
   <TypeSignature Language="F#" Value="type Entry = class&#xA;    inherit InputView&#xA;    interface IFontElement&#xA;    interface IEntryController&#xA;    interface IElementConfiguration&lt;Entry&gt;&#xA;    interface IEntry&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface ITextInput&#xA;    interface IText&#xA;    interface ITextStyle&#xA;    interface IPlaceholder&#xA;    interface ITextAlignment" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Entry : Microsoft::Maui::Controls::InputView, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Entry ^&gt;, Microsoft::Maui::Controls::IEntryController, Microsoft::Maui::Controls::Internals::IFontElement, Microsoft::Maui::IEntry" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -107,8 +107,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CharacterSpacingProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.CharacterSpacingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CharacterSpacingProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CharacterSpacingProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CharacterSpacingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.CharacterSpacingProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CharacterSpacingProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -128,8 +128,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.ClearButtonVisibility ClearButtonVisibility" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.ClearButtonVisibility" />
       <MemberSignature Language="VB.NET" Value="Public Property ClearButtonVisibility As ClearButtonVisibility" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ClearButtonVisibility ClearButtonVisibility { Microsoft::Maui::ClearButtonVisibility get(); void set(Microsoft::Maui::ClearButtonVisibility value); };" />
       <MemberSignature Language="F#" Value="member this.ClearButtonVisibility : Microsoft.Maui.ClearButtonVisibility with get, set" Usage="Microsoft.Maui.Controls.Entry.ClearButtonVisibility" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ClearButtonVisibility ClearButtonVisibility { Microsoft::Maui::ClearButtonVisibility get(); void set(Microsoft::Maui::ClearButtonVisibility value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -151,8 +151,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ClearButtonVisibilityProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.ClearButtonVisibilityProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ClearButtonVisibilityProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ClearButtonVisibilityProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ClearButtonVisibilityProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.ClearButtonVisibilityProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ClearButtonVisibilityProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -173,8 +173,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Completed" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Entry.Completed" />
       <MemberSignature Language="VB.NET" Value="Public Event Completed As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Completed;" />
       <MemberSignature Language="F#" Value="member this.Completed : EventHandler " Usage="member this.Completed : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Completed;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -195,8 +195,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IEntry, class Microsoft.Maui.Handlers.EntryHandler&gt; ControlsEntryMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.ControlsEntryMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ControlsEntryMapper As IPropertyMapper(Of IEntry, EntryHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IEntry ^, Microsoft::Maui::Handlers::EntryHandler ^&gt; ^ ControlsEntryMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlsEntryMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IEntry, Microsoft.Maui.Handlers.EntryHandler&gt;" Usage="Microsoft.Maui.Controls.Entry.ControlsEntryMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IEntry ^, Microsoft::Maui::Handlers::EntryHandler ^&gt; ^ ControlsEntryMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -215,8 +215,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance int32 CursorPosition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.CursorPosition" />
       <MemberSignature Language="VB.NET" Value="Public Property CursorPosition As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CursorPosition { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.CursorPosition : int with get, set" Usage="Microsoft.Maui.Controls.Entry.CursorPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CursorPosition { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITextInput.CursorPosition</InterfaceMember>
@@ -242,8 +242,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CursorPositionProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.CursorPositionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CursorPositionProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CursorPositionProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CursorPositionProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.CursorPositionProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CursorPositionProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -264,8 +264,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.FontAttributes FontAttributes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.FontAttributes" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAttributes As FontAttributes" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); void set(Microsoft::Maui::Controls::FontAttributes value); };" />
       <MemberSignature Language="F#" Value="member this.FontAttributes : Microsoft.Maui.Controls.FontAttributes with get, set" Usage="Microsoft.Maui.Controls.Entry.FontAttributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); void set(Microsoft::Maui::Controls::FontAttributes value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -288,8 +288,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAttributesProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.FontAttributesProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAttributesProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAttributesProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontAttributesProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.FontAttributesProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAttributesProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -310,8 +310,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance bool FontAutoScalingEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.FontAutoScalingEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAutoScalingEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.FontAutoScalingEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.Entry.FontAutoScalingEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -334,8 +334,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAutoScalingEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.FontAutoScalingEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAutoScalingEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAutoScalingEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontAutoScalingEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.FontAutoScalingEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAutoScalingEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -356,8 +356,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance string FontFamily" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.FontFamily" />
       <MemberSignature Language="VB.NET" Value="Public Property FontFamily As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FontFamily : string with get, set" Usage="Microsoft.Maui.Controls.Entry.FontFamily" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -379,8 +379,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontFamilyProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.FontFamilyProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontFamilyProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontFamilyProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontFamilyProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.FontFamilyProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontFamilyProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -401,8 +401,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance float64 FontSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.FontSize" />
       <MemberSignature Language="VB.NET" Value="Public Property FontSize As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.FontSize : double with get, set" Usage="Microsoft.Maui.Controls.Entry.FontSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -430,8 +430,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontSizeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.FontSizeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontSizeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontSizeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontSizeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.FontSizeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontSizeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -452,8 +452,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextAlignment HorizontalTextAlignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.HorizontalTextAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalTextAlignment As TextAlignment" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment HorizontalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberSignature Language="F#" Value="member this.HorizontalTextAlignment : Microsoft.Maui.TextAlignment with get, set" Usage="Microsoft.Maui.Controls.Entry.HorizontalTextAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment HorizontalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -475,8 +475,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HorizontalTextAlignmentProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.HorizontalTextAlignmentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HorizontalTextAlignmentProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HorizontalTextAlignmentProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HorizontalTextAlignmentProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.HorizontalTextAlignmentProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HorizontalTextAlignmentProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -497,8 +497,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPassword" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.IsPassword" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPassword As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPassword { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsPassword : bool with get, set" Usage="Microsoft.Maui.Controls.Entry.IsPassword" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPassword { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -523,8 +523,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsPasswordProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.IsPasswordProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsPasswordProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsPasswordProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsPasswordProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.IsPasswordProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsPasswordProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -545,8 +545,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance bool IsTextPredictionEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.IsTextPredictionEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsTextPredictionEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTextPredictionEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsTextPredictionEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.Entry.IsTextPredictionEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTextPredictionEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -569,8 +569,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsTextPredictionEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.IsTextPredictionEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsTextPredictionEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsTextPredictionEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsTextPredictionEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.IsTextPredictionEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsTextPredictionEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -591,8 +591,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty KeyboardProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.KeyboardProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly KeyboardProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ KeyboardProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable KeyboardProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.KeyboardProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ KeyboardProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -612,8 +612,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapText(class Microsoft.Maui.Handlers.EntryHandler handler, class Microsoft.Maui.Controls.Entry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Entry.MapText(Microsoft.Maui.Handlers.EntryHandler,Microsoft.Maui.Controls.Entry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapText (handler As EntryHandler, entry As Entry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::EntryHandler ^ handler, Microsoft::Maui::Controls::Entry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapText : Microsoft.Maui.Handlers.EntryHandler * Microsoft.Maui.Controls.Entry -&gt; unit" Usage="Microsoft.Maui.Controls.Entry.MapText (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::EntryHandler ^ handler, Microsoft::Maui::Controls::Entry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -638,8 +638,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapText(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.Controls.Entry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Entry.MapText(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.Controls.Entry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapText (handler As IEntryHandler, entry As Entry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::Controls::Entry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapText : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.Controls.Entry -&gt; unit" Usage="Microsoft.Maui.Controls.Entry.MapText (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::Controls::Entry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -664,8 +664,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance float64 Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Entry.Microsoft#Maui#Controls#Internals#IFontElement#FontSizeDefaultValueCreator" />
       <MemberSignature Language="VB.NET" Value="Function FontSizeDefaultValueCreator () As Double Implements IFontElement.FontSizeDefaultValueCreator" />
-      <MemberSignature Language="C++ CLI" Value=" virtual double Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() = Microsoft::Maui::Controls::Internals::IFontElement::FontSizeDefaultValueCreator;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double" Usage="entry.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator " />
+      <MemberSignature Language="C++ CLI" Value=" virtual double Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() = Microsoft::Maui::Controls::Internals::IFontElement::FontSizeDefaultValueCreator;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator</InterfaceMember>
@@ -689,8 +689,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(valuetype Microsoft.Maui.Controls.FontAttributes oldValue, valuetype Microsoft.Maui.Controls.FontAttributes newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Entry.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAttributesChanged (oldValue As FontAttributes, newValue As FontAttributes) Implements IFontElement.OnFontAttributesChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAttributesChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit" Usage="entry.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAttributesChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)</InterfaceMember>
@@ -718,8 +718,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Entry.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAutoScalingEnabledChanged (oldValue As Boolean, newValue As Boolean) Implements IFontElement.OnFontAutoScalingEnabledChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAutoScalingEnabledChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit" Usage="entry.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAutoScalingEnabledChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)</InterfaceMember>
@@ -747,8 +747,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(string oldValue, string newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Entry.Microsoft#Maui#Controls#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontFamilyChanged (oldValue As String, newValue As String) Implements IFontElement.OnFontFamilyChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontFamilyChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit" Usage="entry.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontFamilyChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System.String,System.String)</InterfaceMember>
@@ -776,8 +776,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(float64 oldValue, float64 newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Entry.Microsoft#Maui#Controls#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontSizeChanged (oldValue As Double, newValue As Double) Implements IFontElement.OnFontSizeChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(double oldValue, double newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontSizeChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit" Usage="entry.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(double oldValue, double newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontSizeChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(System.Double,System.Double)</InterfaceMember>
@@ -805,8 +805,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IEntry.Completed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Entry.Microsoft#Maui#IEntry#Completed" />
       <MemberSignature Language="VB.NET" Value="Sub Completed () Implements IEntry.Completed" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IEntry.Completed() = Microsoft::Maui::IEntry::Completed;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IEntry.Completed : unit -&gt; unit&#xA;override this.Microsoft.Maui.IEntry.Completed : unit -&gt; unit" Usage="entry.Microsoft.Maui.IEntry.Completed " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IEntry.Completed() = Microsoft::Maui::IEntry::Completed;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IEntry.Completed</InterfaceMember>
@@ -829,8 +829,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Font Microsoft.Maui.ITextStyle.Font" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.Microsoft#Maui#ITextStyle#Font" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Font As Font Implements ITextStyle.Font" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Font Microsoft::Maui::ITextStyle::Font { Microsoft::Maui::Font get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ITextStyle.Font : Microsoft.Maui.Font" Usage="Microsoft.Maui.ITextStyle.Font" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Font Microsoft::Maui::ITextStyle::Font { Microsoft::Maui::Font get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITextStyle.Font</InterfaceMember>
@@ -853,8 +853,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.Entry&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Entry.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Entry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Entry ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Entry (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Entry (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="entry.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Entry ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -887,8 +887,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PlaceholderColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.PlaceholderColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PlaceholderColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PlaceholderColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PlaceholderColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.PlaceholderColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PlaceholderColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -908,8 +908,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PlaceholderProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.PlaceholderProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PlaceholderProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PlaceholderProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PlaceholderProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.PlaceholderProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PlaceholderProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -929,8 +929,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand ReturnCommand" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.ReturnCommand" />
       <MemberSignature Language="VB.NET" Value="Public Property ReturnCommand As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ ReturnCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ReturnCommand : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.Entry.ReturnCommand" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ ReturnCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -953,8 +953,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance object ReturnCommandParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.ReturnCommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property ReturnCommandParameter As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ReturnCommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ReturnCommandParameter : obj with get, set" Usage="Microsoft.Maui.Controls.Entry.ReturnCommandParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ReturnCommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -977,8 +977,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ReturnCommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.ReturnCommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ReturnCommandParameterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ReturnCommandParameterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ReturnCommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.ReturnCommandParameterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ReturnCommandParameterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -999,8 +999,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ReturnCommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.ReturnCommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ReturnCommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ReturnCommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ReturnCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.ReturnCommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ReturnCommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1021,8 +1021,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.ReturnType ReturnType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.ReturnType" />
       <MemberSignature Language="VB.NET" Value="Public Property ReturnType As ReturnType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ReturnType ReturnType { Microsoft::Maui::ReturnType get(); void set(Microsoft::Maui::ReturnType value); };" />
       <MemberSignature Language="F#" Value="member this.ReturnType : Microsoft.Maui.ReturnType with get, set" Usage="Microsoft.Maui.Controls.Entry.ReturnType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::ReturnType ReturnType { Microsoft::Maui::ReturnType get(); void set(Microsoft::Maui::ReturnType value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1044,8 +1044,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ReturnTypeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.ReturnTypeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ReturnTypeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ReturnTypeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ReturnTypeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.ReturnTypeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ReturnTypeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1066,8 +1066,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance int32 SelectionLength" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.SelectionLength" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectionLength As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectionLength { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.SelectionLength : int with get, set" Usage="Microsoft.Maui.Controls.Entry.SelectionLength" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectionLength { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITextInput.SelectionLength</InterfaceMember>
@@ -1093,8 +1093,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectionLengthProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.SelectionLengthProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectionLengthProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionLengthProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectionLengthProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.SelectionLengthProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectionLengthProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1115,8 +1115,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendCompleted() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Entry.SendCompleted" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendCompleted ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendCompleted();" />
       <MemberSignature Language="F#" Value="abstract member SendCompleted : unit -&gt; unit&#xA;override this.SendCompleted : unit -&gt; unit" Usage="entry.SendCompleted " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendCompleted();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IEntryController.SendCompleted</InterfaceMember>
@@ -1148,8 +1148,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.TextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TextColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.TextColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1169,8 +1169,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.TextProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TextProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.TextProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1190,8 +1190,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextAlignment VerticalTextAlignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Entry.VerticalTextAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalTextAlignment As TextAlignment" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment VerticalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberSignature Language="F#" Value="member this.VerticalTextAlignment : Microsoft.Maui.TextAlignment with get, set" Usage="Microsoft.Maui.Controls.Entry.VerticalTextAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextAlignment VerticalTextAlignment { Microsoft::Maui::TextAlignment get(); void set(Microsoft::Maui::TextAlignment value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1213,8 +1213,8 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty VerticalTextAlignmentProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Entry.VerticalTextAlignmentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly VerticalTextAlignmentProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VerticalTextAlignmentProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable VerticalTextAlignmentProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Entry.VerticalTextAlignmentProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VerticalTextAlignmentProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ColumnDefinitionCollection extends Microsoft.Maui.Controls.DefinitionCollection`1&lt;class Microsoft.Maui.Controls.ColumnDefinition&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ColumnDefinitionCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ColumnDefinitionCollection&#xA;Inherits DefinitionCollection(Of ColumnDefinition)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ColumnDefinitionCollection sealed : Microsoft::Maui::Controls::DefinitionCollection&lt;Microsoft::Maui::Controls::ColumnDefinition ^&gt;" />
   <TypeSignature Language="F#" Value="type ColumnDefinitionCollection = class&#xA;    inherit DefinitionCollection&lt;ColumnDefinition&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ColumnDefinitionCollection sealed : Microsoft::Maui::Controls::DefinitionCollection&lt;Microsoft::Maui::Controls::ColumnDefinition ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Controls.ColumnDefinition[] definitions) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ColumnDefinitionCollection.#ctor(Microsoft.Maui.Controls.ColumnDefinition[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (ParamArray definitions As ColumnDefinition())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ColumnDefinitionCollection(... cli::array &lt;Microsoft::Maui::Controls::ColumnDefinition ^&gt; ^ definitions);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.ColumnDefinitionCollection : Microsoft.Maui.Controls.ColumnDefinition[] -&gt; Microsoft.Maui.Controls.ColumnDefinitionCollection" Usage="new Microsoft.Maui.Controls.ColumnDefinitionCollection definitions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ColumnDefinitionCollection(... cli::array &lt;Microsoft::Maui::Controls::ColumnDefinition ^&gt; ^ definitions);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

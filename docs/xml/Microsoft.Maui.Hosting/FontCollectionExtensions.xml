@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FontCollectionExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Hosting.FontCollectionExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module FontCollectionExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FontCollectionExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type FontCollectionExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FontCollectionExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HingeAngleChangedEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Foldable.HingeAngleChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class HingeAngleChangedEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class HingeAngleChangedEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type HingeAngleChangedEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class HingeAngleChangedEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -26,8 +26,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 hingeAngleInDegrees) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Foldable.HingeAngleChangedEventArgs.#ctor(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (hingeAngleInDegrees As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; HingeAngleChangedEventArgs(double hingeAngleInDegrees);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Foldable.HingeAngleChangedEventArgs : double -&gt; Microsoft.Maui.Foldable.HingeAngleChangedEventArgs" Usage="new Microsoft.Maui.Foldable.HingeAngleChangedEventArgs hingeAngleInDegrees" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; HingeAngleChangedEventArgs(double hingeAngleInDegrees);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 HingeAngleInDegrees" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Foldable.HingeAngleChangedEventArgs.HingeAngleInDegrees" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HingeAngleInDegrees As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HingeAngleInDegrees { double get(); };" />
       <MemberSignature Language="F#" Value="member this.HingeAngleInDegrees : double" Usage="Microsoft.Maui.Foldable.HingeAngleChangedEventArgs.HingeAngleInDegrees" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HingeAngleInDegrees { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>

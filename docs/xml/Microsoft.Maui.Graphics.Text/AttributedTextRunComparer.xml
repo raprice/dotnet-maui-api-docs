@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AttributedTextRunComparer extends System.Object implements class System.Collections.Generic.IComparer`1&lt;class Microsoft.Maui.Graphics.Text.IAttributedTextRun&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.Text.AttributedTextRunComparer" />
   <TypeSignature Language="VB.NET" Value="Public Class AttributedTextRunComparer&#xA;Implements IComparer(Of IAttributedTextRun)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AttributedTextRunComparer : System::Collections::Generic::IComparer&lt;Microsoft::Maui::Graphics::Text::IAttributedTextRun ^&gt;" />
   <TypeSignature Language="F#" Value="type AttributedTextRunComparer = class&#xA;    interface IComparer&lt;IAttributedTextRun&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AttributedTextRunComparer : System::Collections::Generic::IComparer&lt;Microsoft::Maui::Graphics::Text::IAttributedTextRun ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Compare(class Microsoft.Maui.Graphics.Text.IAttributedTextRun first, class Microsoft.Maui.Graphics.Text.IAttributedTextRun second) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.AttributedTextRunComparer.Compare(Microsoft.Maui.Graphics.Text.IAttributedTextRun,Microsoft.Maui.Graphics.Text.IAttributedTextRun)" />
       <MemberSignature Language="VB.NET" Value="Public Function Compare (first As IAttributedTextRun, second As IAttributedTextRun) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int Compare(Microsoft::Maui::Graphics::Text::IAttributedTextRun ^ first, Microsoft::Maui::Graphics::Text::IAttributedTextRun ^ second);" />
       <MemberSignature Language="F#" Value="abstract member Compare : Microsoft.Maui.Graphics.Text.IAttributedTextRun * Microsoft.Maui.Graphics.Text.IAttributedTextRun -&gt; int&#xA;override this.Compare : Microsoft.Maui.Graphics.Text.IAttributedTextRun * Microsoft.Maui.Graphics.Text.IAttributedTextRun -&gt; int" Usage="attributedTextRunComparer.Compare (first, second)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int Compare(Microsoft::Maui::Graphics::Text::IAttributedTextRun ^ first, Microsoft::Maui::Graphics::Text::IAttributedTextRun ^ second);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.Generic.IComparer`1.Compare(`0,`0)</InterfaceMember>
@@ -74,8 +74,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Graphics.Text.AttributedTextRunComparer Instance" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.Text.AttributedTextRunComparer.Instance" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Instance As AttributedTextRunComparer " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Graphics::Text::AttributedTextRunComparer ^ Instance;" />
       <MemberSignature Language="F#" Value=" staticval mutable Instance : Microsoft.Maui.Graphics.Text.AttributedTextRunComparer" Usage="Microsoft.Maui.Graphics.Text.AttributedTextRunComparer.Instance" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Graphics::Text::AttributedTextRunComparer ^ Instance;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

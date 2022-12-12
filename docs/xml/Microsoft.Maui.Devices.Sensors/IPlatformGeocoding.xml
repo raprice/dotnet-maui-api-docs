@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPlatformGeocoding implements class Microsoft.Maui.Devices.Sensors.IGeocoding" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.Sensors.IPlatformGeocoding" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPlatformGeocoding&#xA;Implements IGeocoding" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IPlatformGeocoding : Microsoft::Maui::Devices::Sensors::IGeocoding" />
   <TypeSignature Language="F#" Value="type IPlatformGeocoding = interface&#xA;    interface IGeocoding" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPlatformGeocoding : Microsoft::Maui::Devices::Sensors::IGeocoding" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

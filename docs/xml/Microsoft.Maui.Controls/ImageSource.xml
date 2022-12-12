@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ImageSource extends Microsoft.Maui.Controls.Element implements class Microsoft.Maui.IImageSource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ImageSource" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ImageSource&#xA;Inherits Element&#xA;Implements IImageSource" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ImageSource abstract : Microsoft::Maui::Controls::Element, Microsoft::Maui::IImageSource" />
   <TypeSignature Language="F#" Value="type ImageSource = class&#xA;    inherit Element&#xA;    interface IImageSource" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImageSource abstract : Microsoft::Maui::Controls::Element, Microsoft::Maui::IImageSource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; Cancel() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ImageSource.Cancel" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Cancel () As Task(Of Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task&lt;bool&gt; ^ Cancel();" />
       <MemberSignature Language="F#" Value="abstract member Cancel : unit -&gt; System.Threading.Tasks.Task&lt;bool&gt;&#xA;override this.Cancel : unit -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="imageSource.Cancel " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Threading::Tasks::Task&lt;bool&gt; ^ Cancel();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -72,8 +72,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.ImageSource FromFile(string file) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ImageSource.FromFile(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromFile (file As String) As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::ImageSource ^ FromFile(System::String ^ file);" />
       <MemberSignature Language="F#" Value="static member FromFile : string -&gt; Microsoft.Maui.Controls.ImageSource" Usage="Microsoft.Maui.Controls.ImageSource.FromFile file" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::ImageSource ^ FromFile(System::String ^ file);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -123,8 +123,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.ImageSource FromResource(string resource, class System.Type resolvingType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ImageSource.FromResource(System.String,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromResource (resource As String, resolvingType As Type) As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::ImageSource ^ FromResource(System::String ^ resource, Type ^ resolvingType);" />
       <MemberSignature Language="F#" Value="static member FromResource : string * Type -&gt; Microsoft.Maui.Controls.ImageSource" Usage="Microsoft.Maui.Controls.ImageSource.FromResource (resource, resolvingType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::ImageSource ^ FromResource(System::String ^ resource, Type ^ resolvingType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -150,8 +150,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.ImageSource FromStream(class System.Func`1&lt;class System.IO.Stream&gt; stream) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ImageSource.FromStream(System.Func{System.IO.Stream})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromStream (stream As Func(Of Stream)) As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::ImageSource ^ FromStream(Func&lt;System::IO::Stream ^&gt; ^ stream);" />
       <MemberSignature Language="F#" Value="static member FromStream : Func&lt;System.IO.Stream&gt; -&gt; Microsoft.Maui.Controls.ImageSource" Usage="Microsoft.Maui.Controls.ImageSource.FromStream stream" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::ImageSource ^ FromStream(Func&lt;System::IO::Stream ^&gt; ^ stream);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -175,8 +175,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.ImageSource FromStream(class System.Func`2&lt;valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt;&gt; stream) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ImageSource.FromStream(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{System.IO.Stream}})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromStream (stream As Func(Of CancellationToken, Task(Of Stream))) As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::ImageSource ^ FromStream(Func&lt;System::Threading::CancellationToken, System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^&gt; ^ stream);" />
       <MemberSignature Language="F#" Value="static member FromStream : Func&lt;System.Threading.CancellationToken, System.Threading.Tasks.Task&lt;System.IO.Stream&gt;&gt; -&gt; Microsoft.Maui.Controls.ImageSource" Usage="Microsoft.Maui.Controls.ImageSource.FromStream stream" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::ImageSource ^ FromStream(Func&lt;System::Threading::CancellationToken, System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^&gt; ^ stream);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -200,8 +200,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.ImageSource FromUri(class System.Uri uri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ImageSource.FromUri(System.Uri)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromUri (uri As Uri) As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::ImageSource ^ FromUri(Uri ^ uri);" />
       <MemberSignature Language="F#" Value="static member FromUri : Uri -&gt; Microsoft.Maui.Controls.ImageSource" Usage="Microsoft.Maui.Controls.ImageSource.FromUri uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::ImageSource ^ FromUri(Uri ^ uri);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -225,8 +225,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEmpty" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ImageSource.IsEmpty" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IsEmpty As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsEmpty { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsEmpty : bool" Usage="Microsoft.Maui.Controls.ImageSource.IsEmpty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsEmpty { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IImageSource.IsEmpty</InterfaceMember>
@@ -249,8 +249,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsNullOrEmpty(class Microsoft.Maui.Controls.ImageSource imageSource) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ImageSource.IsNullOrEmpty(Microsoft.Maui.Controls.ImageSource)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsNullOrEmpty (imageSource As ImageSource) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNullOrEmpty(Microsoft::Maui::Controls::ImageSource ^ imageSource);" />
       <MemberSignature Language="F#" Value="static member IsNullOrEmpty : Microsoft.Maui.Controls.ImageSource -&gt; bool" Usage="Microsoft.Maui.Controls.ImageSource.IsNullOrEmpty imageSource" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNullOrEmpty(Microsoft::Maui::Controls::ImageSource ^ imageSource);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -274,8 +274,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void OnSourceChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ImageSource.OnSourceChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Sub OnSourceChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void OnSourceChanged();" />
       <MemberSignature Language="F#" Value="member this.OnSourceChanged : unit -&gt; unit" Usage="imageSource.OnSourceChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void OnSourceChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -295,8 +295,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Maui.Controls.ImageSource op_Implicit(string source) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ImageSource.op_Implicit(System.String)~Microsoft.Maui.Controls.ImageSource" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (source As String) As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::ImageSource ^(System::String ^ source);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Microsoft.Maui.Controls.ImageSource" Usage="Microsoft.Maui.Controls.ImageSource.op_Implicit source" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::ImageSource ^(System::String ^ source);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -320,8 +320,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Maui.Controls.ImageSource op_Implicit(class System.Uri uri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ImageSource.op_Implicit(System.Uri)~Microsoft.Maui.Controls.ImageSource" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uri As Uri) As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::ImageSource ^(Uri ^ uri);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : Uri -&gt; Microsoft.Maui.Controls.ImageSource" Usage="Microsoft.Maui.Controls.ImageSource.op_Implicit uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::ImageSource ^(Uri ^ uri);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

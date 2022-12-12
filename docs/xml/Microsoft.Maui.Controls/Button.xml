@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Button extends Microsoft.Maui.Controls.View implements class Microsoft.Maui.Controls.IBorderElement, class Microsoft.Maui.Controls.IButtonController, class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.Button&gt;, class Microsoft.Maui.Controls.IElementController, class Microsoft.Maui.Controls.IImageController, class Microsoft.Maui.Controls.IImageElement, class Microsoft.Maui.Controls.Internals.IFontElement, class Microsoft.Maui.Controls.IPaddingElement, class Microsoft.Maui.Controls.IViewController, class Microsoft.Maui.Controls.IVisualElementController, class Microsoft.Maui.IButton, class Microsoft.Maui.IButtonStroke, class Microsoft.Maui.IElement, class Microsoft.Maui.IImage, class Microsoft.Maui.IImageButton, class Microsoft.Maui.IImageSourcePart, class Microsoft.Maui.IPadding, class Microsoft.Maui.IText, class Microsoft.Maui.ITextButton, class Microsoft.Maui.ITextStyle, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Button" />
   <TypeSignature Language="VB.NET" Value="Public Class Button&#xA;Inherits View&#xA;Implements IBorderElement, IButtonController, IElementConfiguration(Of Button), IFontElement, IImageButton, IImageController, IImageElement, IPaddingElement, ITextButton" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Button : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IBorderElement, Microsoft::Maui::Controls::IButtonController, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Button ^&gt;, Microsoft::Maui::Controls::IImageController, Microsoft::Maui::Controls::IImageElement, Microsoft::Maui::Controls::Internals::IFontElement, Microsoft::Maui::Controls::IPaddingElement, Microsoft::Maui::IImageButton, Microsoft::Maui::ITextButton" />
   <TypeSignature Language="F#" Value="type Button = class&#xA;    inherit View&#xA;    interface IFontElement&#xA;    interface IBorderElement&#xA;    interface IButtonController&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController&#xA;    interface IElementConfiguration&lt;Button&gt;&#xA;    interface IPaddingElement&#xA;    interface IImageController&#xA;    interface IImageElement&#xA;    interface IButton&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IPadding&#xA;    interface IButtonStroke&#xA;    interface ITextButton&#xA;    interface IText&#xA;    interface ITextStyle&#xA;    interface IImageButton&#xA;    interface IImage&#xA;    interface IImageSourcePart" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Button : Microsoft::Maui::Controls::View, Microsoft::Maui::Controls::IBorderElement, Microsoft::Maui::Controls::IButtonController, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::Button ^&gt;, Microsoft::Maui::Controls::IImageController, Microsoft::Maui::Controls::IImageElement, Microsoft::Maui::Controls::Internals::IFontElement, Microsoft::Maui::Controls::IPaddingElement, Microsoft::Maui::IImageButton, Microsoft::Maui::ITextButton" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -182,8 +182,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color BorderColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.BorderColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BorderColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ BorderColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BorderColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.Button.BorderColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ BorderColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -205,8 +205,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BorderColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.BorderColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BorderColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BorderColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BorderColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.BorderColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BorderColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -227,8 +227,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance float64 BorderWidth" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.BorderWidth" />
       <MemberSignature Language="VB.NET" Value="Public Property BorderWidth As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double BorderWidth { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.BorderWidth : double with get, set" Usage="Microsoft.Maui.Controls.Button.BorderWidth" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double BorderWidth { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -250,8 +250,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BorderWidthProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.BorderWidthProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BorderWidthProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BorderWidthProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BorderWidthProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.BorderWidthProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BorderWidthProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -272,8 +272,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig virtual instance void ChangeVisualState() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.ChangeVisualState" />
       <MemberSignature Language="VB.NET" Value="Protected Friend Overrides Sub ChangeVisualState ()" />
-      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; override void ChangeVisualState();" />
       <MemberSignature Language="F#" Value="override this.ChangeVisualState : unit -&gt; unit" Usage="button.ChangeVisualState " />
+      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; override void ChangeVisualState();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -293,8 +293,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance float64 CharacterSpacing" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.CharacterSpacing" />
       <MemberSignature Language="VB.NET" Value="Public Property CharacterSpacing As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double CharacterSpacing { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.CharacterSpacing : double with get, set" Usage="Microsoft.Maui.Controls.Button.CharacterSpacing" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double CharacterSpacing { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -317,8 +317,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CharacterSpacingProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.CharacterSpacingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CharacterSpacingProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CharacterSpacingProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CharacterSpacingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.CharacterSpacingProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CharacterSpacingProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -339,8 +339,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Clicked" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Button.Clicked" />
       <MemberSignature Language="VB.NET" Value="Public Event Clicked As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Clicked;" />
       <MemberSignature Language="F#" Value="member this.Clicked : EventHandler " Usage="member this.Clicked : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Clicked;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -361,8 +361,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand Command" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Command" />
       <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ Command { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.Button.Command" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ Command { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -384,8 +384,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance object CommandParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.CommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property CommandParameter As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="Microsoft.Maui.Controls.Button.CommandParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -408,8 +408,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.CommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandParameterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CommandParameterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.CommandParameterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CommandParameterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -430,8 +430,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.CommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.CommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -452,8 +452,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Button/ButtonContentLayout ContentLayout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.ContentLayout" />
       <MemberSignature Language="VB.NET" Value="Public Property ContentLayout As Button.ButtonContentLayout" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Button::ButtonContentLayout ^ ContentLayout { Microsoft::Maui::Controls::Button::ButtonContentLayout ^ get(); void set(Microsoft::Maui::Controls::Button::ButtonContentLayout ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ContentLayout : Microsoft.Maui.Controls.Button.ButtonContentLayout with get, set" Usage="Microsoft.Maui.Controls.Button.ContentLayout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Button::ButtonContentLayout ^ ContentLayout { Microsoft::Maui::Controls::Button::ButtonContentLayout ^ get(); void set(Microsoft::Maui::Controls::Button::ButtonContentLayout ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -476,8 +476,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ContentLayoutProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.ContentLayoutProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContentLayoutProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ContentLayoutProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ContentLayoutProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.ContentLayoutProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ContentLayoutProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -498,8 +498,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IButton, class Microsoft.Maui.Handlers.ButtonHandler&gt; ControlsButtonMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.ControlsButtonMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ControlsButtonMapper As IPropertyMapper(Of IButton, ButtonHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IButton ^, Microsoft::Maui::Handlers::ButtonHandler ^&gt; ^ ControlsButtonMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlsButtonMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IButton, Microsoft.Maui.Handlers.ButtonHandler&gt;" Usage="Microsoft.Maui.Controls.Button.ControlsButtonMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IButton ^, Microsoft::Maui::Handlers::ButtonHandler ^&gt; ^ ControlsButtonMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -520,8 +520,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance int32 CornerRadius" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.CornerRadius" />
       <MemberSignature Language="VB.NET" Value="Public Property CornerRadius As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CornerRadius { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.CornerRadius : int with get, set" Usage="Microsoft.Maui.Controls.Button.CornerRadius" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CornerRadius { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -543,8 +543,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CornerRadiusProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.CornerRadiusProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CornerRadiusProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CornerRadiusProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CornerRadiusProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.CornerRadiusProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CornerRadiusProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -565,8 +565,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.FontAttributes FontAttributes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.FontAttributes" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAttributes As FontAttributes" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); void set(Microsoft::Maui::Controls::FontAttributes value); };" />
       <MemberSignature Language="F#" Value="member this.FontAttributes : Microsoft.Maui.Controls.FontAttributes with get, set" Usage="Microsoft.Maui.Controls.Button.FontAttributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FontAttributes FontAttributes { Microsoft::Maui::Controls::FontAttributes get(); void set(Microsoft::Maui::Controls::FontAttributes value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -589,8 +589,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAttributesProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.FontAttributesProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAttributesProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAttributesProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontAttributesProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.FontAttributesProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAttributesProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -611,8 +611,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance bool FontAutoScalingEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.FontAutoScalingEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAutoScalingEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.FontAutoScalingEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.Button.FontAutoScalingEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FontAutoScalingEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -635,8 +635,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontAutoScalingEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.FontAutoScalingEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAutoScalingEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAutoScalingEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontAutoScalingEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.FontAutoScalingEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontAutoScalingEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -657,8 +657,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance string FontFamily" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.FontFamily" />
       <MemberSignature Language="VB.NET" Value="Public Property FontFamily As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FontFamily : string with get, set" Usage="Microsoft.Maui.Controls.Button.FontFamily" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FontFamily { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -680,8 +680,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontFamilyProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.FontFamilyProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontFamilyProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontFamilyProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontFamilyProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.FontFamilyProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontFamilyProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -702,8 +702,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance float64 FontSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.FontSize" />
       <MemberSignature Language="VB.NET" Value="Public Property FontSize As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.FontSize : double with get, set" Usage="Microsoft.Maui.Controls.Button.FontSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FontSize { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -731,8 +731,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FontSizeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.FontSizeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontSizeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontSizeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FontSizeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.FontSizeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FontSizeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -753,8 +753,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource ImageSource" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.ImageSource" />
       <MemberSignature Language="VB.NET" Value="Public Property ImageSource As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ ImageSource { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ImageSource : Microsoft.Maui.Controls.ImageSource with get, set" Usage="Microsoft.Maui.Controls.Button.ImageSource" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ImageSource ^ ImageSource { Microsoft::Maui::Controls::ImageSource ^ get(); void set(Microsoft::Maui::Controls::ImageSource ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -776,8 +776,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ImageSourceProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.ImageSourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImageSourceProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ImageSourceProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ImageSourceProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.ImageSourceProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ImageSourceProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -798,8 +798,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPressed" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.IsPressed" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsPressed As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPressed { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsPressed : bool" Usage="Microsoft.Maui.Controls.Button.IsPressed" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPressed { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -821,8 +821,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsPressedProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.IsPressedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsPressedProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsPressedProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsPressedProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.IsPressedProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsPressedProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -843,8 +843,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.LineBreakMode LineBreakMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.LineBreakMode" />
       <MemberSignature Language="VB.NET" Value="Public Property LineBreakMode As LineBreakMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::LineBreakMode LineBreakMode { Microsoft::Maui::LineBreakMode get(); void set(Microsoft::Maui::LineBreakMode value); };" />
       <MemberSignature Language="F#" Value="member this.LineBreakMode : Microsoft.Maui.LineBreakMode with get, set" Usage="Microsoft.Maui.Controls.Button.LineBreakMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::LineBreakMode LineBreakMode { Microsoft::Maui::LineBreakMode get(); void set(Microsoft::Maui::LineBreakMode value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -867,8 +867,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty LineBreakModeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.LineBreakModeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LineBreakModeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ LineBreakModeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable LineBreakModeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.LineBreakModeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ LineBreakModeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -889,8 +889,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapContentLayout(class Microsoft.Maui.Handlers.ButtonHandler handler, class Microsoft.Maui.Controls.Button button) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.MapContentLayout(Microsoft.Maui.Handlers.ButtonHandler,Microsoft.Maui.Controls.Button)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapContentLayout (handler As ButtonHandler, button As Button)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContentLayout(Microsoft::Maui::Handlers::ButtonHandler ^ handler, Microsoft::Maui::Controls::Button ^ button);" />
       <MemberSignature Language="F#" Value="static member MapContentLayout : Microsoft.Maui.Handlers.ButtonHandler * Microsoft.Maui.Controls.Button -&gt; unit" Usage="Microsoft.Maui.Controls.Button.MapContentLayout (handler, button)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContentLayout(Microsoft::Maui::Handlers::ButtonHandler ^ handler, Microsoft::Maui::Controls::Button ^ button);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -917,8 +917,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapContentLayout(class Microsoft.Maui.Handlers.IButtonHandler handler, class Microsoft.Maui.Controls.Button button) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.MapContentLayout(Microsoft.Maui.Handlers.IButtonHandler,Microsoft.Maui.Controls.Button)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapContentLayout (handler As IButtonHandler, button As Button)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContentLayout(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::Controls::Button ^ button);" />
       <MemberSignature Language="F#" Value="static member MapContentLayout : Microsoft.Maui.Handlers.IButtonHandler * Microsoft.Maui.Controls.Button -&gt; unit" Usage="Microsoft.Maui.Controls.Button.MapContentLayout (handler, button)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContentLayout(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::Controls::Button ^ button);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -945,8 +945,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapLineBreakMode(class Microsoft.Maui.Handlers.ButtonHandler handler, class Microsoft.Maui.Controls.Button button) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.MapLineBreakMode(Microsoft.Maui.Handlers.ButtonHandler,Microsoft.Maui.Controls.Button)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapLineBreakMode (handler As ButtonHandler, button As Button)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapLineBreakMode(Microsoft::Maui::Handlers::ButtonHandler ^ handler, Microsoft::Maui::Controls::Button ^ button);" />
       <MemberSignature Language="F#" Value="static member MapLineBreakMode : Microsoft.Maui.Handlers.ButtonHandler * Microsoft.Maui.Controls.Button -&gt; unit" Usage="Microsoft.Maui.Controls.Button.MapLineBreakMode (handler, button)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapLineBreakMode(Microsoft::Maui::Handlers::ButtonHandler ^ handler, Microsoft::Maui::Controls::Button ^ button);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -973,8 +973,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapLineBreakMode(class Microsoft.Maui.Handlers.IButtonHandler handler, class Microsoft.Maui.Controls.Button button) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.MapLineBreakMode(Microsoft.Maui.Handlers.IButtonHandler,Microsoft.Maui.Controls.Button)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapLineBreakMode (handler As IButtonHandler, button As Button)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapLineBreakMode(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::Controls::Button ^ button);" />
       <MemberSignature Language="F#" Value="static member MapLineBreakMode : Microsoft.Maui.Handlers.IButtonHandler * Microsoft.Maui.Controls.Button -&gt; unit" Usage="Microsoft.Maui.Controls.Button.MapLineBreakMode (handler, button)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapLineBreakMode(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::Controls::Button ^ button);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -999,8 +999,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapText(class Microsoft.Maui.Handlers.ButtonHandler handler, class Microsoft.Maui.Controls.Button button) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.MapText(Microsoft.Maui.Handlers.ButtonHandler,Microsoft.Maui.Controls.Button)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapText (handler As ButtonHandler, button As Button)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::ButtonHandler ^ handler, Microsoft::Maui::Controls::Button ^ button);" />
       <MemberSignature Language="F#" Value="static member MapText : Microsoft.Maui.Handlers.ButtonHandler * Microsoft.Maui.Controls.Button -&gt; unit" Usage="Microsoft.Maui.Controls.Button.MapText (handler, button)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::ButtonHandler ^ handler, Microsoft::Maui::Controls::Button ^ button);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1027,8 +1027,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapText(class Microsoft.Maui.Handlers.IButtonHandler handler, class Microsoft.Maui.Controls.Button button) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.MapText(Microsoft.Maui.Handlers.IButtonHandler,Microsoft.Maui.Controls.Button)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapText (handler As IButtonHandler, button As Button)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::Controls::Button ^ button);" />
       <MemberSignature Language="F#" Value="static member MapText : Microsoft.Maui.Handlers.IButtonHandler * Microsoft.Maui.Controls.Button -&gt; unit" Usage="Microsoft.Maui.Controls.Button.MapText (handler, button)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::IButtonHandler ^ handler, Microsoft::Maui::Controls::Button ^ button);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1053,8 +1053,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IBorderElement#BorderColorDefaultValue" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property BorderColorDefaultValue As Color Implements IBorderElement.BorderColorDefaultValue" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Color ^ Microsoft::Maui::Controls::IBorderElement::BorderColorDefaultValue { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Color ^ Microsoft::Maui::Controls::IBorderElement::BorderColorDefaultValue { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.BorderColorDefaultValue</InterfaceMember>
@@ -1077,8 +1077,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance float64 Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IBorderElement#BorderWidthDefaultValue" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property BorderWidthDefaultValue As Double Implements IBorderElement.BorderWidthDefaultValue" />
-      <MemberSignature Language="C++ CLI" Value="property double Microsoft::Maui::Controls::IBorderElement::BorderWidthDefaultValue { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue : double" Usage="Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue" />
+      <MemberSignature Language="C++ CLI" Value="property double Microsoft::Maui::Controls::IBorderElement::BorderWidthDefaultValue { double get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.BorderWidthDefaultValue</InterfaceMember>
@@ -1101,8 +1101,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance int32 Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IBorderElement#CornerRadiusDefaultValue" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property CornerRadiusDefaultValue As Integer Implements IBorderElement.CornerRadiusDefaultValue" />
-      <MemberSignature Language="C++ CLI" Value="property int Microsoft::Maui::Controls::IBorderElement::CornerRadiusDefaultValue { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue : int" Usage="Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue" />
+      <MemberSignature Language="C++ CLI" Value="property int Microsoft::Maui::Controls::IBorderElement::CornerRadiusDefaultValue { int get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.CornerRadiusDefaultValue</InterfaceMember>
@@ -1125,8 +1125,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IBorderElement#IsBackgroundColorSet" />
       <MemberSignature Language="VB.NET" Value="Function IsBackgroundColorSet () As Boolean Implements IBorderElement.IsBackgroundColorSet" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet() = Microsoft::Maui::Controls::IBorderElement::IsBackgroundColorSet;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet : unit -&gt; bool" Usage="button.Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet " />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet() = Microsoft::Maui::Controls::IBorderElement::IsBackgroundColorSet;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsBackgroundColorSet</InterfaceMember>
@@ -1150,8 +1150,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IBorderElement#IsBackgroundSet" />
       <MemberSignature Language="VB.NET" Value="Function IsBackgroundSet () As Boolean Implements IBorderElement.IsBackgroundSet" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet() = Microsoft::Maui::Controls::IBorderElement::IsBackgroundSet;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet : unit -&gt; bool" Usage="button.Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet " />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet() = Microsoft::Maui::Controls::IBorderElement::IsBackgroundSet;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsBackgroundSet</InterfaceMember>
@@ -1175,8 +1175,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IBorderElement#IsBorderColorSet" />
       <MemberSignature Language="VB.NET" Value="Function IsBorderColorSet () As Boolean Implements IBorderElement.IsBorderColorSet" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet() = Microsoft::Maui::Controls::IBorderElement::IsBorderColorSet;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet : unit -&gt; bool" Usage="button.Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet " />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet() = Microsoft::Maui::Controls::IBorderElement::IsBorderColorSet;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsBorderColorSet</InterfaceMember>
@@ -1200,8 +1200,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IBorderElement#IsBorderWidthSet" />
       <MemberSignature Language="VB.NET" Value="Function IsBorderWidthSet () As Boolean Implements IBorderElement.IsBorderWidthSet" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet() = Microsoft::Maui::Controls::IBorderElement::IsBorderWidthSet;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet : unit -&gt; bool" Usage="button.Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet " />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet() = Microsoft::Maui::Controls::IBorderElement::IsBorderWidthSet;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsBorderWidthSet</InterfaceMember>
@@ -1225,8 +1225,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IBorderElement#IsCornerRadiusSet" />
       <MemberSignature Language="VB.NET" Value="Function IsCornerRadiusSet () As Boolean Implements IBorderElement.IsCornerRadiusSet" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet() = Microsoft::Maui::Controls::IBorderElement::IsCornerRadiusSet;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet : unit -&gt; bool" Usage="button.Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet " />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet() = Microsoft::Maui::Controls::IBorderElement::IsCornerRadiusSet;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.IsCornerRadiusSet</InterfaceMember>
@@ -1250,8 +1250,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged(class Microsoft.Maui.Graphics.Color oldValue, class Microsoft.Maui.Graphics.Color newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IBorderElement#OnBorderColorPropertyChanged(Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color)" />
       <MemberSignature Language="VB.NET" Value="Sub OnBorderColorPropertyChanged (oldValue As Color, newValue As Color) Implements IBorderElement.OnBorderColorPropertyChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged(Microsoft::Maui::Graphics::Color ^ oldValue, Microsoft::Maui::Graphics::Color ^ newValue) = Microsoft::Maui::Controls::IBorderElement::OnBorderColorPropertyChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged : Microsoft.Maui.Graphics.Color * Microsoft.Maui.Graphics.Color -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged : Microsoft.Maui.Graphics.Color * Microsoft.Maui.Graphics.Color -&gt; unit" Usage="button.Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged(Microsoft::Maui::Graphics::Color ^ oldValue, Microsoft::Maui::Graphics::Color ^ newValue) = Microsoft::Maui::Controls::IBorderElement::OnBorderColorPropertyChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IBorderElement.OnBorderColorPropertyChanged(Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color)</InterfaceMember>
@@ -1279,8 +1279,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IImageController#GetLoadAsAnimation" />
       <MemberSignature Language="VB.NET" Value="Function GetLoadAsAnimation () As Boolean Implements IImageController.GetLoadAsAnimation" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation() = Microsoft::Maui::Controls::IImageController::GetLoadAsAnimation;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation : unit -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation : unit -&gt; bool" Usage="button.Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation " />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation() = Microsoft::Maui::Controls::IImageController::GetLoadAsAnimation;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IImageController.GetLoadAsAnimation</InterfaceMember>
@@ -1304,8 +1304,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IImageController.SetIsLoading(bool isLoading) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IImageController#SetIsLoading(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Sub SetIsLoading (isLoading As Boolean) Implements IImageController.SetIsLoading" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IImageController.SetIsLoading(bool isLoading) = Microsoft::Maui::Controls::IImageController::SetIsLoading;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IImageController.SetIsLoading : bool -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IImageController.SetIsLoading : bool -&gt; unit" Usage="button.Microsoft.Maui.Controls.IImageController.SetIsLoading isLoading" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IImageController.SetIsLoading(bool isLoading) = Microsoft::Maui::Controls::IImageController::SetIsLoading;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IImageController.SetIsLoading(System.Boolean)</InterfaceMember>
@@ -1331,8 +1331,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Aspect Microsoft.Maui.Controls.IImageElement.Aspect" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IImageElement#Aspect" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Aspect As Aspect Implements IImageElement.Aspect" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Aspect Microsoft::Maui::Controls::IImageElement::Aspect { Microsoft::Maui::Aspect get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IImageElement.Aspect : Microsoft.Maui.Aspect" Usage="Microsoft.Maui.Controls.IImageElement.Aspect" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Aspect Microsoft::Maui::Controls::IImageElement::Aspect { Microsoft::Maui::Aspect get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.Aspect</InterfaceMember>
@@ -1355,8 +1355,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.Controls.IImageElement.IsAnimationPlaying" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IImageElement#IsAnimationPlaying" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsAnimationPlaying As Boolean Implements IImageElement.IsAnimationPlaying" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IImageElement::IsAnimationPlaying { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IImageElement.IsAnimationPlaying : bool" Usage="Microsoft.Maui.Controls.IImageElement.IsAnimationPlaying" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IImageElement::IsAnimationPlaying { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.IsAnimationPlaying</InterfaceMember>
@@ -1379,8 +1379,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.Controls.IImageElement.IsLoading" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IImageElement#IsLoading" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsLoading As Boolean Implements IImageElement.IsLoading" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IImageElement::IsLoading { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IImageElement.IsLoading : bool" Usage="Microsoft.Maui.Controls.IImageElement.IsLoading" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IImageElement::IsLoading { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.IsLoading</InterfaceMember>
@@ -1403,8 +1403,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.Controls.IImageElement.IsOpaque" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IImageElement#IsOpaque" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsOpaque As Boolean Implements IImageElement.IsOpaque" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IImageElement::IsOpaque { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IImageElement.IsOpaque : bool" Usage="Microsoft.Maui.Controls.IImageElement.IsOpaque" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::Controls::IImageElement::IsOpaque { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.IsOpaque</InterfaceMember>
@@ -1427,8 +1427,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged(object sender, class System.EventArgs e) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IImageElement#OnImageSourceSourceChanged(System.Object,System.EventArgs)" />
       <MemberSignature Language="VB.NET" Value="Sub OnImageSourceSourceChanged (sender As Object, e As EventArgs) Implements IImageElement.OnImageSourceSourceChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged(System::Object ^ sender, EventArgs ^ e) = Microsoft::Maui::Controls::IImageElement::OnImageSourceSourceChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged : obj * EventArgs -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged : obj * EventArgs -&gt; unit" Usage="button.Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged (sender, e)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged(System::Object ^ sender, EventArgs ^ e) = Microsoft::Maui::Controls::IImageElement::OnImageSourceSourceChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IImageElement.OnImageSourceSourceChanged(System.Object,System.EventArgs)</InterfaceMember>
@@ -1456,8 +1456,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IImageElement#RaiseImageSourcePropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Sub RaiseImageSourcePropertyChanged () Implements IImageElement.RaiseImageSourcePropertyChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged() = Microsoft::Maui::Controls::IImageElement::RaiseImageSourcePropertyChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged : unit -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged : unit -&gt; unit" Usage="button.Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged() = Microsoft::Maui::Controls::IImageElement::RaiseImageSourcePropertyChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IImageElement.RaiseImageSourcePropertyChanged</InterfaceMember>
@@ -1480,8 +1480,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ImageSource Microsoft.Maui.Controls.IImageElement.Source" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IImageElement#Source" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Source As ImageSource Implements IImageElement.Source" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Controls::ImageSource ^ Microsoft::Maui::Controls::IImageElement::Source { Microsoft::Maui::Controls::ImageSource ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IImageElement.Source : Microsoft.Maui.Controls.ImageSource" Usage="Microsoft.Maui.Controls.IImageElement.Source" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Controls::ImageSource ^ Microsoft::Maui::Controls::IImageElement::Source { Microsoft::Maui::Controls::ImageSource ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.Source</InterfaceMember>
@@ -1504,8 +1504,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance float64 Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#Internals#IFontElement#FontSizeDefaultValueCreator" />
       <MemberSignature Language="VB.NET" Value="Function FontSizeDefaultValueCreator () As Double Implements IFontElement.FontSizeDefaultValueCreator" />
-      <MemberSignature Language="C++ CLI" Value=" virtual double Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() = Microsoft::Maui::Controls::Internals::IFontElement::FontSizeDefaultValueCreator;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator : unit -&gt; double" Usage="button.Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator " />
+      <MemberSignature Language="C++ CLI" Value=" virtual double Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator() = Microsoft::Maui::Controls::Internals::IFontElement::FontSizeDefaultValueCreator;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.FontSizeDefaultValueCreator</InterfaceMember>
@@ -1529,8 +1529,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(valuetype Microsoft.Maui.Controls.FontAttributes oldValue, valuetype Microsoft.Maui.Controls.FontAttributes newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAttributesChanged (oldValue As FontAttributes, newValue As FontAttributes) Implements IFontElement.OnFontAttributesChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAttributesChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged : Microsoft.Maui.Controls.FontAttributes * Microsoft.Maui.Controls.FontAttributes -&gt; unit" Usage="button.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft::Maui::Controls::FontAttributes oldValue, Microsoft::Maui::Controls::FontAttributes newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAttributesChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAttributesChanged(Microsoft.Maui.Controls.FontAttributes,Microsoft.Maui.Controls.FontAttributes)</InterfaceMember>
@@ -1558,8 +1558,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#Internals#IFontElement#OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAutoScalingEnabledChanged (oldValue As Boolean, newValue As Boolean) Implements IFontElement.OnFontAutoScalingEnabledChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAutoScalingEnabledChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged : bool * bool -&gt; unit" Usage="button.Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(bool oldValue, bool newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontAutoScalingEnabledChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontAutoScalingEnabledChanged(System.Boolean,System.Boolean)</InterfaceMember>
@@ -1587,8 +1587,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(string oldValue, string newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontFamilyChanged (oldValue As String, newValue As String) Implements IFontElement.OnFontFamilyChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontFamilyChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged : string * string -&gt; unit" Usage="button.Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System::String ^ oldValue, System::String ^ newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontFamilyChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontFamilyChanged(System.String,System.String)</InterfaceMember>
@@ -1616,8 +1616,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(float64 oldValue, float64 newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontSizeChanged (oldValue As Double, newValue As Double) Implements IFontElement.OnFontSizeChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(double oldValue, double newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontSizeChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged : double * double -&gt; unit" Usage="button.Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(double oldValue, double newValue) = Microsoft::Maui::Controls::Internals::IFontElement::OnFontSizeChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IFontElement.OnFontSizeChanged(System.Double,System.Double)</InterfaceMember>
@@ -1645,8 +1645,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IPaddingElement.OnPaddingPropertyChanged(valuetype Microsoft.Maui.Thickness oldValue, valuetype Microsoft.Maui.Thickness newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IPaddingElement#OnPaddingPropertyChanged(Microsoft.Maui.Thickness,Microsoft.Maui.Thickness)" />
       <MemberSignature Language="VB.NET" Value="Sub OnPaddingPropertyChanged (oldValue As Thickness, newValue As Thickness) Implements IPaddingElement.OnPaddingPropertyChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IPaddingElement.OnPaddingPropertyChanged(Microsoft::Maui::Thickness oldValue, Microsoft::Maui::Thickness newValue) = Microsoft::Maui::Controls::IPaddingElement::OnPaddingPropertyChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IPaddingElement.OnPaddingPropertyChanged : Microsoft.Maui.Thickness * Microsoft.Maui.Thickness -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IPaddingElement.OnPaddingPropertyChanged : Microsoft.Maui.Thickness * Microsoft.Maui.Thickness -&gt; unit" Usage="button.Microsoft.Maui.Controls.IPaddingElement.OnPaddingPropertyChanged (oldValue, newValue)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IPaddingElement.OnPaddingPropertyChanged(Microsoft::Maui::Thickness oldValue, Microsoft::Maui::Thickness newValue) = Microsoft::Maui::Controls::IPaddingElement::OnPaddingPropertyChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IPaddingElement.OnPaddingPropertyChanged(Microsoft.Maui.Thickness,Microsoft.Maui.Thickness)</InterfaceMember>
@@ -1674,8 +1674,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance valuetype Microsoft.Maui.Thickness Microsoft.Maui.Controls.IPaddingElement.PaddingDefaultValueCreator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#Controls#IPaddingElement#PaddingDefaultValueCreator" />
       <MemberSignature Language="VB.NET" Value="Function PaddingDefaultValueCreator () As Thickness Implements IPaddingElement.PaddingDefaultValueCreator" />
-      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Thickness Microsoft.Maui.Controls.IPaddingElement.PaddingDefaultValueCreator() = Microsoft::Maui::Controls::IPaddingElement::PaddingDefaultValueCreator;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IPaddingElement.PaddingDefaultValueCreator : unit -&gt; Microsoft.Maui.Thickness&#xA;override this.Microsoft.Maui.Controls.IPaddingElement.PaddingDefaultValueCreator : unit -&gt; Microsoft.Maui.Thickness" Usage="button.Microsoft.Maui.Controls.IPaddingElement.PaddingDefaultValueCreator " />
+      <MemberSignature Language="C++ CLI" Value=" virtual Microsoft::Maui::Thickness Microsoft.Maui.Controls.IPaddingElement.PaddingDefaultValueCreator() = Microsoft::Maui::Controls::IPaddingElement::PaddingDefaultValueCreator;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IPaddingElement.PaddingDefaultValueCreator</InterfaceMember>
@@ -1699,8 +1699,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IButton.Clicked() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#IButton#Clicked" />
       <MemberSignature Language="VB.NET" Value="Sub Clicked () Implements IButton.Clicked" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IButton.Clicked() = Microsoft::Maui::IButton::Clicked;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IButton.Clicked : unit -&gt; unit&#xA;override this.Microsoft.Maui.IButton.Clicked : unit -&gt; unit" Usage="button.Microsoft.Maui.IButton.Clicked " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IButton.Clicked() = Microsoft::Maui::IButton::Clicked;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IButton.Clicked</InterfaceMember>
@@ -1723,8 +1723,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IButton.Pressed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#IButton#Pressed" />
       <MemberSignature Language="VB.NET" Value="Sub Pressed () Implements IButton.Pressed" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IButton.Pressed() = Microsoft::Maui::IButton::Pressed;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IButton.Pressed : unit -&gt; unit&#xA;override this.Microsoft.Maui.IButton.Pressed : unit -&gt; unit" Usage="button.Microsoft.Maui.IButton.Pressed " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IButton.Pressed() = Microsoft::Maui::IButton::Pressed;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IButton.Pressed</InterfaceMember>
@@ -1747,8 +1747,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IButton.Released() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#IButton#Released" />
       <MemberSignature Language="VB.NET" Value="Sub Released () Implements IButton.Released" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IButton.Released() = Microsoft::Maui::IButton::Released;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IButton.Released : unit -&gt; unit&#xA;override this.Microsoft.Maui.IButton.Released : unit -&gt; unit" Usage="button.Microsoft.Maui.IButton.Released " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IButton.Released() = Microsoft::Maui::IButton::Released;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IButton.Released</InterfaceMember>
@@ -1771,8 +1771,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance int32 Microsoft.Maui.IButtonStroke.CornerRadius" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#IButtonStroke#CornerRadius" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property CornerRadius As Integer Implements IButtonStroke.CornerRadius" />
-      <MemberSignature Language="C++ CLI" Value="property int Microsoft::Maui::IButtonStroke::CornerRadius { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IButtonStroke.CornerRadius : int" Usage="Microsoft.Maui.IButtonStroke.CornerRadius" />
+      <MemberSignature Language="C++ CLI" Value="property int Microsoft::Maui::IButtonStroke::CornerRadius { int get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IBorderElement.CornerRadius</InterfaceMember>
@@ -1795,8 +1795,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color Microsoft.Maui.IButtonStroke.StrokeColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#IButtonStroke#StrokeColor" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property StrokeColor As Color Implements IButtonStroke.StrokeColor" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Color ^ Microsoft::Maui::IButtonStroke::StrokeColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IButtonStroke.StrokeColor : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.IButtonStroke.StrokeColor" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Graphics::Color ^ Microsoft::Maui::IButtonStroke::StrokeColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IButtonStroke.StrokeColor</InterfaceMember>
@@ -1819,8 +1819,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance float64 Microsoft.Maui.IButtonStroke.StrokeThickness" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#IButtonStroke#StrokeThickness" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property StrokeThickness As Double Implements IButtonStroke.StrokeThickness" />
-      <MemberSignature Language="C++ CLI" Value="property double Microsoft::Maui::IButtonStroke::StrokeThickness { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IButtonStroke.StrokeThickness : double" Usage="Microsoft.Maui.IButtonStroke.StrokeThickness" />
+      <MemberSignature Language="C++ CLI" Value="property double Microsoft::Maui::IButtonStroke::StrokeThickness { double get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IButtonStroke.StrokeThickness</InterfaceMember>
@@ -1843,8 +1843,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Aspect Microsoft.Maui.IImage.Aspect" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#IImage#Aspect" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Aspect As Aspect Implements IImage.Aspect" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Aspect Microsoft::Maui::IImage::Aspect { Microsoft::Maui::Aspect get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IImage.Aspect : Microsoft.Maui.Aspect" Usage="Microsoft.Maui.IImage.Aspect" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Aspect Microsoft::Maui::IImage::Aspect { Microsoft::Maui::Aspect get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.Aspect</InterfaceMember>
@@ -1867,8 +1867,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.IImage.IsOpaque" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#IImage#IsOpaque" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsOpaque As Boolean Implements IImage.IsOpaque" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::IImage::IsOpaque { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IImage.IsOpaque : bool" Usage="Microsoft.Maui.IImage.IsOpaque" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::IImage::IsOpaque { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.IsOpaque</InterfaceMember>
@@ -1891,8 +1891,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Maui.IImageSourcePart.IsAnimationPlaying" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#IImageSourcePart#IsAnimationPlaying" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsAnimationPlaying As Boolean Implements IImageSourcePart.IsAnimationPlaying" />
-      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::IImageSourcePart::IsAnimationPlaying { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IImageSourcePart.IsAnimationPlaying : bool" Usage="Microsoft.Maui.IImageSourcePart.IsAnimationPlaying" />
+      <MemberSignature Language="C++ CLI" Value="property bool Microsoft::Maui::IImageSourcePart::IsAnimationPlaying { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IImageElement.IsAnimationPlaying</InterfaceMember>
@@ -1915,8 +1915,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IImageSource Microsoft.Maui.IImageSourcePart.Source" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#IImageSourcePart#Source" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Source As IImageSource Implements IImageSourcePart.Source" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IImageSource ^ Microsoft::Maui::IImageSourcePart::Source { Microsoft::Maui::IImageSource ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IImageSourcePart.Source : Microsoft.Maui.IImageSource" Usage="Microsoft.Maui.IImageSourcePart.Source" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IImageSource ^ Microsoft::Maui::IImageSourcePart::Source { Microsoft::Maui::IImageSource ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IImageSourcePart.Source</InterfaceMember>
@@ -1939,8 +1939,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IImageSourcePart.UpdateIsLoading(bool isLoading) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.Microsoft#Maui#IImageSourcePart#UpdateIsLoading(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Sub UpdateIsLoading (isLoading As Boolean) Implements IImageSourcePart.UpdateIsLoading" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IImageSourcePart.UpdateIsLoading(bool isLoading) = Microsoft::Maui::IImageSourcePart::UpdateIsLoading;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IImageSourcePart.UpdateIsLoading : bool -&gt; unit&#xA;override this.Microsoft.Maui.IImageSourcePart.UpdateIsLoading : bool -&gt; unit" Usage="button.Microsoft.Maui.IImageSourcePart.UpdateIsLoading isLoading" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IImageSourcePart.UpdateIsLoading(bool isLoading) = Microsoft::Maui::IImageSourcePart::UpdateIsLoading;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IImageSourcePart.UpdateIsLoading(System.Boolean)</InterfaceMember>
@@ -1966,8 +1966,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Font Microsoft.Maui.ITextStyle.Font" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Microsoft#Maui#ITextStyle#Font" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Font As Font Implements ITextStyle.Font" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Font Microsoft::Maui::ITextStyle::Font { Microsoft::Maui::Font get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.ITextStyle.Font : Microsoft.Maui.Font" Usage="Microsoft.Maui.ITextStyle.Font" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Font Microsoft::Maui::ITextStyle::Font { Microsoft::Maui::Font get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.ITextStyle.Font</InterfaceMember>
@@ -1990,8 +1990,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.Button&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Button)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Button ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Button (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&#xA;override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.Button (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="button.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::Button ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -2024,8 +2024,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="button.OnBindingContextChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2075,8 +2075,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Thickness Padding" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Padding" />
       <MemberSignature Language="VB.NET" Value="Public Property Padding As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Thickness Padding { Microsoft::Maui::Thickness get(); void set(Microsoft::Maui::Thickness value); };" />
       <MemberSignature Language="F#" Value="member this.Padding : Microsoft.Maui.Thickness with get, set" Usage="Microsoft.Maui.Controls.Button.Padding" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Thickness Padding { Microsoft::Maui::Thickness get(); void set(Microsoft::Maui::Thickness value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2098,8 +2098,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PaddingProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.PaddingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PaddingProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PaddingProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PaddingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.PaddingProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PaddingProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2120,8 +2120,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Pressed" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Button.Pressed" />
       <MemberSignature Language="VB.NET" Value="Public Event Pressed As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Pressed;" />
       <MemberSignature Language="F#" Value="member this.Pressed : EventHandler " Usage="member this.Pressed : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Pressed;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2142,8 +2142,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Released" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.Button.Released" />
       <MemberSignature Language="VB.NET" Value="Public Event Released As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Released;" />
       <MemberSignature Language="F#" Value="member this.Released : EventHandler " Usage="member this.Released : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Released;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2164,8 +2164,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendClicked() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.SendClicked" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendClicked ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendClicked();" />
       <MemberSignature Language="F#" Value="abstract member SendClicked : unit -&gt; unit&#xA;override this.SendClicked : unit -&gt; unit" Usage="button.SendClicked " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendClicked();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IButtonController.SendClicked</InterfaceMember>
@@ -2197,8 +2197,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPressed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.SendPressed" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPressed ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendPressed();" />
       <MemberSignature Language="F#" Value="abstract member SendPressed : unit -&gt; unit&#xA;override this.SendPressed : unit -&gt; unit" Usage="button.SendPressed " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendPressed();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IButtonController.SendPressed</InterfaceMember>
@@ -2230,8 +2230,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendReleased() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.SendReleased" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendReleased ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendReleased();" />
       <MemberSignature Language="F#" Value="abstract member SendReleased : unit -&gt; unit&#xA;override this.SendReleased : unit -&gt; unit" Usage="button.SendReleased " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SendReleased();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IButtonController.SendReleased</InterfaceMember>
@@ -2263,8 +2263,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance string Text" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.Text" />
       <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Microsoft.Maui.Controls.Button.Text" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2287,8 +2287,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color TextColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.TextColor" />
       <MemberSignature Language="VB.NET" Value="Public Property TextColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TextColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.TextColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.Button.TextColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TextColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2310,8 +2310,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.TextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TextColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.TextColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2332,8 +2332,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.TextProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TextProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.TextProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2354,8 +2354,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.TextTransform TextTransform" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.TextTransform" />
       <MemberSignature Language="VB.NET" Value="Public Property TextTransform As TextTransform" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextTransform TextTransform { Microsoft::Maui::TextTransform get(); void set(Microsoft::Maui::TextTransform value); };" />
       <MemberSignature Language="F#" Value="member this.TextTransform : Microsoft.Maui.TextTransform with get, set" Usage="Microsoft.Maui.Controls.Button.TextTransform" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::TextTransform TextTransform { Microsoft::Maui::TextTransform get(); void set(Microsoft::Maui::TextTransform value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2378,8 +2378,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TextTransformProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Button.TextTransformProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextTransformProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextTransformProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TextTransformProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Button.TextTransformProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TextTransformProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -2400,8 +2400,8 @@ void IncrementLabel()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string UpdateFormsText(string source, valuetype Microsoft.Maui.TextTransform textTransform) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.UpdateFormsText(System.String,Microsoft.Maui.TextTransform)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateFormsText (source As String, textTransform As TextTransform) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ UpdateFormsText(System::String ^ source, Microsoft::Maui::TextTransform textTransform);" />
       <MemberSignature Language="F#" Value="abstract member UpdateFormsText : string * Microsoft.Maui.TextTransform -&gt; string&#xA;override this.UpdateFormsText : string * Microsoft.Maui.TextTransform -&gt; string" Usage="button.UpdateFormsText (source, textTransform)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ UpdateFormsText(System::String ^ source, Microsoft::Maui::TextTransform textTransform);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DisplayRotation extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.DisplayRotation" />
   <TypeSignature Language="VB.NET" Value="Public Enum DisplayRotation" />
-  <TypeSignature Language="C++ CLI" Value="public enum class DisplayRotation" />
   <TypeSignature Language="F#" Value="type DisplayRotation = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class DisplayRotation" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.DisplayRotation Rotation0 = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.DisplayRotation.Rotation0" />
       <MemberSignature Language="VB.NET" Value="Rotation0" />
-      <MemberSignature Language="C++ CLI" Value="Rotation0" />
       <MemberSignature Language="F#" Value="Rotation0 = 1" Usage="Microsoft.Maui.Devices.DisplayRotation.Rotation0" />
+      <MemberSignature Language="C++ CLI" Value="Rotation0" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.DisplayRotation Rotation180 = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.DisplayRotation.Rotation180" />
       <MemberSignature Language="VB.NET" Value="Rotation180" />
-      <MemberSignature Language="C++ CLI" Value="Rotation180" />
       <MemberSignature Language="F#" Value="Rotation180 = 3" Usage="Microsoft.Maui.Devices.DisplayRotation.Rotation180" />
+      <MemberSignature Language="C++ CLI" Value="Rotation180" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.DisplayRotation Rotation270 = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.DisplayRotation.Rotation270" />
       <MemberSignature Language="VB.NET" Value="Rotation270" />
-      <MemberSignature Language="C++ CLI" Value="Rotation270" />
       <MemberSignature Language="F#" Value="Rotation270 = 4" Usage="Microsoft.Maui.Devices.DisplayRotation.Rotation270" />
+      <MemberSignature Language="C++ CLI" Value="Rotation270" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.DisplayRotation Rotation90 = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.DisplayRotation.Rotation90" />
       <MemberSignature Language="VB.NET" Value="Rotation90" />
-      <MemberSignature Language="C++ CLI" Value="Rotation90" />
       <MemberSignature Language="F#" Value="Rotation90 = 2" Usage="Microsoft.Maui.Devices.DisplayRotation.Rotation90" />
+      <MemberSignature Language="C++ CLI" Value="Rotation90" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.DisplayRotation Unknown = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.DisplayRotation.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
-      <MemberSignature Language="C++ CLI" Value="Unknown" />
       <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.Maui.Devices.DisplayRotation.Unknown" />
+      <MemberSignature Language="C++ CLI" Value="Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

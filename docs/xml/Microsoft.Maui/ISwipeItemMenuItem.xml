@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISwipeItemMenuItem implements class Microsoft.Maui.IElement, class Microsoft.Maui.IImageSourcePart, class Microsoft.Maui.IMenuElement, class Microsoft.Maui.ISwipeItem, class Microsoft.Maui.IText, class Microsoft.Maui.ITextStyle" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ISwipeItemMenuItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface ISwipeItemMenuItem&#xA;Implements IMenuElement, ISwipeItem" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ISwipeItemMenuItem : Microsoft::Maui::IMenuElement, Microsoft::Maui::ISwipeItem" />
   <TypeSignature Language="F#" Value="type ISwipeItemMenuItem = interface&#xA;    interface IMenuElement&#xA;    interface IElement&#xA;    interface IImageSourcePart&#xA;    interface IText&#xA;    interface ITextStyle&#xA;    interface ISwipeItem" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ISwipeItemMenuItem : Microsoft::Maui::IMenuElement, Microsoft::Maui::ISwipeItem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -39,8 +39,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Paint Background" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ISwipeItemMenuItem.Background" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Background As Paint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Paint ^ Background { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Background : Microsoft.Maui.Graphics.Paint" Usage="Microsoft.Maui.ISwipeItemMenuItem.Background" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Paint ^ Background { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Visibility Visibility" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ISwipeItemMenuItem.Visibility" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Visibility As Visibility" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Visibility Visibility { Microsoft::Maui::Visibility get(); };" />
       <MemberSignature Language="F#" Value="member this.Visibility : Microsoft.Maui.Visibility" Usage="Microsoft.Maui.ISwipeItemMenuItem.Visibility" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Visibility Visibility { Microsoft::Maui::Visibility get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

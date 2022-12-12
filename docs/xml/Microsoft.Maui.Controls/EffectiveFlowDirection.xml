@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EffectiveFlowDirection extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.EffectiveFlowDirection" />
   <TypeSignature Language="VB.NET" Value="Public Enum EffectiveFlowDirection" />
-  <TypeSignature Language="C++ CLI" Value="public enum class EffectiveFlowDirection" />
   <TypeSignature Language="F#" Value="type EffectiveFlowDirection = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class EffectiveFlowDirection" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -30,8 +30,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.EffectiveFlowDirection Explicit = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.EffectiveFlowDirection.Explicit" />
       <MemberSignature Language="VB.NET" Value="Explicit" />
-      <MemberSignature Language="C++ CLI" Value="Explicit" />
       <MemberSignature Language="F#" Value="Explicit = 2" Usage="Microsoft.Maui.Controls.EffectiveFlowDirection.Explicit" />
+      <MemberSignature Language="C++ CLI" Value="Explicit" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.EffectiveFlowDirection RightToLeft = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.EffectiveFlowDirection.RightToLeft" />
       <MemberSignature Language="VB.NET" Value="RightToLeft" />
-      <MemberSignature Language="C++ CLI" Value="RightToLeft" />
       <MemberSignature Language="F#" Value="RightToLeft = 1" Usage="Microsoft.Maui.Controls.EffectiveFlowDirection.RightToLeft" />
+      <MemberSignature Language="C++ CLI" Value="RightToLeft" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

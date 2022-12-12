@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ItemsViewScrolledEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ItemsViewScrolledEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ItemsViewScrolledEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ItemsViewScrolledEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type ItemsViewScrolledEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemsViewScrolledEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 CenterItemIndex" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.CenterItemIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property CenterItemIndex As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CenterItemIndex { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.CenterItemIndex : int with get, set" Usage="Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.CenterItemIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CenterItemIndex { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 FirstVisibleItemIndex" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.FirstVisibleItemIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property FirstVisibleItemIndex As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FirstVisibleItemIndex { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.FirstVisibleItemIndex : int with get, set" Usage="Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.FirstVisibleItemIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FirstVisibleItemIndex { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 HorizontalDelta" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.HorizontalDelta" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalDelta As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HorizontalDelta { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.HorizontalDelta : double with get, set" Usage="Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.HorizontalDelta" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HorizontalDelta { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -103,8 +103,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 HorizontalOffset" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.HorizontalOffset" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalOffset As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HorizontalOffset { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.HorizontalOffset : double with get, set" Usage="Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.HorizontalOffset" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HorizontalOffset { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -124,8 +124,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 LastVisibleItemIndex" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.LastVisibleItemIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property LastVisibleItemIndex As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LastVisibleItemIndex { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.LastVisibleItemIndex : int with get, set" Usage="Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.LastVisibleItemIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LastVisibleItemIndex { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -145,8 +145,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 VerticalDelta" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.VerticalDelta" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalDelta As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double VerticalDelta { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.VerticalDelta : double with get, set" Usage="Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.VerticalDelta" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double VerticalDelta { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -166,8 +166,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 VerticalOffset" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.VerticalOffset" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalOffset As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double VerticalOffset { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.VerticalOffset : double with get, set" Usage="Microsoft.Maui.Controls.ItemsViewScrolledEventArgs.VerticalOffset" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double VerticalOffset { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

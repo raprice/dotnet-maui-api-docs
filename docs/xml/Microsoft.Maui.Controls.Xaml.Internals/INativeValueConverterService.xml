@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract INativeValueConverterService" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.Internals.INativeValueConverterService" />
   <TypeSignature Language="VB.NET" Value="Public Interface INativeValueConverterService" />
-  <TypeSignature Language="C++ CLI" Value="public interface class INativeValueConverterService" />
   <TypeSignature Language="F#" Value="type INativeValueConverterService = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class INativeValueConverterService" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool ConvertTo(object value, class System.Type toType, [out] object&amp; platformValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.Internals.INativeValueConverterService.ConvertTo(System.Object,System.Type,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function ConvertTo (value As Object, toType As Type, ByRef platformValue As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool ConvertTo(System::Object ^ value, Type ^ toType, [Runtime::InteropServices::Out] System::Object ^ % platformValue);" />
       <MemberSignature Language="F#" Value="abstract member ConvertTo : obj * Type * obj -&gt; bool" Usage="iNativeValueConverterService.ConvertTo (value, toType, platformValue)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool ConvertTo(System::Object ^ value, Type ^ toType, [Runtime::InteropServices::Out] System::Object ^ % platformValue);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

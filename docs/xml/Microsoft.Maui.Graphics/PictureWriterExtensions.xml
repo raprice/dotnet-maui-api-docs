@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PictureWriterExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.PictureWriterExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module PictureWriterExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PictureWriterExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type PictureWriterExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PictureWriterExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string SaveAsBase64(class Microsoft.Maui.Graphics.IPictureWriter target, class Microsoft.Maui.Graphics.IPicture picture) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PictureWriterExtensions.SaveAsBase64(Microsoft.Maui.Graphics.IPictureWriter,Microsoft.Maui.Graphics.IPicture)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SaveAsBase64 (target As IPictureWriter, picture As IPicture) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::String ^ SaveAsBase64(Microsoft::Maui::Graphics::IPictureWriter ^ target, Microsoft::Maui::Graphics::IPicture ^ picture);" />
       <MemberSignature Language="F#" Value="static member SaveAsBase64 : Microsoft.Maui.Graphics.IPictureWriter * Microsoft.Maui.Graphics.IPicture -&gt; string" Usage="Microsoft.Maui.Graphics.PictureWriterExtensions.SaveAsBase64 (target, picture)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::String ^ SaveAsBase64(Microsoft::Maui::Graphics::IPictureWriter ^ target, Microsoft::Maui::Graphics::IPicture ^ picture);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] SaveAsBytes(class Microsoft.Maui.Graphics.IPictureWriter target, class Microsoft.Maui.Graphics.IPicture picture) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PictureWriterExtensions.SaveAsBytes(Microsoft.Maui.Graphics.IPictureWriter,Microsoft.Maui.Graphics.IPicture)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SaveAsBytes (target As IPictureWriter, picture As IPicture) As Byte()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static cli::array &lt;System::Byte&gt; ^ SaveAsBytes(Microsoft::Maui::Graphics::IPictureWriter ^ target, Microsoft::Maui::Graphics::IPicture ^ picture);" />
       <MemberSignature Language="F#" Value="static member SaveAsBytes : Microsoft.Maui.Graphics.IPictureWriter * Microsoft.Maui.Graphics.IPicture -&gt; byte[]" Usage="Microsoft.Maui.Graphics.PictureWriterExtensions.SaveAsBytes (target, picture)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static cli::array &lt;System::Byte&gt; ^ SaveAsBytes(Microsoft::Maui::Graphics::IPictureWriter ^ target, Microsoft::Maui::Graphics::IPicture ^ picture);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -77,8 +77,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;unsigned int8[]&gt; SaveAsBytesAsync(class Microsoft.Maui.Graphics.IPictureWriter target, class Microsoft.Maui.Graphics.IPicture picture) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PictureWriterExtensions.SaveAsBytesAsync(Microsoft.Maui.Graphics.IPictureWriter,Microsoft.Maui.Graphics.IPicture)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SaveAsBytesAsync (target As IPictureWriter, picture As IPicture) As Task(Of Byte())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;cli::array &lt;System::Byte&gt; ^&gt; ^ SaveAsBytesAsync(Microsoft::Maui::Graphics::IPictureWriter ^ target, Microsoft::Maui::Graphics::IPicture ^ picture);" />
       <MemberSignature Language="F#" Value="static member SaveAsBytesAsync : Microsoft.Maui.Graphics.IPictureWriter * Microsoft.Maui.Graphics.IPicture -&gt; System.Threading.Tasks.Task&lt;byte[]&gt;" Usage="Microsoft.Maui.Graphics.PictureWriterExtensions.SaveAsBytesAsync (target, picture)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;cli::array &lt;System::Byte&gt; ^&gt; ^ SaveAsBytesAsync(Microsoft::Maui::Graphics::IPictureWriter ^ target, Microsoft::Maui::Graphics::IPicture ^ picture);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -104,8 +104,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.Stream SaveAsStream(class Microsoft.Maui.Graphics.IPictureWriter target, class Microsoft.Maui.Graphics.IPicture picture) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PictureWriterExtensions.SaveAsStream(Microsoft.Maui.Graphics.IPictureWriter,Microsoft.Maui.Graphics.IPicture)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SaveAsStream (target As IPictureWriter, picture As IPicture) As Stream" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::IO::Stream ^ SaveAsStream(Microsoft::Maui::Graphics::IPictureWriter ^ target, Microsoft::Maui::Graphics::IPicture ^ picture);" />
       <MemberSignature Language="F#" Value="static member SaveAsStream : Microsoft.Maui.Graphics.IPictureWriter * Microsoft.Maui.Graphics.IPicture -&gt; System.IO.Stream" Usage="Microsoft.Maui.Graphics.PictureWriterExtensions.SaveAsStream (target, picture)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::IO::Stream ^ SaveAsStream(Microsoft::Maui::Graphics::IPictureWriter ^ target, Microsoft::Maui::Graphics::IPicture ^ picture);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XmlAttributedTextReader extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.Text.XmlAttributedTextReader" />
   <TypeSignature Language="VB.NET" Value="Public Class XmlAttributedTextReader" />
-  <TypeSignature Language="C++ CLI" Value="public ref class XmlAttributedTextReader" />
   <TypeSignature Language="F#" Value="type XmlAttributedTextReader = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class XmlAttributedTextReader" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void ElementEnded() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.XmlAttributedTextReader.ElementEnded" />
       <MemberSignature Language="VB.NET" Value="Protected Sub ElementEnded ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void ElementEnded();" />
       <MemberSignature Language="F#" Value="member this.ElementEnded : unit -&gt; unit" Usage="xmlAttributedTextReader.ElementEnded " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void ElementEnded();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void ElementStarted() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.XmlAttributedTextReader.ElementStarted" />
       <MemberSignature Language="VB.NET" Value="Protected Sub ElementStarted ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void ElementStarted();" />
       <MemberSignature Language="F#" Value="member this.ElementStarted : unit -&gt; unit" Usage="xmlAttributedTextReader.ElementStarted " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void ElementStarted();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.Text.IAttributedText Read(class System.IO.TextReader reader) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.XmlAttributedTextReader.Read(System.IO.TextReader)" />
       <MemberSignature Language="VB.NET" Value="Public Function Read (reader As TextReader) As IAttributedText" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Text::IAttributedText ^ Read(System::IO::TextReader ^ reader);" />
       <MemberSignature Language="F#" Value="member this.Read : System.IO.TextReader -&gt; Microsoft.Maui.Graphics.Text.IAttributedText" Usage="xmlAttributedTextReader.Read reader" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Text::IAttributedText ^ Read(System::IO::TextReader ^ reader);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Maui.Graphics.Text.IAttributedText Read(string text) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.XmlAttributedTextReader.Read(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function Read (text As String) As IAttributedText" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Text::IAttributedText ^ Read(System::String ^ text);" />
       <MemberSignature Language="F#" Value="member this.Read : string -&gt; Microsoft.Maui.Graphics.Text.IAttributedText" Usage="xmlAttributedTextReader.Read text" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Text::IAttributedText ^ Read(System::String ^ text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

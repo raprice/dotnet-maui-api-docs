@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FileImageSourceService extends Microsoft.Maui.ImageSourceService implements class Microsoft.Maui.IImageSourceService, class Microsoft.Maui.IImageSourceService`1&lt;class Microsoft.Maui.IFileImageSource&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.FileImageSourceService" />
   <TypeSignature Language="VB.NET" Value="Public Class FileImageSourceService&#xA;Inherits ImageSourceService&#xA;Implements IImageSourceService(Of IFileImageSource)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FileImageSourceService : Microsoft::Maui::ImageSourceService, Microsoft::Maui::IImageSourceService&lt;Microsoft::Maui::IFileImageSource ^&gt;" />
   <TypeSignature Language="F#" Value="type FileImageSourceService = class&#xA;    inherit ImageSourceService&#xA;    interface IImageSourceService&lt;IFileImageSource&gt;&#xA;    interface IImageSourceService" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FileImageSourceService : Microsoft::Maui::ImageSourceService, Microsoft::Maui::IImageSourceService&lt;Microsoft::Maui::IFileImageSource ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

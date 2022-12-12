@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Routing extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Routing" />
   <TypeSignature Language="VB.NET" Value="Public Class Routing" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Routing abstract sealed" />
   <TypeSignature Language="F#" Value="type Routing = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Routing abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string FormatRoute(class System.Collections.Generic.List`1&lt;string&gt; segments) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Routing.FormatRoute(System.Collections.Generic.List{System.String})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FormatRoute (segments As List(Of String)) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ FormatRoute(System::Collections::Generic::List&lt;System::String ^&gt; ^ segments);" />
       <MemberSignature Language="F#" Value="static member FormatRoute : System.Collections.Generic.List&lt;string&gt; -&gt; string" Usage="Microsoft.Maui.Controls.Routing.FormatRoute segments" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ FormatRoute(System::Collections::Generic::List&lt;System::String ^&gt; ^ segments);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string FormatRoute(string route) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Routing.FormatRoute(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FormatRoute (route As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ FormatRoute(System::String ^ route);" />
       <MemberSignature Language="F#" Value="static member FormatRoute : string -&gt; string" Usage="Microsoft.Maui.Controls.Routing.FormatRoute route" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ FormatRoute(System::String ^ route);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -99,8 +99,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetRoute(class Microsoft.Maui.Controls.BindableObject obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Routing.GetRoute(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetRoute (obj As BindableObject) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetRoute(Microsoft::Maui::Controls::BindableObject ^ obj);" />
       <MemberSignature Language="F#" Value="static member GetRoute : Microsoft.Maui.Controls.BindableObject -&gt; string" Usage="Microsoft.Maui.Controls.Routing.GetRoute obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetRoute(Microsoft::Maui::Controls::BindableObject ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -124,8 +124,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterRoute(string route, class Microsoft.Maui.Controls.RouteFactory factory) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Routing.RegisterRoute(System.String,Microsoft.Maui.Controls.RouteFactory)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub RegisterRoute (route As String, factory As RouteFactory)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterRoute(System::String ^ route, Microsoft::Maui::Controls::RouteFactory ^ factory);" />
       <MemberSignature Language="F#" Value="static member RegisterRoute : string * Microsoft.Maui.Controls.RouteFactory -&gt; unit" Usage="Microsoft.Maui.Controls.Routing.RegisterRoute (route, factory)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterRoute(System::String ^ route, Microsoft::Maui::Controls::RouteFactory ^ factory);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -150,8 +150,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterRoute(string route, class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Routing.RegisterRoute(System.String,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub RegisterRoute (route As String, type As Type)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterRoute(System::String ^ route, Type ^ type);" />
       <MemberSignature Language="F#" Value="static member RegisterRoute : string * Type -&gt; unit" Usage="Microsoft.Maui.Controls.Routing.RegisterRoute (route, type)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterRoute(System::String ^ route, Type ^ type);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -183,8 +183,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty RouteProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Routing.RouteProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RouteProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RouteProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable RouteProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Routing.RouteProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RouteProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -203,8 +203,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetRoute(class Microsoft.Maui.Controls.Element obj, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Routing.SetRoute(Microsoft.Maui.Controls.Element,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetRoute (obj As Element, value As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetRoute(Microsoft::Maui::Controls::Element ^ obj, System::String ^ value);" />
       <MemberSignature Language="F#" Value="static member SetRoute : Microsoft.Maui.Controls.Element * string -&gt; unit" Usage="Microsoft.Maui.Controls.Routing.SetRoute (obj, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetRoute(Microsoft::Maui::Controls::Element ^ obj, System::String ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -229,8 +229,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UnRegisterRoute(string route) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Routing.UnRegisterRoute(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub UnRegisterRoute (route As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void UnRegisterRoute(System::String ^ route);" />
       <MemberSignature Language="F#" Value="static member UnRegisterRoute : string -&gt; unit" Usage="Microsoft.Maui.Controls.Routing.UnRegisterRoute route" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void UnRegisterRoute(System::String ^ route);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

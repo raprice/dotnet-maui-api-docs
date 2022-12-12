@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RadioButtonHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.IRadioButton, object&gt; implements class Microsoft.Maui.Handlers.IRadioButtonHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.RadioButtonHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class RadioButtonHandler&#xA;Inherits ViewHandler(Of IRadioButton, Object)&#xA;Implements IRadioButtonHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class RadioButtonHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IRadioButton ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IRadioButtonHandler" />
   <TypeSignature Language="F#" Value="type RadioButtonHandler = class&#xA;    inherit ViewHandler&lt;IRadioButton, obj&gt;&#xA;    interface IRadioButtonHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RadioButtonHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IRadioButton ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IRadioButtonHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RadioButtonHandler.#ctor(Microsoft.Maui.IPropertyMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; RadioButtonHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.RadioButtonHandler : Microsoft.Maui.IPropertyMapper -&gt; Microsoft.Maui.Handlers.RadioButtonHandler" Usage="new Microsoft.Maui.Handlers.RadioButtonHandler mapper" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RadioButtonHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="C#" Value="public RadioButtonHandler (Microsoft.Maui.IPropertyMapper? mapper);" FrameworkAlternate="net-maui-7.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -76,8 +76,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RadioButtonHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; RadioButtonHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.RadioButtonHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.Handlers.RadioButtonHandler" Usage="new Microsoft.Maui.Handlers.RadioButtonHandler (mapper, commandMapper)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RadioButtonHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -99,8 +99,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IRadioButton, class Microsoft.Maui.Handlers.IRadioButtonHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.RadioButtonHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IRadioButton, IRadioButtonHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IRadioButton ^, Microsoft::Maui::Handlers::IRadioButtonHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IRadioButton, Microsoft.Maui.Handlers.IRadioButtonHandler&gt;" Usage="Microsoft.Maui.Handlers.RadioButtonHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IRadioButton ^, Microsoft::Maui::Handlers::IRadioButtonHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RadioButtonHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="radioButtonHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -141,8 +141,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapBackground(class Microsoft.Maui.Handlers.IRadioButtonHandler handler, class Microsoft.Maui.IRadioButton radioButton) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RadioButtonHandler.MapBackground(Microsoft.Maui.Handlers.IRadioButtonHandler,Microsoft.Maui.IRadioButton)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapBackground (handler As IRadioButtonHandler, radioButton As IRadioButton)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapBackground(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::IRadioButton ^ radioButton);" />
       <MemberSignature Language="F#" Value="static member MapBackground : Microsoft.Maui.Handlers.IRadioButtonHandler * Microsoft.Maui.IRadioButton -&gt; unit" Usage="Microsoft.Maui.Handlers.RadioButtonHandler.MapBackground (handler, radioButton)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapBackground(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::IRadioButton ^ radioButton);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -167,8 +167,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCharacterSpacing(class Microsoft.Maui.Handlers.IRadioButtonHandler handler, class Microsoft.Maui.ITextStyle textStyle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RadioButtonHandler.MapCharacterSpacing(Microsoft.Maui.Handlers.IRadioButtonHandler,Microsoft.Maui.ITextStyle)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCharacterSpacing (handler As IRadioButtonHandler, textStyle As ITextStyle)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCharacterSpacing(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::ITextStyle ^ textStyle);" />
       <MemberSignature Language="F#" Value="static member MapCharacterSpacing : Microsoft.Maui.Handlers.IRadioButtonHandler * Microsoft.Maui.ITextStyle -&gt; unit" Usage="Microsoft.Maui.Handlers.RadioButtonHandler.MapCharacterSpacing (handler, textStyle)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCharacterSpacing(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::ITextStyle ^ textStyle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -193,8 +193,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapContent(class Microsoft.Maui.Handlers.IRadioButtonHandler handler, class Microsoft.Maui.IRadioButton radioButton) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RadioButtonHandler.MapContent(Microsoft.Maui.Handlers.IRadioButtonHandler,Microsoft.Maui.IRadioButton)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapContent (handler As IRadioButtonHandler, radioButton As IRadioButton)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContent(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::IRadioButton ^ radioButton);" />
       <MemberSignature Language="F#" Value="static member MapContent : Microsoft.Maui.Handlers.IRadioButtonHandler * Microsoft.Maui.IRadioButton -&gt; unit" Usage="Microsoft.Maui.Handlers.RadioButtonHandler.MapContent (handler, radioButton)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContent(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::IRadioButton ^ radioButton);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -219,8 +219,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCornerRadius(class Microsoft.Maui.Handlers.IRadioButtonHandler handler, class Microsoft.Maui.IRadioButton radioButton) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RadioButtonHandler.MapCornerRadius(Microsoft.Maui.Handlers.IRadioButtonHandler,Microsoft.Maui.IRadioButton)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCornerRadius (handler As IRadioButtonHandler, radioButton As IRadioButton)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCornerRadius(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::IRadioButton ^ radioButton);" />
       <MemberSignature Language="F#" Value="static member MapCornerRadius : Microsoft.Maui.Handlers.IRadioButtonHandler * Microsoft.Maui.IRadioButton -&gt; unit" Usage="Microsoft.Maui.Handlers.RadioButtonHandler.MapCornerRadius (handler, radioButton)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCornerRadius(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::IRadioButton ^ radioButton);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -245,8 +245,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapFont(class Microsoft.Maui.Handlers.IRadioButtonHandler handler, class Microsoft.Maui.ITextStyle textStyle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RadioButtonHandler.MapFont(Microsoft.Maui.Handlers.IRadioButtonHandler,Microsoft.Maui.ITextStyle)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapFont (handler As IRadioButtonHandler, textStyle As ITextStyle)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFont(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::ITextStyle ^ textStyle);" />
       <MemberSignature Language="F#" Value="static member MapFont : Microsoft.Maui.Handlers.IRadioButtonHandler * Microsoft.Maui.ITextStyle -&gt; unit" Usage="Microsoft.Maui.Handlers.RadioButtonHandler.MapFont (handler, textStyle)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFont(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::ITextStyle ^ textStyle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -271,8 +271,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsChecked(class Microsoft.Maui.Handlers.IRadioButtonHandler handler, class Microsoft.Maui.IRadioButton radioButton) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RadioButtonHandler.MapIsChecked(Microsoft.Maui.Handlers.IRadioButtonHandler,Microsoft.Maui.IRadioButton)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsChecked (handler As IRadioButtonHandler, radioButton As IRadioButton)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsChecked(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::IRadioButton ^ radioButton);" />
       <MemberSignature Language="F#" Value="static member MapIsChecked : Microsoft.Maui.Handlers.IRadioButtonHandler * Microsoft.Maui.IRadioButton -&gt; unit" Usage="Microsoft.Maui.Handlers.RadioButtonHandler.MapIsChecked (handler, radioButton)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsChecked(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::IRadioButton ^ radioButton);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -297,8 +297,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IRadioButton, class Microsoft.Maui.Handlers.IRadioButtonHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.RadioButtonHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IRadioButton, IRadioButtonHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IRadioButton ^, Microsoft::Maui::Handlers::IRadioButtonHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IRadioButton, Microsoft.Maui.Handlers.IRadioButtonHandler&gt;" Usage="Microsoft.Maui.Handlers.RadioButtonHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IRadioButton ^, Microsoft::Maui::Handlers::IRadioButtonHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -317,8 +317,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStrokeColor(class Microsoft.Maui.Handlers.IRadioButtonHandler handler, class Microsoft.Maui.IRadioButton radioButton) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RadioButtonHandler.MapStrokeColor(Microsoft.Maui.Handlers.IRadioButtonHandler,Microsoft.Maui.IRadioButton)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStrokeColor (handler As IRadioButtonHandler, radioButton As IRadioButton)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeColor(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::IRadioButton ^ radioButton);" />
       <MemberSignature Language="F#" Value="static member MapStrokeColor : Microsoft.Maui.Handlers.IRadioButtonHandler * Microsoft.Maui.IRadioButton -&gt; unit" Usage="Microsoft.Maui.Handlers.RadioButtonHandler.MapStrokeColor (handler, radioButton)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeColor(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::IRadioButton ^ radioButton);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -343,8 +343,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStrokeThickness(class Microsoft.Maui.Handlers.IRadioButtonHandler handler, class Microsoft.Maui.IRadioButton radioButton) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RadioButtonHandler.MapStrokeThickness(Microsoft.Maui.Handlers.IRadioButtonHandler,Microsoft.Maui.IRadioButton)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStrokeThickness (handler As IRadioButtonHandler, radioButton As IRadioButton)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeThickness(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::IRadioButton ^ radioButton);" />
       <MemberSignature Language="F#" Value="static member MapStrokeThickness : Microsoft.Maui.Handlers.IRadioButtonHandler * Microsoft.Maui.IRadioButton -&gt; unit" Usage="Microsoft.Maui.Handlers.RadioButtonHandler.MapStrokeThickness (handler, radioButton)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeThickness(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::IRadioButton ^ radioButton);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -369,8 +369,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapTextColor(class Microsoft.Maui.Handlers.IRadioButtonHandler handler, class Microsoft.Maui.ITextStyle textStyle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RadioButtonHandler.MapTextColor(Microsoft.Maui.Handlers.IRadioButtonHandler,Microsoft.Maui.ITextStyle)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapTextColor (handler As IRadioButtonHandler, textStyle As ITextStyle)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextColor(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::ITextStyle ^ textStyle);" />
       <MemberSignature Language="F#" Value="static member MapTextColor : Microsoft.Maui.Handlers.IRadioButtonHandler * Microsoft.Maui.ITextStyle -&gt; unit" Usage="Microsoft.Maui.Handlers.RadioButtonHandler.MapTextColor (handler, textStyle)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextColor(Microsoft::Maui::Handlers::IRadioButtonHandler ^ handler, Microsoft::Maui::ITextStyle ^ textStyle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -395,8 +395,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.IRadioButtonHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.RadioButtonHandler.Microsoft#Maui#Handlers#IRadioButtonHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IRadioButtonHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IRadioButtonHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IRadioButtonHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.IRadioButtonHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IRadioButtonHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IRadioButtonHandler.PlatformView</InterfaceMember>
@@ -419,8 +419,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IRadioButton Microsoft.Maui.Handlers.IRadioButtonHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.RadioButtonHandler.Microsoft#Maui#Handlers#IRadioButtonHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IRadioButton Implements IRadioButtonHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IRadioButton ^ Microsoft::Maui::Handlers::IRadioButtonHandler::VirtualView { Microsoft::Maui::IRadioButton ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IRadioButtonHandler.VirtualView : Microsoft.Maui.IRadioButton" Usage="Microsoft.Maui.Handlers.IRadioButtonHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IRadioButton ^ Microsoft::Maui::Handlers::IRadioButtonHandler::VirtualView { Microsoft::Maui::IRadioButton ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IRadioButtonHandler.VirtualView</InterfaceMember>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TabbedPage extends Microsoft.Maui.Controls.MultiPage`1&lt;class Microsoft.Maui.Controls.Page&gt; implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.TabbedPage&gt;, class Microsoft.Maui.IElement, class Microsoft.Maui.ITabbedView, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.TabbedPage" />
   <TypeSignature Language="VB.NET" Value="Public Class TabbedPage&#xA;Inherits MultiPage(Of Page)&#xA;Implements IElementConfiguration(Of TabbedPage), ITabbedView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TabbedPage : Microsoft::Maui::Controls::MultiPage&lt;Microsoft::Maui::Controls::Page ^&gt;, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::TabbedPage ^&gt;, Microsoft::Maui::ITabbedView" />
   <TypeSignature Language="F#" Value="type TabbedPage = class&#xA;    inherit MultiPage&lt;Page&gt;&#xA;    interface ITabbedView&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IElementConfiguration&lt;TabbedPage&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TabbedPage : Microsoft::Maui::Controls::MultiPage&lt;Microsoft::Maui::Controls::Page ^&gt;, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::TabbedPage ^&gt;, Microsoft::Maui::ITabbedView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -177,8 +177,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Brush BarBackground" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TabbedPage.BarBackground" />
       <MemberSignature Language="VB.NET" Value="Public Property BarBackground As Brush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Brush ^ BarBackground { Microsoft::Maui::Controls::Brush ^ get(); void set(Microsoft::Maui::Controls::Brush ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BarBackground : Microsoft.Maui.Controls.Brush with get, set" Usage="Microsoft.Maui.Controls.TabbedPage.BarBackground" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Brush ^ BarBackground { Microsoft::Maui::Controls::Brush ^ get(); void set(Microsoft::Maui::Controls::Brush ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -198,8 +198,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color BarBackgroundColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TabbedPage.BarBackgroundColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BarBackgroundColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ BarBackgroundColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BarBackgroundColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.TabbedPage.BarBackgroundColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ BarBackgroundColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -219,8 +219,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BarBackgroundColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TabbedPage.BarBackgroundColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BarBackgroundColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BarBackgroundColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BarBackgroundColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TabbedPage.BarBackgroundColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BarBackgroundColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -239,8 +239,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BarBackgroundProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TabbedPage.BarBackgroundProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BarBackgroundProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BarBackgroundProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BarBackgroundProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TabbedPage.BarBackgroundProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BarBackgroundProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -259,8 +259,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color BarTextColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TabbedPage.BarTextColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BarTextColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ BarTextColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BarTextColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.TabbedPage.BarTextColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ BarTextColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -280,8 +280,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BarTextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TabbedPage.BarTextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BarTextColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BarTextColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BarTextColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TabbedPage.BarTextColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BarTextColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -300,8 +300,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.ITabbedView, class Microsoft.Maui.Handlers.ITabbedViewHandler&gt; ControlsTabbedPageMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TabbedPage.ControlsTabbedPageMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ControlsTabbedPageMapper As IPropertyMapper(Of ITabbedView, ITabbedViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ITabbedView ^, Microsoft::Maui::Handlers::ITabbedViewHandler ^&gt; ^ ControlsTabbedPageMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlsTabbedPageMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.ITabbedView, Microsoft.Maui.Handlers.ITabbedViewHandler&gt;" Usage="Microsoft.Maui.Controls.TabbedPage.ControlsTabbedPageMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::ITabbedView ^, Microsoft::Maui::Handlers::ITabbedViewHandler ^&gt; ^ ControlsTabbedPageMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -320,8 +320,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Microsoft.Maui.Controls.Page CreateDefault(object item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TabbedPage.CreateDefault(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateDefault (item As Object) As Page" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Controls::Page ^ CreateDefault(System::Object ^ item);" />
       <MemberSignature Language="F#" Value="override this.CreateDefault : obj -&gt; Microsoft.Maui.Controls.Page" Usage="tabbedPage.CreateDefault item" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Maui::Controls::Page ^ CreateDefault(System::Object ^ item);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -345,8 +345,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void LayoutChildren(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TabbedPage.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub LayoutChildren (x As Double, y As Double, width As Double, height As Double)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void LayoutChildren(double x, double y, double width, double height);" />
       <MemberSignature Language="F#" Value="override this.LayoutChildren : double * double * double * double -&gt; unit" Usage="tabbedPage.LayoutChildren (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void LayoutChildren(double x, double y, double width, double height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -375,8 +375,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.TabbedPage&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TabbedPage.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, TabbedPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.TabbedPage (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="tabbedPage.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::TabbedPage ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -409,8 +409,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color SelectedTabColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TabbedPage.SelectedTabColor" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectedTabColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ SelectedTabColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SelectedTabColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.TabbedPage.SelectedTabColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ SelectedTabColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -430,8 +430,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SelectedTabColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TabbedPage.SelectedTabColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectedTabColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectedTabColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SelectedTabColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TabbedPage.SelectedTabColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SelectedTabColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -450,8 +450,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color UnselectedTabColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TabbedPage.UnselectedTabColor" />
       <MemberSignature Language="VB.NET" Value="Public Property UnselectedTabColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ UnselectedTabColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.UnselectedTabColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.TabbedPage.UnselectedTabColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ UnselectedTabColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -471,8 +471,8 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty UnselectedTabColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.TabbedPage.UnselectedTabColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly UnselectedTabColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ UnselectedTabColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable UnselectedTabColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.TabbedPage.UnselectedTabColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ UnselectedTabColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

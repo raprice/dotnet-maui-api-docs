@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Button/ButtonContentLayout extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Button.ButtonContentLayout" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Button.ButtonContentLayout" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class Button::ButtonContentLayout sealed" />
   <TypeSignature Language="F#" Value="type Button.ButtonContentLayout = class" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Button::ButtonContentLayout sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -35,8 +35,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.Controls.Button/ButtonContentLayout/ImagePosition position, float64 spacing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.ButtonContentLayout.#ctor(Microsoft.Maui.Controls.Button.ButtonContentLayout.ImagePosition,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (position As Button.ButtonContentLayout.ImagePosition, spacing As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ButtonContentLayout(Microsoft::Maui::Controls::Button::ButtonContentLayout::ImagePosition position, double spacing);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Button.ButtonContentLayout : Microsoft.Maui.Controls.Button.ButtonContentLayout.ImagePosition * double -&gt; Microsoft.Maui.Controls.Button.ButtonContentLayout" Usage="new Microsoft.Maui.Controls.Button.ButtonContentLayout (position, spacing)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ButtonContentLayout(Microsoft::Maui::Controls::Button::ButtonContentLayout::ImagePosition position, double spacing);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -60,8 +60,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.Button/ButtonContentLayout/ImagePosition Position" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.ButtonContentLayout.Position" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Position As Button.ButtonContentLayout.ImagePosition" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Button::ButtonContentLayout::ImagePosition Position { Microsoft::Maui::Controls::Button::ButtonContentLayout::ImagePosition get(); };" />
       <MemberSignature Language="F#" Value="member this.Position : Microsoft.Maui.Controls.Button.ButtonContentLayout.ImagePosition" Usage="Microsoft.Maui.Controls.Button.ButtonContentLayout.Position" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Button::ButtonContentLayout::ImagePosition Position { Microsoft::Maui::Controls::Button::ButtonContentLayout::ImagePosition get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -83,8 +83,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Spacing" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Button.ButtonContentLayout.Spacing" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Spacing As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Spacing { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Spacing : double" Usage="Microsoft.Maui.Controls.Button.ButtonContentLayout.Spacing" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Spacing { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -106,8 +106,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Button.ButtonContentLayout.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="buttonContentLayout.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

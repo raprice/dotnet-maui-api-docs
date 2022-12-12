@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IOpenGlViewController implements class Microsoft.Maui.Controls.IElementController, class Microsoft.Maui.Controls.IViewController, class Microsoft.Maui.Controls.IVisualElementController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IOpenGlViewController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IOpenGlViewController&#xA;Implements IViewController" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IOpenGlViewController : Microsoft::Maui::Controls::IViewController" />
   <TypeSignature Language="F#" Value="type IOpenGlViewController = interface&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IOpenGlViewController : Microsoft::Maui::Controls::IViewController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -30,8 +30,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler DisplayRequested" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.IOpenGlViewController.DisplayRequested" />
       <MemberSignature Language="VB.NET" Value="Event DisplayRequested As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ DisplayRequested;" />
       <MemberSignature Language="F#" Value="member this.DisplayRequested : EventHandler " Usage="member this.DisplayRequested : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ DisplayRequested;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

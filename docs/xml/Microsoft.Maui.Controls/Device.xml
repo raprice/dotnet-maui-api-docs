@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Device extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Device" />
   <TypeSignature Language="VB.NET" Value="Public Class Device" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Device abstract sealed" />
   <TypeSignature Language="F#" Value="type Device = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Device abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -29,8 +29,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Android" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Device.Android" />
       <MemberSignature Language="VB.NET" Value="Public Const Android As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Android;" />
       <MemberSignature Language="F#" Value="val mutable Android : string" Usage="Microsoft.Maui.Controls.Device.Android" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Android;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -55,8 +55,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginInvokeOnMainThread(class System.Action action) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Device.BeginInvokeOnMainThread(System.Action)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub BeginInvokeOnMainThread (action As Action)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void BeginInvokeOnMainThread(Action ^ action);" />
       <MemberSignature Language="F#" Value="static member BeginInvokeOnMainThread : Action -&gt; unit" Usage="Microsoft.Maui.Controls.Device.BeginInvokeOnMainThread action" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void BeginInvokeOnMainThread(Action ^ action);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -95,8 +95,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".property class System.Reflection.Assembly DefaultRendererAssembly" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Device.DefaultRendererAssembly" />
       <MemberSignature Language="VB.NET" Value="Public Shared Property DefaultRendererAssembly As Assembly" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Reflection::Assembly ^ DefaultRendererAssembly { System::Reflection::Assembly ^ get(); void set(System::Reflection::Assembly ^ value); };" />
       <MemberSignature Language="F#" Value="static member DefaultRendererAssembly : System.Reflection.Assembly with get, set" Usage="Microsoft.Maui.Controls.Device.DefaultRendererAssembly" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Reflection::Assembly ^ DefaultRendererAssembly { System::Reflection::Assembly ^ get(); void set(System::Reflection::Assembly ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -126,8 +126,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.FlowDirection FlowDirection" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Device.FlowDirection" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FlowDirection As FlowDirection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::FlowDirection FlowDirection { Microsoft::Maui::FlowDirection get(); };" />
       <MemberSignature Language="F#" Value="static member FlowDirection : Microsoft.Maui.FlowDirection" Usage="Microsoft.Maui.Controls.Device.FlowDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::FlowDirection FlowDirection { Microsoft::Maui::FlowDirection get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -157,8 +157,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Threading.SynchronizationContext&gt; GetMainThreadSynchronizationContextAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Device.GetMainThreadSynchronizationContextAsync" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetMainThreadSynchronizationContextAsync () As Task(Of SynchronizationContext)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;System::Threading::SynchronizationContext ^&gt; ^ GetMainThreadSynchronizationContextAsync();" />
       <MemberSignature Language="F#" Value="static member GetMainThreadSynchronizationContextAsync : unit -&gt; System.Threading.Tasks.Task&lt;System.Threading.SynchronizationContext&gt;" Usage="Microsoft.Maui.Controls.Device.GetMainThreadSynchronizationContextAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;System::Threading::SynchronizationContext ^&gt; ^ GetMainThreadSynchronizationContextAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -185,8 +185,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 GetNamedSize(valuetype Microsoft.Maui.Controls.NamedSize size, class Microsoft.Maui.Controls.Element targetElement) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Device.GetNamedSize(Microsoft.Maui.Controls.NamedSize,Microsoft.Maui.Controls.Element)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetNamedSize (size As NamedSize, targetElement As Element) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double GetNamedSize(Microsoft::Maui::Controls::NamedSize size, Microsoft::Maui::Controls::Element ^ targetElement);" />
       <MemberSignature Language="F#" Value="static member GetNamedSize : Microsoft.Maui.Controls.NamedSize * Microsoft.Maui.Controls.Element -&gt; double" Usage="Microsoft.Maui.Controls.Device.GetNamedSize (size, targetElement)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double GetNamedSize(Microsoft::Maui::Controls::NamedSize size, Microsoft::Maui::Controls::Element ^ targetElement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -218,8 +218,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 GetNamedSize(valuetype Microsoft.Maui.Controls.NamedSize size, class System.Type targetElementType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Device.GetNamedSize(Microsoft.Maui.Controls.NamedSize,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetNamedSize (size As NamedSize, targetElementType As Type) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double GetNamedSize(Microsoft::Maui::Controls::NamedSize size, Type ^ targetElementType);" />
       <MemberSignature Language="F#" Value="static member GetNamedSize : Microsoft.Maui.Controls.NamedSize * Type -&gt; double" Usage="Microsoft.Maui.Controls.Device.GetNamedSize (size, targetElementType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double GetNamedSize(Microsoft::Maui::Controls::NamedSize size, Type ^ targetElementType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -251,8 +251,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 GetNamedSize(valuetype Microsoft.Maui.Controls.NamedSize size, class System.Type targetElementType, bool useOldSizes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Device.GetNamedSize(Microsoft.Maui.Controls.NamedSize,System.Type,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetNamedSize (size As NamedSize, targetElementType As Type, useOldSizes As Boolean) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double GetNamedSize(Microsoft::Maui::Controls::NamedSize size, Type ^ targetElementType, bool useOldSizes);" />
       <MemberSignature Language="F#" Value="static member GetNamedSize : Microsoft.Maui.Controls.NamedSize * Type * bool -&gt; double" Usage="Microsoft.Maui.Controls.Device.GetNamedSize (size, targetElementType, useOldSizes)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static double GetNamedSize(Microsoft::Maui::Controls::NamedSize size, Type ^ targetElementType, bool useOldSizes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -290,8 +290,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Maui.Controls.TargetIdiom Idiom" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Device.Idiom" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Idiom As TargetIdiom" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::TargetIdiom Idiom { Microsoft::Maui::Controls::TargetIdiom get(); };" />
       <MemberSignature Language="F#" Value="static member Idiom : Microsoft.Maui.Controls.TargetIdiom" Usage="Microsoft.Maui.Controls.Device.Idiom" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::TargetIdiom Idiom { Microsoft::Maui::Controls::TargetIdiom get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -317,8 +317,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task InvokeOnMainThreadAsync(class System.Action action) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Device.InvokeOnMainThreadAsync(System.Action)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function InvokeOnMainThreadAsync (action As Action) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ InvokeOnMainThreadAsync(Action ^ action);" />
       <MemberSignature Language="F#" Value="static member InvokeOnMainThreadAsync : Action -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.Controls.Device.InvokeOnMainThreadAsync action" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ InvokeOnMainThreadAsync(Action ^ action);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -348,8 +348,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task InvokeOnMainThreadAsync(class System.Func`1&lt;class System.Threading.Tasks.Task&gt; funcTask) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Device.InvokeOnMainThreadAsync(System.Func{System.Threading.Tasks.Task})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function InvokeOnMainThreadAsync (funcTask As Func(Of Task)) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ InvokeOnMainThreadAsync(Func&lt;System::Threading::Tasks::Task ^&gt; ^ funcTask);" />
       <MemberSignature Language="F#" Value="static member InvokeOnMainThreadAsync : Func&lt;System.Threading.Tasks.Task&gt; -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Maui.Controls.Device.InvokeOnMainThreadAsync funcTask" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ InvokeOnMainThreadAsync(Func&lt;System::Threading::Tasks::Task ^&gt; ^ funcTask);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -379,8 +379,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!T&gt; InvokeOnMainThreadAsync&lt;T&gt;(class System.Func`1&lt;class System.Threading.Tasks.Task`1&lt;!!T&gt;&gt; funcTask) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Device.InvokeOnMainThreadAsync``1(System.Func{System.Threading.Tasks.Task{``0}})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function InvokeOnMainThreadAsync(Of T) (funcTask As Func(Of Task(Of T))) As Task(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Threading::Tasks::Task&lt;T&gt; ^ InvokeOnMainThreadAsync(Func&lt;System::Threading::Tasks::Task&lt;T&gt; ^&gt; ^ funcTask);" />
       <MemberSignature Language="F#" Value="static member InvokeOnMainThreadAsync : Func&lt;System.Threading.Tasks.Task&lt;'T&gt;&gt; -&gt; System.Threading.Tasks.Task&lt;'T&gt;" Usage="Microsoft.Maui.Controls.Device.InvokeOnMainThreadAsync funcTask" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Threading::Tasks::Task&lt;T&gt; ^ InvokeOnMainThreadAsync(Func&lt;System::Threading::Tasks::Task&lt;T&gt; ^&gt; ^ funcTask);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -414,8 +414,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!T&gt; InvokeOnMainThreadAsync&lt;T&gt;(class System.Func`1&lt;!!T&gt; func) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Device.InvokeOnMainThreadAsync``1(System.Func{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function InvokeOnMainThreadAsync(Of T) (func As Func(Of T)) As Task(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Threading::Tasks::Task&lt;T&gt; ^ InvokeOnMainThreadAsync(Func&lt;T&gt; ^ func);" />
       <MemberSignature Language="F#" Value="static member InvokeOnMainThreadAsync : Func&lt;'T&gt; -&gt; System.Threading.Tasks.Task&lt;'T&gt;" Usage="Microsoft.Maui.Controls.Device.InvokeOnMainThreadAsync func" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Threading::Tasks::Task&lt;T&gt; ^ InvokeOnMainThreadAsync(Func&lt;T&gt; ^ func);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -449,8 +449,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".field public static literal string iOS" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Device.iOS" />
       <MemberSignature Language="VB.NET" Value="Public Const iOS As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ iOS;" />
       <MemberSignature Language="F#" Value="val mutable iOS : string" Usage="Microsoft.Maui.Controls.Device.iOS" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ iOS;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -475,8 +475,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".property bool IsInvokeRequired" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Device.IsInvokeRequired" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsInvokeRequired As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsInvokeRequired { bool get(); };" />
       <MemberSignature Language="F#" Value="static member IsInvokeRequired : bool" Usage="Microsoft.Maui.Controls.Device.IsInvokeRequired" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsInvokeRequired { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -502,8 +502,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".field public static literal string MacCatalyst" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Device.MacCatalyst" />
       <MemberSignature Language="VB.NET" Value="Public Const MacCatalyst As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ MacCatalyst;" />
       <MemberSignature Language="F#" Value="val mutable MacCatalyst : string" Usage="Microsoft.Maui.Controls.Device.MacCatalyst" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ MacCatalyst;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -528,8 +528,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".property string RuntimePlatform" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Device.RuntimePlatform" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RuntimePlatform As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ RuntimePlatform { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="static member RuntimePlatform : string" Usage="Microsoft.Maui.Controls.Device.RuntimePlatform" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ RuntimePlatform { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -555,8 +555,8 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void StartTimer(valuetype System.TimeSpan interval, class System.Func`1&lt;bool&gt; callback) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Device.StartTimer(System.TimeSpan,System.Func{System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub StartTimer (interval As TimeSpan, callback As Func(Of Boolean))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void StartTimer(TimeSpan interval, Func&lt;bool&gt; ^ callback);" />
       <MemberSignature Language="F#" Value="static member StartTimer : TimeSpan * Func&lt;bool&gt; -&gt; unit" Usage="Microsoft.Maui.Controls.Device.StartTimer (interval, callback)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void StartTimer(TimeSpan interval, Func&lt;bool&gt; ^ callback);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -603,8 +603,8 @@ Device.StartTimer (new TimeSpan (0, 0, 60), () =>
       <MemberSignature Language="ILAsm" Value=".field public static literal string Tizen" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Device.Tizen" />
       <MemberSignature Language="VB.NET" Value="Public Const Tizen As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Tizen;" />
       <MemberSignature Language="F#" Value="val mutable Tizen : string" Usage="Microsoft.Maui.Controls.Device.Tizen" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Tizen;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -629,8 +629,8 @@ Device.StartTimer (new TimeSpan (0, 0, 60), () =>
       <MemberSignature Language="ILAsm" Value=".field public static literal string tvOS" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Device.tvOS" />
       <MemberSignature Language="VB.NET" Value="Public Const tvOS As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ tvOS;" />
       <MemberSignature Language="F#" Value="val mutable tvOS : string" Usage="Microsoft.Maui.Controls.Device.tvOS" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ tvOS;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -655,8 +655,8 @@ Device.StartTimer (new TimeSpan (0, 0, 60), () =>
       <MemberSignature Language="ILAsm" Value=".field public static literal string UWP" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Device.UWP" />
       <MemberSignature Language="VB.NET" Value="Public Const UWP As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ UWP;" />
       <MemberSignature Language="F#" Value="val mutable UWP : string" Usage="Microsoft.Maui.Controls.Device.UWP" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ UWP;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -681,8 +681,8 @@ Device.StartTimer (new TimeSpan (0, 0, 60), () =>
       <MemberSignature Language="ILAsm" Value=".field public static literal string WinUI" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Device.WinUI" />
       <MemberSignature Language="VB.NET" Value="Public Const WinUI As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ WinUI;" />
       <MemberSignature Language="F#" Value="val mutable WinUI : string" Usage="Microsoft.Maui.Controls.Device.WinUI" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ WinUI;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

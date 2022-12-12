@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PolygonHandler extends Microsoft.Maui.Handlers.ShapeViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Handlers.PolygonHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class PolygonHandler&#xA;Inherits ShapeViewHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PolygonHandler : Microsoft::Maui::Handlers::ShapeViewHandler" />
   <TypeSignature Language="F#" Value="type PolygonHandler = class&#xA;    inherit ShapeViewHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PolygonHandler : Microsoft::Maui::Handlers::ShapeViewHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.PolygonHandler.#ctor(Microsoft.Maui.IPropertyMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; PolygonHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Handlers.PolygonHandler : Microsoft.Maui.IPropertyMapper -&gt; Microsoft.Maui.Controls.Handlers.PolygonHandler" Usage="new Microsoft.Maui.Controls.Handlers.PolygonHandler mapper" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PolygonHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapFillRule(class Microsoft.Maui.Handlers.IShapeViewHandler handler, class Microsoft.Maui.Controls.Shapes.Polygon polygon) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.PolygonHandler.MapFillRule(Microsoft.Maui.Handlers.IShapeViewHandler,Microsoft.Maui.Controls.Shapes.Polygon)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapFillRule (handler As IShapeViewHandler, polygon As Polygon)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFillRule(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Polygon ^ polygon);" />
       <MemberSignature Language="F#" Value="static member MapFillRule : Microsoft.Maui.Handlers.IShapeViewHandler * Microsoft.Maui.Controls.Shapes.Polygon -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.PolygonHandler.MapFillRule (handler, polygon)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFillRule(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Polygon ^ polygon);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -87,8 +87,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.Controls.Shapes.Polygon, class Microsoft.Maui.Handlers.IShapeViewHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Handlers.PolygonHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of Polygon, IShapeViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::Controls::Shapes::Polygon ^, Microsoft::Maui::Handlers::IShapeViewHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.Controls.Shapes.Polygon, Microsoft.Maui.Handlers.IShapeViewHandler&gt;" Usage="Microsoft.Maui.Controls.Handlers.PolygonHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::Controls::Shapes::Polygon ^, Microsoft::Maui::Handlers::IShapeViewHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapPoints(class Microsoft.Maui.Handlers.IShapeViewHandler handler, class Microsoft.Maui.Controls.Shapes.Polygon polygon) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.PolygonHandler.MapPoints(Microsoft.Maui.Handlers.IShapeViewHandler,Microsoft.Maui.Controls.Shapes.Polygon)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapPoints (handler As IShapeViewHandler, polygon As Polygon)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPoints(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Polygon ^ polygon);" />
       <MemberSignature Language="F#" Value="static member MapPoints : Microsoft.Maui.Handlers.IShapeViewHandler * Microsoft.Maui.Controls.Shapes.Polygon -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.PolygonHandler.MapPoints (handler, polygon)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPoints(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Polygon ^ polygon);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -133,8 +133,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapShape(class Microsoft.Maui.Handlers.IShapeViewHandler handler, class Microsoft.Maui.Controls.Shapes.Polygon polygon) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.PolygonHandler.MapShape(Microsoft.Maui.Handlers.IShapeViewHandler,Microsoft.Maui.Controls.Shapes.Polygon)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapShape (handler As IShapeViewHandler, polygon As Polygon)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapShape(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Polygon ^ polygon);" />
       <MemberSignature Language="F#" Value="static member MapShape : Microsoft.Maui.Handlers.IShapeViewHandler * Microsoft.Maui.Controls.Shapes.Polygon -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.PolygonHandler.MapShape (handler, polygon)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapShape(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Polygon ^ polygon);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

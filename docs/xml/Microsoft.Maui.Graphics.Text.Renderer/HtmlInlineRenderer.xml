@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HtmlInlineRenderer extends Microsoft.Maui.Graphics.Text.Renderer.AttributedTextObjectRenderer`1&lt;class Markdig.Syntax.Inlines.HtmlInline&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.Text.Renderer.HtmlInlineRenderer" />
   <TypeSignature Language="VB.NET" Value="Public Class HtmlInlineRenderer&#xA;Inherits AttributedTextObjectRenderer(Of HtmlInline)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class HtmlInlineRenderer : Microsoft::Maui::Graphics::Text::Renderer::AttributedTextObjectRenderer&lt;Markdig::Syntax::Inlines::HtmlInline ^&gt;" />
   <TypeSignature Language="F#" Value="type HtmlInlineRenderer = class&#xA;    inherit AttributedTextObjectRenderer&lt;HtmlInline&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class HtmlInlineRenderer : Microsoft::Maui::Graphics::Text::Renderer::AttributedTextObjectRenderer&lt;Markdig::Syntax::Inlines::HtmlInline ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics.Text.Markdig</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -43,8 +43,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Write(class Microsoft.Maui.Graphics.Text.Renderer.AttributedTextRenderer renderer, class Markdig.Syntax.Inlines.HtmlInline obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.Renderer.HtmlInlineRenderer.Write(Microsoft.Maui.Graphics.Text.Renderer.AttributedTextRenderer,Markdig.Syntax.Inlines.HtmlInline)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Write (renderer As AttributedTextRenderer, obj As HtmlInline)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void Write(Microsoft::Maui::Graphics::Text::Renderer::AttributedTextRenderer ^ renderer, Markdig::Syntax::Inlines::HtmlInline ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Write : Microsoft.Maui.Graphics.Text.Renderer.AttributedTextRenderer * Markdig.Syntax.Inlines.HtmlInline -&gt; unit" Usage="htmlInlineRenderer.Write (renderer, obj)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void Write(Microsoft::Maui::Graphics::Text::Renderer::AttributedTextRenderer ^ renderer, Markdig::Syntax::Inlines::HtmlInline ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Text.Markdig</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TouchEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.TouchEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class TouchEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TouchEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type TouchEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TouchEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.Graphics.PointF[] points, bool isInsideBounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TouchEventArgs.#ctor(Microsoft.Maui.Graphics.PointF[],System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (points As PointF(), isInsideBounds As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; TouchEventArgs(cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ points, bool isInsideBounds);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.TouchEventArgs : Microsoft.Maui.Graphics.PointF[] * bool -&gt; Microsoft.Maui.Controls.TouchEventArgs" Usage="new Microsoft.Maui.Controls.TouchEventArgs (points, isInsideBounds)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TouchEventArgs(cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ points, bool isInsideBounds);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -63,8 +63,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsInsideBounds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TouchEventArgs.IsInsideBounds" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsInsideBounds As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInsideBounds { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsInsideBounds : bool" Usage="Microsoft.Maui.Controls.TouchEventArgs.IsInsideBounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInsideBounds { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.PointF[] Touches" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.TouchEventArgs.Touches" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Touches As PointF()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ Touches { cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Touches : Microsoft.Maui.Graphics.PointF[]" Usage="Microsoft.Maui.Controls.TouchEventArgs.Touches" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ Touches { cli::array &lt;Microsoft::Maui::Graphics::PointF&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

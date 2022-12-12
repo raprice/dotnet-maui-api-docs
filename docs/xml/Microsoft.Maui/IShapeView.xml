@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IShapeView implements class Microsoft.Maui.IElement, class Microsoft.Maui.IStroke, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IShapeView" />
   <TypeSignature Language="VB.NET" Value="Public Interface IShapeView&#xA;Implements IStroke, IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IShapeView : Microsoft::Maui::IStroke, Microsoft::Maui::IView" />
   <TypeSignature Language="F#" Value="type IShapeView = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IStroke" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IShapeView : Microsoft::Maui::IStroke, Microsoft::Maui::IView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -35,8 +35,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.PathAspect Aspect" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IShapeView.Aspect" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Aspect As PathAspect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::PathAspect Aspect { Microsoft::Maui::PathAspect get(); };" />
       <MemberSignature Language="F#" Value="member this.Aspect : Microsoft.Maui.PathAspect" Usage="Microsoft.Maui.IShapeView.Aspect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::PathAspect Aspect { Microsoft::Maui::PathAspect get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -58,8 +58,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Paint Fill" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IShapeView.Fill" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fill As Paint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Paint ^ Fill { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Fill : Microsoft.Maui.Graphics.Paint" Usage="Microsoft.Maui.IShapeView.Fill" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Paint ^ Fill { Microsoft::Maui::Graphics::Paint ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -81,8 +81,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.IShape Shape" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IShapeView.Shape" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shape As IShape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IShape ^ Shape { Microsoft::Maui::Graphics::IShape ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Shape : Microsoft.Maui.Graphics.IShape" Usage="Microsoft.Maui.IShapeView.Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IShape ^ Shape { Microsoft::Maui::Graphics::IShape ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

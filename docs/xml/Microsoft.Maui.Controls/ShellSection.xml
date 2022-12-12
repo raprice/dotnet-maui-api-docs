@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ShellSection extends Microsoft.Maui.Controls.ShellGroupItem implements class Microsoft.Maui.Controls.IElementController, class Microsoft.Maui.Controls.IShellSectionController, class Microsoft.Maui.IStackNavigation, class Microsoft.Maui.IVisualTreeElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ShellSection" />
   <TypeSignature Language="VB.NET" Value="Public Class ShellSection&#xA;Inherits ShellGroupItem&#xA;Implements IShellSectionController, IStackNavigation, IVisualTreeElement" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ShellSection : Microsoft::Maui::Controls::ShellGroupItem, Microsoft::Maui::Controls::IShellSectionController, Microsoft::Maui::IStackNavigation, Microsoft::Maui::IVisualTreeElement" />
   <TypeSignature Language="F#" Value="type ShellSection = class&#xA;    inherit ShellGroupItem&#xA;    interface IStackNavigation&#xA;    interface IShellSectionController&#xA;    interface IElementController&#xA;    interface IVisualTreeElement" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ShellSection : Microsoft::Maui::Controls::ShellGroupItem, Microsoft::Maui::Controls::IShellSectionController, Microsoft::Maui::IStackNavigation, Microsoft::Maui::IVisualTreeElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -63,8 +63,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.ShellContent CurrentItem" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ShellSection.CurrentItem" />
       <MemberSignature Language="VB.NET" Value="Public Property CurrentItem As ShellContent" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellContent ^ CurrentItem { Microsoft::Maui::Controls::ShellContent ^ get(); void set(Microsoft::Maui::Controls::ShellContent ^ value); };" />
       <MemberSignature Language="F#" Value="member this.CurrentItem : Microsoft.Maui.Controls.ShellContent with get, set" Usage="Microsoft.Maui.Controls.ShellSection.CurrentItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::ShellContent ^ CurrentItem { Microsoft::Maui::Controls::ShellContent ^ get(); void set(Microsoft::Maui::Controls::ShellContent ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -84,8 +84,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CurrentItemProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ShellSection.CurrentItemProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CurrentItemProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CurrentItemProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CurrentItemProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ShellSection.CurrentItemProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CurrentItemProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -104,8 +104,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.Controls.Page&gt; GetNavigationStack() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.GetNavigationStack" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function GetNavigationStack () As IReadOnlyList(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ GetNavigationStack();" />
       <MemberSignature Language="F#" Value="abstract member GetNavigationStack : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Controls.Page&gt;&#xA;override this.GetNavigationStack : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Controls.Page&gt;" Usage="shellSection.GetNavigationStack " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ GetNavigationStack();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -126,8 +126,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.ShellContent&gt; Items" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ShellSection.Items" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Items As IList(Of ShellContent)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::ShellContent ^&gt; ^ Items { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::ShellContent ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Items : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.ShellContent&gt;" Usage="Microsoft.Maui.Controls.ShellSection.Items" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::ShellContent ^&gt; ^ Items { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::ShellContent ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -147,8 +147,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ItemsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ShellSection.ItemsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ItemsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ShellSection.ItemsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -167,8 +167,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IShellSectionController.AddContentInsetObserver(class Microsoft.Maui.Controls.IShellContentInsetObserver observer) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#Controls#IShellSectionController#AddContentInsetObserver(Microsoft.Maui.Controls.IShellContentInsetObserver)" />
       <MemberSignature Language="VB.NET" Value="Sub AddContentInsetObserver (observer As IShellContentInsetObserver) Implements IShellSectionController.AddContentInsetObserver" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.AddContentInsetObserver(Microsoft::Maui::Controls::IShellContentInsetObserver ^ observer) = Microsoft::Maui::Controls::IShellSectionController::AddContentInsetObserver;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IShellSectionController.AddContentInsetObserver : Microsoft.Maui.Controls.IShellContentInsetObserver -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IShellSectionController.AddContentInsetObserver : Microsoft.Maui.Controls.IShellContentInsetObserver -&gt; unit" Usage="shellSection.Microsoft.Maui.Controls.IShellSectionController.AddContentInsetObserver observer" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.AddContentInsetObserver(Microsoft::Maui::Controls::IShellContentInsetObserver ^ observer) = Microsoft::Maui::Controls::IShellSectionController::AddContentInsetObserver;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IShellSectionController.AddContentInsetObserver(Microsoft.Maui.Controls.IShellContentInsetObserver)</InterfaceMember>
@@ -194,8 +194,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IShellSectionController.AddDisplayedPageObserver(object observer, class System.Action`1&lt;class Microsoft.Maui.Controls.Page&gt; callback) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#Controls#IShellSectionController#AddDisplayedPageObserver(System.Object,System.Action{Microsoft.Maui.Controls.Page})" />
       <MemberSignature Language="VB.NET" Value="Sub AddDisplayedPageObserver (observer As Object, callback As Action(Of Page)) Implements IShellSectionController.AddDisplayedPageObserver" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.AddDisplayedPageObserver(System::Object ^ observer, Action&lt;Microsoft::Maui::Controls::Page ^&gt; ^ callback) = Microsoft::Maui::Controls::IShellSectionController::AddDisplayedPageObserver;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IShellSectionController.AddDisplayedPageObserver : obj * Action&lt;Microsoft.Maui.Controls.Page&gt; -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IShellSectionController.AddDisplayedPageObserver : obj * Action&lt;Microsoft.Maui.Controls.Page&gt; -&gt; unit" Usage="shellSection.Microsoft.Maui.Controls.IShellSectionController.AddDisplayedPageObserver (observer, callback)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.AddDisplayedPageObserver(System::Object ^ observer, Action&lt;Microsoft::Maui::Controls::Page ^&gt; ^ callback) = Microsoft::Maui::Controls::IShellSectionController::AddDisplayedPageObserver;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IShellSectionController.AddDisplayedPageObserver(System.Object,System.Action{Microsoft.Maui.Controls.Page})</InterfaceMember>
@@ -223,8 +223,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.Maui.Controls.ShellContent&gt; Microsoft.Maui.Controls.IShellSectionController.GetItems() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#Controls#IShellSectionController#GetItems" />
       <MemberSignature Language="VB.NET" Value="Function GetItems () As ReadOnlyCollection(Of ShellContent) Implements IShellSectionController.GetItems" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::ObjectModel::ReadOnlyCollection&lt;Microsoft::Maui::Controls::ShellContent ^&gt; ^ Microsoft.Maui.Controls.IShellSectionController.GetItems() = Microsoft::Maui::Controls::IShellSectionController::GetItems;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IShellSectionController.GetItems : unit -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Maui.Controls.ShellContent&gt;&#xA;override this.Microsoft.Maui.Controls.IShellSectionController.GetItems : unit -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Maui.Controls.ShellContent&gt;" Usage="shellSection.Microsoft.Maui.Controls.IShellSectionController.GetItems " />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::ObjectModel::ReadOnlyCollection&lt;Microsoft::Maui::Controls::ShellContent ^&gt; ^ Microsoft.Maui.Controls.IShellSectionController.GetItems() = Microsoft::Maui::Controls::IShellSectionController::GetItems;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IShellSectionController.GetItems</InterfaceMember>
@@ -292,8 +292,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Page Microsoft.Maui.Controls.IShellSectionController.PresentedPage" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#Controls#IShellSectionController#PresentedPage" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PresentedPage As Page Implements IShellSectionController.PresentedPage" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Controls::Page ^ Microsoft::Maui::Controls::IShellSectionController::PresentedPage { Microsoft::Maui::Controls::Page ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.IShellSectionController.PresentedPage : Microsoft.Maui.Controls.Page" Usage="Microsoft.Maui.Controls.IShellSectionController.PresentedPage" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Controls::Page ^ Microsoft::Maui::Controls::IShellSectionController::PresentedPage { Microsoft::Maui::Controls::Page ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IShellSectionController.PresentedPage</InterfaceMember>
@@ -316,8 +316,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IShellSectionController.RemoveContentInsetObserver(class Microsoft.Maui.Controls.IShellContentInsetObserver observer) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#Controls#IShellSectionController#RemoveContentInsetObserver(Microsoft.Maui.Controls.IShellContentInsetObserver)" />
       <MemberSignature Language="VB.NET" Value="Function RemoveContentInsetObserver (observer As IShellContentInsetObserver) As Boolean Implements IShellSectionController.RemoveContentInsetObserver" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IShellSectionController.RemoveContentInsetObserver(Microsoft::Maui::Controls::IShellContentInsetObserver ^ observer) = Microsoft::Maui::Controls::IShellSectionController::RemoveContentInsetObserver;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IShellSectionController.RemoveContentInsetObserver : Microsoft.Maui.Controls.IShellContentInsetObserver -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IShellSectionController.RemoveContentInsetObserver : Microsoft.Maui.Controls.IShellContentInsetObserver -&gt; bool" Usage="shellSection.Microsoft.Maui.Controls.IShellSectionController.RemoveContentInsetObserver observer" />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IShellSectionController.RemoveContentInsetObserver(Microsoft::Maui::Controls::IShellContentInsetObserver ^ observer) = Microsoft::Maui::Controls::IShellSectionController::RemoveContentInsetObserver;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IShellSectionController.RemoveContentInsetObserver(Microsoft.Maui.Controls.IShellContentInsetObserver)</InterfaceMember>
@@ -344,8 +344,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.Maui.Controls.IShellSectionController.RemoveDisplayedPageObserver(object observer) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#Controls#IShellSectionController#RemoveDisplayedPageObserver(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Function RemoveDisplayedPageObserver (observer As Object) As Boolean Implements IShellSectionController.RemoveDisplayedPageObserver" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IShellSectionController.RemoveDisplayedPageObserver(System::Object ^ observer) = Microsoft::Maui::Controls::IShellSectionController::RemoveDisplayedPageObserver;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IShellSectionController.RemoveDisplayedPageObserver : obj -&gt; bool&#xA;override this.Microsoft.Maui.Controls.IShellSectionController.RemoveDisplayedPageObserver : obj -&gt; bool" Usage="shellSection.Microsoft.Maui.Controls.IShellSectionController.RemoveDisplayedPageObserver observer" />
+      <MemberSignature Language="C++ CLI" Value=" virtual bool Microsoft.Maui.Controls.IShellSectionController.RemoveDisplayedPageObserver(System::Object ^ observer) = Microsoft::Maui::Controls::IShellSectionController::RemoveDisplayedPageObserver;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IShellSectionController.RemoveDisplayedPageObserver(System.Object)</InterfaceMember>
@@ -372,8 +372,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IShellSectionController.SendInsetChanged(valuetype Microsoft.Maui.Thickness inset, float64 tabThickness) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#Controls#IShellSectionController#SendInsetChanged(Microsoft.Maui.Thickness,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Sub SendInsetChanged (inset As Thickness, tabThickness As Double) Implements IShellSectionController.SendInsetChanged" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.SendInsetChanged(Microsoft::Maui::Thickness inset, double tabThickness) = Microsoft::Maui::Controls::IShellSectionController::SendInsetChanged;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IShellSectionController.SendInsetChanged : Microsoft.Maui.Thickness * double -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IShellSectionController.SendInsetChanged : Microsoft.Maui.Thickness * double -&gt; unit" Usage="shellSection.Microsoft.Maui.Controls.IShellSectionController.SendInsetChanged (inset, tabThickness)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.SendInsetChanged(Microsoft::Maui::Thickness inset, double tabThickness) = Microsoft::Maui::Controls::IShellSectionController::SendInsetChanged;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IShellSectionController.SendInsetChanged(Microsoft.Maui.Thickness,System.Double)</InterfaceMember>
@@ -401,8 +401,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IShellSectionController.SendPopped() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#Controls#IShellSectionController#SendPopped" />
       <MemberSignature Language="VB.NET" Value="Sub SendPopped () Implements IShellSectionController.SendPopped" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.SendPopped() = Microsoft::Maui::Controls::IShellSectionController::SendPopped;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IShellSectionController.SendPopped : unit -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IShellSectionController.SendPopped : unit -&gt; unit" Usage="shellSection.Microsoft.Maui.Controls.IShellSectionController.SendPopped " />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.SendPopped() = Microsoft::Maui::Controls::IShellSectionController::SendPopped;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IShellSectionController.SendPopped</InterfaceMember>
@@ -435,8 +435,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IShellSectionController.SendPopped(class Microsoft.Maui.Controls.Page page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#Controls#IShellSectionController#SendPopped(Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Sub SendPopped (page As Page) Implements IShellSectionController.SendPopped" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.SendPopped(Microsoft::Maui::Controls::Page ^ page) = Microsoft::Maui::Controls::IShellSectionController::SendPopped;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IShellSectionController.SendPopped : Microsoft.Maui.Controls.Page -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IShellSectionController.SendPopped : Microsoft.Maui.Controls.Page -&gt; unit" Usage="shellSection.Microsoft.Maui.Controls.IShellSectionController.SendPopped page" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.SendPopped(Microsoft::Maui::Controls::Page ^ page) = Microsoft::Maui::Controls::IShellSectionController::SendPopped;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IShellSectionController.SendPopped(Microsoft.Maui.Controls.Page)</InterfaceMember>
@@ -472,8 +472,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IShellSectionController.SendPopping(class Microsoft.Maui.Controls.Page page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#Controls#IShellSectionController#SendPopping(Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Sub SendPopping (page As Page) Implements IShellSectionController.SendPopping" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.SendPopping(Microsoft::Maui::Controls::Page ^ page) = Microsoft::Maui::Controls::IShellSectionController::SendPopping;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IShellSectionController.SendPopping : Microsoft.Maui.Controls.Page -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IShellSectionController.SendPopping : Microsoft.Maui.Controls.Page -&gt; unit" Usage="shellSection.Microsoft.Maui.Controls.IShellSectionController.SendPopping page" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.SendPopping(Microsoft::Maui::Controls::Page ^ page) = Microsoft::Maui::Controls::IShellSectionController::SendPopping;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IShellSectionController.SendPopping(Microsoft.Maui.Controls.Page)</InterfaceMember>
@@ -509,8 +509,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IShellSectionController.SendPopping(class System.Threading.Tasks.Task poppingCompleted) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#Controls#IShellSectionController#SendPopping(System.Threading.Tasks.Task)" />
       <MemberSignature Language="VB.NET" Value="Sub SendPopping (poppingCompleted As Task) Implements IShellSectionController.SendPopping" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.SendPopping(System::Threading::Tasks::Task ^ poppingCompleted) = Microsoft::Maui::Controls::IShellSectionController::SendPopping;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IShellSectionController.SendPopping : System.Threading.Tasks.Task -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IShellSectionController.SendPopping : System.Threading.Tasks.Task -&gt; unit" Usage="shellSection.Microsoft.Maui.Controls.IShellSectionController.SendPopping poppingCompleted" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.SendPopping(System::Threading::Tasks::Task ^ poppingCompleted) = Microsoft::Maui::Controls::IShellSectionController::SendPopping;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IShellSectionController.SendPopping(System.Threading.Tasks.Task)</InterfaceMember>
@@ -536,8 +536,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IShellSectionController.SendPoppingToRoot(class System.Threading.Tasks.Task finishedPopping) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#Controls#IShellSectionController#SendPoppingToRoot(System.Threading.Tasks.Task)" />
       <MemberSignature Language="VB.NET" Value="Sub SendPoppingToRoot (finishedPopping As Task) Implements IShellSectionController.SendPoppingToRoot" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.SendPoppingToRoot(System::Threading::Tasks::Task ^ finishedPopping) = Microsoft::Maui::Controls::IShellSectionController::SendPoppingToRoot;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IShellSectionController.SendPoppingToRoot : System.Threading.Tasks.Task -&gt; unit&#xA;override this.Microsoft.Maui.Controls.IShellSectionController.SendPoppingToRoot : System.Threading.Tasks.Task -&gt; unit" Usage="shellSection.Microsoft.Maui.Controls.IShellSectionController.SendPoppingToRoot finishedPopping" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.IShellSectionController.SendPoppingToRoot(System::Threading::Tasks::Task ^ finishedPopping) = Microsoft::Maui::Controls::IShellSectionController::SendPoppingToRoot;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IShellSectionController.SendPoppingToRoot(System.Threading.Tasks.Task)</InterfaceMember>
@@ -563,8 +563,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IStackNavigation.NavigationFinished(class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IView&gt; newStack) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#IStackNavigation#NavigationFinished(System.Collections.Generic.IReadOnlyList{Microsoft.Maui.IView})" />
       <MemberSignature Language="VB.NET" Value="Sub NavigationFinished (newStack As IReadOnlyList(Of IView)) Implements IStackNavigation.NavigationFinished" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IStackNavigation.NavigationFinished(System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IView ^&gt; ^ newStack) = Microsoft::Maui::IStackNavigation::NavigationFinished;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IStackNavigation.NavigationFinished : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IView&gt; -&gt; unit&#xA;override this.Microsoft.Maui.IStackNavigation.NavigationFinished : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IView&gt; -&gt; unit" Usage="shellSection.Microsoft.Maui.IStackNavigation.NavigationFinished newStack" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IStackNavigation.NavigationFinished(System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IView ^&gt; ^ newStack) = Microsoft::Maui::IStackNavigation::NavigationFinished;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IStackNavigation.NavigationFinished(System.Collections.Generic.IReadOnlyList{Microsoft.Maui.IView})</InterfaceMember>
@@ -590,8 +590,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IStackNavigation.RequestNavigation(class Microsoft.Maui.NavigationRequest eventArgs) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#IStackNavigation#RequestNavigation(Microsoft.Maui.NavigationRequest)" />
       <MemberSignature Language="VB.NET" Value="Sub RequestNavigation (eventArgs As NavigationRequest) Implements IStackNavigation.RequestNavigation" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IStackNavigation.RequestNavigation(Microsoft::Maui::NavigationRequest ^ eventArgs) = Microsoft::Maui::IStackNavigation::RequestNavigation;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IStackNavigation.RequestNavigation : Microsoft.Maui.NavigationRequest -&gt; unit&#xA;override this.Microsoft.Maui.IStackNavigation.RequestNavigation : Microsoft.Maui.NavigationRequest -&gt; unit" Usage="shellSection.Microsoft.Maui.IStackNavigation.RequestNavigation eventArgs" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IStackNavigation.RequestNavigation(Microsoft::Maui::NavigationRequest ^ eventArgs) = Microsoft::Maui::IStackNavigation::RequestNavigation;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IStackNavigation.RequestNavigation(Microsoft.Maui.NavigationRequest)</InterfaceMember>
@@ -617,8 +617,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IVisualTreeElement&gt; Microsoft.Maui.IVisualTreeElement.GetVisualChildren() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.Microsoft#Maui#IVisualTreeElement#GetVisualChildren" />
       <MemberSignature Language="VB.NET" Value="Function GetVisualChildren () As IReadOnlyList(Of IVisualTreeElement) Implements IVisualTreeElement.GetVisualChildren" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ Microsoft.Maui.IVisualTreeElement.GetVisualChildren() = Microsoft::Maui::IVisualTreeElement::GetVisualChildren;" />
       <MemberSignature Language="F#" Value="override this.Microsoft.Maui.IVisualTreeElement.GetVisualChildren : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IVisualTreeElement&gt;" Usage="shellSection.Microsoft.Maui.IVisualTreeElement.GetVisualChildren " />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IVisualTreeElement ^&gt; ^ Microsoft.Maui.IVisualTreeElement.GetVisualChildren() = Microsoft::Maui::IVisualTreeElement::GetVisualChildren;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IVisualTreeElement.GetVisualChildren</InterfaceMember>
@@ -642,8 +642,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="shellSection.OnBindingContextChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnBindingContextChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -663,8 +663,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildAdded(class Microsoft.Maui.Controls.Element child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.OnChildAdded(Microsoft.Maui.Controls.Element)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnChildAdded (child As Element)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnChildAdded(Microsoft::Maui::Controls::Element ^ child);" />
       <MemberSignature Language="F#" Value="override this.OnChildAdded : Microsoft.Maui.Controls.Element -&gt; unit" Usage="shellSection.OnChildAdded child" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnChildAdded(Microsoft::Maui::Controls::Element ^ child);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -687,8 +687,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildRemoved(class Microsoft.Maui.Controls.Element child, int32 oldLogicalIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.OnChildRemoved(Microsoft.Maui.Controls.Element,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnChildRemoved (child As Element, oldLogicalIndex As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnChildRemoved(Microsoft::Maui::Controls::Element ^ child, int oldLogicalIndex);" />
       <MemberSignature Language="F#" Value="override this.OnChildRemoved : Microsoft.Maui.Controls.Element * int -&gt; unit" Usage="shellSection.OnChildRemoved (child, oldLogicalIndex)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnChildRemoved(Microsoft::Maui::Controls::Element ^ child, int oldLogicalIndex);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -713,8 +713,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnInsertPageBefore(class Microsoft.Maui.Controls.Page page, class Microsoft.Maui.Controls.Page before) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.OnInsertPageBefore(Microsoft.Maui.Controls.Page,Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnInsertPageBefore (page As Page, before As Page)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnInsertPageBefore(Microsoft::Maui::Controls::Page ^ page, Microsoft::Maui::Controls::Page ^ before);" />
       <MemberSignature Language="F#" Value="abstract member OnInsertPageBefore : Microsoft.Maui.Controls.Page * Microsoft.Maui.Controls.Page -&gt; unit&#xA;override this.OnInsertPageBefore : Microsoft.Maui.Controls.Page * Microsoft.Maui.Controls.Page -&gt; unit" Usage="shellSection.OnInsertPageBefore (page, before)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnInsertPageBefore(Microsoft::Maui::Controls::Page ^ page, Microsoft::Maui::Controls::Page ^ before);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -739,8 +739,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnParentSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.OnParentSet" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnParentSet ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnParentSet();" />
       <MemberSignature Language="F#" Value="override this.OnParentSet : unit -&gt; unit" Usage="shellSection.OnParentSet " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnParentSet();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -760,8 +760,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Controls.Page&gt; OnPopAsync(bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.OnPopAsync(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnPopAsync (animated As Boolean) As Task(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ OnPopAsync(bool animated);" />
       <MemberSignature Language="F#" Value="abstract member OnPopAsync : bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;&#xA;override this.OnPopAsync : bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;" Usage="shellSection.OnPopAsync animated" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ OnPopAsync(bool animated);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -785,8 +785,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task OnPopToRootAsync(bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.OnPopToRootAsync(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnPopToRootAsync (animated As Boolean) As Task" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task ^ OnPopToRootAsync(bool animated);" />
       <MemberSignature Language="F#" Value="abstract member OnPopToRootAsync : bool -&gt; System.Threading.Tasks.Task&#xA;override this.OnPopToRootAsync : bool -&gt; System.Threading.Tasks.Task" Usage="shellSection.OnPopToRootAsync animated" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task ^ OnPopToRootAsync(bool animated);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -810,8 +810,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task OnPushAsync(class Microsoft.Maui.Controls.Page page, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.OnPushAsync(Microsoft.Maui.Controls.Page,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnPushAsync (page As Page, animated As Boolean) As Task" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task ^ OnPushAsync(Microsoft::Maui::Controls::Page ^ page, bool animated);" />
       <MemberSignature Language="F#" Value="abstract member OnPushAsync : Microsoft.Maui.Controls.Page * bool -&gt; System.Threading.Tasks.Task&#xA;override this.OnPushAsync : Microsoft.Maui.Controls.Page * bool -&gt; System.Threading.Tasks.Task" Usage="shellSection.OnPushAsync (page, animated)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Threading::Tasks::Task ^ OnPushAsync(Microsoft::Maui::Controls::Page ^ page, bool animated);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -837,8 +837,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnRemovePage(class Microsoft.Maui.Controls.Page page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.OnRemovePage(Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnRemovePage (page As Page)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnRemovePage(Microsoft::Maui::Controls::Page ^ page);" />
       <MemberSignature Language="F#" Value="abstract member OnRemovePage : Microsoft.Maui.Controls.Page -&gt; unit&#xA;override this.OnRemovePage : Microsoft.Maui.Controls.Page -&gt; unit" Usage="shellSection.OnRemovePage page" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnRemovePage(Microsoft::Maui::Controls::Page ^ page);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -861,8 +861,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Maui.Controls.ShellSection op_Implicit(class Microsoft.Maui.Controls.ShellContent shellContent) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.op_Implicit(Microsoft.Maui.Controls.ShellContent)~Microsoft.Maui.Controls.ShellSection" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (shellContent As ShellContent) As ShellSection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::ShellSection ^(Microsoft::Maui::Controls::ShellContent ^ shellContent);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : Microsoft.Maui.Controls.ShellContent -&gt; Microsoft.Maui.Controls.ShellSection" Usage="Microsoft.Maui.Controls.ShellSection.op_Implicit shellContent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::ShellSection ^(Microsoft::Maui::Controls::ShellContent ^ shellContent);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -886,8 +886,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Maui.Controls.ShellSection op_Implicit(class Microsoft.Maui.Controls.TemplatedPage page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ShellSection.op_Implicit(Microsoft.Maui.Controls.TemplatedPage)~Microsoft.Maui.Controls.ShellSection" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (page As TemplatedPage) As ShellSection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::ShellSection ^(Microsoft::Maui::Controls::TemplatedPage ^ page);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : Microsoft.Maui.Controls.TemplatedPage -&gt; Microsoft.Maui.Controls.ShellSection" Usage="Microsoft.Maui.Controls.ShellSection.op_Implicit page" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Controls::ShellSection ^(Microsoft::Maui::Controls::TemplatedPage ^ page);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -911,8 +911,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.Controls.Page&gt; Stack" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ShellSection.Stack" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Stack As IReadOnlyList(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ Stack { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Stack : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.ShellSection.Stack" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ Stack { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::Controls::Page ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FontFile extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.FontFile" />
   <TypeSignature Language="VB.NET" Value="Public Class FontFile" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FontFile" />
   <TypeSignature Language="F#" Value="type FontFile = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FontFile" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Extension" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.FontFile.Extension" />
       <MemberSignature Language="VB.NET" Value="Public Property Extension As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Extension { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Extension : string with get, set" Usage="Microsoft.Maui.FontFile.Extension" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Extension { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly string[] Extensions" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FontFile.Extensions" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Extensions As String() " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly cli::array &lt;System::String ^&gt; ^ Extensions;" />
       <MemberSignature Language="F#" Value=" staticval mutable Extensions : string[]" Usage="Microsoft.Maui.FontFile.Extensions" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly cli::array &lt;System::String ^&gt; ^ Extensions;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -87,8 +87,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.FontFile.FileName" />
       <MemberSignature Language="VB.NET" Value="Public Property FileName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FileName : string with get, set" Usage="Microsoft.Maui.FontFile.FileName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -110,8 +110,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string FileNameWithExtension() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.FontFile.FileNameWithExtension" />
       <MemberSignature Language="VB.NET" Value="Public Function FileNameWithExtension () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ FileNameWithExtension();" />
       <MemberSignature Language="F#" Value="member this.FileNameWithExtension : unit -&gt; string" Usage="fontFile.FileNameWithExtension " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ FileNameWithExtension();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -134,8 +134,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string FileNameWithExtension(string extension) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.FontFile.FileNameWithExtension(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function FileNameWithExtension (extension As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ FileNameWithExtension(System::String ^ extension);" />
       <MemberSignature Language="F#" Value="member this.FileNameWithExtension : string -&gt; string" Usage="fontFile.FileNameWithExtension extension" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ FileNameWithExtension(System::String ^ extension);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -161,8 +161,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.FontFile FromString(string input) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.FontFile.FromString(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromString (input As String) As FontFile" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::FontFile ^ FromString(System::String ^ input);" />
       <MemberSignature Language="F#" Value="static member FromString : string -&gt; Microsoft.Maui.FontFile" Usage="Microsoft.Maui.FontFile.FromString input" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::FontFile ^ FromString(System::String ^ input);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -189,8 +189,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetPostScriptNameWithSpaces() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.FontFile.GetPostScriptNameWithSpaces" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPostScriptNameWithSpaces () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetPostScriptNameWithSpaces();" />
       <MemberSignature Language="F#" Value="member this.GetPostScriptNameWithSpaces : unit -&gt; string" Usage="fontFile.GetPostScriptNameWithSpaces " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetPostScriptNameWithSpaces();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -213,8 +213,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string PostScriptName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.FontFile.PostScriptName" />
       <MemberSignature Language="VB.NET" Value="Public Property PostScriptName As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostScriptName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PostScriptName : string with get, set" Usage="Microsoft.Maui.FontFile.PostScriptName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostScriptName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

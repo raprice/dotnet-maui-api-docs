@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit BindableLayout extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.BindableLayout" />
   <TypeSignature Language="VB.NET" Value="Public Module BindableLayout" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BindableLayout abstract sealed" />
   <TypeSignature Language="F#" Value="type BindableLayout = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BindableLayout abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty EmptyViewProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BindableLayout.EmptyViewProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly EmptyViewProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ EmptyViewProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable EmptyViewProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BindableLayout.EmptyViewProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ EmptyViewProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -43,8 +43,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty EmptyViewTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BindableLayout.EmptyViewTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly EmptyViewTemplateProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ EmptyViewTemplateProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable EmptyViewTemplateProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BindableLayout.EmptyViewTemplateProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ EmptyViewTemplateProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -63,8 +63,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object GetEmptyView(class Microsoft.Maui.Controls.BindableObject b) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableLayout.GetEmptyView(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEmptyView (b As BindableObject) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ GetEmptyView(Microsoft::Maui::Controls::BindableObject ^ b);" />
       <MemberSignature Language="F#" Value="static member GetEmptyView : Microsoft.Maui.Controls.BindableObject -&gt; obj" Usage="Microsoft.Maui.Controls.BindableLayout.GetEmptyView b" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ GetEmptyView(Microsoft::Maui::Controls::BindableObject ^ b);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -88,8 +88,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.DataTemplate GetEmptyViewTemplate(class Microsoft.Maui.Controls.BindableObject b) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableLayout.GetEmptyViewTemplate(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEmptyViewTemplate (b As BindableObject) As DataTemplate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::DataTemplate ^ GetEmptyViewTemplate(Microsoft::Maui::Controls::BindableObject ^ b);" />
       <MemberSignature Language="F#" Value="static member GetEmptyViewTemplate : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.DataTemplate" Usage="Microsoft.Maui.Controls.BindableLayout.GetEmptyViewTemplate b" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::DataTemplate ^ GetEmptyViewTemplate(Microsoft::Maui::Controls::BindableObject ^ b);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -113,8 +113,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.IEnumerable GetItemsSource(class Microsoft.Maui.Controls.BindableObject b) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableLayout.GetItemsSource(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetItemsSource (b As BindableObject) As IEnumerable" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Collections::IEnumerable ^ GetItemsSource(Microsoft::Maui::Controls::BindableObject ^ b);" />
       <MemberSignature Language="F#" Value="static member GetItemsSource : Microsoft.Maui.Controls.BindableObject -&gt; System.Collections.IEnumerable" Usage="Microsoft.Maui.Controls.BindableLayout.GetItemsSource b" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Collections::IEnumerable ^ GetItemsSource(Microsoft::Maui::Controls::BindableObject ^ b);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -138,8 +138,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.DataTemplate GetItemTemplate(class Microsoft.Maui.Controls.BindableObject b) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableLayout.GetItemTemplate(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetItemTemplate (b As BindableObject) As DataTemplate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::DataTemplate ^ GetItemTemplate(Microsoft::Maui::Controls::BindableObject ^ b);" />
       <MemberSignature Language="F#" Value="static member GetItemTemplate : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.DataTemplate" Usage="Microsoft.Maui.Controls.BindableLayout.GetItemTemplate b" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::DataTemplate ^ GetItemTemplate(Microsoft::Maui::Controls::BindableObject ^ b);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -163,8 +163,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.DataTemplateSelector GetItemTemplateSelector(class Microsoft.Maui.Controls.BindableObject b) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableLayout.GetItemTemplateSelector(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetItemTemplateSelector (b As BindableObject) As DataTemplateSelector" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::DataTemplateSelector ^ GetItemTemplateSelector(Microsoft::Maui::Controls::BindableObject ^ b);" />
       <MemberSignature Language="F#" Value="static member GetItemTemplateSelector : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.DataTemplateSelector" Usage="Microsoft.Maui.Controls.BindableLayout.GetItemTemplateSelector b" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::DataTemplateSelector ^ GetItemTemplateSelector(Microsoft::Maui::Controls::BindableObject ^ b);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -188,8 +188,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ItemsSourceProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BindableLayout.ItemsSourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly ItemsSourceProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemsSourceProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ItemsSourceProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BindableLayout.ItemsSourceProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemsSourceProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -208,8 +208,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ItemTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BindableLayout.ItemTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly ItemTemplateProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemTemplateProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ItemTemplateProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BindableLayout.ItemTemplateProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemTemplateProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -228,8 +228,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ItemTemplateSelectorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BindableLayout.ItemTemplateSelectorProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly ItemTemplateSelectorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemTemplateSelectorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ItemTemplateSelectorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BindableLayout.ItemTemplateSelectorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemTemplateSelectorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -248,8 +248,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetEmptyView(class Microsoft.Maui.Controls.BindableObject b, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableLayout.SetEmptyView(Microsoft.Maui.Controls.BindableObject,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetEmptyView (b As BindableObject, value As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetEmptyView(Microsoft::Maui::Controls::BindableObject ^ b, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="static member SetEmptyView : Microsoft.Maui.Controls.BindableObject * obj -&gt; unit" Usage="Microsoft.Maui.Controls.BindableLayout.SetEmptyView (b, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetEmptyView(Microsoft::Maui::Controls::BindableObject ^ b, System::Object ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -274,8 +274,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetEmptyViewTemplate(class Microsoft.Maui.Controls.BindableObject b, class Microsoft.Maui.Controls.DataTemplate value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableLayout.SetEmptyViewTemplate(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.DataTemplate)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetEmptyViewTemplate (b As BindableObject, value As DataTemplate)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetEmptyViewTemplate(Microsoft::Maui::Controls::BindableObject ^ b, Microsoft::Maui::Controls::DataTemplate ^ value);" />
       <MemberSignature Language="F#" Value="static member SetEmptyViewTemplate : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.DataTemplate -&gt; unit" Usage="Microsoft.Maui.Controls.BindableLayout.SetEmptyViewTemplate (b, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetEmptyViewTemplate(Microsoft::Maui::Controls::BindableObject ^ b, Microsoft::Maui::Controls::DataTemplate ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -300,8 +300,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetItemsSource(class Microsoft.Maui.Controls.BindableObject b, class System.Collections.IEnumerable value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableLayout.SetItemsSource(Microsoft.Maui.Controls.BindableObject,System.Collections.IEnumerable)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetItemsSource (b As BindableObject, value As IEnumerable)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetItemsSource(Microsoft::Maui::Controls::BindableObject ^ b, System::Collections::IEnumerable ^ value);" />
       <MemberSignature Language="F#" Value="static member SetItemsSource : Microsoft.Maui.Controls.BindableObject * System.Collections.IEnumerable -&gt; unit" Usage="Microsoft.Maui.Controls.BindableLayout.SetItemsSource (b, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetItemsSource(Microsoft::Maui::Controls::BindableObject ^ b, System::Collections::IEnumerable ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -326,8 +326,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetItemTemplate(class Microsoft.Maui.Controls.BindableObject b, class Microsoft.Maui.Controls.DataTemplate value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableLayout.SetItemTemplate(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.DataTemplate)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetItemTemplate (b As BindableObject, value As DataTemplate)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetItemTemplate(Microsoft::Maui::Controls::BindableObject ^ b, Microsoft::Maui::Controls::DataTemplate ^ value);" />
       <MemberSignature Language="F#" Value="static member SetItemTemplate : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.DataTemplate -&gt; unit" Usage="Microsoft.Maui.Controls.BindableLayout.SetItemTemplate (b, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetItemTemplate(Microsoft::Maui::Controls::BindableObject ^ b, Microsoft::Maui::Controls::DataTemplate ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -352,8 +352,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetItemTemplateSelector(class Microsoft.Maui.Controls.BindableObject b, class Microsoft.Maui.Controls.DataTemplateSelector value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableLayout.SetItemTemplateSelector(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.DataTemplateSelector)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetItemTemplateSelector (b As BindableObject, value As DataTemplateSelector)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetItemTemplateSelector(Microsoft::Maui::Controls::BindableObject ^ b, Microsoft::Maui::Controls::DataTemplateSelector ^ value);" />
       <MemberSignature Language="F#" Value="static member SetItemTemplateSelector : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.DataTemplateSelector -&gt; unit" Usage="Microsoft.Maui.Controls.BindableLayout.SetItemTemplateSelector (b, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetItemTemplateSelector(Microsoft::Maui::Controls::BindableObject ^ b, Microsoft::Maui::Controls::DataTemplateSelector ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

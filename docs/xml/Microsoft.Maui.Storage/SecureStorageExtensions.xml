@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SecureStorageExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Storage.SecureStorageExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Class SecureStorageExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SecureStorageExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type SecureStorageExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SecureStorageExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

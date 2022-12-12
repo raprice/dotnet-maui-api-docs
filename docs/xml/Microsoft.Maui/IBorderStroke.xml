@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBorderStroke implements class Microsoft.Maui.IStroke" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IBorderStroke" />
   <TypeSignature Language="VB.NET" Value="Public Interface IBorderStroke&#xA;Implements IStroke" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IBorderStroke : Microsoft::Maui::IStroke" />
   <TypeSignature Language="F#" Value="type IBorderStroke = interface&#xA;    interface IStroke" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IBorderStroke : Microsoft::Maui::IStroke" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -26,8 +26,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.IShape Shape" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IBorderStroke.Shape" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shape As IShape" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IShape ^ Shape { Microsoft::Maui::Graphics::IShape ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Shape : Microsoft.Maui.Graphics.IShape" Usage="Microsoft.Maui.IBorderStroke.Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::IShape ^ Shape { Microsoft::Maui::Graphics::IShape ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

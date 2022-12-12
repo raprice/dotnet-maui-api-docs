@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit On extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.On" />
   <TypeSignature Language="VB.NET" Value="Public Class On" />
-  <TypeSignature Language="C++ CLI" Value="public ref class On" />
   <TypeSignature Language="F#" Value="type On = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class On" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Platform" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.On.Platform" />
       <MemberSignature Language="VB.NET" Value="Public Property Platform As IList(Of String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ Platform { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); void set(System::Collections::Generic::IList&lt;System::String ^&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Platform : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Microsoft.Maui.Controls.On.Platform" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ Platform { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); void set(System::Collections::Generic::IList&lt;System::String ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Value" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.On.Value" />
       <MemberSignature Language="VB.NET" Value="Public Property Value As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Value { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Value : obj with get, set" Usage="Microsoft.Maui.Controls.On.Value" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Value { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

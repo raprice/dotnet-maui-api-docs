@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStackLayout implements class Microsoft.Maui.IContainer, class Microsoft.Maui.IElement, class Microsoft.Maui.ILayout, class Microsoft.Maui.IPadding, class Microsoft.Maui.ISafeAreaView, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView, class System.Collections.Generic.ICollection`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.IView&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IStackLayout" />
   <TypeSignature Language="VB.NET" Value="Public Interface IStackLayout&#xA;Implements ICollection(Of IView), IEnumerable(Of IView), ILayout, IList(Of IView)" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IStackLayout : Microsoft::Maui::ILayout, System::Collections::Generic::ICollection&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::IView ^&gt;" />
   <TypeSignature Language="F#" Value="type IStackLayout = interface&#xA;    interface ILayout&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IContainer&#xA;    interface IList&lt;IView&gt;&#xA;    interface ICollection&lt;IView&gt;&#xA;    interface seq&lt;IView&gt;&#xA;    interface IEnumerable&#xA;    interface ISafeAreaView&#xA;    interface IPadding" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IStackLayout : Microsoft::Maui::ILayout, System::Collections::Generic::ICollection&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::IView ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Maui::IView ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Spacing" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IStackLayout.Spacing" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Spacing As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Spacing { double get(); };" />
       <MemberSignature Language="F#" Value="member this.Spacing : double" Usage="Microsoft.Maui.IStackLayout.Spacing" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Spacing { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

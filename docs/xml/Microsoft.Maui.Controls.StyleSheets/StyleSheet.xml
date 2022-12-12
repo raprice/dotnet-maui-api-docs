@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit StyleSheet extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.StyleSheets.StyleSheet" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class StyleSheet" />
-  <TypeSignature Language="C++ CLI" Value="public ref class StyleSheet sealed" />
   <TypeSignature Language="F#" Value="type StyleSheet = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StyleSheet sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.StyleSheets.StyleSheet FromReader(class System.IO.TextReader reader) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.StyleSheets.StyleSheet.FromReader(System.IO.TextReader)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromReader (reader As TextReader) As StyleSheet" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::StyleSheets::StyleSheet ^ FromReader(System::IO::TextReader ^ reader);" />
       <MemberSignature Language="F#" Value="static member FromReader : System.IO.TextReader -&gt; Microsoft.Maui.Controls.StyleSheets.StyleSheet" Usage="Microsoft.Maui.Controls.StyleSheets.StyleSheet.FromReader reader" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::StyleSheets::StyleSheet ^ FromReader(System::IO::TextReader ^ reader);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.StyleSheets.StyleSheet FromString(string stylesheet) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.StyleSheets.StyleSheet.FromString(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromString (stylesheet As String) As StyleSheet" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::StyleSheets::StyleSheet ^ FromString(System::String ^ stylesheet);" />
       <MemberSignature Language="F#" Value="static member FromString : string -&gt; Microsoft.Maui.Controls.StyleSheets.StyleSheet" Usage="Microsoft.Maui.Controls.StyleSheets.StyleSheet.FromString stylesheet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::StyleSheets::StyleSheet ^ FromString(System::String ^ stylesheet);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

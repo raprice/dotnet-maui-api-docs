@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Application extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application" />
   <TypeSignature Language="VB.NET" Value="Public Module Application" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Application abstract sealed" />
   <TypeSignature Language="F#" Value="type Application = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Application abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindablePropertyKey ActiveBezelInteractionElementPropertyKey" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.ActiveBezelInteractionElementPropertyKey" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly ActiveBezelInteractionElementPropertyKey As BindablePropertyKey " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindablePropertyKey ^ ActiveBezelInteractionElementPropertyKey;" />
       <MemberSignature Language="F#" Value=" staticval mutable ActiveBezelInteractionElementPropertyKey : Microsoft.Maui.Controls.BindablePropertyKey" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.ActiveBezelInteractionElementPropertyKey" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindablePropertyKey ^ ActiveBezelInteractionElementPropertyKey;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -43,8 +43,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.Element GetActiveBezelInteractionElement(class Microsoft.Maui.Controls.BindableObject application) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.GetActiveBezelInteractionElement(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetActiveBezelInteractionElement (application As BindableObject) As Element" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Element ^ GetActiveBezelInteractionElement(Microsoft::Maui::Controls::BindableObject ^ application);" />
       <MemberSignature Language="F#" Value="static member GetActiveBezelInteractionElement : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.Element" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.GetActiveBezelInteractionElement application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::Element ^ GetActiveBezelInteractionElement(Microsoft::Maui::Controls::BindableObject ^ application);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.Element GetActiveBezelInteractionElement(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Tizen, class Microsoft.Maui.Controls.Application&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.GetActiveBezelInteractionElement(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Tizen,Microsoft.Maui.Controls.Application})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetActiveBezelInteractionElement (config As IPlatformElementConfiguration(Of Tizen, Application)) As Element" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::Element ^ GetActiveBezelInteractionElement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetActiveBezelInteractionElement : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Tizen, Microsoft.Maui.Controls.Application&gt; -&gt; Microsoft.Maui.Controls.Element" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.GetActiveBezelInteractionElement config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::Element ^ GetActiveBezelInteractionElement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.View GetOverlayContent(class Microsoft.Maui.Controls.BindableObject application) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.GetOverlayContent(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetOverlayContent (application As BindableObject) As View" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::View ^ GetOverlayContent(Microsoft::Maui::Controls::BindableObject ^ application);" />
       <MemberSignature Language="F#" Value="static member GetOverlayContent : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.View" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.GetOverlayContent application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::View ^ GetOverlayContent(Microsoft::Maui::Controls::BindableObject ^ application);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -118,8 +118,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.View GetOverlayContent(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Tizen, class Microsoft.Maui.Controls.Application&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.GetOverlayContent(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Tizen,Microsoft.Maui.Controls.Application})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetOverlayContent (config As IPlatformElementConfiguration(Of Tizen, Application)) As View" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::View ^ GetOverlayContent(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetOverlayContent : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Tizen, Microsoft.Maui.Controls.Application&gt; -&gt; Microsoft.Maui.Controls.View" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.GetOverlayContent config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::View ^ GetOverlayContent(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -143,8 +143,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetUseBezelInteraction(class Microsoft.Maui.Controls.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.GetUseBezelInteraction(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetUseBezelInteraction (element As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetUseBezelInteraction(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberSignature Language="F#" Value="static member GetUseBezelInteraction : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.GetUseBezelInteraction element" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetUseBezelInteraction(Microsoft::Maui::Controls::BindableObject ^ element);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -168,8 +168,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetUseBezelInteraction(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Tizen, class Microsoft.Maui.Controls.Application&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.GetUseBezelInteraction(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Tizen,Microsoft.Maui.Controls.Application})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetUseBezelInteraction (config As IPlatformElementConfiguration(Of Tizen, Application)) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetUseBezelInteraction(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ config);" />
       <MemberSignature Language="F#" Value="static member GetUseBezelInteraction : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Tizen, Microsoft.Maui.Controls.Application&gt; -&gt; bool" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.GetUseBezelInteraction config" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetUseBezelInteraction(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ config);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -193,8 +193,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty OverlayContentProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.OverlayContentProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly OverlayContentProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ OverlayContentProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable OverlayContentProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.OverlayContentProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ OverlayContentProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -213,8 +213,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetActiveBezelInteractionElement(class Microsoft.Maui.Controls.BindableObject application, class Microsoft.Maui.Controls.Element value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.SetActiveBezelInteractionElement(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.Element)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetActiveBezelInteractionElement (application As BindableObject, value As Element)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetActiveBezelInteractionElement(Microsoft::Maui::Controls::BindableObject ^ application, Microsoft::Maui::Controls::Element ^ value);" />
       <MemberSignature Language="F#" Value="static member SetActiveBezelInteractionElement : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.Element -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.SetActiveBezelInteractionElement (application, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetActiveBezelInteractionElement(Microsoft::Maui::Controls::BindableObject ^ application, Microsoft::Maui::Controls::Element ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -245,8 +245,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Tizen, class Microsoft.Maui.Controls.Application&gt; SetActiveBezelInteractionElement(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Tizen, class Microsoft.Maui.Controls.Application&gt; config, class Microsoft.Maui.Controls.Element value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.SetActiveBezelInteractionElement(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Tizen,Microsoft.Maui.Controls.Application},Microsoft.Maui.Controls.Element)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetActiveBezelInteractionElement (config As IPlatformElementConfiguration(Of Tizen, Application), value As Element) As IPlatformElementConfiguration(Of Tizen, Application)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ SetActiveBezelInteractionElement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ config, Microsoft::Maui::Controls::Element ^ value);" />
       <MemberSignature Language="F#" Value="static member SetActiveBezelInteractionElement : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Tizen, Microsoft.Maui.Controls.Application&gt; * Microsoft.Maui.Controls.Element -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Tizen, Microsoft.Maui.Controls.Application&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.SetActiveBezelInteractionElement (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ SetActiveBezelInteractionElement(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ config, Microsoft::Maui::Controls::Element ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -278,8 +278,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetOverlayContent(class Microsoft.Maui.Controls.BindableObject application, class Microsoft.Maui.Controls.View value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.SetOverlayContent(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.View)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetOverlayContent (application As BindableObject, value As View)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetOverlayContent(Microsoft::Maui::Controls::BindableObject ^ application, Microsoft::Maui::Controls::View ^ value);" />
       <MemberSignature Language="F#" Value="static member SetOverlayContent : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.View -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.SetOverlayContent (application, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetOverlayContent(Microsoft::Maui::Controls::BindableObject ^ application, Microsoft::Maui::Controls::View ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -304,8 +304,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Tizen, class Microsoft.Maui.Controls.Application&gt; SetOverlayContent(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Tizen, class Microsoft.Maui.Controls.Application&gt; config, class Microsoft.Maui.Controls.View value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.SetOverlayContent(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Tizen,Microsoft.Maui.Controls.Application},Microsoft.Maui.Controls.View)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetOverlayContent (config As IPlatformElementConfiguration(Of Tizen, Application), value As View) As IPlatformElementConfiguration(Of Tizen, Application)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ SetOverlayContent(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ config, Microsoft::Maui::Controls::View ^ value);" />
       <MemberSignature Language="F#" Value="static member SetOverlayContent : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Tizen, Microsoft.Maui.Controls.Application&gt; * Microsoft.Maui.Controls.View -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Tizen, Microsoft.Maui.Controls.Application&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.SetOverlayContent (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ SetOverlayContent(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ config, Microsoft::Maui::Controls::View ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -331,8 +331,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetUseBezelInteraction(class Microsoft.Maui.Controls.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.SetUseBezelInteraction(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetUseBezelInteraction (element As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetUseBezelInteraction(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberSignature Language="F#" Value="static member SetUseBezelInteraction : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.SetUseBezelInteraction (element, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetUseBezelInteraction(Microsoft::Maui::Controls::BindableObject ^ element, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -357,8 +357,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Tizen, class Microsoft.Maui.Controls.Application&gt; SetUseBezelInteraction(class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;class Microsoft.Maui.Controls.PlatformConfiguration.Tizen, class Microsoft.Maui.Controls.Application&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.SetUseBezelInteraction(Microsoft.Maui.Controls.IPlatformElementConfiguration{Microsoft.Maui.Controls.PlatformConfiguration.Tizen,Microsoft.Maui.Controls.Application},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetUseBezelInteraction (config As IPlatformElementConfiguration(Of Tizen, Application), value As Boolean) As IPlatformElementConfiguration(Of Tizen, Application)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ SetUseBezelInteraction(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ config, bool value);" />
       <MemberSignature Language="F#" Value="static member SetUseBezelInteraction : Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Tizen, Microsoft.Maui.Controls.Application&gt; * bool -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;Microsoft.Maui.Controls.PlatformConfiguration.Tizen, Microsoft.Maui.Controls.Application&gt;" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.SetUseBezelInteraction (config, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ SetUseBezelInteraction(Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;Microsoft::Maui::Controls::PlatformConfiguration::Tizen ^, Microsoft::Maui::Controls::Application ^&gt; ^ config, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -384,8 +384,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty UseBezelInteractionProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.UseBezelInteractionProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly UseBezelInteractionProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ UseBezelInteractionProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable UseBezelInteractionProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific.Application.UseBezelInteractionProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ UseBezelInteractionProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed KeyboardFlags extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.KeyboardFlags" />
   <TypeSignature Language="VB.NET" Value="Public Enum KeyboardFlags" />
-  <TypeSignature Language="C++ CLI" Value="public enum class KeyboardFlags" />
   <TypeSignature Language="F#" Value="type KeyboardFlags = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class KeyboardFlags" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -28,8 +28,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.KeyboardFlags All = int32(-1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.KeyboardFlags.All" />
       <MemberSignature Language="VB.NET" Value="All" />
-      <MemberSignature Language="C++ CLI" Value="All" />
       <MemberSignature Language="F#" Value="All = -1" Usage="Microsoft.Maui.KeyboardFlags.All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.KeyboardFlags CapitalizeCharacter = int32(16)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.KeyboardFlags.CapitalizeCharacter" />
       <MemberSignature Language="VB.NET" Value="CapitalizeCharacter" />
-      <MemberSignature Language="C++ CLI" Value="CapitalizeCharacter" />
       <MemberSignature Language="F#" Value="CapitalizeCharacter = 16" Usage="Microsoft.Maui.KeyboardFlags.CapitalizeCharacter" />
+      <MemberSignature Language="C++ CLI" Value="CapitalizeCharacter" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.KeyboardFlags CapitalizeNone = int32(32)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.KeyboardFlags.CapitalizeNone" />
       <MemberSignature Language="VB.NET" Value="CapitalizeNone" />
-      <MemberSignature Language="C++ CLI" Value="CapitalizeNone" />
       <MemberSignature Language="F#" Value="CapitalizeNone = 32" Usage="Microsoft.Maui.KeyboardFlags.CapitalizeNone" />
+      <MemberSignature Language="C++ CLI" Value="CapitalizeNone" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -88,8 +88,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.KeyboardFlags CapitalizeSentence = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.KeyboardFlags.CapitalizeSentence" />
       <MemberSignature Language="VB.NET" Value="CapitalizeSentence" />
-      <MemberSignature Language="C++ CLI" Value="CapitalizeSentence" />
       <MemberSignature Language="F#" Value="CapitalizeSentence = 1" Usage="Microsoft.Maui.KeyboardFlags.CapitalizeSentence" />
+      <MemberSignature Language="C++ CLI" Value="CapitalizeSentence" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -108,8 +108,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.KeyboardFlags CapitalizeWord = int32(8)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.KeyboardFlags.CapitalizeWord" />
       <MemberSignature Language="VB.NET" Value="CapitalizeWord" />
-      <MemberSignature Language="C++ CLI" Value="CapitalizeWord" />
       <MemberSignature Language="F#" Value="CapitalizeWord = 8" Usage="Microsoft.Maui.KeyboardFlags.CapitalizeWord" />
+      <MemberSignature Language="C++ CLI" Value="CapitalizeWord" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -128,8 +128,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.KeyboardFlags None = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.KeyboardFlags.None" />
       <MemberSignature Language="VB.NET" Value="None" />
-      <MemberSignature Language="C++ CLI" Value="None" />
       <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Maui.KeyboardFlags.None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -148,8 +148,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.KeyboardFlags Spellcheck = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.KeyboardFlags.Spellcheck" />
       <MemberSignature Language="VB.NET" Value="Spellcheck" />
-      <MemberSignature Language="C++ CLI" Value="Spellcheck" />
       <MemberSignature Language="F#" Value="Spellcheck = 2" Usage="Microsoft.Maui.KeyboardFlags.Spellcheck" />
+      <MemberSignature Language="C++ CLI" Value="Spellcheck" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -168,8 +168,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.KeyboardFlags Suggestions = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.KeyboardFlags.Suggestions" />
       <MemberSignature Language="VB.NET" Value="Suggestions" />
-      <MemberSignature Language="C++ CLI" Value="Suggestions" />
       <MemberSignature Language="F#" Value="Suggestions = 4" Usage="Microsoft.Maui.KeyboardFlags.Suggestions" />
+      <MemberSignature Language="C++ CLI" Value="Suggestions" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

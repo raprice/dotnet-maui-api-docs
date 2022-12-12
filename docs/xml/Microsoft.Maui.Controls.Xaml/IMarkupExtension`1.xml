@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMarkupExtension`1&lt;+ T&gt; implements class Microsoft.Maui.Controls.Xaml.IMarkupExtension" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.IMarkupExtension`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMarkupExtension(Of Out T)&#xA;Implements IMarkupExtension" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public interface class IMarkupExtension : Microsoft::Maui::Controls::Xaml::IMarkupExtension" />
   <TypeSignature Language="F#" Value="type IMarkupExtension&lt;'T&gt; = interface&#xA;    interface IMarkupExtension" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public interface class IMarkupExtension : Microsoft::Maui::Controls::Xaml::IMarkupExtension" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

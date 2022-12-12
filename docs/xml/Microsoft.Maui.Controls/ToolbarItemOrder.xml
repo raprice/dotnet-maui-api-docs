@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ToolbarItemOrder extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ToolbarItemOrder" />
   <TypeSignature Language="VB.NET" Value="Public Enum ToolbarItemOrder" />
-  <TypeSignature Language="C++ CLI" Value="public enum class ToolbarItemOrder" />
   <TypeSignature Language="F#" Value="type ToolbarItemOrder = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class ToolbarItemOrder" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.ToolbarItemOrder Default = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ToolbarItemOrder.Default" />
       <MemberSignature Language="VB.NET" Value="Default" />
-      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.Maui.Controls.ToolbarItemOrder.Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.ToolbarItemOrder Primary = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ToolbarItemOrder.Primary" />
       <MemberSignature Language="VB.NET" Value="Primary" />
-      <MemberSignature Language="C++ CLI" Value="Primary" />
       <MemberSignature Language="F#" Value="Primary = 1" Usage="Microsoft.Maui.Controls.ToolbarItemOrder.Primary" />
+      <MemberSignature Language="C++ CLI" Value="Primary" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.ToolbarItemOrder Secondary = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ToolbarItemOrder.Secondary" />
       <MemberSignature Language="VB.NET" Value="Secondary" />
-      <MemberSignature Language="C++ CLI" Value="Secondary" />
       <MemberSignature Language="F#" Value="Secondary = 2" Usage="Microsoft.Maui.Controls.ToolbarItemOrder.Secondary" />
+      <MemberSignature Language="C++ CLI" Value="Secondary" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

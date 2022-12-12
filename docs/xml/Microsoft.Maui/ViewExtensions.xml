@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ViewExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ViewExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module ViewExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ViewExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type ViewExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ViewExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Media.IScreenshotResult&gt; CaptureAsync(class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ViewExtensions.CaptureAsync(Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CaptureAsync (view As IView) As Task(Of IScreenshotResult)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::Media::IScreenshotResult ^&gt; ^ CaptureAsync(Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="static member CaptureAsync : Microsoft.Maui.IView -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Media.IScreenshotResult&gt;" Usage="Microsoft.Maui.ViewExtensions.CaptureAsync view" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::Media::IScreenshotResult ^&gt; ^ CaptureAsync(Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

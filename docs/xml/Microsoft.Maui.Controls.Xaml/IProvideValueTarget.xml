@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IProvideValueTarget" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.IProvideValueTarget" />
   <TypeSignature Language="VB.NET" Value="Public Interface IProvideValueTarget" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IProvideValueTarget" />
   <TypeSignature Language="F#" Value="type IProvideValueTarget = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IProvideValueTarget" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object TargetObject" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.IProvideValueTarget.TargetObject" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TargetObject As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TargetObject { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.TargetObject : obj" Usage="Microsoft.Maui.Controls.Xaml.IProvideValueTarget.TargetObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TargetObject { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -41,8 +41,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object TargetProperty" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.IProvideValueTarget.TargetProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TargetProperty As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TargetProperty { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.TargetProperty : obj" Usage="Microsoft.Maui.Controls.Xaml.IProvideValueTarget.TargetProperty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TargetProperty { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

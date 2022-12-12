@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ImageSourcePartLoader extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Platform.ImageSourcePartLoader" />
   <TypeSignature Language="VB.NET" Value="Public Class ImageSourcePartLoader" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ImageSourcePartLoader" />
   <TypeSignature Language="F#" Value="type ImageSourcePartLoader = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImageSourcePartLoader" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IElementHandler handler, class System.Func`1&lt;class Microsoft.Maui.IImageSourcePart&gt; imageSourcePart, class System.Action`1&lt;object&gt; setImage) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Platform.ImageSourcePartLoader.#ctor(Microsoft.Maui.IElementHandler,System.Func{Microsoft.Maui.IImageSourcePart},System.Action{System.Object})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (handler As IElementHandler, imageSourcePart As Func(Of IImageSourcePart), setImage As Action(Of Object))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ImageSourcePartLoader(Microsoft::Maui::IElementHandler ^ handler, Func&lt;Microsoft::Maui::IImageSourcePart ^&gt; ^ imageSourcePart, Action&lt;System::Object ^&gt; ^ setImage);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Platform.ImageSourcePartLoader : Microsoft.Maui.IElementHandler * Func&lt;Microsoft.Maui.IImageSourcePart&gt; * Action&lt;obj&gt; -&gt; Microsoft.Maui.Platform.ImageSourcePartLoader" Usage="new Microsoft.Maui.Platform.ImageSourcePartLoader (handler, imageSourcePart, setImage)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ImageSourcePartLoader(Microsoft::Maui::IElementHandler ^ handler, Func&lt;Microsoft::Maui::IImageSourcePart ^&gt; ^ imageSourcePart, Action&lt;System::Object ^&gt; ^ setImage);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Reset() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Platform.ImageSourcePartLoader.Reset" />
       <MemberSignature Language="VB.NET" Value="Public Sub Reset ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reset();" />
       <MemberSignature Language="F#" Value="member this.Reset : unit -&gt; unit" Usage="imageSourcePartLoader.Reset " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reset();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task UpdateImageSourceAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Platform.ImageSourcePartLoader.UpdateImageSourceAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function UpdateImageSourceAsync () As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ UpdateImageSourceAsync();" />
       <MemberSignature Language="F#" Value="member this.UpdateImageSourceAsync : unit -&gt; System.Threading.Tasks.Task" Usage="imageSourcePartLoader.UpdateImageSourceAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ UpdateImageSourceAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

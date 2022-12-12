@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TwoPaneViewMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Foldable.TwoPaneViewMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum TwoPaneViewMode" />
-  <TypeSignature Language="C++ CLI" Value="public enum class TwoPaneViewMode" />
   <TypeSignature Language="F#" Value="type TwoPaneViewMode = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class TwoPaneViewMode" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -24,8 +24,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.Foldable.TwoPaneViewMode SinglePane = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneViewMode.SinglePane" />
       <MemberSignature Language="VB.NET" Value="SinglePane" />
-      <MemberSignature Language="C++ CLI" Value="SinglePane" />
       <MemberSignature Language="F#" Value="SinglePane = 0" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneViewMode.SinglePane" />
+      <MemberSignature Language="C++ CLI" Value="SinglePane" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.Foldable.TwoPaneViewMode Tall = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneViewMode.Tall" />
       <MemberSignature Language="VB.NET" Value="Tall" />
-      <MemberSignature Language="C++ CLI" Value="Tall" />
       <MemberSignature Language="F#" Value="Tall = 2" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneViewMode.Tall" />
+      <MemberSignature Language="C++ CLI" Value="Tall" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.Foldable.TwoPaneViewMode Wide = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Foldable.TwoPaneViewMode.Wide" />
       <MemberSignature Language="VB.NET" Value="Wide" />
-      <MemberSignature Language="C++ CLI" Value="Wide" />
       <MemberSignature Language="F#" Value="Wide = 1" Usage="Microsoft.Maui.Controls.Foldable.TwoPaneViewMode.Wide" />
+      <MemberSignature Language="C++ CLI" Value="Wide" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Foldable</AssemblyName>

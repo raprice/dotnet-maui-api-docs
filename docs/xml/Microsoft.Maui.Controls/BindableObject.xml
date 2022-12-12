@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit BindableObject extends System.Object implements class Microsoft.Maui.Controls.Internals.IDynamicResourceHandler, class System.ComponentModel.INotifyPropertyChanged" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.BindableObject" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class BindableObject&#xA;Implements IDynamicResourceHandler, INotifyPropertyChanged" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BindableObject abstract : Microsoft::Maui::Controls::Internals::IDynamicResourceHandler, System::ComponentModel::INotifyPropertyChanged" />
   <TypeSignature Language="F#" Value="type BindableObject = class&#xA;    interface INotifyPropertyChanged&#xA;    interface IDynamicResourceHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BindableObject abstract : Microsoft::Maui::Controls::Internals::IDynamicResourceHandler, System::ComponentModel::INotifyPropertyChanged" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -135,8 +135,8 @@ public static void OneWayDemo ()
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void ApplyBindings() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.ApplyBindings" />
       <MemberSignature Language="VB.NET" Value="Protected Sub ApplyBindings ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void ApplyBindings();" />
       <MemberSignature Language="F#" Value="member this.ApplyBindings : unit -&gt; unit" Usage="bindableObject.ApplyBindings " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void ApplyBindings();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -156,8 +156,8 @@ public static void OneWayDemo ()
       <MemberSignature Language="ILAsm" Value=".property instance object BindingContext" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BindableObject.BindingContext" />
       <MemberSignature Language="VB.NET" Value="Public Property BindingContext As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ BindingContext { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BindingContext : obj with get, set" Usage="Microsoft.Maui.Controls.BindableObject.BindingContext" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ BindingContext { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -188,8 +188,8 @@ Debug.WriteLine (label.Text); // prints "John Doe"
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler BindingContextChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.BindableObject.BindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event BindingContextChanged As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ BindingContextChanged;" />
       <MemberSignature Language="F#" Value="member this.BindingContextChanged : EventHandler " Usage="member this.BindingContextChanged : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ BindingContextChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -208,8 +208,8 @@ Debug.WriteLine (label.Text); // prints "John Doe"
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BindingContextProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.BindableObject.BindingContextProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BindingContextProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BindingContextProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BindingContextProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.BindableObject.BindingContextProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BindingContextProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -254,8 +254,8 @@ stack.BindingContext = new {Jane = new {Name = "Jane Doe"}, John = new {Name = "
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ClearValue(class Microsoft.Maui.Controls.BindableProperty property) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ClearValue (property As BindableProperty)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearValue(Microsoft::Maui::Controls::BindableProperty ^ property);" />
       <MemberSignature Language="F#" Value="member this.ClearValue : Microsoft.Maui.Controls.BindableProperty -&gt; unit" Usage="bindableObject.ClearValue property" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearValue(Microsoft::Maui::Controls::BindableProperty ^ property);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -280,8 +280,8 @@ stack.BindingContext = new {Jane = new {Name = "Jane Doe"}, John = new {Name = "
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ClearValue(class Microsoft.Maui.Controls.BindablePropertyKey propertyKey) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ClearValue (propertyKey As BindablePropertyKey)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearValue(Microsoft::Maui::Controls::BindablePropertyKey ^ propertyKey);" />
       <MemberSignature Language="F#" Value="member this.ClearValue : Microsoft.Maui.Controls.BindablePropertyKey -&gt; unit" Usage="bindableObject.ClearValue propertyKey" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearValue(Microsoft::Maui::Controls::BindablePropertyKey ^ propertyKey);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -306,8 +306,8 @@ stack.BindingContext = new {Jane = new {Name = "Jane Doe"}, John = new {Name = "
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CoerceValue(class Microsoft.Maui.Controls.BindableProperty property) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CoerceValue (property As BindableProperty)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CoerceValue(Microsoft::Maui::Controls::BindableProperty ^ property);" />
       <MemberSignature Language="F#" Value="member this.CoerceValue : Microsoft.Maui.Controls.BindableProperty -&gt; unit" Usage="bindableObject.CoerceValue property" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CoerceValue(Microsoft::Maui::Controls::BindableProperty ^ property);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -330,8 +330,8 @@ stack.BindingContext = new {Jane = new {Name = "Jane Doe"}, John = new {Name = "
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CoerceValue(class Microsoft.Maui.Controls.BindablePropertyKey propertyKey) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CoerceValue (propertyKey As BindablePropertyKey)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CoerceValue(Microsoft::Maui::Controls::BindablePropertyKey ^ propertyKey);" />
       <MemberSignature Language="F#" Value="member this.CoerceValue : Microsoft.Maui.Controls.BindablePropertyKey -&gt; unit" Usage="bindableObject.CoerceValue propertyKey" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CoerceValue(Microsoft::Maui::Controls::BindablePropertyKey ^ propertyKey);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -354,8 +354,8 @@ stack.BindingContext = new {Jane = new {Name = "Jane Doe"}, John = new {Name = "
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Dispatching.IDispatcher Dispatcher" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.BindableObject.Dispatcher" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dispatcher As IDispatcher" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Dispatching::IDispatcher ^ Dispatcher { Microsoft::Maui::Dispatching::IDispatcher ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Dispatcher : Microsoft.Maui.Dispatching.IDispatcher" Usage="Microsoft.Maui.Controls.BindableObject.Dispatcher" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Dispatching::IDispatcher ^ Dispatcher { Microsoft::Maui::Dispatching::IDispatcher ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -375,8 +375,8 @@ stack.BindingContext = new {Jane = new {Name = "Jane Doe"}, John = new {Name = "
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object GetValue(class Microsoft.Maui.Controls.BindableProperty property) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetValue (property As BindableProperty) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetValue(Microsoft::Maui::Controls::BindableProperty ^ property);" />
       <MemberSignature Language="F#" Value="member this.GetValue : Microsoft.Maui.Controls.BindableProperty -&gt; obj" Usage="bindableObject.GetValue property" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetValue(Microsoft::Maui::Controls::BindableProperty ^ property);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -418,8 +418,8 @@ class MyBindable : BindableObject
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsSet(class Microsoft.Maui.Controls.BindableProperty targetProperty) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)" />
       <MemberSignature Language="VB.NET" Value="Public Function IsSet (targetProperty As BindableProperty) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsSet(Microsoft::Maui::Controls::BindableProperty ^ targetProperty);" />
       <MemberSignature Language="F#" Value="member this.IsSet : Microsoft.Maui.Controls.BindableProperty -&gt; bool" Usage="bindableObject.IsSet targetProperty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsSet(Microsoft::Maui::Controls::BindableProperty ^ targetProperty);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -444,8 +444,8 @@ class MyBindable : BindableObject
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.Internals.IDynamicResourceHandler.SetDynamicResource(class Microsoft.Maui.Controls.BindableProperty property, string key) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.Microsoft#Maui#Controls#Internals#IDynamicResourceHandler#SetDynamicResource(Microsoft.Maui.Controls.BindableProperty,System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub SetDynamicResource (property As BindableProperty, key As String) Implements IDynamicResourceHandler.SetDynamicResource" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IDynamicResourceHandler.SetDynamicResource(Microsoft::Maui::Controls::BindableProperty ^ property, System::String ^ key) = Microsoft::Maui::Controls::Internals::IDynamicResourceHandler::SetDynamicResource;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Internals.IDynamicResourceHandler.SetDynamicResource : Microsoft.Maui.Controls.BindableProperty * string -&gt; unit&#xA;override this.Microsoft.Maui.Controls.Internals.IDynamicResourceHandler.SetDynamicResource : Microsoft.Maui.Controls.BindableProperty * string -&gt; unit" Usage="bindableObject.Microsoft.Maui.Controls.Internals.IDynamicResourceHandler.SetDynamicResource (property, key)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.Controls.Internals.IDynamicResourceHandler.SetDynamicResource(Microsoft::Maui::Controls::BindableProperty ^ property, System::String ^ key) = Microsoft::Maui::Controls::Internals::IDynamicResourceHandler::SetDynamicResource;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Internals.IDynamicResourceHandler.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty,System.String)</InterfaceMember>
@@ -473,8 +473,8 @@ class MyBindable : BindableObject
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnBindingContextChanged ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnBindingContextChanged();" />
       <MemberSignature Language="F#" Value="abstract member OnBindingContextChanged : unit -&gt; unit&#xA;override this.OnBindingContextChanged : unit -&gt; unit" Usage="bindableObject.OnBindingContextChanged " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnBindingContextChanged();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -554,8 +554,8 @@ class MyBindable : BindableObject
       <MemberSignature Language="ILAsm" Value=".event class System.ComponentModel.PropertyChangedEventHandler PropertyChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.BindableObject.PropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event PropertyChanged As PropertyChangedEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::ComponentModel::PropertyChangedEventHandler ^ PropertyChanged;" />
       <MemberSignature Language="F#" Value="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " Usage="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::ComponentModel::PropertyChangedEventHandler ^ PropertyChanged;" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged</InterfaceMember>
@@ -577,8 +577,8 @@ class MyBindable : BindableObject
       <MemberSignature Language="ILAsm" Value=".event class Microsoft.Maui.Controls.PropertyChangingEventHandler PropertyChanging" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.BindableObject.PropertyChanging" />
       <MemberSignature Language="VB.NET" Value="Public Event PropertyChanging As PropertyChangingEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Maui::Controls::PropertyChangingEventHandler ^ PropertyChanging;" />
       <MemberSignature Language="F#" Value="member this.PropertyChanging : Microsoft.Maui.Controls.PropertyChangingEventHandler " Usage="member this.PropertyChanging : Microsoft.Maui.Controls.PropertyChangingEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Maui::Controls::PropertyChangingEventHandler ^ PropertyChanging;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -597,8 +597,8 @@ class MyBindable : BindableObject
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveBinding(class Microsoft.Maui.Controls.BindableProperty property) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveBinding (property As BindableProperty)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveBinding(Microsoft::Maui::Controls::BindableProperty ^ property);" />
       <MemberSignature Language="F#" Value="member this.RemoveBinding : Microsoft.Maui.Controls.BindableProperty -&gt; unit" Usage="bindableObject.RemoveBinding property" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveBinding(Microsoft::Maui::Controls::BindableProperty ^ property);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -623,8 +623,8 @@ class MyBindable : BindableObject
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetBinding(class Microsoft.Maui.Controls.BindableProperty targetProperty, class Microsoft.Maui.Controls.BindingBase binding) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetBinding (targetProperty As BindableProperty, binding As BindingBase)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetBinding(Microsoft::Maui::Controls::BindableProperty ^ targetProperty, Microsoft::Maui::Controls::BindingBase ^ binding);" />
       <MemberSignature Language="F#" Value="member this.SetBinding : Microsoft.Maui.Controls.BindableProperty * Microsoft.Maui.Controls.BindingBase -&gt; unit" Usage="bindableObject.SetBinding (targetProperty, binding)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetBinding(Microsoft::Maui::Controls::BindableProperty ^ targetProperty, Microsoft::Maui::Controls::BindingBase ^ binding);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -663,8 +663,8 @@ Debug.WriteLine (label.Text); // prints "John Doe"
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetInheritedBindingContext(class Microsoft.Maui.Controls.BindableObject bindable, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.SetInheritedBindingContext(Microsoft.Maui.Controls.BindableObject,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetInheritedBindingContext (bindable As BindableObject, value As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetInheritedBindingContext(Microsoft::Maui::Controls::BindableObject ^ bindable, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="static member SetInheritedBindingContext : Microsoft.Maui.Controls.BindableObject * obj -&gt; unit" Usage="Microsoft.Maui.Controls.BindableObject.SetInheritedBindingContext (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetInheritedBindingContext(Microsoft::Maui::Controls::BindableObject ^ bindable, System::Object ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -695,8 +695,8 @@ Debug.WriteLine (label.Text); // prints "John Doe"
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetValue(class Microsoft.Maui.Controls.BindableProperty property, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetValue (property As BindableProperty, value As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetValue(Microsoft::Maui::Controls::BindableProperty ^ property, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="member this.SetValue : Microsoft.Maui.Controls.BindableProperty * obj -&gt; unit" Usage="bindableObject.SetValue (property, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetValue(Microsoft::Maui::Controls::BindableProperty ^ property, System::Object ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -739,8 +739,8 @@ class MyBindable : BindableObject
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetValue(class Microsoft.Maui.Controls.BindablePropertyKey propertyKey, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetValue (propertyKey As BindablePropertyKey, value As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetValue(Microsoft::Maui::Controls::BindablePropertyKey ^ propertyKey, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="member this.SetValue : Microsoft.Maui.Controls.BindablePropertyKey * obj -&gt; unit" Usage="bindableObject.SetValue (propertyKey, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetValue(Microsoft::Maui::Controls::BindablePropertyKey ^ propertyKey, System::Object ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -816,8 +816,8 @@ class MyBindable : BindableObject
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void UnapplyBindings() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObject.UnapplyBindings" />
       <MemberSignature Language="VB.NET" Value="Protected Sub UnapplyBindings ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void UnapplyBindings();" />
       <MemberSignature Language="F#" Value="member this.UnapplyBindings : unit -&gt; unit" Usage="bindableObject.UnapplyBindings " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void UnapplyBindings();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

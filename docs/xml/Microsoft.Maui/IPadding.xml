@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPadding" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IPadding" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPadding" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IPadding" />
   <TypeSignature Language="F#" Value="type IPadding = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPadding" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Thickness Padding" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IPadding.Padding" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Padding As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Thickness Padding { Microsoft::Maui::Thickness get(); };" />
       <MemberSignature Language="F#" Value="member this.Padding : Microsoft.Maui.Thickness" Usage="Microsoft.Maui.IPadding.Padding" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Thickness Padding { Microsoft::Maui::Thickness get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

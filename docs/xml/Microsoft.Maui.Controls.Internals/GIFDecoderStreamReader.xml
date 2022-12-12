@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GIFDecoderStreamReader extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader" />
   <TypeSignature Language="VB.NET" Value="Public Class GIFDecoderStreamReader" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GIFDecoderStreamReader" />
   <TypeSignature Language="F#" Value="type GIFDecoderStreamReader = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GIFDecoderStreamReader" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.Stream stream) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader.#ctor(System.IO.Stream)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (stream As Stream)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; GIFDecoderStreamReader(System::IO::Stream ^ stream);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader : System.IO.Stream -&gt; Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader" Usage="new Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader stream" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GIFDecoderStreamReader(System::IO::Stream ^ stream);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] CurrentBlockBuffer" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader.CurrentBlockBuffer" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentBlockBuffer As Byte()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ CurrentBlockBuffer { cli::array &lt;System::Byte&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.CurrentBlockBuffer : byte[]" Usage="Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader.CurrentBlockBuffer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ CurrentBlockBuffer { cli::array &lt;System::Byte&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -65,8 +65,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 CurrentBlockSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader.CurrentBlockSize" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentBlockSize As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CurrentBlockSize { int get(); };" />
       <MemberSignature Language="F#" Value="member this.CurrentBlockSize : int" Usage="Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader.CurrentBlockSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CurrentBlockSize { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int64 CurrentPosition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader.CurrentPosition" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentPosition As Long" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long CurrentPosition { long get(); };" />
       <MemberSignature Language="F#" Value="member this.CurrentPosition : int64" Usage="Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader.CurrentPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long CurrentPosition { long get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 Read() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader.Read" />
       <MemberSignature Language="VB.NET" Value="Public Function Read () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Read();" />
       <MemberSignature Language="F#" Value="member this.Read : unit -&gt; int" Usage="gIFDecoderStreamReader.Read " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Read();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -129,8 +129,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;int32&gt; ReadAsync(unsigned int8[] buffer, int32 toRead) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader.ReadAsync(System.Byte[],System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadAsync (buffer As Byte(), toRead As Integer) As Task(Of Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;int&gt; ^ ReadAsync(cli::array &lt;System::Byte&gt; ^ buffer, int toRead);" />
       <MemberSignature Language="F#" Value="member this.ReadAsync : byte[] * int -&gt; System.Threading.Tasks.Task&lt;int&gt;" Usage="gIFDecoderStreamReader.ReadAsync (buffer, toRead)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;int&gt; ^ ReadAsync(cli::array &lt;System::Byte&gt; ^ buffer, int toRead);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -156,8 +156,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;int32&gt; ReadBlockAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader.ReadBlockAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadBlockAsync () As Task(Of Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;int&gt; ^ ReadBlockAsync();" />
       <MemberSignature Language="F#" Value="member this.ReadBlockAsync : unit -&gt; System.Threading.Tasks.Task&lt;int&gt;" Usage="gIFDecoderStreamReader.ReadBlockAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;int&gt; ^ ReadBlockAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -178,8 +178,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 ReadShort() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader.ReadShort" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadShort () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; int ReadShort();" />
       <MemberSignature Language="F#" Value="member this.ReadShort : unit -&gt; int" Usage="gIFDecoderStreamReader.ReadShort " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int ReadShort();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -200,8 +200,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ReadString(int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader.ReadString(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadString (length As Integer) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ReadString(int length);" />
       <MemberSignature Language="F#" Value="member this.ReadString : int -&gt; string" Usage="gIFDecoderStreamReader.ReadString length" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ReadString(int length);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -225,8 +225,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task SkipBlockAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.GIFDecoderStreamReader.SkipBlockAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function SkipBlockAsync () As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ SkipBlockAsync();" />
       <MemberSignature Language="F#" Value="member this.SkipBlockAsync : unit -&gt; System.Threading.Tasks.Task" Usage="gIFDecoderStreamReader.SkipBlockAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ SkipBlockAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

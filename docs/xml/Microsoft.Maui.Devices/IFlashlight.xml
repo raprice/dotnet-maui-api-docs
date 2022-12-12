@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFlashlight" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.IFlashlight" />
   <TypeSignature Language="VB.NET" Value="Public Interface IFlashlight" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IFlashlight" />
   <TypeSignature Language="F#" Value="type IFlashlight = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IFlashlight" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task TurnOffAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.IFlashlight.TurnOffAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function TurnOffAsync () As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ TurnOffAsync();" />
       <MemberSignature Language="F#" Value="abstract member TurnOffAsync : unit -&gt; System.Threading.Tasks.Task" Usage="iFlashlight.TurnOffAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ TurnOffAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task TurnOnAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.IFlashlight.TurnOnAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function TurnOnAsync () As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ TurnOnAsync();" />
       <MemberSignature Language="F#" Value="abstract member TurnOnAsync : unit -&gt; System.Threading.Tasks.Task" Usage="iFlashlight.TurnOnAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ TurnOnAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

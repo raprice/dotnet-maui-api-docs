@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AbsoluteLayoutFlags extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Layouts.AbsoluteLayoutFlags" />
   <TypeSignature Language="VB.NET" Value="Public Enum AbsoluteLayoutFlags" />
-  <TypeSignature Language="C++ CLI" Value="public enum class AbsoluteLayoutFlags" />
   <TypeSignature Language="F#" Value="type AbsoluteLayoutFlags = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class AbsoluteLayoutFlags" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -28,8 +28,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Layouts.AbsoluteLayoutFlags All = int32(-1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.AbsoluteLayoutFlags.All" />
       <MemberSignature Language="VB.NET" Value="All" />
-      <MemberSignature Language="C++ CLI" Value="All" />
       <MemberSignature Language="F#" Value="All = -1" Usage="Microsoft.Maui.Layouts.AbsoluteLayoutFlags.All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Layouts.AbsoluteLayoutFlags HeightProportional = int32(8)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.AbsoluteLayoutFlags.HeightProportional" />
       <MemberSignature Language="VB.NET" Value="HeightProportional" />
-      <MemberSignature Language="C++ CLI" Value="HeightProportional" />
       <MemberSignature Language="F#" Value="HeightProportional = 8" Usage="Microsoft.Maui.Layouts.AbsoluteLayoutFlags.HeightProportional" />
+      <MemberSignature Language="C++ CLI" Value="HeightProportional" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Layouts.AbsoluteLayoutFlags None = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.AbsoluteLayoutFlags.None" />
       <MemberSignature Language="VB.NET" Value="None" />
-      <MemberSignature Language="C++ CLI" Value="None" />
       <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Maui.Layouts.AbsoluteLayoutFlags.None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -88,8 +88,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Layouts.AbsoluteLayoutFlags PositionProportional = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.AbsoluteLayoutFlags.PositionProportional" />
       <MemberSignature Language="VB.NET" Value="PositionProportional" />
-      <MemberSignature Language="C++ CLI" Value="PositionProportional" />
       <MemberSignature Language="F#" Value="PositionProportional = 3" Usage="Microsoft.Maui.Layouts.AbsoluteLayoutFlags.PositionProportional" />
+      <MemberSignature Language="C++ CLI" Value="PositionProportional" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -108,8 +108,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Layouts.AbsoluteLayoutFlags SizeProportional = int32(12)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.AbsoluteLayoutFlags.SizeProportional" />
       <MemberSignature Language="VB.NET" Value="SizeProportional" />
-      <MemberSignature Language="C++ CLI" Value="SizeProportional" />
       <MemberSignature Language="F#" Value="SizeProportional = 12" Usage="Microsoft.Maui.Layouts.AbsoluteLayoutFlags.SizeProportional" />
+      <MemberSignature Language="C++ CLI" Value="SizeProportional" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -128,8 +128,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Layouts.AbsoluteLayoutFlags WidthProportional = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.AbsoluteLayoutFlags.WidthProportional" />
       <MemberSignature Language="VB.NET" Value="WidthProportional" />
-      <MemberSignature Language="C++ CLI" Value="WidthProportional" />
       <MemberSignature Language="F#" Value="WidthProportional = 4" Usage="Microsoft.Maui.Layouts.AbsoluteLayoutFlags.WidthProportional" />
+      <MemberSignature Language="C++ CLI" Value="WidthProportional" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -148,8 +148,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Layouts.AbsoluteLayoutFlags XProportional = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.AbsoluteLayoutFlags.XProportional" />
       <MemberSignature Language="VB.NET" Value="XProportional" />
-      <MemberSignature Language="C++ CLI" Value="XProportional" />
       <MemberSignature Language="F#" Value="XProportional = 1" Usage="Microsoft.Maui.Layouts.AbsoluteLayoutFlags.XProportional" />
+      <MemberSignature Language="C++ CLI" Value="XProportional" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -168,8 +168,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Layouts.AbsoluteLayoutFlags YProportional = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.AbsoluteLayoutFlags.YProportional" />
       <MemberSignature Language="VB.NET" Value="YProportional" />
-      <MemberSignature Language="C++ CLI" Value="YProportional" />
       <MemberSignature Language="F#" Value="YProportional = 2" Usage="Microsoft.Maui.Layouts.AbsoluteLayoutFlags.YProportional" />
+      <MemberSignature Language="C++ CLI" Value="YProportional" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

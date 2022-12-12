@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IElement" />
   <TypeSignature Language="VB.NET" Value="Public Interface IElement" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IElement" />
   <TypeSignature Language="F#" Value="type IElement = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IElementHandler Handler" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IElement.Handler" />
       <MemberSignature Language="VB.NET" Value="Public Property Handler As IElementHandler" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IElementHandler ^ Handler { Microsoft::Maui::IElementHandler ^ get(); void set(Microsoft::Maui::IElementHandler ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Handler : Microsoft.Maui.IElementHandler with get, set" Usage="Microsoft.Maui.IElement.Handler" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IElementHandler ^ Handler { Microsoft::Maui::IElementHandler ^ get(); void set(Microsoft::Maui::IElementHandler ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -43,8 +43,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IElement Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IElement.Parent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As IElement" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IElement ^ Parent { Microsoft::Maui::IElement ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Parent : Microsoft.Maui.IElement" Usage="Microsoft.Maui.IElement.Parent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IElement ^ Parent { Microsoft::Maui::IElement ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

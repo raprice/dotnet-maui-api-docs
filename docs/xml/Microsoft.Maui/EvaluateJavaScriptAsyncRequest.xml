@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EvaluateJavaScriptAsyncRequest extends System.Threading.Tasks.TaskCompletionSource`1&lt;string&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.EvaluateJavaScriptAsyncRequest" />
   <TypeSignature Language="VB.NET" Value="Public Class EvaluateJavaScriptAsyncRequest&#xA;Inherits TaskCompletionSource(Of String)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class EvaluateJavaScriptAsyncRequest : System::Threading::Tasks::TaskCompletionSource&lt;System::String ^&gt;" />
   <TypeSignature Language="F#" Value="type EvaluateJavaScriptAsyncRequest = class&#xA;    inherit TaskCompletionSource&lt;string&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EvaluateJavaScriptAsyncRequest : System::Threading::Tasks::TaskCompletionSource&lt;System::String ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -28,8 +28,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string script) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.EvaluateJavaScriptAsyncRequest.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (script As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; EvaluateJavaScriptAsyncRequest(System::String ^ script);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.EvaluateJavaScriptAsyncRequest : string -&gt; Microsoft.Maui.EvaluateJavaScriptAsyncRequest" Usage="new Microsoft.Maui.EvaluateJavaScriptAsyncRequest script" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EvaluateJavaScriptAsyncRequest(System::String ^ script);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -51,8 +51,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Script" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.EvaluateJavaScriptAsyncRequest.Script" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Script As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Script { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Script : string" Usage="Microsoft.Maui.EvaluateJavaScriptAsyncRequest.Script" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Script { System::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Thickness extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Thickness" />
   <TypeSignature Language="VB.NET" Value="Public Structure Thickness" />
-  <TypeSignature Language="C++ CLI" Value="public value class Thickness" />
   <TypeSignature Language="F#" Value="type Thickness = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class Thickness" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 uniformSize) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Thickness.#ctor(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (uniformSize As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Thickness(double uniformSize);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Thickness : double -&gt; Microsoft.Maui.Thickness" Usage="new Microsoft.Maui.Thickness uniformSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Thickness(double uniformSize);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 horizontalSize, float64 verticalSize) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Thickness.#ctor(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (horizontalSize As Double, verticalSize As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Thickness(double horizontalSize, double verticalSize);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Thickness : double * double -&gt; Microsoft.Maui.Thickness" Usage="new Microsoft.Maui.Thickness (horizontalSize, verticalSize)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Thickness(double horizontalSize, double verticalSize);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -77,8 +77,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 left, float64 top, float64 right, float64 bottom) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Thickness.#ctor(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (left As Double, top As Double, right As Double, bottom As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Thickness(double left, double top, double right, double bottom);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Thickness : double * double * double * double -&gt; Microsoft.Maui.Thickness" Usage="new Microsoft.Maui.Thickness (left, top, right, bottom)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Thickness(double left, double top, double right, double bottom);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -104,8 +104,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Bottom" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Thickness.Bottom" />
       <MemberSignature Language="VB.NET" Value="Public Property Bottom As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Bottom { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Bottom : double with get, set" Usage="Microsoft.Maui.Thickness.Bottom" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Bottom { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -131,8 +131,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Deconstruct([out] float64&amp; left, [out] float64&amp; top, [out] float64&amp; right, [out] float64&amp; bottom) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Thickness.Deconstruct(System.Double@,System.Double@,System.Double@,System.Double@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Deconstruct (ByRef left As Double, ByRef top As Double, ByRef right As Double, ByRef bottom As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Deconstruct([Runtime::InteropServices::Out] double % left, [Runtime::InteropServices::Out] double % top, [Runtime::InteropServices::Out] double % right, [Runtime::InteropServices::Out] double % bottom);" />
       <MemberSignature Language="F#" Value="member this.Deconstruct : double * double * double * double -&gt; unit" Usage="thickness.Deconstruct (left, top, right, bottom)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Deconstruct([Runtime::InteropServices::Out] double % left, [Runtime::InteropServices::Out] double % top, [Runtime::InteropServices::Out] double % right, [Runtime::InteropServices::Out] double % bottom);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -161,8 +161,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Thickness.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="thickness.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -187,8 +187,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Thickness.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="thickness.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -209,8 +209,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 HorizontalThickness" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Thickness.HorizontalThickness" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HorizontalThickness As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HorizontalThickness { double get(); };" />
       <MemberSignature Language="F#" Value="member this.HorizontalThickness : double" Usage="Microsoft.Maui.Thickness.HorizontalThickness" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double HorizontalThickness { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -230,8 +230,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEmpty" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Thickness.IsEmpty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsEmpty As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEmpty { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsEmpty : bool" Usage="Microsoft.Maui.Thickness.IsEmpty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEmpty { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -251,8 +251,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsNaN" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Thickness.IsNaN" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsNaN As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsNaN { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsNaN : bool" Usage="Microsoft.Maui.Thickness.IsNaN" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsNaN { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -272,8 +272,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Left" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Thickness.Left" />
       <MemberSignature Language="VB.NET" Value="Public Property Left As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Left { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Left : double with get, set" Usage="Microsoft.Maui.Thickness.Left" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Left { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -299,8 +299,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Maui.Thickness op_Addition(valuetype Microsoft.Maui.Thickness left, valuetype Microsoft.Maui.Thickness right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Thickness.op_Addition(Microsoft.Maui.Thickness,Microsoft.Maui.Thickness)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator + (left As Thickness, right As Thickness) As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Thickness operator +(Microsoft::Maui::Thickness left, Microsoft::Maui::Thickness right);" />
       <MemberSignature Language="F#" Value="static member ( + ) : Microsoft.Maui.Thickness * Microsoft.Maui.Thickness -&gt; Microsoft.Maui.Thickness" Usage="left + right" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Thickness operator +(Microsoft::Maui::Thickness left, Microsoft::Maui::Thickness right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -326,8 +326,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Maui.Thickness op_Addition(valuetype Microsoft.Maui.Thickness left, float64 addend) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Thickness.op_Addition(Microsoft.Maui.Thickness,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator + (left As Thickness, addend As Double) As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Thickness operator +(Microsoft::Maui::Thickness left, double addend);" />
       <MemberSignature Language="F#" Value="static member ( + ) : Microsoft.Maui.Thickness * double -&gt; Microsoft.Maui.Thickness" Usage="left + addend" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Thickness operator +(Microsoft::Maui::Thickness left, double addend);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -353,8 +353,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Maui.Thickness left, valuetype Microsoft.Maui.Thickness right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Thickness.op_Equality(Microsoft.Maui.Thickness,Microsoft.Maui.Thickness)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As Thickness, right As Thickness) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Thickness left, Microsoft::Maui::Thickness right);" />
       <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Maui.Thickness * Microsoft.Maui.Thickness -&gt; bool" Usage="left = right" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Thickness left, Microsoft::Maui::Thickness right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -380,8 +380,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Maui.Thickness op_Implicit(valuetype Microsoft.Maui.Graphics.Size size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Thickness.op_Implicit(Microsoft.Maui.Graphics.Size)~Microsoft.Maui.Thickness" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (size As Size) As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Thickness(Microsoft::Maui::Graphics::Size size);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : Microsoft.Maui.Graphics.Size -&gt; Microsoft.Maui.Thickness" Usage="Microsoft.Maui.Thickness.op_Implicit size" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Thickness(Microsoft::Maui::Graphics::Size size);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -405,8 +405,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Maui.Thickness op_Implicit(float64 uniformSize) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Thickness.op_Implicit(System.Double)~Microsoft.Maui.Thickness" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uniformSize As Double) As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Thickness(double uniformSize);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : double -&gt; Microsoft.Maui.Thickness" Usage="Microsoft.Maui.Thickness.op_Implicit uniformSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Thickness(double uniformSize);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -430,8 +430,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Maui.Thickness left, valuetype Microsoft.Maui.Thickness right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Thickness.op_Inequality(Microsoft.Maui.Thickness,Microsoft.Maui.Thickness)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As Thickness, right As Thickness) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Thickness left, Microsoft::Maui::Thickness right);" />
       <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Maui.Thickness * Microsoft.Maui.Thickness -&gt; bool" Usage="Microsoft.Maui.Thickness.op_Inequality (left, right)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Thickness left, Microsoft::Maui::Thickness right);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -457,8 +457,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Maui.Thickness op_Subtraction(valuetype Microsoft.Maui.Thickness left, float64 addend) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Thickness.op_Subtraction(Microsoft.Maui.Thickness,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator - (left As Thickness, addend As Double) As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Thickness operator -(Microsoft::Maui::Thickness left, double addend);" />
       <MemberSignature Language="F#" Value="static member ( - ) : Microsoft.Maui.Thickness * double -&gt; Microsoft.Maui.Thickness" Usage="left - addend" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Thickness operator -(Microsoft::Maui::Thickness left, double addend);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -484,8 +484,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Right" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Thickness.Right" />
       <MemberSignature Language="VB.NET" Value="Public Property Right As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Right { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Right : double with get, set" Usage="Microsoft.Maui.Thickness.Right" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Right { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -511,8 +511,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Top" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Thickness.Top" />
       <MemberSignature Language="VB.NET" Value="Public Property Top As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Top { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Top : double with get, set" Usage="Microsoft.Maui.Thickness.Top" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Top { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -538,8 +538,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 VerticalThickness" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Thickness.VerticalThickness" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VerticalThickness As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double VerticalThickness { double get(); };" />
       <MemberSignature Language="F#" Value="member this.VerticalThickness : double" Usage="Microsoft.Maui.Thickness.VerticalThickness" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double VerticalThickness { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -559,8 +559,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static valuetype Microsoft.Maui.Thickness Zero" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Thickness.Zero" />
       <MemberSignature Language="VB.NET" Value="Public Shared Zero As Thickness " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::Thickness Zero;" />
       <MemberSignature Language="F#" Value=" staticval mutable Zero : Microsoft.Maui.Thickness" Usage="Microsoft.Maui.Thickness.Zero" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::Thickness Zero;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

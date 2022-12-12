@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Registrar`1&lt;class TRegistrable&gt; extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.Registrar`1" />
   <TypeSignature Language="VB.NET" Value="Public Class Registrar(Of TRegistrable)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TRegistrable&gt;&#xA; where TRegistrable : classpublic ref class Registrar" />
   <TypeSignature Language="F#" Value="type Registrar&lt;'Registrable (requires 'Registrable : null)&gt; = class" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TRegistrable&gt;&#xA; where TRegistrable : classpublic ref class Registrar" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!TOut GetHandler&lt;class (!TRegistrable) TOut&gt;(class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar`1.GetHandler``1(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetHandler(Of TOut As {Class, TRegistrable}) (type As Type) As TOut" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TOut&gt;&#xA; where TOut : class, TRegistrable TOut GetHandler(Type ^ type);" />
       <MemberSignature Language="F#" Value="member this.GetHandler : Type -&gt; 'Out" Usage="registrar.GetHandler type" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TOut&gt;&#xA; where TOut : class, TRegistrable TOut GetHandler(Type ^ type);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -88,8 +88,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!TOut GetHandler&lt;class (!TRegistrable) TOut&gt;(class System.Type type, object[] args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar`1.GetHandler``1(System.Type,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Function GetHandler(Of TOut As {Class, TRegistrable}) (type As Type, ParamArray args As Object()) As TOut" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TOut&gt;&#xA; where TOut : class, TRegistrable TOut GetHandler(Type ^ type, ... cli::array &lt;System::Object ^&gt; ^ args);" />
       <MemberSignature Language="F#" Value="member this.GetHandler : Type * obj[] -&gt; 'Out" Usage="registrar.GetHandler (type, args)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TOut&gt;&#xA; where TOut : class, TRegistrable TOut GetHandler(Type ^ type, ... cli::array &lt;System::Object ^&gt; ^ args);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -131,8 +131,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!TOut GetHandlerForObject&lt;class (!TRegistrable) TOut&gt;(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar`1.GetHandlerForObject``1(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetHandlerForObject(Of TOut As {Class, TRegistrable}) (obj As Object) As TOut" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TOut&gt;&#xA; where TOut : class, TRegistrable TOut GetHandlerForObject(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="member this.GetHandlerForObject : obj -&gt; 'Out" Usage="registrar.GetHandlerForObject obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TOut&gt;&#xA; where TOut : class, TRegistrable TOut GetHandlerForObject(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -165,8 +165,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!TOut GetHandlerForObject&lt;class (!TRegistrable) TOut&gt;(object obj, object[] args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar`1.GetHandlerForObject``1(System.Object,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Function GetHandlerForObject(Of TOut As {Class, TRegistrable}) (obj As Object, ParamArray args As Object()) As TOut" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TOut&gt;&#xA; where TOut : class, TRegistrable TOut GetHandlerForObject(System::Object ^ obj, ... cli::array &lt;System::Object ^&gt; ^ args);" />
       <MemberSignature Language="F#" Value="member this.GetHandlerForObject : obj * obj[] -&gt; 'Out" Usage="registrar.GetHandlerForObject (obj, args)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TOut&gt;&#xA; where TOut : class, TRegistrable TOut GetHandlerForObject(System::Object ^ obj, ... cli::array &lt;System::Object ^&gt; ^ args);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -208,8 +208,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Type GetHandlerType(class System.Type viewType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar`1.GetHandlerType(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetHandlerType (viewType As Type) As Type" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Type ^ GetHandlerType(Type ^ viewType);" />
       <MemberSignature Language="F#" Value="member this.GetHandlerType : Type -&gt; Type" Usage="registrar.GetHandlerType viewType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Type ^ GetHandlerType(Type ^ viewType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -233,8 +233,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Type GetHandlerType(class System.Type viewType, class System.Type visualType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar`1.GetHandlerType(System.Type,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetHandlerType (viewType As Type, visualType As Type) As Type" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Type ^ GetHandlerType(Type ^ viewType, Type ^ visualType);" />
       <MemberSignature Language="F#" Value="member this.GetHandlerType : Type * Type -&gt; Type" Usage="registrar.GetHandlerType (viewType, visualType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Type ^ GetHandlerType(Type ^ viewType, Type ^ visualType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -260,8 +260,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Type GetHandlerTypeForObject(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar`1.GetHandlerTypeForObject(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetHandlerTypeForObject (obj As Object) As Type" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Type ^ GetHandlerTypeForObject(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="member this.GetHandlerTypeForObject : obj -&gt; Type" Usage="registrar.GetHandlerTypeForObject obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Type ^ GetHandlerTypeForObject(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -285,8 +285,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Register(class System.Type tview, class System.Type trender) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar`1.Register(System.Type,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Register (tview As Type, trender As Type)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Register(Type ^ tview, Type ^ trender);" />
       <MemberSignature Language="F#" Value="member this.Register : Type * Type -&gt; unit" Usage="registrar.Register (tview, trender)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Register(Type ^ tview, Type ^ trender);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -311,8 +311,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Register(class System.Type tview, class System.Type trender, class System.Type[] supportedVisual) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar`1.Register(System.Type,System.Type,System.Type[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub Register (tview As Type, trender As Type, supportedVisual As Type())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Register(Type ^ tview, Type ^ trender, cli::array &lt;Type ^&gt; ^ supportedVisual);" />
       <MemberSignature Language="F#" Value="member this.Register : Type * Type * Type[] -&gt; unit" Usage="registrar.Register (tview, trender, supportedVisual)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Register(Type ^ tview, Type ^ trender, cli::array &lt;Type ^&gt; ^ supportedVisual);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -339,8 +339,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Register(class System.Type tview, class System.Type trender, class System.Type[] supportedVisuals, int16 priority) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Registrar`1.Register(System.Type,System.Type,System.Type[],System.Int16)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Register (tview As Type, trender As Type, supportedVisuals As Type(), priority As Short)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Register(Type ^ tview, Type ^ trender, cli::array &lt;Type ^&gt; ^ supportedVisuals, short priority);" />
       <MemberSignature Language="F#" Value="member this.Register : Type * Type * Type[] * int16 -&gt; unit" Usage="registrar.Register (tview, trender, supportedVisuals, priority)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Register(Type ^ tview, Type ^ trender, cli::array &lt;Type ^&gt; ^ supportedVisuals, short priority);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

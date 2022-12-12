@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BorderHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.IBorderView, object&gt; implements class Microsoft.Maui.Handlers.IBorderHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.BorderHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class BorderHandler&#xA;Inherits ViewHandler(Of IBorderView, Object)&#xA;Implements IBorderHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BorderHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IBorderView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IBorderHandler" />
   <TypeSignature Language="F#" Value="type BorderHandler = class&#xA;    inherit ViewHandler&lt;IBorderView, obj&gt;&#xA;    interface IBorderHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BorderHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IBorderView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IBorderHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -103,8 +103,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IBorderView, class Microsoft.Maui.Handlers.BorderHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.BorderHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IBorderView, BorderHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IBorderView ^, Microsoft::Maui::Handlers::BorderHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IBorderView, Microsoft.Maui.Handlers.BorderHandler&gt;" Usage="Microsoft.Maui.Handlers.BorderHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IBorderView ^, Microsoft::Maui::Handlers::BorderHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -123,8 +123,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.BorderHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="borderHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -145,8 +145,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapBackground(class Microsoft.Maui.Handlers.IBorderHandler handler, class Microsoft.Maui.IBorderView border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.BorderHandler.MapBackground(Microsoft.Maui.Handlers.IBorderHandler,Microsoft.Maui.IBorderView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapBackground (handler As IBorderHandler, border As IBorderView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapBackground(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberSignature Language="F#" Value="static member MapBackground : Microsoft.Maui.Handlers.IBorderHandler * Microsoft.Maui.IBorderView -&gt; unit" Usage="Microsoft.Maui.Handlers.BorderHandler.MapBackground (handler, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapBackground(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -171,8 +171,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapContent(class Microsoft.Maui.Handlers.IBorderHandler handler, class Microsoft.Maui.IBorderView border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.BorderHandler.MapContent(Microsoft.Maui.Handlers.IBorderHandler,Microsoft.Maui.IBorderView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapContent (handler As IBorderHandler, border As IBorderView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContent(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberSignature Language="F#" Value="static member MapContent : Microsoft.Maui.Handlers.IBorderHandler * Microsoft.Maui.IBorderView -&gt; unit" Usage="Microsoft.Maui.Handlers.BorderHandler.MapContent (handler, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContent(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -197,8 +197,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IBorderView, class Microsoft.Maui.Handlers.IBorderHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.BorderHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IBorderView, IBorderHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IBorderView ^, Microsoft::Maui::Handlers::IBorderHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IBorderView, Microsoft.Maui.Handlers.IBorderHandler&gt;" Usage="Microsoft.Maui.Handlers.BorderHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IBorderView ^, Microsoft::Maui::Handlers::IBorderHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -217,8 +217,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStroke(class Microsoft.Maui.Handlers.IBorderHandler handler, class Microsoft.Maui.IBorderView border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.BorderHandler.MapStroke(Microsoft.Maui.Handlers.IBorderHandler,Microsoft.Maui.IBorderView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStroke (handler As IBorderHandler, border As IBorderView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStroke(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberSignature Language="F#" Value="static member MapStroke : Microsoft.Maui.Handlers.IBorderHandler * Microsoft.Maui.IBorderView -&gt; unit" Usage="Microsoft.Maui.Handlers.BorderHandler.MapStroke (handler, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStroke(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -243,8 +243,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStrokeDashOffset(class Microsoft.Maui.Handlers.IBorderHandler handler, class Microsoft.Maui.IBorderView border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.BorderHandler.MapStrokeDashOffset(Microsoft.Maui.Handlers.IBorderHandler,Microsoft.Maui.IBorderView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStrokeDashOffset (handler As IBorderHandler, border As IBorderView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeDashOffset(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberSignature Language="F#" Value="static member MapStrokeDashOffset : Microsoft.Maui.Handlers.IBorderHandler * Microsoft.Maui.IBorderView -&gt; unit" Usage="Microsoft.Maui.Handlers.BorderHandler.MapStrokeDashOffset (handler, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeDashOffset(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -269,8 +269,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStrokeDashPattern(class Microsoft.Maui.Handlers.IBorderHandler handler, class Microsoft.Maui.IBorderView border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.BorderHandler.MapStrokeDashPattern(Microsoft.Maui.Handlers.IBorderHandler,Microsoft.Maui.IBorderView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStrokeDashPattern (handler As IBorderHandler, border As IBorderView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeDashPattern(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberSignature Language="F#" Value="static member MapStrokeDashPattern : Microsoft.Maui.Handlers.IBorderHandler * Microsoft.Maui.IBorderView -&gt; unit" Usage="Microsoft.Maui.Handlers.BorderHandler.MapStrokeDashPattern (handler, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeDashPattern(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -295,8 +295,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStrokeLineCap(class Microsoft.Maui.Handlers.IBorderHandler handler, class Microsoft.Maui.IBorderView border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.BorderHandler.MapStrokeLineCap(Microsoft.Maui.Handlers.IBorderHandler,Microsoft.Maui.IBorderView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStrokeLineCap (handler As IBorderHandler, border As IBorderView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeLineCap(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberSignature Language="F#" Value="static member MapStrokeLineCap : Microsoft.Maui.Handlers.IBorderHandler * Microsoft.Maui.IBorderView -&gt; unit" Usage="Microsoft.Maui.Handlers.BorderHandler.MapStrokeLineCap (handler, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeLineCap(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -321,8 +321,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStrokeLineJoin(class Microsoft.Maui.Handlers.IBorderHandler handler, class Microsoft.Maui.IBorderView border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.BorderHandler.MapStrokeLineJoin(Microsoft.Maui.Handlers.IBorderHandler,Microsoft.Maui.IBorderView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStrokeLineJoin (handler As IBorderHandler, border As IBorderView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeLineJoin(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberSignature Language="F#" Value="static member MapStrokeLineJoin : Microsoft.Maui.Handlers.IBorderHandler * Microsoft.Maui.IBorderView -&gt; unit" Usage="Microsoft.Maui.Handlers.BorderHandler.MapStrokeLineJoin (handler, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeLineJoin(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -347,8 +347,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStrokeMiterLimit(class Microsoft.Maui.Handlers.IBorderHandler handler, class Microsoft.Maui.IBorderView border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.BorderHandler.MapStrokeMiterLimit(Microsoft.Maui.Handlers.IBorderHandler,Microsoft.Maui.IBorderView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStrokeMiterLimit (handler As IBorderHandler, border As IBorderView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeMiterLimit(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberSignature Language="F#" Value="static member MapStrokeMiterLimit : Microsoft.Maui.Handlers.IBorderHandler * Microsoft.Maui.IBorderView -&gt; unit" Usage="Microsoft.Maui.Handlers.BorderHandler.MapStrokeMiterLimit (handler, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeMiterLimit(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -373,8 +373,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStrokeShape(class Microsoft.Maui.Handlers.IBorderHandler handler, class Microsoft.Maui.IBorderView border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.BorderHandler.MapStrokeShape(Microsoft.Maui.Handlers.IBorderHandler,Microsoft.Maui.IBorderView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStrokeShape (handler As IBorderHandler, border As IBorderView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeShape(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberSignature Language="F#" Value="static member MapStrokeShape : Microsoft.Maui.Handlers.IBorderHandler * Microsoft.Maui.IBorderView -&gt; unit" Usage="Microsoft.Maui.Handlers.BorderHandler.MapStrokeShape (handler, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeShape(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -399,8 +399,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapStrokeThickness(class Microsoft.Maui.Handlers.IBorderHandler handler, class Microsoft.Maui.IBorderView border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.BorderHandler.MapStrokeThickness(Microsoft.Maui.Handlers.IBorderHandler,Microsoft.Maui.IBorderView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapStrokeThickness (handler As IBorderHandler, border As IBorderView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeThickness(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberSignature Language="F#" Value="static member MapStrokeThickness : Microsoft.Maui.Handlers.IBorderHandler * Microsoft.Maui.IBorderView -&gt; unit" Usage="Microsoft.Maui.Handlers.BorderHandler.MapStrokeThickness (handler, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapStrokeThickness(Microsoft::Maui::Handlers::IBorderHandler ^ handler, Microsoft::Maui::IBorderView ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -425,8 +425,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.IBorderHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.BorderHandler.Microsoft#Maui#Handlers#IBorderHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IBorderHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IBorderHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IBorderHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.IBorderHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IBorderHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IBorderHandler.PlatformView</InterfaceMember>
@@ -449,8 +449,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IBorderView Microsoft.Maui.Handlers.IBorderHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.BorderHandler.Microsoft#Maui#Handlers#IBorderHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IBorderView Implements IBorderHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IBorderView ^ Microsoft::Maui::Handlers::IBorderHandler::VirtualView { Microsoft::Maui::IBorderView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IBorderHandler.VirtualView : Microsoft.Maui.IBorderView" Usage="Microsoft.Maui.Handlers.IBorderHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IBorderView ^ Microsoft::Maui::Handlers::IBorderHandler::VirtualView { Microsoft::Maui::IBorderView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IBorderHandler.VirtualView</InterfaceMember>

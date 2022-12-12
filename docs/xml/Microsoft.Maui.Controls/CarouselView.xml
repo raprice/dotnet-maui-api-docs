@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CarouselView extends Microsoft.Maui.Controls.ItemsView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.CarouselView" />
   <TypeSignature Language="VB.NET" Value="Public Class CarouselView&#xA;Inherits ItemsView" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CarouselView : Microsoft::Maui::Controls::ItemsView" />
   <TypeSignature Language="F#" Value="type CarouselView = class&#xA;    inherit ItemsView" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CarouselView : Microsoft::Maui::Controls::ItemsView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool AnimateCurrentItemChanges" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.AnimateCurrentItemChanges" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AnimateCurrentItemChanges As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AnimateCurrentItemChanges { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.AnimateCurrentItemChanges : bool" Usage="Microsoft.Maui.Controls.CarouselView.AnimateCurrentItemChanges" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AnimateCurrentItemChanges { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool AnimatePositionChanges" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.AnimatePositionChanges" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AnimatePositionChanges As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AnimatePositionChanges { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.AnimatePositionChanges : bool" Usage="Microsoft.Maui.Controls.CarouselView.AnimatePositionChanges" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AnimatePositionChanges { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -94,8 +94,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object CurrentItem" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.CurrentItem" />
       <MemberSignature Language="VB.NET" Value="Public Property CurrentItem As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CurrentItem { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.CurrentItem : obj with get, set" Usage="Microsoft.Maui.Controls.CarouselView.CurrentItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CurrentItem { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -115,8 +115,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.CurrentItemChangedEventArgs&gt; CurrentItemChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.CarouselView.CurrentItemChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event CurrentItemChanged As EventHandler(Of CurrentItemChangedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::CurrentItemChangedEventArgs ^&gt; ^ CurrentItemChanged;" />
       <MemberSignature Language="F#" Value="member this.CurrentItemChanged : EventHandler&lt;Microsoft.Maui.Controls.CurrentItemChangedEventArgs&gt; " Usage="member this.CurrentItemChanged : System.EventHandler&lt;Microsoft.Maui.Controls.CurrentItemChangedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::CurrentItemChangedEventArgs ^&gt; ^ CurrentItemChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -135,8 +135,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand CurrentItemChangedCommand" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.CurrentItemChangedCommand" />
       <MemberSignature Language="VB.NET" Value="Public Property CurrentItemChangedCommand As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ CurrentItemChangedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.CurrentItemChangedCommand : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.CarouselView.CurrentItemChangedCommand" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ CurrentItemChangedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -156,8 +156,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object CurrentItemChangedCommandParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.CurrentItemChangedCommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property CurrentItemChangedCommandParameter As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CurrentItemChangedCommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.CurrentItemChangedCommandParameter : obj with get, set" Usage="Microsoft.Maui.Controls.CarouselView.CurrentItemChangedCommandParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CurrentItemChangedCommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -177,8 +177,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CurrentItemChangedCommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.CurrentItemChangedCommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CurrentItemChangedCommandParameterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CurrentItemChangedCommandParameterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CurrentItemChangedCommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.CurrentItemChangedCommandParameterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CurrentItemChangedCommandParameterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -197,8 +197,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CurrentItemChangedCommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.CurrentItemChangedCommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CurrentItemChangedCommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CurrentItemChangedCommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CurrentItemChangedCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.CurrentItemChangedCommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CurrentItemChangedCommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -217,8 +217,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CurrentItemProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.CurrentItemProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CurrentItemProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CurrentItemProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CurrentItemProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.CurrentItemProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CurrentItemProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -237,8 +237,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string CurrentItemVisualState" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.CurrentItemVisualState" />
       <MemberSignature Language="VB.NET" Value="Public Const CurrentItemVisualState As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ CurrentItemVisualState;" />
       <MemberSignature Language="F#" Value="val mutable CurrentItemVisualState : string" Usage="Microsoft.Maui.Controls.CarouselView.CurrentItemVisualState" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ CurrentItemVisualState;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -257,8 +257,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string DefaultItemVisualState" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.DefaultItemVisualState" />
       <MemberSignature Language="VB.NET" Value="Public Const DefaultItemVisualState As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ DefaultItemVisualState;" />
       <MemberSignature Language="F#" Value="val mutable DefaultItemVisualState : string" Usage="Microsoft.Maui.Controls.CarouselView.DefaultItemVisualState" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ DefaultItemVisualState;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -277,8 +277,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.IndicatorView IndicatorView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.IndicatorView" />
       <MemberSignature Language="VB.NET" Value="Public Property IndicatorView As IndicatorView" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IndicatorView ^ IndicatorView {  void set(Microsoft::Maui::Controls::IndicatorView ^ value); };" />
       <MemberSignature Language="F#" Value="member this.IndicatorView : Microsoft.Maui.Controls.IndicatorView" Usage="Microsoft.Maui.Controls.CarouselView.IndicatorView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IndicatorView ^ IndicatorView {  void set(Microsoft::Maui::Controls::IndicatorView ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -304,8 +304,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsBounceEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.IsBounceEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsBounceEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsBounceEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsBounceEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.CarouselView.IsBounceEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsBounceEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -325,8 +325,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsBounceEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.IsBounceEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsBounceEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsBounceEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsBounceEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.IsBounceEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsBounceEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -345,8 +345,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsDragging" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.IsDragging" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDragging As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDragging { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsDragging : bool" Usage="Microsoft.Maui.Controls.CarouselView.IsDragging" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDragging { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -366,8 +366,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsDraggingProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.IsDraggingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsDraggingProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsDraggingProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsDraggingProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.IsDraggingProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsDraggingProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -386,8 +386,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsScrollAnimated" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.IsScrollAnimated" />
       <MemberSignature Language="VB.NET" Value="Public Property IsScrollAnimated As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsScrollAnimated { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsScrollAnimated : bool with get, set" Usage="Microsoft.Maui.Controls.CarouselView.IsScrollAnimated" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsScrollAnimated { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -407,8 +407,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsScrollAnimatedProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.IsScrollAnimatedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsScrollAnimatedProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsScrollAnimatedProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsScrollAnimatedProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.IsScrollAnimatedProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsScrollAnimatedProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -427,8 +427,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsScrolling" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.IsScrolling" />
       <MemberSignature Language="VB.NET" Value="Public Property IsScrolling As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsScrolling { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsScrolling : bool with get, set" Usage="Microsoft.Maui.Controls.CarouselView.IsScrolling" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsScrolling { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -454,8 +454,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsSwipeEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.IsSwipeEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsSwipeEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSwipeEnabled { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsSwipeEnabled : bool with get, set" Usage="Microsoft.Maui.Controls.CarouselView.IsSwipeEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSwipeEnabled { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -475,8 +475,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsSwipeEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.IsSwipeEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsSwipeEnabledProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsSwipeEnabledProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsSwipeEnabledProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.IsSwipeEnabledProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsSwipeEnabledProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -495,8 +495,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.LinearItemsLayout ItemsLayout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.ItemsLayout" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemsLayout As LinearItemsLayout" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::LinearItemsLayout ^ ItemsLayout { Microsoft::Maui::Controls::LinearItemsLayout ^ get(); void set(Microsoft::Maui::Controls::LinearItemsLayout ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ItemsLayout : Microsoft.Maui.Controls.LinearItemsLayout with get, set" Usage="Microsoft.Maui.Controls.CarouselView.ItemsLayout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::LinearItemsLayout ^ ItemsLayout { Microsoft::Maui::Controls::LinearItemsLayout ^ get(); void set(Microsoft::Maui::Controls::LinearItemsLayout ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -522,8 +522,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty ItemsLayoutProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.ItemsLayoutProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemsLayoutProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemsLayoutProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable ItemsLayoutProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.ItemsLayoutProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ ItemsLayoutProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -542,8 +542,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Loop" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.Loop" />
       <MemberSignature Language="VB.NET" Value="Public Property Loop As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Loop { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Loop : bool with get, set" Usage="Microsoft.Maui.Controls.CarouselView.Loop" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Loop { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -563,8 +563,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty LoopProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.LoopProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LoopProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ LoopProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable LoopProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.LoopProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ LoopProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -583,8 +583,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string NextItemVisualState" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.NextItemVisualState" />
       <MemberSignature Language="VB.NET" Value="Public Const NextItemVisualState As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ NextItemVisualState;" />
       <MemberSignature Language="F#" Value="val mutable NextItemVisualState : string" Usage="Microsoft.Maui.Controls.CarouselView.NextItemVisualState" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ NextItemVisualState;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -603,8 +603,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnCurrentItemChanged(class System.EventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CarouselView.OnCurrentItemChanged(System.EventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnCurrentItemChanged (args As EventArgs)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnCurrentItemChanged(EventArgs ^ args);" />
       <MemberSignature Language="F#" Value="abstract member OnCurrentItemChanged : EventArgs -&gt; unit&#xA;override this.OnCurrentItemChanged : EventArgs -&gt; unit" Usage="carouselView.OnCurrentItemChanged args" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnCurrentItemChanged(EventArgs ^ args);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -627,8 +627,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnPositionChanged(class Microsoft.Maui.Controls.PositionChangedEventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CarouselView.OnPositionChanged(Microsoft.Maui.Controls.PositionChangedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnPositionChanged (args As PositionChangedEventArgs)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnPositionChanged(Microsoft::Maui::Controls::PositionChangedEventArgs ^ args);" />
       <MemberSignature Language="F#" Value="abstract member OnPositionChanged : Microsoft.Maui.Controls.PositionChangedEventArgs -&gt; unit&#xA;override this.OnPositionChanged : Microsoft.Maui.Controls.PositionChangedEventArgs -&gt; unit" Usage="carouselView.OnPositionChanged args" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnPositionChanged(Microsoft::Maui::Controls::PositionChangedEventArgs ^ args);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -651,8 +651,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Thickness PeekAreaInsets" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.PeekAreaInsets" />
       <MemberSignature Language="VB.NET" Value="Public Property PeekAreaInsets As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Thickness PeekAreaInsets { Microsoft::Maui::Thickness get(); void set(Microsoft::Maui::Thickness value); };" />
       <MemberSignature Language="F#" Value="member this.PeekAreaInsets : Microsoft.Maui.Thickness with get, set" Usage="Microsoft.Maui.Controls.CarouselView.PeekAreaInsets" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Thickness PeekAreaInsets { Microsoft::Maui::Thickness get(); void set(Microsoft::Maui::Thickness value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -672,8 +672,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PeekAreaInsetsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.PeekAreaInsetsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PeekAreaInsetsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PeekAreaInsetsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PeekAreaInsetsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.PeekAreaInsetsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PeekAreaInsetsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -692,8 +692,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Position" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.Position" />
       <MemberSignature Language="VB.NET" Value="Public Property Position As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Position { int get(); void set(int value); };" />
       <MemberSignature Language="F#" Value="member this.Position : int with get, set" Usage="Microsoft.Maui.Controls.CarouselView.Position" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Position { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -713,8 +713,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.PositionChangedEventArgs&gt; PositionChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.CarouselView.PositionChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event PositionChanged As EventHandler(Of PositionChangedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::PositionChangedEventArgs ^&gt; ^ PositionChanged;" />
       <MemberSignature Language="F#" Value="member this.PositionChanged : EventHandler&lt;Microsoft.Maui.Controls.PositionChangedEventArgs&gt; " Usage="member this.PositionChanged : System.EventHandler&lt;Microsoft.Maui.Controls.PositionChangedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::PositionChangedEventArgs ^&gt; ^ PositionChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -733,8 +733,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand PositionChangedCommand" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.PositionChangedCommand" />
       <MemberSignature Language="VB.NET" Value="Public Property PositionChangedCommand As ICommand" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PositionChangedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PositionChangedCommand : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Maui.Controls.CarouselView.PositionChangedCommand" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ PositionChangedCommand { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -754,8 +754,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object PositionChangedCommandParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.PositionChangedCommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property PositionChangedCommandParameter As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PositionChangedCommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PositionChangedCommandParameter : obj with get, set" Usage="Microsoft.Maui.Controls.CarouselView.PositionChangedCommandParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PositionChangedCommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -775,8 +775,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PositionChangedCommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.PositionChangedCommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PositionChangedCommandParameterProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PositionChangedCommandParameterProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PositionChangedCommandParameterProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.PositionChangedCommandParameterProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PositionChangedCommandParameterProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -795,8 +795,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PositionChangedCommandProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.PositionChangedCommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PositionChangedCommandProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PositionChangedCommandProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PositionChangedCommandProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.PositionChangedCommandProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PositionChangedCommandProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -815,8 +815,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PositionProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.PositionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PositionProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PositionProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PositionProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.PositionProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PositionProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -835,8 +835,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string PreviousItemVisualState" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.PreviousItemVisualState" />
       <MemberSignature Language="VB.NET" Value="Public Const PreviousItemVisualState As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ PreviousItemVisualState;" />
       <MemberSignature Language="F#" Value="val mutable PreviousItemVisualState : string" Usage="Microsoft.Maui.Controls.CarouselView.PreviousItemVisualState" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ PreviousItemVisualState;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -855,8 +855,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetIsDragging(bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CarouselView.SetIsDragging(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetIsDragging (value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetIsDragging(bool value);" />
       <MemberSignature Language="F#" Value="member this.SetIsDragging : bool -&gt; unit" Usage="carouselView.SetIsDragging value" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetIsDragging(bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -885,8 +885,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ObservableCollection`1&lt;class Microsoft.Maui.Controls.View&gt; VisibleViews" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.CarouselView.VisibleViews" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VisibleViews As ObservableCollection(Of View)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::ObservableCollection&lt;Microsoft::Maui::Controls::View ^&gt; ^ VisibleViews { System::Collections::ObjectModel::ObservableCollection&lt;Microsoft::Maui::Controls::View ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.VisibleViews : System.Collections.ObjectModel.ObservableCollection&lt;Microsoft.Maui.Controls.View&gt;" Usage="Microsoft.Maui.Controls.CarouselView.VisibleViews" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::ObservableCollection&lt;Microsoft::Maui::Controls::View ^&gt; ^ VisibleViews { System::Collections::ObjectModel::ObservableCollection&lt;Microsoft::Maui::Controls::View ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -906,8 +906,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty VisibleViewsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CarouselView.VisibleViewsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly VisibleViewsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VisibleViewsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable VisibleViewsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CarouselView.VisibleViewsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ VisibleViewsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

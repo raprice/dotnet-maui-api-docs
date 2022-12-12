@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ToggledEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ToggledEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ToggledEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ToggledEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type ToggledEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ToggledEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ToggledEventArgs.#ctor(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ToggledEventArgs(bool value);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.ToggledEventArgs : bool -&gt; Microsoft.Maui.Controls.ToggledEventArgs" Usage="new Microsoft.Maui.Controls.ToggledEventArgs value" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ToggledEventArgs(bool value);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Value" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ToggledEventArgs.Value" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Value { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.Value : bool" Usage="Microsoft.Maui.Controls.ToggledEventArgs.Value" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Value { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

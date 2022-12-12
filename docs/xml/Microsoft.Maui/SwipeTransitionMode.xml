@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SwipeTransitionMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.SwipeTransitionMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum SwipeTransitionMode" />
-  <TypeSignature Language="C++ CLI" Value="public enum class SwipeTransitionMode" />
   <TypeSignature Language="F#" Value="type SwipeTransitionMode = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class SwipeTransitionMode" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.SwipeTransitionMode Drag = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.SwipeTransitionMode.Drag" />
       <MemberSignature Language="VB.NET" Value="Drag" />
-      <MemberSignature Language="C++ CLI" Value="Drag" />
       <MemberSignature Language="F#" Value="Drag = 1" Usage="Microsoft.Maui.SwipeTransitionMode.Drag" />
+      <MemberSignature Language="C++ CLI" Value="Drag" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.SwipeTransitionMode Reveal = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.SwipeTransitionMode.Reveal" />
       <MemberSignature Language="VB.NET" Value="Reveal" />
-      <MemberSignature Language="C++ CLI" Value="Reveal" />
       <MemberSignature Language="F#" Value="Reveal = 0" Usage="Microsoft.Maui.SwipeTransitionMode.Reveal" />
+      <MemberSignature Language="C++ CLI" Value="Reveal" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

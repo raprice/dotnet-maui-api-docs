@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XamlServiceProvider extends System.Object implements class System.IServiceProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.Internals.XamlServiceProvider" />
   <TypeSignature Language="VB.NET" Value="Public Class XamlServiceProvider&#xA;Implements IServiceProvider" />
-  <TypeSignature Language="C++ CLI" Value="public ref class XamlServiceProvider : IServiceProvider" />
   <TypeSignature Language="F#" Value="type XamlServiceProvider = class&#xA;    interface IServiceProvider" />
+  <TypeSignature Language="C++ CLI" Value="public ref class XamlServiceProvider : IServiceProvider" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class System.Type type, object service) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.Internals.XamlServiceProvider.Add(System.Type,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (type As Type, service As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Type ^ type, System::Object ^ service);" />
       <MemberSignature Language="F#" Value="member this.Add : Type * obj -&gt; unit" Usage="xamlServiceProvider.Add (type, service)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Type ^ type, System::Object ^ service);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -70,8 +70,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetService(class System.Type serviceType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.Internals.XamlServiceProvider.GetService(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetService (serviceType As Type) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ GetService(Type ^ serviceType);" />
       <MemberSignature Language="F#" Value="abstract member GetService : Type -&gt; obj&#xA;override this.GetService : Type -&gt; obj" Usage="xamlServiceProvider.GetService serviceType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ GetService(Type ^ serviceType);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IServiceProvider.GetService(System.Type)</InterfaceMember>

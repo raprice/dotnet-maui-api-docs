@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit XamlParseException extends System.Exception" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.XamlParseException" />
   <TypeSignature Language="VB.NET" Value="Public Class XamlParseException&#xA;Inherits Exception" />
-  <TypeSignature Language="C++ CLI" Value="public ref class XamlParseException : Exception" />
   <TypeSignature Language="F#" Value="type XamlParseException = class&#xA;    inherit Exception" />
+  <TypeSignature Language="C++ CLI" Value="public ref class XamlParseException : Exception" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.XamlParseException.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; XamlParseException(System::String ^ message);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Xaml.XamlParseException : string -&gt; Microsoft.Maui.Controls.Xaml.XamlParseException" Usage="new Microsoft.Maui.Controls.Xaml.XamlParseException message" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; XamlParseException(System::String ^ message);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class System.Runtime.Serialization.SerializationInfo info, valuetype System.Runtime.Serialization.StreamingContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.XamlParseException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (info As SerializationInfo, context As StreamingContext)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; XamlParseException(System::Runtime::Serialization::SerializationInfo ^ info, System::Runtime::Serialization::StreamingContext context);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Xaml.XamlParseException : System.Runtime.Serialization.SerializationInfo * System.Runtime.Serialization.StreamingContext -&gt; Microsoft.Maui.Controls.Xaml.XamlParseException" Usage="new Microsoft.Maui.Controls.Xaml.XamlParseException (info, context)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; XamlParseException(System::Runtime::Serialization::SerializationInfo ^ info, System::Runtime::Serialization::StreamingContext context);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -90,8 +90,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception innerException) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.XamlParseException.#ctor(System.String,System.Exception)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, innerException As Exception)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; XamlParseException(System::String ^ message, Exception ^ innerException);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Xaml.XamlParseException : string * Exception -&gt; Microsoft.Maui.Controls.Xaml.XamlParseException" Usage="new Microsoft.Maui.Controls.Xaml.XamlParseException (message, innerException)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; XamlParseException(System::String ^ message, Exception ^ innerException);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -137,8 +137,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.IXmlLineInfo XmlInfo" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.XamlParseException.XmlInfo" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property XmlInfo As IXmlLineInfo" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::IXmlLineInfo ^ XmlInfo { System::Xml::IXmlLineInfo ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.XmlInfo : System.Xml.IXmlLineInfo" Usage="Microsoft.Maui.Controls.Xaml.XamlParseException.XmlInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::IXmlLineInfo ^ XmlInfo { System::Xml::IXmlLineInfo ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

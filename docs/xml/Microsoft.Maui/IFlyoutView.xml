@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFlyoutView implements class Microsoft.Maui.IElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.IFlyoutView" />
   <TypeSignature Language="VB.NET" Value="Public Interface IFlyoutView&#xA;Implements IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IFlyoutView : Microsoft::Maui::IView" />
   <TypeSignature Language="F#" Value="type IFlyoutView = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IFlyoutView : Microsoft::Maui::IView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Detail" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IFlyoutView.Detail" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Detail As IView" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IView ^ Detail { Microsoft::Maui::IView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Detail : Microsoft.Maui.IView" Usage="Microsoft.Maui.IFlyoutView.Detail" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IView ^ Detail { Microsoft::Maui::IView ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -56,8 +56,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IView Flyout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IFlyoutView.Flyout" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Flyout As IView" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IView ^ Flyout { Microsoft::Maui::IView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Flyout : Microsoft.Maui.IView" Usage="Microsoft.Maui.IFlyoutView.Flyout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IView ^ Flyout { Microsoft::Maui::IView ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -79,8 +79,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.FlyoutBehavior FlyoutBehavior" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IFlyoutView.FlyoutBehavior" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FlyoutBehavior As FlyoutBehavior" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::FlyoutBehavior FlyoutBehavior { Microsoft::Maui::FlyoutBehavior get(); };" />
       <MemberSignature Language="F#" Value="member this.FlyoutBehavior : Microsoft.Maui.FlyoutBehavior" Usage="Microsoft.Maui.IFlyoutView.FlyoutBehavior" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::FlyoutBehavior FlyoutBehavior { Microsoft::Maui::FlyoutBehavior get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 FlyoutWidth" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IFlyoutView.FlyoutWidth" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FlyoutWidth As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FlyoutWidth { double get(); };" />
       <MemberSignature Language="F#" Value="member this.FlyoutWidth : double" Usage="Microsoft.Maui.IFlyoutView.FlyoutWidth" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double FlyoutWidth { double get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -125,8 +125,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsGestureEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IFlyoutView.IsGestureEnabled" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsGestureEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsGestureEnabled { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsGestureEnabled : bool" Usage="Microsoft.Maui.IFlyoutView.IsGestureEnabled" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsGestureEnabled { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -148,8 +148,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPresented" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IFlyoutView.IsPresented" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPresented As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPresented { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsPresented : bool with get, set" Usage="Microsoft.Maui.IFlyoutView.IsPresented" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPresented { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RowDefinition extends Microsoft.Maui.Controls.BindableObject implements class Microsoft.Maui.Controls.IDefinition, class Microsoft.Maui.IGridRowDefinition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.RowDefinition" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RowDefinition&#xA;Inherits BindableObject&#xA;Implements IDefinition, IGridRowDefinition" />
-  <TypeSignature Language="C++ CLI" Value="public ref class RowDefinition sealed : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::IDefinition, Microsoft::Maui::IGridRowDefinition" />
   <TypeSignature Language="F#" Value="type RowDefinition = class&#xA;    inherit BindableObject&#xA;    interface IDefinition&#xA;    interface IGridRowDefinition" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RowDefinition sealed : Microsoft::Maui::Controls::BindableObject, Microsoft::Maui::Controls::IDefinition, Microsoft::Maui::IGridRowDefinition" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -58,8 +58,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.GridLength height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.RowDefinition.#ctor(Microsoft.Maui.GridLength)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (height As GridLength)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; RowDefinition(Microsoft::Maui::GridLength height);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.RowDefinition : Microsoft.Maui.GridLength -&gt; Microsoft.Maui.Controls.RowDefinition" Usage="new Microsoft.Maui.Controls.RowDefinition height" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RowDefinition(Microsoft::Maui::GridLength height);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -79,8 +79,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.GridLength Height" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.RowDefinition.Height" />
       <MemberSignature Language="VB.NET" Value="Public Property Height As GridLength" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::GridLength Height { Microsoft::Maui::GridLength get(); void set(Microsoft::Maui::GridLength value); };" />
       <MemberSignature Language="F#" Value="member this.Height : Microsoft.Maui.GridLength with get, set" Usage="Microsoft.Maui.Controls.RowDefinition.Height" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::GridLength Height { Microsoft::Maui::GridLength get(); void set(Microsoft::Maui::GridLength value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -106,8 +106,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HeightProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.RowDefinition.HeightProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeightProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeightProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HeightProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.RowDefinition.HeightProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeightProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -126,8 +126,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler SizeChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.RowDefinition.SizeChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event SizeChanged As EventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler ^ SizeChanged;" />
       <MemberSignature Language="F#" Value="member this.SizeChanged : EventHandler " Usage="member this.SizeChanged : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler ^ SizeChanged;" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Maui.Controls.IDefinition.SizeChanged</InterfaceMember>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TemplateExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.TemplateExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module TemplateExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TemplateExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type TemplateExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TemplateExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBinding(class Microsoft.Maui.Controls.DataTemplate self, class Microsoft.Maui.Controls.BindableProperty targetProperty, string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.TemplateExtensions.SetBinding(Microsoft.Maui.Controls.DataTemplate,Microsoft.Maui.Controls.BindableProperty,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetBinding (self As DataTemplate, targetProperty As BindableProperty, path As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetBinding(Microsoft::Maui::Controls::DataTemplate ^ self, Microsoft::Maui::Controls::BindableProperty ^ targetProperty, System::String ^ path);" />
       <MemberSignature Language="F#" Value="static member SetBinding : Microsoft.Maui.Controls.DataTemplate * Microsoft.Maui.Controls.BindableProperty * string -&gt; unit" Usage="Microsoft.Maui.Controls.TemplateExtensions.SetBinding (self, targetProperty, path)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetBinding(Microsoft::Maui::Controls::DataTemplate ^ self, Microsoft::Maui::Controls::BindableProperty ^ targetProperty, System::String ^ path);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

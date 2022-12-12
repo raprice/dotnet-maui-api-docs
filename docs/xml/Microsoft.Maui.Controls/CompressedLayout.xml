@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CompressedLayout extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.CompressedLayout" />
   <TypeSignature Language="VB.NET" Value="Public Class CompressedLayout" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CompressedLayout abstract sealed" />
   <TypeSignature Language="F#" Value="type CompressedLayout = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CompressedLayout abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.Point GetHeadlessOffset(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CompressedLayout.GetHeadlessOffset(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetHeadlessOffset (bindable As BindableObject) As Point" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Graphics::Point GetHeadlessOffset(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetHeadlessOffset : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Graphics.Point" Usage="Microsoft.Maui.Controls.CompressedLayout.GetHeadlessOffset bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Graphics::Point GetHeadlessOffset(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -54,8 +54,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsHeadless(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CompressedLayout.GetIsHeadless(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetIsHeadless (bindable As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsHeadless(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetIsHeadless : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.CompressedLayout.GetIsHeadless bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsHeadless(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -80,8 +80,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HeadlessOffsetProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CompressedLayout.HeadlessOffsetProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeadlessOffsetProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeadlessOffsetProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HeadlessOffsetProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CompressedLayout.HeadlessOffsetProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HeadlessOffsetProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -106,8 +106,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsHeadlessProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.CompressedLayout.IsHeadlessProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsHeadlessProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsHeadlessProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsHeadlessProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.CompressedLayout.IsHeadlessProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsHeadlessProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -126,8 +126,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsHeadless(class Microsoft.Maui.Controls.BindableObject bindable, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.CompressedLayout.SetIsHeadless(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetIsHeadless (bindable As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsHeadless(Microsoft::Maui::Controls::BindableObject ^ bindable, bool value);" />
       <MemberSignature Language="F#" Value="static member SetIsHeadless : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.CompressedLayout.SetIsHeadless (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsHeadless(Microsoft::Maui::Controls::BindableObject ^ bindable, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

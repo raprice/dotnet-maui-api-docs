@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GestureState extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.GestureState" />
   <TypeSignature Language="VB.NET" Value="Public Enum GestureState" />
-  <TypeSignature Language="C++ CLI" Value="public enum class GestureState" />
   <TypeSignature Language="F#" Value="type GestureState = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class GestureState" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.GestureState Began = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.GestureState.Began" />
       <MemberSignature Language="VB.NET" Value="Began" />
-      <MemberSignature Language="C++ CLI" Value="Began" />
       <MemberSignature Language="F#" Value="Began = 0" Usage="Microsoft.Maui.Controls.GestureState.Began" />
+      <MemberSignature Language="C++ CLI" Value="Began" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.GestureState Cancelled = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.GestureState.Cancelled" />
       <MemberSignature Language="VB.NET" Value="Cancelled" />
-      <MemberSignature Language="C++ CLI" Value="Cancelled" />
       <MemberSignature Language="F#" Value="Cancelled = 4" Usage="Microsoft.Maui.Controls.GestureState.Cancelled" />
+      <MemberSignature Language="C++ CLI" Value="Cancelled" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.GestureState Ended = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.GestureState.Ended" />
       <MemberSignature Language="VB.NET" Value="Ended" />
-      <MemberSignature Language="C++ CLI" Value="Ended" />
       <MemberSignature Language="F#" Value="Ended = 2" Usage="Microsoft.Maui.Controls.GestureState.Ended" />
+      <MemberSignature Language="C++ CLI" Value="Ended" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.GestureState Failed = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.GestureState.Failed" />
       <MemberSignature Language="VB.NET" Value="Failed" />
-      <MemberSignature Language="C++ CLI" Value="Failed" />
       <MemberSignature Language="F#" Value="Failed = 3" Usage="Microsoft.Maui.Controls.GestureState.Failed" />
+      <MemberSignature Language="C++ CLI" Value="Failed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.GestureState Possible = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.GestureState.Possible" />
       <MemberSignature Language="VB.NET" Value="Possible" />
-      <MemberSignature Language="C++ CLI" Value="Possible" />
       <MemberSignature Language="F#" Value="Possible = 5" Usage="Microsoft.Maui.Controls.GestureState.Possible" />
+      <MemberSignature Language="C++ CLI" Value="Possible" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -122,8 +122,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.GestureState Update = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.GestureState.Update" />
       <MemberSignature Language="VB.NET" Value="Update" />
-      <MemberSignature Language="C++ CLI" Value="Update" />
       <MemberSignature Language="F#" Value="Update = 1" Usage="Microsoft.Maui.Controls.GestureState.Update" />
+      <MemberSignature Language="C++ CLI" Value="Update" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

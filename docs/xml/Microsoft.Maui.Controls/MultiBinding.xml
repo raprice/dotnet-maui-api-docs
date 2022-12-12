@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MultiBinding extends Microsoft.Maui.Controls.BindingBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.MultiBinding" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MultiBinding&#xA;Inherits BindingBase" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MultiBinding sealed : Microsoft::Maui::Controls::BindingBase" />
   <TypeSignature Language="F#" Value="type MultiBinding = class&#xA;    inherit BindingBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MultiBinding sealed : Microsoft::Maui::Controls::BindingBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Maui.Controls.BindingBase&gt; Bindings" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.MultiBinding.Bindings" />
       <MemberSignature Language="VB.NET" Value="Public Property Bindings As IList(Of BindingBase)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::BindingBase ^&gt; ^ Bindings { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::BindingBase ^&gt; ^ get(); void set(System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::BindingBase ^&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Bindings : System.Collections.Generic.IList&lt;Microsoft.Maui.Controls.BindingBase&gt; with get, set" Usage="Microsoft.Maui.Controls.MultiBinding.Bindings" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::BindingBase ^&gt; ^ Bindings { System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::BindingBase ^&gt; ^ get(); void set(System::Collections::Generic::IList&lt;Microsoft::Maui::Controls::BindingBase ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.IMultiValueConverter Converter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.MultiBinding.Converter" />
       <MemberSignature Language="VB.NET" Value="Public Property Converter As IMultiValueConverter" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IMultiValueConverter ^ Converter { Microsoft::Maui::Controls::IMultiValueConverter ^ get(); void set(Microsoft::Maui::Controls::IMultiValueConverter ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Converter : Microsoft.Maui.Controls.IMultiValueConverter with get, set" Usage="Microsoft.Maui.Controls.MultiBinding.Converter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::IMultiValueConverter ^ Converter { Microsoft::Maui::Controls::IMultiValueConverter ^ get(); void set(Microsoft::Maui::Controls::IMultiValueConverter ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -88,8 +88,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object ConverterParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.MultiBinding.ConverterParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property ConverterParameter As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ConverterParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ConverterParameter : obj with get, set" Usage="Microsoft.Maui.Controls.MultiBinding.ConverterParameter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ConverterParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISwitch implements class Microsoft.Maui.IElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ISwitch" />
   <TypeSignature Language="VB.NET" Value="Public Interface ISwitch&#xA;Implements IView" />
-  <TypeSignature Language="C++ CLI" Value="public interface class ISwitch : Microsoft::Maui::IView" />
   <TypeSignature Language="F#" Value="type ISwitch = interface&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ISwitch : Microsoft::Maui::IView" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -32,8 +32,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsOn" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ISwitch.IsOn" />
       <MemberSignature Language="VB.NET" Value="Public Property IsOn As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOn { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsOn : bool with get, set" Usage="Microsoft.Maui.ISwitch.IsOn" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOn { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -55,8 +55,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color ThumbColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ISwitch.ThumbColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThumbColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ ThumbColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ThumbColor : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.ISwitch.ThumbColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ ThumbColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -78,8 +78,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color TrackColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ISwitch.TrackColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TrackColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TrackColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.TrackColor : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.ISwitch.TrackColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ TrackColor { Microsoft::Maui::Graphics::Color ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

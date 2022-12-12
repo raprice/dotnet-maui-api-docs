@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Screenshot extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Media.Screenshot" />
   <TypeSignature Language="VB.NET" Value="Public Class Screenshot" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Screenshot abstract sealed" />
   <TypeSignature Language="F#" Value="type Screenshot = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Screenshot abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Media.IScreenshotResult&gt; CaptureAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Media.Screenshot.CaptureAsync" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CaptureAsync () As Task(Of IScreenshotResult)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::Media::IScreenshotResult ^&gt; ^ CaptureAsync();" />
       <MemberSignature Language="F#" Value="static member CaptureAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Media.IScreenshotResult&gt;" Usage="Microsoft.Maui.Media.Screenshot.CaptureAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::Media::IScreenshotResult ^&gt; ^ CaptureAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -45,8 +45,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Media.IScreenshot Default" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Media.Screenshot.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As IScreenshot" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Media::IScreenshot ^ Default { Microsoft::Maui::Media::IScreenshot ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Default : Microsoft.Maui.Media.IScreenshot" Usage="Microsoft.Maui.Media.Screenshot.Default" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Media::IScreenshot ^ Default { Microsoft::Maui::Media::IScreenshot ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -66,8 +66,8 @@
       <MemberSignature Language="ILAsm" Value=".property bool IsCaptureSupported" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Media.Screenshot.IsCaptureSupported" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsCaptureSupported As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsCaptureSupported { bool get(); };" />
       <MemberSignature Language="F#" Value="static member IsCaptureSupported : bool" Usage="Microsoft.Maui.Media.Screenshot.IsCaptureSupported" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool IsCaptureSupported { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit StrokeExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Platform.StrokeExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module StrokeExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class StrokeExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type StrokeExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StrokeExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UpdateStroke(object platformView, class Microsoft.Maui.IBorderStroke border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Platform.StrokeExtensions.UpdateStroke(System.Object,Microsoft.Maui.IBorderStroke)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UpdateStroke (platformView As Object, border As IBorderStroke)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStroke(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberSignature Language="F#" Value="static member UpdateStroke : obj * Microsoft.Maui.IBorderStroke -&gt; unit" Usage="Microsoft.Maui.Platform.StrokeExtensions.UpdateStroke (platformView, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStroke(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -49,8 +49,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UpdateStrokeDashOffset(object platformView, class Microsoft.Maui.IBorderStroke border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeDashOffset(System.Object,Microsoft.Maui.IBorderStroke)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UpdateStrokeDashOffset (platformView As Object, border As IBorderStroke)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeDashOffset(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberSignature Language="F#" Value="static member UpdateStrokeDashOffset : obj * Microsoft.Maui.IBorderStroke -&gt; unit" Usage="Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeDashOffset (platformView, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeDashOffset(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -75,8 +75,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UpdateStrokeDashPattern(object platformView, class Microsoft.Maui.IBorderStroke border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeDashPattern(System.Object,Microsoft.Maui.IBorderStroke)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UpdateStrokeDashPattern (platformView As Object, border As IBorderStroke)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeDashPattern(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberSignature Language="F#" Value="static member UpdateStrokeDashPattern : obj * Microsoft.Maui.IBorderStroke -&gt; unit" Usage="Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeDashPattern (platformView, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeDashPattern(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -101,8 +101,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UpdateStrokeLineCap(object platformView, class Microsoft.Maui.IBorderStroke border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeLineCap(System.Object,Microsoft.Maui.IBorderStroke)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UpdateStrokeLineCap (platformView As Object, border As IBorderStroke)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeLineCap(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberSignature Language="F#" Value="static member UpdateStrokeLineCap : obj * Microsoft.Maui.IBorderStroke -&gt; unit" Usage="Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeLineCap (platformView, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeLineCap(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -127,8 +127,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UpdateStrokeLineJoin(object platformView, class Microsoft.Maui.IBorderStroke border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeLineJoin(System.Object,Microsoft.Maui.IBorderStroke)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UpdateStrokeLineJoin (platformView As Object, border As IBorderStroke)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeLineJoin(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberSignature Language="F#" Value="static member UpdateStrokeLineJoin : obj * Microsoft.Maui.IBorderStroke -&gt; unit" Usage="Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeLineJoin (platformView, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeLineJoin(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -153,8 +153,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UpdateStrokeMiterLimit(object platformView, class Microsoft.Maui.IBorderStroke border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeMiterLimit(System.Object,Microsoft.Maui.IBorderStroke)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UpdateStrokeMiterLimit (platformView As Object, border As IBorderStroke)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeMiterLimit(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberSignature Language="F#" Value="static member UpdateStrokeMiterLimit : obj * Microsoft.Maui.IBorderStroke -&gt; unit" Usage="Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeMiterLimit (platformView, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeMiterLimit(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -179,8 +179,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UpdateStrokeShape(object platformView, class Microsoft.Maui.IBorderStroke border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeShape(System.Object,Microsoft.Maui.IBorderStroke)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UpdateStrokeShape (platformView As Object, border As IBorderStroke)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeShape(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberSignature Language="F#" Value="static member UpdateStrokeShape : obj * Microsoft.Maui.IBorderStroke -&gt; unit" Usage="Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeShape (platformView, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeShape(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -205,8 +205,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UpdateStrokeThickness(object platformView, class Microsoft.Maui.IBorderStroke border) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeThickness(System.Object,Microsoft.Maui.IBorderStroke)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UpdateStrokeThickness (platformView As Object, border As IBorderStroke)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeThickness(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberSignature Language="F#" Value="static member UpdateStrokeThickness : obj * Microsoft.Maui.IBorderStroke -&gt; unit" Usage="Microsoft.Maui.Platform.StrokeExtensions.UpdateStrokeThickness (platformView, border)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void UpdateStrokeThickness(System::Object ^ platformView, Microsoft::Maui::IBorderStroke ^ border);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

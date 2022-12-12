@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit WindowExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.WindowExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module WindowExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class WindowExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type WindowExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WindowExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Media.IScreenshotResult&gt; CaptureAsync(class Microsoft.Maui.IWindow window) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.WindowExtensions.CaptureAsync(Microsoft.Maui.IWindow)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CaptureAsync (window As IWindow) As Task(Of IScreenshotResult)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::Media::IScreenshotResult ^&gt; ^ CaptureAsync(Microsoft::Maui::IWindow ^ window);" />
       <MemberSignature Language="F#" Value="static member CaptureAsync : Microsoft.Maui.IWindow -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Media.IScreenshotResult&gt;" Usage="Microsoft.Maui.WindowExtensions.CaptureAsync window" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;Microsoft::Maui::Media::IScreenshotResult ^&gt; ^ CaptureAsync(Microsoft::Maui::IWindow ^ window);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

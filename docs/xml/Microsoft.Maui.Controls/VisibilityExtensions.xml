@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VisibilityExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.VisibilityExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module VisibilityExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class VisibilityExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type VisibilityExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VisibilityExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Visibility ToVisibility(bool isVisible) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.VisibilityExtensions.ToVisibility(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToVisibility (isVisible As Boolean) As Visibility" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Visibility ToVisibility(bool isVisible);" />
       <MemberSignature Language="F#" Value="static member ToVisibility : bool -&gt; Microsoft.Maui.Visibility" Usage="Microsoft.Maui.Controls.VisibilityExtensions.ToVisibility isVisible" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Visibility ToVisibility(bool isVisible);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

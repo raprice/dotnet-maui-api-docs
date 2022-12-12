@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ClearButtonVisibility extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ClearButtonVisibility" />
   <TypeSignature Language="VB.NET" Value="Public Enum ClearButtonVisibility" />
-  <TypeSignature Language="C++ CLI" Value="public enum class ClearButtonVisibility" />
   <TypeSignature Language="F#" Value="type ClearButtonVisibility = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class ClearButtonVisibility" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -25,8 +25,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.ClearButtonVisibility Never = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.ClearButtonVisibility.Never" />
       <MemberSignature Language="VB.NET" Value="Never" />
-      <MemberSignature Language="C++ CLI" Value="Never" />
       <MemberSignature Language="F#" Value="Never = 0" Usage="Microsoft.Maui.ClearButtonVisibility.Never" />
+      <MemberSignature Language="C++ CLI" Value="Never" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.ClearButtonVisibility WhileEditing = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.ClearButtonVisibility.WhileEditing" />
       <MemberSignature Language="VB.NET" Value="WhileEditing" />
-      <MemberSignature Language="C++ CLI" Value="WhileEditing" />
       <MemberSignature Language="F#" Value="WhileEditing = 1" Usage="Microsoft.Maui.ClearButtonVisibility.WhileEditing" />
+      <MemberSignature Language="C++ CLI" Value="WhileEditing" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

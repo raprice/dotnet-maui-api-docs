@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BoundsConstraint extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.BoundsConstraint" />
   <TypeSignature Language="VB.NET" Value="Public Class BoundsConstraint" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BoundsConstraint" />
   <TypeSignature Language="F#" Value="type BoundsConstraint = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BoundsConstraint" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

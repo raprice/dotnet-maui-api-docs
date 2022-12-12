@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OpenWindowRequest extends System.Object implements class System.IEquatable`1&lt;class Microsoft.Maui.Handlers.OpenWindowRequest&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.OpenWindowRequest" />
   <TypeSignature Language="VB.NET" Value="Public Class OpenWindowRequest&#xA;Implements IEquatable(Of OpenWindowRequest)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class OpenWindowRequest : IEquatable&lt;Microsoft::Maui::Handlers::OpenWindowRequest ^&gt;" />
   <TypeSignature Language="F#" Value="type OpenWindowRequest = class&#xA;    interface IEquatable&lt;OpenWindowRequest&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OpenWindowRequest : IEquatable&lt;Microsoft::Maui::Handlers::OpenWindowRequest ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -111,8 +111,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type EqualityContract" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.OpenWindowRequest.EqualityContract" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property EqualityContract As Type" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property Type ^ EqualityContract { Type ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.EqualityContract : Type" Usage="Microsoft.Maui.Handlers.OpenWindowRequest.EqualityContract" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property Type ^ EqualityContract { Type ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -280,8 +280,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IPersistedState State" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.OpenWindowRequest.State" />
       <MemberSignature Language="VB.NET" Value="Public Property State As IPersistedState" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IPersistedState ^ State { Microsoft::Maui::IPersistedState ^ get(); void set(Microsoft::Maui::IPersistedState ^ value); };" />
       <MemberSignature Language="F#" Value="member this.State : Microsoft.Maui.IPersistedState with get, set" Usage="Microsoft.Maui.Handlers.OpenWindowRequest.State" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::IPersistedState ^ State { Microsoft::Maui::IPersistedState ^ get(); void set(Microsoft::Maui::IPersistedState ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

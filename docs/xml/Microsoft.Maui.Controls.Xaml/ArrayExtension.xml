@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ArrayExtension extends System.Object implements class Microsoft.Maui.Controls.Xaml.IMarkupExtension, class Microsoft.Maui.Controls.Xaml.IMarkupExtension`1&lt;class System.Array&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.ArrayExtension" />
   <TypeSignature Language="VB.NET" Value="Public Class ArrayExtension&#xA;Implements IMarkupExtension(Of Array)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ArrayExtension : Microsoft::Maui::Controls::Xaml::IMarkupExtension&lt;Array ^&gt;" />
   <TypeSignature Language="F#" Value="type ArrayExtension = class&#xA;    interface IMarkupExtension&lt;Array&gt;&#xA;    interface IMarkupExtension" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ArrayExtension : Microsoft::Maui::Controls::Xaml::IMarkupExtension&lt;Array ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -57,8 +57,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.IList Items" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.ArrayExtension.Items" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Items As IList" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::IList ^ Items { System::Collections::IList ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Items : System.Collections.IList" Usage="Microsoft.Maui.Controls.Xaml.ArrayExtension.Items" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::IList ^ Items { System::Collections::IList ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>
@@ -78,8 +78,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.ArrayExtension.Microsoft#Maui#Controls#Xaml#IMarkupExtension#ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Function ProvideValue (serviceProvider As IServiceProvider) As Object Implements IMarkupExtension.ProvideValue" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Object ^ Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue(IServiceProvider ^ serviceProvider) = Microsoft::Maui::Controls::Xaml::IMarkupExtension::ProvideValue;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue : IServiceProvider -&gt; obj&#xA;override this.Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue : IServiceProvider -&gt; obj" Usage="arrayExtension.Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue serviceProvider" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Object ^ Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue(IServiceProvider ^ serviceProvider) = Microsoft::Maui::Controls::Xaml::IMarkupExtension::ProvideValue;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Xaml.IMarkupExtension.ProvideValue(System.IServiceProvider)</InterfaceMember>
@@ -106,8 +106,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Array ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.ArrayExtension.ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ProvideValue (serviceProvider As IServiceProvider) As Array" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Array ^ ProvideValue(IServiceProvider ^ serviceProvider);" />
       <MemberSignature Language="F#" Value="abstract member ProvideValue : IServiceProvider -&gt; Array&#xA;override this.ProvideValue : IServiceProvider -&gt; Array" Usage="arrayExtension.ProvideValue serviceProvider" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Array ^ ProvideValue(IServiceProvider ^ serviceProvider);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.Xaml.IMarkupExtension`1.ProvideValue(System.IServiceProvider)</InterfaceMember>
@@ -134,8 +134,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type Type" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Xaml.ArrayExtension.Type" />
       <MemberSignature Language="VB.NET" Value="Public Property Type As Type" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Type ^ Type { Type ^ get(); void set(Type ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Type : Type with get, set" Usage="Microsoft.Maui.Controls.Xaml.ArrayExtension.Type" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Type ^ Type { Type ^ get(); void set(Type ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls.Xaml</AssemblyName>

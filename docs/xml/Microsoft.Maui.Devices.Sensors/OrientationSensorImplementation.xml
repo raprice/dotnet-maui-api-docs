@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OrientationSensorImplementation extends System.Object implements class Microsoft.Maui.Devices.Sensors.IOrientationSensor" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.Sensors.OrientationSensorImplementation" />
   <TypeSignature Language="VB.NET" Value="Public Class OrientationSensorImplementation&#xA;Implements IOrientationSensor" />
-  <TypeSignature Language="C++ CLI" Value="public ref class OrientationSensorImplementation : Microsoft::Maui::Devices::Sensors::IOrientationSensor" />
   <TypeSignature Language="F#" Value="type OrientationSensorImplementation = class&#xA;    interface IOrientationSensor" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OrientationSensorImplementation : Microsoft::Maui::Devices::Sensors::IOrientationSensor" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsMonitoring" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.OrientationSensorImplementation.IsMonitoring" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMonitoring As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMonitoring { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsMonitoring : bool" Usage="Microsoft.Maui.Devices.Sensors.OrientationSensorImplementation.IsMonitoring" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMonitoring { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Devices.Sensors.IOrientationSensor.IsMonitoring</InterfaceMember>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsSupported" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.Sensors.OrientationSensorImplementation.IsSupported" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSupported As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSupported { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsSupported : bool" Usage="Microsoft.Maui.Devices.Sensors.OrientationSensorImplementation.IsSupported" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSupported { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Devices.Sensors.IOrientationSensor.IsSupported</InterfaceMember>
@@ -92,8 +92,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Devices.Sensors.OrientationSensorChangedEventArgs&gt; ReadingChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Devices.Sensors.OrientationSensorImplementation.ReadingChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event ReadingChanged As EventHandler(Of OrientationSensorChangedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler&lt;Microsoft::Maui::Devices::Sensors::OrientationSensorChangedEventArgs ^&gt; ^ ReadingChanged;" />
       <MemberSignature Language="F#" Value="member this.ReadingChanged : EventHandler&lt;Microsoft.Maui.Devices.Sensors.OrientationSensorChangedEventArgs&gt; " Usage="member this.ReadingChanged : System.EventHandler&lt;Microsoft.Maui.Devices.Sensors.OrientationSensorChangedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler&lt;Microsoft::Maui::Devices::Sensors::OrientationSensorChangedEventArgs ^&gt; ^ ReadingChanged;" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Microsoft.Maui.Devices.Sensors.IOrientationSensor.ReadingChanged</InterfaceMember>
@@ -115,8 +115,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Start(valuetype Microsoft.Maui.Devices.Sensors.SensorSpeed sensorSpeed) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.OrientationSensorImplementation.Start(Microsoft.Maui.Devices.Sensors.SensorSpeed)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Start (sensorSpeed As SensorSpeed)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Start(Microsoft::Maui::Devices::Sensors::SensorSpeed sensorSpeed);" />
       <MemberSignature Language="F#" Value="abstract member Start : Microsoft.Maui.Devices.Sensors.SensorSpeed -&gt; unit&#xA;override this.Start : Microsoft.Maui.Devices.Sensors.SensorSpeed -&gt; unit" Usage="orientationSensorImplementation.Start sensorSpeed" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Start(Microsoft::Maui::Devices::Sensors::SensorSpeed sensorSpeed);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Devices.Sensors.IOrientationSensor.Start(Microsoft.Maui.Devices.Sensors.SensorSpeed)</InterfaceMember>
@@ -142,8 +142,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Stop() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Devices.Sensors.OrientationSensorImplementation.Stop" />
       <MemberSignature Language="VB.NET" Value="Public Sub Stop ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Stop();" />
       <MemberSignature Language="F#" Value="abstract member Stop : unit -&gt; unit&#xA;override this.Stop : unit -&gt; unit" Usage="orientationSensorImplementation.Stop " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Stop();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Devices.Sensors.IOrientationSensor.Stop</InterfaceMember>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LerpingAnimation extends Microsoft.Maui.Animations.Animation" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Animations.LerpingAnimation" />
   <TypeSignature Language="VB.NET" Value="Public Class LerpingAnimation&#xA;Inherits Animation" />
-  <TypeSignature Language="C++ CLI" Value="public ref class LerpingAnimation : Microsoft::Maui::Animations::Animation" />
   <TypeSignature Language="F#" Value="type LerpingAnimation = class&#xA;    inherit Animation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class LerpingAnimation : Microsoft::Maui::Animations::Animation" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.List`1&lt;class Microsoft.Maui.Animations.Animation&gt; animations) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.LerpingAnimation.#ctor(System.Collections.Generic.List{Microsoft.Maui.Animations.Animation})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (animations As List(Of Animation))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; LerpingAnimation(System::Collections::Generic::List&lt;Microsoft::Maui::Animations::Animation ^&gt; ^ animations);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Animations.LerpingAnimation : System.Collections.Generic.List&lt;Microsoft.Maui.Animations.Animation&gt; -&gt; Microsoft.Maui.Animations.LerpingAnimation" Usage="new Microsoft.Maui.Animations.LerpingAnimation animations" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; LerpingAnimation(System::Collections::Generic::List&lt;Microsoft::Maui::Animations::Animation ^&gt; ^ animations);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -97,8 +97,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object CurrentValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Animations.LerpingAnimation.CurrentValue" />
       <MemberSignature Language="VB.NET" Value="Public Property CurrentValue As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:  property System::Object ^ CurrentValue {  public:&#xA;System::Object ^ get(); protected:&#xA; void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.CurrentValue : obj with get, set" Usage="Microsoft.Maui.Animations.LerpingAnimation.CurrentValue" />
+      <MemberSignature Language="C++ CLI" Value="public:  property System::Object ^ CurrentValue {  public:&#xA;System::Object ^ get(); protected:&#xA; void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -120,8 +120,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object EndValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Animations.LerpingAnimation.EndValue" />
       <MemberSignature Language="VB.NET" Value="Public Property EndValue As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ EndValue { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.EndValue : obj with get, set" Usage="Microsoft.Maui.Animations.LerpingAnimation.EndValue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ EndValue { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -143,8 +143,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Animations.Lerp Lerp" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Animations.LerpingAnimation.Lerp" />
       <MemberSignature Language="VB.NET" Value="Public Property Lerp As Lerp" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Animations::Lerp ^ Lerp { Microsoft::Maui::Animations::Lerp ^ get(); void set(Microsoft::Maui::Animations::Lerp ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Lerp : Microsoft.Maui.Animations.Lerp with get, set" Usage="Microsoft.Maui.Animations.LerpingAnimation.Lerp" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Animations::Lerp ^ Lerp { Microsoft::Maui::Animations::Lerp ^ get(); void set(Microsoft::Maui::Animations::Lerp ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -166,8 +166,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object StartValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Animations.LerpingAnimation.StartValue" />
       <MemberSignature Language="VB.NET" Value="Public Property StartValue As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ StartValue { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.StartValue : obj with get, set" Usage="Microsoft.Maui.Animations.LerpingAnimation.StartValue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ StartValue { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -189,8 +189,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Update(float64 percent) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.LerpingAnimation.Update(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Update (percent As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Update(double percent);" />
       <MemberSignature Language="F#" Value="override this.Update : double -&gt; unit" Usage="lerpingAnimation.Update percent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Update(double percent);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -214,8 +214,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Action ValueChanged" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Animations.LerpingAnimation.ValueChanged" />
       <MemberSignature Language="VB.NET" Value="Public Property ValueChanged As Action" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Action ^ ValueChanged { Action ^ get(); void set(Action ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ValueChanged : Action with get, set" Usage="Microsoft.Maui.Animations.LerpingAnimation.ValueChanged" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Action ^ ValueChanged { Action ^ get(); void set(Action ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RefreshViewHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.IRefreshView, object&gt; implements class Microsoft.Maui.Handlers.IRefreshViewHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.RefreshViewHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class RefreshViewHandler&#xA;Inherits ViewHandler(Of IRefreshView, Object)&#xA;Implements IRefreshViewHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class RefreshViewHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IRefreshView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IRefreshViewHandler" />
   <TypeSignature Language="F#" Value="type RefreshViewHandler = class&#xA;    inherit ViewHandler&lt;IRefreshView, obj&gt;&#xA;    interface IRefreshViewHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RefreshViewHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IRefreshView ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IRefreshViewHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -77,8 +77,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RefreshViewHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; RefreshViewHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.RefreshViewHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.Handlers.RefreshViewHandler" Usage="new Microsoft.Maui.Handlers.RefreshViewHandler (mapper, commandMapper)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RefreshViewHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IRefreshView, class Microsoft.Maui.Handlers.IRefreshViewHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.RefreshViewHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IRefreshView, IRefreshViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IRefreshView ^, Microsoft::Maui::Handlers::IRefreshViewHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IRefreshView, Microsoft.Maui.Handlers.IRefreshViewHandler&gt;" Usage="Microsoft.Maui.Handlers.RefreshViewHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IRefreshView ^, Microsoft::Maui::Handlers::IRefreshViewHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -120,8 +120,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RefreshViewHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="refreshViewHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -142,8 +142,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapContent(class Microsoft.Maui.Handlers.IRefreshViewHandler handler, class Microsoft.Maui.IRefreshView refreshView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RefreshViewHandler.MapContent(Microsoft.Maui.Handlers.IRefreshViewHandler,Microsoft.Maui.IRefreshView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapContent (handler As IRefreshViewHandler, refreshView As IRefreshView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContent(Microsoft::Maui::Handlers::IRefreshViewHandler ^ handler, Microsoft::Maui::IRefreshView ^ refreshView);" />
       <MemberSignature Language="F#" Value="static member MapContent : Microsoft.Maui.Handlers.IRefreshViewHandler * Microsoft.Maui.IRefreshView -&gt; unit" Usage="Microsoft.Maui.Handlers.RefreshViewHandler.MapContent (handler, refreshView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapContent(Microsoft::Maui::Handlers::IRefreshViewHandler ^ handler, Microsoft::Maui::IRefreshView ^ refreshView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -168,8 +168,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsRefreshing(class Microsoft.Maui.Handlers.IRefreshViewHandler handler, class Microsoft.Maui.IRefreshView refreshView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RefreshViewHandler.MapIsRefreshing(Microsoft.Maui.Handlers.IRefreshViewHandler,Microsoft.Maui.IRefreshView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsRefreshing (handler As IRefreshViewHandler, refreshView As IRefreshView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsRefreshing(Microsoft::Maui::Handlers::IRefreshViewHandler ^ handler, Microsoft::Maui::IRefreshView ^ refreshView);" />
       <MemberSignature Language="F#" Value="static member MapIsRefreshing : Microsoft.Maui.Handlers.IRefreshViewHandler * Microsoft.Maui.IRefreshView -&gt; unit" Usage="Microsoft.Maui.Handlers.RefreshViewHandler.MapIsRefreshing (handler, refreshView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsRefreshing(Microsoft::Maui::Handlers::IRefreshViewHandler ^ handler, Microsoft::Maui::IRefreshView ^ refreshView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -194,8 +194,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IRefreshView, class Microsoft.Maui.Handlers.IRefreshViewHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.RefreshViewHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IRefreshView, IRefreshViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IRefreshView ^, Microsoft::Maui::Handlers::IRefreshViewHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IRefreshView, Microsoft.Maui.Handlers.IRefreshViewHandler&gt;" Usage="Microsoft.Maui.Handlers.RefreshViewHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IRefreshView ^, Microsoft::Maui::Handlers::IRefreshViewHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -214,8 +214,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapRefreshColor(class Microsoft.Maui.Handlers.IRefreshViewHandler handler, class Microsoft.Maui.IRefreshView refreshView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RefreshViewHandler.MapRefreshColor(Microsoft.Maui.Handlers.IRefreshViewHandler,Microsoft.Maui.IRefreshView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapRefreshColor (handler As IRefreshViewHandler, refreshView As IRefreshView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapRefreshColor(Microsoft::Maui::Handlers::IRefreshViewHandler ^ handler, Microsoft::Maui::IRefreshView ^ refreshView);" />
       <MemberSignature Language="F#" Value="static member MapRefreshColor : Microsoft.Maui.Handlers.IRefreshViewHandler * Microsoft.Maui.IRefreshView -&gt; unit" Usage="Microsoft.Maui.Handlers.RefreshViewHandler.MapRefreshColor (handler, refreshView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapRefreshColor(Microsoft::Maui::Handlers::IRefreshViewHandler ^ handler, Microsoft::Maui::IRefreshView ^ refreshView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -240,8 +240,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapRefreshViewBackground(class Microsoft.Maui.Handlers.IRefreshViewHandler handler, class Microsoft.Maui.IView view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.RefreshViewHandler.MapRefreshViewBackground(Microsoft.Maui.Handlers.IRefreshViewHandler,Microsoft.Maui.IView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapRefreshViewBackground (handler As IRefreshViewHandler, view As IView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapRefreshViewBackground(Microsoft::Maui::Handlers::IRefreshViewHandler ^ handler, Microsoft::Maui::IView ^ view);" />
       <MemberSignature Language="F#" Value="static member MapRefreshViewBackground : Microsoft.Maui.Handlers.IRefreshViewHandler * Microsoft.Maui.IView -&gt; unit" Usage="Microsoft.Maui.Handlers.RefreshViewHandler.MapRefreshViewBackground (handler, view)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapRefreshViewBackground(Microsoft::Maui::Handlers::IRefreshViewHandler ^ handler, Microsoft::Maui::IView ^ view);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -266,8 +266,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.IRefreshViewHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.RefreshViewHandler.Microsoft#Maui#Handlers#IRefreshViewHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IRefreshViewHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IRefreshViewHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IRefreshViewHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.IRefreshViewHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IRefreshViewHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IRefreshViewHandler.PlatformView</InterfaceMember>
@@ -290,8 +290,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IRefreshView Microsoft.Maui.Handlers.IRefreshViewHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.RefreshViewHandler.Microsoft#Maui#Handlers#IRefreshViewHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IRefreshView Implements IRefreshViewHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IRefreshView ^ Microsoft::Maui::Handlers::IRefreshViewHandler::VirtualView { Microsoft::Maui::IRefreshView ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IRefreshViewHandler.VirtualView : Microsoft.Maui.IRefreshView" Usage="Microsoft.Maui.Handlers.IRefreshViewHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IRefreshView ^ Microsoft::Maui::Handlers::IRefreshViewHandler::VirtualView { Microsoft::Maui::IRefreshView ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IRefreshViewHandler.VirtualView</InterfaceMember>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Rect extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.Rect" />
   <TypeSignature Language="VB.NET" Value="Public Structure Rect" />
-  <TypeSignature Language="C++ CLI" Value="public value class Rect" />
   <TypeSignature Language="F#" Value="type Rect = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class Rect" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.Graphics.Point loc, valuetype Microsoft.Maui.Graphics.Size sz) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.#ctor(Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Size)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (loc As Point, sz As Size)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Rect(Microsoft::Maui::Graphics::Point loc, Microsoft::Maui::Graphics::Size sz);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Graphics.Rect : Microsoft.Maui.Graphics.Point * Microsoft.Maui.Graphics.Size -&gt; Microsoft.Maui.Graphics.Rect" Usage="new Microsoft.Maui.Graphics.Rect (loc, sz)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Rect(Microsoft::Maui::Graphics::Point loc, Microsoft::Maui::Graphics::Size sz);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -56,8 +56,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.#ctor(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (x As Double, y As Double, width As Double, height As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Rect(double x, double y, double width, double height);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Graphics.Rect : double * double * double * double -&gt; Microsoft.Maui.Graphics.Rect" Usage="new Microsoft.Maui.Graphics.Rect (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Rect(double x, double y, double width, double height);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -83,8 +83,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Bottom" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Rect.Bottom" />
       <MemberSignature Language="VB.NET" Value="Public Property Bottom As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Bottom { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Bottom : double with get, set" Usage="Microsoft.Maui.Graphics.Rect.Bottom" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Bottom { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -104,8 +104,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Point Center" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Rect.Center" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Center As Point" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point Center { Microsoft::Maui::Graphics::Point get(); };" />
       <MemberSignature Language="F#" Value="member this.Center : Microsoft.Maui.Graphics.Point" Usage="Microsoft.Maui.Graphics.Rect.Center" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point Center { Microsoft::Maui::Graphics::Point get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -125,8 +125,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(valuetype Microsoft.Maui.Graphics.Point pt) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Contains(Microsoft.Maui.Graphics.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Function Contains (pt As Point) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(Microsoft::Maui::Graphics::Point pt);" />
       <MemberSignature Language="F#" Value="member this.Contains : Microsoft.Maui.Graphics.Point -&gt; bool" Usage="rect.Contains pt" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(Microsoft::Maui::Graphics::Point pt);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -150,8 +150,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(valuetype Microsoft.Maui.Graphics.Rect rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Contains(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Function Contains (rect As Rect) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(Microsoft::Maui::Graphics::Rect rect);" />
       <MemberSignature Language="F#" Value="member this.Contains : Microsoft.Maui.Graphics.Rect -&gt; bool" Usage="rect.Contains rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(Microsoft::Maui::Graphics::Rect rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -175,8 +175,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(float64 x, float64 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Contains(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function Contains (x As Double, y As Double) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(double x, double y);" />
       <MemberSignature Language="F#" Value="member this.Contains : double * double -&gt; bool" Usage="rect.Contains (x, y)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(double x, double y);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -202,8 +202,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Deconstruct([out] float64&amp; x, [out] float64&amp; y, [out] float64&amp; width, [out] float64&amp; height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Deconstruct(System.Double@,System.Double@,System.Double@,System.Double@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Deconstruct (ByRef x As Double, ByRef y As Double, ByRef width As Double, ByRef height As Double)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Deconstruct([Runtime::InteropServices::Out] double % x, [Runtime::InteropServices::Out] double % y, [Runtime::InteropServices::Out] double % width, [Runtime::InteropServices::Out] double % height);" />
       <MemberSignature Language="F#" Value="member this.Deconstruct : double * double * double * double -&gt; unit" Usage="rect.Deconstruct (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Deconstruct([Runtime::InteropServices::Out] double % x, [Runtime::InteropServices::Out] double % y, [Runtime::InteropServices::Out] double % width, [Runtime::InteropServices::Out] double % height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -232,8 +232,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Equals(valuetype Microsoft.Maui.Graphics.Rect other) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Equals(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As Rect) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Equals(Microsoft::Maui::Graphics::Rect other);" />
       <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Maui.Graphics.Rect -&gt; bool" Usage="rect.Equals other" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Equals(Microsoft::Maui::Graphics::Rect other);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -257,8 +257,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="rect.Equals obj" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -282,8 +282,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.Rect FromLTRB(float64 left, float64 top, float64 right, float64 bottom) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.FromLTRB(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromLTRB (left As Double, top As Double, right As Double, bottom As Double) As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Graphics::Rect FromLTRB(double left, double top, double right, double bottom);" />
       <MemberSignature Language="F#" Value="static member FromLTRB : double * double * double * double -&gt; Microsoft.Maui.Graphics.Rect" Usage="Microsoft.Maui.Graphics.Rect.FromLTRB (left, top, right, bottom)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Graphics::Rect FromLTRB(double left, double top, double right, double bottom);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -313,8 +313,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="rect.GetHashCode " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -335,8 +335,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Height" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Rect.Height" />
       <MemberSignature Language="VB.NET" Value="Public Property Height As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Height { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Height : double with get, set" Usage="Microsoft.Maui.Graphics.Rect.Height" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Height { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -362,8 +362,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Graphics.Rect Inflate(valuetype Microsoft.Maui.Graphics.Size sz) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Inflate(Microsoft.Maui.Graphics.Size)" />
       <MemberSignature Language="VB.NET" Value="Public Function Inflate (sz As Size) As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Inflate(Microsoft::Maui::Graphics::Size sz);" />
       <MemberSignature Language="F#" Value="member this.Inflate : Microsoft.Maui.Graphics.Size -&gt; Microsoft.Maui.Graphics.Rect" Usage="rect.Inflate sz" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Inflate(Microsoft::Maui::Graphics::Size sz);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -387,8 +387,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Graphics.Rect Inflate(float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Inflate(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function Inflate (width As Double, height As Double) As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Inflate(double width, double height);" />
       <MemberSignature Language="F#" Value="member this.Inflate : double * double -&gt; Microsoft.Maui.Graphics.Rect" Usage="rect.Inflate (width, height)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Inflate(double width, double height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -414,8 +414,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Graphics.Rect Intersect(valuetype Microsoft.Maui.Graphics.Rect r) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Intersect(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Function Intersect (r As Rect) As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Intersect(Microsoft::Maui::Graphics::Rect r);" />
       <MemberSignature Language="F#" Value="member this.Intersect : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Rect" Usage="rect.Intersect r" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Intersect(Microsoft::Maui::Graphics::Rect r);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -439,8 +439,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.Rect Intersect(valuetype Microsoft.Maui.Graphics.Rect r1, valuetype Microsoft.Maui.Graphics.Rect r2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Intersect(Microsoft.Maui.Graphics.Rect,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Intersect (r1 As Rect, r2 As Rect) As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Graphics::Rect Intersect(Microsoft::Maui::Graphics::Rect r1, Microsoft::Maui::Graphics::Rect r2);" />
       <MemberSignature Language="F#" Value="static member Intersect : Microsoft.Maui.Graphics.Rect * Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Rect" Usage="Microsoft.Maui.Graphics.Rect.Intersect (r1, r2)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Graphics::Rect Intersect(Microsoft::Maui::Graphics::Rect r1, Microsoft::Maui::Graphics::Rect r2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -466,8 +466,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IntersectsWith(valuetype Microsoft.Maui.Graphics.Rect r) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.IntersectsWith(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Function IntersectsWith (r As Rect) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IntersectsWith(Microsoft::Maui::Graphics::Rect r);" />
       <MemberSignature Language="F#" Value="member this.IntersectsWith : Microsoft.Maui.Graphics.Rect -&gt; bool" Usage="rect.IntersectsWith r" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IntersectsWith(Microsoft::Maui::Graphics::Rect r);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -491,8 +491,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEmpty" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Rect.IsEmpty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsEmpty As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEmpty { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsEmpty : bool" Usage="Microsoft.Maui.Graphics.Rect.IsEmpty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEmpty { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -512,8 +512,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Left" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Rect.Left" />
       <MemberSignature Language="VB.NET" Value="Public Property Left As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Left { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Left : double with get, set" Usage="Microsoft.Maui.Graphics.Rect.Left" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Left { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -533,8 +533,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Point Location" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Rect.Location" />
       <MemberSignature Language="VB.NET" Value="Public Property Location As Point" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point Location { Microsoft::Maui::Graphics::Point get(); void set(Microsoft::Maui::Graphics::Point value); };" />
       <MemberSignature Language="F#" Value="member this.Location : Microsoft.Maui.Graphics.Point with get, set" Usage="Microsoft.Maui.Graphics.Rect.Location" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point Location { Microsoft::Maui::Graphics::Point get(); void set(Microsoft::Maui::Graphics::Point value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -554,8 +554,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Graphics.Rect Offset(valuetype Microsoft.Maui.Graphics.Point dr) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Offset(Microsoft.Maui.Graphics.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Function Offset (dr As Point) As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Offset(Microsoft::Maui::Graphics::Point dr);" />
       <MemberSignature Language="F#" Value="member this.Offset : Microsoft.Maui.Graphics.Point -&gt; Microsoft.Maui.Graphics.Rect" Usage="rect.Offset dr" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Offset(Microsoft::Maui::Graphics::Point dr);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -579,8 +579,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Graphics.Rect Offset(float64 dx, float64 dy) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Offset(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function Offset (dx As Double, dy As Double) As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Offset(double dx, double dy);" />
       <MemberSignature Language="F#" Value="member this.Offset : double * double -&gt; Microsoft.Maui.Graphics.Rect" Usage="rect.Offset (dx, dy)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Offset(double dx, double dy);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -606,8 +606,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Maui.Graphics.Rect r1, valuetype Microsoft.Maui.Graphics.Rect r2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.op_Equality(Microsoft.Maui.Graphics.Rect,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (r1 As Rect, r2 As Rect) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Graphics::Rect r1, Microsoft::Maui::Graphics::Rect r2);" />
       <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Maui.Graphics.Rect * Microsoft.Maui.Graphics.Rect -&gt; bool" Usage="r1 = r2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Maui::Graphics::Rect r1, Microsoft::Maui::Graphics::Rect r2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -633,8 +633,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Maui.Graphics.RectF op_Implicit(valuetype Microsoft.Maui.Graphics.Rect rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.op_Implicit(Microsoft.Maui.Graphics.Rect)~Microsoft.Maui.Graphics.RectF" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (rect As Rect) As RectF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Graphics::RectF(Microsoft::Maui::Graphics::Rect rect);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.RectF" Usage="Microsoft.Maui.Graphics.Rect.op_Implicit rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Maui::Graphics::RectF(Microsoft::Maui::Graphics::Rect rect);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -658,8 +658,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Maui.Graphics.Rect r1, valuetype Microsoft.Maui.Graphics.Rect r2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.op_Inequality(Microsoft.Maui.Graphics.Rect,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (r1 As Rect, r2 As Rect) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Graphics::Rect r1, Microsoft::Maui::Graphics::Rect r2);" />
       <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Maui.Graphics.Rect * Microsoft.Maui.Graphics.Rect -&gt; bool" Usage="Microsoft.Maui.Graphics.Rect.op_Inequality (r1, r2)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Maui::Graphics::Rect r1, Microsoft::Maui::Graphics::Rect r2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -685,8 +685,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Right" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Rect.Right" />
       <MemberSignature Language="VB.NET" Value="Public Property Right As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Right { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Right : double with get, set" Usage="Microsoft.Maui.Graphics.Rect.Right" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Right { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -706,8 +706,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Graphics.Rect Round() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Round" />
       <MemberSignature Language="VB.NET" Value="Public Function Round () As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Round();" />
       <MemberSignature Language="F#" Value="member this.Round : unit -&gt; Microsoft.Maui.Graphics.Rect" Usage="rect.Round " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Round();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -728,8 +728,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Size Size" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Rect.Size" />
       <MemberSignature Language="VB.NET" Value="Public Property Size As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Size Size { Microsoft::Maui::Graphics::Size get(); void set(Microsoft::Maui::Graphics::Size value); };" />
       <MemberSignature Language="F#" Value="member this.Size : Microsoft.Maui.Graphics.Size with get, set" Usage="Microsoft.Maui.Graphics.Rect.Size" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Size Size { Microsoft::Maui::Graphics::Size get(); void set(Microsoft::Maui::Graphics::Size value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -749,8 +749,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Top" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Rect.Top" />
       <MemberSignature Language="VB.NET" Value="Public Property Top As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Top { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Top : double with get, set" Usage="Microsoft.Maui.Graphics.Rect.Top" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Top { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -770,8 +770,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="rect.ToString " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -792,8 +792,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(string value, [out] valuetype Microsoft.Maui.Graphics.Rect&amp; rectangle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.TryParse(System.String,Microsoft.Maui.Graphics.Rect@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (value As String, ByRef rectangle As Rect) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryParse(System::String ^ value, [Runtime::InteropServices::Out] Microsoft::Maui::Graphics::Rect % rectangle);" />
       <MemberSignature Language="F#" Value="static member TryParse : string * Rect -&gt; bool" Usage="Microsoft.Maui.Graphics.Rect.TryParse (value, rectangle)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryParse(System::String ^ value, [Runtime::InteropServices::Out] Microsoft::Maui::Graphics::Rect % rectangle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -819,8 +819,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Maui.Graphics.Rect Union(valuetype Microsoft.Maui.Graphics.Rect r) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Union(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Function Union (r As Rect) As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Union(Microsoft::Maui::Graphics::Rect r);" />
       <MemberSignature Language="F#" Value="member this.Union : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Rect" Usage="rect.Union r" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::Rect Union(Microsoft::Maui::Graphics::Rect r);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -844,8 +844,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.Rect Union(valuetype Microsoft.Maui.Graphics.Rect r1, valuetype Microsoft.Maui.Graphics.Rect r2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Rect.Union(Microsoft.Maui.Graphics.Rect,Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Union (r1 As Rect, r2 As Rect) As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Graphics::Rect Union(Microsoft::Maui::Graphics::Rect r1, Microsoft::Maui::Graphics::Rect r2);" />
       <MemberSignature Language="F#" Value="static member Union : Microsoft.Maui.Graphics.Rect * Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.Rect" Usage="Microsoft.Maui.Graphics.Rect.Union (r1, r2)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Graphics::Rect Union(Microsoft::Maui::Graphics::Rect r1, Microsoft::Maui::Graphics::Rect r2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -871,8 +871,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Width" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Rect.Width" />
       <MemberSignature Language="VB.NET" Value="Public Property Width As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Width { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Width : double with get, set" Usage="Microsoft.Maui.Graphics.Rect.Width" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Width { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -898,8 +898,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 X" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Rect.X" />
       <MemberSignature Language="VB.NET" Value="Public Property X As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double X { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.X : double with get, set" Usage="Microsoft.Maui.Graphics.Rect.X" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double X { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -925,8 +925,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Y" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Rect.Y" />
       <MemberSignature Language="VB.NET" Value="Public Property Y As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Y { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.Y : double with get, set" Usage="Microsoft.Maui.Graphics.Rect.Y" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Y { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -952,8 +952,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static valuetype Microsoft.Maui.Graphics.Rect Zero" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.Rect.Zero" />
       <MemberSignature Language="VB.NET" Value="Public Shared Zero As Rect " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::Graphics::Rect Zero;" />
       <MemberSignature Language="F#" Value=" staticval mutable Zero : Microsoft.Maui.Graphics.Rect" Usage="Microsoft.Maui.Graphics.Rect.Zero" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::Graphics::Rect Zero;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

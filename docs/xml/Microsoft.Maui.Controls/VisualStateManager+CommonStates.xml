@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit VisualStateManager/CommonStates extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.VisualStateManager.CommonStates" />
   <TypeSignature Language="VB.NET" Value="Public Class VisualStateManager.CommonStates" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class VisualStateManager::CommonStates" />
   <TypeSignature Language="F#" Value="type VisualStateManager.CommonStates = class" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class VisualStateManager::CommonStates" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Disabled" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.VisualStateManager.CommonStates.Disabled" />
       <MemberSignature Language="VB.NET" Value="Public Const Disabled As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Disabled;" />
       <MemberSignature Language="F#" Value="val mutable Disabled : string" Usage="Microsoft.Maui.Controls.VisualStateManager.CommonStates.Disabled" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Disabled;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -60,8 +60,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Focused" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.VisualStateManager.CommonStates.Focused" />
       <MemberSignature Language="VB.NET" Value="Public Const Focused As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Focused;" />
       <MemberSignature Language="F#" Value="val mutable Focused : string" Usage="Microsoft.Maui.Controls.VisualStateManager.CommonStates.Focused" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Focused;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -80,8 +80,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Normal" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.VisualStateManager.CommonStates.Normal" />
       <MemberSignature Language="VB.NET" Value="Public Const Normal As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Normal;" />
       <MemberSignature Language="F#" Value="val mutable Normal : string" Usage="Microsoft.Maui.Controls.VisualStateManager.CommonStates.Normal" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Normal;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string PointerOver" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.VisualStateManager.CommonStates.PointerOver" />
       <MemberSignature Language="VB.NET" Value="Public Const PointerOver As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ PointerOver;" />
       <MemberSignature Language="F#" Value="val mutable PointerOver : string" Usage="Microsoft.Maui.Controls.VisualStateManager.CommonStates.PointerOver" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ PointerOver;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -120,8 +120,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Selected" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.VisualStateManager.CommonStates.Selected" />
       <MemberSignature Language="VB.NET" Value="Public Const Selected As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Selected;" />
       <MemberSignature Language="F#" Value="val mutable Selected : string" Usage="Microsoft.Maui.Controls.VisualStateManager.CommonStates.Selected" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Selected;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

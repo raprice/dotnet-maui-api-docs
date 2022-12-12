@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit EssentialsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Hosting.EssentialsExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module EssentialsExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class EssentialsExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type EssentialsExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EssentialsExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

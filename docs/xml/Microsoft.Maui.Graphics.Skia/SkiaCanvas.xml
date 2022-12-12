@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SkiaCanvas extends Microsoft.Maui.Graphics.AbstractCanvas`1&lt;class Microsoft.Maui.Graphics.Skia.SkiaCanvasState&gt; implements class Microsoft.Maui.Graphics.IBlurrableCanvas" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.Skia.SkiaCanvas" />
   <TypeSignature Language="VB.NET" Value="Public Class SkiaCanvas&#xA;Inherits AbstractCanvas(Of SkiaCanvasState)&#xA;Implements IBlurrableCanvas" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SkiaCanvas : Microsoft::Maui::Graphics::AbstractCanvas&lt;Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^&gt;, Microsoft::Maui::Graphics::IBlurrableCanvas" />
   <TypeSignature Language="F#" Value="type SkiaCanvas = class&#xA;    inherit AbstractCanvas&lt;SkiaCanvasState&gt;&#xA;    interface IBlurrableCanvas" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SkiaCanvas : Microsoft::Maui::Graphics::AbstractCanvas&lt;Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^&gt;, Microsoft::Maui::Graphics::IBlurrableCanvas" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -47,8 +47,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 Alpha" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.Alpha" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property Alpha As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property float Alpha {  void set(float value); };" />
       <MemberSignature Language="F#" Value="member this.Alpha : single" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.Alpha" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property float Alpha {  void set(float value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Antialias" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.Antialias" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property Antialias As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool Antialias {  void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Antialias : bool" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.Antialias" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool Antialias {  void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -89,8 +89,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.BlendMode BlendMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.BlendMode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property BlendMode As BlendMode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::BlendMode BlendMode {  void set(Microsoft::Maui::Graphics::BlendMode value); };" />
       <MemberSignature Language="F#" Value="member this.BlendMode : Microsoft.Maui.Graphics.BlendMode" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.BlendMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::BlendMode BlendMode {  void set(Microsoft::Maui::Graphics::BlendMode value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -110,8 +110,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class SkiaSharp.SKCanvas Canvas" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.Canvas" />
       <MemberSignature Language="VB.NET" Value="Public Property Canvas As SKCanvas" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property SkiaSharp::SKCanvas ^ Canvas { SkiaSharp::SKCanvas ^ get(); void set(SkiaSharp::SKCanvas ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Canvas : SkiaSharp.SKCanvas with get, set" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.Canvas" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property SkiaSharp::SKCanvas ^ Canvas { SkiaSharp::SKCanvas ^ get(); void set(SkiaSharp::SKCanvas ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -156,8 +156,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ClipRectangle(float32 x, float32 y, float32 width, float32 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.ClipRectangle(System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ClipRectangle (x As Single, y As Single, width As Single, height As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ClipRectangle(float x, float y, float width, float height);" />
       <MemberSignature Language="F#" Value="override this.ClipRectangle : single * single * single * single -&gt; unit" Usage="skiaCanvas.ClipRectangle (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ClipRectangle(float x, float y, float width, float height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -186,8 +186,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 DisplayScale" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.DisplayScale" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property DisplayScale As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property float DisplayScale { float get(); };" />
       <MemberSignature Language="F#" Value="member this.DisplayScale : single" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.DisplayScale" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property float DisplayScale { float get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -207,8 +207,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Dispose() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.Dispose" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Dispose ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Dispose();" />
       <MemberSignature Language="F#" Value="override this.Dispose : unit -&gt; unit" Usage="skiaCanvas.Dispose " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Dispose();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -228,8 +228,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void DrawImage(class Microsoft.Maui.Graphics.IImage image, float32 x, float32 y, float32 width, float32 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.DrawImage(Microsoft.Maui.Graphics.IImage,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub DrawImage (image As IImage, x As Single, y As Single, width As Single, height As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void DrawImage(Microsoft::Maui::Graphics::IImage ^ image, float x, float y, float width, float height);" />
       <MemberSignature Language="F#" Value="override this.DrawImage : Microsoft.Maui.Graphics.IImage * single * single * single * single -&gt; unit" Usage="skiaCanvas.DrawImage (image, x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void DrawImage(Microsoft::Maui::Graphics::IImage ^ image, float x, float y, float width, float height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -260,8 +260,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void DrawString(string value, float32 x, float32 y, valuetype Microsoft.Maui.Graphics.HorizontalAlignment horizAlignment) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.DrawString(System.String,System.Single,System.Single,Microsoft.Maui.Graphics.HorizontalAlignment)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub DrawString (value As String, x As Single, y As Single, horizAlignment As HorizontalAlignment)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void DrawString(System::String ^ value, float x, float y, Microsoft::Maui::Graphics::HorizontalAlignment horizAlignment);" />
       <MemberSignature Language="F#" Value="override this.DrawString : string * single * single * Microsoft.Maui.Graphics.HorizontalAlignment -&gt; unit" Usage="skiaCanvas.DrawString (value, x, y, horizAlignment)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void DrawString(System::String ^ value, float x, float y, Microsoft::Maui::Graphics::HorizontalAlignment horizAlignment);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -329,8 +329,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void DrawText(class Microsoft.Maui.Graphics.Text.IAttributedText value, float32 x, float32 y, float32 width, float32 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.DrawText(Microsoft.Maui.Graphics.Text.IAttributedText,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub DrawText (value As IAttributedText, x As Single, y As Single, width As Single, height As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void DrawText(Microsoft::Maui::Graphics::Text::IAttributedText ^ value, float x, float y, float width, float height);" />
       <MemberSignature Language="F#" Value="override this.DrawText : Microsoft.Maui.Graphics.Text.IAttributedText * single * single * single * single -&gt; unit" Usage="skiaCanvas.DrawText (value, x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void DrawText(Microsoft::Maui::Graphics::Text::IAttributedText ^ value, float x, float y, float width, float height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -361,8 +361,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void FillArc(float32 x, float32 y, float32 width, float32 height, float32 startAngle, float32 endAngle, bool clockwise) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.FillArc(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub FillArc (x As Single, y As Single, width As Single, height As Single, startAngle As Single, endAngle As Single, clockwise As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void FillArc(float x, float y, float width, float height, float startAngle, float endAngle, bool clockwise);" />
       <MemberSignature Language="F#" Value="override this.FillArc : single * single * single * single * single * single * bool -&gt; unit" Usage="skiaCanvas.FillArc (x, y, width, height, startAngle, endAngle, clockwise)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void FillArc(float x, float y, float width, float height, float startAngle, float endAngle, bool clockwise);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -397,8 +397,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color FillColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.FillColor" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property FillColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::Color ^ FillColor {  void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FillColor : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.FillColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::Color ^ FillColor {  void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -418,8 +418,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void FillEllipse(float32 x, float32 y, float32 width, float32 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.FillEllipse(System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub FillEllipse (x As Single, y As Single, width As Single, height As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void FillEllipse(float x, float y, float width, float height);" />
       <MemberSignature Language="F#" Value="override this.FillEllipse : single * single * single * single -&gt; unit" Usage="skiaCanvas.FillEllipse (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void FillEllipse(float x, float y, float width, float height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -448,8 +448,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void FillPath(class Microsoft.Maui.Graphics.PathF path, valuetype Microsoft.Maui.Graphics.WindingMode windingMode) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.FillPath(Microsoft.Maui.Graphics.PathF,Microsoft.Maui.Graphics.WindingMode)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub FillPath (path As PathF, windingMode As WindingMode)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void FillPath(Microsoft::Maui::Graphics::PathF ^ path, Microsoft::Maui::Graphics::WindingMode windingMode);" />
       <MemberSignature Language="F#" Value="override this.FillPath : Microsoft.Maui.Graphics.PathF * Microsoft.Maui.Graphics.WindingMode -&gt; unit" Usage="skiaCanvas.FillPath (path, windingMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void FillPath(Microsoft::Maui::Graphics::PathF ^ path, Microsoft::Maui::Graphics::WindingMode windingMode);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -474,8 +474,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void FillRectangle(float32 x, float32 y, float32 width, float32 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.FillRectangle(System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub FillRectangle (x As Single, y As Single, width As Single, height As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void FillRectangle(float x, float y, float width, float height);" />
       <MemberSignature Language="F#" Value="override this.FillRectangle : single * single * single * single -&gt; unit" Usage="skiaCanvas.FillRectangle (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void FillRectangle(float x, float y, float width, float height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -504,8 +504,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void FillRoundedRectangle(float32 x, float32 y, float32 width, float32 height, float32 aCornerRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.FillRoundedRectangle(System.Single,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub FillRoundedRectangle (x As Single, y As Single, width As Single, height As Single, aCornerRadius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void FillRoundedRectangle(float x, float y, float width, float height, float aCornerRadius);" />
       <MemberSignature Language="F#" Value="override this.FillRoundedRectangle : single * single * single * single * single -&gt; unit" Usage="skiaCanvas.FillRoundedRectangle (x, y, width, height, aCornerRadius)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void FillRoundedRectangle(float x, float y, float width, float height, float aCornerRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -536,8 +536,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.IFont Font" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.Font" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property Font As IFont" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::IFont ^ Font {  void set(Microsoft::Maui::Graphics::IFont ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Font : Microsoft.Maui.Graphics.IFont" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.Font" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::IFont ^ Font {  void set(Microsoft::Maui::Graphics::IFont ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -557,8 +557,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color FontColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.FontColor" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property FontColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::Color ^ FontColor {  void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.FontColor : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.FontColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::Color ^ FontColor {  void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -578,8 +578,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 FontSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.FontSize" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property FontSize As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property float FontSize {  void set(float value); };" />
       <MemberSignature Language="F#" Value="member this.FontSize : single" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.FontSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property float FontSize {  void set(float value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -599,8 +599,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 MiterLimit" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.MiterLimit" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property MiterLimit As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property float MiterLimit {  void set(float value); };" />
       <MemberSignature Language="F#" Value="member this.MiterLimit : single" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.MiterLimit" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property float MiterLimit {  void set(float value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -620,8 +620,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PlatformConcatenateTransform(valuetype System.Numerics.Matrix3x2 transform) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformConcatenateTransform(System.Numerics.Matrix3x2)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PlatformConcatenateTransform (transform As Matrix3x2)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformConcatenateTransform(System::Numerics::Matrix3x2 transform);" />
       <MemberSignature Language="F#" Value="override this.PlatformConcatenateTransform : System.Numerics.Matrix3x2 -&gt; unit" Usage="skiaCanvas.PlatformConcatenateTransform transform" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformConcatenateTransform(System::Numerics::Matrix3x2 transform);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -644,8 +644,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PlatformDrawArc(float32 x, float32 y, float32 width, float32 height, float32 startAngle, float32 endAngle, bool clockwise, bool closed) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformDrawArc(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PlatformDrawArc (x As Single, y As Single, width As Single, height As Single, startAngle As Single, endAngle As Single, clockwise As Boolean, closed As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformDrawArc(float x, float y, float width, float height, float startAngle, float endAngle, bool clockwise, bool closed);" />
       <MemberSignature Language="F#" Value="override this.PlatformDrawArc : single * single * single * single * single * single * bool * bool -&gt; unit" Usage="skiaCanvas.PlatformDrawArc (x, y, width, height, startAngle, endAngle, clockwise, closed)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformDrawArc(float x, float y, float width, float height, float startAngle, float endAngle, bool clockwise, bool closed);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -682,8 +682,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PlatformDrawEllipse(float32 x, float32 y, float32 width, float32 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformDrawEllipse(System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PlatformDrawEllipse (x As Single, y As Single, width As Single, height As Single)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformDrawEllipse(float x, float y, float width, float height);" />
       <MemberSignature Language="F#" Value="override this.PlatformDrawEllipse : single * single * single * single -&gt; unit" Usage="skiaCanvas.PlatformDrawEllipse (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformDrawEllipse(float x, float y, float width, float height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -712,8 +712,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PlatformDrawLine(float32 x1, float32 y1, float32 x2, float32 y2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformDrawLine(System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PlatformDrawLine (x1 As Single, y1 As Single, x2 As Single, y2 As Single)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformDrawLine(float x1, float y1, float x2, float y2);" />
       <MemberSignature Language="F#" Value="override this.PlatformDrawLine : single * single * single * single -&gt; unit" Usage="skiaCanvas.PlatformDrawLine (x1, y1, x2, y2)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformDrawLine(float x1, float y1, float x2, float y2);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -742,8 +742,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PlatformDrawPath(class Microsoft.Maui.Graphics.PathF path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformDrawPath(Microsoft.Maui.Graphics.PathF)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PlatformDrawPath (path As PathF)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformDrawPath(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberSignature Language="F#" Value="override this.PlatformDrawPath : Microsoft.Maui.Graphics.PathF -&gt; unit" Usage="skiaCanvas.PlatformDrawPath path" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformDrawPath(Microsoft::Maui::Graphics::PathF ^ path);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -766,8 +766,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PlatformDrawRectangle(float32 x, float32 y, float32 width, float32 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformDrawRectangle(System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PlatformDrawRectangle (x As Single, y As Single, width As Single, height As Single)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformDrawRectangle(float x, float y, float width, float height);" />
       <MemberSignature Language="F#" Value="override this.PlatformDrawRectangle : single * single * single * single -&gt; unit" Usage="skiaCanvas.PlatformDrawRectangle (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformDrawRectangle(float x, float y, float width, float height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -796,8 +796,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PlatformDrawRoundedRectangle(float32 x, float32 y, float32 width, float32 height, float32 aCornerRadius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformDrawRoundedRectangle(System.Single,System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PlatformDrawRoundedRectangle (x As Single, y As Single, width As Single, height As Single, aCornerRadius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformDrawRoundedRectangle(float x, float y, float width, float height, float aCornerRadius);" />
       <MemberSignature Language="F#" Value="override this.PlatformDrawRoundedRectangle : single * single * single * single * single -&gt; unit" Usage="skiaCanvas.PlatformDrawRoundedRectangle (x, y, width, height, aCornerRadius)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformDrawRoundedRectangle(float x, float y, float width, float height, float aCornerRadius);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -828,8 +828,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PlatformRotate(float32 degrees, float32 radians) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformRotate(System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PlatformRotate (degrees As Single, radians As Single)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformRotate(float degrees, float radians);" />
       <MemberSignature Language="F#" Value="override this.PlatformRotate : single * single -&gt; unit" Usage="skiaCanvas.PlatformRotate (degrees, radians)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformRotate(float degrees, float radians);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -854,8 +854,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PlatformRotate(float32 degrees, float32 radians, float32 x, float32 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformRotate(System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PlatformRotate (degrees As Single, radians As Single, x As Single, y As Single)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformRotate(float degrees, float radians, float x, float y);" />
       <MemberSignature Language="F#" Value="override this.PlatformRotate : single * single * single * single -&gt; unit" Usage="skiaCanvas.PlatformRotate (degrees, radians, x, y)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformRotate(float degrees, float radians, float x, float y);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -884,8 +884,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PlatformScale(float32 xFactor, float32 yFactor) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformScale(System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PlatformScale (xFactor As Single, yFactor As Single)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformScale(float xFactor, float yFactor);" />
       <MemberSignature Language="F#" Value="override this.PlatformScale : single * single -&gt; unit" Usage="skiaCanvas.PlatformScale (xFactor, yFactor)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformScale(float xFactor, float yFactor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -910,8 +910,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PlatformSetStrokeDashPattern(float32[] strokePattern, float32 strokeDashOffset, float32 strokeSize) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformSetStrokeDashPattern(System.Single[],System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PlatformSetStrokeDashPattern (strokePattern As Single(), strokeDashOffset As Single, strokeSize As Single)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformSetStrokeDashPattern(cli::array &lt;float&gt; ^ strokePattern, float strokeDashOffset, float strokeSize);" />
       <MemberSignature Language="F#" Value="override this.PlatformSetStrokeDashPattern : single[] * single * single -&gt; unit" Usage="skiaCanvas.PlatformSetStrokeDashPattern (strokePattern, strokeDashOffset, strokeSize)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformSetStrokeDashPattern(cli::array &lt;float&gt; ^ strokePattern, float strokeDashOffset, float strokeSize);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -938,8 +938,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float32 PlatformStrokeSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformStrokeSize" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Property PlatformStrokeSize As Single" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property float PlatformStrokeSize {  void set(float value); };" />
       <MemberSignature Language="F#" Value="member this.PlatformStrokeSize : single" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformStrokeSize" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property float PlatformStrokeSize {  void set(float value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -959,8 +959,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PlatformTranslate(float32 tx, float32 ty) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.PlatformTranslate(System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PlatformTranslate (tx As Single, ty As Single)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformTranslate(float tx, float ty);" />
       <MemberSignature Language="F#" Value="override this.PlatformTranslate : single * single -&gt; unit" Usage="skiaCanvas.PlatformTranslate (tx, ty)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PlatformTranslate(float tx, float ty);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -985,8 +985,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ResetState() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.ResetState" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ResetState ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ResetState();" />
       <MemberSignature Language="F#" Value="override this.ResetState : unit -&gt; unit" Usage="skiaCanvas.ResetState " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ResetState();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -1006,8 +1006,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool RestoreState() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.RestoreState" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function RestoreState () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool RestoreState();" />
       <MemberSignature Language="F#" Value="override this.RestoreState : unit -&gt; bool" Usage="skiaCanvas.RestoreState " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool RestoreState();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -1028,8 +1028,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void SaveState() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.SaveState" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub SaveState ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SaveState();" />
       <MemberSignature Language="F#" Value="override this.SaveState : unit -&gt; unit" Usage="skiaCanvas.SaveState " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SaveState();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -1049,8 +1049,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetBlur(float32 radius) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.SetBlur(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetBlur (radius As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetBlur(float radius);" />
       <MemberSignature Language="F#" Value="abstract member SetBlur : single -&gt; unit&#xA;override this.SetBlur : single -&gt; unit" Usage="skiaCanvas.SetBlur radius" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetBlur(float radius);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Graphics.IBlurrableCanvas.SetBlur(System.Single)</InterfaceMember>
@@ -1076,8 +1076,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetDisplayScale(float32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.SetDisplayScale(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetDisplayScale (value As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetDisplayScale(float value);" />
       <MemberSignature Language="F#" Value="member this.SetDisplayScale : single -&gt; unit" Usage="skiaCanvas.SetDisplayScale value" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetDisplayScale(float value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -1100,8 +1100,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void SetFillPaint(class Microsoft.Maui.Graphics.Paint paint, valuetype Microsoft.Maui.Graphics.RectF rectangle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.SetFillPaint(Microsoft.Maui.Graphics.Paint,Microsoft.Maui.Graphics.RectF)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub SetFillPaint (paint As Paint, rectangle As RectF)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SetFillPaint(Microsoft::Maui::Graphics::Paint ^ paint, Microsoft::Maui::Graphics::RectF rectangle);" />
       <MemberSignature Language="F#" Value="override this.SetFillPaint : Microsoft.Maui.Graphics.Paint * Microsoft.Maui.Graphics.RectF -&gt; unit" Usage="skiaCanvas.SetFillPaint (paint, rectangle)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SetFillPaint(Microsoft::Maui::Graphics::Paint ^ paint, Microsoft::Maui::Graphics::RectF rectangle);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -1126,8 +1126,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void SetShadow(valuetype Microsoft.Maui.Graphics.SizeF offset, float32 blur, class Microsoft.Maui.Graphics.Color color) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.SetShadow(Microsoft.Maui.Graphics.SizeF,System.Single,Microsoft.Maui.Graphics.Color)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub SetShadow (offset As SizeF, blur As Single, color As Color)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SetShadow(Microsoft::Maui::Graphics::SizeF offset, float blur, Microsoft::Maui::Graphics::Color ^ color);" />
       <MemberSignature Language="F#" Value="override this.SetShadow : Microsoft.Maui.Graphics.SizeF * single * Microsoft.Maui.Graphics.Color -&gt; unit" Usage="skiaCanvas.SetShadow (offset, blur, color)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SetShadow(Microsoft::Maui::Graphics::SizeF offset, float blur, Microsoft::Maui::Graphics::Color ^ color);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -1154,8 +1154,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void StateRestored(class Microsoft.Maui.Graphics.Skia.SkiaCanvasState state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.StateRestored(Microsoft.Maui.Graphics.Skia.SkiaCanvasState)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub StateRestored (state As SkiaCanvasState)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void StateRestored(Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^ state);" />
       <MemberSignature Language="F#" Value="override this.StateRestored : Microsoft.Maui.Graphics.Skia.SkiaCanvasState -&gt; unit" Usage="skiaCanvas.StateRestored state" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void StateRestored(Microsoft::Maui::Graphics::Skia::SkiaCanvasState ^ state);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -1178,8 +1178,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color StrokeColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.StrokeColor" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property StrokeColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::Color ^ StrokeColor {  void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.StrokeColor : Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.StrokeColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::Color ^ StrokeColor {  void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -1199,8 +1199,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.LineCap StrokeLineCap" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.StrokeLineCap" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property StrokeLineCap As LineCap" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::LineCap StrokeLineCap {  void set(Microsoft::Maui::Graphics::LineCap value); };" />
       <MemberSignature Language="F#" Value="member this.StrokeLineCap : Microsoft.Maui.Graphics.LineCap" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.StrokeLineCap" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::LineCap StrokeLineCap {  void set(Microsoft::Maui::Graphics::LineCap value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -1220,8 +1220,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.LineJoin StrokeLineJoin" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Graphics.Skia.SkiaCanvas.StrokeLineJoin" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property StrokeLineJoin As LineJoin" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::LineJoin StrokeLineJoin {  void set(Microsoft::Maui::Graphics::LineJoin value); };" />
       <MemberSignature Language="F#" Value="member this.StrokeLineJoin : Microsoft.Maui.Graphics.LineJoin" Usage="Microsoft.Maui.Graphics.Skia.SkiaCanvas.StrokeLineJoin" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Maui::Graphics::LineJoin StrokeLineJoin {  void set(Microsoft::Maui::Graphics::LineJoin value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>
@@ -1241,8 +1241,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void SubtractFromClip(float32 x, float32 y, float32 width, float32 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Skia.SkiaCanvas.SubtractFromClip(System.Single,System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub SubtractFromClip (x As Single, y As Single, width As Single, height As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SubtractFromClip(float x, float y, float width, float height);" />
       <MemberSignature Language="F#" Value="override this.SubtractFromClip : single * single * single * single -&gt; unit" Usage="skiaCanvas.SubtractFromClip (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SubtractFromClip(float x, float y, float width, float height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics.Skia</AssemblyName>

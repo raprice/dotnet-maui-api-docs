@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MenuFlyoutSeparatorHandler extends Microsoft.Maui.Handlers.ElementHandler`2&lt;class Microsoft.Maui.IMenuFlyoutSeparator, object&gt; implements class Microsoft.Maui.Handlers.IMenuFlyoutSeparatorHandler, class Microsoft.Maui.IElementHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.MenuFlyoutSeparatorHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class MenuFlyoutSeparatorHandler&#xA;Inherits ElementHandler(Of IMenuFlyoutSeparator, Object)&#xA;Implements IMenuFlyoutSeparatorHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MenuFlyoutSeparatorHandler : Microsoft::Maui::Handlers::ElementHandler&lt;Microsoft::Maui::IMenuFlyoutSeparator ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IMenuFlyoutSeparatorHandler" />
   <TypeSignature Language="F#" Value="type MenuFlyoutSeparatorHandler = class&#xA;    inherit ElementHandler&lt;IMenuFlyoutSeparator, obj&gt;&#xA;    interface IMenuFlyoutSeparatorHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MenuFlyoutSeparatorHandler : Microsoft::Maui::Handlers::ElementHandler&lt;Microsoft::Maui::IMenuFlyoutSeparator ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IMenuFlyoutSeparatorHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IMenuFlyoutSeparator, class Microsoft.Maui.Handlers.IMenuFlyoutSeparatorHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.MenuFlyoutSeparatorHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IMenuFlyoutSeparator, IMenuFlyoutSeparatorHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IMenuFlyoutSeparator ^, Microsoft::Maui::Handlers::IMenuFlyoutSeparatorHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IMenuFlyoutSeparator, Microsoft.Maui.Handlers.IMenuFlyoutSeparatorHandler&gt;" Usage="Microsoft.Maui.Handlers.MenuFlyoutSeparatorHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IMenuFlyoutSeparator ^, Microsoft::Maui::Handlers::IMenuFlyoutSeparatorHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformElement() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.MenuFlyoutSeparatorHandler.CreatePlatformElement" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformElement () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformElement();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformElement : unit -&gt; obj" Usage="menuFlyoutSeparatorHandler.CreatePlatformElement " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformElement();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -115,8 +115,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IMenuFlyoutSeparator, class Microsoft.Maui.Handlers.IMenuFlyoutSeparatorHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.MenuFlyoutSeparatorHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IMenuFlyoutSeparator, IMenuFlyoutSeparatorHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IMenuFlyoutSeparator ^, Microsoft::Maui::Handlers::IMenuFlyoutSeparatorHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IMenuFlyoutSeparator, Microsoft.Maui.Handlers.IMenuFlyoutSeparatorHandler&gt;" Usage="Microsoft.Maui.Handlers.MenuFlyoutSeparatorHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IMenuFlyoutSeparator ^, Microsoft::Maui::Handlers::IMenuFlyoutSeparatorHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -135,8 +135,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.IMenuFlyoutSeparatorHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.MenuFlyoutSeparatorHandler.Microsoft#Maui#Handlers#IMenuFlyoutSeparatorHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IMenuFlyoutSeparatorHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IMenuFlyoutSeparatorHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IMenuFlyoutSeparatorHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.IMenuFlyoutSeparatorHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IMenuFlyoutSeparatorHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IMenuFlyoutSeparatorHandler.PlatformView</InterfaceMember>
@@ -159,8 +159,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IMenuFlyoutSeparator Microsoft.Maui.Handlers.IMenuFlyoutSeparatorHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.MenuFlyoutSeparatorHandler.Microsoft#Maui#Handlers#IMenuFlyoutSeparatorHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IMenuFlyoutSeparator Implements IMenuFlyoutSeparatorHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IMenuFlyoutSeparator ^ Microsoft::Maui::Handlers::IMenuFlyoutSeparatorHandler::VirtualView { Microsoft::Maui::IMenuFlyoutSeparator ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IMenuFlyoutSeparatorHandler.VirtualView : Microsoft.Maui.IMenuFlyoutSeparator" Usage="Microsoft.Maui.Handlers.IMenuFlyoutSeparatorHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IMenuFlyoutSeparator ^ Microsoft::Maui::Handlers::IMenuFlyoutSeparatorHandler::VirtualView { Microsoft::Maui::IMenuFlyoutSeparator ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IMenuFlyoutSeparatorHandler.VirtualView</InterfaceMember>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MessagingCenter extends System.Object implements class Microsoft.Maui.Controls.IMessagingCenter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.MessagingCenter" />
   <TypeSignature Language="VB.NET" Value="Public Class MessagingCenter&#xA;Implements IMessagingCenter" />
-  <TypeSignature Language="C++ CLI" Value="public ref class MessagingCenter : Microsoft::Maui::Controls::IMessagingCenter" />
   <TypeSignature Language="F#" Value="type MessagingCenter = class&#xA;    interface IMessagingCenter" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MessagingCenter : Microsoft::Maui::Controls::IMessagingCenter" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -70,8 +70,8 @@ Assert.AreEqual(2, subscriber.IntProperty);
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.IMessagingCenter Instance" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.MessagingCenter.Instance" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Instance As IMessagingCenter" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::IMessagingCenter ^ Instance { Microsoft::Maui::Controls::IMessagingCenter ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Instance : Microsoft.Maui.Controls.IMessagingCenter" Usage="Microsoft.Maui.Controls.MessagingCenter.Instance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::IMessagingCenter ^ Instance { Microsoft::Maui::Controls::IMessagingCenter ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -91,8 +91,8 @@ Assert.AreEqual(2, subscriber.IntProperty);
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IMessagingCenter.Send&lt;class TSender&gt;(!!TSender sender, string message) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.MessagingCenter.Microsoft#Maui#Controls#IMessagingCenter#Send``1(``0,System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub Send(Of TSender As Class) (sender As TSender, message As String) Implements IMessagingCenter.Send" />
-      <MemberSignature Language="C++ CLI" Value="generic &lt;typename TSender&gt;&#xA; where TSender : class virtual void Microsoft.Maui.Controls.IMessagingCenter.Send(TSender sender, System::String ^ message) = Microsoft::Maui::Controls::IMessagingCenter::Send;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IMessagingCenter.Send : 'Sender * string -&gt; unit (requires 'Sender : null)&#xA;override this.Microsoft.Maui.Controls.IMessagingCenter.Send : 'Sender * string -&gt; unit (requires 'Sender : null)" Usage="messagingCenter.Microsoft.Maui.Controls.IMessagingCenter.Send (sender, message)" />
+      <MemberSignature Language="C++ CLI" Value="generic &lt;typename TSender&gt;&#xA; where TSender : class virtual void Microsoft.Maui.Controls.IMessagingCenter.Send(TSender sender, System::String ^ message) = Microsoft::Maui::Controls::IMessagingCenter::Send;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IMessagingCenter.Send``1(``0,System.String)</InterfaceMember>
@@ -128,8 +128,8 @@ Assert.AreEqual(2, subscriber.IntProperty);
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IMessagingCenter.Send&lt;class TSender, TArgs&gt;(!!TSender sender, string message, !!TArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.MessagingCenter.Microsoft#Maui#Controls#IMessagingCenter#Send``2(``0,System.String,``1)" />
       <MemberSignature Language="VB.NET" Value="Sub Send(Of TSender As Class, TArgs As Class) (sender As TSender, message As String, args As TArgs) Implements IMessagingCenter.Send" />
-      <MemberSignature Language="C++ CLI" Value="generic &lt;typename TSender, typename TArgs&gt;&#xA; where TSender : class virtual void Microsoft.Maui.Controls.IMessagingCenter.Send(TSender sender, System::String ^ message, TArgs args) = Microsoft::Maui::Controls::IMessagingCenter::Send;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IMessagingCenter.Send : 'Sender * string * 'Args -&gt; unit (requires 'Sender : null)&#xA;override this.Microsoft.Maui.Controls.IMessagingCenter.Send : 'Sender * string * 'Args -&gt; unit (requires 'Sender : null)" Usage="messagingCenter.Microsoft.Maui.Controls.IMessagingCenter.Send (sender, message, args)" />
+      <MemberSignature Language="C++ CLI" Value="generic &lt;typename TSender, typename TArgs&gt;&#xA; where TSender : class virtual void Microsoft.Maui.Controls.IMessagingCenter.Send(TSender sender, System::String ^ message, TArgs args) = Microsoft::Maui::Controls::IMessagingCenter::Send;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IMessagingCenter.Send``2(``0,System.String,``1)</InterfaceMember>
@@ -169,8 +169,8 @@ Assert.AreEqual(2, subscriber.IntProperty);
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IMessagingCenter.Subscribe&lt;class TSender&gt;(object subscriber, string message, class System.Action`1&lt;!!TSender&gt; callback, !!TSender source) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.MessagingCenter.Microsoft#Maui#Controls#IMessagingCenter#Subscribe``1(System.Object,System.String,System.Action{``0},``0)" />
       <MemberSignature Language="VB.NET" Value="Sub Subscribe(Of TSender As Class) (subscriber As Object, message As String, callback As Action(Of TSender), source As TSender) Implements IMessagingCenter.Subscribe" />
-      <MemberSignature Language="C++ CLI" Value="generic &lt;typename TSender&gt;&#xA; where TSender : class virtual void Microsoft.Maui.Controls.IMessagingCenter.Subscribe(System::Object ^ subscriber, System::String ^ message, Action&lt;TSender&gt; ^ callback, TSender source) = Microsoft::Maui::Controls::IMessagingCenter::Subscribe;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IMessagingCenter.Subscribe : obj * string * Action&lt;'Sender (requires 'Sender : null)&gt; * 'Sender -&gt; unit (requires 'Sender : null)&#xA;override this.Microsoft.Maui.Controls.IMessagingCenter.Subscribe : obj * string * Action&lt;'Sender (requires 'Sender : null)&gt; * 'Sender -&gt; unit (requires 'Sender : null)" Usage="messagingCenter.Microsoft.Maui.Controls.IMessagingCenter.Subscribe (subscriber, message, callback, source)" />
+      <MemberSignature Language="C++ CLI" Value="generic &lt;typename TSender&gt;&#xA; where TSender : class virtual void Microsoft.Maui.Controls.IMessagingCenter.Subscribe(System::Object ^ subscriber, System::String ^ message, Action&lt;TSender&gt; ^ callback, TSender source) = Microsoft::Maui::Controls::IMessagingCenter::Subscribe;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IMessagingCenter.Subscribe``1(System.Object,System.String,System.Action{``0},``0)</InterfaceMember>
@@ -210,8 +210,8 @@ Assert.AreEqual(2, subscriber.IntProperty);
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IMessagingCenter.Subscribe&lt;class TSender, TArgs&gt;(object subscriber, string message, class System.Action`2&lt;!!TSender, !!TArgs&gt; callback, !!TSender source) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.MessagingCenter.Microsoft#Maui#Controls#IMessagingCenter#Subscribe``2(System.Object,System.String,System.Action{``0,``1},``0)" />
       <MemberSignature Language="VB.NET" Value="Sub Subscribe(Of TSender As Class, TArgs As Class) (subscriber As Object, message As String, callback As Action(Of TSender, TArgs), source As TSender) Implements IMessagingCenter.Subscribe" />
-      <MemberSignature Language="C++ CLI" Value="generic &lt;typename TSender, typename TArgs&gt;&#xA; where TSender : class virtual void Microsoft.Maui.Controls.IMessagingCenter.Subscribe(System::Object ^ subscriber, System::String ^ message, Action&lt;TSender, TArgs&gt; ^ callback, TSender source) = Microsoft::Maui::Controls::IMessagingCenter::Subscribe;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IMessagingCenter.Subscribe : obj * string * Action&lt;'Sender, 'Args (requires 'Sender : null)&gt; * 'Sender -&gt; unit (requires 'Sender : null)&#xA;override this.Microsoft.Maui.Controls.IMessagingCenter.Subscribe : obj * string * Action&lt;'Sender, 'Args (requires 'Sender : null)&gt; * 'Sender -&gt; unit (requires 'Sender : null)" Usage="messagingCenter.Microsoft.Maui.Controls.IMessagingCenter.Subscribe (subscriber, message, callback, source)" />
+      <MemberSignature Language="C++ CLI" Value="generic &lt;typename TSender, typename TArgs&gt;&#xA; where TSender : class virtual void Microsoft.Maui.Controls.IMessagingCenter.Subscribe(System::Object ^ subscriber, System::String ^ message, Action&lt;TSender, TArgs&gt; ^ callback, TSender source) = Microsoft::Maui::Controls::IMessagingCenter::Subscribe;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IMessagingCenter.Subscribe``2(System.Object,System.String,System.Action{``0,``1},``0)</InterfaceMember>
@@ -253,8 +253,8 @@ Assert.AreEqual(2, subscriber.IntProperty);
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe&lt;class TSender&gt;(object subscriber, string message) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.MessagingCenter.Microsoft#Maui#Controls#IMessagingCenter#Unsubscribe``1(System.Object,System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub Unsubscribe(Of TSender As Class) (subscriber As Object, message As String) Implements IMessagingCenter.Unsubscribe" />
-      <MemberSignature Language="C++ CLI" Value="generic &lt;typename TSender&gt;&#xA; where TSender : class virtual void Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe(System::Object ^ subscriber, System::String ^ message) = Microsoft::Maui::Controls::IMessagingCenter::Unsubscribe;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe : obj * string -&gt; unit (requires 'Sender : null)&#xA;override this.Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe : obj * string -&gt; unit (requires 'Sender : null)" Usage="messagingCenter.Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe (subscriber, message)" />
+      <MemberSignature Language="C++ CLI" Value="generic &lt;typename TSender&gt;&#xA; where TSender : class virtual void Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe(System::Object ^ subscriber, System::String ^ message) = Microsoft::Maui::Controls::IMessagingCenter::Unsubscribe;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe``1(System.Object,System.String)</InterfaceMember>
@@ -290,8 +290,8 @@ Assert.AreEqual(2, subscriber.IntProperty);
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe&lt;class TSender, TArgs&gt;(object subscriber, string message) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.MessagingCenter.Microsoft#Maui#Controls#IMessagingCenter#Unsubscribe``2(System.Object,System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub Unsubscribe(Of TSender As Class, TArgs As Class) (subscriber As Object, message As String) Implements IMessagingCenter.Unsubscribe" />
-      <MemberSignature Language="C++ CLI" Value="generic &lt;typename TSender, typename TArgs&gt;&#xA; where TSender : class virtual void Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe(System::Object ^ subscriber, System::String ^ message) = Microsoft::Maui::Controls::IMessagingCenter::Unsubscribe;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe : obj * string -&gt; unit (requires 'Sender : null)&#xA;override this.Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe : obj * string -&gt; unit (requires 'Sender : null)" Usage="messagingCenter.Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe (subscriber, message)" />
+      <MemberSignature Language="C++ CLI" Value="generic &lt;typename TSender, typename TArgs&gt;&#xA; where TSender : class virtual void Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe(System::Object ^ subscriber, System::String ^ message) = Microsoft::Maui::Controls::IMessagingCenter::Unsubscribe;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IMessagingCenter.Unsubscribe``2(System.Object,System.String)</InterfaceMember>
@@ -329,8 +329,8 @@ Assert.AreEqual(2, subscriber.IntProperty);
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Send&lt;class TSender&gt;(!!TSender sender, string message) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.MessagingCenter.Send``1(``0,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Send(Of TSender As Class) (sender As TSender, message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSender&gt;&#xA; where TSender : class static void Send(TSender sender, System::String ^ message);" />
       <MemberSignature Language="F#" Value="static member Send : 'Sender * string -&gt; unit (requires 'Sender : null)" Usage="Microsoft.Maui.Controls.MessagingCenter.Send (sender, message)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSender&gt;&#xA; where TSender : class static void Send(TSender sender, System::String ^ message);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -363,8 +363,8 @@ Assert.AreEqual(2, subscriber.IntProperty);
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Send&lt;class TSender, TArgs&gt;(!!TSender sender, string message, !!TArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.MessagingCenter.Send``2(``0,System.String,``1)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Send(Of TSender As Class, TArgs As Class) (sender As TSender, message As String, args As TArgs)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSender, typename TArgs&gt;&#xA; where TSender : class static void Send(TSender sender, System::String ^ message, TArgs args);" />
       <MemberSignature Language="F#" Value="static member Send : 'Sender * string * 'Args -&gt; unit (requires 'Sender : null)" Usage="Microsoft.Maui.Controls.MessagingCenter.Send (sender, message, args)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSender, typename TArgs&gt;&#xA; where TSender : class static void Send(TSender sender, System::String ^ message, TArgs args);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -477,8 +477,8 @@ Assert.AreEqual(2, subscriber.IntProperty);
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Unsubscribe&lt;class TSender&gt;(object subscriber, string message) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.MessagingCenter.Unsubscribe``1(System.Object,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Unsubscribe(Of TSender As Class) (subscriber As Object, message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSender&gt;&#xA; where TSender : class static void Unsubscribe(System::Object ^ subscriber, System::String ^ message);" />
       <MemberSignature Language="F#" Value="static member Unsubscribe : obj * string -&gt; unit (requires 'Sender : null)" Usage="Microsoft.Maui.Controls.MessagingCenter.Unsubscribe (subscriber, message)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSender&gt;&#xA; where TSender : class static void Unsubscribe(System::Object ^ subscriber, System::String ^ message);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -511,8 +511,8 @@ Assert.AreEqual(2, subscriber.IntProperty);
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Unsubscribe&lt;class TSender, TArgs&gt;(object subscriber, string message) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.MessagingCenter.Unsubscribe``2(System.Object,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Unsubscribe(Of TSender As Class, TArgs As Class) (subscriber As Object, message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSender, typename TArgs&gt;&#xA; where TSender : class static void Unsubscribe(System::Object ^ subscriber, System::String ^ message);" />
       <MemberSignature Language="F#" Value="static member Unsubscribe : obj * string -&gt; unit (requires 'Sender : null)" Usage="Microsoft.Maui.Controls.MessagingCenter.Unsubscribe (subscriber, message)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSender, typename TArgs&gt;&#xA; where TSender : class static void Unsubscribe(System::Object ^ subscriber, System::String ^ message);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

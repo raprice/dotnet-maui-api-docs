@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PathExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.PathExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module PathExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PathExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type PathExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PathExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.PathF AsScaledPath(class Microsoft.Maui.Graphics.PathF target, float32 scale) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathExtensions.AsScaledPath(Microsoft.Maui.Graphics.PathF,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsScaledPath (target As PathF, scale As Single) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::PathF ^ AsScaledPath(Microsoft::Maui::Graphics::PathF ^ target, float scale);" />
       <MemberSignature Language="F#" Value="static member AsScaledPath : Microsoft.Maui.Graphics.PathF * single -&gt; Microsoft.Maui.Graphics.PathF" Usage="Microsoft.Maui.Graphics.PathExtensions.AsScaledPath (target, scale)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::PathF ^ AsScaledPath(Microsoft::Maui::Graphics::PathF ^ target, float scale);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.PathF AsScaledPath(class Microsoft.Maui.Graphics.PathF target, float32 xScale, float32 yScale) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.PathExtensions.AsScaledPath(Microsoft.Maui.Graphics.PathF,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsScaledPath (target As PathF, xScale As Single, yScale As Single) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::PathF ^ AsScaledPath(Microsoft::Maui::Graphics::PathF ^ target, float xScale, float yScale);" />
       <MemberSignature Language="F#" Value="static member AsScaledPath : Microsoft.Maui.Graphics.PathF * single * single -&gt; Microsoft.Maui.Graphics.PathF" Usage="Microsoft.Maui.Graphics.PathExtensions.AsScaledPath (target, xScale, yScale)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::PathF ^ AsScaledPath(Microsoft::Maui::Graphics::PathF ^ target, float xScale, float yScale);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

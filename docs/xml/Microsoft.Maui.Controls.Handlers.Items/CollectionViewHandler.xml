@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CollectionViewHandler extends Microsoft.Maui.Controls.Handlers.Items.ReorderableItemsViewHandler`1&lt;class Microsoft.Maui.Controls.ReorderableItemsView&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Handlers.Items.CollectionViewHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class CollectionViewHandler&#xA;Inherits ReorderableItemsViewHandler(Of ReorderableItemsView)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CollectionViewHandler : Microsoft::Maui::Controls::Handlers::Items::ReorderableItemsViewHandler&lt;Microsoft::Maui::Controls::ReorderableItemsView ^&gt;" />
   <TypeSignature Language="F#" Value="type CollectionViewHandler = class&#xA;    inherit ReorderableItemsViewHandler&lt;ReorderableItemsView&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CollectionViewHandler : Microsoft::Maui::Controls::Handlers::Items::ReorderableItemsViewHandler&lt;Microsoft::Maui::Controls::ReorderableItemsView ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -63,8 +63,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.CollectionViewHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="collectionViewHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -85,8 +85,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.PropertyMapper`2&lt;class Microsoft.Maui.Controls.CollectionView, class Microsoft.Maui.Controls.Handlers.Items.CollectionViewHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Handlers.Items.CollectionViewHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As PropertyMapper(Of CollectionView, CollectionViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::PropertyMapper&lt;Microsoft::Maui::Controls::CollectionView ^, Microsoft::Maui::Controls::Handlers::Items::CollectionViewHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.PropertyMapper&lt;Microsoft.Maui.Controls.CollectionView, Microsoft.Maui.Controls.Handlers.Items.CollectionViewHandler&gt;" Usage="Microsoft.Maui.Controls.Handlers.Items.CollectionViewHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::PropertyMapper&lt;Microsoft::Maui::Controls::CollectionView ^, Microsoft::Maui::Controls::Handlers::Items::CollectionViewHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

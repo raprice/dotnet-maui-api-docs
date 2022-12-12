@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TextAttributeExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.Text.TextAttributeExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module TextAttributeExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TextAttributeExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type TextAttributeExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TextAttributeExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal float32 DefaultFontSize = (12)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.DefaultFontSize" />
       <MemberSignature Language="VB.NET" Value="Public Const DefaultFontSize As Single  = 12" />
-      <MemberSignature Language="C++ CLI" Value="public: float DefaultFontSize = 12;" />
       <MemberSignature Language="F#" Value="val mutable DefaultFontSize : single" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.DefaultFontSize" />
+      <MemberSignature Language="C++ CLI" Value="public: float DefaultFontSize = 12;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetBackgroundColor(class Microsoft.Maui.Graphics.Text.ITextAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetBackgroundColor(Microsoft.Maui.Graphics.Text.ITextAttributes)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetBackgroundColor (attributes As ITextAttributes) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::String ^ GetBackgroundColor(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberSignature Language="F#" Value="static member GetBackgroundColor : Microsoft.Maui.Graphics.Text.ITextAttributes -&gt; string" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetBackgroundColor attributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::String ^ GetBackgroundColor(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetBold(class Microsoft.Maui.Graphics.Text.ITextAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetBold(Microsoft.Maui.Graphics.Text.ITextAttributes)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetBold (attributes As ITextAttributes) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetBold(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberSignature Language="F#" Value="static member GetBold : Microsoft.Maui.Graphics.Text.ITextAttributes -&gt; bool" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetBold attributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetBold(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -94,8 +94,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetFontName(class Microsoft.Maui.Graphics.Text.ITextAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetFontName(Microsoft.Maui.Graphics.Text.ITextAttributes)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFontName (attributes As ITextAttributes) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::String ^ GetFontName(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberSignature Language="F#" Value="static member GetFontName : Microsoft.Maui.Graphics.Text.ITextAttributes -&gt; string" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetFontName attributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::String ^ GetFontName(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -145,8 +145,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetForegroundColor(class Microsoft.Maui.Graphics.Text.ITextAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetForegroundColor(Microsoft.Maui.Graphics.Text.ITextAttributes)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetForegroundColor (attributes As ITextAttributes) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::String ^ GetForegroundColor(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberSignature Language="F#" Value="static member GetForegroundColor : Microsoft.Maui.Graphics.Text.ITextAttributes -&gt; string" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetForegroundColor attributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::String ^ GetForegroundColor(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -170,8 +170,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetItalic(class Microsoft.Maui.Graphics.Text.ITextAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetItalic(Microsoft.Maui.Graphics.Text.ITextAttributes)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetItalic (attributes As ITextAttributes) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetItalic(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberSignature Language="F#" Value="static member GetItalic : Microsoft.Maui.Graphics.Text.ITextAttributes -&gt; bool" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetItalic attributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetItalic(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -195,8 +195,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.Text.MarkerType GetMarker(class Microsoft.Maui.Graphics.Text.ITextAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetMarker(Microsoft.Maui.Graphics.Text.ITextAttributes)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetMarker (attributes As ITextAttributes) As MarkerType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Text::MarkerType GetMarker(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberSignature Language="F#" Value="static member GetMarker : Microsoft.Maui.Graphics.Text.ITextAttributes -&gt; Microsoft.Maui.Graphics.Text.MarkerType" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetMarker attributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Text::MarkerType GetMarker(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -220,8 +220,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetStrikethrough(class Microsoft.Maui.Graphics.Text.ITextAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetStrikethrough(Microsoft.Maui.Graphics.Text.ITextAttributes)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetStrikethrough (attributes As ITextAttributes) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetStrikethrough(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberSignature Language="F#" Value="static member GetStrikethrough : Microsoft.Maui.Graphics.Text.ITextAttributes -&gt; bool" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetStrikethrough attributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetStrikethrough(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -245,8 +245,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetSubscript(class Microsoft.Maui.Graphics.Text.ITextAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetSubscript(Microsoft.Maui.Graphics.Text.ITextAttributes)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSubscript (attributes As ITextAttributes) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetSubscript(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberSignature Language="F#" Value="static member GetSubscript : Microsoft.Maui.Graphics.Text.ITextAttributes -&gt; bool" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetSubscript attributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetSubscript(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -270,8 +270,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetSuperscript(class Microsoft.Maui.Graphics.Text.ITextAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetSuperscript(Microsoft.Maui.Graphics.Text.ITextAttributes)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSuperscript (attributes As ITextAttributes) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetSuperscript(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberSignature Language="F#" Value="static member GetSuperscript : Microsoft.Maui.Graphics.Text.ITextAttributes -&gt; bool" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetSuperscript attributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetSuperscript(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -295,8 +295,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetUnderline(class Microsoft.Maui.Graphics.Text.ITextAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetUnderline(Microsoft.Maui.Graphics.Text.ITextAttributes)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetUnderline (attributes As ITextAttributes) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetUnderline(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberSignature Language="F#" Value="static member GetUnderline : Microsoft.Maui.Graphics.Text.ITextAttributes -&gt; bool" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetUnderline attributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetUnderline(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -320,8 +320,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetUnorderedList(class Microsoft.Maui.Graphics.Text.ITextAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetUnorderedList(Microsoft.Maui.Graphics.Text.ITextAttributes)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetUnorderedList (attributes As ITextAttributes) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetUnorderedList(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberSignature Language="F#" Value="static member GetUnorderedList : Microsoft.Maui.Graphics.Text.ITextAttributes -&gt; bool" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.GetUnorderedList attributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool GetUnorderedList(Microsoft::Maui::Graphics::Text::ITextAttributes ^ attributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -345,8 +345,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBackgroundColor(class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; attributes, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetBackgroundColor(System.Collections.Generic.Dictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String},System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetBackgroundColor (attributes As Dictionary(Of TextAttribute, String), value As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetBackgroundColor(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, System::String ^ value);" />
       <MemberSignature Language="F#" Value="static member SetBackgroundColor : System.Collections.Generic.Dictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; * string -&gt; unit" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetBackgroundColor (attributes, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetBackgroundColor(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, System::String ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -371,8 +371,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBold(class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; attributes, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetBold(System.Collections.Generic.Dictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetBold (attributes As Dictionary(Of TextAttribute, String), value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetBold(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberSignature Language="F#" Value="static member SetBold : System.Collections.Generic.Dictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; * bool -&gt; unit" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetBold (attributes, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetBold(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -397,8 +397,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetFontName(class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; attributes, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetFontName(System.Collections.Generic.Dictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String},System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetFontName (attributes As Dictionary(Of TextAttribute, String), value As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFontName(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, System::String ^ value);" />
       <MemberSignature Language="F#" Value="static member SetFontName : System.Collections.Generic.Dictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; * string -&gt; unit" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetFontName (attributes, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFontName(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, System::String ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -423,8 +423,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetFontSize(class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; attributes, float32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetFontSize(System.Collections.Generic.Dictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String},System.Single)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetFontSize (attributes As Dictionary(Of TextAttribute, String), value As Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFontSize(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, float value);" />
       <MemberSignature Language="F#" Value="static member SetFontSize : System.Collections.Generic.Dictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; * single -&gt; unit" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetFontSize (attributes, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetFontSize(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, float value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -449,8 +449,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetForegroundColor(class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; attributes, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetForegroundColor(System.Collections.Generic.Dictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String},System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetForegroundColor (attributes As Dictionary(Of TextAttribute, String), value As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetForegroundColor(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, System::String ^ value);" />
       <MemberSignature Language="F#" Value="static member SetForegroundColor : System.Collections.Generic.Dictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; * string -&gt; unit" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetForegroundColor (attributes, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetForegroundColor(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, System::String ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -475,8 +475,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetItalic(class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; attributes, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetItalic(System.Collections.Generic.Dictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetItalic (attributes As Dictionary(Of TextAttribute, String), value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetItalic(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberSignature Language="F#" Value="static member SetItalic : System.Collections.Generic.Dictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; * bool -&gt; unit" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetItalic (attributes, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetItalic(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -501,8 +501,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetMarker(class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; attributes, valuetype Microsoft.Maui.Graphics.Text.MarkerType value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetMarker(System.Collections.Generic.Dictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String},Microsoft.Maui.Graphics.Text.MarkerType)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetMarker (attributes As Dictionary(Of TextAttribute, String), value As MarkerType)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetMarker(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, Microsoft::Maui::Graphics::Text::MarkerType value);" />
       <MemberSignature Language="F#" Value="static member SetMarker : System.Collections.Generic.Dictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; * Microsoft.Maui.Graphics.Text.MarkerType -&gt; unit" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetMarker (attributes, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetMarker(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, Microsoft::Maui::Graphics::Text::MarkerType value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -527,8 +527,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetStrikethrough(class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; attributes, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetStrikethrough(System.Collections.Generic.Dictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetStrikethrough (attributes As Dictionary(Of TextAttribute, String), value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetStrikethrough(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberSignature Language="F#" Value="static member SetStrikethrough : System.Collections.Generic.Dictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; * bool -&gt; unit" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetStrikethrough (attributes, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetStrikethrough(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -553,8 +553,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetSubscript(class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; attributes, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetSubscript(System.Collections.Generic.Dictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetSubscript (attributes As Dictionary(Of TextAttribute, String), value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetSubscript(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberSignature Language="F#" Value="static member SetSubscript : System.Collections.Generic.Dictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; * bool -&gt; unit" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetSubscript (attributes, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetSubscript(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -579,8 +579,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetSuperscript(class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; attributes, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetSuperscript(System.Collections.Generic.Dictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetSuperscript (attributes As Dictionary(Of TextAttribute, String), value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetSuperscript(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberSignature Language="F#" Value="static member SetSuperscript : System.Collections.Generic.Dictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; * bool -&gt; unit" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetSuperscript (attributes, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetSuperscript(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -605,8 +605,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetUnderline(class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; attributes, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetUnderline(System.Collections.Generic.Dictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetUnderline (attributes As Dictionary(Of TextAttribute, String), value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetUnderline(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberSignature Language="F#" Value="static member SetUnderline : System.Collections.Generic.Dictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; * bool -&gt; unit" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetUnderline (attributes, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetUnderline(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -631,8 +631,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetUnorderedList(class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; attributes, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetUnorderedList(System.Collections.Generic.Dictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetUnorderedList (attributes As Dictionary(Of TextAttribute, String), value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetUnorderedList(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberSignature Language="F#" Value="static member SetUnorderedList : System.Collections.Generic.Dictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; * bool -&gt; unit" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.SetUnorderedList (attributes, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetUnorderedList(System::Collections::Generic::Dictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ attributes, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -657,8 +657,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Text.ITextAttributes Union(class System.Collections.Generic.IReadOnlyDictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; first, class System.Collections.Generic.IReadOnlyDictionary`2&lt;valuetype Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; second) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.Text.TextAttributeExtensions.Union(System.Collections.Generic.IReadOnlyDictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String},System.Collections.Generic.IReadOnlyDictionary{Microsoft.Maui.Graphics.Text.TextAttribute,System.String})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Union (first As IReadOnlyDictionary(Of TextAttribute, String), second As IReadOnlyDictionary(Of TextAttribute, String)) As ITextAttributes" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Text::ITextAttributes ^ Union(System::Collections::Generic::IReadOnlyDictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ first, System::Collections::Generic::IReadOnlyDictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ second);" />
       <MemberSignature Language="F#" Value="static member Union : System.Collections.Generic.IReadOnlyDictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; * System.Collections.Generic.IReadOnlyDictionary&lt;Microsoft.Maui.Graphics.Text.TextAttribute, string&gt; -&gt; Microsoft.Maui.Graphics.Text.ITextAttributes" Usage="Microsoft.Maui.Graphics.Text.TextAttributeExtensions.Union (first, second)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Text::ITextAttributes ^ Union(System::Collections::Generic::IReadOnlyDictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ first, System::Collections::Generic::IReadOnlyDictionary&lt;Microsoft::Maui::Graphics::Text::TextAttribute, System::String ^&gt; ^ second);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDeviceDisplay" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.IDeviceDisplay" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDeviceDisplay" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IDeviceDisplay" />
   <TypeSignature Language="F#" Value="type IDeviceDisplay = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IDeviceDisplay" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool KeepScreenOn" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.IDeviceDisplay.KeepScreenOn" />
       <MemberSignature Language="VB.NET" Value="Public Property KeepScreenOn As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool KeepScreenOn { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.KeepScreenOn : bool with get, set" Usage="Microsoft.Maui.Devices.IDeviceDisplay.KeepScreenOn" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool KeepScreenOn { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -41,8 +41,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Devices.DisplayInfo MainDisplayInfo" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Devices.IDeviceDisplay.MainDisplayInfo" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MainDisplayInfo As DisplayInfo" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::DisplayInfo MainDisplayInfo { Microsoft::Maui::Devices::DisplayInfo get(); };" />
       <MemberSignature Language="F#" Value="member this.MainDisplayInfo : Microsoft.Maui.Devices.DisplayInfo" Usage="Microsoft.Maui.Devices.IDeviceDisplay.MainDisplayInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Devices::DisplayInfo MainDisplayInfo { Microsoft::Maui::Devices::DisplayInfo get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Devices.DisplayInfoChangedEventArgs&gt; MainDisplayInfoChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Devices.IDeviceDisplay.MainDisplayInfoChanged" />
       <MemberSignature Language="VB.NET" Value="Event MainDisplayInfoChanged As EventHandler(Of DisplayInfoChangedEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Devices::DisplayInfoChangedEventArgs ^&gt; ^ MainDisplayInfoChanged;" />
       <MemberSignature Language="F#" Value="member this.MainDisplayInfoChanged : EventHandler&lt;Microsoft.Maui.Devices.DisplayInfoChangedEventArgs&gt; " Usage="member this.MainDisplayInfoChanged : System.EventHandler&lt;Microsoft.Maui.Devices.DisplayInfoChangedEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Devices::DisplayInfoChangedEventArgs ^&gt; ^ MainDisplayInfoChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

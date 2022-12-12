@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IShape" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.IShape" />
   <TypeSignature Language="VB.NET" Value="Public Interface IShape" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IShape" />
   <TypeSignature Language="F#" Value="type IShape = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IShape" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Graphics.PathF PathForBounds(valuetype Microsoft.Maui.Graphics.Rect bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Graphics.IShape.PathForBounds(Microsoft.Maui.Graphics.Rect)" />
       <MemberSignature Language="VB.NET" Value="Public Function PathForBounds (bounds As Rect) As PathF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ PathForBounds(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberSignature Language="F#" Value="abstract member PathForBounds : Microsoft.Maui.Graphics.Rect -&gt; Microsoft.Maui.Graphics.PathF" Usage="iShape.PathForBounds bounds" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Maui::Graphics::PathF ^ PathForBounds(Microsoft::Maui::Graphics::Rect bounds);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

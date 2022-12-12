@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit ResourceLoader/ResourceLoadingQuery extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.ResourceLoader.ResourceLoadingQuery" />
   <TypeSignature Language="VB.NET" Value="Public Class ResourceLoader.ResourceLoadingQuery" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class ResourceLoader::ResourceLoadingQuery" />
   <TypeSignature Language="F#" Value="type ResourceLoader.ResourceLoadingQuery = class" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class ResourceLoader::ResourceLoadingQuery" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Reflection.AssemblyName AssemblyName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.ResourceLoader.ResourceLoadingQuery.AssemblyName" />
       <MemberSignature Language="VB.NET" Value="Public Property AssemblyName As AssemblyName" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Reflection::AssemblyName ^ AssemblyName { System::Reflection::AssemblyName ^ get(); void set(System::Reflection::AssemblyName ^ value); };" />
       <MemberSignature Language="F#" Value="member this.AssemblyName : System.Reflection.AssemblyName with get, set" Usage="Microsoft.Maui.Controls.Internals.ResourceLoader.ResourceLoadingQuery.AssemblyName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Reflection::AssemblyName ^ AssemblyName { System::Reflection::AssemblyName ^ get(); void set(System::Reflection::AssemblyName ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Instance" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.ResourceLoader.ResourceLoadingQuery.Instance" />
       <MemberSignature Language="VB.NET" Value="Public Property Instance As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Instance { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Instance : obj with get, set" Usage="Microsoft.Maui.Controls.Internals.ResourceLoader.ResourceLoadingQuery.Instance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Instance { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string ResourcePath" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.ResourceLoader.ResourceLoadingQuery.ResourcePath" />
       <MemberSignature Language="VB.NET" Value="Public Property ResourcePath As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ResourcePath { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ResourcePath : string with get, set" Usage="Microsoft.Maui.Controls.Internals.ResourceLoader.ResourceLoadingQuery.ResourcePath" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ResourcePath { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ReorderableItemsViewHandler`1&lt;(class Microsoft.Maui.Controls.ReorderableItemsView) TItemsView&gt; extends Microsoft.Maui.Controls.Handlers.Items.GroupableItemsViewHandler`1&lt;!TItemsView&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Handlers.Items.ReorderableItemsViewHandler`1" />
   <TypeSignature Language="VB.NET" Value="Public Class ReorderableItemsViewHandler(Of TItemsView)&#xA;Inherits GroupableItemsViewHandler(Of TItemsView)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TItemsView&gt;&#xA; where TItemsView : ReorderableItemsViewpublic ref class ReorderableItemsViewHandler : Microsoft::Maui::Controls::Handlers::Items::GroupableItemsViewHandler&lt;TItemsView&gt;" />
   <TypeSignature Language="F#" Value="type ReorderableItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; ReorderableItemsView)&gt; = class&#xA;    inherit GroupableItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; ReorderableItemsView)&gt;" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TItemsView&gt;&#xA; where TItemsView : ReorderableItemsViewpublic ref class ReorderableItemsViewHandler : Microsoft::Maui::Controls::Handlers::Items::GroupableItemsViewHandler&lt;TItemsView&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.ReorderableItemsViewHandler`1.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="reorderableItemsViewHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCanReorderItems(class Microsoft.Maui.Controls.Handlers.Items.ReorderableItemsViewHandler`1&lt;!TItemsView&gt; handler, class Microsoft.Maui.Controls.ReorderableItemsView itemsView) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.Items.ReorderableItemsViewHandler`1.MapCanReorderItems(Microsoft.Maui.Controls.Handlers.Items.ReorderableItemsViewHandler{`0},Microsoft.Maui.Controls.ReorderableItemsView)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCanReorderItems (handler As ReorderableItemsViewHandler(Of TItemsView), itemsView As ReorderableItemsView)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCanReorderItems(Microsoft::Maui::Controls::Handlers::Items::ReorderableItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ReorderableItemsView ^ itemsView);" />
       <MemberSignature Language="F#" Value="static member MapCanReorderItems : Microsoft.Maui.Controls.Handlers.Items.ReorderableItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ReorderableItemsView)&gt; * Microsoft.Maui.Controls.ReorderableItemsView -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.Items.ReorderableItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ReorderableItemsView)&gt;.MapCanReorderItems (handler, itemsView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCanReorderItems(Microsoft::Maui::Controls::Handlers::Items::ReorderableItemsViewHandler&lt;TItemsView&gt; ^ handler, Microsoft::Maui::Controls::ReorderableItemsView ^ itemsView);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.PropertyMapper`2&lt;!TItemsView, class Microsoft.Maui.Controls.Handlers.Items.ReorderableItemsViewHandler`1&lt;!TItemsView&gt;&gt; ReorderableItemsViewMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Handlers.Items.ReorderableItemsViewHandler`1.ReorderableItemsViewMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReorderableItemsViewMapper As PropertyMapper(Of TItemsView, ReorderableItemsViewHandler(Of TItemsView)) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::PropertyMapper&lt;TItemsView, Microsoft::Maui::Controls::Handlers::Items::ReorderableItemsViewHandler&lt;TItemsView&gt; ^&gt; ^ ReorderableItemsViewMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ReorderableItemsViewMapper : Microsoft.Maui.PropertyMapper&lt;'ItemsView, Microsoft.Maui.Controls.Handlers.Items.ReorderableItemsViewHandler&lt;'ItemsView&gt; (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ReorderableItemsView)&gt;" Usage="Microsoft.Maui.Controls.Handlers.Items.ReorderableItemsViewHandler&lt;'ItemsView (requires 'ItemsView :&gt; Microsoft.Maui.Controls.ReorderableItemsView)&gt;.ReorderableItemsViewMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::PropertyMapper&lt;TItemsView, Microsoft::Maui::Controls::Handlers::Items::ReorderableItemsViewHandler&lt;TItemsView&gt; ^&gt; ^ ReorderableItemsViewMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

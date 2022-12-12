@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ControlTemplate extends Microsoft.Maui.Controls.ElementTemplate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ControlTemplate" />
   <TypeSignature Language="VB.NET" Value="Public Class ControlTemplate&#xA;Inherits ElementTemplate" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ControlTemplate : Microsoft::Maui::Controls::ElementTemplate" />
   <TypeSignature Language="F#" Value="type ControlTemplate = class&#xA;    inherit ElementTemplate" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ControlTemplate : Microsoft::Maui::Controls::ElementTemplate" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`1&lt;object&gt; createTemplate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ControlTemplate.#ctor(System.Func{System.Object})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (createTemplate As Func(Of Object))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ControlTemplate(Func&lt;System::Object ^&gt; ^ createTemplate);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.ControlTemplate : Func&lt;obj&gt; -&gt; Microsoft.Maui.Controls.ControlTemplate" Usage="new Microsoft.Maui.Controls.ControlTemplate createTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ControlTemplate(Func&lt;System::Object ^&gt; ^ createTemplate);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.ControlTemplate.#ctor(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (type As Type)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ControlTemplate(Type ^ type);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.ControlTemplate : Type -&gt; Microsoft.Maui.Controls.ControlTemplate" Usage="new Microsoft.Maui.Controls.ControlTemplate type" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ControlTemplate(Type ^ type);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

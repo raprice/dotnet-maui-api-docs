@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IXamlTypeResolver" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Xaml.IXamlTypeResolver" />
   <TypeSignature Language="VB.NET" Value="Public Interface IXamlTypeResolver" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IXamlTypeResolver" />
   <TypeSignature Language="F#" Value="type IXamlTypeResolver = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IXamlTypeResolver" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryResolve(string qualifiedTypeName, [out] class System.Type&amp; type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Xaml.IXamlTypeResolver.TryResolve(System.String,System.Type@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryResolve (qualifiedTypeName As String, ByRef type As Type) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryResolve(System::String ^ qualifiedTypeName, [Runtime::InteropServices::Out] Type ^ % type);" />
       <MemberSignature Language="F#" Value="abstract member TryResolve : string * Type -&gt; bool" Usage="iXamlTypeResolver.TryResolve (qualifiedTypeName, type)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryResolve(System::String ^ qualifiedTypeName, [Runtime::InteropServices::Out] Type ^ % type);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

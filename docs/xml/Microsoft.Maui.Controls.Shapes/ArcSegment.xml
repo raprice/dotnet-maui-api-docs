@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ArcSegment extends Microsoft.Maui.Controls.Shapes.PathSegment" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Shapes.ArcSegment" />
   <TypeSignature Language="VB.NET" Value="Public Class ArcSegment&#xA;Inherits PathSegment" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ArcSegment : Microsoft::Maui::Controls::Shapes::PathSegment" />
   <TypeSignature Language="F#" Value="type ArcSegment = class&#xA;    inherit PathSegment" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ArcSegment : Microsoft::Maui::Controls::Shapes::PathSegment" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.Graphics.Point point, valuetype Microsoft.Maui.Graphics.Size size, float64 rotationAngle, valuetype Microsoft.Maui.Controls.SweepDirection sweepDirection, bool isLargeArc) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Shapes.ArcSegment.#ctor(Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Size,System.Double,Microsoft.Maui.Controls.SweepDirection,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (point As Point, size As Size, rotationAngle As Double, sweepDirection As SweepDirection, isLargeArc As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ArcSegment(Microsoft::Maui::Graphics::Point point, Microsoft::Maui::Graphics::Size size, double rotationAngle, Microsoft::Maui::Controls::SweepDirection sweepDirection, bool isLargeArc);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Shapes.ArcSegment : Microsoft.Maui.Graphics.Point * Microsoft.Maui.Graphics.Size * double * Microsoft.Maui.Controls.SweepDirection * bool -&gt; Microsoft.Maui.Controls.Shapes.ArcSegment" Usage="new Microsoft.Maui.Controls.Shapes.ArcSegment (point, size, rotationAngle, sweepDirection, isLargeArc)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ArcSegment(Microsoft::Maui::Graphics::Point point, Microsoft::Maui::Graphics::Size size, double rotationAngle, Microsoft::Maui::Controls::SweepDirection sweepDirection, bool isLargeArc);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -69,8 +69,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsLargeArc" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.ArcSegment.IsLargeArc" />
       <MemberSignature Language="VB.NET" Value="Public Property IsLargeArc As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLargeArc { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsLargeArc : bool with get, set" Usage="Microsoft.Maui.Controls.Shapes.ArcSegment.IsLargeArc" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLargeArc { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -90,8 +90,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IsLargeArcProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.ArcSegment.IsLargeArcProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsLargeArcProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsLargeArcProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IsLargeArcProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.ArcSegment.IsLargeArcProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IsLargeArcProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -110,8 +110,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Point Point" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.ArcSegment.Point" />
       <MemberSignature Language="VB.NET" Value="Public Property Point As Point" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point Point { Microsoft::Maui::Graphics::Point get(); void set(Microsoft::Maui::Graphics::Point value); };" />
       <MemberSignature Language="F#" Value="member this.Point : Microsoft.Maui.Graphics.Point with get, set" Usage="Microsoft.Maui.Controls.Shapes.ArcSegment.Point" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Point Point { Microsoft::Maui::Graphics::Point get(); void set(Microsoft::Maui::Graphics::Point value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -131,8 +131,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty PointProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.ArcSegment.PointProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PointProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable PointProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.ArcSegment.PointProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ PointProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -151,8 +151,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 RotationAngle" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.ArcSegment.RotationAngle" />
       <MemberSignature Language="VB.NET" Value="Public Property RotationAngle As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double RotationAngle { double get(); void set(double value); };" />
       <MemberSignature Language="F#" Value="member this.RotationAngle : double with get, set" Usage="Microsoft.Maui.Controls.Shapes.ArcSegment.RotationAngle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double RotationAngle { double get(); void set(double value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -172,8 +172,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty RotationAngleProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.ArcSegment.RotationAngleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RotationAngleProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RotationAngleProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable RotationAngleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.ArcSegment.RotationAngleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RotationAngleProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -192,8 +192,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Graphics.Size Size" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.ArcSegment.Size" />
       <MemberSignature Language="VB.NET" Value="Public Property Size As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Size Size { Microsoft::Maui::Graphics::Size get(); void set(Microsoft::Maui::Graphics::Size value); };" />
       <MemberSignature Language="F#" Value="member this.Size : Microsoft.Maui.Graphics.Size with get, set" Usage="Microsoft.Maui.Controls.Shapes.ArcSegment.Size" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Size Size { Microsoft::Maui::Graphics::Size get(); void set(Microsoft::Maui::Graphics::Size value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -219,8 +219,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SizeProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.ArcSegment.SizeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SizeProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SizeProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SizeProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.ArcSegment.SizeProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SizeProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -239,8 +239,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.SweepDirection SweepDirection" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Shapes.ArcSegment.SweepDirection" />
       <MemberSignature Language="VB.NET" Value="Public Property SweepDirection As SweepDirection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SweepDirection SweepDirection { Microsoft::Maui::Controls::SweepDirection get(); void set(Microsoft::Maui::Controls::SweepDirection value); };" />
       <MemberSignature Language="F#" Value="member this.SweepDirection : Microsoft.Maui.Controls.SweepDirection with get, set" Usage="Microsoft.Maui.Controls.Shapes.ArcSegment.SweepDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::SweepDirection SweepDirection { Microsoft::Maui::Controls::SweepDirection get(); void set(Microsoft::Maui::Controls::SweepDirection value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -260,8 +260,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty SweepDirectionProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Shapes.ArcSegment.SweepDirectionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SweepDirectionProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SweepDirectionProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable SweepDirectionProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.Shapes.ArcSegment.SweepDirectionProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ SweepDirectionProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

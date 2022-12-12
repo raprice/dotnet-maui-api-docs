@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IButtonController implements class Microsoft.Maui.Controls.IElementController, class Microsoft.Maui.Controls.IViewController, class Microsoft.Maui.Controls.IVisualElementController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IButtonController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IButtonController&#xA;Implements IViewController" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IButtonController : Microsoft::Maui::Controls::IViewController" />
   <TypeSignature Language="F#" Value="type IButtonController = interface&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IButtonController : Microsoft::Maui::Controls::IViewController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -30,8 +30,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendClicked() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IButtonController.SendClicked" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendClicked ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendClicked();" />
       <MemberSignature Language="F#" Value="abstract member SendClicked : unit -&gt; unit" Usage="iButtonController.SendClicked " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendClicked();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -51,8 +51,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPressed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IButtonController.SendPressed" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPressed ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPressed();" />
       <MemberSignature Language="F#" Value="abstract member SendPressed : unit -&gt; unit" Usage="iButtonController.SendPressed " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPressed();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -72,8 +72,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendReleased() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IButtonController.SendReleased" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendReleased ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendReleased();" />
       <MemberSignature Language="F#" Value="abstract member SendReleased : unit -&gt; unit" Usage="iButtonController.SendReleased " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendReleased();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

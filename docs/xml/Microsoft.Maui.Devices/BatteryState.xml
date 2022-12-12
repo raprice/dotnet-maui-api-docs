@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed BatteryState extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Devices.BatteryState" />
   <TypeSignature Language="VB.NET" Value="Public Enum BatteryState" />
-  <TypeSignature Language="C++ CLI" Value="public enum class BatteryState" />
   <TypeSignature Language="F#" Value="type BatteryState = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class BatteryState" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.BatteryState Charging = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.BatteryState.Charging" />
       <MemberSignature Language="VB.NET" Value="Charging" />
-      <MemberSignature Language="C++ CLI" Value="Charging" />
       <MemberSignature Language="F#" Value="Charging = 1" Usage="Microsoft.Maui.Devices.BatteryState.Charging" />
+      <MemberSignature Language="C++ CLI" Value="Charging" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.BatteryState Discharging = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.BatteryState.Discharging" />
       <MemberSignature Language="VB.NET" Value="Discharging" />
-      <MemberSignature Language="C++ CLI" Value="Discharging" />
       <MemberSignature Language="F#" Value="Discharging = 2" Usage="Microsoft.Maui.Devices.BatteryState.Discharging" />
+      <MemberSignature Language="C++ CLI" Value="Discharging" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.BatteryState Full = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.BatteryState.Full" />
       <MemberSignature Language="VB.NET" Value="Full" />
-      <MemberSignature Language="C++ CLI" Value="Full" />
       <MemberSignature Language="F#" Value="Full = 3" Usage="Microsoft.Maui.Devices.BatteryState.Full" />
+      <MemberSignature Language="C++ CLI" Value="Full" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -82,8 +82,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.BatteryState NotCharging = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.BatteryState.NotCharging" />
       <MemberSignature Language="VB.NET" Value="NotCharging" />
-      <MemberSignature Language="C++ CLI" Value="NotCharging" />
       <MemberSignature Language="F#" Value="NotCharging = 4" Usage="Microsoft.Maui.Devices.BatteryState.NotCharging" />
+      <MemberSignature Language="C++ CLI" Value="NotCharging" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.BatteryState NotPresent = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.BatteryState.NotPresent" />
       <MemberSignature Language="VB.NET" Value="NotPresent" />
-      <MemberSignature Language="C++ CLI" Value="NotPresent" />
       <MemberSignature Language="F#" Value="NotPresent = 5" Usage="Microsoft.Maui.Devices.BatteryState.NotPresent" />
+      <MemberSignature Language="C++ CLI" Value="NotPresent" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -122,8 +122,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Devices.BatteryState Unknown = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Devices.BatteryState.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
-      <MemberSignature Language="C++ CLI" Value="Unknown" />
       <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.Maui.Devices.BatteryState.Unknown" />
+      <MemberSignature Language="C++ CLI" Value="Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

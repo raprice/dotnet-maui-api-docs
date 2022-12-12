@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IClipboard" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.ApplicationModel.DataTransfer.IClipboard" />
   <TypeSignature Language="VB.NET" Value="Public Interface IClipboard" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IClipboard" />
   <TypeSignature Language="F#" Value="type IClipboard = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IClipboard" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.EventArgs&gt; ClipboardContentChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.ApplicationModel.DataTransfer.IClipboard.ClipboardContentChanged" />
       <MemberSignature Language="VB.NET" Value="Event ClipboardContentChanged As EventHandler(Of EventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;EventArgs ^&gt; ^ ClipboardContentChanged;" />
       <MemberSignature Language="F#" Value="member this.ClipboardContentChanged : EventHandler&lt;EventArgs&gt; " Usage="member this.ClipboardContentChanged : System.EventHandler&lt;System.EventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;EventArgs ^&gt; ^ ClipboardContentChanged;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; GetTextAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.DataTransfer.IClipboard.GetTextAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function GetTextAsync () As Task(Of String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::String ^&gt; ^ GetTextAsync();" />
       <MemberSignature Language="F#" Value="abstract member GetTextAsync : unit -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="iClipboard.GetTextAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::String ^&gt; ^ GetTextAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool HasText" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.ApplicationModel.DataTransfer.IClipboard.HasText" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasText As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasText { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.HasText : bool" Usage="Microsoft.Maui.ApplicationModel.DataTransfer.IClipboard.HasText" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasText { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>
@@ -83,8 +83,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task SetTextAsync(string text) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.ApplicationModel.DataTransfer.IClipboard.SetTextAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function SetTextAsync (text As String) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ SetTextAsync(System::String ^ text);" />
       <MemberSignature Language="F#" Value="abstract member SetTextAsync : string -&gt; System.Threading.Tasks.Task" Usage="iClipboard.SetTextAsync text" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ SetTextAsync(System::String ^ text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Essentials</AssemblyName>

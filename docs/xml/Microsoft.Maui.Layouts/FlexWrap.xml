@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FlexWrap extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Layouts.FlexWrap" />
   <TypeSignature Language="VB.NET" Value="Public Enum FlexWrap" />
-  <TypeSignature Language="C++ CLI" Value="public enum class FlexWrap" />
   <TypeSignature Language="F#" Value="type FlexWrap = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class FlexWrap" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -28,8 +28,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Layouts.FlexWrap NoWrap = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.FlexWrap.NoWrap" />
       <MemberSignature Language="VB.NET" Value="NoWrap" />
-      <MemberSignature Language="C++ CLI" Value="NoWrap" />
       <MemberSignature Language="F#" Value="NoWrap = 0" Usage="Microsoft.Maui.Layouts.FlexWrap.NoWrap" />
+      <MemberSignature Language="C++ CLI" Value="NoWrap" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -48,8 +48,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Layouts.FlexWrap Reverse = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.FlexWrap.Reverse" />
       <MemberSignature Language="VB.NET" Value="Reverse" />
-      <MemberSignature Language="C++ CLI" Value="Reverse" />
       <MemberSignature Language="F#" Value="Reverse = 2" Usage="Microsoft.Maui.Layouts.FlexWrap.Reverse" />
+      <MemberSignature Language="C++ CLI" Value="Reverse" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -68,8 +68,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Layouts.FlexWrap Wrap = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Layouts.FlexWrap.Wrap" />
       <MemberSignature Language="VB.NET" Value="Wrap" />
-      <MemberSignature Language="C++ CLI" Value="Wrap" />
       <MemberSignature Language="F#" Value="Wrap = 1" Usage="Microsoft.Maui.Layouts.FlexWrap.Wrap" />
+      <MemberSignature Language="C++ CLI" Value="Wrap" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

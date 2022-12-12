@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PointerEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.PointerEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class PointerEventArgs&#xA;Inherits EventArgs" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PointerEventArgs : EventArgs" />
   <TypeSignature Language="F#" Value="type PointerEventArgs = class&#xA;    inherit EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PointerEventArgs : EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Nullable`1&lt;valuetype Microsoft.Maui.Graphics.Point&gt; GetPosition(class Microsoft.Maui.Controls.Element relativeTo) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.PointerEventArgs.GetPosition(Microsoft.Maui.Controls.Element)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPosition (relativeTo As Element) As Nullable(Of Point)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Nullable&lt;Microsoft::Maui::Graphics::Point&gt; GetPosition(Microsoft::Maui::Controls::Element ^ relativeTo);" />
       <MemberSignature Language="F#" Value="abstract member GetPosition : Microsoft.Maui.Controls.Element -&gt; Nullable&lt;Microsoft.Maui.Graphics.Point&gt;&#xA;override this.GetPosition : Microsoft.Maui.Controls.Element -&gt; Nullable&lt;Microsoft.Maui.Graphics.Point&gt;" Usage="pointerEventArgs.GetPosition relativeTo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Nullable&lt;Microsoft::Maui::Graphics::Point&gt; GetPosition(Microsoft::Maui::Controls::Element ^ relativeTo);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

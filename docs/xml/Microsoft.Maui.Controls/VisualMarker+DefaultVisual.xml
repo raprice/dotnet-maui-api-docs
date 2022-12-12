@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit VisualMarker/DefaultVisual extends System.Object implements class Microsoft.Maui.Controls.IVisual" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.VisualMarker.DefaultVisual" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class VisualMarker.DefaultVisual&#xA;Implements IVisual" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class VisualMarker::DefaultVisual sealed : Microsoft::Maui::Controls::IVisual" />
   <TypeSignature Language="F#" Value="type VisualMarker.DefaultVisual = class&#xA;    interface IVisual" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class VisualMarker::DefaultVisual sealed : Microsoft::Maui::Controls::IVisual" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

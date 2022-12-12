@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LineHandler extends Microsoft.Maui.Handlers.ShapeViewHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Handlers.LineHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class LineHandler&#xA;Inherits ShapeViewHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class LineHandler : Microsoft::Maui::Handlers::ShapeViewHandler" />
   <TypeSignature Language="F#" Value="type LineHandler = class&#xA;    inherit ShapeViewHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class LineHandler : Microsoft::Maui::Handlers::ShapeViewHandler" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.LineHandler.#ctor(Microsoft.Maui.IPropertyMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; LineHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.Handlers.LineHandler : Microsoft.Maui.IPropertyMapper -&gt; Microsoft.Maui.Controls.Handlers.LineHandler" Usage="new Microsoft.Maui.Controls.Handlers.LineHandler mapper" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; LineHandler(Microsoft::Maui::IPropertyMapper ^ mapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.Controls.Shapes.Line, class Microsoft.Maui.Handlers.IShapeViewHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.Handlers.LineHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of Line, IShapeViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::Controls::Shapes::Line ^, Microsoft::Maui::Handlers::IShapeViewHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.Controls.Shapes.Line, Microsoft.Maui.Handlers.IShapeViewHandler&gt;" Usage="Microsoft.Maui.Controls.Handlers.LineHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::Controls::Shapes::Line ^, Microsoft::Maui::Handlers::IShapeViewHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -81,8 +81,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapX1(class Microsoft.Maui.Handlers.IShapeViewHandler handler, class Microsoft.Maui.Controls.Shapes.Line line) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.LineHandler.MapX1(Microsoft.Maui.Handlers.IShapeViewHandler,Microsoft.Maui.Controls.Shapes.Line)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapX1 (handler As IShapeViewHandler, line As Line)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapX1(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Line ^ line);" />
       <MemberSignature Language="F#" Value="static member MapX1 : Microsoft.Maui.Handlers.IShapeViewHandler * Microsoft.Maui.Controls.Shapes.Line -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.LineHandler.MapX1 (handler, line)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapX1(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Line ^ line);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -107,8 +107,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapX2(class Microsoft.Maui.Handlers.IShapeViewHandler handler, class Microsoft.Maui.Controls.Shapes.Line line) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.LineHandler.MapX2(Microsoft.Maui.Handlers.IShapeViewHandler,Microsoft.Maui.Controls.Shapes.Line)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapX2 (handler As IShapeViewHandler, line As Line)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapX2(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Line ^ line);" />
       <MemberSignature Language="F#" Value="static member MapX2 : Microsoft.Maui.Handlers.IShapeViewHandler * Microsoft.Maui.Controls.Shapes.Line -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.LineHandler.MapX2 (handler, line)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapX2(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Line ^ line);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -133,8 +133,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapY1(class Microsoft.Maui.Handlers.IShapeViewHandler handler, class Microsoft.Maui.Controls.Shapes.Line line) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.LineHandler.MapY1(Microsoft.Maui.Handlers.IShapeViewHandler,Microsoft.Maui.Controls.Shapes.Line)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapY1 (handler As IShapeViewHandler, line As Line)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapY1(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Line ^ line);" />
       <MemberSignature Language="F#" Value="static member MapY1 : Microsoft.Maui.Handlers.IShapeViewHandler * Microsoft.Maui.Controls.Shapes.Line -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.LineHandler.MapY1 (handler, line)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapY1(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Line ^ line);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -159,8 +159,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapY2(class Microsoft.Maui.Handlers.IShapeViewHandler handler, class Microsoft.Maui.Controls.Shapes.Line line) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Handlers.LineHandler.MapY2(Microsoft.Maui.Handlers.IShapeViewHandler,Microsoft.Maui.Controls.Shapes.Line)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapY2 (handler As IShapeViewHandler, line As Line)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapY2(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Line ^ line);" />
       <MemberSignature Language="F#" Value="static member MapY2 : Microsoft.Maui.Handlers.IShapeViewHandler * Microsoft.Maui.Controls.Shapes.Line -&gt; unit" Usage="Microsoft.Maui.Controls.Handlers.LineHandler.MapY2 (handler, line)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapY2(Microsoft::Maui::Handlers::IShapeViewHandler ^ handler, Microsoft::Maui::Controls::Shapes::Line ^ line);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

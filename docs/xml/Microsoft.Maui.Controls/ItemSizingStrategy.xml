@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ItemSizingStrategy extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ItemSizingStrategy" />
   <TypeSignature Language="VB.NET" Value="Public Enum ItemSizingStrategy" />
-  <TypeSignature Language="C++ CLI" Value="public enum class ItemSizingStrategy" />
   <TypeSignature Language="F#" Value="type ItemSizingStrategy = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class ItemSizingStrategy" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.ItemSizingStrategy MeasureAllItems = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ItemSizingStrategy.MeasureAllItems" />
       <MemberSignature Language="VB.NET" Value="MeasureAllItems" />
-      <MemberSignature Language="C++ CLI" Value="MeasureAllItems" />
       <MemberSignature Language="F#" Value="MeasureAllItems = 0" Usage="Microsoft.Maui.Controls.ItemSizingStrategy.MeasureAllItems" />
+      <MemberSignature Language="C++ CLI" Value="MeasureAllItems" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Controls.ItemSizingStrategy MeasureFirstItem = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ItemSizingStrategy.MeasureFirstItem" />
       <MemberSignature Language="VB.NET" Value="MeasureFirstItem" />
-      <MemberSignature Language="C++ CLI" Value="MeasureFirstItem" />
       <MemberSignature Language="F#" Value="MeasureFirstItem = 1" Usage="Microsoft.Maui.Controls.ItemSizingStrategy.MeasureFirstItem" />
+      <MemberSignature Language="C++ CLI" Value="MeasureFirstItem" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

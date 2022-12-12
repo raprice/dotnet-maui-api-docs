@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NavigationPage extends Microsoft.Maui.Controls.Page implements class Microsoft.Maui.Controls.IElementConfiguration`1&lt;class Microsoft.Maui.Controls.NavigationPage&gt;, class Microsoft.Maui.Controls.INavigationPageController, class Microsoft.Maui.Controls.IPageContainer`1&lt;class Microsoft.Maui.Controls.Page&gt;, class Microsoft.Maui.IElement, class Microsoft.Maui.IStackNavigation, class Microsoft.Maui.IStackNavigationView, class Microsoft.Maui.IToolbarElement, class Microsoft.Maui.ITransform, class Microsoft.Maui.IView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.NavigationPage" />
   <TypeSignature Language="VB.NET" Value="Public Class NavigationPage&#xA;Inherits Page&#xA;Implements IElementConfiguration(Of NavigationPage), INavigationPageController, IPageContainer(Of Page), IStackNavigationView, IToolbarElement" />
-  <TypeSignature Language="C++ CLI" Value="public ref class NavigationPage : Microsoft::Maui::Controls::Page, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::NavigationPage ^&gt;, Microsoft::Maui::Controls::INavigationPageController, Microsoft::Maui::Controls::IPageContainer&lt;Microsoft::Maui::Controls::Page ^&gt;, Microsoft::Maui::IStackNavigationView, Microsoft::Maui::IToolbarElement" />
   <TypeSignature Language="F#" Value="type NavigationPage = class&#xA;    inherit Page&#xA;    interface IStackNavigationView&#xA;    interface IView&#xA;    interface IElement&#xA;    interface ITransform&#xA;    interface IStackNavigation&#xA;    interface IToolbarElement&#xA;    interface INavigationPageController&#xA;    interface IPageContainer&lt;Page&gt;&#xA;    interface IElementConfiguration&lt;NavigationPage&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NavigationPage : Microsoft::Maui::Controls::Page, Microsoft::Maui::Controls::IElementConfiguration&lt;Microsoft::Maui::Controls::NavigationPage ^&gt;, Microsoft::Maui::Controls::INavigationPageController, Microsoft::Maui::Controls::IPageContainer&lt;Microsoft::Maui::Controls::Page ^&gt;, Microsoft::Maui::IStackNavigationView, Microsoft::Maui::IToolbarElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -71,8 +71,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.Controls.Page root) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.#ctor(Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (root As Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; NavigationPage(Microsoft::Maui::Controls::Page ^ root);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.NavigationPage : Microsoft.Maui.Controls.Page -&gt; Microsoft.Maui.Controls.NavigationPage" Usage="new Microsoft.Maui.Controls.NavigationPage root" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NavigationPage(Microsoft::Maui::Controls::Page ^ root);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -92,8 +92,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BackButtonTitleProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.NavigationPage.BackButtonTitleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BackButtonTitleProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BackButtonTitleProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BackButtonTitleProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.NavigationPage.BackButtonTitleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BackButtonTitleProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -112,8 +112,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Brush BarBackground" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.NavigationPage.BarBackground" />
       <MemberSignature Language="VB.NET" Value="Public Property BarBackground As Brush" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Brush ^ BarBackground { Microsoft::Maui::Controls::Brush ^ get(); void set(Microsoft::Maui::Controls::Brush ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BarBackground : Microsoft.Maui.Controls.Brush with get, set" Usage="Microsoft.Maui.Controls.NavigationPage.BarBackground" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Brush ^ BarBackground { Microsoft::Maui::Controls::Brush ^ get(); void set(Microsoft::Maui::Controls::Brush ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -133,8 +133,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color BarBackgroundColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.NavigationPage.BarBackgroundColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BarBackgroundColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ BarBackgroundColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BarBackgroundColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.NavigationPage.BarBackgroundColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ BarBackgroundColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -154,8 +154,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BarBackgroundColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.NavigationPage.BarBackgroundColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BarBackgroundColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BarBackgroundColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BarBackgroundColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.NavigationPage.BarBackgroundColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BarBackgroundColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -174,8 +174,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BarBackgroundProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.NavigationPage.BarBackgroundProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BarBackgroundProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BarBackgroundProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BarBackgroundProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.NavigationPage.BarBackgroundProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BarBackgroundProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -194,8 +194,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Graphics.Color BarTextColor" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.NavigationPage.BarTextColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BarTextColor As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ BarTextColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BarTextColor : Microsoft.Maui.Graphics.Color with get, set" Usage="Microsoft.Maui.Controls.NavigationPage.BarTextColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Graphics::Color ^ BarTextColor { Microsoft::Maui::Graphics::Color ^ get(); void set(Microsoft::Maui::Graphics::Color ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -215,8 +215,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty BarTextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.NavigationPage.BarTextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BarTextColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BarTextColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable BarTextColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.NavigationPage.BarTextColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ BarTextColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -235,8 +235,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IStackNavigationView, class Microsoft.Maui.Handlers.NavigationViewHandler&gt; ControlsNavigationPageMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.NavigationPage.ControlsNavigationPageMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared ControlsNavigationPageMapper As IPropertyMapper(Of IStackNavigationView, NavigationViewHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IStackNavigationView ^, Microsoft::Maui::Handlers::NavigationViewHandler ^&gt; ^ ControlsNavigationPageMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable ControlsNavigationPageMapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IStackNavigationView, Microsoft.Maui.Handlers.NavigationViewHandler&gt;" Usage="Microsoft.Maui.Controls.NavigationPage.ControlsNavigationPageMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IStackNavigationView ^, Microsoft::Maui::Handlers::NavigationViewHandler ^&gt; ^ ControlsNavigationPageMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -255,8 +255,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Page CurrentPage" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.NavigationPage.CurrentPage" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentPage As Page" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Page ^ CurrentPage { Microsoft::Maui::Controls::Page ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.CurrentPage : Microsoft.Maui.Controls.Page" Usage="Microsoft.Maui.Controls.NavigationPage.CurrentPage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Page ^ CurrentPage { Microsoft::Maui::Controls::Page ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.IPageContainer`1.CurrentPage</InterfaceMember>
@@ -279,8 +279,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty CurrentPageProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.NavigationPage.CurrentPageProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CurrentPageProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CurrentPageProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable CurrentPageProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.NavigationPage.CurrentPageProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ CurrentPageProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -299,8 +299,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetBackButtonTitle(class Microsoft.Maui.Controls.BindableObject page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.GetBackButtonTitle(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetBackButtonTitle (page As BindableObject) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetBackButtonTitle(Microsoft::Maui::Controls::BindableObject ^ page);" />
       <MemberSignature Language="F#" Value="static member GetBackButtonTitle : Microsoft.Maui.Controls.BindableObject -&gt; string" Usage="Microsoft.Maui.Controls.NavigationPage.GetBackButtonTitle page" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetBackButtonTitle(Microsoft::Maui::Controls::BindableObject ^ page);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -324,8 +324,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetHasBackButton(class Microsoft.Maui.Controls.Page page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.GetHasBackButton(Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetHasBackButton (page As Page) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetHasBackButton(Microsoft::Maui::Controls::Page ^ page);" />
       <MemberSignature Language="F#" Value="static member GetHasBackButton : Microsoft.Maui.Controls.Page -&gt; bool" Usage="Microsoft.Maui.Controls.NavigationPage.GetHasBackButton page" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetHasBackButton(Microsoft::Maui::Controls::Page ^ page);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -349,8 +349,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetHasNavigationBar(class Microsoft.Maui.Controls.BindableObject page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.GetHasNavigationBar(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetHasNavigationBar (page As BindableObject) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetHasNavigationBar(Microsoft::Maui::Controls::BindableObject ^ page);" />
       <MemberSignature Language="F#" Value="static member GetHasNavigationBar : Microsoft.Maui.Controls.BindableObject -&gt; bool" Usage="Microsoft.Maui.Controls.NavigationPage.GetHasNavigationBar page" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetHasNavigationBar(Microsoft::Maui::Controls::BindableObject ^ page);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -375,8 +375,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color GetIconColor(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.GetIconColor(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetIconColor (bindable As BindableObject) As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Graphics::Color ^ GetIconColor(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetIconColor : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Controls.NavigationPage.GetIconColor bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Graphics::Color ^ GetIconColor(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -400,8 +400,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.ImageSource GetTitleIconImageSource(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.GetTitleIconImageSource(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetTitleIconImageSource (bindable As BindableObject) As ImageSource" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::ImageSource ^ GetTitleIconImageSource(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetTitleIconImageSource : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.ImageSource" Usage="Microsoft.Maui.Controls.NavigationPage.GetTitleIconImageSource bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::ImageSource ^ GetTitleIconImageSource(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -425,8 +425,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Controls.View GetTitleView(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.GetTitleView(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetTitleView (bindable As BindableObject) As View" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::View ^ GetTitleView(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="static member GetTitleView : Microsoft.Maui.Controls.BindableObject -&gt; Microsoft.Maui.Controls.View" Usage="Microsoft.Maui.Controls.NavigationPage.GetTitleView bindable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Maui::Controls::View ^ GetTitleView(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -450,8 +450,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HasBackButtonProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.NavigationPage.HasBackButtonProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HasBackButtonProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HasBackButtonProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HasBackButtonProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.NavigationPage.HasBackButtonProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HasBackButtonProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -470,8 +470,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty HasNavigationBarProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.NavigationPage.HasNavigationBarProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HasNavigationBarProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HasNavigationBarProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable HasNavigationBarProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.NavigationPage.HasNavigationBarProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ HasNavigationBarProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -490,8 +490,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty IconColorProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.NavigationPage.IconColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IconColorProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IconColorProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable IconColorProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.NavigationPage.IconColorProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ IconColorProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -510,8 +510,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void LayoutChildren(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub LayoutChildren (x As Double, y As Double, width As Double, height As Double)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void LayoutChildren(double x, double y, double width, double height);" />
       <MemberSignature Language="F#" Value="override this.LayoutChildren : double * double * double * double -&gt; unit" Usage="navigationPage.LayoutChildren (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void LayoutChildren(double x, double y, double width, double height);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -562,8 +562,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Maui.Controls.Page&gt; Microsoft.Maui.Controls.INavigationPageController.Pages" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.NavigationPage.Microsoft#Maui#Controls#INavigationPageController#Pages" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Pages As IEnumerable(Of Page) Implements INavigationPageController.Pages" />
-      <MemberSignature Language="C++ CLI" Value="property System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Controls::Page ^&gt; ^ Microsoft::Maui::Controls::INavigationPageController::Pages { System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Controls::Page ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.INavigationPageController.Pages : seq&lt;Microsoft.Maui.Controls.Page&gt;" Usage="Microsoft.Maui.Controls.INavigationPageController.Pages" />
+      <MemberSignature Language="C++ CLI" Value="property System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Controls::Page ^&gt; ^ Microsoft::Maui::Controls::INavigationPageController::Pages { System::Collections::Generic::IEnumerable&lt;Microsoft::Maui::Controls::Page ^&gt; ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.INavigationPageController.Pages</InterfaceMember>
@@ -586,8 +586,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Controls.Page&gt; Microsoft.Maui.Controls.INavigationPageController.PopAsyncInner(bool animated, bool fast) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.Microsoft#Maui#Controls#INavigationPageController#PopAsyncInner(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Function PopAsyncInner (animated As Boolean, fast As Boolean) As Task(Of Page) Implements INavigationPageController.PopAsyncInner" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ Microsoft.Maui.Controls.INavigationPageController.PopAsyncInner(bool animated, bool fast) = Microsoft::Maui::Controls::INavigationPageController::PopAsyncInner;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.INavigationPageController.PopAsyncInner : bool * bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;&#xA;override this.Microsoft.Maui.Controls.INavigationPageController.PopAsyncInner : bool * bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;" Usage="navigationPage.Microsoft.Maui.Controls.INavigationPageController.PopAsyncInner (animated, fast)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ Microsoft.Maui.Controls.INavigationPageController.PopAsyncInner(bool animated, bool fast) = Microsoft::Maui::Controls::INavigationPageController::PopAsyncInner;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigationPageController.PopAsyncInner(System.Boolean,System.Boolean)</InterfaceMember>
@@ -682,8 +682,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Controls.Page&gt; Microsoft.Maui.Controls.INavigationPageController.RemoveAsyncInner(class Microsoft.Maui.Controls.Page page, bool animated, bool fast) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.Microsoft#Maui#Controls#INavigationPageController#RemoveAsyncInner(Microsoft.Maui.Controls.Page,System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Function RemoveAsyncInner (page As Page, animated As Boolean, fast As Boolean) As Task(Of Page) Implements INavigationPageController.RemoveAsyncInner" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ Microsoft.Maui.Controls.INavigationPageController.RemoveAsyncInner(Microsoft::Maui::Controls::Page ^ page, bool animated, bool fast) = Microsoft::Maui::Controls::INavigationPageController::RemoveAsyncInner;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.Controls.INavigationPageController.RemoveAsyncInner : Microsoft.Maui.Controls.Page * bool * bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;&#xA;override this.Microsoft.Maui.Controls.INavigationPageController.RemoveAsyncInner : Microsoft.Maui.Controls.Page * bool * bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;" Usage="navigationPage.Microsoft.Maui.Controls.INavigationPageController.RemoveAsyncInner (page, animated, fast)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ Microsoft.Maui.Controls.INavigationPageController.RemoveAsyncInner(Microsoft::Maui::Controls::Page ^ page, bool animated, bool fast) = Microsoft::Maui::Controls::INavigationPageController::RemoveAsyncInner;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigationPageController.RemoveAsyncInner(Microsoft.Maui.Controls.Page,System.Boolean,System.Boolean)</InterfaceMember>
@@ -736,8 +736,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Microsoft.Maui.Controls.INavigationPageController.StackDepth" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.NavigationPage.Microsoft#Maui#Controls#INavigationPageController#StackDepth" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property StackDepth As Integer Implements INavigationPageController.StackDepth" />
-      <MemberSignature Language="C++ CLI" Value="property int Microsoft::Maui::Controls::INavigationPageController::StackDepth { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Controls.INavigationPageController.StackDepth : int" Usage="Microsoft.Maui.Controls.INavigationPageController.StackDepth" />
+      <MemberSignature Language="C++ CLI" Value="property int Microsoft::Maui::Controls::INavigationPageController::StackDepth { int get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Controls.INavigationPageController.StackDepth</InterfaceMember>
@@ -760,8 +760,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IStackNavigation.NavigationFinished(class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IView&gt; newStack) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.Microsoft#Maui#IStackNavigation#NavigationFinished(System.Collections.Generic.IReadOnlyList{Microsoft.Maui.IView})" />
       <MemberSignature Language="VB.NET" Value="Sub NavigationFinished (newStack As IReadOnlyList(Of IView)) Implements IStackNavigation.NavigationFinished" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IStackNavigation.NavigationFinished(System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IView ^&gt; ^ newStack) = Microsoft::Maui::IStackNavigation::NavigationFinished;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IStackNavigation.NavigationFinished : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IView&gt; -&gt; unit&#xA;override this.Microsoft.Maui.IStackNavigation.NavigationFinished : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IView&gt; -&gt; unit" Usage="navigationPage.Microsoft.Maui.IStackNavigation.NavigationFinished newStack" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IStackNavigation.NavigationFinished(System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IView ^&gt; ^ newStack) = Microsoft::Maui::IStackNavigation::NavigationFinished;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IStackNavigation.NavigationFinished(System.Collections.Generic.IReadOnlyList{Microsoft.Maui.IView})</InterfaceMember>
@@ -787,8 +787,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.Maui.IStackNavigation.RequestNavigation(class Microsoft.Maui.NavigationRequest eventArgs) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.Microsoft#Maui#IStackNavigation#RequestNavigation(Microsoft.Maui.NavigationRequest)" />
       <MemberSignature Language="VB.NET" Value="Sub RequestNavigation (eventArgs As NavigationRequest) Implements IStackNavigation.RequestNavigation" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IStackNavigation.RequestNavigation(Microsoft::Maui::NavigationRequest ^ eventArgs) = Microsoft::Maui::IStackNavigation::RequestNavigation;" />
       <MemberSignature Language="F#" Value="abstract member Microsoft.Maui.IStackNavigation.RequestNavigation : Microsoft.Maui.NavigationRequest -&gt; unit&#xA;override this.Microsoft.Maui.IStackNavigation.RequestNavigation : Microsoft.Maui.NavigationRequest -&gt; unit" Usage="navigationPage.Microsoft.Maui.IStackNavigation.RequestNavigation eventArgs" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void Microsoft.Maui.IStackNavigation.RequestNavigation(Microsoft::Maui::NavigationRequest ^ eventArgs) = Microsoft::Maui::IStackNavigation::RequestNavigation;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.IStackNavigation.RequestNavigation(Microsoft.Maui.NavigationRequest)</InterfaceMember>
@@ -814,8 +814,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Thickness Microsoft.Maui.IView.Margin" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.NavigationPage.Microsoft#Maui#IView#Margin" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Margin As Thickness Implements IView.Margin" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Thickness Microsoft::Maui::IView::Margin { Microsoft::Maui::Thickness get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.IView.Margin : Microsoft.Maui.Thickness" Usage="Microsoft.Maui.IView.Margin" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::Thickness Microsoft::Maui::IView::Margin { Microsoft::Maui::Thickness get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.IView.Margin</InterfaceMember>
@@ -838,8 +838,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.IPlatformElementConfiguration`2&lt;!!T, class Microsoft.Maui.Controls.NavigationPage&gt; On&lt;(class Microsoft.Maui.Controls.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, NavigationPage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ On();" />
       <MemberSignature Language="F#" Value="override this.On : unit -&gt; Microsoft.Maui.Controls.IPlatformElementConfiguration&lt;'T, Microsoft.Maui.Controls.NavigationPage (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)&gt; (requires 'T :&gt; Microsoft.Maui.Controls.IConfigPlatform)" Usage="navigationPage.On " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::Controls::IConfigPlatform virtual Microsoft::Maui::Controls::IPlatformElementConfiguration&lt;T, Microsoft::Maui::Controls::NavigationPage ^&gt; ^ On();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.IElementConfiguration`1.On``1</InterfaceMember>
@@ -872,8 +872,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool OnBackButtonPressed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.OnBackButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnBackButtonPressed () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool OnBackButtonPressed();" />
       <MemberSignature Language="F#" Value="override this.OnBackButtonPressed : unit -&gt; bool" Usage="navigationPage.OnBackButtonPressed " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool OnBackButtonPressed();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -894,8 +894,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Maui.Controls.Page Peek(int32 depth) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.Peek(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function Peek (depth As Integer) As Page" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Maui::Controls::Page ^ Peek(int depth);" />
       <MemberSignature Language="F#" Value="abstract member Peek : int -&gt; Microsoft.Maui.Controls.Page&#xA;override this.Peek : int -&gt; Microsoft.Maui.Controls.Page" Usage="navigationPage.Peek depth" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Maui::Controls::Page ^ Peek(int depth);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Maui.Controls.INavigationPageController.Peek(System.Int32)</InterfaceMember>
@@ -928,8 +928,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Controls.Page&gt; PopAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.PopAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function PopAsync () As Task(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PopAsync();" />
       <MemberSignature Language="F#" Value="member this.PopAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;" Usage="navigationPage.PopAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PopAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -950,8 +950,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Maui.Controls.Page&gt; PopAsync(bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.PopAsync(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function PopAsync (animated As Boolean) As Task(Of Page)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PopAsync(bool animated);" />
       <MemberSignature Language="F#" Value="member this.PopAsync : bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.Maui.Controls.Page&gt;" Usage="navigationPage.PopAsync animated" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;Microsoft::Maui::Controls::Page ^&gt; ^ PopAsync(bool animated);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -975,8 +975,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.NavigationEventArgs&gt; Popped" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.NavigationPage.Popped" />
       <MemberSignature Language="VB.NET" Value="Public Event Popped As EventHandler(Of NavigationEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::NavigationEventArgs ^&gt; ^ Popped;" />
       <MemberSignature Language="F#" Value="member this.Popped : EventHandler&lt;Microsoft.Maui.Controls.NavigationEventArgs&gt; " Usage="member this.Popped : System.EventHandler&lt;Microsoft.Maui.Controls.NavigationEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::NavigationEventArgs ^&gt; ^ Popped;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -995,8 +995,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.NavigationEventArgs&gt; PoppedToRoot" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.NavigationPage.PoppedToRoot" />
       <MemberSignature Language="VB.NET" Value="Public Event PoppedToRoot As EventHandler(Of NavigationEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::NavigationEventArgs ^&gt; ^ PoppedToRoot;" />
       <MemberSignature Language="F#" Value="member this.PoppedToRoot : EventHandler&lt;Microsoft.Maui.Controls.NavigationEventArgs&gt; " Usage="member this.PoppedToRoot : System.EventHandler&lt;Microsoft.Maui.Controls.NavigationEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::NavigationEventArgs ^&gt; ^ PoppedToRoot;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1015,8 +1015,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task PopToRootAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.PopToRootAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function PopToRootAsync () As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ PopToRootAsync();" />
       <MemberSignature Language="F#" Value="member this.PopToRootAsync : unit -&gt; System.Threading.Tasks.Task" Usage="navigationPage.PopToRootAsync " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ PopToRootAsync();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1037,8 +1037,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task PopToRootAsync(bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.PopToRootAsync(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function PopToRootAsync (animated As Boolean) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ PopToRootAsync(bool animated);" />
       <MemberSignature Language="F#" Value="member this.PopToRootAsync : bool -&gt; System.Threading.Tasks.Task" Usage="navigationPage.PopToRootAsync animated" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ PopToRootAsync(bool animated);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1062,8 +1062,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task PushAsync(class Microsoft.Maui.Controls.Page page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.PushAsync(Microsoft.Maui.Controls.Page)" />
       <MemberSignature Language="VB.NET" Value="Public Function PushAsync (page As Page) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ PushAsync(Microsoft::Maui::Controls::Page ^ page);" />
       <MemberSignature Language="F#" Value="member this.PushAsync : Microsoft.Maui.Controls.Page -&gt; System.Threading.Tasks.Task" Usage="navigationPage.PushAsync page" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ PushAsync(Microsoft::Maui::Controls::Page ^ page);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1087,8 +1087,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task PushAsync(class Microsoft.Maui.Controls.Page page, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.PushAsync(Microsoft.Maui.Controls.Page,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function PushAsync (page As Page, animated As Boolean) As Task" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ PushAsync(Microsoft::Maui::Controls::Page ^ page, bool animated);" />
       <MemberSignature Language="F#" Value="member this.PushAsync : Microsoft.Maui.Controls.Page * bool -&gt; System.Threading.Tasks.Task" Usage="navigationPage.PushAsync (page, animated)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ PushAsync(Microsoft::Maui::Controls::Page ^ page, bool animated);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1114,8 +1114,8 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Maui.Controls.NavigationEventArgs&gt; Pushed" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Maui.Controls.NavigationPage.Pushed" />
       <MemberSignature Language="VB.NET" Value="Public Event Pushed As EventHandler(Of NavigationEventArgs) " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::NavigationEventArgs ^&gt; ^ Pushed;" />
       <MemberSignature Language="F#" Value="member this.Pushed : EventHandler&lt;Microsoft.Maui.Controls.NavigationEventArgs&gt; " Usage="member this.Pushed : System.EventHandler&lt;Microsoft.Maui.Controls.NavigationEventArgs&gt; " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Maui::Controls::NavigationEventArgs ^&gt; ^ Pushed;" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1134,8 +1134,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Page RootPage" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.NavigationPage.RootPage" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RootPage As Page" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Page ^ RootPage { Microsoft::Maui::Controls::Page ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.RootPage : Microsoft.Maui.Controls.Page" Usage="Microsoft.Maui.Controls.NavigationPage.RootPage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::Page ^ RootPage { Microsoft::Maui::Controls::Page ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1157,8 +1157,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty RootPageProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.NavigationPage.RootPageProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RootPageProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RootPageProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable RootPageProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.NavigationPage.RootPageProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ RootPageProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1179,8 +1179,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBackButtonTitle(class Microsoft.Maui.Controls.BindableObject page, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.SetBackButtonTitle(Microsoft.Maui.Controls.BindableObject,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetBackButtonTitle (page As BindableObject, value As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetBackButtonTitle(Microsoft::Maui::Controls::BindableObject ^ page, System::String ^ value);" />
       <MemberSignature Language="F#" Value="static member SetBackButtonTitle : Microsoft.Maui.Controls.BindableObject * string -&gt; unit" Usage="Microsoft.Maui.Controls.NavigationPage.SetBackButtonTitle (page, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetBackButtonTitle(Microsoft::Maui::Controls::BindableObject ^ page, System::String ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1205,8 +1205,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetHasBackButton(class Microsoft.Maui.Controls.Page page, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.SetHasBackButton(Microsoft.Maui.Controls.Page,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetHasBackButton (page As Page, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHasBackButton(Microsoft::Maui::Controls::Page ^ page, bool value);" />
       <MemberSignature Language="F#" Value="static member SetHasBackButton : Microsoft.Maui.Controls.Page * bool -&gt; unit" Usage="Microsoft.Maui.Controls.NavigationPage.SetHasBackButton (page, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHasBackButton(Microsoft::Maui::Controls::Page ^ page, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1231,8 +1231,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetHasNavigationBar(class Microsoft.Maui.Controls.BindableObject page, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.SetHasNavigationBar(Microsoft.Maui.Controls.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetHasNavigationBar (page As BindableObject, value As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHasNavigationBar(Microsoft::Maui::Controls::BindableObject ^ page, bool value);" />
       <MemberSignature Language="F#" Value="static member SetHasNavigationBar : Microsoft.Maui.Controls.BindableObject * bool -&gt; unit" Usage="Microsoft.Maui.Controls.NavigationPage.SetHasNavigationBar (page, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetHasNavigationBar(Microsoft::Maui::Controls::BindableObject ^ page, bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1257,8 +1257,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIconColor(class Microsoft.Maui.Controls.BindableObject bindable, class Microsoft.Maui.Graphics.Color value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.SetIconColor(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Graphics.Color)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetIconColor (bindable As BindableObject, value As Color)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIconColor(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Graphics::Color ^ value);" />
       <MemberSignature Language="F#" Value="static member SetIconColor : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Graphics.Color -&gt; unit" Usage="Microsoft.Maui.Controls.NavigationPage.SetIconColor (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIconColor(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Graphics::Color ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1283,8 +1283,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetTitleIconImageSource(class Microsoft.Maui.Controls.BindableObject bindable, class Microsoft.Maui.Controls.ImageSource value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.SetTitleIconImageSource(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.ImageSource)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetTitleIconImageSource (bindable As BindableObject, value As ImageSource)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetTitleIconImageSource(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::ImageSource ^ value);" />
       <MemberSignature Language="F#" Value="static member SetTitleIconImageSource : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.ImageSource -&gt; unit" Usage="Microsoft.Maui.Controls.NavigationPage.SetTitleIconImageSource (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetTitleIconImageSource(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::ImageSource ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1309,8 +1309,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetTitleView(class Microsoft.Maui.Controls.BindableObject bindable, class Microsoft.Maui.Controls.View value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.NavigationPage.SetTitleView(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.View)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetTitleView (bindable As BindableObject, value As View)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetTitleView(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::View ^ value);" />
       <MemberSignature Language="F#" Value="static member SetTitleView : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.View -&gt; unit" Usage="Microsoft.Maui.Controls.NavigationPage.SetTitleView (bindable, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetTitleView(Microsoft::Maui::Controls::BindableObject ^ bindable, Microsoft::Maui::Controls::View ^ value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1335,8 +1335,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TitleIconImageSourceProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.NavigationPage.TitleIconImageSourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleIconImageSourceProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TitleIconImageSourceProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TitleIconImageSourceProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.NavigationPage.TitleIconImageSourceProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TitleIconImageSourceProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -1355,8 +1355,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty TitleViewProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.NavigationPage.TitleViewProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleViewProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TitleViewProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable TitleViewProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.NavigationPage.TitleViewProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ TitleViewProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

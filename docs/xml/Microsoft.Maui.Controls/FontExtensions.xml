@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FontExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.FontExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module FontExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FontExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type FontExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FontExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Controls.FontAttributes GetFontAttributes(valuetype Microsoft.Maui.Font font) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FontExtensions.GetFontAttributes(Microsoft.Maui.Font)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFontAttributes (font As Font) As FontAttributes" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::FontAttributes GetFontAttributes(Microsoft::Maui::Font font);" />
       <MemberSignature Language="F#" Value="static member GetFontAttributes : Microsoft.Maui.Font -&gt; Microsoft.Maui.Controls.FontAttributes" Usage="Microsoft.Maui.Controls.FontExtensions.GetFontAttributes font" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Controls::FontAttributes GetFontAttributes(Microsoft::Maui::Font font);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -74,8 +74,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Font WithAttributes(valuetype Microsoft.Maui.Font font, valuetype Microsoft.Maui.Controls.FontAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.FontExtensions.WithAttributes(Microsoft.Maui.Font,Microsoft.Maui.Controls.FontAttributes)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithAttributes (font As Font, attributes As FontAttributes) As Font" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Font WithAttributes(Microsoft::Maui::Font font, Microsoft::Maui::Controls::FontAttributes attributes);" />
       <MemberSignature Language="F#" Value="static member WithAttributes : Microsoft.Maui.Font * Microsoft.Maui.Controls.FontAttributes -&gt; Microsoft.Maui.Font" Usage="Microsoft.Maui.Controls.FontExtensions.WithAttributes (font, attributes)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Font WithAttributes(Microsoft::Maui::Font font, Microsoft::Maui::Controls::FontAttributes attributes);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

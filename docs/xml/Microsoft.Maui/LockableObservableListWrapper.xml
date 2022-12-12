@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LockableObservableListWrapper extends System.Object implements class System.Collections.Generic.ICollection`1&lt;string&gt;, class System.Collections.Generic.IEnumerable`1&lt;string&gt;, class System.Collections.Generic.IList`1&lt;string&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;string&gt;, class System.Collections.Generic.IReadOnlyList`1&lt;string&gt;, class System.Collections.IEnumerable, class System.Collections.Specialized.INotifyCollectionChanged, class System.ComponentModel.INotifyPropertyChanged" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.LockableObservableListWrapper" />
   <TypeSignature Language="VB.NET" Value="Public Class LockableObservableListWrapper&#xA;Implements ICollection(Of String), IEnumerable(Of String), IList(Of String), INotifyCollectionChanged, INotifyPropertyChanged, IReadOnlyCollection(Of String), IReadOnlyList(Of String)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class LockableObservableListWrapper : System::Collections::Generic::ICollection&lt;System::String ^&gt;, System::Collections::Generic::IEnumerable&lt;System::String ^&gt;, System::Collections::Generic::IList&lt;System::String ^&gt;, System::Collections::Generic::IReadOnlyCollection&lt;System::String ^&gt;, System::Collections::Generic::IReadOnlyList&lt;System::String ^&gt;, System::Collections::Specialized::INotifyCollectionChanged, System::ComponentModel::INotifyPropertyChanged" />
   <TypeSignature Language="F#" Value="type LockableObservableListWrapper = class&#xA;    interface IList&lt;string&gt;&#xA;    interface ICollection&lt;string&gt;&#xA;    interface seq&lt;string&gt;&#xA;    interface IEnumerable&#xA;    interface INotifyCollectionChanged&#xA;    interface INotifyPropertyChanged&#xA;    interface IReadOnlyList&lt;string&gt;&#xA;    interface IReadOnlyCollection&lt;string&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class LockableObservableListWrapper : System::Collections::Generic::ICollection&lt;System::String ^&gt;, System::Collections::Generic::IEnumerable&lt;System::String ^&gt;, System::Collections::Generic::IList&lt;System::String ^&gt;, System::Collections::Generic::IReadOnlyCollection&lt;System::String ^&gt;, System::Collections::Generic::IReadOnlyList&lt;System::String ^&gt;, System::Collections::Specialized::INotifyCollectionChanged, System::ComponentModel::INotifyPropertyChanged" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -80,8 +80,8 @@
       <MemberSignature Language="ILAsm" Value=".field public initonly class System.Collections.ObjectModel.ObservableCollection`1&lt;string&gt; _list" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.LockableObservableListWrapper._list" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly _list As ObservableCollection(Of String) " />
-      <MemberSignature Language="C++ CLI" Value="public: initonly System::Collections::ObjectModel::ObservableCollection&lt;System::String ^&gt; ^ _list;" />
       <MemberSignature Language="F#" Value="val mutable _list : System.Collections.ObjectModel.ObservableCollection&lt;string&gt;" Usage="Microsoft.Maui.LockableObservableListWrapper._list" />
+      <MemberSignature Language="C++ CLI" Value="public: initonly System::Collections::ObjectModel::ObservableCollection&lt;System::String ^&gt; ^ _list;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -100,8 +100,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(string item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.Add(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (item As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Add(System::String ^ item);" />
       <MemberSignature Language="F#" Value="abstract member Add : string -&gt; unit&#xA;override this.Add : string -&gt; unit" Usage="lockableObservableListWrapper.Add item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Add(System::String ^ item);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.Generic.ICollection`1.Add(`0)</InterfaceMember>
@@ -127,8 +127,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.Clear" />
       <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Clear();" />
       <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="lockableObservableListWrapper.Clear " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Clear();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.Generic.ICollection`1.Clear</InterfaceMember>
@@ -151,8 +151,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Contains(string item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.Contains(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function Contains (item As String) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Contains(System::String ^ item);" />
       <MemberSignature Language="F#" Value="abstract member Contains : string -&gt; bool&#xA;override this.Contains : string -&gt; bool" Usage="lockableObservableListWrapper.Contains item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Contains(System::String ^ item);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.Generic.ICollection`1.Contains(`0)</InterfaceMember>
@@ -179,8 +179,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CopyTo(string[] array, int32 arrayIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.CopyTo(System.String[],System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CopyTo (array As String(), arrayIndex As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void CopyTo(cli::array &lt;System::String ^&gt; ^ array, int arrayIndex);" />
       <MemberSignature Language="F#" Value="abstract member CopyTo : string[] * int -&gt; unit&#xA;override this.CopyTo : string[] * int -&gt; unit" Usage="lockableObservableListWrapper.CopyTo (array, arrayIndex)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void CopyTo(cli::array &lt;System::String ^&gt; ^ array, int arrayIndex);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)</InterfaceMember>
@@ -208,8 +208,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.LockableObservableListWrapper.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Maui.LockableObservableListWrapper.Count" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
@@ -233,8 +233,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;string&gt; GetEnumerator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;System::String ^&gt; ^ GetEnumerator();" />
       <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;string&gt;&#xA;override this.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;string&gt;" Usage="lockableObservableListWrapper.GetEnumerator " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;System::String ^&gt; ^ GetEnumerator();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
@@ -258,8 +258,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 IndexOf(string item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.IndexOf(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function IndexOf (item As String) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int IndexOf(System::String ^ item);" />
       <MemberSignature Language="F#" Value="abstract member IndexOf : string -&gt; int&#xA;override this.IndexOf : string -&gt; int" Usage="lockableObservableListWrapper.IndexOf item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int IndexOf(System::String ^ item);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.Generic.IList`1.IndexOf(`0)</InterfaceMember>
@@ -286,8 +286,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Insert(int32 index, string item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.Insert(System.Int32,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Insert (index As Integer, item As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Insert(int index, System::String ^ item);" />
       <MemberSignature Language="F#" Value="abstract member Insert : int * string -&gt; unit&#xA;override this.Insert : int * string -&gt; unit" Usage="lockableObservableListWrapper.Insert (index, item)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Insert(int index, System::String ^ item);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.Generic.IList`1.Insert(System.Int32,`0)</InterfaceMember>
@@ -315,8 +315,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void InternalAdd(string item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.InternalAdd(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InternalAdd (item As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InternalAdd(System::String ^ item);" />
       <MemberSignature Language="F#" Value="member this.InternalAdd : string -&gt; unit" Usage="lockableObservableListWrapper.InternalAdd item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InternalAdd(System::String ^ item);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -339,8 +339,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void InternalClear() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.InternalClear" />
       <MemberSignature Language="VB.NET" Value="Public Sub InternalClear ()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InternalClear();" />
       <MemberSignature Language="F#" Value="member this.InternalClear : unit -&gt; unit" Usage="lockableObservableListWrapper.InternalClear " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InternalClear();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -360,8 +360,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void InternalInsert(int32 index, string item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.InternalInsert(System.Int32,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InternalInsert (index As Integer, item As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InternalInsert(int index, System::String ^ item);" />
       <MemberSignature Language="F#" Value="member this.InternalInsert : int * string -&gt; unit" Usage="lockableObservableListWrapper.InternalInsert (index, item)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InternalInsert(int index, System::String ^ item);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -386,8 +386,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool InternalRemove(string item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.InternalRemove(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function InternalRemove (item As String) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool InternalRemove(System::String ^ item);" />
       <MemberSignature Language="F#" Value="member this.InternalRemove : string -&gt; bool" Usage="lockableObservableListWrapper.InternalRemove item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool InternalRemove(System::String ^ item);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -411,8 +411,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void InternalRemoveAt(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.InternalRemoveAt(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InternalRemoveAt (index As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InternalRemoveAt(int index);" />
       <MemberSignature Language="F#" Value="member this.InternalRemoveAt : int -&gt; unit" Usage="lockableObservableListWrapper.InternalRemoveAt index" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InternalRemoveAt(int index);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -435,8 +435,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsLocked" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.LockableObservableListWrapper.IsLocked" />
       <MemberSignature Language="VB.NET" Value="Public Property IsLocked As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLocked { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.IsLocked : bool with get, set" Usage="Microsoft.Maui.LockableObservableListWrapper.IsLocked" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLocked { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -456,8 +456,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsReadOnly" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.LockableObservableListWrapper.IsReadOnly" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsReadOnly As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsReadOnly : bool" Usage="Microsoft.Maui.LockableObservableListWrapper.IsReadOnly" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.IsReadOnly</InterfaceMember>
@@ -480,8 +480,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Item(int32)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.LockableObservableListWrapper.Item(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Default Public Property Item(index As Integer) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default[int] { System::String ^ get(int index); void set(int index, System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Item(int) : string with get, set" Usage="Microsoft.Maui.LockableObservableListWrapper.Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default[int] { System::String ^ get(int index); void set(int index, System::String ^ value); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.Generic.IList`1.Item(System.Int32)</InterfaceMember>
@@ -508,8 +508,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Remove(string item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.Remove(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function Remove (item As String) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Remove(System::String ^ item);" />
       <MemberSignature Language="F#" Value="abstract member Remove : string -&gt; bool&#xA;override this.Remove : string -&gt; bool" Usage="lockableObservableListWrapper.Remove item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Remove(System::String ^ item);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.Generic.ICollection`1.Remove(`0)</InterfaceMember>
@@ -536,8 +536,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveAt(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.RemoveAt(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void RemoveAt(int index);" />
       <MemberSignature Language="F#" Value="abstract member RemoveAt : int -&gt; unit&#xA;override this.RemoveAt : int -&gt; unit" Usage="lockableObservableListWrapper.RemoveAt index" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void RemoveAt(int index);" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.Generic.IList`1.RemoveAt(System.Int32)</InterfaceMember>
@@ -563,8 +563,8 @@
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.LockableObservableListWrapper.System#Collections#IEnumerable#GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
       <MemberSignature Language="F#" Value="abstract member System.Collections.IEnumerable.GetEnumerator : unit -&gt; System.Collections.IEnumerator&#xA;override this.System.Collections.IEnumerable.GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="lockableObservableListWrapper.System.Collections.IEnumerable.GetEnumerator " />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>

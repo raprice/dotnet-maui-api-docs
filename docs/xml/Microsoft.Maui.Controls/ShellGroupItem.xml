@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ShellGroupItem extends Microsoft.Maui.Controls.BaseShellItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.ShellGroupItem" />
   <TypeSignature Language="VB.NET" Value="Public Class ShellGroupItem&#xA;Inherits BaseShellItem" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ShellGroupItem : Microsoft::Maui::Controls::BaseShellItem" />
   <TypeSignature Language="F#" Value="type ShellGroupItem = class&#xA;    inherit BaseShellItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ShellGroupItem : Microsoft::Maui::Controls::BaseShellItem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -40,8 +40,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.FlyoutDisplayOptions FlyoutDisplayOptions" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.ShellGroupItem.FlyoutDisplayOptions" />
       <MemberSignature Language="VB.NET" Value="Public Property FlyoutDisplayOptions As FlyoutDisplayOptions" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FlyoutDisplayOptions FlyoutDisplayOptions { Microsoft::Maui::Controls::FlyoutDisplayOptions get(); void set(Microsoft::Maui::Controls::FlyoutDisplayOptions value); };" />
       <MemberSignature Language="F#" Value="member this.FlyoutDisplayOptions : Microsoft.Maui.Controls.FlyoutDisplayOptions with get, set" Usage="Microsoft.Maui.Controls.ShellGroupItem.FlyoutDisplayOptions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::FlyoutDisplayOptions FlyoutDisplayOptions { Microsoft::Maui::Controls::FlyoutDisplayOptions get(); void set(Microsoft::Maui::Controls::FlyoutDisplayOptions value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -61,8 +61,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Maui.Controls.BindableProperty FlyoutDisplayOptionsProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.ShellGroupItem.FlyoutDisplayOptionsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FlyoutDisplayOptionsProperty As BindableProperty " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FlyoutDisplayOptionsProperty;" />
       <MemberSignature Language="F#" Value=" staticval mutable FlyoutDisplayOptionsProperty : Microsoft.Maui.Controls.BindableProperty" Usage="Microsoft.Maui.Controls.ShellGroupItem.FlyoutDisplayOptionsProperty" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::BindableProperty ^ FlyoutDisplayOptionsProperty;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

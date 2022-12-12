@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPanGestureController" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.IPanGestureController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPanGestureController" />
-  <TypeSignature Language="C++ CLI" Value="public interface class IPanGestureController" />
   <TypeSignature Language="F#" Value="type IPanGestureController = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPanGestureController" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPan(class Microsoft.Maui.Controls.Element sender, float64 totalX, float64 totalY, int32 gestureId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IPanGestureController.SendPan(Microsoft.Maui.Controls.Element,System.Double,System.Double,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPan (sender As Element, totalX As Double, totalY As Double, gestureId As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPan(Microsoft::Maui::Controls::Element ^ sender, double totalX, double totalY, int gestureId);" />
       <MemberSignature Language="F#" Value="abstract member SendPan : Microsoft.Maui.Controls.Element * double * double * int -&gt; unit" Usage="iPanGestureController.SendPan (sender, totalX, totalY, gestureId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPan(Microsoft::Maui::Controls::Element ^ sender, double totalX, double totalY, int gestureId);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -50,8 +50,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPanCanceled(class Microsoft.Maui.Controls.Element sender, int32 gestureId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IPanGestureController.SendPanCanceled(Microsoft.Maui.Controls.Element,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPanCanceled (sender As Element, gestureId As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPanCanceled(Microsoft::Maui::Controls::Element ^ sender, int gestureId);" />
       <MemberSignature Language="F#" Value="abstract member SendPanCanceled : Microsoft.Maui.Controls.Element * int -&gt; unit" Usage="iPanGestureController.SendPanCanceled (sender, gestureId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPanCanceled(Microsoft::Maui::Controls::Element ^ sender, int gestureId);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -76,8 +76,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPanCompleted(class Microsoft.Maui.Controls.Element sender, int32 gestureId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IPanGestureController.SendPanCompleted(Microsoft.Maui.Controls.Element,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPanCompleted (sender As Element, gestureId As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPanCompleted(Microsoft::Maui::Controls::Element ^ sender, int gestureId);" />
       <MemberSignature Language="F#" Value="abstract member SendPanCompleted : Microsoft.Maui.Controls.Element * int -&gt; unit" Usage="iPanGestureController.SendPanCompleted (sender, gestureId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPanCompleted(Microsoft::Maui::Controls::Element ^ sender, int gestureId);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -102,8 +102,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPanStarted(class Microsoft.Maui.Controls.Element sender, int32 gestureId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.IPanGestureController.SendPanStarted(Microsoft.Maui.Controls.Element,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPanStarted (sender As Element, gestureId As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPanStarted(Microsoft::Maui::Controls::Element ^ sender, int gestureId);" />
       <MemberSignature Language="F#" Value="abstract member SendPanStarted : Microsoft.Maui.Controls.Element * int -&gt; unit" Usage="iPanGestureController.SendPanStarted (sender, gestureId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendPanStarted(Microsoft::Maui::Controls::Element ^ sender, int gestureId);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

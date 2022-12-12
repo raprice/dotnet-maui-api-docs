@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Performance extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Internals.Performance" />
   <TypeSignature Language="VB.NET" Value="Public Class Performance" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Performance" />
   <TypeSignature Language="F#" Value="type Performance = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Performance" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -46,8 +46,8 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Maui.Controls.Internals.IPerformanceProvider Provider" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Internals.Performance.Provider" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Provider As IPerformanceProvider" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::Internals::IPerformanceProvider ^ Provider { Microsoft::Maui::Controls::Internals::IPerformanceProvider ^ get(); };" />
       <MemberSignature Language="F#" Value="static member Provider : Microsoft.Maui.Controls.Internals.IPerformanceProvider" Usage="Microsoft.Maui.Controls.Internals.Performance.Provider" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Maui::Controls::Internals::IPerformanceProvider ^ Provider { Microsoft::Maui::Controls::Internals::IPerformanceProvider ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetProvider(class Microsoft.Maui.Controls.Internals.IPerformanceProvider instance) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Internals.Performance.SetProvider(Microsoft.Maui.Controls.Internals.IPerformanceProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetProvider (instance As IPerformanceProvider)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetProvider(Microsoft::Maui::Controls::Internals::IPerformanceProvider ^ instance);" />
       <MemberSignature Language="F#" Value="static member SetProvider : Microsoft.Maui.Controls.Internals.IPerformanceProvider -&gt; unit" Usage="Microsoft.Maui.Controls.Internals.Performance.SetProvider instance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetProvider(Microsoft::Maui::Controls::Internals::IPerformanceProvider ^ instance);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit LayoutOptions extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.LayoutOptions" />
   <TypeSignature Language="VB.NET" Value="Public Structure LayoutOptions" />
-  <TypeSignature Language="C++ CLI" Value="public value class LayoutOptions" />
   <TypeSignature Language="F#" Value="type LayoutOptions = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class LayoutOptions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -29,8 +29,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Maui.Controls.LayoutAlignment alignment, bool expands) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.LayoutOptions.#ctor(Microsoft.Maui.Controls.LayoutAlignment,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (alignment As LayoutAlignment, expands As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; LayoutOptions(Microsoft::Maui::Controls::LayoutAlignment alignment, bool expands);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.LayoutOptions : Microsoft.Maui.Controls.LayoutAlignment * bool -&gt; Microsoft.Maui.Controls.LayoutOptions" Usage="new Microsoft.Maui.Controls.LayoutOptions (alignment, expands)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; LayoutOptions(Microsoft::Maui::Controls::LayoutAlignment alignment, bool expands);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -52,8 +52,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Maui.Controls.LayoutAlignment Alignment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.LayoutOptions.Alignment" />
       <MemberSignature Language="VB.NET" Value="Public Property Alignment As LayoutAlignment" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::LayoutAlignment Alignment { Microsoft::Maui::Controls::LayoutAlignment get(); void set(Microsoft::Maui::Controls::LayoutAlignment value); };" />
       <MemberSignature Language="F#" Value="member this.Alignment : Microsoft.Maui.Controls.LayoutAlignment with get, set" Usage="Microsoft.Maui.Controls.LayoutOptions.Alignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Maui::Controls::LayoutAlignment Alignment { Microsoft::Maui::Controls::LayoutAlignment get(); void set(Microsoft::Maui::Controls::LayoutAlignment value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -73,8 +73,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Maui.Controls.LayoutOptions Center" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.LayoutOptions.Center" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Center As LayoutOptions " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions Center;" />
       <MemberSignature Language="F#" Value=" staticval mutable Center : Microsoft.Maui.Controls.LayoutOptions" Usage="Microsoft.Maui.Controls.LayoutOptions.Center" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions Center;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Maui.Controls.LayoutOptions CenterAndExpand" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.LayoutOptions.CenterAndExpand" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CenterAndExpand As LayoutOptions " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions CenterAndExpand;" />
       <MemberSignature Language="F#" Value=" staticval mutable CenterAndExpand : Microsoft.Maui.Controls.LayoutOptions" Usage="Microsoft.Maui.Controls.LayoutOptions.CenterAndExpand" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions CenterAndExpand;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -119,8 +119,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Maui.Controls.LayoutOptions End" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.LayoutOptions.End" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly End As LayoutOptions " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions End;" />
       <MemberSignature Language="F#" Value=" staticval mutable End : Microsoft.Maui.Controls.LayoutOptions" Usage="Microsoft.Maui.Controls.LayoutOptions.End" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions End;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -139,8 +139,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Maui.Controls.LayoutOptions EndAndExpand" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.LayoutOptions.EndAndExpand" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EndAndExpand As LayoutOptions " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions EndAndExpand;" />
       <MemberSignature Language="F#" Value=" staticval mutable EndAndExpand : Microsoft.Maui.Controls.LayoutOptions" Usage="Microsoft.Maui.Controls.LayoutOptions.EndAndExpand" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions EndAndExpand;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -165,8 +165,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Expands" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.LayoutOptions.Expands" />
       <MemberSignature Language="VB.NET" Value="Public Property Expands As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Expands { bool get(); void set(bool value); };" />
       <MemberSignature Language="F#" Value="member this.Expands : bool with get, set" Usage="Microsoft.Maui.Controls.LayoutOptions.Expands" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Expands { bool get(); void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -186,8 +186,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Maui.Controls.LayoutOptions Fill" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.LayoutOptions.Fill" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Fill As LayoutOptions " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions Fill;" />
       <MemberSignature Language="F#" Value=" staticval mutable Fill : Microsoft.Maui.Controls.LayoutOptions" Usage="Microsoft.Maui.Controls.LayoutOptions.Fill" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions Fill;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -206,8 +206,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Maui.Controls.LayoutOptions FillAndExpand" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.LayoutOptions.FillAndExpand" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FillAndExpand As LayoutOptions " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions FillAndExpand;" />
       <MemberSignature Language="F#" Value=" staticval mutable FillAndExpand : Microsoft.Maui.Controls.LayoutOptions" Usage="Microsoft.Maui.Controls.LayoutOptions.FillAndExpand" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions FillAndExpand;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -232,8 +232,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Maui.Controls.LayoutOptions Start" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.LayoutOptions.Start" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Start As LayoutOptions " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions Start;" />
       <MemberSignature Language="F#" Value=" staticval mutable Start : Microsoft.Maui.Controls.LayoutOptions" Usage="Microsoft.Maui.Controls.LayoutOptions.Start" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions Start;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -252,8 +252,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Maui.Controls.LayoutOptions StartAndExpand" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Controls.LayoutOptions.StartAndExpand" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StartAndExpand As LayoutOptions " />
-      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions StartAndExpand;" />
       <MemberSignature Language="F#" Value=" staticval mutable StartAndExpand : Microsoft.Maui.Controls.LayoutOptions" Usage="Microsoft.Maui.Controls.LayoutOptions.StartAndExpand" />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Maui::Controls::LayoutOptions StartAndExpand;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

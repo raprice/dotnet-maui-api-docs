@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FontStyleType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Graphics.FontStyleType" />
   <TypeSignature Language="VB.NET" Value="Public Enum FontStyleType" />
-  <TypeSignature Language="C++ CLI" Value="public enum class FontStyleType" />
   <TypeSignature Language="F#" Value="type FontStyleType = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class FontStyleType" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.FontStyleType Italic = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontStyleType.Italic" />
       <MemberSignature Language="VB.NET" Value="Italic" />
-      <MemberSignature Language="C++ CLI" Value="Italic" />
       <MemberSignature Language="F#" Value="Italic = 1" Usage="Microsoft.Maui.Graphics.FontStyleType.Italic" />
+      <MemberSignature Language="C++ CLI" Value="Italic" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.FontStyleType Normal = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontStyleType.Normal" />
       <MemberSignature Language="VB.NET" Value="Normal" />
-      <MemberSignature Language="C++ CLI" Value="Normal" />
       <MemberSignature Language="F#" Value="Normal = 0" Usage="Microsoft.Maui.Graphics.FontStyleType.Normal" />
+      <MemberSignature Language="C++ CLI" Value="Normal" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.Graphics.FontStyleType Oblique = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Graphics.FontStyleType.Oblique" />
       <MemberSignature Language="VB.NET" Value="Oblique" />
-      <MemberSignature Language="C++ CLI" Value="Oblique" />
       <MemberSignature Language="F#" Value="Oblique = 2" Usage="Microsoft.Maui.Graphics.FontStyleType.Oblique" />
+      <MemberSignature Language="C++ CLI" Value="Oblique" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Graphics</AssemblyName>

@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit BindableObjectExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.BindableObjectExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module BindableObjectExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BindableObjectExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type BindableObjectExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BindableObjectExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +23,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetPropertyIfSet&lt;T&gt;(class Microsoft.Maui.Controls.BindableObject bindableObject, class Microsoft.Maui.Controls.BindableProperty bindableProperty, !!T returnIfNotSet) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObjectExtensions.GetPropertyIfSet``1(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.BindableProperty,``0)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetPropertyIfSet(Of T) (bindableObject As BindableObject, bindableProperty As BindableProperty, returnIfNotSet As T) As T" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T GetPropertyIfSet(Microsoft::Maui::Controls::BindableObject ^ bindableObject, Microsoft::Maui::Controls::BindableProperty ^ bindableProperty, T returnIfNotSet);" />
       <MemberSignature Language="F#" Value="static member GetPropertyIfSet : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.BindableProperty * 'T -&gt; 'T" Usage="Microsoft.Maui.Controls.BindableObjectExtensions.GetPropertyIfSet (bindableObject, bindableProperty, returnIfNotSet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T GetPropertyIfSet(Microsoft::Maui::Controls::BindableObject ^ bindableObject, Microsoft::Maui::Controls::BindableProperty ^ bindableProperty, T returnIfNotSet);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -56,8 +56,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetAppTheme&lt;T&gt;(class Microsoft.Maui.Controls.BindableObject self, class Microsoft.Maui.Controls.BindableProperty targetProperty, !!T light, !!T dark) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObjectExtensions.SetAppTheme``1(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.BindableProperty,``0,``0)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetAppTheme(Of T) (self As BindableObject, targetProperty As BindableProperty, light As T, dark As T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetAppTheme(Microsoft::Maui::Controls::BindableObject ^ self, Microsoft::Maui::Controls::BindableProperty ^ targetProperty, T light, T dark);" />
       <MemberSignature Language="F#" Value="static member SetAppTheme : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.BindableProperty * 'T * 'T -&gt; unit" Usage="Microsoft.Maui.Controls.BindableObjectExtensions.SetAppTheme (self, targetProperty, light, dark)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetAppTheme(Microsoft::Maui::Controls::BindableObject ^ self, Microsoft::Maui::Controls::BindableProperty ^ targetProperty, T light, T dark);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -90,8 +90,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetAppThemeColor(class Microsoft.Maui.Controls.BindableObject self, class Microsoft.Maui.Controls.BindableProperty targetProperty, class Microsoft.Maui.Graphics.Color light, class Microsoft.Maui.Graphics.Color dark) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.BindableObjectExtensions.SetAppThemeColor(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetAppThemeColor (self As BindableObject, targetProperty As BindableProperty, light As Color, dark As Color)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetAppThemeColor(Microsoft::Maui::Controls::BindableObject ^ self, Microsoft::Maui::Controls::BindableProperty ^ targetProperty, Microsoft::Maui::Graphics::Color ^ light, Microsoft::Maui::Graphics::Color ^ dark);" />
       <MemberSignature Language="F#" Value="static member SetAppThemeColor : Microsoft.Maui.Controls.BindableObject * Microsoft.Maui.Controls.BindableProperty * Microsoft.Maui.Graphics.Color * Microsoft.Maui.Graphics.Color -&gt; unit" Usage="Microsoft.Maui.Controls.BindableObjectExtensions.SetAppThemeColor (self, targetProperty, light, dark)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetAppThemeColor(Microsoft::Maui::Controls::BindableObject ^ self, Microsoft::Maui::Controls::BindableProperty ^ targetProperty, Microsoft::Maui::Graphics::Color ^ light, Microsoft::Maui::Graphics::Color ^ dark);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

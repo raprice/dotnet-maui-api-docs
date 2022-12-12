@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VisualAttribute extends System.Attribute" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.VisualAttribute" />
   <TypeSignature Language="VB.NET" Value="Public Class VisualAttribute&#xA;Inherits Attribute" />
-  <TypeSignature Language="C++ CLI" Value="public ref class VisualAttribute : Attribute" />
   <TypeSignature Language="F#" Value="type VisualAttribute = class&#xA;    inherit Attribute" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VisualAttribute : Attribute" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -29,8 +29,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string key, class System.Type visual) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.VisualAttribute.#ctor(System.String,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (key As String, visual As Type)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; VisualAttribute(System::String ^ key, Type ^ visual);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Controls.VisualAttribute : string * Type -&gt; Microsoft.Maui.Controls.VisualAttribute" Usage="new Microsoft.Maui.Controls.VisualAttribute (key, visual)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; VisualAttribute(System::String ^ key, Type ^ visual);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

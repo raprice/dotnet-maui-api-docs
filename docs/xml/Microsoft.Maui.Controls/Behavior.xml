@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Behavior extends Microsoft.Maui.Controls.BindableObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Controls.Behavior" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Behavior&#xA;Inherits BindableObject" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Behavior abstract : Microsoft::Maui::Controls::BindableObject" />
   <TypeSignature Language="F#" Value="type Behavior = class&#xA;    inherit BindableObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Behavior abstract : Microsoft::Maui::Controls::BindableObject" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -44,8 +44,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type AssociatedType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Controls.Behavior.AssociatedType" />
       <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property AssociatedType As Type" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; property Type ^ AssociatedType { Type ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.AssociatedType : Type" Usage="Microsoft.Maui.Controls.Behavior.AssociatedType" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; property Type ^ AssociatedType { Type ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -67,8 +67,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnAttachedTo(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Behavior.OnAttachedTo(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnAttachedTo (bindable As BindableObject)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnAttachedTo(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="abstract member OnAttachedTo : Microsoft.Maui.Controls.BindableObject -&gt; unit&#xA;override this.OnAttachedTo : Microsoft.Maui.Controls.BindableObject -&gt; unit" Usage="behavior.OnAttachedTo bindable" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnAttachedTo(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
@@ -93,8 +93,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnDetachingFrom(class Microsoft.Maui.Controls.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.Behavior.OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnDetachingFrom (bindable As BindableObject)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDetachingFrom(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberSignature Language="F#" Value="abstract member OnDetachingFrom : Microsoft.Maui.Controls.BindableObject -&gt; unit&#xA;override this.OnDetachingFrom : Microsoft.Maui.Controls.BindableObject -&gt; unit" Usage="behavior.OnDetachingFrom bindable" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDetachingFrom(Microsoft::Maui::Controls::BindableObject ^ bindable);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui.Controls</AssemblyName>

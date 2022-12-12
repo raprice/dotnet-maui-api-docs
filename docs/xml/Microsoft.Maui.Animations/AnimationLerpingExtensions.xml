@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AnimationLerpingExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Animations.AnimationLerpingExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module AnimationLerpingExtensions" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AnimationLerpingExtensions abstract sealed" />
   <TypeSignature Language="F#" Value="type AnimationLerpingExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AnimationLerpingExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -57,8 +57,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.Color Lerp(class Microsoft.Maui.Graphics.Color color, class Microsoft.Maui.Graphics.Color endColor, float64 progress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp(Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Lerp (color As Color, endColor As Color, progress As Double) As Color" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Color ^ Lerp(Microsoft::Maui::Graphics::Color ^ color, Microsoft::Maui::Graphics::Color ^ endColor, double progress);" />
       <MemberSignature Language="F#" Value="static member Lerp : Microsoft.Maui.Graphics.Color * Microsoft.Maui.Graphics.Color * double -&gt; Microsoft.Maui.Graphics.Color" Usage="Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp (color, endColor, progress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Color ^ Lerp(Microsoft::Maui::Graphics::Color ^ color, Microsoft::Maui::Graphics::Color ^ endColor, double progress);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -86,8 +86,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.Point Lerp(valuetype Microsoft.Maui.Graphics.Point start, valuetype Microsoft.Maui.Graphics.Point end, float64 progress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp(Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Point,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Lerp (start As Point, end As Point, progress As Double) As Point" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Point Lerp(Microsoft::Maui::Graphics::Point start, Microsoft::Maui::Graphics::Point end, double progress);" />
       <MemberSignature Language="F#" Value="static member Lerp : Microsoft.Maui.Graphics.Point * Microsoft.Maui.Graphics.Point * double -&gt; Microsoft.Maui.Graphics.Point" Usage="Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp (start, end, progress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Point Lerp(Microsoft::Maui::Graphics::Point start, Microsoft::Maui::Graphics::Point end, double progress);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -115,8 +115,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.PointF Lerp(valuetype Microsoft.Maui.Graphics.PointF start, valuetype Microsoft.Maui.Graphics.PointF end, float64 progress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp(Microsoft.Maui.Graphics.PointF,Microsoft.Maui.Graphics.PointF,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Lerp (start As PointF, end As PointF, progress As Double) As PointF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::PointF Lerp(Microsoft::Maui::Graphics::PointF start, Microsoft::Maui::Graphics::PointF end, double progress);" />
       <MemberSignature Language="F#" Value="static member Lerp : Microsoft.Maui.Graphics.PointF * Microsoft.Maui.Graphics.PointF * double -&gt; Microsoft.Maui.Graphics.PointF" Usage="Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp (start, end, progress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::PointF Lerp(Microsoft::Maui::Graphics::PointF start, Microsoft::Maui::Graphics::PointF end, double progress);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -144,8 +144,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.Rect Lerp(valuetype Microsoft.Maui.Graphics.Rect start, valuetype Microsoft.Maui.Graphics.Rect end, float64 progress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp(Microsoft.Maui.Graphics.Rect,Microsoft.Maui.Graphics.Rect,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Lerp (start As Rect, end As Rect, progress As Double) As Rect" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Rect Lerp(Microsoft::Maui::Graphics::Rect start, Microsoft::Maui::Graphics::Rect end, double progress);" />
       <MemberSignature Language="F#" Value="static member Lerp : Microsoft.Maui.Graphics.Rect * Microsoft.Maui.Graphics.Rect * double -&gt; Microsoft.Maui.Graphics.Rect" Usage="Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp (start, end, progress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Rect Lerp(Microsoft::Maui::Graphics::Rect start, Microsoft::Maui::Graphics::Rect end, double progress);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -173,8 +173,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.RectF Lerp(valuetype Microsoft.Maui.Graphics.RectF start, valuetype Microsoft.Maui.Graphics.RectF end, float64 progress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp(Microsoft.Maui.Graphics.RectF,Microsoft.Maui.Graphics.RectF,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Lerp (start As RectF, end As RectF, progress As Double) As RectF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::RectF Lerp(Microsoft::Maui::Graphics::RectF start, Microsoft::Maui::Graphics::RectF end, double progress);" />
       <MemberSignature Language="F#" Value="static member Lerp : Microsoft.Maui.Graphics.RectF * Microsoft.Maui.Graphics.RectF * double -&gt; Microsoft.Maui.Graphics.RectF" Usage="Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp (start, end, progress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::RectF Lerp(Microsoft::Maui::Graphics::RectF start, Microsoft::Maui::Graphics::RectF end, double progress);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -202,8 +202,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.Size Lerp(valuetype Microsoft.Maui.Graphics.Size start, valuetype Microsoft.Maui.Graphics.Size end, float64 progress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp(Microsoft.Maui.Graphics.Size,Microsoft.Maui.Graphics.Size,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Lerp (start As Size, end As Size, progress As Double) As Size" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Size Lerp(Microsoft::Maui::Graphics::Size start, Microsoft::Maui::Graphics::Size end, double progress);" />
       <MemberSignature Language="F#" Value="static member Lerp : Microsoft.Maui.Graphics.Size * Microsoft.Maui.Graphics.Size * double -&gt; Microsoft.Maui.Graphics.Size" Usage="Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp (start, end, progress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::Size Lerp(Microsoft::Maui::Graphics::Size start, Microsoft::Maui::Graphics::Size end, double progress);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -231,8 +231,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Graphics.SizeF Lerp(valuetype Microsoft.Maui.Graphics.SizeF start, valuetype Microsoft.Maui.Graphics.SizeF end, float64 progress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp(Microsoft.Maui.Graphics.SizeF,Microsoft.Maui.Graphics.SizeF,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Lerp (start As SizeF, end As SizeF, progress As Double) As SizeF" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::SizeF Lerp(Microsoft::Maui::Graphics::SizeF start, Microsoft::Maui::Graphics::SizeF end, double progress);" />
       <MemberSignature Language="F#" Value="static member Lerp : Microsoft.Maui.Graphics.SizeF * Microsoft.Maui.Graphics.SizeF * double -&gt; Microsoft.Maui.Graphics.SizeF" Usage="Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp (start, end, progress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::SizeF Lerp(Microsoft::Maui::Graphics::SizeF start, Microsoft::Maui::Graphics::SizeF end, double progress);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -260,8 +260,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Maui.Graphics.SolidPaint Lerp(class Microsoft.Maui.Graphics.SolidPaint paint, class Microsoft.Maui.Graphics.SolidPaint endPaint, float64 progress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp(Microsoft.Maui.Graphics.SolidPaint,Microsoft.Maui.Graphics.SolidPaint,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Lerp (paint As SolidPaint, endPaint As SolidPaint, progress As Double) As SolidPaint" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::SolidPaint ^ Lerp(Microsoft::Maui::Graphics::SolidPaint ^ paint, Microsoft::Maui::Graphics::SolidPaint ^ endPaint, double progress);" />
       <MemberSignature Language="F#" Value="static member Lerp : Microsoft.Maui.Graphics.SolidPaint * Microsoft.Maui.Graphics.SolidPaint * double -&gt; Microsoft.Maui.Graphics.SolidPaint" Usage="Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp (paint, endPaint, progress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Graphics::SolidPaint ^ Lerp(Microsoft::Maui::Graphics::SolidPaint ^ paint, Microsoft::Maui::Graphics::SolidPaint ^ endPaint, double progress);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -289,8 +289,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Maui.Thickness Lerp(valuetype Microsoft.Maui.Thickness start, valuetype Microsoft.Maui.Thickness end, float64 progress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp(Microsoft.Maui.Thickness,Microsoft.Maui.Thickness,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Lerp (start As Thickness, end As Thickness, progress As Double) As Thickness" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Thickness Lerp(Microsoft::Maui::Thickness start, Microsoft::Maui::Thickness end, double progress);" />
       <MemberSignature Language="F#" Value="static member Lerp : Microsoft.Maui.Thickness * Microsoft.Maui.Thickness * double -&gt; Microsoft.Maui.Thickness" Usage="Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp (start, end, progress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Maui::Thickness Lerp(Microsoft::Maui::Thickness start, Microsoft::Maui::Thickness end, double progress);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -318,8 +318,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 Lerp(float64 start, float64 end, float64 progress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp(System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Lerp (start As Double, end As Double, progress As Double) As Double" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static double Lerp(double start, double end, double progress);" />
       <MemberSignature Language="F#" Value="static member Lerp : double * double * double -&gt; double" Usage="Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp (start, end, progress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static double Lerp(double start, double end, double progress);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -347,8 +347,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Nullable`1&lt;float32&gt; Lerp(valuetype System.Nullable`1&lt;float32&gt; start, valuetype System.Nullable`1&lt;float32&gt; end, float64 progress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp(System.Nullable{System.Single},System.Nullable{System.Single},System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Lerp (start As Nullable(Of Single), end As Nullable(Of Single), progress As Double) As Nullable(Of Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Nullable&lt;float&gt; Lerp(Nullable&lt;float&gt; start, Nullable&lt;float&gt; end, double progress);" />
       <MemberSignature Language="F#" Value="static member Lerp : Nullable&lt;single&gt; * Nullable&lt;single&gt; * double -&gt; Nullable&lt;single&gt;" Usage="Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp (start, end, progress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Nullable&lt;float&gt; Lerp(Nullable&lt;float&gt; start, Nullable&lt;float&gt; end, double progress);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -376,8 +376,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 Lerp(float32 start, float32 end, float64 progress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp(System.Single,System.Single,System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Lerp (start As Single, end As Single, progress As Double) As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static float Lerp(float start, float end, double progress);" />
       <MemberSignature Language="F#" Value="static member Lerp : single * single * double -&gt; single" Usage="Microsoft.Maui.Animations.AnimationLerpingExtensions.Lerp (start, end, progress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static float Lerp(float start, float end, double progress);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

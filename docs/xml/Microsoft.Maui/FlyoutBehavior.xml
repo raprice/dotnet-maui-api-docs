@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FlyoutBehavior extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.FlyoutBehavior" />
   <TypeSignature Language="VB.NET" Value="Public Enum FlyoutBehavior" />
-  <TypeSignature Language="C++ CLI" Value="public enum class FlyoutBehavior" />
   <TypeSignature Language="F#" Value="type FlyoutBehavior = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class FlyoutBehavior" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,8 +22,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FlyoutBehavior Disabled = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FlyoutBehavior.Disabled" />
       <MemberSignature Language="VB.NET" Value="Disabled" />
-      <MemberSignature Language="C++ CLI" Value="Disabled" />
       <MemberSignature Language="F#" Value="Disabled = 0" Usage="Microsoft.Maui.FlyoutBehavior.Disabled" />
+      <MemberSignature Language="C++ CLI" Value="Disabled" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -42,8 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FlyoutBehavior Flyout = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FlyoutBehavior.Flyout" />
       <MemberSignature Language="VB.NET" Value="Flyout" />
-      <MemberSignature Language="C++ CLI" Value="Flyout" />
       <MemberSignature Language="F#" Value="Flyout = 1" Usage="Microsoft.Maui.FlyoutBehavior.Flyout" />
+      <MemberSignature Language="C++ CLI" Value="Flyout" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -62,8 +62,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Maui.FlyoutBehavior Locked = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.FlyoutBehavior.Locked" />
       <MemberSignature Language="VB.NET" Value="Locked" />
-      <MemberSignature Language="C++ CLI" Value="Locked" />
       <MemberSignature Language="F#" Value="Locked = 2" Usage="Microsoft.Maui.FlyoutBehavior.Locked" />
+      <MemberSignature Language="C++ CLI" Value="Locked" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>

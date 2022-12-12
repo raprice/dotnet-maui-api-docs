@@ -3,8 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi EntryHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.IEntry, object&gt; implements class Microsoft.Maui.Handlers.IEntryHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" FrameworkAlternate="net-maui-6.0" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Maui.Handlers.EntryHandler" />
   <TypeSignature Language="VB.NET" Value="Public Class EntryHandler&#xA;Inherits ViewHandler(Of IEntry, Object)&#xA;Implements IEntryHandler" />
-  <TypeSignature Language="C++ CLI" Value="public ref class EntryHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IEntry ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IEntryHandler" />
   <TypeSignature Language="F#" Value="type EntryHandler = class&#xA;    inherit ViewHandler&lt;IEntry, obj&gt;&#xA;    interface IEntryHandler&#xA;    interface IViewHandler&#xA;    interface IElementHandler" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EntryHandler : Microsoft::Maui::Handlers::ViewHandler&lt;Microsoft::Maui::IEntry ^, System::Object ^&gt;, Microsoft::Maui::Handlers::IEntryHandler" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EntryHandler extends Microsoft.Maui.Handlers.ViewHandler`2&lt;class Microsoft.Maui.IEntry, object&gt; implements class Microsoft.Maui.Handlers.IEntryHandler, class Microsoft.Maui.IElementHandler, class Microsoft.Maui.IViewHandler" FrameworkAlternate="net-maui-7.0" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -78,8 +78,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Maui.IPropertyMapper mapper, class Microsoft.Maui.CommandMapper commandMapper) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.#ctor(Microsoft.Maui.IPropertyMapper,Microsoft.Maui.CommandMapper)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (mapper As IPropertyMapper, commandMapper As CommandMapper)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; EntryHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberSignature Language="F#" Value="new Microsoft.Maui.Handlers.EntryHandler : Microsoft.Maui.IPropertyMapper * Microsoft.Maui.CommandMapper -&gt; Microsoft.Maui.Handlers.EntryHandler" Usage="new Microsoft.Maui.Handlers.EntryHandler (mapper, commandMapper)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EntryHandler(Microsoft::Maui::IPropertyMapper ^ mapper, Microsoft::Maui::CommandMapper ^ commandMapper);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -101,8 +101,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.CommandMapper`2&lt;class Microsoft.Maui.IEntry, class Microsoft.Maui.Handlers.IEntryHandler&gt; CommandMapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.EntryHandler.CommandMapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared CommandMapper As CommandMapper(Of IEntry, IEntryHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IEntry ^, Microsoft::Maui::Handlers::IEntryHandler ^&gt; ^ CommandMapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable CommandMapper : Microsoft.Maui.CommandMapper&lt;Microsoft.Maui.IEntry, Microsoft.Maui.Handlers.IEntryHandler&gt;" Usage="Microsoft.Maui.Handlers.EntryHandler.CommandMapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::CommandMapper&lt;Microsoft::Maui::IEntry ^, Microsoft::Maui::Handlers::IEntryHandler ^&gt; ^ CommandMapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -121,8 +121,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreatePlatformView() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.CreatePlatformView" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreatePlatformView () As Object" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberSignature Language="F#" Value="override this.CreatePlatformView : unit -&gt; obj" Usage="entryHandler.CreatePlatformView " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Object ^ CreatePlatformView();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -143,8 +143,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCharacterSpacing(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapCharacterSpacing(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCharacterSpacing (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCharacterSpacing(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapCharacterSpacing : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapCharacterSpacing (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCharacterSpacing(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -169,8 +169,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapClearButtonVisibility(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapClearButtonVisibility(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapClearButtonVisibility (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapClearButtonVisibility(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapClearButtonVisibility : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapClearButtonVisibility (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapClearButtonVisibility(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -195,8 +195,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapCursorPosition(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapCursorPosition(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapCursorPosition (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCursorPosition(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapCursorPosition : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapCursorPosition (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapCursorPosition(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -221,8 +221,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapFont(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapFont(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapFont (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFont(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapFont : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapFont (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapFont(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -247,8 +247,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapHorizontalTextAlignment(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapHorizontalTextAlignment(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapHorizontalTextAlignment (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHorizontalTextAlignment(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapHorizontalTextAlignment : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapHorizontalTextAlignment (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapHorizontalTextAlignment(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -273,8 +273,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsPassword(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapIsPassword(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsPassword (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsPassword(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapIsPassword : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapIsPassword (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsPassword(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -299,8 +299,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsReadOnly(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapIsReadOnly(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsReadOnly (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsReadOnly(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapIsReadOnly : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapIsReadOnly (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsReadOnly(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -325,8 +325,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapIsTextPredictionEnabled(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapIsTextPredictionEnabled(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapIsTextPredictionEnabled (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsTextPredictionEnabled(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapIsTextPredictionEnabled : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapIsTextPredictionEnabled (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapIsTextPredictionEnabled(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -351,8 +351,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapKeyboard(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapKeyboard(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapKeyboard (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapKeyboard(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapKeyboard : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapKeyboard (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapKeyboard(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -377,8 +377,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapMaxLength(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapMaxLength(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapMaxLength (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMaxLength(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapMaxLength : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapMaxLength (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapMaxLength(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -403,8 +403,8 @@
       <MemberSignature Language="ILAsm" Value=".field public static class Microsoft.Maui.IPropertyMapper`2&lt;class Microsoft.Maui.IEntry, class Microsoft.Maui.Handlers.IEntryHandler&gt; Mapper" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Maui.Handlers.EntryHandler.Mapper" />
       <MemberSignature Language="VB.NET" Value="Public Shared Mapper As IPropertyMapper(Of IEntry, IEntryHandler) " />
-      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IEntry ^, Microsoft::Maui::Handlers::IEntryHandler ^&gt; ^ Mapper;" />
       <MemberSignature Language="F#" Value=" staticval mutable Mapper : Microsoft.Maui.IPropertyMapper&lt;Microsoft.Maui.IEntry, Microsoft.Maui.Handlers.IEntryHandler&gt;" Usage="Microsoft.Maui.Handlers.EntryHandler.Mapper" />
+      <MemberSignature Language="C++ CLI" Value="public: static Microsoft::Maui::IPropertyMapper&lt;Microsoft::Maui::IEntry ^, Microsoft::Maui::Handlers::IEntryHandler ^&gt; ^ Mapper;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -423,8 +423,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapPlaceholder(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapPlaceholder(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapPlaceholder (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPlaceholder(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapPlaceholder : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapPlaceholder (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPlaceholder(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -449,8 +449,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapPlaceholderColor(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapPlaceholderColor(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapPlaceholderColor (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPlaceholderColor(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapPlaceholderColor : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapPlaceholderColor (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapPlaceholderColor(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -475,8 +475,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapReturnType(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapReturnType(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapReturnType (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapReturnType(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapReturnType : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapReturnType (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapReturnType(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -501,8 +501,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapSelectionLength(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapSelectionLength(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapSelectionLength (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapSelectionLength(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapSelectionLength : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapSelectionLength (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapSelectionLength(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -527,8 +527,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapText(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapText(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapText (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapText : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapText (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapText(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -553,8 +553,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapTextColor(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapTextColor(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapTextColor (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextColor(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapTextColor : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapTextColor (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapTextColor(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -579,8 +579,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MapVerticalTextAlignment(class Microsoft.Maui.Handlers.IEntryHandler handler, class Microsoft.Maui.IEntry entry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Handlers.EntryHandler.MapVerticalTextAlignment(Microsoft.Maui.Handlers.IEntryHandler,Microsoft.Maui.IEntry)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub MapVerticalTextAlignment (handler As IEntryHandler, entry As IEntry)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapVerticalTextAlignment(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberSignature Language="F#" Value="static member MapVerticalTextAlignment : Microsoft.Maui.Handlers.IEntryHandler * Microsoft.Maui.IEntry -&gt; unit" Usage="Microsoft.Maui.Handlers.EntryHandler.MapVerticalTextAlignment (handler, entry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void MapVerticalTextAlignment(Microsoft::Maui::Handlers::IEntryHandler ^ handler, Microsoft::Maui::IEntry ^ entry);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Maui</AssemblyName>
@@ -605,8 +605,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Microsoft.Maui.Handlers.IEntryHandler.PlatformView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.EntryHandler.Microsoft#Maui#Handlers#IEntryHandler#PlatformView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property PlatformView As Object Implements IEntryHandler.PlatformView" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IEntryHandler::PlatformView { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IEntryHandler.PlatformView : obj" Usage="Microsoft.Maui.Handlers.IEntryHandler.PlatformView" />
+      <MemberSignature Language="C++ CLI" Value="property System::Object ^ Microsoft::Maui::Handlers::IEntryHandler::PlatformView { System::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IEntryHandler.PlatformView</InterfaceMember>
@@ -629,8 +629,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.IEntry Microsoft.Maui.Handlers.IEntryHandler.VirtualView" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Maui.Handlers.EntryHandler.Microsoft#Maui#Handlers#IEntryHandler#VirtualView" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property VirtualView As IEntry Implements IEntryHandler.VirtualView" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IEntry ^ Microsoft::Maui::Handlers::IEntryHandler::VirtualView { Microsoft::Maui::IEntry ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Maui.Handlers.IEntryHandler.VirtualView : Microsoft.Maui.IEntry" Usage="Microsoft.Maui.Handlers.IEntryHandler.VirtualView" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::Maui::IEntry ^ Microsoft::Maui::Handlers::IEntryHandler::VirtualView { Microsoft::Maui::IEntry ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Maui.Handlers.IEntryHandler.VirtualView</InterfaceMember>
