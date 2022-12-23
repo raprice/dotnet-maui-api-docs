@@ -42,6 +42,7 @@
       <Member Id="E:Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebView.BlazorWebViewInitialized" />
       <Member Id="E:Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebView.BlazorWebViewInitializing" />
       <Member Id="E:Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebView.UrlLoading" />
+      <Member Id="F:Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebView.StartPathProperty" />
       <Member Id="M:Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebView.#ctor" />
       <Member Id="M:Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebView.CreateFileProvider(System.String)" />
       <Member Id="M:Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebView.Microsoft#AspNetCore#Components#WebView#Maui#IBlazorWebView#BlazorWebViewInitialized(Microsoft.AspNetCore.Components.WebView.BlazorWebViewInitializedEventArgs)" />
@@ -50,6 +51,7 @@
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebView.HostPage" />
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebView.Microsoft#AspNetCore#Components#WebView#Maui#IBlazorWebView#JSComponents" />
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebView.RootComponents" />
+      <Member Id="P:Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebView.StartPath" />
     </Type>
     <Type Name="Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebViewHandler" Id="T:Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebViewHandler">
       <Member Id="F:Microsoft.AspNetCore.Components.WebView.Maui.BlazorWebViewHandler.BlazorWebViewMapper" />
@@ -68,6 +70,7 @@
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.Maui.IBlazorWebView.HostPage" />
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.Maui.IBlazorWebView.JSComponents" />
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.Maui.IBlazorWebView.RootComponents" />
+      <Member Id="P:Microsoft.AspNetCore.Components.WebView.Maui.IBlazorWebView.StartPath" />
     </Type>
     <Type Name="Microsoft.AspNetCore.Components.WebView.Maui.IMauiBlazorWebViewBuilder" Id="T:Microsoft.AspNetCore.Components.WebView.Maui.IMauiBlazorWebViewBuilder">
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.Maui.IMauiBlazorWebViewBuilder.Services" />
@@ -96,6 +99,7 @@
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.WindowsForms.BlazorWebView.HostPage" />
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.WindowsForms.BlazorWebView.RootComponents" />
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.WindowsForms.BlazorWebView.Services" />
+      <Member Id="P:Microsoft.AspNetCore.Components.WebView.WindowsForms.BlazorWebView.StartPath" />
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.WindowsForms.BlazorWebView.WebView" />
     </Type>
     <Type Name="Microsoft.AspNetCore.Components.WebView.WindowsForms.IWindowsFormsBlazorWebViewBuilder" Id="T:Microsoft.AspNetCore.Components.WebView.WindowsForms.IWindowsFormsBlazorWebViewBuilder">
@@ -123,6 +127,7 @@
       <Member Id="F:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.HostPageProperty" />
       <Member Id="F:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.RootComponentsProperty" />
       <Member Id="F:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.ServicesProperty" />
+      <Member Id="F:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.StartPathProperty" />
       <Member Id="F:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.UrlLoadingProperty" />
       <Member Id="M:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.#ctor" />
       <Member Id="M:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.CreateFileProvider(System.String)" />
@@ -135,6 +140,7 @@
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.HostPage" />
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.RootComponents" />
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.Services" />
+      <Member Id="P:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.StartPath" />
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.UrlLoading" />
       <Member Id="P:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.WebView" />
     </Type>
@@ -6953,6 +6959,7 @@
       <Member Id="F:Microsoft.Maui.Controls.View.propertyMapper" />
       <Member Id="F:Microsoft.Maui.Controls.View.VerticalOptionsProperty" />
       <Member Id="M:Microsoft.Maui.Controls.View.#ctor" />
+      <Member Id="M:Microsoft.Maui.Controls.View.ChangeVisualState" />
       <Member Id="M:Microsoft.Maui.Controls.View.GetChildElements(Microsoft.Maui.Graphics.Point)" />
       <Member Id="M:Microsoft.Maui.Controls.View.GetRendererOverrides``1" />
       <Member Id="M:Microsoft.Maui.Controls.View.Microsoft#Maui#HotReload#IHotReloadableView#Reload" />
@@ -13645,6 +13652,7 @@
     <Type Name="Microsoft.Maui.Layouts.LayoutExtensions" Id="T:Microsoft.Maui.Layouts.LayoutExtensions">
       <Member Id="M:Microsoft.Maui.Layouts.LayoutExtensions.AdjustForFill(Microsoft.Maui.Graphics.Size,Microsoft.Maui.Graphics.Rect,Microsoft.Maui.IView)" />
       <Member Id="M:Microsoft.Maui.Layouts.LayoutExtensions.ArrangeContent(Microsoft.Maui.IContentView,Microsoft.Maui.Graphics.Rect)" />
+      <Member Id="M:Microsoft.Maui.Layouts.LayoutExtensions.ArrangeContentUnbounded(Microsoft.Maui.IContentView,Microsoft.Maui.Graphics.Rect)" />
       <Member Id="M:Microsoft.Maui.Layouts.LayoutExtensions.ComputeDesiredSize(Microsoft.Maui.IView,System.Double,System.Double)" />
       <Member Id="M:Microsoft.Maui.Layouts.LayoutExtensions.ComputeFrame(Microsoft.Maui.IView,Microsoft.Maui.Graphics.Rect)" />
       <Member Id="M:Microsoft.Maui.Layouts.LayoutExtensions.MeasureContent(Microsoft.Maui.IContentView,Microsoft.Maui.Thickness,System.Double,System.Double)" />
