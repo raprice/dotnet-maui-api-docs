@@ -184,7 +184,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the Increment bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Stepper.Increment" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -225,7 +225,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the Maximum bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Stepper.Maximum" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -290,7 +290,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the Minimum bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Stepper.Minimum" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -388,7 +388,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the Value bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Stepper.Value" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

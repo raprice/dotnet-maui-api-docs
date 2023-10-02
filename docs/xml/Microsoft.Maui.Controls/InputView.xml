@@ -55,7 +55,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.InputView.CharacterSpacing" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.InputView.CharacterSpacing" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,7 +96,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.InputView.IsReadOnly" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.InputView.IsReadOnly" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -138,7 +138,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.InputView.IsSpellCheckEnabled" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.InputView.IsSpellCheckEnabled" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -185,7 +185,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.InputView.Keyboard" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.InputView.Keyboard" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -226,7 +226,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.InputView.MaxLength" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.InputView.MaxLength" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -340,7 +340,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.InputView.PlaceholderColor" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.InputView.PlaceholderColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -360,7 +360,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.InputView.Placeholder" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.InputView.Placeholder" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -442,7 +442,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.InputView.TextColor" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.InputView.TextColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -462,7 +462,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.InputView.Text" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.InputView.Text" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -503,7 +503,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.InputView.TextTransform" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

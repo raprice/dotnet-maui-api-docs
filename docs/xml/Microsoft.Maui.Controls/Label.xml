@@ -139,7 +139,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.CharacterSpacing" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -200,7 +200,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the FontAttributes property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.FontAttributes" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -241,7 +241,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.FontAutoScalingEnabled" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -282,7 +282,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the FontFamily property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.FontFamily" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -329,7 +329,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the FontSize property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.FontSize" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -371,7 +371,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the FormattedText property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.FormattedText" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -437,7 +437,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the HorizontalTextAlignment bindable property</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.HorizontalTextAlignment" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -478,7 +478,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the LineBreakMode bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.LineBreakMode" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -519,7 +519,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.Label.LineHeight" /> bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.LineHeight" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -768,7 +768,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Static method providing the <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> for <see cref="P:Microsoft.Maui.Controls.Label.MaxLines" />.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.MaxLines" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1083,7 +1083,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.Padding" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1146,7 +1146,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the TextColor bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.TextColor" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -1190,7 +1190,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Static method providing the <see cref="T:Microsoft.Maui.Controls.BindableProperty" /> associated with <see cref="P:Microsoft.Maui.Controls.Label.TextDecorations" />.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.TextDecorations" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1210,7 +1210,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the Text bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.Text" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -1251,7 +1251,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.TextTransform" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1292,7 +1292,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the TextType bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.TextType" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1360,7 +1360,7 @@ public class App : Application
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the VerticalTextAlignment bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Label.VerticalTextAlignment" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

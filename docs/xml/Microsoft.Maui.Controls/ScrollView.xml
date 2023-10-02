@@ -172,7 +172,7 @@ MainPage = new ContentPage
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the ContentSize bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ScrollView.ContentSize" />.</summary>
         <remarks>This bindable property is read-only.</remarks>
       </Docs>
     </Member>
@@ -269,7 +269,7 @@ MainPage = new ContentPage
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.ScrollView.HorizontalScrollBarVisibility" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ScrollView.HorizontalScrollBarVisibility" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -667,7 +667,7 @@ MainPage = new ContentPage
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the Orientation bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ScrollView.Orientation" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -815,7 +815,7 @@ MainPage = new ContentPage
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.ScrollView.ScrollX" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ScrollView.ScrollX" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -856,7 +856,7 @@ MainPage = new ContentPage
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.ScrollView.ScrollY" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ScrollView.ScrollY" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -962,7 +962,7 @@ MainPage = new ContentPage
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.ScrollView.VerticalScrollBarVisibility" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ScrollView.VerticalScrollBarVisibility" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

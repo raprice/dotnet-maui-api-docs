@@ -147,7 +147,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.WebView.CanGoBack" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.WebView.CanGoBack" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -188,7 +188,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.WebView.CanGoForward" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.WebView.CanGoForward" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -249,7 +249,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.WebView.Cookies" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -551,6 +551,7 @@ namespace FormsGallery
         <param name="args">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Microsoft.Maui.Controls.IWebViewController.SendNavigating">
@@ -578,6 +579,7 @@ namespace FormsGallery
         <param name="args">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Microsoft.Maui.IWebView.CanGoBack">
@@ -729,7 +731,9 @@ namespace FormsGallery
         <ReturnType>System.EventHandler&lt;Microsoft.Maui.Controls.WebNavigatedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Raised after web navigation completes.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -749,7 +753,9 @@ namespace FormsGallery
         <ReturnType>System.EventHandler&lt;Microsoft.Maui.Controls.WebNavigatingEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Raised after web navigation begins.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -806,6 +812,7 @@ namespace FormsGallery
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="OnPropertyChanged">
@@ -830,6 +837,7 @@ namespace FormsGallery
         <param name="propertyName">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="OnSourceChanged">
@@ -925,7 +933,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.WebView.Source" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.WebView.Source" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

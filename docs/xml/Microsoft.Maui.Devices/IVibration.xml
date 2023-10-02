@@ -11,7 +11,9 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            The Vibration API provides an easy way to make the device vibrate.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -32,7 +34,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Cancel any current vibrations.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -52,7 +56,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets a value indicating whether vibration is supported on this device.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -74,7 +80,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Vibrates the device for 500ms.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,9 +105,11 @@
         <Parameter Name="duration" Type="System.TimeSpan" />
       </Parameters>
       <Docs>
-        <param name="duration">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="duration">The time to vibrate for. This value will be ignored on iOS as it only supports a vibration of 500ms.</param>
+        <summary>
+            Vibrates the device for the specified time in the range [0, 5000]ms.
+            </summary>
+        <remarks>On iOS, the device will only vibrate for 500ms, regardless of the value specified.</remarks>
       </Docs>
     </Member>
   </Members>

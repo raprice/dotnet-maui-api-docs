@@ -202,7 +202,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Slider.DragCompletedCommand" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Slider.DragCompletedCommand" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -263,7 +263,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Slider.DragStartedCommand" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Slider.DragStartedCommand" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -304,7 +304,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the Maximum bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Slider.Maximum" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -345,7 +345,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.Slider.MaximumTrackColor" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Slider.MaximumTrackColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -506,7 +506,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.Slider.Minimum" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Slider.Minimum" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -547,7 +547,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.Slider.MinimumTrackColor" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Slider.MinimumTrackColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -622,7 +622,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.Slider.ThumbColor" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Slider.ThumbColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -663,7 +663,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Slider.ThumbImageSource" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -727,7 +727,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the Value bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Slider.Value" />.</summary>
         <remarks />
       </Docs>
     </Member>

@@ -189,7 +189,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Picker.CharacterSpacing" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -250,7 +250,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.Picker.FontAttributes" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Picker.FontAttributes" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -291,7 +291,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Picker.FontAutoScalingEnabled" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -332,7 +332,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.Picker.FontFamily" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Picker.FontFamily" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -379,7 +379,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.Picker.FontSize" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Picker.FontSize" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -420,7 +420,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Picker.HorizontalTextAlignment" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -503,7 +503,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.Picker.ItemsSource" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Picker.ItemsSource" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -843,7 +843,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the SelectedIndex bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Picker.SelectedIndex" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -884,7 +884,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.Picker.SelectedItem" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Picker.SelectedItem" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -925,7 +925,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.Picker.TextColor" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Picker.TextColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -987,7 +987,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Picker.TitleColor" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Picker.TitleColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1007,7 +1007,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the Title bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Picker.Title" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -1075,7 +1075,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Picker.VerticalTextAlignment" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

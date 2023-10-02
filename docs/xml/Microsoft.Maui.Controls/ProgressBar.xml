@@ -162,7 +162,7 @@ Debug.WriteLine ("Animation completed");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.ProgressBar.ProgressColor" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ProgressBar.ProgressColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -182,7 +182,7 @@ Debug.WriteLine ("Animation completed");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.ProgressBar.Progress" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ProgressBar.Progress" />.</summary>
         <remarks />
       </Docs>
     </Member>

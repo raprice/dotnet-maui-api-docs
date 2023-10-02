@@ -107,7 +107,7 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.TimePicker.CharacterSpacing" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -168,7 +168,7 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.TimePicker.FontAttributes" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.TimePicker.FontAttributes" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -209,7 +209,7 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.TimePicker.FontAutoScalingEnabled" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -250,7 +250,7 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.TimePicker.FontFamily" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.TimePicker.FontFamily" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -297,7 +297,7 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.TimePicker.FontSize" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.TimePicker.FontSize" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -338,7 +338,7 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.TimePicker.Format" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.TimePicker.Format" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -578,7 +578,7 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.TimePicker.TextColor" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.TimePicker.TextColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -622,7 +622,7 @@ var beeroclock = new TimePicker () { Time = new TimeSpan (17,0,0) };
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the Time bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.TimePicker.Time" />.</summary>
         <remarks />
       </Docs>
     </Member>

@@ -132,7 +132,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.CheckBox.Color" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -200,7 +200,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.CheckBox.IsChecked" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

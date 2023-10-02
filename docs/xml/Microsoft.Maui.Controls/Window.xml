@@ -308,7 +308,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Window.FlowDirection" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -349,7 +349,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Window.Height" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -390,7 +390,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Window.MaximumHeight" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -431,7 +431,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Window.MaximumWidth" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1084,7 +1084,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Window.MinimumHeight" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1125,7 +1125,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Window.MinimumWidth" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1474,7 +1474,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Window.Page" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1624,7 +1624,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Window.Title" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1689,7 +1689,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Window.Width" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1730,7 +1730,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Window.X" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1771,7 +1771,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Window.Y" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

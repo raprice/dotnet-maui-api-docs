@@ -112,7 +112,7 @@ MainPage = new ContentPage () {
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.ContentView.Content" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ContentView.Content" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

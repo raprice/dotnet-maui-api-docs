@@ -212,7 +212,7 @@
       <Docs>
         <param name="region">To be added.</param>
         <summary>
-            Moves the map so that it displays the specified MapSpan region.
+            Moves the map so that it displays the specified <see cref="T:Microsoft.Maui.Maps.MapSpan" /> region.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>

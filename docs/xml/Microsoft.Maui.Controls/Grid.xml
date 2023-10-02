@@ -287,7 +287,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Implements the <see cref="P:Microsoft.Maui.Controls.Grid.ColumnDefinitions" /> property, and allows the <see cref="T:Microsoft.Maui.Controls.Grid" /> class to bind it to properties on other objects at run time.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Grid.ColumnDefinitions" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -307,7 +307,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Implements the attached property that represents the zero-based column index of a child element. See Remarks.</summary>
+        <summary>Bindable property for attached property <c>Column</c>.</summary>
         <remarks>
           <para>The interface for this property is defined by the <see cref="M:Microsoft.Maui.Controls.Grid.GetColumn(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:Microsoft.Maui.Controls.Grid.SetColumn(Microsoft.Maui.Controls.BindableObject,System.Int32)" /> methods.</para>
         </remarks>
@@ -352,7 +352,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Implements the <see cref="P:Microsoft.Maui.Controls.Grid.ColumnSpacing" /> property, and allows the <see cref="T:Microsoft.Maui.Controls.Grid" /> class to bind it to properties on other objects at run time.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Grid.ColumnSpacing" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -372,7 +372,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Implements the attached property that represents the number of columns that a child element spans. See Remarks.</summary>
+        <summary>Bindable property for attached property <c>ColumnSpan</c>.</summary>
         <remarks>
           <para>The interface for this property is defined by the <see cref="M:Microsoft.Maui.Controls.Grid.GetColumnSpan(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:Microsoft.Maui.Controls.Grid.SetColumnSpan(Microsoft.Maui.Controls.BindableObject,System.Int32)" /> methods.</para>
         </remarks>
@@ -935,7 +935,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Implements the <see cref="P:Microsoft.Maui.Controls.Grid.RowDefinitions" /> property, and allows the <see cref="T:Microsoft.Maui.Controls.Grid" /> class to bind it to properties on other objects at run time.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Grid.RowDefinitions" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -955,7 +955,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Implements the attached property that represents the zero-based row index of a child element. See Remarks.</summary>
+        <summary>Bindable property for attached property <c>Row</c>.</summary>
         <remarks>
           <para>The interface for this property is defined by the <see cref="M:Microsoft.Maui.Controls.Grid.GetRow(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:Microsoft.Maui.Controls.Grid.SetRow(Microsoft.Maui.Controls.BindableObject,System.Int32)" /> methods.</para>
         </remarks>
@@ -1000,7 +1000,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Implements the <see cref="P:Microsoft.Maui.Controls.Grid.RowSpacing" /> property, and allows the <see cref="T:Microsoft.Maui.Controls.Grid" /> class to bind it to properties on other objects at run time.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Grid.RowSpacing" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -1020,7 +1020,7 @@ namespace FormsGallery
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Implements the attached property that represents the number of rows that a child element spans, and allows the <see cref="T:Microsoft.Maui.Controls.Grid" /> class to bind it to properties on other objects at run time.</summary>
+        <summary>Bindable property for attached property <c>RowSpan</c>.</summary>
         <remarks>
           <para>The interface for this property is defined by the <see cref="M:Microsoft.Maui.Controls.Grid.GetRowSpan(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:Microsoft.Maui.Controls.Grid.SetRowSpan(Microsoft.Maui.Controls.BindableObject,System.Int32)" /> methods.</para>
         </remarks>

@@ -70,7 +70,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the accelerator attached property.</summary>
+        <summary>Bindable property for <see cref="T:Microsoft.Maui.Controls.Accelerator" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -179,7 +179,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the command parameter bound property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.MenuItem.CommandParameter" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -199,7 +199,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the command bound property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.MenuItem.Command" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -265,7 +265,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.MenuItem.IconImageSource" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -315,7 +315,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the IsDestructive bound property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.MenuItem.IsDestructive" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -365,7 +365,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>For internal use by the Microsoft.Maui.Controls platform.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.MenuItem.IsEnabled" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -675,7 +675,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the text bound property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.MenuItem.Text" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

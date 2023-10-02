@@ -11,7 +11,9 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            The PhoneDialer API enables an application to open a phone number in the dialer.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -31,7 +33,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets a value indicating whether using the phone dialer is supported on this device.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -55,9 +59,16 @@
         <Parameter Name="number" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="number">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="number">Phone number to initialize the dialer with.</param>
+        <summary>
+            Open the phone dialer to a specific phone number.
+            </summary>
+        <remarks>
+            Will throw <see cref="T:System.ArgumentNullException" /> if <paramref name="number" /> is not valid.
+            Will throw <see cref="T:Microsoft.Maui.ApplicationModel.FeatureNotSupportedException" /> if making phone calls is not supported on the device.
+            </remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="number" /> is not valid.</exception>
+        <exception cref="T:Microsoft.Maui.ApplicationModel.FeatureNotSupportedException">Thrown if making phone calls is not supported on the device.</exception>
       </Docs>
     </Member>
   </Members>

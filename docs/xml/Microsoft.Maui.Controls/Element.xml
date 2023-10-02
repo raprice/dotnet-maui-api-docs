@@ -133,7 +133,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Element.AutomationId" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Element.AutomationId" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -214,7 +214,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the ClassId bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Element.ClassId" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

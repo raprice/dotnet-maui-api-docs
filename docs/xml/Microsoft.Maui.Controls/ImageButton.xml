@@ -127,7 +127,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.ImageButton.Aspect" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ImageButton.Aspect" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -168,7 +168,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.ImageButton.BorderColor" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ImageButton.BorderColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -209,7 +209,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.ImageButton.BorderWidth" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ImageButton.BorderWidth" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -312,7 +312,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.ImageButton.CommandParameter" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ImageButton.CommandParameter" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -332,7 +332,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.ImageButton.Command" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ImageButton.Command" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -373,7 +373,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.ImageButton.CornerRadius" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ImageButton.CornerRadius" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -417,7 +417,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.ImageButton.IsLoading" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ImageButton.IsLoading" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -458,7 +458,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.ImageButton.IsOpaque" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ImageButton.IsOpaque" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -499,7 +499,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.ImageButton.IsPressed" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ImageButton.IsPressed" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1199,7 +1199,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.ImageButton.Padding" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ImageButton.Padding" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1526,7 +1526,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.ImageButton.Source" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.ImageButton.Source" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

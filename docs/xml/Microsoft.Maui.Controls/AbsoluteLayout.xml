@@ -445,7 +445,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Implements the attached property that represents the layout bounds of child elements. Bindable at run time with the string "LayoutBounds". See Remarks.</summary>
+        <summary>Bindable property for attached property <c>LayoutBounds</c>.</summary>
         <remarks>The interface for this property is defined by the <see cref="M:Microsoft.Maui.Controls.AbsoluteLayout.GetLayoutBounds(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:Microsoft.Maui.Controls.AbsoluteLayout.SetLayoutBounds(Microsoft.Maui.IView,Microsoft.Maui.Graphics.Rect)" /> methods.
         </remarks>
       </Docs>
@@ -466,7 +466,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Implements the attached property that contains the <see cref="T:Microsoft.Maui.Layouts.AbsoluteLayoutFlags" /> values for child elements.</summary>
+        <summary>Bindable property for attached property <c>LayoutFlags</c>.</summary>
         <remarks>The interface for this property is defined by the <see cref="M:Microsoft.Maui.Controls.AbsoluteLayout.GetLayoutFlags(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:Microsoft.Maui.Controls.AbsoluteLayout.SetLayoutFlags(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Layouts.AbsoluteLayoutFlags)" /> methods.
         </remarks>
       </Docs>

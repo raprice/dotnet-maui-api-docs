@@ -103,7 +103,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the property associated with the title of the back button.</summary>
+        <summary>Bindable property for attached property <c>BackButtonTitle</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -165,7 +165,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the property associated with the color of the NavigationPage's bar background color.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.NavigationPage.BarBackgroundColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -185,7 +185,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.NavigationPage.BarBackground" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -226,7 +226,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the property associated with the color of the NavigationPage's bar text color.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.NavigationPage.BarTextColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -290,7 +290,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the <see cref="P:Microsoft.Maui.Controls.NavigationPage.CurrentPage" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.NavigationPage.CurrentPage" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -461,7 +461,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the HasBackButton property.</summary>
+        <summary>Bindable property for attached property <c>HasBackButton</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -481,7 +481,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the HasNavigationBar property.</summary>
+        <summary>Bindable property for attached property <c>HasNavigationBar</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -501,7 +501,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>IconColor</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1168,9 +1168,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          Identifies the <see cref="P:Microsoft.Maui.Controls.NavigationPage.RootPage" /> property.
-        </summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.NavigationPage.RootPage" />.</summary>
         <remarks />
       </Docs>
     </Member>
@@ -1346,7 +1344,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>TitleIconImageSource</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1366,7 +1364,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the attached property that gets and sets title views.</summary>
+        <summary>Bindable property for attached property <c>TitleView</c>.</summary>
         <remarks>On Windows, the TitleView will appear in the content area of the MauiToolbar control. By default, the content area's width is auto-sized to the content, with the remaining area made available for toolbar commands. This is to support the default Windows-specific dynamic overflow ability of the commands. If a user wants the TitleView to occupy all of the space not used by toolbar commands, dynamic overflow needs to be turned off, which can be accomplished by calling the Page's SetToolbarDynamicOverflowEnabled PlatformSpecific to false:
 		
 		<example><code>this.On&lt;WindowsOS&gt;().SetToolbarDynamicOverflowEnabled(false);</code></example></remarks>

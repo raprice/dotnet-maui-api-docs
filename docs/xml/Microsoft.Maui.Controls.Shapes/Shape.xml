@@ -91,7 +91,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shapes.Shape.Aspect" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -152,7 +152,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shapes.Shape.Fill" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -509,7 +509,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shapes.Shape.StrokeDashArray" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -550,7 +550,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shapes.Shape.StrokeDashOffset" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -615,7 +615,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shapes.Shape.StrokeLineCap" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -656,7 +656,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shapes.Shape.StrokeLineJoin" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -697,7 +697,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shapes.Shape.StrokeMiterLimit" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -717,7 +717,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shapes.Shape.Stroke" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -758,7 +758,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shapes.Shape.StrokeThickness" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

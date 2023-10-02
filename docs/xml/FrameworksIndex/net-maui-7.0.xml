@@ -6953,6 +6953,7 @@
       <Member Id="F:Microsoft.Maui.Controls.View.propertyMapper" />
       <Member Id="F:Microsoft.Maui.Controls.View.VerticalOptionsProperty" />
       <Member Id="M:Microsoft.Maui.Controls.View.#ctor" />
+      <Member Id="M:Microsoft.Maui.Controls.View.ChangeVisualState" />
       <Member Id="M:Microsoft.Maui.Controls.View.GetChildElements(Microsoft.Maui.Graphics.Point)" />
       <Member Id="M:Microsoft.Maui.Controls.View.GetRendererOverrides``1" />
       <Member Id="M:Microsoft.Maui.Controls.View.Microsoft#Maui#HotReload#IHotReloadableView#Reload" />
@@ -10684,7 +10685,7 @@
   <Namespace Name="Microsoft.Maui.Embedding">
     <Type Name="Microsoft.Maui.Embedding.AppHostBuilderExtensions" Id="T:Microsoft.Maui.Embedding.AppHostBuilderExtensions">
       <Member Id="M:Microsoft.Maui.Embedding.AppHostBuilderExtensions.UseMauiEmbedding``1(Microsoft.Maui.Hosting.MauiAppBuilder)" />
-      <Member Id="M:Microsoft.Maui.Embedding.AppHostBuilderExtensions.UseMauiEmbedding``1(Microsoft.Maui.Hosting.MauiAppBuilder,System.Func{System.IServiceProvider,Microsoft.Maui.Controls.Application})" />
+      <Member Id="M:Microsoft.Maui.Embedding.AppHostBuilderExtensions.UseMauiEmbedding``1(Microsoft.Maui.Hosting.MauiAppBuilder,System.Func{System.IServiceProvider,``0})" />
     </Type>
   </Namespace>
   <Namespace Name="Microsoft.Maui.Foldable">

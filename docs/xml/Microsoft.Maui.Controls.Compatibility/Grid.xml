@@ -157,7 +157,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Compatibility.Grid.ColumnDefinitions" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -177,7 +177,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>Column</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -218,7 +218,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Compatibility.Grid.ColumnSpacing" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -238,7 +238,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>ColumnSpan</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -738,7 +738,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Compatibility.Grid.RowDefinitions" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -758,7 +758,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>Row</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -799,7 +799,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Compatibility.Grid.RowSpacing" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -819,7 +819,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>RowSpan</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -219,7 +219,7 @@ Debug.WriteLine (label.Text); // prints "John Doe"
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Implements the bound property whose interface is provided by the <see cref="P:Microsoft.Maui.Controls.BindableObject.BindingContext" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.BindableObject.BindingContext" />.</summary>
         <remarks>
           Typically, the runtime performance is better if  <see cref="P:Microsoft.Maui.Controls.BindableObject.BindingContext" /> is set after all calls to <see cref="M:Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)" /> have been made.
           <para>The following example shows how to set a binding to the BindingContext:</para><example><code lang="csharp lang-csharp"><![CDATA[

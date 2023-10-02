@@ -71,6 +71,27 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ChangeVisualState">
+      <MemberSignature Language="C#" Value="protected internal override void ChangeVisualState ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig virtual instance void ChangeVisualState() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.View.ChangeVisualState" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overrides Sub ChangeVisualState ()" />
+      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; override void ChangeVisualState();" />
+      <MemberSignature Language="F#" Value="override this.ChangeVisualState : unit -&gt; unit" Usage="view.ChangeVisualState " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Maui.Controls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GestureController">
       <MemberSignature Language="C#" Value="protected internal Microsoft.Maui.Controls.Internals.IGestureController GestureController { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Maui.Controls.Internals.IGestureController GestureController" />
@@ -162,11 +183,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetRendererOverrides&lt;T&gt;">
-      <MemberSignature Language="C#" Value="protected Microsoft.Maui.PropertyMapper&lt;T&gt; GetRendererOverrides&lt;T&gt; () where T : Microsoft.Maui.IView;" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class Microsoft.Maui.PropertyMapper`1&lt;!!T&gt; GetRendererOverrides&lt;(class Microsoft.Maui.IView) T&gt;() cil managed" />
+      <MemberSignature Language="C#" Value="protected internal Microsoft.Maui.PropertyMapper&lt;T&gt; GetRendererOverrides&lt;T&gt; () where T : Microsoft.Maui.IView;" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig instance class Microsoft.Maui.PropertyMapper`1&lt;!!T&gt; GetRendererOverrides&lt;(class Microsoft.Maui.IView) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Maui.Controls.View.GetRendererOverrides``1" />
-      <MemberSignature Language="VB.NET" Value="Protected Function GetRendererOverrides(Of T As IView) () As PropertyMapper(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::IView Microsoft::Maui::PropertyMapper&lt;T&gt; ^ GetRendererOverrides();" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Function GetRendererOverrides(Of T As IView) () As PropertyMapper(Of T)" />
+      <MemberSignature Language="C++ CLI" Value="protected public:&#xA;generic &lt;typename T&gt;&#xA; where T : Microsoft::Maui::IView Microsoft::Maui::PropertyMapper&lt;T&gt; ^ GetRendererOverrides();" />
       <MemberSignature Language="F#" Value="member this.GetRendererOverrides : unit -&gt; Microsoft.Maui.PropertyMapper&lt;'T (requires 'T :&gt; Microsoft.Maui.IView)&gt; (requires 'T :&gt; Microsoft.Maui.IView)" Usage="view.GetRendererOverrides " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -257,7 +278,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the HorizontalOptions bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.View.HorizontalOptions" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -298,7 +319,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="P:Microsoft.Maui.Controls.View.Margin" /> property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.View.Margin" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -630,7 +651,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the VerticalOptions bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.View.VerticalOptions" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

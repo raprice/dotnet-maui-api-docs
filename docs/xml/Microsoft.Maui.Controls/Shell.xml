@@ -109,7 +109,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="M:Microsoft.Maui.Controls.Shell.GetBackButtonBehavior(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:Microsoft.Maui.Controls.Shell.SetBackButtonBehavior(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.BackButtonBehavior)" /> methods.</summary>
+        <summary>Bindable property for attached property <c>BackButtonBehavior</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -193,7 +193,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Shell.CurrentItem" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.CurrentItem" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -258,7 +258,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Shell.CurrentState" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.CurrentState" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -278,7 +278,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>DisabledColor</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -319,7 +319,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>FlyoutBackdrop</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -381,7 +381,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutBackgroundColor" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutBackgroundColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -449,7 +449,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutBackgroundImageAspect" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -469,7 +469,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutBackgroundImage" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -489,7 +489,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutBackground" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -530,7 +530,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutBehavior" /> field.</summary>
+        <summary>Bindable property for attached property <c>FlyoutBehavior</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -571,7 +571,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutContent" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -612,7 +612,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutContentTemplate" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -653,7 +653,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutFooter" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -694,7 +694,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutFooterTemplate" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -756,7 +756,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutHeaderBehavior" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutHeaderBehavior" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -776,7 +776,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutHeader" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutHeader" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -817,7 +817,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutHeaderTemplate" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutHeaderTemplate" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -858,7 +858,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>FlyoutHeight</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -899,7 +899,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutIcon" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutIcon" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -940,7 +940,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutIsPresented" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutIsPresented" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -960,7 +960,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>FlyoutItemIsVisible</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1022,7 +1022,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.FlyoutVerticalScrollMode" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1063,7 +1063,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>FlyoutWidth</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1083,7 +1083,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>ForegroundColor</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1847,7 +1847,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Shell.Items" /> field.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Shell.Items" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1888,7 +1888,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Shell.ItemTemplate" /> field.</summary>
+        <summary>Bindable property for attached property <c>ItemTemplate</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1959,7 +1959,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Microsoft.Maui.Controls.Shell.MenuItemTemplate" /> field.</summary>
+        <summary>Bindable property for attached property <c>MenuItemTemplate</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2610,7 +2610,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>NavBarHasShadow</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2630,7 +2630,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="M:Microsoft.Maui.Controls.Shell.GetNavBarIsVisible(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:Microsoft.Maui.Controls.Shell.SetNavBarIsVisible(Microsoft.Maui.Controls.BindableObject,System.Boolean)" /> methods.</summary>
+        <summary>Bindable property for attached property <c>NavBarIsVisible</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2811,7 +2811,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>PresentationMode</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2855,7 +2855,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="M:Microsoft.Maui.Controls.Shell.GetSearchHandler(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:Microsoft.Maui.Controls.Shell.SetSearchHandler(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.SearchHandler)" /> methods.</summary>
+        <summary>Bindable property for attached property <c>SearchHandler</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -3499,7 +3499,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>TabBarBackgroundColor</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -3519,7 +3519,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>TabBarDisabledColor</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -3539,7 +3539,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>TabBarForegroundColor</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -3559,7 +3559,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="M:Microsoft.Maui.Controls.Shell.GetTabBarIsVisible(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:Microsoft.Maui.Controls.Shell.SetTabBarIsVisible(Microsoft.Maui.Controls.BindableObject,System.Boolean)" /> methods.</summary>
+        <summary>Bindable property for attached property <c>TabBarIsVisible</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -3579,7 +3579,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>TabBarTitleColor</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -3599,7 +3599,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>TabBarUnselectedColor</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -3619,7 +3619,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>TitleColor</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -3639,7 +3639,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>xThe backing store for the <see cref="M:Microsoft.Maui.Controls.Shell.GetTitleView(Microsoft.Maui.Controls.BindableObject)" /> and <see cref="M:Microsoft.Maui.Controls.Shell.SetTitleView(Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.View)" /> methods.</summary>
+        <summary>Bindable property for attached property <c>TitleView</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -3659,7 +3659,7 @@ await Shell.Current.GoToAsync("app://xamarin.com/xaminals/animals/monkeys");
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for attached property <c>UnselectedColor</c>.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

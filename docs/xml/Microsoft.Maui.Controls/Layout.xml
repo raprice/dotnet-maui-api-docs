@@ -182,7 +182,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Layout.CascadeInputTransparent" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -574,7 +574,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the <see cref="P:Microsoft.Maui.Controls.Layout.IsClippedToBounds" /> bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Layout.IsClippedToBounds" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1019,7 +1019,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the Padding bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.Layout.Padding" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

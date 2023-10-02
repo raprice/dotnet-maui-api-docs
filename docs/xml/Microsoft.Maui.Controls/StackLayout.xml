@@ -220,7 +220,7 @@ StackLayout stackLayout = new StackLayout
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the Orientation bindable property.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.StackLayout.Orientation" />.</summary>
         <remarks />
       </Docs>
     </Member>

@@ -94,7 +94,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.IndicatorView.Count" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -135,7 +135,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.IndicatorView.HideSingle" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -176,7 +176,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.IndicatorView.IndicatorColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -238,7 +238,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.IndicatorView.IndicatorSize" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -279,7 +279,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.IndicatorView.IndicatorsShape" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -320,7 +320,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.IndicatorView.IndicatorTemplate" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -361,7 +361,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.IndicatorView.ItemsSource" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -402,7 +402,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.IndicatorView.MaximumVisible" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -569,7 +569,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.IndicatorView.Position" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -610,7 +610,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.IndicatorView.SelectedIndicatorColor" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

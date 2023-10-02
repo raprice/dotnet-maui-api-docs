@@ -103,7 +103,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.SwipeView.BottomItems" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -193,7 +193,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.SwipeView.LeftItems" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -774,7 +774,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.SwipeView.RightItems" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -875,7 +875,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.SwipeView.Threshold" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -916,7 +916,7 @@
         <ReturnType>Microsoft.Maui.Controls.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bindable property for <see cref="P:Microsoft.Maui.Controls.SwipeView.TopItems" />.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
