@@ -11,7 +11,9 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Represents platform native Apple Sign In authentication APIs.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -33,9 +35,11 @@
         <Parameter Name="options" Type="Microsoft.Maui.Authentication.AppleSignInAuthenticator+Options" />
       </Parameters>
       <Docs>
-        <param name="options">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="options">Additional Sign In options.</param>
+        <summary>
+            Performs a native Apple Sign In authentication request.
+            </summary>
+        <returns>A <see cref="T:Microsoft.Maui.Authentication.WebAuthenticatorResult" /> object with the results of this operation.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

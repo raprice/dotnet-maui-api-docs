@@ -34,7 +34,7 @@
         <Parameter Name="TEffect" Type="System.Type" />
         <Parameter Name="TPlatformEffect" Type="System.Type">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="net-maui-7.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicConstructors | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicConstructors | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>

@@ -41,7 +41,7 @@
       </Parameters>
       <Docs>
         <param name="name">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>For internal use by .NET MAUI.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -68,7 +68,7 @@
       <Docs>
         <param name="name">To be added.</param>
         <param name="scopedElement">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>For internal use by .NET MAUI.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -92,7 +92,7 @@
       </Parameters>
       <Docs>
         <param name="name">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>For internal use by .NET MAUI.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -398,6 +398,51 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="StartPath">
+      <MemberSignature Language="C#" Value="public string StartPath { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StartPath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.StartPath" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartPath As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StartPath { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.StartPath : string with get, set" Usage="Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.StartPath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.AspNetCore.Components.WebView.Wpf</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Path for initial Blazor navigation when the Blazor component is finished loading.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartPathProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty StartPathProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty StartPathProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.StartPathProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StartPathProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ StartPathProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable StartPathProperty : System.Windows.DependencyProperty" Usage="Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.StartPathProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.AspNetCore.Components.WebView.Wpf</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The backing store for the <see cref="P:Microsoft.AspNetCore.Components.WebView.Wpf.BlazorWebView.StartPath" /> property.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="UrlLoading">
       <MemberSignature Language="C#" Value="public EventHandler&lt;Microsoft.AspNetCore.Components.WebView.UrlLoadingEventArgs&gt; UrlLoading { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.EventHandler`1&lt;class Microsoft.AspNetCore.Components.WebView.UrlLoadingEventArgs&gt; UrlLoading" />

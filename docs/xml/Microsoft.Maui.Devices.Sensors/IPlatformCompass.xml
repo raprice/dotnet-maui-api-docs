@@ -11,7 +11,9 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Platform-specific APIs for use with <see cref="T:Microsoft.Maui.Devices.Sensors.ICompass" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members />

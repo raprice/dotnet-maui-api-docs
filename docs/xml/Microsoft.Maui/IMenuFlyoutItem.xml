@@ -32,5 +32,29 @@
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
-  <Members />
+  <Members>
+    <Member MemberName="KeyboardAccelerators">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IKeyboardAccelerator&gt;? KeyboardAccelerators { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Maui.IKeyboardAccelerator&gt; KeyboardAccelerators" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IMenuFlyoutItem.KeyboardAccelerators" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property KeyboardAccelerators As IReadOnlyList(Of IKeyboardAccelerator)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IKeyboardAccelerator ^&gt; ^ KeyboardAccelerators { System::Collections::Generic::IReadOnlyList&lt;Microsoft::Maui::IKeyboardAccelerator ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.KeyboardAccelerators : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IKeyboardAccelerator&gt;" Usage="Microsoft.Maui.IMenuFlyoutItem.KeyboardAccelerators" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Maui.IKeyboardAccelerator&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Represents a shortcut key for a MenuItem.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
 </Type>
