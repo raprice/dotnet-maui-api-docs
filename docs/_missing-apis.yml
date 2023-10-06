@@ -34,3 +34,9 @@ references:
 - uid: Markdig.Renderers.Html.HtmlObjectRenderer`1
   name: HtmlObjectRenderer`1
   fullName: Markdig.Renderers.Html.HtmlObjectRenderer`1
+- uid: Microsoft.Maui.IContentView
+  name: IContentView
+  fullName: Microsoft.Maui.IContentView
+- uid: Microsoft.Maui.ILayout
+  name: ILayout
+  fullName: Microsoft.Maui.ILayout
