@@ -11,7 +11,9 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            The SemanticScreenReader API enables an application announce audible text to the user.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -34,8 +36,10 @@
         <Parameter Name="text" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="text">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="text">The text to announce.</param>
+        <summary>
+            Announces the specified text through the operating system's screen reader.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -32,9 +32,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <summary>Gets a readonly list of the element's visual children.</summary>
+        <returns>A readonly list containing the element's visual children.</returns>
+        <remarks>Unless explicitly defined, an element's visual children will also be its logical children.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetVisualParent">
@@ -54,8 +54,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>Gets the element's visual parent.</summary>
+        <returns>The element's parent.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

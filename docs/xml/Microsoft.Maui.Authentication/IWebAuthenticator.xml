@@ -11,7 +11,9 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            A web navigation API intended to be used for authentication with external web services such as OAuth.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -34,9 +36,11 @@
         <Parameter Name="webAuthenticatorOptions" Type="Microsoft.Maui.Authentication.WebAuthenticatorOptions" />
       </Parameters>
       <Docs>
-        <param name="webAuthenticatorOptions">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="webAuthenticatorOptions">A <see cref="T:Microsoft.Maui.Authentication.WebAuthenticatorOptions" /> instance containing additional configuration for this authentication call.</param>
+        <summary>
+            Begin an authentication flow by navigating to the specified URL and waiting for a callback/redirect to the callback URL scheme.
+            </summary>
+        <returns>A <see cref="T:Microsoft.Maui.Authentication.WebAuthenticatorResult" /> object with the results of this operation.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

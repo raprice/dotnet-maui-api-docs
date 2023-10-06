@@ -302,5 +302,28 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="UserAgent">
+      <MemberSignature Language="C#" Value="public string? UserAgent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserAgent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Maui.IWebView.UserAgent" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserAgent As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UserAgent { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.UserAgent : string with get, set" Usage="Microsoft.Maui.IWebView.UserAgent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Maui</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the WebView's user agent string.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
   </Members>
 </Type>
